@@ -1,0 +1,1008 @@
+{
+ "date": "2026-10-31",
+ "dateLabel": "Saturday, 31 October 2026",
+ "generatedAt": "2026-10-31T09:12:50.620Z",
+ "mode": "fallback",
+ "model": null,
+ "error": "No API key configured",
+ "headlineOfDay": "AI curation was unavailable this morning — showing the latest headlines unranked.",
+ "markets": {
+  "summary": "",
+  "indices": [
+   {
+    "symbol": "^GSPC",
+    "label": "S&P 500",
+    "price": 7580.06982421875,
+    "asOf": "2026-10-30",
+    "d1": -1.8175287778868343,
+    "w1": -0.5720380519245871,
+    "m1": -1.1267323062577983,
+    "ytd": 10.7306964315061,
+    "spark": [
+     7666.4502,
+     7722.7202,
+     7773.9502,
+     7818.9302,
+     7801.77,
+     7765.3599,
+     7811.54,
+     7807.2402,
+     7805.4502,
+     7718.9399,
+     7744.0601,
+     7659.4399,
+     7690.73,
+     7712.5698,
+     7757.1699,
+     7663.4302,
+     7623.6802,
+     7676.77,
+     7722.6001,
+     7743.98,
+     7720.3901,
+     7580.0698
+    ]
+   },
+   {
+    "symbol": "SPUS",
+    "label": "S&P 500 Shariah",
+    "sub": "via SPUS ETF",
+    "price": 58.41999816894531,
+    "asOf": "2026-10-30",
+    "d1": -2.2586620018052956,
+    "w1": -0.40914026438986595,
+    "m1": -2.176830249807732,
+    "ytd": 14.392008063524608,
+    "spark": [
+     59.72,
+     60.33,
+     60.81,
+     61.15,
+     61.07,
+     60.48,
+     60.77,
+     60.57,
+     60.53,
+     59.67,
+     59.72,
+     58.82,
+     59.21,
+     59.28,
+     59.78,
+     58.81,
+     58.66,
+     59.3,
+     59.87,
+     60.11,
+     59.77,
+     58.42
+    ]
+   },
+   {
+    "symbol": "^IXIC",
+    "label": "Nasdaq",
+    "price": 25437,
+    "asOf": "2026-10-30",
+    "d1": -2.855561117502253,
+    "w1": -1.997045104669725,
+    "m1": -5.338720545964428,
+    "ytd": 9.444155786532306,
+    "spark": [
+     26871.5996,
+     27190.8594,
+     27477.3105,
+     27599.7891,
+     27538.6895,
+     27193.3398,
+     27366.1699,
+     27245.9004,
+     27204.3809,
+     26692.8691,
+     26713.0293,
+     26140.0293,
+     26430.8906,
+     26424.8203,
+     26702.8594,
+     26008.8594,
+     25955.3398,
+     26169.3809,
+     26477.8105,
+     26549.8496,
+     26184.7207,
+     25437
+    ]
+   },
+   {
+    "symbol": "^DJI",
+    "label": "Dow Jones",
+    "price": 51770.30859375,
+    "asOf": "2026-10-30",
+    "d1": -1.0932786156699836,
+    "w1": -0.8519586288135758,
+    "m1": 1.656797598932102,
+    "ytd": 7.712787875231568,
+    "spark": [
+     50926.5586,
+     51176.9609,
+     51267.8984,
+     51521.2813,
+     51179.8711,
+     51231.6406,
+     51654.9492,
+     51850.5508,
+     51670.1016,
+     51621.4805,
+     52177.6914,
+     52002.4102,
+     51966.0313,
+     52495.8789,
+     52856.0898,
+     52867.9805,
+     52215.1602,
+     52361.5781,
+     52377.5703,
+     52475.1016,
+     52342.5586,
+     51770.3086
+    ]
+   },
+   {
+    "symbol": "^FTSE",
+    "label": "FTSE 100",
+    "price": 10729.7998046875,
+    "asOf": "2026-10-30",
+    "d1": 0.07181611431558833,
+    "w1": 0.3685494707667966,
+    "m1": 2.8911711942197553,
+    "ytd": 8.039142343069457,
+    "spark": [
+     10428.2998,
+     10462,
+     10497.9004,
+     10541.7002,
+     10458.5,
+     10441.5996,
+     10552.0996,
+     10656.2998,
+     10650.2998,
+     10724.9004,
+     10840.4004,
+     10881.9004,
+     10764.7002,
+     10733,
+     10752.9004,
+     10725,
+     10690.4004,
+     10767.2998,
+     10686.5,
+     10694.5,
+     10722.0996,
+     10729.7998
+    ]
+   },
+   {
+    "symbol": "^STOXX50E",
+    "label": "Euro Stoxx 50",
+    "price": 6131.31005859375,
+    "asOf": "2026-10-30",
+    "d1": -1.2205399289919454,
+    "w1": 1.03967623975928,
+    "m1": -0.7147679168759995,
+    "ytd": 5.781178618642824,
+    "spark": [
+     6175.4502,
+     6238.5,
+     6242.1401,
+     6272.23,
+     6180.29,
+     6126.73,
+     6173.3701,
+     6201.21,
+     6167.0098,
+     6190.3701,
+     6168.2598,
+     6204.23,
+     6144.8101,
+     6121.6602,
+     6207.52,
+     6087.0098,
+     6068.2202,
+     6116.23,
+     6164.6899,
+     6167.8101,
+     6207.0698,
+     6131.3101
+    ]
+   },
+   {
+    "symbol": "^TASI.SR",
+    "label": "Tadawul (Saudi)",
+    "price": 9921.5,
+    "asOf": "2026-10-29",
+    "d1": -1.0173123678725966,
+    "w1": null,
+    "m1": null,
+    "ytd": null,
+    "spark": []
+   }
+  ],
+  "commodities": [
+   {
+    "symbol": "GC=F",
+    "label": "Gold",
+    "unit": "$/oz",
+    "price": 3898.89990234375,
+    "asOf": "2026-10-30",
+    "d1": -3.286699489251066,
+    "w1": -2.719628799518139,
+    "m1": -7.219853804940793,
+    "ytd": -10.186362566282286,
+    "spark": [
+     4202.2998,
+     4162.2998,
+     4156.7998,
+     4187.1001,
+     4140.7002,
+     4157,
+     4216.2998,
+     4190.6001,
+     4177.2998,
+     4107.8999,
+     4170.1001,
+     4181.1001,
+     4160.1001,
+     4142.6001,
+     4150,
+     4060.3999,
+     4007.8999,
+     4038.3999,
+     4074.6001,
+     4051.6001,
+     4031.3999,
+     3898.8999
+    ]
+   },
+   {
+    "symbol": "SI=F",
+    "label": "Silver",
+    "unit": "$/oz",
+    "price": 49.09700012207031,
+    "asOf": "2026-10-30",
+    "d1": -5.928228349432133,
+    "w1": -8.590416374526848,
+    "m1": -19.148618598988083,
+    "ytd": -29.995439812266472,
+    "spark": [
+     60.725,
+     59.977,
+     60.869,
+     61.168,
+     59.899,
+     59.064,
+     60.67,
+     60.141,
+     59.161,
+     55.55,
+     56.837,
+     56.995,
+     56.974,
+     57.706,
+     57.422,
+     54.764,
+     53.711,
+     54.108,
+     54.293,
+     53.457,
+     52.191,
+     49.097
+    ]
+   },
+   {
+    "symbol": "BZ=F",
+    "label": "Brent crude",
+    "unit": "$/bbl",
+    "price": 117.63999938964844,
+    "asOf": "2026-10-30",
+    "d1": 2.4025088807602244,
+    "w1": 0.7882095264938436,
+    "m1": 14.98387469149833,
+    "ytd": 93.32785922694735,
+    "spark": [
+     102.31,
+     102.25,
+     100.32,
+     100.58,
+     100.2,
+     104.28,
+     104.72,
+     106.65,
+     105.69,
+     106.06,
+     105.92,
+     109.86,
+     109.55,
+     108.79,
+     108.82,
+     113.17,
+     116.72,
+     115.81,
+     113.88,
+     115.32,
+     114.88,
+     117.64
+    ]
+   },
+   {
+    "symbol": "CL=F",
+    "label": "WTI crude",
+    "unit": "$/bbl",
+    "price": 104.12000274658203,
+    "asOf": "2026-10-30",
+    "d1": 2.078434065276501,
+    "w1": 0.8230910536905637,
+    "m1": 12.113706974574244,
+    "ytd": 81.33055741352089,
+    "spark": [
+     92.87,
+     91.11,
+     89.43,
+     89.44,
+     88.28,
+     91.49,
+     91.85,
+     93.74,
+     94.14,
+     95.09,
+     97.97,
+     101.41,
+     103.66,
+     101.79,
+     97.15,
+     99.47,
+     103.27,
+     101.76,
+     99.9,
+     102.78,
+     102,
+     104.12
+    ]
+   },
+   {
+    "symbol": "HG=F",
+    "label": "Copper",
+    "unit": "$/lb",
+    "price": 6.458499908447266,
+    "asOf": "2026-10-30",
+    "d1": -1.8614184097983988,
+    "w1": -0.27022736503431666,
+    "m1": -0.36254190256264296,
+    "ytd": 14.715804212530129,
+    "spark": [
+     6.482,
+     6.492,
+     6.5855,
+     6.5945,
+     6.5965,
+     6.519,
+     6.6425,
+     6.6985,
+     6.678,
+     6.6115,
+     6.5115,
+     6.531,
+     6.538,
+     6.5665,
+     6.543,
+     6.3625,
+     6.476,
+     6.508,
+     6.622,
+     6.6415,
+     6.581,
+     6.4585
+    ]
+   },
+   {
+    "symbol": "NG=F",
+    "label": "US natural gas",
+    "unit": "$/MMBtu",
+    "price": 2.8980000019073486,
+    "asOf": "2026-10-30",
+    "d1": -1.829264993132947,
+    "w1": 9.772722982999221,
+    "m1": -2.3255815822250794,
+    "ytd": -21.37819000459567,
+    "spark": [
+     2.967,
+     3.035,
+     3.066,
+     3.114,
+     3.203,
+     3.168,
+     3.22,
+     3.167,
+     3.283,
+     3.198,
+     3.236,
+     3.116,
+     3.058,
+     2.963,
+     2.79,
+     2.796,
+     2.64,
+     2.602,
+     2.697,
+     2.817,
+     2.952,
+     2.898
+    ]
+   }
+  ],
+  "rates_fx": [
+   {
+    "symbol": "GBPUSD=X",
+    "label": "GBP/USD",
+    "price": 1.3378641605377197,
+    "asOf": "2026-10-30",
+    "d1": 0.3799437566249109,
+    "w1": -0.18864234519494746,
+    "m1": 0.8615747476554898,
+    "ytd": -0.6575667533909576,
+    "spark": [
+     1.3264,
+     1.32,
+     1.3243,
+     1.3219,
+     1.3267,
+     1.3215,
+     1.3229,
+     1.3242,
+     1.321,
+     1.3257,
+     1.323,
+     1.3273,
+     1.3336,
+     1.3308,
+     1.3373,
+     1.3396,
+     1.3404,
+     1.3378,
+     1.3345,
+     1.3306,
+     1.3328,
+     1.3379
+    ]
+   },
+   {
+    "symbol": "EURUSD=X",
+    "label": "EUR/USD",
+    "price": 1.1182805299758911,
+    "asOf": "2026-10-30",
+    "d1": 0.2426665732004803,
+    "w1": -0.34442979722495093,
+    "m1": -1.2748329264169012,
+    "ytd": -4.805251856973113,
+    "spark": [
+     1.1327,
+     1.125,
+     1.1255,
+     1.1217,
+     1.1254,
+     1.1201,
+     1.1213,
+     1.1205,
+     1.116,
+     1.1204,
+     1.1195,
+     1.1213,
+     1.1225,
+     1.1216,
+     1.1227,
+     1.1235,
+     1.1221,
+     1.1218,
+     1.1174,
+     1.113,
+     1.1156,
+     1.1183
+    ]
+   },
+   {
+    "symbol": "^TNX",
+    "label": "US 10Y yield",
+    "unit": "%",
+    "price": 4.928999900817871,
+    "asOf": "2026-10-30",
+    "d1": -1.2026447115756356,
+    "w1": -1.1828391389628543,
+    "m1": -5.881231399868066,
+    "ytd": 18.400186748806817,
+    "spark": [
+     5.237,
+     5.277,
+     5.311,
+     5.269,
+     5.277,
+     5.231,
+     5.244,
+     5.24,
+     5.217,
+     5.19,
+     5.089,
+     5.098,
+     5.136,
+     5.117,
+     5.146,
+     4.953,
+     4.988,
+     4.986,
+     4.993,
+     5.045,
+     4.989,
+     4.929
+    ]
+   }
+  ],
+  "movers": {
+   "sp500": {
+    "gainers": [
+     {
+      "ticker": "FDXF",
+      "name": "FedEx Freight",
+      "price": 126.04,
+      "d1": 14.905643176223911,
+      "shariah": true
+     },
+     {
+      "ticker": "REGN",
+      "name": "Regeneron Pharmaceuticals",
+      "price": 927.89,
+      "d1": 13.327308035223567,
+      "shariah": true
+     },
+     {
+      "ticker": "GPN",
+      "name": "Global Payments",
+      "price": 96.84,
+      "d1": 12.972468502099865,
+      "shariah": false
+     },
+     {
+      "ticker": "GDDY",
+      "name": "GoDaddy",
+      "price": 117.24,
+      "d1": 10.718670318254787,
+      "shariah": true
+     },
+     {
+      "ticker": "CSGP",
+      "name": "CoStar Group",
+      "price": 30.17,
+      "d1": 7.213930348258709,
+      "shariah": true
+     }
+    ],
+    "losers": [
+     {
+      "ticker": "RDDT",
+      "name": "Reddit",
+      "price": 91.73,
+      "d1": -29.220679012345673,
+      "shariah": true
+     },
+     {
+      "ticker": "INTC",
+      "name": "Intel",
+      "price": 65.76,
+      "d1": -28.57608341479308,
+      "shariah": false
+     },
+     {
+      "ticker": "ILMN",
+      "name": "Illumina, Inc.",
+      "price": 235.99,
+      "d1": -18.640970833620628,
+      "shariah": true
+     },
+     {
+      "ticker": "TWLO",
+      "name": "Twilio",
+      "price": 205.03,
+      "d1": -15.241835469202151,
+      "shariah": true
+     },
+     {
+      "ticker": "SNDK",
+      "name": "Sandisk",
+      "price": 1150.89,
+      "d1": -13.470170294349826,
+      "shariah": true
+     }
+    ],
+    "coverage": 503
+   },
+   "ftse100": {
+    "gainers": [
+     {
+      "ticker": "AZN",
+      "name": "AstraZeneca",
+      "price": 13960,
+      "d1": 6.9567882316886305
+     },
+     {
+      "ticker": "BT.A",
+      "name": "BT Group",
+      "price": 227.3,
+      "d1": 6.713615023474184
+     },
+     {
+      "ticker": "CCEP",
+      "name": "Coca-Cola Europacific Partners",
+      "price": 8510,
+      "d1": 3.2766990291262137
+     },
+     {
+      "ticker": "DGE",
+      "name": "Diageo",
+      "price": 1757,
+      "d1": 3.2618277990008817
+     },
+     {
+      "ticker": "REL",
+      "name": "RELX",
+      "price": 2992,
+      "d1": 2.6415094339622645
+     }
+    ],
+    "losers": [
+     {
+      "ticker": "NWG",
+      "name": "NatWest Group",
+      "price": 579.6,
+      "d1": -8.753148614609575
+     },
+     {
+      "ticker": "CCC",
+      "name": "Computacenter",
+      "price": 4938,
+      "d1": -6.032350142721218
+     },
+     {
+      "ticker": "PCT",
+      "name": "Polar Capital Technology Trust",
+      "price": 592.5,
+      "d1": -5.952380952380952
+     },
+     {
+      "ticker": "AAF",
+      "name": "Airtel Africa",
+      "price": 259,
+      "d1": -5.543398978847552
+     },
+     {
+      "ticker": "BGEO",
+      "name": "Lion Finance Group",
+      "price": 12030,
+      "d1": -5.4245283018867925
+     }
+    ],
+    "coverage": 100
+   },
+   "shariahListAvailable": true
+  },
+  "stories": [
+   {
+    "category": "markets",
+    "headline": "Europe’s most magical Christmas Markets",
+    "summary": "",
+    "sources": [
+     {
+      "source": "The Travel Magazine",
+      "title": "Europe’s most magical Christmas Markets",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9CT0k0OHZVaGpKekJ6RlR0RWJGRnlMdy01SUFKZXV6b3lIYnMzbWktNVJ3NG1QVjdqTzJXd2pzYUMyalZTVEE1cTFHSEc5WWNycWM0SzFvVGZMUzd6TE1OeV9LT2U0QVQxY1lKcVhBdGdsT1JKbkI1SA?oc=5"
+     }
+    ]
+   },
+   {
+    "category": "markets",
+    "headline": "A drone boom is coming. These defence stocks might be the best form of attack",
+    "summary": "",
+    "sources": [
+     {
+      "source": "The Times",
+      "title": "A drone boom is coming. These defence stocks might be the best form of attack",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNZnVWUnR2WHVlbC1BN0VsSFJObXplSnJQZUJOYTNSLW5vSUF2VG50OUxRbExoLTltN3FMSzBRZHBobEc3TjFGdkZnek9yTlVuMk1IZVZzdHByb0tlQXBkWXhqQmY1VDRsa1JlNUY4QlpNcHZuQU94ODBsR0p6elRBYWgxUXRQNnZad05kcEZtbkxsbEFvZzV5SHA4MEZPS1RCWkZMcA?oc=5"
+     }
+    ]
+   },
+   {
+    "category": "markets",
+    "headline": "How prediction markets harness the wisdom of crowds",
+    "summary": "",
+    "sources": [
+     {
+      "source": "MoneyWeek",
+      "title": "How prediction markets harness the wisdom of crowds",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQdkxVanpTdmpfVzdUOUFQX2VoYnZxUVh5RFJRZGR1dmFCUVRTRUVsNHRCcHZaSnNja095SGQ1SGtrQ0I3MENlYkF1MHc3OXNTcU1taVV6aXcyRi1zM2M3eEd4VjRHSDkzblpGQWloWmw1TnFkalp2UkpCOFBGNFZVeElPTjcxVndHdkxtVTdn?oc=5"
+     }
+    ]
+   }
+  ],
+  "calendar": []
+ },
+ "world": {
+  "us": [
+   {
+    "category": "notable",
+    "headline": "Do you have seasonal affective disorder? How to tell — and what to do about it",
+    "summary": "The syndrome can make people feel like a \"hibernating bear,\" says Dr. Norman Rosenthal, who published the first research on SAD. He explains how to identify the symptoms and what to do to feel better.",
+    "sources": [
+     {
+      "source": "NPR",
+      "title": "Do you have seasonal affective disorder? How to tell — and what to do about it",
+      "link": "https://www.npr.org/2026/10/31/nx-s1-6023200/do-you-have-seasonal-affective-disorder-how-to-tell-and-what-to-do-about-it"
+     }
+    ]
+   },
+   {
+    "category": "notable",
+    "headline": "Plans for a data center threaten scenic wilderness and dark skies in West Virginia",
+    "summary": "Residents are fighting back against plans for a project that would span thousands of acres near the Monongahela National Forest and popular outdoor recreation, ski areas and dark sky sites.",
+    "sources": [
+     {
+      "source": "NPR",
+      "title": "Plans for a data center threaten scenic wilderness and dark skies in West Virginia",
+      "link": "https://www.npr.org/2026/10/31/nx-s1-5992790/data-centers-west-virginia-skiing-dark-skies"
+     }
+    ]
+   },
+   {
+    "category": "notable",
+    "headline": "Oyster stocks have plunged in the Chesapeake. This resident wants to bring them back",
+    "summary": "Oyster reefs once abounded in the Chesapeake, but overharvesting slashed their populations, leading to poorer water quality and less habitat for other species. Now, researchers and local residents are finding creative wa",
+    "sources": [
+     {
+      "source": "NPR",
+      "title": "Oyster stocks have plunged in the Chesapeake. This resident wants to bring them back",
+      "link": "https://www.npr.org/2026/10/31/nx-s1-6011228/oyster-farming-conservation-chesapeake-bay"
+     }
+    ]
+   }
+  ],
+  "uk": [
+   {
+    "category": "notable",
+    "headline": "Florid language and long silences: five things we learned from week three of Russell Brand’s rape trial",
+    "summary": "The former comedian and his wife gave evidence in the case in which he denies all charges against him Russell Brand’s trial at Southwark crown court began with widespread media coverage on 12 October. The former comedian",
+    "sources": [
+     {
+      "source": "Guardian",
+      "title": "Florid language and long silences: five things we learned from week three of Russell Brand’s rape trial",
+      "link": "https://www.theguardian.com/uk-news/2026/oct/31/five-things-we-learned-from-week-three-russell-brand-rape-trial"
+     }
+    ]
+   },
+   {
+    "category": "notable",
+    "headline": "Relying on AI is rotting your brain. But here’s what you can do about it | Carly Dober",
+    "summary": "Each new tech product is designed to make our lives easier and keep us mindlessly entertained. Switch off: embrace discomfort – and boredom Ever longed for your own personal assistant? In the ever quickening tech race, M",
+    "sources": [
+     {
+      "source": "Guardian Business",
+      "title": "Relying on AI is rotting your brain. But here’s what you can do about it | Carly Dober",
+      "link": "https://www.theguardian.com/commentisfree/2026/oct/31/ai-rely-brain-new-tech-product-lives-boredom"
+     }
+    ]
+   },
+   {
+    "category": "notable",
+    "headline": "Why politicians chasing economic growth is a lie | Radical Thinking with Aditya Chakrabortty",
+    "summary": "What if someone told you the truth about the economy? For years, governments have tried spending more, spending less, cutting red tape, Brexit, levelling up – and still failed to increase growth per person in the UK. So ",
+    "sources": [
+     {
+      "source": "Guardian",
+      "title": "Why politicians chasing economic growth is a lie | Radical Thinking with Aditya Chakrabortty",
+      "link": "https://www.theguardian.com/politics/commentisfree/audio/2026/oct/31/why-politicians-chasing-economic-growth-is-a-lie-radical-thinking-with-aditya-chakrabortty"
+     }
+    ]
+   }
+  ],
+  "europe": [
+   {
+    "category": "notable",
+    "headline": "Hundreds evacuated from Russian-occupied Oleshky during rare Ukraine ceasefire",
+    "summary": "Hundreds of people are also understood to have stayed in the front-line town, despite the dangers.",
+    "sources": [
+     {
+      "source": "BBC",
+      "title": "Hundreds evacuated from Russian-occupied Oleshky during rare Ukraine ceasefire",
+      "link": "https://www.bbc.co.uk/news/articles/c60me298k1yeo?at_medium=RSS&at_campaign=rss"
+     }
+    ]
+   },
+   {
+    "category": "notable",
+    "headline": "Kärcher boss: Less regulation, more action to get Europe and Germany fit again",
+    "summary": "Kärcher, best known for its pressure washers, recorded €3.5 billion in sales in 2025 and employs 17,000 people worldwide. Its CEO warns of a 'perfect storm' and calls for a fitness plan for Germany and Europe.",
+    "sources": [
+     {
+      "source": "Euronews",
+      "title": "Kärcher boss: Less regulation, more action to get Europe and Germany fit again",
+      "link": "https://www.euronews.com/2026/10/31/karcher-boss-less-regulation-more-action-to-get-europe-and-germany-fit-again"
+     }
+    ]
+   },
+   {
+    "category": "notable",
+    "headline": "The seven days I thought I might have breast cancer",
+    "summary": "Seven days of uncertainty following a breast biopsy become a deeply personal reckoning with cancer, family history and fear. From that experience, Euronews reporter Monica Pinna explores Europe's persistent inequalities ",
+    "sources": [
+     {
+      "source": "Euronews",
+      "title": "The seven days I thought I might have breast cancer",
+      "link": "https://www.euronews.com/2026/10/31/the-seven-days-i-thought-i-might-have-breast-cancer"
+     }
+    ]
+   }
+  ],
+  "middle_east": [
+   {
+    "category": "notable",
+    "headline": "Houthis continue attacks on Saudi Arabia, US removes non emergency personnel",
+    "summary": "",
+    "sources": [
+     {
+      "source": "The Arab Weekly",
+      "title": "Houthis continue attacks on Saudi Arabia, US removes non emergency personnel",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPUHZBOXRUZk9ybkM5VzdjeUJwZE84SjNXMjgzRE9GRThIZ1BzQXNtS3VYWjRrYnloTExZRWdmOWRsamVVeUNmc0VkZ29xekYwQ0xPVjZkNXFzZ2pvSWJHN0pQVXY2RGdYOUVyZkprNmtaZzgyUEVVR2VMVUU4MW10cFYyMHN4WnpBendzdGEzQlo4MHpETmk3anhCX1ZuT2M?oc=5"
+     }
+    ]
+   },
+   {
+    "category": "notable",
+    "headline": "Saudi, U.S. and Russian foreign ministers discuss regional issues",
+    "summary": "",
+    "sources": [
+     {
+      "source": "سانا",
+      "title": "Saudi, U.S. and Russian foreign ministers discuss regional issues",
+      "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE5wa2RJMVRzTHVvTWU5cnhJeXN0QmZHMnVTd3hSeEtkaTdSVDJJSXNKdVljSDJqTFZIbHZjN0hEUUlLWExDRm9ReXhsUmc?oc=5"
+     }
+    ]
+   },
+   {
+    "category": "notable",
+    "headline": "Alex Marquez could skip Qatar MotoGP amid surgery reports",
+    "summary": "",
+    "sources": [
+     {
+      "source": "Crash.net",
+      "title": "Alex Marquez could skip Qatar MotoGP amid surgery reports",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNajlJaXh0VG9BYXU5ZDRrY1NaOHVyRjBZY3hzSUE2TVlyNHBEN0FqNzlFUWRWdHVMZDR0S3BvSlNCOEJEVGEtaWxNS0hGTU9HdmhycGJMc0I5Y2hMM0h5NmVQTm1rSmp6dlk2R2hkV2xRZ0Y3NU5nSjZfdno4c0NPYzdhY1VQSHNYS0JjNy1ma0pLOThTR2ZTaG9KZjc0UFl3Vndv?oc=5"
+     }
+    ]
+   }
+  ]
+ },
+ "energyTech": {
+  "energy": [
+   {
+    "category": "energy",
+    "headline": "The nuclear industry is set to melt up – here’s what to buy",
+    "summary": "",
+    "sources": [
+     {
+      "source": "MoneyWeek",
+      "title": "The nuclear industry is set to melt up – here’s what to buy",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOakhsUl9yV1hGSUlnQTVXZXlDeTBiQWcyV2sySXVnSXBiTHlzVXl2WWVpaEhyLXd4X0JVQWhuNEw3aXFnNndtb3BUcTRhNGJkTURnS2Y3a3JFWW1pT3hmckNPY0Y4NGhJZ0Mxdl9DcFJnWERwSDdGS3hMVUJsNVFMaTN5SDc2Nk85elR1LWl3?oc=5"
+     }
+    ]
+   },
+   {
+    "category": "energy",
+    "headline": "Poland opens $304m offshore wind terminal at Gdansk",
+    "summary": "",
+    "sources": [
+     {
+      "source": "Splash247",
+      "title": "Poland opens $304m offshore wind terminal at Gdansk",
+      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBKNmpYWVVNZS1wLThtalZBVVRNVmMzc3JBOWd4NTU3QjFyWTY2d1VQbFVyZFZlR2RnNEViOHotVnl0SXpEQ011ZW02bUViaC1ZOHhOaTRXVjNvamk1TmZyQVQ0SXlCcks3bzVrakVtck81amsxUGZZSDZsWjBOdw?oc=5"
+     }
+    ]
+   },
+   {
+    "category": "energy",
+    "headline": "New policy may curtail Scottish offshore wind farms",
+    "summary": "",
+    "sources": [
+     {
+      "source": "Daily Business",
+      "title": "New policy may curtail Scottish offshore wind farms",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNY0RjTlUybVJCV3NDV1NIUEJfeE9kUmh4c2E1T1F0ZV9UZHNyVXN2SWtualQweFM3dEtLckR1S2hDSl92NEZyOW5XLUplY1JDUTVrZVd2RXQ0ZlF5QXo2S0NXOEVLdWV3UjZiZFN6blJJQUlBLWptMmRxMWs5LUswMFBpM09Tb2p5cVhISjZYM3BXMnN2SGRYWA?oc=5"
+     }
+    ]
+   }
+  ],
+  "ai": [
+   {
+    "category": "ai",
+    "headline": "The future of the firm",
+    "summary": "",
+    "sources": [
+     {
+      "source": "OpenAI",
+      "title": "The future of the firm",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBjWGg5TktPMGtkSmtIVjRPM3c5ek1TcUtpOTBYaGFLYzBoZ1pLQkNLRDQzSHhuRkZkcFUycHFlV04yRlREeHdFX1pJVEhfVW5OUGIxUG5fUGlJR3Yw?oc=5"
+     }
+    ]
+   },
+   {
+    "category": "ai",
+    "headline": "Anthropic IPO Impact on Commonwealth Bank of Australia",
+    "summary": "",
+    "sources": [
+     {
+      "source": "Business Chief",
+      "title": "Anthropic IPO Impact on Commonwealth Bank of Australia",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQTHBNZzR0Y1VDMjR6RjFXdzVYMWJfTElYb0lEX3NOVmtzRThvZWhjYWs1N3pma0xUY3U5OE9lR2JQRkJYVktnb3JNRE9QanJfSkVYeGl4U1dqWGVhOFdvSXdacWZHbUNzUTBoWnlyRmpjZWRqak9sal9kWkNaQ2RYVHF4MERsSllOV2ZVNDhB?oc=5"
+     }
+    ]
+   },
+   {
+    "category": "ai",
+    "headline": "Will Anthropic Soar After Its IPO? History and SpaceX Offer an Answer That’s Strikingly Clear.",
+    "summary": "",
+    "sources": [
+     {
+      "source": "The Motley Fool",
+      "title": "Will Anthropic Soar After Its IPO? History and SpaceX Offer an Answer That’s Strikingly Clear.",
+      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPVHd1Q2pPclZWR1FnTjdRelM3dnpIQTNCU1hoNkdqemJaRVZ1UmdiTzM2alZBeGF1UUJZYkVJOXpqVTR1TE5xeXJVaVdORFZQNE9wdEJBVTBadV9VclYyY0VVOWVtSmdMYzFBUGtBY3dFVy1kemxXQjlmRmllOU5rM29IT3A5SmN0WXFiY29pczJiZVNsaGdoZmEzSmRJQkxkUXNSM0hPWGZzVW9mX1dTVTV1Q2MwcVkzamhBUjFsdVBoRS1FaVpwSlc1ekFfdUQ0?oc=5"
+     }
+    ]
+   }
+  ],
+  "tech": [
+   {
+    "category": "tech",
+    "headline": "Pile-ins, payouts, and pacing pressure: the investors behind the VCs open up",
+    "summary": "The money behind the money is thrilled, mostly.",
+    "sources": [
+     {
+      "source": "TechCrunch",
+      "title": "Pile-ins, payouts, and pacing pressure: the investors behind the VCs open up",
+      "link": "https://techcrunch.com/2026/10/30/pile-ins-payouts-and-pacing-pressure-the-investors-behind-the-vcs-open-up/"
+     }
+    ]
+   },
+   {
+    "category": "tech",
+    "headline": "Why North Korea's 'elite' hackers are the prime suspect in major Binance hack",
+    "summary": "If the accusations are true, the record-making heist shows how powerful suspected North Korean hackers have become.",
+    "sources": [
+     {
+      "source": "BBC Tech",
+      "title": "Why North Korea's 'elite' hackers are the prime suspect in major Binance hack",
+      "link": "https://www.bbc.co.uk/news/articles/ck9dz3v7z7v3o?at_medium=RSS&at_campaign=rss"
+     }
+    ]
+   },
+   {
+    "category": "tech",
+    "headline": "Once again, NASA is asking for ideas to rescue Hubble from certain death",
+    "summary": "The space agency solicited ideas for reboosting Hubble four years ago, but they didn't go anywhere.",
+    "sources": [
+     {
+      "source": "Ars Technica",
+      "title": "Once again, NASA is asking for ideas to rescue Hubble from certain death",
+      "link": "https://arstechnica.com/space/2026/10/think-you-can-save-the-hubble-space-telescope-nasa-wants-to-know/"
+     }
+    ]
+   }
+  ]
+ },
+ "stats": {
+  "headlines": 445,
+  "feeds": 45,
+  "feedsFailed": 0
+ }
+}
