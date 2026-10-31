@@ -1,0 +1,63 @@
+{
+  "us": [
+    { "source": "BBC", "url": "https://feeds.bbci.co.uk/news/world/us_and_canada/rss.xml" },
+    { "source": "NPR", "url": "https://feeds.npr.org/1001/rss.xml" },
+    { "source": "NPR Politics", "url": "https://feeds.npr.org/1014/rss.xml" },
+    { "source": "Guardian", "url": "https://www.theguardian.com/us-news/rss" },
+    { "source": "Politico", "url": "https://rss.politico.com/politics-news.xml" },
+    { "source": "CNBC Economy", "url": "https://www.cnbc.com/id/20910258/device/rss/rss.html" }
+  ],
+  "uk": [
+    { "source": "BBC", "url": "https://feeds.bbci.co.uk/news/uk/rss.xml" },
+    { "source": "BBC Politics", "url": "https://feeds.bbci.co.uk/news/politics/rss.xml" },
+    { "source": "Guardian", "url": "https://www.theguardian.com/uk-news/rss" },
+    { "source": "Guardian Politics", "url": "https://www.theguardian.com/politics/rss" },
+    { "source": "Sky News", "url": "https://feeds.skynews.com/feeds/rss/uk.xml" },
+    { "source": "Sky Politics", "url": "https://feeds.skynews.com/feeds/rss/politics.xml" },
+    { "source": "Guardian Business", "url": "https://www.theguardian.com/uk/business/rss" }
+  ],
+  "europe": [
+    { "source": "BBC", "url": "https://feeds.bbci.co.uk/news/world/europe/rss.xml" },
+    { "source": "Guardian", "url": "https://www.theguardian.com/world/europe-news/rss" },
+    { "source": "Politico Europe", "url": "https://www.politico.eu/feed/" },
+    { "source": "France24", "url": "https://www.france24.com/en/europe/rss" },
+    { "source": "DW", "url": "https://rss.dw.com/rdf/rss-en-all" },
+    { "source": "Euronews", "url": "https://www.euronews.com/rss" }
+  ],
+  "middle_east": [
+    { "source": "BBC", "url": "https://feeds.bbci.co.uk/news/world/middle_east/rss.xml" },
+    { "source": "Al Jazeera", "url": "https://www.aljazeera.com/xml/rss/all.xml" },
+    { "source": "Guardian", "url": "https://www.theguardian.com/world/middleeast/rss" },
+    { "source": "France24", "url": "https://www.france24.com/en/middle-east/rss" },
+    { "source": "Google News (Arab News)", "url": "https://news.google.com/rss/search?q=site:arabnews.com+when:1d&hl=en-GB&gl=GB&ceid=GB:en" },
+    { "source": "The National", "url": "https://www.thenationalnews.com/arc/outboundfeeds/rss/?outputType=xml" },
+    { "source": "Google News (Gulf)", "url": "https://news.google.com/rss/search?q=Saudi+OR+UAE+OR+Oman+OR+Qatar+OR+Kuwait+OR+Bahrain+when:1d&hl=en-GB&gl=GB&ceid=GB:en" }
+  ],
+  "markets": [
+    { "source": "CNBC", "url": "https://www.cnbc.com/id/100003114/device/rss/rss.html" },
+    { "source": "CNBC Finance", "url": "https://www.cnbc.com/id/10000664/device/rss/rss.html" },
+    { "source": "MarketWatch", "url": "https://feeds.content.dowjones.io/public/rss/mw_topstories" },
+    { "source": "BBC Business", "url": "https://feeds.bbci.co.uk/news/business/rss.xml" },
+    { "source": "FT", "url": "https://www.ft.com/rss/home" },
+    { "source": "Google News (Markets)", "url": "https://news.google.com/rss/search?q=stocks+OR+markets+OR+%22central+bank%22+when:1d&hl=en-GB&gl=GB&ceid=GB:en" }
+  ],
+  "energy": [
+    { "source": "Guardian Energy", "url": "https://www.theguardian.com/environment/energy/rss" },
+    { "source": "Google News (Utility Week / Current)", "url": "https://news.google.com/rss/search?q=site:utilityweek.co.uk+OR+site:current-news.co.uk+when:2d&hl=en-GB&gl=GB&ceid=GB:en" },
+    { "source": "OilPrice", "url": "https://oilprice.com/rss/main" },
+    { "source": "Google News (UK grid)", "url": "https://news.google.com/rss/search?q=%22National+Grid%22+OR+NESO+OR+Ofgem+OR+%22grid+connection%22+OR+%22offshore+wind%22+OR+interconnector+when:2d&hl=en-GB&gl=GB&ceid=GB:en" },
+    { "source": "Google News (Energy)", "url": "https://news.google.com/rss/search?q=OPEC+OR+%22oil+prices%22+OR+LNG+OR+%22power+grid%22+OR+nuclear+power+when:1d&hl=en-GB&gl=GB&ceid=GB:en" }
+  ],
+  "ai": [
+    { "source": "The Verge AI", "url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml" },
+    { "source": "TechCrunch AI", "url": "https://techcrunch.com/category/artificial-intelligence/feed/" },
+    { "source": "MIT Tech Review", "url": "https://www.technologyreview.com/feed/" },
+    { "source": "Google News (AI)", "url": "https://news.google.com/rss/search?q=%22artificial+intelligence%22+OR+OpenAI+OR+Anthropic+OR+%22Google+DeepMind%22+when:1d&hl=en-GB&gl=GB&ceid=GB:en" }
+  ],
+  "tech": [
+    { "source": "BBC Tech", "url": "https://feeds.bbci.co.uk/news/technology/rss.xml" },
+    { "source": "The Verge", "url": "https://www.theverge.com/rss/index.xml" },
+    { "source": "TechCrunch", "url": "https://techcrunch.com/feed/" },
+    { "source": "Ars Technica", "url": "https://feeds.arstechnica.com/arstechnica/index" }
+  ]
+}

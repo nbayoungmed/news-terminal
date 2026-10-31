@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>News Terminal</title>
+  <meta name="theme-color" content="#000000">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="Terminal">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="icons/icon-192.png">
+  <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">NEWS<span>TERM</span></div>
+    <div class="edition">
+      <button id="prev" class="nav" title="Previous edition (←)" aria-label="Previous edition">◀</button>
+      <div class="edition-meta">
+        <div id="date-label">Loading…</div>
+        <div id="edition-info" class="dim"></div>
+      </div>
+      <button id="next" class="nav" title="Next edition (→)" aria-label="Next edition">▶</button>
+    </div>
+  </header>
+
+  <div id="ticker" class="ticker" aria-label="Market summary"></div>
+  <div id="banner" class="banner" hidden></div>
+  <div id="hod" class="hod"></div>
+
+  <nav class="tabs" role="tablist">
+    <button role="tab" data-tab="markets"><kbd>1</kbd> MARKETS</button>
+    <button role="tab" data-tab="world"><kbd>2</kbd> WORLD</button>
+    <button role="tab" data-tab="energyTech"><kbd>3</kbd> ENERGY · AI · TECH</button>
+  </nav>
+
+  <main id="content"></main>
+
+  <footer class="footer dim" id="footer"></footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

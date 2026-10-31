@@ -1,0 +1,48 @@
+name: Morning edition
+
+on:
+  schedule:
+    # 05:30 UTC = 05:30 GMT / 06:30 BST. GitHub can start scheduled runs
+    # 10-30 min late, so this keeps the edition ready by ~6:30 all year.
+    - cron: "30 5 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: edition
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+
+      - run: npm ci
+
+      - name: Build edition
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          # Optional repo variable to switch model, e.g. claude-sonnet-5-5
+          CLAUDE_MODEL: ${{ vars.CLAUDE_MODEL }}
+        run: node scripts/build-edition.mjs
+
+      - name: Commit edition
+        run: |
+          git config user.name "news-terminal-bot"
+          git config user.email "news-terminal-bot@users.noreply.github.com"
+          git add docs/editions data
+          if git diff --cached --quiet; then
+            echo "Nothing to commit"
+          else
+            git commit -m "Edition $(TZ=Europe/London date +%F)"
+            git push
+          fi
