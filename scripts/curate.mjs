@@ -21,7 +21,9 @@ const marketStory = story(["markets", "economy", "companies"]);
 const sectorStory = (cat) => story([cat]);
 
 const EditionSchema = z.object({
-  headline_of_day: z.string().describe("One sentence capturing the morning's single most important development"),
+  headline_of_day: z
+    .string()
+    .describe("One punchy sentence, under 25 words, capturing the morning's single most important development"),
   markets: z.object({
     summary: z.string().describe("2-3 sentences on how the last trading session went and why"),
     stories: z.array(marketStory),

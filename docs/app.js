@@ -121,7 +121,7 @@
           <div class="tile-top"><span class="tile-name">${esc(a.label)}</span><span class="tile-ytd">YTD ${fmtPct(a.ytd)}</span></div>
           <div class="tile-px"><span class="px">${fmtNum(a.price)}</span><span class="chg ${dir(a.d1)}">${arrow(a.d1)} ${pctText(a.d1)}</span></div>
           ${sparkline(a.spark, { cls: "", ref: a.d1 })}
-          <div class="tile-foot">1 MONTH</div>
+          <div class="tile-foot">1 MONTH${a.sub ? ` · ${esc(a.sub).toUpperCase()}` : ""}</div>
         </div>`
       )
       .join("");
@@ -223,14 +223,19 @@
   }
 
   function renderTicker(e) {
-    const pick = ["^GSPC", "SPUS", "^FTSE", "^IXIC", "BZ=F", "GC=F", "SI=F", "HG=F", "GBPUSD=X"];
-    const short = { "^GSPC": "SPX", SPUS: "SHARIAH", "^FTSE": "FTSE", "^IXIC": "NDX", "BZ=F": "BRENT", "GC=F": "GOLD", "SI=F": "SILVER", "HG=F": "COPPER", "GBPUSD=X": "GBPUSD" };
+    const short = {
+      "^GSPC": "SPX", SPUS: "SHARIAH (SPUS)", "^IXIC": "NDX", "^DJI": "DOW", "^FTSE": "FTSE", "^STOXX50E": "STOXX50",
+      "^TASI.SR": "TADAWUL", "GC=F": "GOLD", "SI=F": "SILVER", "BZ=F": "BRENT", "CL=F": "WTI", "HG=F": "COPPER",
+      "NG=F": "NATGAS", "GBPUSD=X": "GBPUSD", "EURUSD=X": "EURUSD", "^TNX": "US10Y",
+    };
     const all = [...(e.markets.indices || []), ...(e.markets.commodities || []), ...(e.markets.rates_fx || [])];
-    $("#ticker").innerHTML = pick
+    const items = Object.keys(short)
       .map((sym) => all.find((a) => a.symbol === sym && !a.error))
       .filter(Boolean)
       .map((a) => `<span class="tick"><b>${short[a.symbol]}</b>${fmtNum(a.price)} ${fmtPct(a.d1)}</span>`)
       .join("");
+    // Two identical copies so the scroll can loop seamlessly (animation moves by -50%).
+    $("#ticker").innerHTML = items ? `${items}<span class="ticker-copy" aria-hidden="true">${items}</span>` : "";
   }
 
   const count = (lists) => lists.reduce((n, l) => n + (l?.length || 0), 0);
@@ -241,15 +246,17 @@
     $("#date-label").textContent = e.dateLabel;
     const t = new Date(e.generatedAt).toLocaleTimeString("en-GB", { hour: "2-digit", minute: "2-digit", timeZone: "Europe/London" });
     $("#edition-info").textContent = `Edition ${t} UK${e.mode === "ai" ? "" : " · unranked"}`;
-    $("#status").innerHTML = `<span class="chip${e.mode === "ai" ? "" : " warn"}">${e.mode === "ai" ? "AI-CURATED" : "UNRANKED"}</span><span>${
-      e.stats ? `${e.stats.headlines} headlines · ${e.stats.feeds} feeds` : ""
-    }</span>`;
+    $("#status").innerHTML = e.stats ? `<span>${e.stats.headlines} headlines · ${e.stats.feeds} feeds</span>` : "";
 
     const banner = $("#banner");
     banner.hidden = e.mode === "ai";
     banner.textContent = e.mode === "ai" ? "" : `AI curation unavailable (${e.error || "unknown error"}) — showing latest headlines unranked.`;
 
-    $("#hod").textContent = e.headlineOfDay || "";
+    // Highlight figures like $1tn, £3.2bn, 2.4%, $118 in the headline.
+    $("#hod").innerHTML = esc(e.headlineOfDay || "").replace(
+      /[$£€]?\d[\d,.]*(?:\s?(?:tn|bn|m|bps|%))?/g,
+      (fig) => (/[$£€%]|tn|bn|bps|\d[,.]\d/.test(fig) ? `<span class="fig">${fig}</span>` : fig)
+    );
     $(".lead-hod").hidden = !e.headlineOfDay;
     const m = e.markets;
     const asOf = m.indices?.find((a) => a.asOf)?.asOf;
