@@ -1,13 +1,13 @@
 {
  "date": "2026-10-31",
  "dateLabel": "Saturday, 31 October 2026",
- "generatedAt": "2026-10-31T09:20:38.728Z",
- "mode": "fallback",
- "model": null,
- "error": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"Invalid bearer token\"},\"request_id\":\"req_011Cga4uV1WVe5j47JKok9FM\"}",
- "headlineOfDay": "",
+ "generatedAt": "2026-10-31T09:26:37.117Z",
+ "mode": "ai",
+ "model": "claude-opus-5-5",
+ "error": null,
+ "headlineOfDay": "Fears over the cost of the AI boom drove a sell-off of close to $1tn in US tech stocks, with Intel suffering its worst day since the 1970s, while Brent crude neared $120 on renewed Hormuz attacks.",
  "markets": {
-  "summary": "",
+  "summary": "Wall Street fell sharply on Friday as disappointing earnings deepened doubts about whether heavy AI spending will pay off. The Nasdaq lost 2.86% and the S&P 500 1.82%, with Intel, Reddit and Google among the heaviest casualties. The FTSE 100 was broadly flat, while Brent rose 2.4% to $117.64 and gold fell to its lowest level in a year.",
   "indices": [
    {
     "symbol": "^GSPC",
@@ -110,7 +110,8 @@
      26549.8496,
      26184.7207,
      25437
-    ]
+    ],
+    "note": "Fell 2.86% as concerns over AI spending and disappointing tech earnings fuelled a broad sell-off."
    },
    {
     "symbol": "^DJI",
@@ -260,7 +261,8 @@
      4051.6001,
      4031.3999,
      3898.8999
-    ]
+    ],
+    "note": "Fell to its lowest price in a year despite jitters over possible fresh Middle East attacks."
    },
    {
     "symbol": "SI=F",
@@ -330,7 +332,8 @@
      115.32,
      114.88,
      117.64
-    ]
+    ],
+    "note": "Rose towards $120 after a tanker caught fire in the Strait of Hormuz amid fears of renewed US-Iran hostilities."
    },
    {
     "symbol": "CL=F",
@@ -588,14 +591,16 @@
       "name": "Reddit",
       "price": 91.73,
       "d1": -29.220679012345673,
-      "shariah": true
+      "shariah": true,
+      "note": "Biggest one-day drop on record after it reported a significant fall in search referral traffic in the third quarter."
      },
      {
       "ticker": "INTC",
       "name": "Intel",
       "price": 65.76,
       "d1": -28.57608341479308,
-      "shariah": false
+      "shariah": false,
+      "note": "Weak PC demand caused by high memory-chip prices, plus a struggle to make enough AI server chips."
      },
      {
       "ticker": "ILMN",
@@ -693,192 +698,426 @@
   "stories": [
    {
     "category": "markets",
-    "headline": "Europe’s most magical Christmas Markets",
-    "summary": "",
+    "headline": "Tech rout wipes almost $1tn off US stocks",
+    "summary": "A tech sell-off that began earlier in the month gathered pace after subpar earnings, as investors questioned whether the billions being spent on AI can generate returns quickly enough. Some commentators are drawing parallels with the peak of the dot-com bubble, and others are urging investors to diversify into consumer stocks.",
     "sources": [
      {
-      "source": "The Travel Magazine",
-      "title": "Europe’s most magical Christmas Markets",
-      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9CT0k0OHZVaGpKekJ6RlR0RWJGRnlMdy01SUFKZXV6b3lIYnMzbWktNVJ3NG1QVjdqTzJXd2pzYUMyalZTVEE1cTFHSEc5WWNycWM0SzFvVGZMUzd6TE1OeV9LT2U0QVQxY1lKcVhBdGdsT1JKbkI1SA?oc=5"
+      "source": "BBC",
+      "title": "US tech stocks see sharp falls as AI spending nears $1tn",
+      "link": "https://www.bbc.co.uk/news/articles/cvwy72e0n72yo?at_medium=RSS&at_campaign=rss"
+     },
+     {
+      "source": "Guardian Business",
+      "title": "Tech sell-off drives US markets down by nearly $1tn after subpar earnings reports",
+      "link": "https://www.theguardian.com/technology/2026/oct/30/tech-stocks-drop-earnings-report"
+     },
+     {
+      "source": "MarketWatch",
+      "title": "Has the tech bubble burst? Why the Nasdaq’s rough ride looks eerily like 2000.",
+      "link": "https://www.marketwatch.com/story/has-the-tech-bubble-burst-why-the-nasdaqs-rough-ride-looks-eerily-like-2000-5bcefcb2?mod=mw_rss_topstories"
+     },
+     {
+      "source": "Financial Times",
+      "title": "US tech stocks tumble as concerns over AI spending intensify",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNNTB4Ykd3SWFzX1I1OTJab3VCbDdLRy1IZmo4dVBNZU5CVmFqNFZxUmEtbGxBTnlYV09zUV9VYTZBUnpSU0tGQ2kySzZrVFIzUl96ZXRwZFlZQ2hsbHl4NGljX3YtYXNjbjBNeXdrN0dXdEZxZjg5NHBZNzNyTlZyNGRCWXc?oc=5"
+     },
+     {
+      "source": "WSJ",
+      "title": "U.S. Stocks Fall as Tech Selloff Deepens",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPdDB3cDByVmVJQWQ4bzhobm83ZDVVN3MtYXh0VjlYT0xtakhpVkNrUFFHbVpWZEp2UHdpeWIwX0h2eVJqSzdod0t1Y3JxcVBaTzZlUFRKTFNkMDE4LVYxMHNjRGlYb0FsOVdqMnJuVzdHMk0xNVVxWXh4Y0tidlFtbXBUa1lXTVJGOXc1c0VvbjJ6eGVINVY0cEpFZHEtakM1UkFwdVZLVW4ySWlxV0RwNHpnNkpKcUsyRXU4RXN2Zm03QTQ?oc=5"
+     },
+     {
+      "source": "The New York Times",
+      "title": "Tech Stocks See Worst Day Since June, Pressuring Broader Market",
+      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1lZFpybG4tcVZURUg4djdncV81ck9kdS12V2Q5bW1VN0RyOEV2VkhQUVluLWd4ZkFiSmh6RzJuWFNZT2VOYm5CZ0pNRHZrQUhNNzlMdHBhZE9qUlY1bmJRVGxMOWRoLTRpaGpTelJwYzI1Q1E5Z3c3eUxhUzk?oc=5"
+     },
+     {
+      "source": "NBC News",
+      "title": "Tech stocks wipe out $1 trillion in value as concerns deepen about the AI boom",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQa3d4RHVLejNUQk5KamNvZkpmVm9BT1JQUS0xQXNxaHFVVHYwYTJ4TnRIQ0I4RkUwbmR2aWQ4VXRzaDAwdmI4Q3Q4S1lFZlhqNTBxY1p6WDVGdkFxQjdPa05BYWx4TGdsempHY3YzWllDRDRxN2Z0T2w5M1FtVGcydzNaOUdRWWgzYTdfVFJQTDJZU25NOUE?oc=5"
+     },
+     {
+      "source": "Le Monde.fr",
+      "title": "Earnings stoke AI fears and send tech stocks tumbling",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPUV9HVk91NlhYX1lmZWJKUjd5dTRJUzFnSTVWN0xaYWROMERpSzl3U1Q3N3dCelctRmxkZ24xTHoybjlCTjhGc3JQYnRGMjEtTmpGb0RlWDZQRDNjNFF3Q1U2bGVXblpoSVhBakxjaFU3aHNfNkI5UHNLSXQwdEdJbHVUTTlaLTc1WTlNTzVDQ0sxb1U4a1huS3hrMUl1OVVjYUJ2dnZ3R2tSb01IWVNqaXhGNWRRQ0t2cDNkUFp3?oc=5"
+     },
+     {
+      "source": "Yahoo Finance",
+      "title": "Wall Street tumbles as tech stocks suffer sharp losses",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPTnRSaks5WkY5bnB2MF9GRTBHVFhrb19XS0labHFMeUdYRkNneGVmMjA3TUVUWkVaSk42RUFFa21WNzdzN0lrT2R5RTY4MkdPczdmRTJITW5yalgwTjVRQU9JN2xlS1RXUlRPV2NSSGxOMG9rWmNLX0NGdC1RLW1vblpLYzNpeW5XUlNkZFZGWjBqNzFVRjZocWhmSFA?oc=5"
+     },
+     {
+      "source": "CNBC",
+      "title": "Jim Cramer says it's time to look beyond tech. Here are 4 consumer stocks he likes",
+      "link": "https://www.cnbc.com/2026/10/30/jim-cramer-consumer-staples-stocks.html"
+     },
+     {
+      "source": "TechCrunch AI",
+      "title": "Cracks are emerging in the AI spending boom",
+      "link": "https://techcrunch.com/2026/10/30/cracks-are-emerging-in-the-ai-spending-boom/"
      }
     ]
    },
    {
-    "category": "markets",
-    "headline": "A drone boom is coming. These defence stocks might be the best form of attack",
-    "summary": "",
+    "category": "companies",
+    "headline": "Intel suffers worst day since the 1970s",
+    "summary": "Intel's shares crashed, erasing about $140bn in value and roughly $12bn from the US government's stake. Its PC business is suffering as memory-chip prices hit demand, and it is struggling to make enough AI server chips, which also weighed on AMD.",
     "sources": [
      {
-      "source": "The Times",
-      "title": "A drone boom is coming. These defence stocks might be the best form of attack",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNZnVWUnR2WHVlbC1BN0VsSFJObXplSnJQZUJOYTNSLW5vSUF2VG50OUxRbExoLTltN3FMSzBRZHBobEc3TjFGdkZnek9yTlVuMk1IZVZzdHByb0tlQXBkWXhqQmY1VDRsa1JlNUY4QlpNcHZuQU94ODBsR0p6elRBYWgxUXRQNnZad05kcEZtbkxsbEFvZzV5SHA4MEZPS1RCWkZMcA?oc=5"
+      "source": "CNBC",
+      "title": "Intel stock has worst day since 1970s, wiping about $12 billion off government's stake",
+      "link": "https://www.cnbc.com/2026/10/30/amazon-intel-earnings-big-tech-ai-spending-concerns.html"
+     },
+     {
+      "source": "MarketWatch",
+      "title": "Why Intel’s stock saw its worst day in decades — and a $140 billion wipeout",
+      "link": "https://www.marketwatch.com/story/why-intels-stock-is-sinking-toward-its-worst-drop-in-two-years-492d71a7?mod=mw_rss_topstories"
+     },
+     {
+      "source": "TechCrunch AI",
+      "title": "Intel’s stock crashes, knocking $12B from government’s stake",
+      "link": "https://techcrunch.com/2026/10/30/intels-stock-crashes-knocking-12b-from-governments-stake/"
      }
     ]
    },
    {
-    "category": "markets",
-    "headline": "How prediction markets harness the wisdom of crowds",
-    "summary": "",
+    "category": "economy",
+    "headline": "Fed officials say more rate rises are needed",
+    "summary": "Two Federal Reserve officials argued that further interest-rate rises are needed to fight inflation and pushed for more transparency, in contrast with Kevin Warsh's wish for the Fed to say less. The comments point to persistent inflation pressure in the US economy.",
     "sources": [
      {
-      "source": "MoneyWeek",
-      "title": "How prediction markets harness the wisdom of crowds",
-      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQdkxVanpTdmpfVzdUOUFQX2VoYnZxUVh5RFJRZGR1dmFCUVRTRUVsNHRCcHZaSnNja095SGQ1SGtrQ0I3MENlYkF1MHc3OXNTcU1taVV6aXcyRi1zM2M3eEd4VjRHSDkzblpGQWloWmw1TnFkalp2UkpCOFBGNFZVeElPTjcxVndHdkxtVTdn?oc=5"
+      "source": "MarketWatch",
+      "title": "Warsh wants the Fed to say less. Two officials are pushing for more transparency.",
+      "link": "https://www.marketwatch.com/story/the-fed-held-interest-rates-steady-but-these-officials-see-more-hikes-coming-soon-2098bbd8?mod=mw_rss_topstories"
      }
     ]
    }
   ],
-  "calendar": []
+  "calendar": [
+   {
+    "when": "Saturday 31 October",
+    "event": "Cost-of-living protests expected in France for a third weekend and spreading to Germany"
+   },
+   {
+    "when": "Saturday 31 October",
+    "event": "The mandate of the UN peacekeeping mission in Western Sahara expires after US and Russian vetoes"
+   }
+  ]
  },
  "world": {
   "us": [
    {
-    "category": "notable",
-    "headline": "Do you have seasonal affective disorder? How to tell — and what to do about it",
-    "summary": "The syndrome can make people feel like a \"hibernating bear,\" says Dr. Norman Rosenthal, who published the first research on SAD. He explains how to identify the symptoms and what to do to feel better.",
+    "category": "political",
+    "headline": "Republicans brace for heavy midterm losses",
+    "summary": "With Tuesday's midterms approaching, Democrats lead the polls, more than 43 million Americans have already voted, and some Republicans fear a brutal night. The results will decide control of Congress and shape the remainder of Trump's presidency.",
+    "sources": [
+     {
+      "source": "BBC",
+      "title": "What's at stake for Trump in the US midterms?",
+      "link": "https://www.bbc.co.uk/news/videos/cq77pm2jmmd5o?at_medium=RSS&at_campaign=rss"
+     },
+     {
+      "source": "NPR",
+      "title": "Can I trust the polls? And other questions from listeners about the 2026 midterms",
+      "link": "https://www.npr.org/2026/10/31/g-s1-149981/listener-questions-npr-midterms-2026-election"
+     },
+     {
+      "source": "NPR Politics",
+      "title": "NPR special: 5 takeaways from a year of listening to swing voters",
+      "link": "https://www.npr.org/2026/10/30/nx-s1-6008113/npr-special-swing-voter-focus-groups"
+     },
+     {
+      "source": "Politico",
+      "title": "'A wave can hide a lot of weaknesses': Dems question if they'll learn anything",
+      "link": "https://www.politico.com/news/2026/10/30/democrats-message-voters-2026-01141508"
+     },
+     {
+      "source": "Al Jazeera",
+      "title": "US midterms: 3 days to go – What latest polls say as early voting surges",
+      "link": "https://www.aljazeera.com/news/2026/10/31/us-midterms-3-days-to-go-what-latest-polls-say-as-early-voting-surges?traffic_source=rss"
+     },
+     {
+      "source": "Guardian",
+      "title": "Trump reverses decision to cancel Kansas and Iowa rallies before midterms",
+      "link": "https://www.theguardian.com/us-news/2026/oct/30/trump-midterm-rallies-kansas-iowa"
+     }
+    ]
+   },
+   {
+    "category": "financial",
+    "headline": "Oil majors' profits soar on Iran war",
+    "summary": "ExxonMobil's third-quarter profit more than doubled to $15.4bn and Chevron's nearly tripled to $9.9bn, driven largely by refining as fuel supplies tightened. The windfall comes as the war in Iran pushes up pump prices, despite Trump's criticism of Big Oil profits.",
     "sources": [
      {
       "source": "NPR",
-      "title": "Do you have seasonal affective disorder? How to tell — and what to do about it",
-      "link": "https://www.npr.org/2026/10/31/nx-s1-6023200/do-you-have-seasonal-affective-disorder-how-to-tell-and-what-to-do-about-it"
+      "title": "Oil company earnings skyrocket — again",
+      "link": "https://www.npr.org/2026/10/31/nx-s1-6008072/oil-company-profits-gasoline-diesel-prices"
+     },
+     {
+      "source": "CNBC",
+      "title": "Trump called out Big Oil profits. Here’s how much their refining earnings have surged since",
+      "link": "https://www.cnbc.com/2026/10/31/trump-big-oil-refining-profits.html"
+     },
+     {
+      "source": "OilPrice",
+      "title": "Chevron Profits Nearly Triple to $9.9 Billion",
+      "link": "https://oilprice.com/Latest-Energy-News/World-News/Chevron-Profits-Nearly-Triple-to-99-Billion.html"
      }
     ]
    },
    {
     "category": "notable",
-    "headline": "Oyster stocks have plunged in the Chesapeake. This resident wants to bring them back",
-    "summary": "Oyster reefs once abounded in the Chesapeake, but overharvesting slashed their populations, leading to poorer water quality and less habitat for other species. Now, researchers and local residents are finding creative wa",
+    "headline": "US approves $2.1bn Patriot missile sale to Ukraine",
+    "summary": "Washington approved the sale of 500 Patriot PAC-3 interceptors to Ukraine, the only effective weapon against Russian ballistic missiles. Zelenskyy welcomed the decision but warned that delivery could take years as winter approaches.",
     "sources": [
      {
-      "source": "NPR",
-      "title": "Oyster stocks have plunged in the Chesapeake. This resident wants to bring them back",
-      "link": "https://www.npr.org/2026/10/31/nx-s1-6011228/oyster-farming-conservation-chesapeake-bay"
-     }
-    ]
-   },
-   {
-    "category": "notable",
-    "headline": "Your writing was flagged as AI. What does that actually mean?",
-    "summary": "As editors turn to imperfect AI detection tools to weed out machine-generated submissions, writers who say they were falsely accused of using AI are left wondering what triggered a positive result.",
-    "sources": [
+      "source": "BBC",
+      "title": "US approves sale of 500 Patriot missiles to Ukraine",
+      "link": "https://www.bbc.co.uk/news/articles/c3vgxznlx7jzo?at_medium=RSS&at_campaign=rss"
+     },
      {
-      "source": "NPR",
-      "title": "Your writing was flagged as AI. What does that actually mean?",
-      "link": "https://www.npr.org/2026/10/31/nx-s1-5963520/ai-writing-detectors-pangram"
+      "source": "Guardian",
+      "title": "Ukraine’s Zelenskyy praises US over $2.1bn Patriot missile deal but warns it could take years",
+      "link": "https://www.theguardian.com/world/2026/oct/31/ukraines-zelenskyy-praises-us-over-21bn-patriot-missile-deal-but-warns-it-could-take-years"
+     },
+     {
+      "source": "Euronews",
+      "title": "Zelenskyy thanks US over deal for 500 Patriot missiles but warns delivery could take years",
+      "link": "https://www.euronews.com/2026/10/31/zelenskyy-thanks-us-over-deal-for-500-patriot-missiles-but-warns-delivery-could-take-years"
+     },
+     {
+      "source": "Arab News",
+      "title": "US approves $2.1 billion Patriot missile sale to Ukraine",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNRVZ0OEc5VTh1cWRobG1YZ1owZW1Id2hMT18tcFFtTm5LaEg4dUV0TXRJOGlPWDRRS1NBaUdSamVYaUJLWWtPOWswLWI3QlFmdWlldmV6U0hpRi00elF1b05mUWFIalBsamlBZm1FUG9sSDZqQkk1TXdsTWhDUmVRbWs2TEpNNXdQMFNOTHkwX1lZS0tMaW5KRQ?oc=5"
+     },
+     {
+      "source": "FT",
+      "title": "US approves $2.1bn sale of Patriot interceptors to Ukraine",
+      "link": "https://www.ft.com/content/321cf4f9-d236-4b50-a52c-c2a21f7c447b?syn-25a6b1a6=1"
      }
     ]
    }
   ],
   "uk": [
    {
-    "category": "notable",
-    "headline": "Florid language and long silences: five things we learned from week three of Russell Brand’s rape trial",
-    "summary": "The former comedian and his wife gave evidence in the case in which he denies all charges against him Russell Brand’s trial at Southwark crown court began with widespread media coverage on 12 October. The former comedian",
+    "category": "political",
+    "headline": "Burnham open to slavery apology but rejects reparations",
+    "summary": "At the Commonwealth summit in Antigua, where he and the King faced protests, Andy Burnham said he was open to a formal apology for Britain's role in the slave trade but ruled out reparations. He also plans a drive to restructure the debt of the poorest Commonwealth countries.",
     "sources": [
      {
+      "source": "BBC",
+      "title": "Burnham 'open' to calls for slavery apology but not reparations",
+      "link": "https://www.bbc.co.uk/news/articles/c5398239je88o?at_medium=RSS&at_campaign=rss"
+     },
+     {
       "source": "Guardian",
-      "title": "Florid language and long silences: five things we learned from week three of Russell Brand’s rape trial",
-      "link": "https://www.theguardian.com/uk-news/2026/oct/31/five-things-we-learned-from-week-three-russell-brand-rape-trial"
+      "title": "‘Reparations now’: King and Burnham face protests at Antigua Commonwealth summit",
+      "link": "https://www.theguardian.com/world/2026/oct/31/protests-expected-king-charles-reparations-slave-trade-commonwealth-summit-antigua"
+     },
+     {
+      "source": "Guardian Politics",
+      "title": "Andy Burnham open to calls for formal apology for Britain’s role in slave trade",
+      "link": "https://www.theguardian.com/world/2026/oct/30/andy-burnham-call-formal-apology-britains-role-in-slave-trade"
+     },
+     {
+      "source": "Sky News",
+      "title": "Burnham 'open' to slavery apology - as King continues Caribbean tour",
+      "link": "https://news.sky.com/story/king-arrives-in-antigua-and-barbuda-as-burnham-open-to-slavery-apology-13606019"
      }
     ]
    },
    {
-    "category": "notable",
-    "headline": "Relying on AI is rotting your brain. But here’s what you can do about it | Carly Dober",
-    "summary": "Each new tech product is designed to make our lives easier and keep us mindlessly entertained. Switch off: embrace discomfort – and boredom Ever longed for your own personal assistant? In the ever quickening tech race, M",
+    "category": "financial",
+    "headline": "Poundland on the brink of administration",
+    "summary": "The discount chain faces possible collapse after rampant inflation and price wars, and its US owners face questions about their conduct. Its fall would add further pressure to struggling high streets.",
     "sources": [
      {
       "source": "Guardian Business",
-      "title": "Relying on AI is rotting your brain. But here’s what you can do about it | Carly Dober",
-      "link": "https://www.theguardian.com/commentisfree/2026/oct/31/ai-rely-brain-new-tech-product-lives-boredom"
+      "title": "Poundland in peril: how rampant inflation and price wars left £1 stores exposed",
+      "link": "https://www.theguardian.com/business/2026/oct/30/poundland-peril-rampant-inflation-price-wars"
+     },
+     {
+      "source": "BBC Business",
+      "title": "How Poundland grew from a market stall to a high street giant",
+      "link": "https://www.bbc.co.uk/news/articles/cw07304l5je7o?at_medium=RSS&at_campaign=rss"
      }
     ]
    },
    {
     "category": "notable",
-    "headline": "Why politicians chasing economic growth is a lie | Radical Thinking with Aditya Chakrabortty",
-    "summary": "What if someone told you the truth about the economy? For years, governments have tried spending more, spending less, cutting red tape, Brexit, levelling up – and still failed to increase growth per person in the UK. So ",
+    "headline": "Police Scotland look into Andrew's Balmoral stays with Epstein",
+    "summary": "Police Scotland are making active inquiries into visits by Jeffrey Epstein and Ghislaine Maxwell to Balmoral at the invitation of Andrew Mountbatten-Windsor. The force stressed that its inquiries are at an early stage.",
     "sources": [
      {
-      "source": "Guardian",
-      "title": "Why politicians chasing economic growth is a lie | Radical Thinking with Aditya Chakrabortty",
-      "link": "https://www.theguardian.com/politics/commentisfree/audio/2026/oct/31/why-politicians-chasing-economic-growth-is-a-lie-radical-thinking-with-aditya-chakrabortty"
+      "source": "BBC",
+      "title": "Police Scotland carrying out 'active inquiries' into Andrew and Epstein Balmoral visits",
+      "link": "https://www.bbc.co.uk/news/articles/cqglwp088532o?at_medium=RSS&at_campaign=rss"
+     },
+     {
+      "source": "Sky News",
+      "title": "Police investigating Andrew's Balmoral stays with Epstein and Maxwell",
+      "link": "https://news.sky.com/story/police-investigating-andrews-balmoral-stays-with-jeffrey-epstein-and-ghislaine-maxwell-13603777"
      }
     ]
    }
   ],
   "europe": [
    {
-    "category": "notable",
-    "headline": "Cost of living protests to spread to Germany and reignite in France on Halloween",
-    "summary": "Activists call for people to make their anger known over poor public services including education and housing Street protests sweeping Europe are expected to spread to Germany and reignite in France on Saturday, with pol",
-    "sources": [
-     {
-      "source": "Guardian",
-      "title": "Cost of living protests to spread to Germany and reignite in France on Halloween",
-      "link": "https://www.theguardian.com/world/2026/oct/30/cost-of-living-protests-to-spread-to-germany-and-reignite-in-france-on-halloween"
-     }
-    ]
-   },
-   {
-    "category": "notable",
-    "headline": "Hundreds evacuated from Russian-occupied Oleshky during rare Ukraine ceasefire",
-    "summary": "Hundreds of people are also understood to have stayed in the front-line town, despite the dangers.",
+    "category": "political",
+    "headline": "Poland's court crisis brings riot police to Warsaw",
+    "summary": "Donald Tusk's government suspended the constitutional court's chief judge and another senior justice, prompting clashes between protesters and police and accusations of a coup from President Nawrocki's camp. The dispute marks a sharp escalation in Poland's long-running battle over the rule of law.",
     "sources": [
      {
       "source": "BBC",
-      "title": "Hundreds evacuated from Russian-occupied Oleshky during rare Ukraine ceasefire",
-      "link": "https://www.bbc.co.uk/news/articles/c60me298k1yeo?at_medium=RSS&at_campaign=rss"
+      "title": "Police deployed during stand-off over control of top Poland court",
+      "link": "https://www.bbc.co.uk/news/articles/crz9824d5e88o?at_medium=RSS&at_campaign=rss"
+     },
+     {
+      "source": "Guardian",
+      "title": "Riot police deployed to Poland’s constitutional court after judge suspended",
+      "link": "https://www.theguardian.com/world/2026/oct/31/riot-police-deployed-to-polands-constitutional-court-after-judge-suspended"
+     },
+     {
+      "source": "Politico Europe",
+      "title": "Tusk-Nawrocki battle escalates as chief judge is ousted from Poland’s top court",
+      "link": "https://www.politico.eu/article/tusk-nawrocki-battle-escalates-chief-judge-ousted-from-polands-top-court/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication"
+     },
+     {
+      "source": "DW",
+      "title": "Poland: Protesters clash with police over sacked court chief",
+      "link": "https://www.dw.com/en/poland-protesters-clash-with-police-over-sacked-court-chief/a-79813882?maca=en-rss-en-all-1573-rdf"
+     },
+     {
+      "source": "Euronews",
+      "title": "Polish president turns back mid-flight amid court 'coup d'état' claims",
+      "link": "https://www.euronews.com/2026/10/30/polish-president-turns-back-mid-flight-amid-coup-detat-allegations"
+     },
+     {
+      "source": "FT",
+      "title": "Poland suspends top judges as battle over rule of law escalates",
+      "link": "https://www.ft.com/content/1be69ebe-0c55-446e-9abf-84ac9e99c51e?syn-25a6b1a6=1"
+     }
+    ]
+   },
+   {
+    "category": "financial",
+    "headline": "Euro zone grows 0.4% as France contracts",
+    "summary": "The euro zone economy expanded by 0.4% in the third quarter, showing surprising resilience, but crisis-hit France shrank. Fitch has cut France's outlook over doubts about its ability to repair its public finances.",
+    "sources": [
+     {
+      "source": "CNBC Economy",
+      "title": "Euro zone economy slows to 0.4% growth in Q3 as crisis-hit France contracts",
+      "link": "https://www.cnbc.com/2026/10/30/euro-zone-gdp-france.html"
+     },
+     {
+      "source": "Euronews",
+      "title": "France aims for 'responsible' 2027 budget as Fitch downgrades outlook",
+      "link": "https://www.euronews.com/2026/10/31/france-aims-for-responsible-2027-budget-as-fitch-downgrades-outlook"
      }
     ]
    },
    {
     "category": "notable",
-    "headline": "Kärcher boss: Less regulation, more action to get Europe and Germany fit again",
-    "summary": "Kärcher, best known for its pressure washers, recorded €3.5 billion in sales in 2025 and employs 17,000 people worldwide. Its CEO warns of a 'perfect storm' and calls for a fitness plan for Germany and Europe.",
+    "headline": "Spain mourns 69 killed in high-speed train crash",
+    "summary": "Two high-speed trains collided in Toledo province, killing at least 69 people, and the transport minister has rejected calls to resign. The disaster has upended next month's snap election for Pedro Sánchez.",
     "sources": [
      {
-      "source": "Euronews",
-      "title": "Kärcher boss: Less regulation, more action to get Europe and Germany fit again",
-      "link": "https://www.euronews.com/2026/10/31/karcher-boss-less-regulation-more-action-to-get-europe-and-germany-fit-again"
+      "source": "BBC",
+      "title": "Spain train disaster clouds Sánchez chances of re-election",
+      "link": "https://www.bbc.co.uk/news/articles/cmeweppr990qo?at_medium=RSS&at_campaign=rss"
+     },
+     {
+      "source": "Guardian",
+      "title": "Battle lines redrawn in Spain’s snap election after latest train disaster",
+      "link": "https://www.theguardian.com/world/2026/oct/30/battle-lines-redrawn-spain-snap-election-train-disaster-pedro-sanchez-psoe-pp-vox"
+     },
+     {
+      "source": "France24",
+      "title": "Spain working to identify train crash dead as relatives' anguish grows",
+      "link": "https://www.france24.com/en/video/20261030-spain-working-to-identify-train-crash-dead-as-relatives-anguish-grows"
      }
     ]
    }
   ],
   "middle_east": [
    {
-    "category": "notable",
-    "headline": "Houthis continue attacks on Saudi Arabia, US removes non emergency personnel",
-    "summary": "",
+    "category": "political",
+    "headline": "Israel's election ends in deadlock",
+    "summary": "Netanyahu's coalition lost its majority as Arab-led parties won an unprecedented 19 seats, leaving neither bloc with a clear path to power. Likud has alleged foreign interference, and a fresh election is possible.",
     "sources": [
+     {
+      "source": "BBC",
+      "title": "Israeli opposition accuses Netanyahu of trying to 'delegitimise' election",
+      "link": "https://www.bbc.co.uk/news/articles/ckdd8qdl9e0eo?at_medium=RSS&at_campaign=rss"
+     },
+     {
+      "source": "Guardian",
+      "title": "‘You need the power of all your votes’: Bedouin women secure success for Arab parties in Israeli election",
+      "link": "https://www.theguardian.com/world/2026/oct/31/bedouin-women-success-arab-parties-israel-election"
+     },
+     {
+      "source": "France24",
+      "title": "Israeli election: 'Netanyahu did not win, he lost dramatically,' former PM Barak says",
+      "link": "https://www.france24.com/en/tv-shows/t%C3%AAte-%C3%A0-t%C3%AAte/20261030-israeli-election-netanyahu-did-not-win-he-lost-dramatically-former-pm-barak-says"
+     },
+     {
+      "source": "Arab News",
+      "title": "Israel may face new election in Knesset deadlock",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPazNXejdVZmZzMDNOZHg4dENpLVhLZmV4UDV2bGV6NTZCbi1ZWElwd00tQWVuTWdFQ0pIbm42MF9ZWnVYSkpRZllZdHY1TWt1SkhpWnNGLXFvNjRXdXVsS2tUd0MxS1ZmNjJNZnRGOTRHYlNWSW5hS0N0RmxrcmZDUHZ6b1JUeFB3a1hUV0JXdUt5dndKSmJOWQ?oc=5"
+     }
+    ]
+   },
+   {
+    "category": "financial",
+    "headline": "S&P forecasts 15% jump in Qatar's economy in 2027",
+    "summary": "S&P expects Qatar's economy to grow by 15% next year as its gas sector recovers. The forecast comes as an IISS report warns that Gulf states must rethink their trillion-dollar defences after the damage inflicted by the US-Iran war.",
+    "sources": [
+     {
+      "source": "The National",
+      "title": "Qatar's economy to jump 15 per cent in 2027 on gas sector recovery, S&P says",
+      "link": "https://www.thenationalnews.com/business/economy/2026/10/31/qatars-economy-to-jump-15-per-cent-in-2027-on-gas-sector-recovery-sp-says/"
+     },
+     {
+      "source": "Guardian",
+      "title": "Gulf states must rethink trillion-dollar defence in light of US-Iran war, says report",
+      "link": "https://www.theguardian.com/world/2026/oct/30/gulf-states-rethink-trillion-dollar-defence-us-iran-war-iiss-report"
+     }
+    ]
+   },
+   {
+    "category": "notable",
+    "headline": "Houthi drones and missiles keep targeting Saudi Arabia",
+    "summary": "The Saudi-led coalition intercepted Houthi drones over Riyadh, Madinah and the oil-rich Eastern Region, and debris from one interception injured a resident in Riyadh. The US has withdrawn non-emergency personnel as the attacks continue.",
+    "sources": [
+     {
+      "source": "Al Jazeera",
+      "title": "Are Houthis using Russian satellites as Saudi Arabia fends off strikes?",
+      "link": "https://www.aljazeera.com/news/2026/10/31/are-houthis-using-russian-satellites-as-saudi-arabia-faces-hits?traffic_source=rss"
+     },
+     {
+      "source": "Arab News",
+      "title": "Houthis target Aden airport and Maashiq Presidential Palace with ballistic missiles",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQeDVNV1lyZElMNFZoc1BnR0NxTkUxVmpxWnZvUGFRSmNmSzktLU10dFdFME4wZmZNY3I5ZmhVU3YwRXRQMUlsLXdNZWIzZHBSeXBOYWFVdXY3d1JNNVJ1aXlnRGF1QzlVMlQ0ejZtVi1JU2x3Qm4wa3UxUDlnYnNCVU15NTdDTk5fbktfWEsxb0VZU0NJRjVrNTRGbFdDemtvN0t0LUhUSFgzTmNKMzkzbnpkTzhheTFkWEFRcmdXZkNieGJ4b0tF?oc=5"
+     },
+     {
+      "source": "Anadolu Ajansı",
+      "title": "Saudi-led coalition says it intercepted 'hostile' drone over Riyadh region",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOYjNVVWFTbTl6a19rQ3VxTDRNQnJWWnAtb1FYSTNkbGJaZ2JUNjl0bFFiRC0tdEFxRHZESmVlSWlRdzNmb3V3UUsyMTZFcldlWkM0d0RMQzlJSFgwYTgzeTh2MVZneldUc3FHWFBqMU94N1k4ZjV6OThyUlBFR09TVHdLMFdYNmNPbDEyOFFrVWtXaGE2eXhyVjFPUmh1blRLeG0zMFhuRms3Tjd5bHd2Yy1aWFBBdV9E?oc=5"
+     },
      {
       "source": "The Arab Weekly",
       "title": "Houthis continue attacks on Saudi Arabia, US removes non emergency personnel",
       "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPUHZBOXRUZk9ybkM5VzdjeUJwZE84SjNXMjgzRE9GRThIZ1BzQXNtS3VYWjRrYnloTExZRWdmOWRsamVVeUNmc0VkZ29xekYwQ0xPVjZkNXFzZ2pvSWJHN0pQVXY2RGdYOUVyZkprNmtaZzgyUEVVR2VMVUU4MW10cFYyMHN4WnpBendzdGEzQlo4MHpETmk3anhCX1ZuT2M?oc=5"
-     }
-    ]
-   },
-   {
-    "category": "notable",
-    "headline": "Alex Marquez could skip Qatar MotoGP amid surgery reports",
-    "summary": "",
-    "sources": [
+     },
      {
-      "source": "Crash.net",
-      "title": "Alex Marquez could skip Qatar MotoGP amid surgery reports",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNajlJaXh0VG9BYXU5ZDRrY1NaOHVyRjBZY3hzSUE2TVlyNHBEN0FqNzlFUWRWdHVMZDR0S3BvSlNCOEJEVGEtaWxNS0hGTU9HdmhycGJMc0I5Y2hMM0h5NmVQTm1rSmp6dlk2R2hkV2xRZ0Y3NU5nSjZfdno4c0NPYzdhY1VQSHNYS0JjNy1ma0pLOThTR2ZTaG9KZjc0UFl3Vndv?oc=5"
-     }
-    ]
-   },
-   {
-    "category": "notable",
-    "headline": "A UN protection force must be urgently deployed to Palestine",
-    "summary": "Israel is making Palestinian existence in Palestine increasingly impossible.",
-    "sources": [
+      "source": "Reuters",
+      "title": "Saudi-led coalition says it downs drone over oil-rich Eastern Region",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPdTZlcVd4TG9tTWJjN0dRNEZ4enV5NHc1bGpzWnZjSjVwcGhuM3M3V2pERWNoNW9QLVFzTE9uVXhJb1lBOWFmMEhCRVZNeFdZX0ZFR21LcnlTLTRwemdlTzZ2OHlidndqVEJKaXJEMDRuVEo1V0xMVlpwWVF3LWVOTmJuOHAyTG9RTFhhUW9mcXVRR0N2dXJxQVRqdVVQQnZqdHFRdVdiZ1dvVzFrWWhHai1JSFhsdzhVcjlCU05IVXg?oc=5"
+     },
      {
-      "source": "Al Jazeera",
-      "title": "A UN protection force must be urgently deployed to Palestine",
-      "link": "https://www.aljazeera.com/opinions/2026/10/31/a-un-protection-force-must-be-urgently-deployed-to-palestine?traffic_source=rss"
+      "source": "Middle East Eye",
+      "title": "Saudi-led coalition forces intercept Houthi drone over Riyadh region",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxObTFhMF9KYUV5VFZLaUtIREREZUZnakg4T25tY3cwRXcwOFBpQVhSUWRMaEZSd0x5a3MwVzFwWExqMlJCZnU1NXl1clBBZnM4U09tQlR2a0pRSTVLYlhFbW5mVC1lNnA3ZU9vdzIyeU5fcTNKMVkwMHBjX1VRT25LRzhOMWFUWXVmLXc3OGxTQllSajQwdUQ0Q2hWOVlLbEJaYlY0TEVVRGhuOFVieGU2SWVBMkFSZXNPYzR2Y3FDMEJCd1E?oc=5"
      }
     ]
    }
@@ -888,37 +1127,82 @@
   "energy": [
    {
     "category": "energy",
-    "headline": "The nuclear industry is set to melt up – here’s what to buy",
-    "summary": "",
+    "headline": "Government approves £3.2bn Sea Link cable",
+    "summary": "The government has granted a Development Consent Order for National Grid's Sea Link subsea cable between Suffolk and Kent. The link is a major milestone in strengthening Britain's transmission network.",
     "sources": [
      {
-      "source": "MoneyWeek",
-      "title": "The nuclear industry is set to melt up – here’s what to buy",
-      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOakhsUl9yV1hGSUlnQTVXZXlDeTBiQWcyV2sySXVnSXBiTHlzVXl2WWVpaEhyLXd4X0JVQWhuNEw3aXFnNndtb3BUcTRhNGJkTURnS2Y3a3JFWW1pT3hmckNPY0Y4NGhJZ0Mxdl9DcFJnWERwSDdGS3hMVUJsNVFMaTN5SDc2Nk85elR1LWl3?oc=5"
+      "source": "Utility Week",
+      "title": "Government green lights £3.2bn Suffolk to Kent offshore link",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOeUl5Nmh3VVN3ZmNuRmFINEVSZlZsZ29vS3ExRUZjM2JwTUZKLU1lU1R5dmx4TXNYbGRTX2V2UHNLU1l1R3l5Nlg5Si16VTZzOFFfd25uSUxfdUNLRlVHMFA0cllqSGFCYW44X2hnQTdGWVY1Y0xpN0pWeHJJaDRwX19SNG4zSmRCZkJiMkVHWdIBmwFBVV95cUxPRkczWmtIOWN2U2V2VjB5VDJrWmtYZHdpejJoaTgydHkzeHlzem5nTVFfLWREZDN0OVZhcmJ0Q0o3WXJ5UGFoSFFaMHNfdHNuU0ZRaW1nU0s1MF8zOTJEUk1qM1luOXJSdFhiWHJVeHAxX1RrcTlFci1iYTFTQjl3X1JwRmFPa0FxTC1UaDJvbXRuWlRVLVZ1d0dTMA?oc=5"
+     },
+     {
+      "source": "National Grid Group",
+      "title": "Major milestone as Secretary of State grants Development Consent Order for Sea Link",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOTW03SjhiZkliazdnTWMxUEFKeHJ0c3FRWHI4ekZwcXVPYmxnSHZOX0I3U2N4emVGckVRN29zQWxKeS16cEpsc3JYZkdsU054bGExMnBVdXJNMW1lYUhhdkpGT0RJOHlfWXJnRU5VZUVUZi1jQ05zeTI4dmRocW5EelJzZldqT2FkekhGV29QbVJsN01Ia3E1RnJoc3NaRUwtcGVHRQ?oc=5"
+     },
+     {
+      "source": "The Isle of Thanet News",
+      "title": "Secretary of State grants permission for National Grid Sea Link development between Suffolk and Thanet",
+      "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNdV9KSDNnc1FhVDc5LWVjWTVCbkpSUkFNSFlZVENjUjFXN0JjOTRKNVZmQmM4ekoxZGlibDhGbFd4bXBRMXBpQ2FWUnFRZDBYTk9abGx4RFFUVmhzZ01kbE4zUFRXc0lPQ1dtQTJhR2xtZDlob2RicTlWaGZoTHpwZGZEVG1EbmNBOWhEZXZYSzlFWU5VZFQ1bTVEWkZDMW1hSjNWSi1XaW5IMXVzUnVSUG8yRWpYdHAyVmhJdk00VGR6ck9sZ0F2dEQ5bDc2U1hIQ01Ob0hJa0xHZDVGeTI4?oc=5"
+     },
+     {
+      "source": "New Civil Engineer",
+      "title": "DCO for National Grid’s Sea Link subsea cable project approved by government",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNR0RRbGJoV2RRaFlXNTdwV0Q4S3dzVmdDUjMtTjVmODVtdnRaX0JhNlB4ZGZSbHBveXZHOXVoX3lJR1Nvc0NlSFkycGxfbEVma3lmZHFjNzU0ZnM4WGk1dVJ2MzhKbHhWNUMtblZGN2gzMVp2SS1jaEpZMFAxWmwyM3Bkb0d3TGYzUnpCZlptREYxN0ppb3Z3UFVxb3lLeVlCOW1rcEhkRU5mZ0hfUS1SUE9STWRrbnZaZ0gxTmItdTNMSVdSNXc?oc=5"
+     },
+     {
+      "source": "BBC",
+      "title": "Government approves Sea Link cable between Kent and Suffolk",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1FdmJiR1VtLU9EVnFLUHk4Wm4wZGl5b25mZ1poaFR4MUpWUkxyRmZxOFdrZURxeEF2MkptRVU0UVJ4RkpwX2lNREJXQ1ZfZ3BhRDlZT1RTX1FkV1p6M2c?oc=5"
      }
     ]
    },
    {
     "category": "energy",
-    "headline": "Poland opens $304m offshore wind terminal at Gdansk",
-    "summary": "",
+    "headline": "Hormuz attacks push Brent towards $120",
+    "summary": "Attacks on ships in the Strait of Hormuz in October were the highest since the war began, and Oman rescued 25 crew from a burning tanker. Traders are bracing for volatility amid fears of renewed US-Iran hostilities.",
     "sources": [
      {
-      "source": "Splash247",
-      "title": "Poland opens $304m offshore wind terminal at Gdansk",
-      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBKNmpYWVVNZS1wLThtalZBVVRNVmMzc3JBOWd4NTU3QjFyWTY2d1VQbFVyZFZlR2RnNEViOHotVnl0SXpEQ011ZW02bUViaC1ZOHhOaTRXVjNvamk1TmZyQVQ0SXlCcks3bzVrakVtck81amsxUGZZSDZsWjBOdw?oc=5"
+      "source": "OilPrice",
+      "title": "Brent Hits $117 as Tanker Catches Fire in Strait of Hormuz",
+      "link": "https://oilprice.com/Latest-Energy-News/World-News/Brent-Hits-117-as-Tanker-Catches-Fire-in-Strait-of-Hormuz.html"
+     },
+     {
+      "source": "The National",
+      "title": "Attacks on ships transiting Hormuz in October highest since start of war",
+      "link": "https://www.thenationalnews.com/news/mena/2026/10/31/attacks-on-ships-transiting-hormuz-in-october-highest-since-start-of-war/"
+     },
+     {
+      "source": "Al Jazeera",
+      "title": "Oman rescues 25 from burning oil tanker in Strait of Hormuz",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQSmtrMGdTY1l0TXhmX2xJcFdJRllzTXpsT0lSSFhhbWQ2Y3NPbUhLSTByYVdFaU1MdmJuVTA0UWRoNjF2TlBYWjBNWk1fYmhhV0dMRzg2b2RJblNabTVXREhvVkFXaFRtYzJ3T0ZaNU4zNWNkQ3ZRRVU2THhmeEE1OEJ6bE4zU3o0MXQtekFiNXg2andqVnFEWTFRLVhYX2xHVGp30gGoAUFVX3lxTE9GV3BYaG9nbDM0LWQyOWduOXZIeV9nWVl6NGR6cVlqLTB4cHdFWkV3U2NQTjRhNGpkSnF5QWQ4RFhVV0JvRTNVRUo4SmVWZHI1Vll3emlOTWRkQUd4bHdpNmZubGg4WEhRYzloYXNQUVZ4ZVFtTHVhbW9JMlNLOV9ncFRZNGlSdmVvWEhMTkN6emJ0QlEzYU13bzFqSHYwOHBDSHRUZUxjcw?oc=5"
+     },
+     {
+      "source": "Arab News",
+      "title": "Omani Navy: 25 Crew members evacuated from ship off Musandam",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOYkc3UUJ5Rkc1QlMtMWlUdlRjOGxFUGN4Nm5yMjIzYTlBWXFyZ1E4UElPZHVCNnV4SG1lODVUM0J0SktNN05vdmpFQkZ3LU5xLUN5emxRd0NOSHFxRTFyb0p3SUNYV0dIWWhidU1OX0swWHRrVFE5S0ZqaE9iaXM4NUtoODRNSVpQZTBuZW5CQ1kxYjRvWVZpcXRNajNKOV9KbHpOd1Z2NA?oc=5"
+     },
+     {
+      "source": "DW",
+      "title": "India news: Tanker carrying 27 Indians attacked in Strait of Hormuz",
+      "link": "https://www.dw.com/en/india-news-tanker-carrying-27-indians-attacked-in-strait-of-hormuz/live-79814329?maca=en-rss-en-all-1573-rdf"
+     },
+     {
+      "source": "WSJ",
+      "title": "Oil Futures Fall as Market Holds Out Hope for Middle East Diplomacy",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNeklkQ3dLbGJfaEt1ZDNyR3BZbk5JcjlJWVNEVnRrSVFudjJsOFA1S20zSlNxdVpoVkFJM1liUUdaTXExS25HTzFnUFYxWUNkWUFTVU9mODVlX3VwOGdzRGJEdHUzQzhyekVZeUhmN1RTTUhMM05peURpTFBRTFcyZ3RyX2dRT1lDT3k5YmtWeHRhYTJGdWNqWFRXZFVJMWMxMlM3YWcyZWlMZHV5SGc?oc=5"
      }
     ]
    },
    {
     "category": "energy",
-    "headline": "New policy may curtail Scottish offshore wind farms",
-    "summary": "",
+    "headline": "European gas tops €101 for the first time since 2022",
+    "summary": "Europe's benchmark gas price rose above €101 per megawatt-hour as winter looms and storage levels are historically low. Higher prices threaten energy bills across the continent, including in the UK.",
     "sources": [
      {
-      "source": "Daily Business",
-      "title": "New policy may curtail Scottish offshore wind farms",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNY0RjTlUybVJCV3NDV1NIUEJfeE9kUmh4c2E1T1F0ZV9UZHNyVXN2SWtualQweFM3dEtLckR1S2hDSl92NEZyOW5XLUplY1JDUTVrZVd2RXQ0ZlF5QXo2S0NXOEVLdWV3UjZiZFN6blJJQUlBLWptMmRxMWs5LUswMFBpM09Tb2p5cVhISjZYM3BXMnN2SGRYWA?oc=5"
+      "source": "OilPrice",
+      "title": "European Gas Tops 101 Euros for First Time Since 2022",
+      "link": "https://oilprice.com/Latest-Energy-News/World-News/European-Gas-Tops-101-Euros-for-First-Time-Since-2022.html"
      }
     ]
    }
@@ -926,37 +1210,67 @@
   "ai": [
    {
     "category": "ai",
-    "headline": "The future of the firm",
-    "summary": "",
+    "headline": "OpenAI cuts its funding target by $10bn",
+    "summary": "OpenAI is now seeking about $20bn at a $1.25tn valuation, tempering its ambitions as tech anxieties mount. The WSJ reports it raised less than half of its original $30bn target.",
     "sources": [
      {
-      "source": "OpenAI",
-      "title": "The future of the firm",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBjWGg5TktPMGtkSmtIVjRPM3c5ek1TcUtpOTBYaGFLYzBoZ1pLQkNLRDQzSHhuRkZkcFUycHFlV04yRlREeHdFX1pJVEhfVW5OUGIxUG5fUGlJR3Yw?oc=5"
+      "source": "FT",
+      "title": "OpenAI slashes funding target by $10bn as tech anxieties mount",
+      "link": "https://www.ft.com/content/7a3ad950-1b3b-4d9e-8c15-65a61ae6180f?syn-25a6b1a6=1"
+     },
+     {
+      "source": "Reuters",
+      "title": "OpenAI slashes funding target by $10 billion amid tech rout, FT reports",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNTWw3N0l5dm5KUi1FQmllTEpEeUdkY1k5TVlFNTlnWWFlbTgtdUJfZE9RMjZiQlJEVXU2VFo2blVaWk1MZzNYMm9OYmdrSngtSk02YnhKNDdVMVZkS3hIMHpWZ2dnRjJZWjBzQ0lFRU4ySFFUQzdTdnUzN3JETGtCYlo3Y3kxeGJseG5veVJMSVVCRDVPYzB3TXQyaFE?oc=5"
+     },
+     {
+      "source": "WSJ",
+      "title": "OpenAI Raises Less Than Half of $30 Billion Target in Latest Round",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQTW9TMmVsZkc2b05TYkloVW41X050RjdtZ1F5U01TRnJOSEthYTJpcDdPWVhJb0FvRGEteHgtbVhSS0lOVEZ3T2N5MTNpSUNWNXpETThZR0RvcFQwY2Q5R3ctRUFvM1ZtdFdMaXhGSnpPM2FiLUhORXNrem84cUpfVGpuQ0VmaGNsZUlxUVQ0dk4zQUE2cWFzUk8yM1R3cjc3dEczVw?oc=5"
      }
     ]
    },
    {
     "category": "ai",
-    "headline": "Anthropic IPO Impact on Commonwealth Bank of Australia",
-    "summary": "",
+    "headline": "Anthropic faces a likely junk credit rating after its IPO",
+    "summary": "Blackstone expects Anthropic to receive a 'high' junk rating rather than investment grade, a shift from previous guidance. That would make it harder and costlier to fund its massive spending.",
     "sources": [
      {
-      "source": "Business Chief",
-      "title": "Anthropic IPO Impact on Commonwealth Bank of Australia",
-      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQTHBNZzR0Y1VDMjR6RjFXdzVYMWJfTElYb0lEX3NOVmtzRThvZWhjYWs1N3pma0xUY3U5OE9lR2JQRkJYVktnb3JNRE9QanJfSkVYeGl4U1dqWGVhOFdvSXdacWZHbUNzUTBoWnlyRmpjZWRqak9sal9kWkNaQ2RYVHF4MERsSllOV2ZVNDhB?oc=5"
+      "source": "FT",
+      "title": "Anthropic may not secure investment-grade rating after IPO, Blackstone says",
+      "link": "https://www.ft.com/content/59383c7f-8d82-493f-bf01-d2e862a1018f?syn-25a6b1a6=1"
+     },
+     {
+      "source": "TechCrunch AI",
+      "title": "Anthropic expected to receive high ‘junk’ rating from credit agencies following IPO, FT report says",
+      "link": "https://techcrunch.com/2026/10/30/anthropic-expected-to-receive-high-junk-rating-from-credit-agencies-following-ipo-report-says/"
+     },
+     {
+      "source": "TechCrunch",
+      "title": "Anthropic expected to receive high 'junk' rating from credit agencies following IPO, FT report says",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOVXpfTXdqVDgtSDYzSkp0TmVFdW5yZ0lyRXdfNk9tdHY3d05BQzdvZ1ZLRXEyQ2FuWkdCRF9SRnBhNTFMRG5fN0VKT0tVUVNXZm92clZwOEh0Z2NPYlhRQWhxT1FZTWhkTmM1a2dOdFpvaU00UmY4S1lNWEEycnpZNjlzdWtubWpLWmEwQS1rRHNFWTBXRzdtWVNjQWlqaU1CazVYM01VcktOdDdJcFJkazdjSUVkVV9fUDJhaFIzVEFNV292QlJz?oc=5"
+     },
+     {
+      "source": "CNBC",
+      "title": "The big questions remaining after Anthropic’s blockbuster IPO prospectus",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9VYXRVZG52ZU8wZ183VXZkS192WXFoWm5uRm0wNE1PZFZBblEyTklTWnZodHhNVUIyZlNaZGI1Y2xRaGJqZ3FTSVplcjNaM2tZVzF6UlNpRTd4S0dlQzVrak5jOHFQN2tfdkpMalkzWXlvVjl5T0hpb9IBfkFVX3lxTFBsbUVyNW9GLVlJZ3dpSHl2MXVZa0pxdDRiN2FnakZCa3lwVDJFOXdiSW9iYTh3UnhOZ0xhYklQSnJXVmoxaGpwckIyNzkzWm9hTVhVOFBrZTFHbnV5LWVBcFdiRGFqMXUyRXZXNjM5Z1ZNVXdiR1E3eFlzLU04Zw?oc=5"
      }
     ]
    },
    {
     "category": "ai",
-    "headline": "Will Anthropic Soar After Its IPO? History and SpaceX Offer an Answer That’s Strikingly Clear.",
-    "summary": "",
+    "headline": "AI giants back a new standard for opting out of scraping",
+    "summary": "OpenAI, Google, Microsoft and Anthropic say they will adopt a standard that lets publishers opt out of AI scraping. It offers content owners more control as copyright battles continue.",
     "sources": [
      {
-      "source": "The Motley Fool",
-      "title": "Will Anthropic Soar After Its IPO? History and SpaceX Offer an Answer That’s Strikingly Clear.",
-      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPVHd1Q2pPclZWR1FnTjdRelM3dnpIQTNCU1hoNkdqemJaRVZ1UmdiTzM2alZBeGF1UUJZYkVJOXpqVTR1TE5xeXJVaVdORFZQNE9wdEJBVTBadV9VclYyY0VVOWVtSmdMYzFBUGtBY3dFVy1kemxXQjlmRmllOU5rM29IT3A5SmN0WXFiY29pczJiZVNsaGdoZmEzSmRJQkxkUXNSM0hPWGZzVW9mX1dTVTV1Q2MwcVkzamhBUjFsdVBoRS1FaVpwSlc1ekFfdUQ0?oc=5"
+      "source": "The Verge AI",
+      "title": "The biggest names in AI are backing a new way to opt out of scraping",
+      "link": "https://www.theverge.com/tech/1023763/openai-google-microsoft-ai-scraping-standard-opt-out"
+     },
+     {
+      "source": "SiliconANGLE",
+      "title": "Google, Anthropic and others to support new AI crawling opt-out standard",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOTU1QMktQeEhFWklOeXpIQVhHVWxCbGY3WEpSLUJpR2s3RG0zTFIzckVCa0JncDdhdHRRaUxiLWh4Qkk3V25fczRwODliV3FpNkt5QU1TVzFjak10aW96Z2ZZMFlQWmw0SzlQdGNNejB1SGFyU0FzUjdEbHA0bHNHX3NON2h5VE5rRVpOTVJ0QmFwTmZHYWN5N0d2eXZUNGc5dGh2SVQweUhVWjhS?oc=5"
      }
     ]
    }
@@ -964,44 +1278,89 @@
   "tech": [
    {
     "category": "tech",
-    "headline": "Pile-ins, payouts, and pacing pressure: the investors behind the VCs open up",
-    "summary": "The money behind the money is thrilled, mostly.",
+    "headline": "North Korea blamed for record $6.3bn Binance hack",
+    "summary": "Hackers linked to North Korea are suspected of stealing $6.3bn from Binance after compromising an employee's laptop, in what may be the largest theft in history; Binance says it will cover customer losses. The heist has revived calls for crypto regulation and highlights how theft funds Pyongyang's nuclear programme.",
     "sources": [
      {
-      "source": "TechCrunch",
-      "title": "Pile-ins, payouts, and pacing pressure: the investors behind the VCs open up",
-      "link": "https://techcrunch.com/2026/10/30/pile-ins-payouts-and-pacing-pressure-the-investors-behind-the-vcs-open-up/"
-     }
-    ]
-   },
-   {
-    "category": "tech",
-    "headline": "Why North Korea's 'elite' hackers are the prime suspect in major Binance hack",
-    "summary": "If the accusations are true, the record-making heist shows how powerful suspected North Korean hackers have become.",
-    "sources": [
+      "source": "Guardian Business",
+      "title": "North Korea is likely culprit behind $6.3bn crypto hack, ‘largest heist in history’",
+      "link": "https://www.theguardian.com/business/2026/oct/29/binance-crypto-exchange-hack"
+     },
+     {
+      "source": "DW",
+      "title": "Binance crypto exchange suspends trades over North Korea-linked hack",
+      "link": "https://www.dw.com/en/binance-crypto-exchange-suspends-trades-over-north-korea-linked-hack/a-79803280?maca=en-rss-en-all-1573-rdf"
+     },
+     {
+      "source": "The National",
+      "title": "How the Binance heist raises regulatory and investment questions",
+      "link": "https://www.thenationalnews.com/business/markets/2026/10/31/how-the-binance-heist-raises-regulatory-and-investment-questions/"
+     },
+     {
+      "source": "CNBC",
+      "title": "Binance hack: Investigators in a 'cat and mouse game' to recover $6.3 billion in stolen funds",
+      "link": "https://www.cnbc.com/2026/10/30/binance-hack-stolen-crypto-recovery.html"
+     },
+     {
+      "source": "BBC Business",
+      "title": "Crypto giant Binance attempting to recover $6.3bn stolen in hack linked to North Korea",
+      "link": "https://www.bbc.co.uk/news/articles/cwe8lp7zy07zo?at_medium=RSS&at_campaign=rss"
+     },
+     {
+      "source": "FT",
+      "title": "$6.3bn in 30 minutes: how the world’s biggest heist unfolded",
+      "link": "https://www.ft.com/content/e84eceda-040b-4e5f-b906-09768085933a?syn-25a6b1a6=1"
+     },
      {
       "source": "BBC Tech",
       "title": "Why North Korea's 'elite' hackers are the prime suspect in major Binance hack",
       "link": "https://www.bbc.co.uk/news/articles/ck9dz3v7z7v3o?at_medium=RSS&at_campaign=rss"
+     },
+     {
+      "source": "TechCrunch",
+      "title": "North Korean hackers blamed for stealing record $6.3B in Binance breach",
+      "link": "https://techcrunch.com/2026/10/30/north-korean-hackers-blamed-for-stealing-record-6-3b-in-binance-breach/"
+     },
+     {
+      "source": "Ars Technica",
+      "title": "Hackers steal $6.3 billion from Binance in record crypto heist",
+      "link": "https://arstechnica.com/security/2026/10/hackers-steal-6-3-billion-from-binance-in-record-crypto-heist/"
      }
     ]
    },
    {
     "category": "tech",
-    "headline": "Once again, NASA is asking for ideas to rescue Hubble from certain death",
-    "summary": "The space agency solicited ideas for reboosting Hubble four years ago, but they didn't go anywhere.",
+    "headline": "Google loses $500bn in value as AI search hits ad sales",
+    "summary": "Google's shares fell to a six-month low after it revealed that its own AI search summaries were affecting advertising revenue. The admission raises questions about whether AI cannibalises its core business.",
     "sources": [
      {
-      "source": "Ars Technica",
-      "title": "Once again, NASA is asking for ideas to rescue Hubble from certain death",
-      "link": "https://arstechnica.com/space/2026/10/think-you-can-save-the-hubble-space-telescope-nasa-wants-to-know/"
+      "source": "BBC Business",
+      "title": "Google value plunges by $500bn as its own AI search hits ad sales",
+      "link": "https://www.bbc.co.uk/news/articles/cm9qzdqpxy48o?at_medium=RSS&at_campaign=rss"
+     }
+    ]
+   },
+   {
+    "category": "tech",
+    "headline": "Meta hit by S&P outlook cut and CMA probe",
+    "summary": "S&P gave Meta a negative outlook over its hefty capital spending and free cash flow concerns. The UK's Competition and Markets Authority has also opened an investigation into Meta's commercial terms.",
+    "sources": [
+     {
+      "source": "CNBC",
+      "title": "Meta outlook revised downward by S&P on cash flow and capex concerns",
+      "link": "https://www.cnbc.com/2026/10/30/meta-outlook-to-revised-to-negative-by-sp-after-cash-flow-negative.html"
+     },
+     {
+      "source": "GOV.UK",
+      "title": "CMA opens investigation into Meta’s commercial terms",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPUkNSV01Kc3FVdFhuYkFteFpXbUl2QXlVOFVLY0MtQ0xkd1VBU20zaExQWEw3clg5ZXRKR1RpVVFyVEltaUVudktockVFMXBrWnktMTBJcS1qaTNqQjZlRmtlSUFicV9Vem5pbnZoRkhad25uQTA0RVpRYmY2VTRxQ2haQk5Rb1RkaG5DTGFKSnpqZHM?oc=5"
      }
     ]
    }
   ]
  },
  "stats": {
-  "headlines": 445,
+  "headlines": 444,
   "feeds": 45,
   "feedsFailed": 0
  }
