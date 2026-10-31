@@ -1,6 +1,6 @@
 // Network-first for everything (the files are tiny), falling back to the
 // cache when offline, so updates and new editions show up straight away.
-const CACHE = "newsterm-v1";
+const CACHE = "newsterm-v2";
 const SHELL = ["./", "index.html", "style.css", "app.js", "manifest.webmanifest", "icons/icon-192.png"];
 
 self.addEventListener("install", (e) => {
