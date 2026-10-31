@@ -1,11 +1,11 @@
 {
  "date": "2026-10-31",
  "dateLabel": "Saturday, 31 October 2026",
- "generatedAt": "2026-10-31T09:12:50.620Z",
+ "generatedAt": "2026-10-31T09:17:50.996Z",
  "mode": "fallback",
  "model": null,
  "error": "No API key configured",
- "headlineOfDay": "AI curation was unavailable this morning — showing the latest headlines unranked.",
+ "headlineOfDay": "",
  "markets": {
   "summary": "",
   "indices": [
@@ -746,18 +746,6 @@
    },
    {
     "category": "notable",
-    "headline": "Plans for a data center threaten scenic wilderness and dark skies in West Virginia",
-    "summary": "Residents are fighting back against plans for a project that would span thousands of acres near the Monongahela National Forest and popular outdoor recreation, ski areas and dark sky sites.",
-    "sources": [
-     {
-      "source": "NPR",
-      "title": "Plans for a data center threaten scenic wilderness and dark skies in West Virginia",
-      "link": "https://www.npr.org/2026/10/31/nx-s1-5992790/data-centers-west-virginia-skiing-dark-skies"
-     }
-    ]
-   },
-   {
-    "category": "notable",
     "headline": "Oyster stocks have plunged in the Chesapeake. This resident wants to bring them back",
     "summary": "Oyster reefs once abounded in the Chesapeake, but overharvesting slashed their populations, leading to poorer water quality and less habitat for other species. Now, researchers and local residents are finding creative wa",
     "sources": [
@@ -765,6 +753,18 @@
       "source": "NPR",
       "title": "Oyster stocks have plunged in the Chesapeake. This resident wants to bring them back",
       "link": "https://www.npr.org/2026/10/31/nx-s1-6011228/oyster-farming-conservation-chesapeake-bay"
+     }
+    ]
+   },
+   {
+    "category": "notable",
+    "headline": "Your writing was flagged as AI. What does that actually mean?",
+    "summary": "As editors turn to imperfect AI detection tools to weed out machine-generated submissions, writers who say they were falsely accused of using AI are left wondering what triggered a positive result.",
+    "sources": [
+     {
+      "source": "NPR",
+      "title": "Your writing was flagged as AI. What does that actually mean?",
+      "link": "https://www.npr.org/2026/10/31/nx-s1-5963520/ai-writing-detectors-pangram"
      }
     ]
    }
@@ -810,6 +810,18 @@
   "europe": [
    {
     "category": "notable",
+    "headline": "Cost of living protests to spread to Germany and reignite in France on Halloween",
+    "summary": "Activists call for people to make their anger known over poor public services including education and housing Street protests sweeping Europe are expected to spread to Germany and reignite in France on Saturday, with pol",
+    "sources": [
+     {
+      "source": "Guardian",
+      "title": "Cost of living protests to spread to Germany and reignite in France on Halloween",
+      "link": "https://www.theguardian.com/world/2026/oct/30/cost-of-living-protests-to-spread-to-germany-and-reignite-in-france-on-halloween"
+     }
+    ]
+   },
+   {
+    "category": "notable",
     "headline": "Hundreds evacuated from Russian-occupied Oleshky during rare Ukraine ceasefire",
     "summary": "Hundreds of people are also understood to have stayed in the front-line town, despite the dangers.",
     "sources": [
@@ -831,18 +843,6 @@
       "link": "https://www.euronews.com/2026/10/31/karcher-boss-less-regulation-more-action-to-get-europe-and-germany-fit-again"
      }
     ]
-   },
-   {
-    "category": "notable",
-    "headline": "The seven days I thought I might have breast cancer",
-    "summary": "Seven days of uncertainty following a breast biopsy become a deeply personal reckoning with cancer, family history and fear. From that experience, Euronews reporter Monica Pinna explores Europe's persistent inequalities ",
-    "sources": [
-     {
-      "source": "Euronews",
-      "title": "The seven days I thought I might have breast cancer",
-      "link": "https://www.euronews.com/2026/10/31/the-seven-days-i-thought-i-might-have-breast-cancer"
-     }
-    ]
    }
   ],
   "middle_east": [
@@ -860,18 +860,6 @@
    },
    {
     "category": "notable",
-    "headline": "Saudi, U.S. and Russian foreign ministers discuss regional issues",
-    "summary": "",
-    "sources": [
-     {
-      "source": "سانا",
-      "title": "Saudi, U.S. and Russian foreign ministers discuss regional issues",
-      "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE5wa2RJMVRzTHVvTWU5cnhJeXN0QmZHMnVTd3hSeEtkaTdSVDJJSXNKdVljSDJqTFZIbHZjN0hEUUlLWExDRm9ReXhsUmc?oc=5"
-     }
-    ]
-   },
-   {
-    "category": "notable",
     "headline": "Alex Marquez could skip Qatar MotoGP amid surgery reports",
     "summary": "",
     "sources": [
@@ -879,6 +867,18 @@
       "source": "Crash.net",
       "title": "Alex Marquez could skip Qatar MotoGP amid surgery reports",
       "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNajlJaXh0VG9BYXU5ZDRrY1NaOHVyRjBZY3hzSUE2TVlyNHBEN0FqNzlFUWRWdHVMZDR0S3BvSlNCOEJEVGEtaWxNS0hGTU9HdmhycGJMc0I5Y2hMM0h5NmVQTm1rSmp6dlk2R2hkV2xRZ0Y3NU5nSjZfdno4c0NPYzdhY1VQSHNYS0JjNy1ma0pLOThTR2ZTaG9KZjc0UFl3Vndv?oc=5"
+     }
+    ]
+   },
+   {
+    "category": "notable",
+    "headline": "Qatar's economy to jump 15 per cent in 2027 on gas sector recovery, S&P says",
+    "summary": "",
+    "sources": [
+     {
+      "source": "The National",
+      "title": "Qatar's economy to jump 15 per cent in 2027 on gas sector recovery, S&P says",
+      "link": "https://www.thenationalnews.com/business/economy/2026/10/31/qatars-economy-to-jump-15-per-cent-in-2027-on-gas-sector-recovery-sp-says/"
      }
     ]
    }
@@ -1001,7 +1001,7 @@
   ]
  },
  "stats": {
-  "headlines": 445,
+  "headlines": 444,
   "feeds": 45,
   "feedsFailed": 0
  }
