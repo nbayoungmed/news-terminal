@@ -9,7 +9,8 @@ export const MODEL = process.env.CLAUDE_MODEL || "claude-opus-5-5";
 
 const story = (categories) =>
   z.object({
-    category: z.enum(categories),
+    // Plain string rather than z.enum: an off-list value shouldn't fail the whole edition.
+    category: z.string().describe(`One of: ${categories.join(", ")}`),
     headline: z.string().describe("Short, plain-English headline in your own words"),
     summary: z.string().describe("Two sentences: what happened, and why it matters"),
     item_ids: z.array(z.string()).describe("Every pool item id covering this same story, any section"),
