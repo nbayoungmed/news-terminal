@@ -1,10 +1,10 @@
 {
  "date": "2026-10-31",
  "dateLabel": "Saturday, 31 October 2026",
- "generatedAt": "2026-10-31T09:17:50.996Z",
+ "generatedAt": "2026-10-31T09:20:38.728Z",
  "mode": "fallback",
  "model": null,
- "error": "No API key configured",
+ "error": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"Invalid bearer token\"},\"request_id\":\"req_011Cga4uV1WVe5j47JKok9FM\"}",
  "headlineOfDay": "",
  "markets": {
   "summary": "",
@@ -872,13 +872,13 @@
    },
    {
     "category": "notable",
-    "headline": "Qatar's economy to jump 15 per cent in 2027 on gas sector recovery, S&P says",
-    "summary": "",
+    "headline": "A UN protection force must be urgently deployed to Palestine",
+    "summary": "Israel is making Palestinian existence in Palestine increasingly impossible.",
     "sources": [
      {
-      "source": "The National",
-      "title": "Qatar's economy to jump 15 per cent in 2027 on gas sector recovery, S&P says",
-      "link": "https://www.thenationalnews.com/business/economy/2026/10/31/qatars-economy-to-jump-15-per-cent-in-2027-on-gas-sector-recovery-sp-says/"
+      "source": "Al Jazeera",
+      "title": "A UN protection force must be urgently deployed to Palestine",
+      "link": "https://www.aljazeera.com/opinions/2026/10/31/a-un-protection-force-must-be-urgently-deployed-to-palestine?traffic_source=rss"
      }
     ]
    }
@@ -1001,7 +1001,7 @@
   ]
  },
  "stats": {
-  "headlines": 444,
+  "headlines": 445,
   "feeds": 45,
   "feedsFailed": 0
  }
