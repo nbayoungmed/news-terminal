@@ -121,7 +121,7 @@ export function curateFallback({ items }) {
       .map((it) => ({ category, headline: it.title, summary: it.desc, item_ids: [it.id] }));
   return {
     draft: {
-      headline_of_day: "AI curation was unavailable this morning — showing the latest headlines unranked.",
+      headline_of_day: "", // the app shows a banner explaining the fallback
       markets: { summary: "", stories: pick("markets", 3, "markets"), asset_notes: [], mover_notes: [], calendar: [] },
       world: {
         us: pick("us", 3, "notable"),
