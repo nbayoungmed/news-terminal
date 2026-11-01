@@ -1,0 +1,1271 @@
+{
+ "date": "2026-11-01",
+ "dateLabel": "Sunday, 1 November 2026",
+ "generatedAt": "2026-11-01T11:58:59.969Z",
+ "mode": "ai",
+ "model": "claude-sonnet-5-5",
+ "error": null,
+ "headlineOfDay": "US-Iran tensions hang over Tuesday's midterms as AI-driven selling hits Wall Street, with the Nasdaq down 2.9% and Intel and Reddit sharply lower.",
+ "markets": {
+  "summary": "Wall Street fell sharply in the last session, with the S&P 500 down 1.8% and the Nasdaq down 2.9% as Big Tech earnings reignited fears over AI spending. The FTSE 100 was flat, helped by AstraZeneca and BT, while the Euro Stoxx 50 fell 1.2%. Gold and silver dropped heavily and Brent held above $113.",
+  "indices": [
+   {
+    "symbol": "^GSPC",
+    "label": "S&P 500",
+    "price": 7580.06982421875,
+    "asOf": "2026-10-30",
+    "d1": -1.8175287778868343,
+    "w1": -0.5720380519245871,
+    "m1": -1.1267323062577983,
+    "ytd": 10.7306964315061,
+    "spark": [
+     7666.4502,
+     7722.7202,
+     7773.9502,
+     7818.9302,
+     7801.77,
+     7765.3599,
+     7811.54,
+     7807.2402,
+     7805.4502,
+     7718.9399,
+     7744.0601,
+     7659.4399,
+     7690.73,
+     7712.5698,
+     7757.1699,
+     7663.4302,
+     7623.6802,
+     7676.77,
+     7722.6001,
+     7743.98,
+     7720.3901,
+     7580.0698
+    ]
+   },
+   {
+    "symbol": "SPUS",
+    "label": "S&P 500 Shariah",
+    "sub": "via SPUS ETF",
+    "price": 58.41999816894531,
+    "asOf": "2026-10-30",
+    "d1": -2.2586620018052956,
+    "w1": -0.40914026438986595,
+    "m1": -2.176830249807732,
+    "ytd": 14.392008063524608,
+    "spark": [
+     59.72,
+     60.33,
+     60.81,
+     61.15,
+     61.07,
+     60.48,
+     60.77,
+     60.57,
+     60.53,
+     59.67,
+     59.72,
+     58.82,
+     59.21,
+     59.28,
+     59.78,
+     58.81,
+     58.66,
+     59.3,
+     59.87,
+     60.11,
+     59.77,
+     58.42
+    ]
+   },
+   {
+    "symbol": "^IXIC",
+    "label": "Nasdaq",
+    "price": 25437,
+    "asOf": "2026-10-30",
+    "d1": -2.855561117502253,
+    "w1": -1.997045104669725,
+    "m1": -5.338720545964428,
+    "ytd": 9.444155786532306,
+    "spark": [
+     26871.5996,
+     27190.8594,
+     27477.3105,
+     27599.7891,
+     27538.6895,
+     27193.3398,
+     27366.1699,
+     27245.9004,
+     27204.3809,
+     26692.8691,
+     26713.0293,
+     26140.0293,
+     26430.8906,
+     26424.8203,
+     26702.8594,
+     26008.8594,
+     25955.3398,
+     26169.3809,
+     26477.8105,
+     26549.8496,
+     26184.7207,
+     25437
+    ]
+   },
+   {
+    "symbol": "^DJI",
+    "label": "Dow Jones",
+    "price": 51770.30859375,
+    "asOf": "2026-10-30",
+    "d1": -1.0932786156699836,
+    "w1": -0.8519586288135758,
+    "m1": 1.656797598932102,
+    "ytd": 7.712787875231568,
+    "spark": [
+     50926.5586,
+     51176.9609,
+     51267.8984,
+     51521.2813,
+     51179.8711,
+     51231.6406,
+     51654.9492,
+     51850.5508,
+     51670.1016,
+     51621.4805,
+     52177.6914,
+     52002.4102,
+     51966.0313,
+     52495.8789,
+     52856.0898,
+     52867.9805,
+     52215.1602,
+     52361.5781,
+     52377.5703,
+     52475.1016,
+     52342.5586,
+     51770.3086
+    ]
+   },
+   {
+    "symbol": "^FTSE",
+    "label": "FTSE 100",
+    "price": 10729.7998046875,
+    "asOf": "2026-10-30",
+    "d1": 0.07181611431558833,
+    "w1": 0.3685494707667966,
+    "m1": 2.8911711942197553,
+    "ytd": 8.039142343069457,
+    "spark": [
+     10428.2998,
+     10462,
+     10497.9004,
+     10541.7002,
+     10458.5,
+     10441.5996,
+     10552.0996,
+     10656.2998,
+     10650.2998,
+     10724.9004,
+     10840.4004,
+     10881.9004,
+     10764.7002,
+     10733,
+     10752.9004,
+     10725,
+     10690.4004,
+     10767.2998,
+     10686.5,
+     10694.5,
+     10722.0996,
+     10729.7998
+    ]
+   },
+   {
+    "symbol": "^STOXX50E",
+    "label": "Euro Stoxx 50",
+    "price": 6131.31005859375,
+    "asOf": "2026-10-30",
+    "d1": -1.2205399289919454,
+    "w1": 1.03967623975928,
+    "m1": -0.7147679168759995,
+    "ytd": 5.781178618642824,
+    "spark": [
+     6175.4502,
+     6238.5,
+     6242.1401,
+     6272.23,
+     6180.29,
+     6126.73,
+     6173.3701,
+     6201.21,
+     6167.0098,
+     6190.3701,
+     6168.2598,
+     6204.23,
+     6144.8101,
+     6121.6602,
+     6207.52,
+     6087.0098,
+     6068.2202,
+     6116.23,
+     6164.6899,
+     6167.8101,
+     6207.0698,
+     6131.3101
+    ]
+   },
+   {
+    "symbol": "^TASI.SR",
+    "label": "Tadawul (Saudi)",
+    "price": 9858.56,
+    "asOf": "2026-11-01",
+    "d1": -0.6343798820742883,
+    "w1": null,
+    "m1": null,
+    "ytd": null,
+    "spark": []
+   }
+  ],
+  "commodities": [
+   {
+    "symbol": "GC=F",
+    "label": "Gold",
+    "unit": "$/oz",
+    "price": 3898.89990234375,
+    "asOf": "2026-10-30",
+    "d1": -3.286699489251066,
+    "w1": -2.719628799518139,
+    "m1": -7.219853804940793,
+    "ytd": -10.186362566282286,
+    "spark": [
+     4202.2998,
+     4162.2998,
+     4156.7998,
+     4187.1001,
+     4140.7002,
+     4157,
+     4216.2998,
+     4190.6001,
+     4177.2998,
+     4107.8999,
+     4170.1001,
+     4181.1001,
+     4160.1001,
+     4142.6001,
+     4150,
+     4060.3999,
+     4007.8999,
+     4038.3999,
+     4074.6001,
+     4051.6001,
+     4031.3999,
+     3898.8999
+    ]
+   },
+   {
+    "symbol": "SI=F",
+    "label": "Silver",
+    "unit": "$/oz",
+    "price": 49.2760009765625,
+    "asOf": "2026-10-30",
+    "d1": -5.585255714298035,
+    "w1": -8.257149707784423,
+    "m1": -18.853845673520706,
+    "ytd": -29.740212892886497,
+    "spark": [
+     60.725,
+     59.977,
+     60.869,
+     61.168,
+     59.899,
+     59.064,
+     60.67,
+     60.141,
+     59.161,
+     55.55,
+     56.837,
+     56.995,
+     56.974,
+     57.706,
+     57.422,
+     54.764,
+     53.711,
+     54.108,
+     54.293,
+     53.457,
+     52.191,
+     49.276
+    ]
+   },
+   {
+    "symbol": "BZ=F",
+    "label": "Brent crude",
+    "unit": "$/bbl",
+    "price": 113.43000030517578,
+    "asOf": "2026-10-30",
+    "d1": -1.262184003228679,
+    "w1": -2.8187122010959866,
+    "m1": 10.86893071247853,
+    "ytd": 86.40920813402559,
+    "spark": [
+     102.31,
+     102.25,
+     100.32,
+     100.58,
+     100.2,
+     104.28,
+     104.72,
+     106.65,
+     105.69,
+     106.06,
+     105.92,
+     109.86,
+     109.55,
+     108.79,
+     108.82,
+     113.17,
+     116.72,
+     115.81,
+     113.88,
+     115.32,
+     114.88,
+     113.43
+    ]
+   },
+   {
+    "symbol": "CL=F",
+    "label": "WTI crude",
+    "unit": "$/bbl",
+    "price": 104.12000274658203,
+    "asOf": "2026-10-30",
+    "d1": 2.078434065276501,
+    "w1": 0.8230910536905637,
+    "m1": 12.113706974574244,
+    "ytd": 81.33055741352089,
+    "spark": [
+     92.87,
+     91.11,
+     89.43,
+     89.44,
+     88.28,
+     91.49,
+     91.85,
+     93.74,
+     94.14,
+     95.09,
+     97.97,
+     101.41,
+     103.66,
+     101.79,
+     97.15,
+     99.47,
+     103.27,
+     101.76,
+     99.9,
+     102.78,
+     102,
+     104.12
+    ]
+   },
+   {
+    "symbol": "HG=F",
+    "label": "Copper",
+    "unit": "$/lb",
+    "price": 6.48199987411499,
+    "asOf": "2026-10-30",
+    "d1": -1.504330335053285,
+    "w1": 0.09265043417511734,
+    "m1": 0,
+    "ytd": 15.133210343791962,
+    "spark": [
+     6.482,
+     6.492,
+     6.5855,
+     6.5945,
+     6.5965,
+     6.519,
+     6.6425,
+     6.6985,
+     6.678,
+     6.6115,
+     6.5115,
+     6.531,
+     6.538,
+     6.5665,
+     6.543,
+     6.3625,
+     6.476,
+     6.508,
+     6.622,
+     6.6415,
+     6.581,
+     6.482
+    ]
+   },
+   {
+    "symbol": "NG=F",
+    "label": "US natural gas",
+    "unit": "$/MMBtu",
+    "price": 2.8980000019073486,
+    "asOf": "2026-10-30",
+    "d1": -1.829264993132947,
+    "w1": 9.772722982999221,
+    "m1": -2.3255815822250794,
+    "ytd": -21.37819000459567,
+    "spark": [
+     2.967,
+     3.035,
+     3.066,
+     3.114,
+     3.203,
+     3.168,
+     3.22,
+     3.167,
+     3.283,
+     3.198,
+     3.236,
+     3.116,
+     3.058,
+     2.963,
+     2.79,
+     2.796,
+     2.64,
+     2.602,
+     2.697,
+     2.817,
+     2.952,
+     2.898
+    ]
+   }
+  ],
+  "rates_fx": [
+   {
+    "symbol": "GBPUSD=X",
+    "label": "GBP/USD",
+    "price": 1.3392976522445679,
+    "asOf": "2026-11-01",
+    "d1": 0.10714777696653373,
+    "w1": 0.11383819809325697,
+    "m1": 1.465192301578815,
+    "ytd": -0.5511235445827533,
+    "spark": [
+     1.32,
+     1.3243,
+     1.3219,
+     1.3267,
+     1.3215,
+     1.3229,
+     1.3242,
+     1.321,
+     1.3257,
+     1.323,
+     1.3273,
+     1.3336,
+     1.3308,
+     1.3373,
+     1.3396,
+     1.3404,
+     1.3378,
+     1.3345,
+     1.3306,
+     1.3328,
+     1.3379,
+     1.3393
+    ]
+   },
+   {
+    "symbol": "EURUSD=X",
+    "label": "EUR/USD",
+    "price": 1.1182805299758911,
+    "asOf": "2026-10-30",
+    "d1": 0.2426665732004803,
+    "w1": -0.34442979722495093,
+    "m1": -1.2748329264169012,
+    "ytd": -4.805251856973113,
+    "spark": [
+     1.1327,
+     1.125,
+     1.1255,
+     1.1217,
+     1.1254,
+     1.1201,
+     1.1213,
+     1.1205,
+     1.116,
+     1.1204,
+     1.1195,
+     1.1213,
+     1.1225,
+     1.1216,
+     1.1227,
+     1.1235,
+     1.1221,
+     1.1218,
+     1.1174,
+     1.113,
+     1.1156,
+     1.1183
+    ]
+   },
+   {
+    "symbol": "^TNX",
+    "label": "US 10Y yield",
+    "unit": "%",
+    "price": 4.928999900817871,
+    "asOf": "2026-10-30",
+    "d1": -1.2026447115756356,
+    "w1": -1.1828391389628543,
+    "m1": -5.881231399868066,
+    "ytd": 18.400186748806817,
+    "spark": [
+     5.237,
+     5.277,
+     5.311,
+     5.269,
+     5.277,
+     5.231,
+     5.244,
+     5.24,
+     5.217,
+     5.19,
+     5.089,
+     5.098,
+     5.136,
+     5.117,
+     5.146,
+     4.953,
+     4.988,
+     4.986,
+     4.993,
+     5.045,
+     4.989,
+     4.929
+    ]
+   }
+  ],
+  "movers": {
+   "sp500": {
+    "gainers": [
+     {
+      "ticker": "FDXF",
+      "name": "FedEx Freight",
+      "price": 126.04,
+      "d1": 14.905643176223911,
+      "shariah": true
+     },
+     {
+      "ticker": "REGN",
+      "name": "Regeneron Pharmaceuticals",
+      "price": 927.89,
+      "d1": 13.327308035223567,
+      "shariah": true
+     },
+     {
+      "ticker": "GPN",
+      "name": "Global Payments",
+      "price": 96.84,
+      "d1": 12.972468502099865,
+      "shariah": false
+     },
+     {
+      "ticker": "GDDY",
+      "name": "GoDaddy",
+      "price": 117.24,
+      "d1": 10.718670318254787,
+      "shariah": true
+     },
+     {
+      "ticker": "CSGP",
+      "name": "CoStar Group",
+      "price": 30.17,
+      "d1": 7.213930348258709,
+      "shariah": true
+     }
+    ],
+    "losers": [
+     {
+      "ticker": "RDDT",
+      "name": "Reddit",
+      "price": 91.73,
+      "d1": -29.220679012345673,
+      "shariah": true
+     },
+     {
+      "ticker": "INTC",
+      "name": "Intel",
+      "price": 65.76,
+      "d1": -28.57608341479308,
+      "shariah": false
+     },
+     {
+      "ticker": "ILMN",
+      "name": "Illumina, Inc.",
+      "price": 235.99,
+      "d1": -18.640970833620628,
+      "shariah": true
+     },
+     {
+      "ticker": "TWLO",
+      "name": "Twilio",
+      "price": 205.03,
+      "d1": -15.241835469202151,
+      "shariah": true
+     },
+     {
+      "ticker": "SNDK",
+      "name": "Sandisk",
+      "price": 1150.89,
+      "d1": -13.470170294349826,
+      "shariah": true
+     }
+    ],
+    "coverage": 503
+   },
+   "ftse100": {
+    "gainers": [
+     {
+      "ticker": "AZN",
+      "name": "AstraZeneca",
+      "price": 13960,
+      "d1": 6.9567882316886305
+     },
+     {
+      "ticker": "BT.A",
+      "name": "BT Group",
+      "price": 227.3,
+      "d1": 6.713615023474184
+     },
+     {
+      "ticker": "CCEP",
+      "name": "Coca-Cola Europacific Partners",
+      "price": 8510,
+      "d1": 3.2766990291262137
+     },
+     {
+      "ticker": "DGE",
+      "name": "Diageo",
+      "price": 1757,
+      "d1": 3.2618277990008817
+     },
+     {
+      "ticker": "REL",
+      "name": "RELX",
+      "price": 2992,
+      "d1": 2.6415094339622645
+     }
+    ],
+    "losers": [
+     {
+      "ticker": "NWG",
+      "name": "NatWest Group",
+      "price": 579.6,
+      "d1": -8.753148614609575
+     },
+     {
+      "ticker": "CCC",
+      "name": "Computacenter",
+      "price": 4938,
+      "d1": -6.032350142721218
+     },
+     {
+      "ticker": "PCT",
+      "name": "Polar Capital Technology Trust",
+      "price": 592.5,
+      "d1": -5.952380952380952
+     },
+     {
+      "ticker": "AAF",
+      "name": "Airtel Africa",
+      "price": 259,
+      "d1": -5.543398978847552
+     },
+     {
+      "ticker": "BGEO",
+      "name": "Lion Finance Group",
+      "price": 12030,
+      "d1": -5.4245283018867925
+     }
+    ],
+    "coverage": 100
+   },
+   "shariahListAvailable": true
+  },
+  "stories": [
+   {
+    "category": "markets",
+    "headline": "AI spending fears drive Nasdaq to third weekly loss",
+    "summary": "Concerning projections from hyperscalers hit tech stocks and pushed the Nasdaq to its first three-week losing streak since March. Investors moved into defensive stocks, and the S&P 500 broke technical support.",
+    "sources": [
+     {
+      "source": "CNBC",
+      "title": "Anthropic's path to the Nasdaq just got a lot bumpier",
+      "link": "https://www.cnbc.com/2026/10/31/anthropic-ipo-ai-spending.html"
+     },
+     {
+      "source": "StoneX",
+      "title": "Indices Weekly Outlook: S&P 500 breaks support as wobbling AI trade weigh on stocks",
+      "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOSm9Jak5samRMdnVZV1BacnA0MTJJYzAyVUNUZzFtemQtOWRySlVaVVpzcEgxU053OUtUZUxlVVRHN0Q3SDlCR19NbDBOMEpfaGc5eE13emR0NmQ3cWVxWm5yVk5WM3d1NDA2SnkzNTFmaUo3NktLbFp2dWZUV1daSzNlMFhfYVIxV1FJZU16LUF3YlAwR0U3bjR5eTBlcFdTZGN4dzVhRVd6UV9DNHQ1YWhlS3lSTUpTbjFOanA3NFNFNHNwVHQtdU9wV0ZjQTNURm5tTXlWLVozUjQ?oc=5"
+     },
+     {
+      "source": "Yahoo Finance",
+      "title": "AI stocks just lost $5 trillion — but history says the stock market's sweetest stretch starts now",
+      "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOLXlkUVhJS3B6Y1JETnlNMFNfcnFJR1g2TkI0Q0QtcWJnVlZzVnJUbnY0ZUNzV3B2Qjl1dlhkSkZ4c0YwQzNCM0lueHE5Uk9zeTBnM0k2U2puM25rbmZFdVZXcDAzYTFDcGgydENMQjZOUnhrM1gwaERMYm9rSGU0Rm1hX1otQjVxdzRIbkQ2bjk0V3NaSkw0QmVaOGhqNlB2WWZfRGFDVFAzVnhGTFpjM0FlWlJzNjRsX0FKT0liZDJCVlJORm5uOHF3N2xlTUxNU1FiVnRVTlk3RldvZ1JBNDM2RGd6UQ?oc=5"
+     },
+     {
+      "source": "WSJ",
+      "title": "The Tangled Web of AI Bets Is Reason to Fear Tech Stocks",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQMFhvME5UY0lraHNqbUFNN015bXJpV05xSk1jUHVUbDVlbk5jaEJQU0FLYzZnNV8zd201X1JJQmhsLVJpWGMwbWlyRUh3SFJLR1B5R3NCVUxJaVdJUE1LTDlOLTJxRjZiTXhycTRCUndwbU9BeHA3LWkzWFFFbUtjZEI0NVJQaElNYTZTN1ZQbVQ4c1hp?oc=5"
+     }
+    ]
+   },
+   {
+    "category": "economy",
+    "headline": "Mixed US economic picture ahead of midterms",
+    "summary": "US GDP growth is up but so are prices, and interest rates have been held for now. The mix complicates the economic message heading into Tuesday's elections.",
+    "sources": [
+     {
+      "source": "NPR",
+      "title": "Mixed economic forecast weighs heavy ahead of midterms",
+      "link": "https://www.npr.org/2026/10/31/nx-s1-6022285/mixed-economic-forecast-weighs-heavy-ahead-of-midterms"
+     },
+     {
+      "source": "Business Insider",
+      "title": "All Your Bond-Market Questions Answered As Rising Rates Roil Markets",
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNVmh4TjhRZndXN0ZIRzhwUGlvVzNFOTdoVzc5T3pHRVExa0VyajBPUjBaYlhNb2lGQkRxVEk4VzFZODVrRFlka1B5dXQ5M0NIbnZTSzN3bFg0UEtUZFR3QmZObkdEbVBzWXotYTBWZjhaU3FoSHkzd0tVY0hFV2xISXMwTE1RUGxXMkhn?oc=5"
+     }
+    ]
+   },
+   {
+    "category": "companies",
+    "headline": "OpenAI cuts fundraising target",
+    "summary": "OpenAI is now seeking up to $20 billion in its latest round, down from an earlier goal, and the round has not closed. The WSJ reports it has raised less than half of a $30 billion target, which feeds worries about AI funding.",
+    "sources": [
+     {
+      "source": "CNBC",
+      "title": "OpenAI pares fundraising goal, now seeking up to $20 billion in latest round",
+      "link": "https://www.cnbc.com/2026/10/31/openai-fundraising-20-billion-valuation.html"
+     },
+     {
+      "source": "TechCrunch AI",
+      "title": "OpenAI reportedly lowers funding target for new round",
+      "link": "https://techcrunch.com/2026/10/31/openai-reportedly-lowers-funding-target-for-new-round/"
+     },
+     {
+      "source": "WSJ",
+      "title": "OpenAI Raises Less Than Half of $30 Billion Target in Latest Round",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQTW9TMmVsZkc2b05TYkloVW41X050RjdtZ1F5U01TRnJOSEthYTJpcDdPWVhJb0FvRGEteHgtbVhSS0lOVEZ3T2N5MTNpSUNWNXpETThZR0RvcFQwY2Q5R3ctRUFvM1ZtdFdMaXhGSnpPM2FiLUhORXNrem84cUpfVGpuQ0VmaGNsZUlxUVQ0dk4zQUE2cWFzUk8yM1R3cjc3dEczVw?oc=5"
+     }
+    ]
+   }
+  ],
+  "calendar": []
+ },
+ "world": {
+  "us": [
+   {
+    "category": "political",
+    "headline": "Midterms loom as early voting tops 50 million",
+    "summary": "More than 50 million Americans have voted early ahead of Tuesday's midterms, with Democrats outnumbering Republicans in states that report party data. Control of Congress is at stake, and disputes over Justice Department election monitoring continue.",
+    "sources": [
+     {
+      "source": "Guardian",
+      "title": "More than 50m Americans cast ballots in early voting with three days to go before midterms",
+      "link": "https://www.theguardian.com/us-news/2026/oct/31/early-voting-midterms"
+     },
+     {
+      "source": "NPR",
+      "title": "Here's how to watch election night as the polls close, hour-by-hour",
+      "link": "https://www.npr.org/2026/11/01/g-s1-149978/midterms-election-night"
+     },
+     {
+      "source": "NPR Politics",
+      "title": "Election officials worry about DOJ monitoring of Tuesday's vote",
+      "link": "https://www.npr.org/2026/10/31/nx-s1-6019312/election-officials-worry-about-doj-monitoring-of-tuesdays-vote"
+     }
+    ]
+   },
+   {
+    "category": "notable",
+    "headline": "Judge dismisses Trump's $10bn suit against WSJ",
+    "summary": "A federal judge threw out Donald Trump's lawsuit against the Wall Street Journal and Rupert Murdoch over the Epstein letter story, saying he was 'grasping at straws'. The dismissal was with prejudice.",
+    "sources": [
+     {
+      "source": "NPR",
+      "title": "'Grasping at straws': Judge dismisses Trump suit against Wall Street Journal over Epstein letter",
+      "link": "https://www.npr.org/2026/11/01/nx-s1-6025342/judge-dismisses-trump-suit-against-wall-street-journal-epstein-letter"
+     },
+     {
+      "source": "CNBC",
+      "title": "Trump defamation suit against Murdoch, WSJ over Epstein letter dismissed with prejudice",
+      "link": "https://www.cnbc.com/2026/10/31/trump-murdoch-wsj-epstein-defamation-lawsuit-dismissed.html"
+     }
+    ]
+   }
+  ],
+  "uk": [
+   {
+    "category": "political",
+    "headline": "Burnham open to slavery apology but rules out reparations",
+    "summary": "Prime Minister Andy Burnham said he is open to a formal UK apology for the transatlantic slave trade but rejected financial reparations. The King is due to address slavery at the Commonwealth meeting in Antigua, and Kemi Badenoch opposes an apology.",
+    "sources": [
+     {
+      "source": "BBC Politics",
+      "title": "Burnham 'open' to calls for slavery apology but not reparations",
+      "link": "https://www.bbc.co.uk/news/articles/c5398239je88o?at_medium=RSS&at_campaign=rss"
+     },
+     {
+      "source": "Guardian",
+      "title": "Minister says UK apology over historic role in slave trade won’t lead to financial reparations – UK politics live",
+      "link": "https://www.theguardian.com/politics/live/2026/nov/01/andy-burnham-uk-historic-slave-trade-financial-reparations-badenoch-budget-defence-latest-politics-news-updates"
+     },
+     {
+      "source": "Sky News",
+      "title": "The King to speak about slavery with 'unflinching honesty'",
+      "link": "https://news.sky.com/story/the-king-to-speak-about-slavery-with-unflinching-honesty-13606556"
+     },
+     {
+      "source": "Politico Europe",
+      "title": "Burnham ‘open’ to formal apology for Britain’s slave trade",
+      "link": "https://www.politico.eu/article/andy-burnham-open-to-formal-apology-for-britain-slave-trade/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication"
+     },
+     {
+      "source": "France24",
+      "title": "UK PM Burnham says 'open' to slavery apology but rules out financial reparations",
+      "link": "https://www.france24.com/en/europe/20261031-burnham-says-uk-open-to-slavery-apology-but-rules-out-financial-reparations"
+     },
+     {
+      "source": "BBC",
+      "title": "King to address slavery during Commonwealth speech in Antigua on final leg of Caribbean tour",
+      "link": "https://www.bbc.co.uk/news/articles/cq398y0zj9rpo?at_medium=RSS&at_campaign=rss"
+     }
+    ]
+   },
+   {
+    "category": "financial",
+    "headline": "Healey to veto offshore wind that won't cut bills",
+    "summary": "Chancellor John Healey said he will veto new offshore wind projects that will not lower bills. It adds to concern that the government is moving away from a pro-renewables agenda.",
+    "sources": [
+     {
+      "source": "Guardian",
+      "title": "Healey to veto new offshore wind projects if they will not lower bills",
+      "link": "https://www.theguardian.com/environment/2026/oct/31/john-healey-chancellor-offshore-wind-projects-veto"
+     },
+     {
+      "source": "UA.NEWS",
+      "title": "Chancellor Healey to block offshore wind farms without lower bills — The Guardian",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNUXlFeEhfR21NUk0wMndOZlVmMnlBN01hZHRvQUFmWVNxQXlvbnFWZUY5SDE5YnBNc0ZnRTI2b2Q4eS1hVlRBWmJuYUc3NDQ0OU1NT1VSaTVnbFR1OUF4bUhKNzJWY1VESXg4ODBsN19jOGxXeUo2UnVNbFJHaDlqWlpENXBRNWZOU083ZEJQdjdiNVpqRlZBaUVkbW1HanJnMWlmcnY5eWFLdw?oc=5"
+     },
+     {
+      "source": "Daily Business",
+      "title": "New policy may curtail Scottish offshore wind farms",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNY0RjTlUybVJCV3NDV1NIUEJfeE9kUmh4c2E1T1F0ZV9UZHNyVXN2SWtualQweFM3dEtLckR1S2hDSl92NEZyOW5XLUplY1JDUTVrZVd2RXQ0ZlF5QXo2S0NXOEVLdWV3UjZiZFN6blJJQUlBLWptMmRxMWs5LUswMFBpM09Tb2p5cVhISjZYM3BXMnN2SGRYWA?oc=5"
+     },
+     {
+      "source": "The Scotsman",
+      "title": "The hidden cost of Scotland's offshore wind bill",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNSGY1cE9yYVFYQU9BMkt0Mm1OU2hzUm1UbDhjc0RrQVhPTkhwQmxfX0pweG5SOGpRamJaUTJqazJWYVp1VHZKM09uVl9FdjRxUjhUMTFXNDlsQlNDYkxjWlVId1ROMlN1bF9XQUxWb2ZNOXppZFhTVGNKNC11N09wNFRRZjMxc3dRR1Buanp6aVlmNmxiSVZ5Zw?oc=5"
+     }
+    ]
+   },
+   {
+    "category": "notable",
+    "headline": "Mass arrests at Palestine Action protest in London",
+    "summary": "Police arrested 325 people at a central London protest supporting the proscribed Palestine Action. It was the largest such gathering under Burnham's premiership.",
+    "sources": [
+     {
+      "source": "Sky News",
+      "title": "Police arrest 325 during Palestine Action protest",
+      "link": "https://news.sky.com/story/139-people-arrested-during-protest-in-support-of-palestine-action-13606066"
+     },
+     {
+      "source": "Guardian",
+      "title": "Almost 140 arrested at protest against Palestine Action ban outside US embassy in London",
+      "link": "https://www.theguardian.com/uk-news/2026/oct/31/protest-against-palestine-action-ban-outside-us-embassy-in-london"
+     },
+     {
+      "source": "Arab News",
+      "title": "Dozens arrested outside London’s US Embassy at Palestine Action protest",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNNWtRMFhMcjY4TmppU0ViVFpiWHRTWHBiNF9CX3g0WUV0NVhvM2F5UDNHbHlYSVBaNG5zcDF4UVEtRVJ6dmpMSGZhb2VtZHQ2dkRNUGJadnhLdUZFU1VTelNqdjNLREtkUVR4U05QaWRrb2Fra2I2U1J5UWlZZFAxQmc0M1Y5TU5PT2szVEthcFh5UFI5MDVtc25BNXVMV3JpZXN1MFNpNkV1bld4Ync?oc=5"
+     }
+    ]
+   }
+  ],
+  "europe": [
+   {
+    "category": "political",
+    "headline": "Poland's Tusk vows no compromise in court showdown",
+    "summary": "Donald Tusk said he will see through an overhaul of the Constitutional Tribunal after a confrontation involving President Nawrocki. The European Commission says the Sejm has the power to appoint judges.",
+    "sources": [
+     {
+      "source": "Guardian",
+      "title": "Tusk defends overhaul of Poland’s constitutional court despite protests",
+      "link": "https://www.theguardian.com/world/2026/oct/31/donald-tusk-defends-overhaul-poland-constitutional-court-despite-protests"
+     },
+     {
+      "source": "Politico Europe",
+      "title": "Commission backs Tusk as he vows no compromise in court showdown",
+      "link": "https://www.politico.eu/article/european-commission-backs-donald-tusk-over-poland-constitutional-court-judges/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication"
+     },
+     {
+      "source": "Euronews",
+      "title": "EU Commission: Polish Parliament has right to appoint judges to the Constitutional Court",
+      "link": "https://www.euronews.com/2026/11/01/eu-commission-polish-parliament-has-right-to-appoint-judges-to-the-constitutional-court"
+     },
+     {
+      "source": "France24",
+      "title": "Protesters gather at Poland's Top court",
+      "link": "https://www.france24.com/en/protesters-gather-at-poland-s-top-court"
+     }
+    ]
+   },
+   {
+    "category": "financial",
+    "headline": "Cost-of-living protests spread across France and Germany",
+    "summary": "About 320,000 people marched in France for a third week, and youth-led protests in Germany saw looting in Frankfurt. Police made more than 290 arrests in France.",
+    "sources": [
+     {
+      "source": "NPR",
+      "title": "France seethes again as youth-led protests sweep Europe",
+      "link": "https://www.npr.org/2026/10/31/g-s1-151121/france-seethes-again-as-youth-led-protests-sweep-europe"
+     },
+     {
+      "source": "BBC",
+      "title": "Shops looted as German cost of living protests turn violent",
+      "link": "https://www.bbc.co.uk/news/articles/cqj34gnd3n30o?at_medium=RSS&at_campaign=rss"
+     },
+     {
+      "source": "Guardian",
+      "title": "Police clash with masked rioters after largely peaceful protests across France",
+      "link": "https://www.theguardian.com/world/2026/oct/31/police-clash-rioters-after-largely-peaceful-protests-across-france"
+     },
+     {
+      "source": "Politico Europe",
+      "title": "Hundreds of thousands of protesters march across France for third week in a row",
+      "link": "https://www.politico.eu/article/france-youth-protests-cost-of-living-spread-europe/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication"
+     },
+     {
+      "source": "DW",
+      "title": "More than 290 arrested in France as some weekend protests turn violent",
+      "link": "https://www.dw.com/en/more-than-290-arrested-in-france-as-some-weekend-protests-turn-violent/a-79818138?maca=en-rss-en-all-1573-rdf"
+     },
+     {
+      "source": "FT",
+      "title": "Gen Z protests turn violent in Germany",
+      "link": "https://www.ft.com/content/4ffb1a86-853b-4151-9902-2ff302e79d24?syn-25a6b1a6=1"
+     },
+     {
+      "source": "France24",
+      "title": "Youth-led rallies sweep Europe",
+      "link": "https://www.france24.com/en/youth-led-rallies-sweep-europe"
+     },
+     {
+      "source": "Arab News",
+      "title": "Rioters loot stores in Frankfurt as Gen Z-led protests in Germany turn violent",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNOHoxcVBCenVFc2RfQ0FNckdlWkdiOHo5d2FyemxiV1RqWEJIMVFsVEdYVkxGXzBtZkx1bE1oNzV2RlVWS0JFWTZNLWp6RnVHVl9GVldUY1huLWJ4V1ZKUmlrc3doQ2tqMXdJdWk4Vkd6c1lpVWROb1VNM1p6X1owdEF2VXN5cGNFbnp1MlVWX2NMTEctX1J1ejhSRmxvQmM1T25ZYklSZkRLbGt6QjVQSXlzal9GU3RP?oc=5"
+     }
+    ]
+   },
+   {
+    "category": "notable",
+    "headline": "Oleshky evacuees cross into Ukraine during truce",
+    "summary": "Hundreds of residents were evacuated from Russian-occupied Oleshky during a rare local ceasefire, reportedly brokered by Melania Trump. Zelenskyy said it shows de-escalation is possible, and the US has approved the sale of 500 Patriot missiles to Ukraine.",
+    "sources": [
+     {
+      "source": "BBC",
+      "title": "Ukrainian evacuees reunite with family after years trapped in Russia-occupied city",
+      "link": "https://www.bbc.co.uk/news/articles/cqx2818elrnzo?at_medium=RSS&at_campaign=rss"
+     },
+     {
+      "source": "Guardian",
+      "title": "Ukraine war briefing: Oleshky truce shows de-escalation is possible, says Zelenskyy",
+      "link": "https://www.theguardian.com/world/2026/nov/01/ukraine-war-briefing-oleshky-truce-shows-de-escalation-is-possible-says-zelenskyy"
+     },
+     {
+      "source": "France24",
+      "title": "Residents from Russian-occupied Oleshky reunite with families after evacuation operation",
+      "link": "https://www.france24.com/en/europe/20261031-evacuees-from-russian-occupied-oleshky-arrive-in-ukraine"
+     },
+     {
+      "source": "DW",
+      "title": "Ukraine news: Evacuees from Russian-occupied Oleshky reach Kyiv-controlled territory",
+      "link": "https://www.dw.com/en/ukraine-news-evacuees-from-russian-occupied-oleshky-reach-kyiv-controlled-territory/live-79815409?maca=en-rss-en-all-1573-rdf"
+     },
+     {
+      "source": "FT",
+      "title": "Evacuees from Russian-occupied city arrive in Ukraine",
+      "link": "https://www.ft.com/content/55dfa145-4078-450f-a853-5f2d551260f1"
+     },
+     {
+      "source": "Politico Europe",
+      "title": "Zelenskyy urges US to speed up Patriot deliveries",
+      "link": "https://www.politico.eu/article/volodymyr-zelenskyy-urges-us-speed-up-patriot-deliveries/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication"
+     }
+    ]
+   }
+  ],
+  "middle_east": [
+   {
+    "category": "political",
+    "headline": "US-Iran talks continue as strike threat lingers",
+    "summary": "Qatari mediators are working to restart US-Iran negotiations, while Trump says the US still has to 'take care' of one or two targets. Iran's leaders say they favour diplomacy but are ready to respond to any attack.",
+    "sources": [
+     {
+      "source": "Al Jazeera",
+      "title": "Mediators continue US-Iran negotiations amid war rhetoric: What we know",
+      "link": "https://www.aljazeera.com/news/2026/11/1/mediators-continue-us-iran-negotiations-amid-war-rhetoric-what-we-know?traffic_source=rss"
+     },
+     {
+      "source": "France24",
+      "title": "Iran's Khamenei warns US and Israel against new attacks",
+      "link": "https://www.france24.com/en/middle-east/20261031-iran-s-khamenei-warns-us-and-israel-against-new-attacks"
+     },
+     {
+      "source": "Arab News",
+      "title": "Trump says US still has to ‘take care’ of one or two targets in Iran",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQaUdvVkhQajY5cVUxcjZzUUVHWHN0SEcxd3NxdW4zNzZmRnB5M3hCQ1NoV0RHRXpXTmJtQnlkS2tqSjZQc3dtS3lfS3hGa2ZDRS02S3lPMnFvcTV5dHNzLWhIUjg5Y3ZzRlZUY1Q1MWtaMFNlNGxUUVdXb1IyOHpkYkNZYmFVRXRnZTVkck05M1ZNOUVFbHR1Y0d0NlJXMDVHa0pGbVJfSDZlWGU0RGp4Mg?oc=5"
+     },
+     {
+      "source": "The National",
+      "title": "Iran considers Vance letter amid renewed Doha peace push",
+      "link": "https://www.thenationalnews.com/news/gulf/2026/11/01/iran-weighs-vance-letter-amid-renewed-doha-peace-push/"
+     },
+     {
+      "source": "Radio Free Europe/Radio Liberty",
+      "title": "Trump Renews Iran Threat, Says US Still Needs To 'Take Care' Of 1 Or 2 Targets",
+      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9OeTc1VE5lcEx0QzNhVlh6TnBVZUhfdi1MR0xZQnJOLWo2U3dHb09ucVhPNXctSTFXNTF6R3EwZEJXSl96SF9zS2FPUWFwcHpHeFVMaGtUckZiaGIydHc1SFMwT3U1R1h5WnMtY2RGUkdtYm1jV2VUMWFB?oc=5"
+     },
+     {
+      "source": "CNBC",
+      "title": "Qatari mediators held talks in Tehran aimed at restarting direct U.S.-Iran negotiations, source says",
+      "link": "https://www.cnbc.com/2026/10/31/qatar-iran-us-talks-mediation.html"
+     },
+     {
+      "source": "FT",
+      "title": "Military briefing: what would another US-Iran conflict look like?",
+      "link": "https://www.ft.com/content/89e3ff89-c097-44cb-a290-0d46726e6075?syn-25a6b1a6=1"
+     }
+    ]
+   },
+   {
+    "category": "financial",
+    "headline": "Qatari LNG carrier hit by unidentified objects in Gulf",
+    "summary": "Qatar Gas Transport Company said its carrier Al Mayeda was struck by unidentified objects in the Gulf, with no injuries or environmental damage. The incident adds to Gulf shipping and security concerns amid the regional conflict.",
+    "sources": [
+     {
+      "source": "Al Jazeera",
+      "title": "Qatar LNG carrier struck by ‘unidentified objects’ in Gulf",
+      "link": "https://www.aljazeera.com/news/2026/11/1/qatar-lng-carrier-struck-by-unidentified-objects-in-gulf?traffic_source=rss"
+     },
+     {
+      "source": "The National",
+      "title": "Middle East latest: Qatar LNG carrier Al Mayeda hit by unidentified objects while transiting the Gulf",
+      "link": "https://www.thenationalnews.com/news/mena/2026/11/01/live-iran-war-qatar-lng-al-mayeda/"
+     }
+    ]
+   },
+   {
+    "category": "notable",
+    "headline": "UN demands probe after staff death in Houthi custody",
+    "summary": "A UN staff member died in Houthi custody, and the UN is demanding an urgent investigation. Yemen's prime minister said more than 70 UN staff remain held.",
+    "sources": [
+     {
+      "source": "Euronews",
+      "title": "UN demands urgent investigation after death of staff member held in Houthi custody",
+      "link": "https://www.euronews.com/2026/11/01/un-demands-investigation-after-death-of-staff-member-held-in-houthi-custody-in-yemen"
+     },
+     {
+      "source": "Arab News",
+      "title": "UN rights chief demands probe after Yemeni staff member dies in Houthi custody",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxORko1UkVaMUROMU1yUjRTd3I5V3FoQm9FSW83OHAxVmR4ZmROQUh5QVpnOHR6VTBRdlQzVjI3RzlMVFA3NWVlVDVxZWdISmZ6ZlJ3N3hMUmNncGRyeTZVRTR3RUtPT1BWNGh3N0s5aXFpcWktdFU2WEgxU3M1RGlDRllVZHlwNmx2OE4tOENlYnFKZDA3TEFZdEJGLWt1R0pyaGhKYWhGcUl5c1VYWXFzdGl5SlJwREN1aE55NzdiMEI?oc=5"
+     },
+     {
+      "source": "The National",
+      "title": "UN expresses outrage after staff member dies in Houthi custody",
+      "link": "https://www.thenationalnews.com/news/gulf/2026/11/01/un-outrage-as-staff-member-dies-in-houthi-custody/"
+     }
+    ]
+   }
+  ]
+ },
+ "energyTech": {
+  "energy": [
+   {
+    "category": "energy",
+    "headline": "National Grid deal clears way for giant Teesside substation",
+    "summary": "National Grid has struck a deal paving the way for Britain's biggest electricity substation on Teesside to serve a large data centre. The government wants to capture global AI infrastructure demand.",
+    "sources": [
+     {
+      "source": "Sky News",
+      "title": "National Grid sparks deal to pave way for giant UK data centre",
+      "link": "https://news.sky.com/story/national-grid-sparks-deal-to-pave-way-for-giant-uk-data-centre-13606573"
+     }
+    ]
+   },
+   {
+    "category": "energy",
+    "headline": "Fault on key Northern Ireland-Scotland power link before winter",
+    "summary": "Mutual Energy reported a fault on a key electricity link ahead of the winter peak. The pool gives few further details.",
+    "sources": [
+     {
+      "source": "BBC",
+      "title": "Mutual Energy: Fault on key electricity link ahead of winter peak",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFA0WHctcy1kd3hlNEEtVzI5M2Z4WUlnQTZkTHZPcnN0ZjQxYTB3ZktVNzRuYlNlVFZuZkFCOTY2NDBrWW9sX1RpQXRORGlkR0FyVTdXQ2YyTjNGWTE1NXc?oc=5"
+     }
+    ]
+   },
+   {
+    "category": "energy",
+    "headline": "Trump administration refunds offshore wind leases",
+    "summary": "The administration has erased a further $765 million in offshore wind leases, bringing refunds to cancel projects to $4 billion. It deepens uncertainty for the US offshore wind industry.",
+    "sources": [
+     {
+      "source": "EnergyNow.com",
+      "title": "Trump Erases Another $765 Million in Offshore Wind Leases",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQMzkyVjZfMnRab2x0anRPbUVHT1pyc3ZZeGZKeW1Bbm1FdEFMSXZRQVlzRTZFSnNwU2luSi1kZ1BCdm0yQlhLdldVc2FzMER2UFFqTXJJRzFCR2tpVDhXY0J2MEt1Q1BqZmwzTS16ZHpuS01PWW1lUkl1ZjBWTDhBd01ZUk9vYXFrN2ZUNDE5WXg?oc=5"
+     },
+     {
+      "source": "Construction Review",
+      "title": "Can the US build a competitive offshore wind industry amid growing policy uncertainty?",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQZXc4RkdrRW44Q2EyeXJra0IzbHRVRjVhR3hHRUI5LWUzdENDYjZGOHd4WENQUXQ1M1pUZ3FMU3liX3BwazE0ek42Nkw5dm1QNXlDVEFhRC0xVmdiaS1rakZCbGRaWS16U2s0NUhWLXhYTml0em0yVDIyVGxhRlFDQUJ3RWpGOVNCN25uTWh5WThlLUIzTm14Q2V3QklBZm52ZG1GMmJFRlVZdXFnSHFsMVBNbVNLN2ZPLVA1RGd0ZDY?oc=5"
+     }
+    ]
+   }
+  ],
+  "ai": [
+   {
+    "category": "ai",
+    "headline": "Labour's AI fund joins $6.5bn deal for Anthropic-backed chipmaker",
+    "summary": "The UK government's AI fund has joined a $6.5bn funding deal for a chipmaker backed by Anthropic. It is a sign of state involvement in AI hardware.",
+    "sources": [
+     {
+      "source": "The Telegraph",
+      "title": "Labour’s AI fund joins $6.5bn deal for Anthropic-backed chipmaker",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQbUNXUVhhczZHbm85RDVmaDl3Q0ZIMlBXSzZSVGxMR3Y1Wkl6dEFtb0VYM0pMd1Mtei10N09rTHlwSFdsTzBDN1FSdVBxaGpkLXZ4dDNCbjltcEtTSmFET1pOVUdROEdUMnA2V3Z0WXBVOC1LVzd4WU9GMGFBak8tWmJncjY1dkxEU0V5LTBNNk4wb0tQclRlTDN4N1BOWmljc01oMlg1NTE?oc=5"
+     }
+    ]
+   },
+   {
+    "category": "ai",
+    "headline": "Court lets NAACP xAI data centre pollution case proceed",
+    "summary": "A judge refused to toss an NAACP lawsuit accusing SpaceX-owned xAI of violating the Clean Air Act at its Memphis data centres. Local backlash over the sites has lasted years.",
+    "sources": [
+     {
+      "source": "CNBC",
+      "title": "SpaceX loses bid to toss NAACP lawsuit over Memphis data center air pollution",
+      "link": "https://www.cnbc.com/2026/10/31/xai-naacp-clean-air-act-lawsuit-dismissal.html"
+     },
+     {
+      "source": "TechCrunch AI",
+      "title": "Judge allows NAACP lawsuit over xAI data center pollution to move forward",
+      "link": "https://techcrunch.com/2026/10/31/judge-allows-naacp-lawsuit-over-xai-data-center-pollution-to-move-forward/"
+     }
+    ]
+   },
+   {
+    "category": "ai",
+    "headline": "DeepSeek unveils coding 'super agent'",
+    "summary": "DeepSeek has launched an AI agent aimed at coding, competing with OpenAI and Anthropic. It adds to the race in AI coding tools.",
+    "sources": [
+     {
+      "source": "South China Morning Post",
+      "title": "DeepSeek unveils AI ‘super agent’ in coding race with OpenAI, Anthropic",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPbFU5NlZJMVBaQ0txUnotazkwaWdmQzJwb3JvWUY4dTFHd2VERGZtdVJiMmxaTG9vR0pjZjFLOXZoZVRfRlFFZzM3dV81VVM3RDZLckQxZ01nc2ZFWGVvQlVoalk3X21iWDdBa29WcWNvblY1YVpGc3hPbDJCVVA3a2d2YVJDbFlZRUdkZ0NXTHplVTlEUGJ6RVBXTXZ1bWQ5eVRNNtIBpAFBVV95cUxQY3o3SXYteGFPRF9kQ3psaFZaTDJHMzhibnhoVE5LdjhGVUxkN2VBNnVuNHd2XzhodEpYLTRyMzhRcXNpWjY4SjBhMmdzek1oN0ZGRnh6RU5aWm12QUxYdDVvaktJUUU2UE1QVVdXUzhvdHFPZ0FrOHpOODJNQUlHYm5DSlI3aW8wS0dpMHFDWTNfNGpQeS0wYnU1TkIxbmtxVGRfSw?oc=5"
+     }
+    ]
+   }
+  ],
+  "tech": [
+   {
+    "category": "tech",
+    "headline": "FBI blames North Korea for $6.3bn Binance hack",
+    "summary": "The FBI attributes the record theft to the TraderTraitor group, and Binance says 90% of losses are covered. Withdrawals are resuming in phases.",
+    "sources": [
+     {
+      "source": "Guardian Business",
+      "title": "Binance says 90% of losses from $6.3bn hack covered as FBI says North Korea behind attack",
+      "link": "https://www.theguardian.com/business/2026/nov/01/binance-losses-covered-hack-fbi-north-korea-cryptocurrency"
+     },
+     {
+      "source": "DW",
+      "title": "FBI says North Korea behind $6 billion Binance crypto theft",
+      "link": "https://www.dw.com/en/fbi-says-north-korea-behind-6-billion-binance-crypto-theft/a-79819998?maca=en-rss-en-all-1573-rdf"
+     },
+     {
+      "source": "Euronews",
+      "title": "FBI blames North Korea for $6.3 billion Binance crypto hack",
+      "link": "https://www.euronews.com/2026/11/01/fbi-blames-north-korea-for-63-billion-binance-crypto-hack"
+     },
+     {
+      "source": "Arab News",
+      "title": "FBI blames North Korea for stolen billions from Binance in biggest hack in history",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOTUkxSDBiNW1iUUNrbFllcXBwVzdtTEs0aWZWdTVqSVFDcmp0TWEwVWVaR1poUnBnajZobUdFWERERHJJdDFEeFFSVWdualVPRzdUNW43NDliVnozSmRHQlZHRlR1UVlyZktpb2tYUzF3NV9hVUtSQzZsSGw3QlZkc2dSQ1lhQmg2WE9iYXo1MjdBRkhDYzMxT2tybWQ2LTJMQm14Rk9ZSlNGMHh3RTZqcnhFVlFxemJLaXZ2aUR3?oc=5"
+     },
+     {
+      "source": "The National",
+      "title": "Binance to resume withdrawals after covering 95% of $6.3bn crypto heist",
+      "link": "https://www.thenationalnews.com/business/markets/2026/11/01/binance-to-resume-withdrawals-after-covering-95-of-63bn-crypto-heist/"
+     },
+     {
+      "source": "CNBC",
+      "title": "Binance resumes withdrawals following $6.3 billion hack, says 90% of stolen user assets are covered",
+      "link": "https://www.cnbc.com/2026/10/31/binance-hack-asset-coverage-withdrawals.html"
+     },
+     {
+      "source": "BBC Business",
+      "title": "Crypto firm Binance covers 90% of losses after $6.3bn hack",
+      "link": "https://www.bbc.co.uk/news/articles/ckpdg3ql4169o?at_medium=RSS&at_campaign=rss"
+     },
+     {
+      "source": "FT",
+      "title": "Binance restarts customer withdrawals after $6.3bn heist",
+      "link": "https://www.ft.com/content/1d4dd7b2-9dee-433b-ac2a-e8022af1dd07?syn-25a6b1a6=1"
+     },
+     {
+      "source": "Google News (Markets)",
+      "title": "Binance to resume withdrawals after covering bulk of stolen $6.3 billion - Euronext Markets: Real-time Stock Market Data | live",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOT1V5YnRRal9uRWRGNHBnanRPRWc2MGcwLUN0azlYaFZ5SFBoNVI5YmRQUkticm45TUpVclpmRlJMR2toaE10Vm5qczdMNHdjSnpJWUZjYXQ2SE1YVFp3Zkx3N0xXZmtJSzI1ZmxvX2lQeVBzbkdKU3F4Z0RiMXFaMDg5bEhrLVNtRTlGSW9EVVhNWFpUNllscUN2WTNwUGNpZ2ZZT25UUTVUaHBO?oc=5"
+     },
+     {
+      "source": "The Verge",
+      "title": "Binance CEO says 90 percent of stolen assets have been ‘replenished’",
+      "link": "https://www.theverge.com/tech/1024091/binance-ceo-90-percent-stolen-crypto"
+     }
+    ]
+   },
+   {
+    "category": "tech",
+    "headline": "Data-centre debt feeds AI bubble fears",
+    "summary": "The BBC reports that little-known firms hold tens of billions of pounds in data-centre debt, adding to fears the AI bubble could burst. Data centres have also become a US midterm issue.",
+    "sources": [
+     {
+      "source": "BBC Tech",
+      "title": "These firms you've never heard of are feeding fears the AI bubble could burst",
+      "link": "https://www.bbc.co.uk/news/articles/cje36degrgv5o?at_medium=RSS&at_campaign=rss"
+     },
+     {
+      "source": "TechCrunch",
+      "title": "Data centers are now a midterm issue, even in Brooklyn",
+      "link": "https://techcrunch.com/2026/10/31/data-centers-are-now-a-midterm-issue-even-in-brooklyn/"
+     }
+    ]
+   },
+   {
+    "category": "tech",
+    "headline": "Sadiq Khan seeks cap on London robotaxis",
+    "summary": "London's mayor wants a limit on robotaxi numbers, citing air quality, congestion and jobs. The government is poised to allow driverless vehicles in the capital.",
+    "sources": [
+     {
+      "source": "Guardian",
+      "title": "Sadiq Khan calls for cap on numbers of robotaxis on London streets",
+      "link": "https://www.theguardian.com/technology/2026/nov/01/sadiq-khan-calls-cap-numbers-robotaxis-london-streets"
+     }
+    ]
+   }
+  ]
+ },
+ "stats": {
+  "headlines": 324,
+  "feeds": 45,
+  "feedsFailed": 0
+ }
+}
