@@ -2,9 +2,12 @@ name: Morning edition
 
 on:
   schedule:
-    # 05:30 UTC = 05:30 GMT / 06:30 BST. GitHub can start scheduled runs
-    # 10-30 min late, so this keeps the edition ready by ~6:30 all year.
-    - cron: "30 5 * * *"
+    # GitHub often starts scheduled runs hours late (or drops them), so try
+    # three times at off-peak minutes. Later runs skip once today's edition
+    # exists, so only one run a day calls the API.
+    - cron: "17 4 * * *"
+    - cron: "13 5 * * *"
+    - cron: "11 6 * * *"
   workflow_dispatch: {}
 
 permissions:
@@ -21,14 +24,28 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      # Scheduled runs skip if today's (London date) edition is already built;
+      # manual runs always rebuild.
+      - name: Check for today's edition
+        id: check
+        run: |
+          f="docs/editions/$(TZ=Europe/London date +%F).json"
+          if [ "${{ github.event_name }}" = "schedule" ] && [ -f "$f" ]; then
+            echo "$f already exists, skipping"
+            echo "skip=true" >> "$GITHUB_OUTPUT"
+          fi
+
       - uses: actions/setup-node@v4
+        if: steps.check.outputs.skip != 'true'
         with:
           node-version: 24
           cache: npm
 
       - run: npm ci
+        if: steps.check.outputs.skip != 'true'
 
       - name: Build edition
+        if: steps.check.outputs.skip != 'true'
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           # Optional repo variable to switch model, e.g. claude-sonnet-5-5
@@ -36,6 +53,7 @@ jobs:
         run: node scripts/build-edition.mjs
 
       - name: Commit edition
+        if: steps.check.outputs.skip != 'true'
         run: |
           git config user.name "news-terminal-bot"
           git config user.email "news-terminal-bot@users.noreply.github.com"
