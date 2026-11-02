@@ -1,0 +1,1329 @@
+{
+ "date": "2026-11-02",
+ "dateLabel": "Monday, 2 November 2026",
+ "generatedAt": "2026-11-02T06:38:54.557Z",
+ "mode": "ai",
+ "model": "claude-sonnet-5-5",
+ "error": null,
+ "headlineOfDay": "Qatar-led talks to head off fresh US strikes on Iran drag oil down 6% as Wall Street sells off and America heads into Tuesday's midterms.",
+ "markets": {
+  "summary": "Wall Street had a sharp sell-off, with the Nasdaq down 2.9% and the S&P 500 down 1.8% as the AI-led tech rout continued, while Intel and Reddit fell heavily. Brent dropped 6.5% to about $110 on hopes that Qatar-led diplomacy will ease the Iran conflict. The FTSE 100 was flat, helped by AstraZeneca and BT, while NatWest fell.",
+  "indices": [
+   {
+    "symbol": "^GSPC",
+    "label": "S&P 500",
+    "price": 7580.06982421875,
+    "asOf": "2026-10-30",
+    "d1": -1.8175287778868343,
+    "w1": -0.5720380519245871,
+    "m1": -1.1267323062577983,
+    "ytd": 10.7306964315061,
+    "spark": [
+     7666.4502,
+     7722.7202,
+     7773.9502,
+     7818.9302,
+     7801.77,
+     7765.3599,
+     7811.54,
+     7807.2402,
+     7805.4502,
+     7718.9399,
+     7744.0601,
+     7659.4399,
+     7690.73,
+     7712.5698,
+     7757.1699,
+     7663.4302,
+     7623.6802,
+     7676.77,
+     7722.6001,
+     7743.98,
+     7720.3901,
+     7580.0698
+    ]
+   },
+   {
+    "symbol": "SPUS",
+    "label": "S&P 500 Shariah",
+    "sub": "via SPUS ETF",
+    "price": 58.41999816894531,
+    "asOf": "2026-10-30",
+    "d1": -2.2586620018052956,
+    "w1": -0.40914026438986595,
+    "m1": -2.176830249807732,
+    "ytd": 14.392008063524608,
+    "spark": [
+     59.72,
+     60.33,
+     60.81,
+     61.15,
+     61.07,
+     60.48,
+     60.77,
+     60.57,
+     60.53,
+     59.67,
+     59.72,
+     58.82,
+     59.21,
+     59.28,
+     59.78,
+     58.81,
+     58.66,
+     59.3,
+     59.87,
+     60.11,
+     59.77,
+     58.42
+    ]
+   },
+   {
+    "symbol": "^IXIC",
+    "label": "Nasdaq",
+    "price": 25437,
+    "asOf": "2026-10-30",
+    "d1": -2.855561117502253,
+    "w1": -1.997045104669725,
+    "m1": -5.338720545964428,
+    "ytd": 9.444155786532306,
+    "spark": [
+     26871.5996,
+     27190.8594,
+     27477.3105,
+     27599.7891,
+     27538.6895,
+     27193.3398,
+     27366.1699,
+     27245.9004,
+     27204.3809,
+     26692.8691,
+     26713.0293,
+     26140.0293,
+     26430.8906,
+     26424.8203,
+     26702.8594,
+     26008.8594,
+     25955.3398,
+     26169.3809,
+     26477.8105,
+     26549.8496,
+     26184.7207,
+     25437
+    ],
+    "note": "The Nasdaq fell as the AI-related tech sell-off continued after its worst month in over a year."
+   },
+   {
+    "symbol": "^DJI",
+    "label": "Dow Jones",
+    "price": 51770.30859375,
+    "asOf": "2026-10-30",
+    "d1": -1.0932786156699836,
+    "w1": -0.8519586288135758,
+    "m1": 1.656797598932102,
+    "ytd": 7.712787875231568,
+    "spark": [
+     50926.5586,
+     51176.9609,
+     51267.8984,
+     51521.2813,
+     51179.8711,
+     51231.6406,
+     51654.9492,
+     51850.5508,
+     51670.1016,
+     51621.4805,
+     52177.6914,
+     52002.4102,
+     51966.0313,
+     52495.8789,
+     52856.0898,
+     52867.9805,
+     52215.1602,
+     52361.5781,
+     52377.5703,
+     52475.1016,
+     52342.5586,
+     51770.3086
+    ]
+   },
+   {
+    "symbol": "^FTSE",
+    "label": "FTSE 100",
+    "price": 10729.7998046875,
+    "asOf": "2026-10-30",
+    "d1": 0.07181611431558833,
+    "w1": 0.3685494707667966,
+    "m1": 2.8911711942197553,
+    "ytd": 8.039142343069457,
+    "spark": [
+     10428.2998,
+     10462,
+     10497.9004,
+     10541.7002,
+     10458.5,
+     10441.5996,
+     10552.0996,
+     10656.2998,
+     10650.2998,
+     10724.9004,
+     10840.4004,
+     10881.9004,
+     10764.7002,
+     10733,
+     10752.9004,
+     10725,
+     10690.4004,
+     10767.2998,
+     10686.5,
+     10694.5,
+     10722.0996,
+     10729.7998
+    ]
+   },
+   {
+    "symbol": "^STOXX50E",
+    "label": "Euro Stoxx 50",
+    "price": 6131.31005859375,
+    "asOf": "2026-10-30",
+    "d1": -1.2205399289919454,
+    "w1": 1.03967623975928,
+    "m1": -0.7147679168759995,
+    "ytd": 5.781178618642824,
+    "spark": [
+     6175.4502,
+     6238.5,
+     6242.1401,
+     6272.23,
+     6180.29,
+     6126.73,
+     6173.3701,
+     6201.21,
+     6167.0098,
+     6190.3701,
+     6168.2598,
+     6204.23,
+     6144.8101,
+     6121.6602,
+     6207.52,
+     6087.0098,
+     6068.2202,
+     6116.23,
+     6164.6899,
+     6167.8101,
+     6207.0698,
+     6131.3101
+    ]
+   },
+   {
+    "symbol": "^TASI.SR",
+    "label": "Tadawul (Saudi)",
+    "price": 9838.28,
+    "asOf": "2026-11-01",
+    "d1": -0.8387844579952561,
+    "w1": null,
+    "m1": null,
+    "ytd": null,
+    "spark": []
+   }
+  ],
+  "commodities": [
+   {
+    "symbol": "GC=F",
+    "label": "Gold",
+    "unit": "$/oz",
+    "price": 3917.199951171875,
+    "asOf": "2026-11-02",
+    "d1": 0.4693644178226856,
+    "w1": -3.00118745301907,
+    "m1": -5.888567979644291,
+    "ytd": -9.764809309816139,
+    "spark": [
+     4162.2998,
+     4156.7998,
+     4187.1001,
+     4140.7002,
+     4157,
+     4216.2998,
+     4190.6001,
+     4177.2998,
+     4107.8999,
+     4170.1001,
+     4181.1001,
+     4160.1001,
+     4142.6001,
+     4150,
+     4060.3999,
+     4007.8999,
+     4038.3999,
+     4074.6001,
+     4051.6001,
+     4031.3999,
+     3898.8999,
+     3917.2
+    ]
+   },
+   {
+    "symbol": "SI=F",
+    "label": "Silver",
+    "unit": "$/oz",
+    "price": 50.22999954223633,
+    "asOf": "2026-11-02",
+    "d1": 2.307675453386213,
+    "w1": -7.167150965222438,
+    "m1": -16.25123206317322,
+    "ytd": -28.379961760563166,
+    "spark": [
+     59.977,
+     60.869,
+     61.168,
+     59.899,
+     59.064,
+     60.67,
+     60.141,
+     59.161,
+     55.55,
+     56.837,
+     56.995,
+     56.974,
+     57.706,
+     57.422,
+     54.764,
+     53.711,
+     54.108,
+     54.293,
+     53.457,
+     52.191,
+     49.097,
+     50.23
+    ]
+   },
+   {
+    "symbol": "BZ=F",
+    "label": "Brent crude",
+    "unit": "$/bbl",
+    "price": 110.04000091552734,
+    "asOf": "2026-11-02",
+    "d1": -6.46038635970092,
+    "w1": -4.982295798898615,
+    "m1": 7.61858280247173,
+    "ytd": 80.83813257994784,
+    "spark": [
+     102.25,
+     100.32,
+     100.58,
+     100.2,
+     104.28,
+     104.72,
+     106.65,
+     105.69,
+     106.06,
+     105.92,
+     109.86,
+     109.55,
+     108.79,
+     108.82,
+     113.17,
+     116.72,
+     115.81,
+     113.88,
+     115.32,
+     114.88,
+     117.64,
+     110.04
+    ],
+    "note": "Oil fell as hopes grew of an Iran peace deal after Qatar-mediated talks and Trump signalled more time for diplomacy."
+   },
+   {
+    "symbol": "CL=F",
+    "label": "WTI crude",
+    "unit": "$/bbl",
+    "price": 100.69000244140625,
+    "asOf": "2026-11-02",
+    "d1": -3.294276041774671,
+    "w1": -1.0514933887204172,
+    "m1": 10.514764314430533,
+    "ytd": 75.35702830423082,
+    "spark": [
+     91.11,
+     89.43,
+     89.44,
+     88.28,
+     91.49,
+     91.85,
+     93.74,
+     94.14,
+     95.09,
+     97.97,
+     101.41,
+     103.66,
+     101.79,
+     97.15,
+     99.47,
+     103.27,
+     101.76,
+     99.9,
+     102.78,
+     102,
+     104.12,
+     100.69
+    ]
+   },
+   {
+    "symbol": "HG=F",
+    "label": "Copper",
+    "unit": "$/lb",
+    "price": 6.517499923706055,
+    "asOf": "2026-11-02",
+    "d1": 0.9135250614716456,
+    "w1": 0.14597459823647915,
+    "m1": 0.39278835959132735,
+    "ytd": 15.763761833480336,
+    "spark": [
+     6.492,
+     6.5855,
+     6.5945,
+     6.5965,
+     6.519,
+     6.6425,
+     6.6985,
+     6.678,
+     6.6115,
+     6.5115,
+     6.531,
+     6.538,
+     6.5665,
+     6.543,
+     6.3625,
+     6.476,
+     6.508,
+     6.622,
+     6.6415,
+     6.581,
+     6.4585,
+     6.5175
+    ]
+   },
+   {
+    "symbol": "NG=F",
+    "label": "US natural gas",
+    "unit": "$/MMBtu",
+    "price": 2.9149999618530273,
+    "asOf": "2026-11-02",
+    "d1": 0.5866100736538996,
+    "w1": 12.029206917364139,
+    "m1": -3.953875472290695,
+    "ytd": -20.9169865470736,
+    "spark": [
+     3.035,
+     3.066,
+     3.114,
+     3.203,
+     3.168,
+     3.22,
+     3.167,
+     3.283,
+     3.198,
+     3.236,
+     3.116,
+     3.058,
+     2.963,
+     2.79,
+     2.796,
+     2.64,
+     2.602,
+     2.697,
+     2.817,
+     2.952,
+     2.898,
+     2.915
+    ]
+   }
+  ],
+  "rates_fx": [
+   {
+    "symbol": "GBPUSD=X",
+    "label": "GBP/USD",
+    "price": 1.3396564722061157,
+    "asOf": "2026-11-02",
+    "d1": 0.13396813527582824,
+    "w1": 0.14066034887687368,
+    "m1": 1.4923765024463975,
+    "ytd": -0.524479548032841,
+    "spark": [
+     1.32,
+     1.3243,
+     1.3219,
+     1.3267,
+     1.3215,
+     1.3229,
+     1.3242,
+     1.321,
+     1.3257,
+     1.323,
+     1.3273,
+     1.3336,
+     1.3308,
+     1.3373,
+     1.3396,
+     1.3404,
+     1.3378,
+     1.3345,
+     1.3306,
+     1.3328,
+     1.3379,
+     1.3397
+    ]
+   },
+   {
+    "symbol": "EURUSD=X",
+    "label": "EUR/USD",
+    "price": 1.1184431314468384,
+    "asOf": "2026-11-02",
+    "d1": 0.014540311360940097,
+    "w1": -0.2952720551806457,
+    "m1": -0.5815896593284395,
+    "ytd": -4.791410244193854,
+    "spark": [
+     1.125,
+     1.1255,
+     1.1217,
+     1.1254,
+     1.1201,
+     1.1213,
+     1.1205,
+     1.116,
+     1.1204,
+     1.1195,
+     1.1213,
+     1.1225,
+     1.1216,
+     1.1227,
+     1.1235,
+     1.1221,
+     1.1218,
+     1.1174,
+     1.113,
+     1.1156,
+     1.1183,
+     1.1184
+    ]
+   },
+   {
+    "symbol": "^TNX",
+    "label": "US 10Y yield",
+    "unit": "%",
+    "price": 4.928999900817871,
+    "asOf": "2026-10-30",
+    "d1": -1.2026447115756356,
+    "w1": -1.1828391389628543,
+    "m1": -5.881231399868066,
+    "ytd": 18.400186748806817,
+    "spark": [
+     5.237,
+     5.277,
+     5.311,
+     5.269,
+     5.277,
+     5.231,
+     5.244,
+     5.24,
+     5.217,
+     5.19,
+     5.089,
+     5.098,
+     5.136,
+     5.117,
+     5.146,
+     4.953,
+     4.988,
+     4.986,
+     4.993,
+     5.045,
+     4.989,
+     4.929
+    ]
+   }
+  ],
+  "movers": {
+   "sp500": {
+    "gainers": [
+     {
+      "ticker": "FDXF",
+      "name": "FedEx Freight",
+      "price": 126.04,
+      "d1": 14.905643176223911,
+      "shariah": true
+     },
+     {
+      "ticker": "REGN",
+      "name": "Regeneron Pharmaceuticals",
+      "price": 927.89,
+      "d1": 13.327308035223567,
+      "shariah": true
+     },
+     {
+      "ticker": "GPN",
+      "name": "Global Payments",
+      "price": 96.84,
+      "d1": 12.972468502099865,
+      "shariah": false
+     },
+     {
+      "ticker": "GDDY",
+      "name": "GoDaddy",
+      "price": 117.24,
+      "d1": 10.718670318254787,
+      "shariah": true
+     },
+     {
+      "ticker": "CSGP",
+      "name": "CoStar Group",
+      "price": 30.17,
+      "d1": 7.213930348258709,
+      "shariah": true
+     }
+    ],
+    "losers": [
+     {
+      "ticker": "RDDT",
+      "name": "Reddit",
+      "price": 91.73,
+      "d1": -29.220679012345673,
+      "shariah": true
+     },
+     {
+      "ticker": "INTC",
+      "name": "Intel",
+      "price": 65.76,
+      "d1": -28.57608341479308,
+      "shariah": false
+     },
+     {
+      "ticker": "ILMN",
+      "name": "Illumina, Inc.",
+      "price": 235.99,
+      "d1": -18.640970833620628,
+      "shariah": true
+     },
+     {
+      "ticker": "TWLO",
+      "name": "Twilio",
+      "price": 205.03,
+      "d1": -15.241835469202151,
+      "shariah": true
+     },
+     {
+      "ticker": "SNDK",
+      "name": "Sandisk",
+      "price": 1150.89,
+      "d1": -13.470170294349826,
+      "shariah": true
+     }
+    ],
+    "coverage": 503
+   },
+   "ftse100": {
+    "gainers": [
+     {
+      "ticker": "AZN",
+      "name": "AstraZeneca",
+      "price": 13960,
+      "d1": 6.9567882316886305
+     },
+     {
+      "ticker": "BT.A",
+      "name": "BT Group",
+      "price": 227.3,
+      "d1": 6.713615023474184
+     },
+     {
+      "ticker": "CCEP",
+      "name": "Coca-Cola Europacific Partners",
+      "price": 8510,
+      "d1": 3.2766990291262137
+     },
+     {
+      "ticker": "DGE",
+      "name": "Diageo",
+      "price": 1757,
+      "d1": 3.2618277990008817
+     },
+     {
+      "ticker": "REL",
+      "name": "RELX",
+      "price": 2992,
+      "d1": 2.6415094339622645
+     }
+    ],
+    "losers": [
+     {
+      "ticker": "NWG",
+      "name": "NatWest Group",
+      "price": 579.6,
+      "d1": -8.753148614609575
+     },
+     {
+      "ticker": "CCC",
+      "name": "Computacenter",
+      "price": 4938,
+      "d1": -6.032350142721218
+     },
+     {
+      "ticker": "PCT",
+      "name": "Polar Capital Technology Trust",
+      "price": 592.5,
+      "d1": -5.952380952380952
+     },
+     {
+      "ticker": "AAF",
+      "name": "Airtel Africa",
+      "price": 259,
+      "d1": -5.543398978847552
+     },
+     {
+      "ticker": "BGEO",
+      "name": "Lion Finance Group",
+      "price": 12030,
+      "d1": -5.4245283018867925
+     }
+    ],
+    "coverage": 100
+   },
+   "shariahListAvailable": true
+  },
+  "stories": [
+   {
+    "category": "markets",
+    "headline": "Tech rout deepens as Nasdaq has worst month in over a year",
+    "summary": "US tech stocks fell sharply, with the Nasdaq down 2.9% in the session, after its worst month in over a year. Concerns about AI valuations and debt-funded data centre spending are weighing on sentiment.",
+    "sources": [
+     {
+      "source": "FT",
+      "title": "Global AI sell-off eases after Nasdaq’s worst month in over a year",
+      "link": "https://www.ft.com/content/d7fe99f8-d292-4cb5-a8fd-45be0f8cc2b3?syn-25a6b1a6=1"
+     },
+     {
+      "source": "Bloomberg",
+      "title": "Asian Stocks to Fall as Tech Rout Fuels AI Fears: Markets Wrap",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNUXhSWUZpNlU1UFZVSEtvY3QwQVB4T3FuYlpCT3lpaE05MThfMFFTZVZWWllFZDZDYkJFdTBIWEx1X1ZMVXlESFdaX3Noc2VSSW1QRHFzYzhPZkowLVNZeWR1N2dBN2hlLXY1VlJ3SHJNR3Ayc29JOXN4cXN3bklZQzN5bEctRER1aGp1eFdUVjhITWM0?oc=5"
+     },
+     {
+      "source": "WSJ",
+      "title": "The Tangled Web of AI Bets Is Reason to Fear Tech Stocks",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQMFhvME5UY0lraHNqbUFNN015bXJpV05xSk1jUHVUbDVlbk5jaEJQU0FLYzZnNV8zd201X1JJQmhsLVJpWGMwbWlyRUh3SFJLR1B5R3NCVUxJaVdJUE1LTDlOLTJxRjZiTXhycTRCUndwbU9BeHA3LWkzWFFFbUtjZEI0NVJQaElNYTZTN1ZQbVQ4c1hp?oc=5"
+     },
+     {
+      "source": "BBC Tech",
+      "title": "These firms you've never heard of are feeding fears the AI bubble could burst",
+      "link": "https://www.bbc.co.uk/news/articles/cje36degrgv5o?at_medium=RSS&at_campaign=rss"
+     }
+    ]
+   },
+   {
+    "category": "economy",
+    "headline": "Bank of England rate rise expected this week",
+    "summary": "An increase in the Bank of England rate is expected this week, and more than 2.3m UK households face higher mortgage payments in 2027 as fixed deals end. Markets are also parsing signals from the Fed.",
+    "sources": [
+     {
+      "source": "Guardian",
+      "title": "Millions in UK brace to remortgage on worse deals as rate rise looms",
+      "link": "https://www.theguardian.com/money/2026/nov/02/mortgage-payments-rise-2027-interest-rates"
+     },
+     {
+      "source": "Reuters",
+      "title": "Gold rises on softer oil; Markets parse Fed signals",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNOXFkdElkaE5fVGZ6eUVZUFZnZjNuaUFoM2pPZ1ZJeEY4bmN0Wm9zSTRwLWpHcjNjLWRLRklsOV95a21mWjZWckhUam5qTVZVUzVDdWEwQXVOVWlpaHpCMktPLU41TGNkZjI3MFM1azNvSEtUai1pUGFpNi1mZFhISlB3TXFUSWtseGlhYmRISUpuWXdlVU5mLTJPRQ?oc=5"
+     }
+    ]
+   },
+   {
+    "category": "companies",
+    "headline": "Apple reports with margins and memory costs in focus",
+    "summary": "Apple reports earnings on a rare Monday, its first under new chief executive John Ternus. Investors want to see how it is coping with inflated memory prices and weaker consumer spending.",
+    "sources": [
+     {
+      "source": "MarketWatch",
+      "title": "Apple’s new earnings era begins at a critical time for Big Tech",
+      "link": "https://www.marketwatch.com/story/apples-new-earnings-era-begins-at-a-critical-time-for-big-tech-2236a44e?mod=mw_rss_topstories"
+     },
+     {
+      "source": "Google News (Markets)",
+      "title": "Morning Bid: Markets hope for relief in Apple margins - Euronext Markets: Real-time Stock Market Data | live",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPcU9LOTNrejBSUnd1SVhXMVZ2UXZIekM0dG5YRzU2N3o5bnVYdVhONjQ5bnBNdGRMRTU5bWNCbFNCeWpWNFBzc09fdUpDVzJKWHNSc1JQUEU4WTVVU0txbXhwclRlZGVYdUlMd09PU19Wa3NtakZpVVlHelZRVGFaejhsVUQ4QlM5QVhDbVlHRkNnbkk?oc=5"
+     },
+     {
+      "source": "Global Banking & Finance Review",
+      "title": "Apple Earnings Margins in Focus as Markets Seek Relief",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOeHB2dHFidFFMQWNmSjhXc3ZqZXE2akY5S0Z0dW9xSm5lSWNuSzVrbk1GLTBPNGdZT1htbGl4Y1VSQ2hHUUQ5dlZ0aElIbEFYLXRxU3NscVh6NmZReDVKT1RUZXZqaHJEMVN1Q294Y1JVRU1EMjc5R1JxT2JYOEd0a3JENmR4LTJzMkZMckwzaw?oc=5"
+     }
+    ]
+   }
+  ],
+  "calendar": [
+   {
+    "when": "Today",
+    "event": "Apple earnings report"
+   },
+   {
+    "when": "Today",
+    "event": "Home Secretary Shabana Mahmood announces new immigration settlement rules"
+   },
+   {
+    "when": "Today",
+    "event": "Adipec 2026 opens in Abu Dhabi"
+   }
+  ]
+ },
+ "world": {
+  "us": [
+   {
+    "category": "political",
+    "headline": "Trump makes final push before tight midterms",
+    "summary": "Trump rallied in Iowa and Kansas before Tuesday's elections, which will decide control of Congress. Polls favour Democrats, but past misses and a Michigan Senate row after Haley Stevens endorsed the Republican candidate show how fraught the race is.",
+    "sources": [
+     {
+      "source": "BBC",
+      "title": "Trump makes fevered campaign push in final weekend before election",
+      "link": "https://www.bbc.co.uk/news/articles/c3j47gjx29vro?at_medium=RSS&at_campaign=rss"
+     },
+     {
+      "source": "Euronews",
+      "title": "Trump rallies in Iowa and Kansas in final push as Democratic divisions shake up Michigan",
+      "link": "https://www.euronews.com/2026/11/02/trump-wraps-up-campaign-rallies-in-final-push-as-democratic-divisions-shake-up-michigan"
+     },
+     {
+      "source": "NPR",
+      "title": "How to think about the midterms — and the political moment the country is in",
+      "link": "https://www.npr.org/2026/11/01/g-s1-151146/how-to-think-about-the-midterms-and-the-political-moment-the-country-is-in"
+     },
+     {
+      "source": "Guardian",
+      "title": "Democrat Haley Stevens endorses Abdul El-Sayed’s Republican rival Mike Rogers",
+      "link": "https://www.theguardian.com/us-news/2026/nov/01/abdul-el-sayed-haley-stevens-michigan-senate"
+     },
+     {
+      "source": "Politico",
+      "title": "Democratic Rep. Haley Stevens endorses Republican Mike Rogers for Michigan Senate",
+      "link": "https://www.politico.com/news/2026/11/01/haley-stevens-endorses-mike-rogers-michigan-senate-01144698"
+     },
+     {
+      "source": "FT",
+      "title": "Trump makes final pitch to restive voters in midterms campaign",
+      "link": "https://www.ft.com/content/75e8405b-124f-44aa-9c5e-0a33d0ee5b92?syn-25a6b1a6=1"
+     }
+    ]
+   },
+   {
+    "category": "notable",
+    "headline": "Nine killed in Florida business jet crash",
+    "summary": "A Learjet travelling from Austin to the Bahamas crashed into a street in Greenacres, Florida, killing all nine on board. Aviation authorities will investigate the crash, which happened about eight miles from Mar-a-Lago.",
+    "sources": [
+     {
+      "source": "BBC",
+      "title": "Nine killed as small jet crashes on Florida street",
+      "link": "https://www.bbc.co.uk/news/articles/cm369yy7lw73o?at_medium=RSS&at_campaign=rss"
+     },
+     {
+      "source": "NPR",
+      "title": "9 dead as jet nosedives and erupts into fireball near busy roadway in South Florida",
+      "link": "https://www.npr.org/2026/11/02/g-s1-151211/south-florida-jet-crash"
+     },
+     {
+      "source": "Guardian",
+      "title": "All nine people aboard business jet that crashed in Florida have died",
+      "link": "https://www.theguardian.com/us-news/2026/nov/01/business-jet-crash-florida"
+     },
+     {
+      "source": "Al Jazeera",
+      "title": "Nine die in ‘cataclysmic’ Florida business jet crash",
+      "link": "https://www.aljazeera.com/news/2026/11/2/nine-die-in-cataclysmic-florida-business-jet?traffic_source=rss"
+     },
+     {
+      "source": "FT",
+      "title": "Nine killed as business jet crashes in Florida",
+      "link": "https://www.ft.com/content/2bd1e339-98b2-43a9-a0e6-812736abedf8?syn-25a6b1a6=1"
+     }
+    ]
+   }
+  ],
+  "uk": [
+   {
+    "category": "political",
+    "headline": "Home secretary to lengthen settlement waits for migrants",
+    "summary": "Shabana Mahmood will announce rules making some legal migrants wait 10 years or more to settle in the UK. MPs warn this risks staff shortages in health and social care.",
+    "sources": [
+     {
+      "source": "Guardian",
+      "title": "Home secretary to make some migrants wait 10 years or more for right to settle in UK",
+      "link": "https://www.theguardian.com/politics/2026/nov/01/home-secretary-shabana-mahmood-immigration-leave-to-remain-windrush"
+     },
+     {
+      "source": "Sky News",
+      "title": "Home secretary to announce new immigration rules - here's what could happen",
+      "link": "https://news.sky.com/story/home-secretary-to-announce-new-immigration-rules-13606832"
+     }
+    ]
+   },
+   {
+    "category": "financial",
+    "headline": "Healey casts doubt on youth minimum wage pledge",
+    "summary": "Chancellor John Healey has not guaranteed that the minimum wage for younger workers will match the adult rate before the next election. That puts a manifesto pledge in doubt.",
+    "sources": [
+     {
+      "source": "BBC",
+      "title": "Healey risks breaking minimum wage promise for younger workers",
+      "link": "https://www.bbc.co.uk/news/articles/cv369266644lo?at_medium=RSS&at_campaign=rss"
+     },
+     {
+      "source": "BBC Politics",
+      "title": "Laura Kuenssberg: Healey risks breaking minimum wage promise for younger workers",
+      "link": "https://www.bbc.co.uk/news/articles/cv369266644lo?at_medium=RSS&at_campaign=rss"
+     },
+     {
+      "source": "Guardian",
+      "title": "Labour’s pledge to level-up minimum wage for under-20s before next election in doubt",
+      "link": "https://www.theguardian.com/society/2026/nov/01/chancellor-fails-to-guarantee-minimum-wage-pledge-younger-workers-kuenssberg"
+     }
+    ]
+   },
+   {
+    "category": "notable",
+    "headline": "King to address slavery as reparations row builds",
+    "summary": "King Charles will speak about slavery with 'sincere sorrow' to Commonwealth leaders in Antigua. The government says an apology would not lead to financial reparations.",
+    "sources": [
+     {
+      "source": "BBC",
+      "title": "King to address slavery in Antigua as PM says he is open to possible UK apology",
+      "link": "https://www.bbc.co.uk/news/articles/cq398y0zj9rpo?at_medium=RSS&at_campaign=rss"
+     },
+     {
+      "source": "Sky News",
+      "title": "The King to speak about slavery with 'unflinching honesty'",
+      "link": "https://news.sky.com/story/the-king-to-speak-about-slavery-with-unflinching-honesty-13606556"
+     },
+     {
+      "source": "Guardian",
+      "title": "UK was ‘vehement’ slavery reparations should not be on Commonwealth summit agenda",
+      "link": "https://www.theguardian.com/world/2026/nov/01/uk-was-vehement-slavery-reparations-should-not-be-on-commonwealth-summit-agenda"
+     }
+    ]
+   }
+  ],
+  "europe": [
+   {
+    "category": "political",
+    "headline": "Ukraine truce ends as cyberattacks hit alert apps",
+    "summary": "The Kherson ceasefire ended after Russia refused an extension, and Ukraine and Russia accused each other of hacking emergency alert apps. Ukraine has also resumed strikes on Russian oil refineries despite US pressure.",
+    "sources": [
+     {
+      "source": "France24",
+      "title": "Live: Russia and Ukraine trade blame for cyber attacks as fragile ceasefire ends",
+      "link": "https://www.france24.com/en/europe/20261102-live-russia-and-ukraine-trade-blame-cyber-attacks-fragile-ceasefire-ends"
+     },
+     {
+      "source": "DW",
+      "title": "Ukraine: Six-day localized ceasefire in Oleshky comes to end",
+      "link": "https://www.dw.com/en/ukraine-six-day-localized-ceasefire-in-oleshky-comes-to-end/live-79815409?maca=en-rss-en-all-1573-rdf"
+     },
+     {
+      "source": "Euronews",
+      "title": "Ukraine and Russia say air raid alert apps hit by cyberattacks after truce ends",
+      "link": "https://www.euronews.com/2026/11/02/ukraine-and-russia-say-air-raid-alert-apps-hit-by-cyberattacks-after-truce-ends"
+     },
+     {
+      "source": "Guardian",
+      "title": "Ukraine defies Trump to resume attacks on Russian oil refineries",
+      "link": "https://www.theguardian.com/world/2026/nov/01/ukraine-defies-trump-resumes-attacks-russian-oil"
+     },
+     {
+      "source": "Al Jazeera",
+      "title": "Russia, Ukraine air raid alert apps hit by cyberattacks after truce ends",
+      "link": "https://www.aljazeera.com/news/2026/11/2/ukraine-blames-russia-after-air-alert-app-sends-out-false-warnings?traffic_source=rss"
+     }
+    ]
+   },
+   {
+    "category": "notable",
+    "headline": "Youth-led protests turn violent in Germany and France",
+    "summary": "Cost-of-living protests across Europe turned to looting in Frankfurt, Berlin and other German cities. France opened an attempted murder probe after a petrol bomb attack on police.",
+    "sources": [
+     {
+      "source": "BBC",
+      "title": "Shops looted as German cost-of-living protests turn violent",
+      "link": "https://www.bbc.co.uk/news/articles/cqj34gnd3n30o?at_medium=RSS&at_campaign=rss"
+     },
+     {
+      "source": "Euronews",
+      "title": "Looted shops, burning barricades as riots erupt in Frankfurt",
+      "link": "https://www.euronews.com/video/2026/11/01/looted-shops-burning-barricades-as-riots-erupt-in-frankfurt"
+     },
+     {
+      "source": "Guardian",
+      "title": "Attempted murder probe after petrol bomb thrown at French riot police",
+      "link": "https://www.theguardian.com/world/2026/nov/01/petrol-bomb-thrown-at-french-riot-police"
+     },
+     {
+      "source": "DW",
+      "title": "France opens attempted murder probe after protest attack",
+      "link": "https://www.dw.com/en/france-opens-attempted-murder-probe-after-protest-attack/a-79822853?maca=en-rss-en-all-1573-rdf"
+     },
+     {
+      "source": "France24",
+      "title": "Youth-led rallies sweep Europe",
+      "link": "https://www.france24.com/en/youth-led-rallies-sweep-europe"
+     }
+    ]
+   }
+  ],
+  "middle_east": [
+   {
+    "category": "political",
+    "headline": "Qatar leads talks to avert renewed US strikes on Iran",
+    "summary": "Qatar is mediating between Washington and Tehran amid fears of new US strikes after Tuesday's midterms. Gulf officials say they are braced for the worst, and Iran warns a new war could outlast the last.",
+    "sources": [
+     {
+      "source": "NPR",
+      "title": "Gulf region on edge as Qatar leads talks with Iran to stave off new U.S. attacks",
+      "link": "https://www.npr.org/2026/11/01/nx-s1-6023237/gulf-leaders-meet-in-qatar-in-effort-to-stave-off-new-escalation-in-u-s-and-iran-war"
+     },
+     {
+      "source": "Guardian Business",
+      "title": "Negotiators ‘braced for worst’ over US-Iran talks to reopen strait of Hormuz",
+      "link": "https://www.theguardian.com/world/2026/nov/01/negotiators-braced-for-worst-over-us-iran-talks-to-reopen-strait-of-hormuz"
+     },
+     {
+      "source": "Arab News",
+      "title": "UAE says hoping for breakthrough yet ‘braced for the worst’ in Iran-US war",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQdHA0MFN2MlZWamRlM1lpdUNYSHh6RmNoemhHdDFTTXlaUEdXSnl1QUlYZUR4OW9KWjdIcURieGx3WnpCU3BtSDVUb3hDaDR2TDFOajFxV1FWcEwtaUQ1NFBRWjN1WG5CZ3FuYlB1WllNb2ZWRlExaUNJU1ZzSmR4ZlBtUXozNnp6a1FDMEF4MTdiTW5WdEZzeEE3OGxSckc1WTlMTlhVRzRiZmpJRWFYNFBIZC1fcklp?oc=5"
+     },
+     {
+      "source": "France24",
+      "title": "Iran warns renewed war with US could outlast previous conflict",
+      "link": "https://www.france24.com/en/middle-east/20261102-iran-warns-renewed-war-with-us-could-outlast-previous-conflict"
+     },
+     {
+      "source": "CNBC",
+      "title": "Rubio says Trump wants to end Iran war 'peacefully' even as both sides prepare for strikes",
+      "link": "https://www.cnbc.com/2026/11/02/us-iran-war-trump-hormuz-rubio.html"
+     },
+     {
+      "source": "FT",
+      "title": "Gulf braced for escalation of war between US-Israel alliance and Iran",
+      "link": "https://www.ft.com/content/efaa2962-1acb-45cf-afb4-d0088f0a1046?syn-25a6b1a6=1"
+     },
+     {
+      "source": "The National",
+      "title": "Oil prices slide more than 3% as Trump signals more time for Iran diplomacy",
+      "link": "https://www.thenationalnews.com/business/2026/11/02/oil-prices-slide-more-than-3-as-trump-signals-more-time-for-iran-diplomacy/"
+     }
+    ]
+   },
+   {
+    "category": "financial",
+    "headline": "Adnoc and Abu Dhabi sign OpenAI deals as Adipec opens",
+    "summary": "Adnoc signed an agreement with OpenAI and G42 to deploy frontier AI across its operations, and Abu Dhabi agreed further deals on government services and education. Aramco also closed a $2.6bn deal for a 49% stake in Humain.",
+    "sources": [
+     {
+      "source": "The National",
+      "title": "Adnoc signs OpenAI deal, UAE prepares for worst and Dubai unveils tourism loyalty programme",
+      "link": "https://www.thenationalnews.com/podcasts/trending-middle-east/2026/11/02/adnoc-signs-openai-deal-uae-prepares-for-worst-and-dubai-unveils-tourism-loyalty-programme/"
+     },
+     {
+      "source": "UA.NEWS",
+      "title": "Adnoc to deploy OpenAI frontier AI under G42 deal — The National",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOUmxVa3BiSVNwaW95cXNELTNQa013RWlZb0hoTVVFdG5ubTNyMU9Yc3Fwb21NblNaM05lbjlrclR1azFrUGlWM1RZMEpXcWdreGM3QkVzVjZYdWk4WXlIcG5aTDJManJwd245RjdfdzlXWnRLeHZtN2Y4b3M4aktSTnpjV3VoUEp1dFJBTW9rZzgzZVo2SmRDT1ZqS0V1b1E?oc=5"
+     },
+     {
+      "source": "ITP.net",
+      "title": "ADNOC Signs OpenAI and G42 Deal to Deploy AI Agents Across Energy Operations",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPWVdaYURpd3hxSkNTRGc4b1NfYTV5MVJqYm9EYXhFcTRKUGZzcjZLUW9LbHlDT1J1UWVIMU9pVV95R2FHbWlFT0hIaGhNM2NCeXFXZTZMU3FuczAyMldaWXk4RnRNdllqZWNWX2NJcURoY3FLU1VKM0lzYlk1TGlINkdXRWN1LW5Vb3hSbjR6Q3RYNG5sOFhPOFJaRmFLM24wZGJfeG9ZcUxnNE0tVXpv?oc=5"
+     },
+     {
+      "source": "مكتب أبوظبي الإعلامي",
+      "title": "Khaled bin Mohamed bin Zayed meets Sam Altman and witnesses signing of agreements with OpenAI",
+      "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQSF82ZjVUUDJfeW1tWjd6N1RDWXhBekdsbWkwdkZBRGp6X2tMQlRXb1haeVNXTS1qZnZ1bENZV2N0S2dONjlram81Rkg1VzRZRUU4SG55cWZ4TnF0Tl9CWjlJR2JvVF9FMXRrOGRkcS0zTlpuMGFZQjROZ0w0M1pHNXVzWlh3X2g3SUtobUItNFA5OUhDYnNXYmk4QXBpdFR2MW0yckNheXlZazhKN2pNeTNtMS1VTlJGNUd4TG1EYjRkNm9PdjVYZ09VSkdXQ1R4V3lWeThNOHVGR3UybXRZcnJR?oc=5"
+     },
+     {
+      "source": "Arab News",
+      "title": "Aramco closes $2.6bn deal for 49% stake in Humain",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNa01iazRCRFVVNHJlLWFVTFhTaFBFN2FCdWZLN3FqSFFNSXJXa1MwME1YTWhwNmxkd0FJcWtkYi1iaFRIa1h4eXM3RWNzdmRrakl5UEtnOGJaSGUtTWdwamM4SEttd2lWUVhwREsxUkM0aDZIWk1zWGprODZiTkVCRHprQ0d4LTlYUWg0SThiZWo?oc=5"
+     }
+    ]
+   },
+   {
+    "category": "notable",
+    "headline": "Qatari LNG carrier struck in the Gulf",
+    "summary": "A Qatari LNG carrier was hit by unidentified objects in the Gulf, and Saudi Arabia condemned the attack. Tankers have also been hit in and near the Strait of Hormuz.",
+    "sources": [
+     {
+      "source": "Al Jazeera",
+      "title": "Qatar LNG carrier struck by ‘unidentified objects’ in Gulf",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQSU1Fc3JpWUM4REFIanVUZEJBRUZyQmxQbW82TTJ2TlB5bWp2bVNQV25pWlhGcmY5T19mWUV5M0xvekFGODFoLVkzMnR3a25wSVhIUWpHM2xkcS10OGtwVXFTZHY1ZGVqNGl1dTdMa19yWllzUmVqc2ZWOEtINDBJaDJ5d241UE1rTFFuMTFwcEVrUDdBb2tIQmdVc05ld9IBowFBVV95cUxNZEtDQS12eTRKS0NESXZxRVgyLVB4QXhRRmVsR2I4UEJxSG5yUzVjS1gtZUs3Z28yUXlTcHhiUEVvY2JVXy1KYjNveHZvS0ZHZVk2a1d5aXlBSUlNSHgwNWFCUWg3dzBPajF6UkZrVDFHTWJUdU9DYmhyRTlnTjVuV0ZRNVBVTC1XSFVPT3dBbDNfV2xFWXV6WC14LXZQbnM2eTRJ?oc=5"
+     },
+     {
+      "source": "Arab News",
+      "title": "Saudi Arabia condemns attack on Qatari LNG carrier in Gulf",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPMXJiWG9GemlNYWNmZkcxTUxmNEtGLVdRYXZEZUNCM2xCQlgyOU1ZYUVCdFlDTE5xb05qR0dGRlBYLWlqSTFtY3B1bWxaejdoQzlrclZneVI0UXNwNlNkbTZKbDhLbExfaUExYU1LcTdqY2FWMlBNUEVKdGVsMDVXX25qdnpRY2t4MjVoNlpVNkticmxGX0QzQnhjZTlBbXhJNG5YTHBVTQ?oc=5"
+     },
+     {
+      "source": "Seatrade Maritime News",
+      "title": "Tanker hit off Saudi and offshore tug struck in Hormuz",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOTjZDeTdLeTRtZlpLbjVvYzNGX0xzbU1jdzZDS2R6WWxxZHppbU0xLVZQa19LQnZfZmhPNDRnMG1ySXFYMWR3a3R0ZjhEVzlQLWNtME1sSElHUVVXd2JFTnJ1eGpNRElSWGhEQ2RkaDRTalNyczhOaHVndGZacGN5MV9JZ3dYcldTbGluOS1OUnVjWEpXYjNSNnBTRWlsUQ?oc=5"
+     }
+    ]
+   }
+  ]
+ },
+ "energyTech": {
+  "energy": [
+   {
+    "category": "energy",
+    "headline": "National Grid plans UK's biggest substation on Teesside",
+    "summary": "National Grid has agreed a land deal for what would be Britain's biggest electricity substation, near a planned data centre. It aims to attract large-scale AI infrastructure investment to the north-east.",
+    "sources": [
+     {
+      "source": "Guardian",
+      "title": "National Grid to site biggest substation in UK near planned Teesside datacentre",
+      "link": "https://www.theguardian.com/business/2026/nov/01/national-grid-to-site-biggest-substation-on-teesside-near-planned-ai-datacentre"
+     },
+     {
+      "source": "Sky News",
+      "title": "National Grid sparks deal to pave way for giant UK data centre",
+      "link": "https://news.sky.com/story/national-grid-sparks-deal-to-pave-way-for-giant-uk-data-centre-13606573"
+     },
+     {
+      "source": "AskTraders.com",
+      "title": "National Grid Signs Teesside Substation Land Deal, Says Sky News",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOREVaOGM3RUY2aHY3enRZLWhab2NUeGRsbDZYMk5zazJGMWtydXVhZ19tcm96bjRIS3l0RXBYUDRQVFlzSUNoRTRXMFFGd1FfM1ZsSHZDWWE2YzdvVDNjb3NIdGUtWmVMUjlkOFh0dkthNDBGWEl2dHMyY0FLLTVsdEZPU2RSZ3gyTm9LTm1fWDB2aEZRS1Jzb1A1azF2T3dIZUE?oc=5"
+     },
+     {
+      "source": "marketscreener.com",
+      "title": "National Grid plc Reportedly Buys Land for Substation to Serve Planned UK Data Center Hub",
+      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxORFRWd3poOWpkQnJwX3NMamRONlB4dDhiYnRTZi04anAxaDVfck1sbGtIaDB5UkZrUE9nZkRsNGVzYnJSM3lTei01U3JPbDk2QXF1N3NNbnZvMUFiNzNVQVJfQjlmUXpPaGtfUUEwNVctdEY0STF5SmJLRUNmQ29La1BPOEZpcjFvdUhhTkpyNkl1SWhESnQtYU1Qc1ZOWDE4RDliREdhUVIyNUoxS1ZRUnEzZVBPUWRwR1ZYMEZITXRlcWl3S3c5Tk5BTFpnQWliVHl1TGJhd3pkdw?oc=5"
+     },
+     {
+      "source": "www.tokenpost.com",
+      "title": "National Grid Buys 73 Acres for Potentially Britain’s Largest Substation",
+      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFAtYlBsejU3T0VqY0V6dTlhQmtUak92S1BFb3Y1bHppSHNkLXVPOUZfbHpMdHptZ0NhMFU4RkRuOUFCN1h4Mi1YMVBab2RFOWdlbGFFejMwLV8?oc=5"
+     },
+     {
+      "source": "UA.NEWS",
+      "title": "National Grid agrees to buy land for substation on Teesside — The Guardian",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNa1g1Q2FYNlF5QnBSZi1xZmZCQXlWWUxlTWd2eUNNNGRnZTFYRHFURU5Hb2l1M092VW1FQW9tN0tHdGhERjloeVVRYW85S3dIMVpOZG9ianR0OUN2V3NKbjdGXzFNRmpPV3NkZlVZX3dDWTh0M2cwV3F0ZnJJWTdEQ3g3emdjYnYyeS1vb1J1U2lGTWZiUmNOY25qZXdQeFdYSWI0U1VPR1h2dURYRFlkV2JHazh6STN3?oc=5"
+     }
+    ]
+   },
+   {
+    "category": "energy",
+    "headline": "Oil slides as Iran diplomacy gives markets hope",
+    "summary": "Crude fell around 3% to start the week on optimism over Qatar-mediated talks between the US and Iran. Benchmarks are still set for a fourth monthly gain in a row.",
+    "sources": [
+     {
+      "source": "OilPrice",
+      "title": "Oil Prices Slide 3% as Hopes for Iran Peace Deal Grow",
+      "link": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Slide-3-as-Hopes-for-Iran-Peace-Deal-Grow.html"
+     },
+     {
+      "source": "WSJ",
+      "title": "Oil Futures Fall as Market Holds Out Hope for Middle East Diplomacy",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNeklkQ3dLbGJfaEt1ZDNyR3BZbk5JcjlJWVNEVnRrSVFudjJsOFA1S20zSlNxdVpoVkFJM1liUUdaTXExS25HTzFnUFYxWUNkWUFTVU9mODVlX3VwOGdzRGJEdHUzQzhyekVZeUhmN1RTTUhMM05peURpTFBRTFcyZ3RyX2dRT1lDT3k5YmtWeHRhYTJGdWNqWFRXZFVJMWMxMlM3YWcyZWlMZHV5SGc?oc=5"
+     },
+     {
+      "source": "XTB.com",
+      "title": "Morning Wrap: Oil falls after Qatar talks. China injects liquidity, while the US prepares for elections.",
+      "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxORXJSRC00dERPRGJiQWtpcnpUelFxZWVGelNYdzkzVEFnRzJxQ25BbFMxQTNsaU9SdnIwaVJieXFWVW44TFFxRmYtN3Nub1E3TmVXbWM5b0R3Ni1Gb294RkFkVzZyRVU1OGZhV1A5b2ZsWnpxRkZwYVVmV25faEFrTWFlaUcxMkx2MEpvbm80cWV2cURJajRyR250TnFJNlRHRHhBaFpxRmhMenhxX0t6VE9HOThpWUdDejhybmtXU096aUtHWENqSnRfdmp1WWM4cEFCdmEtNjBvR01oeEZJSmtrNGlHcEpacS00b1BlMA?oc=5"
+     },
+     {
+      "source": "The National",
+      "title": "Iran war latest: Oil prices slide more than 3% as Trump signals more time for Iran diplomacy",
+      "link": "https://www.thenationalnews.com/news/mena/2026/11/02/live-iran-war-oil-prices-trump/"
+     }
+    ]
+   },
+   {
+    "category": "energy",
+    "headline": "Nuclear construction at highest level in decades",
+    "summary": "79 reactors are under construction worldwide, the most in decades, driven partly by AI power demand. South Korea is also moving to protect its Czech nuclear project.",
+    "sources": [
+     {
+      "source": "BigGo Finance",
+      "title": "AI Power Demand Revives Nuclear: 79 Reactors Under Construction Worldwide, Most in 40 Years",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE90RFFrM2VzWlhPY2ozTFlKUGdhRTFHWVQ5UE5yYXpyNHBFUHgtRnBjUHJDRDVFaUFfZ1BRTWxpTVo3aE5yTnVsMnV3Q2dxa1pPM2pMYUpxbTB1YjNJQ0doOWZOLUlhMmdBT1NoLTByVGNJQnlnNmc?oc=5"
+     },
+     {
+      "source": "Businesskorea",
+      "title": "Global Nuclear Construction Hits Highest Level Since Chernobyl",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9MaHVsOWlQRno5c3ZDN0ZIZktxTnl3Qk5oNGcwQ1NiakQ5STd6b3hpYVVtNUNTdDdMUUZsZWk2NVhxd0VFd1FEOW1MTXl1YXQ1THo2UWN6ZG9UTjJDNXNQTVhxUnRiYUdxSUhDeTNLdkpnVmRP?oc=5"
+     },
+     {
+      "source": "TRT World",
+      "title": "South Korea launches emergency measures to keep Czech nuclear project on schedule",
+      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1tb2RQeDg0WE03Vl9zVEdlMWZ3Q25lZXBLSkw3OEVxLTI3bjVPYVVPNjFldVNpdS10Nm1JNGhBNFVKLXNDSDFsWDRHakptR0pfRGM4Rl81UmU?oc=5"
+     },
+     {
+      "source": "Anadolu Ajansı",
+      "title": "South Korea launches emergency measures to keep $17.5B Czech nuclear project on track",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOTE5IaGJVRHVNck5LYUhxYTF5dElrUHBVTzhfaU5tNmJUQVdlRC1iX2NZN3RuMDc4R1FNd2Q1U09aMHRoeHpjVmRQSFVYTWJKb00tc3ZBcV9PczQ1Qy1mVS1MQVYtcDJ4WTgxSGllSXhrVVdyNllkS1J6ZlEwSF9zOWpBX1FTNTlZc2JydFhLLWJUUS1WQmNSakVPcGdRZHk2QzFYUWZvWXhNVlNQZWJ3Y0RySnVIZ3pCb2IySkJQYm56WFVWdm5tTg?oc=5"
+     },
+     {
+      "source": "Korea JoongAng Daily",
+      "title": "Seoul moves to rescue Czech nuclear project",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOYXpqa2hoSzF3WHNxQXlycmZ4bmVMdUc1MHNsbDFkcVZOdElYWlNGam9FdlEwdDM4MnA1ZDhrSVZPTVhwWlcxeXNja1BjTjV2VlVkeUJPUE1KcXNkbWY5ZC1CMlhRbGZUaWVpUWxQeExPdnByLWVVaGxHYkdsNUp5NmRUaXVwVG9PXzhHTzlhMFNkN3cxb3NyTA?oc=5"
+     }
+    ]
+   }
+  ],
+  "ai": [
+   {
+    "category": "ai",
+    "headline": "Anthropic IPO filing reveals plan to sell $3.5bn to Japanese investors",
+    "summary": "A filing shows Anthropic plans to sell $3.5bn of shares to Japan investors as part of its IPO. Commentary questions whether AI valuations rest on hype.",
+    "sources": [
+     {
+      "source": "Reuters",
+      "title": "Anthropic plans to sell $3.5 billion of shares to Japan investors in IPO, filing shows",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOazUtcTBWVFNLd21jTk9YOFRDRHoyc2ZuV1haZ21JaUdIei1leFkxVVF5V0JpLXJGdV9raXhrV0k0bU1xM0g5TnR6cTA5dWNFZ3VVVUo1UHVyU3pUUWw0YjFreXNTZ3Q4TXdoazBwT1dxRU52bTkxMXlEbG95LVY1eUlLMGZHUk9hQUd4aVZxWkxMUzBMVmhELWNpaUhSaGR3V19UYy00R3UzMUVkWU80ZHl0aW9URGdlQ19RX2dmZHFreHNS?oc=5"
+     },
+     {
+      "source": "Bloomberg",
+      "title": "Anthropic IPO: Silicon Valley’s AI Bets Are Built on Hype, Hope and Hubris",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNb1ZhMmFDZnhESjdhVURGOGFzaHdfcWFPSk1UQjhGZUNtUjhKTkNtbkhjdkhWZElKZkVLTFd0ZEZZNUJ6T3k5OGd1ZmtFMk4tUXVEZUUtblZOSHJfaHNEb1o2N3ZUY3FpSkt5UjZxZnM0YzAxQ1N1T3UtUDkyVWtIejg1ZzBUZXpxbVI3N2JQdmJTNmwyOGtXcUdyRk5tSEZDSjUzZEFtRE00S09SalFJY1BWaUZ0Szk2am5FTVZCYlZfWWxi?oc=5"
+     },
+     {
+      "source": "Fortune",
+      "title": "Anthropic’s $2T IPO could create millionaires—but it’s asking candidates what they’d do if stock hit zero",
+      "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPSlBiVFRIMmt2WEVQTjRoQ21LTElPODlaUVNwWTJyUWxrNUw0amktMS12NDhEUGNYT2Q0bEE4S1lCd3ZNbFAzWEY1dDMyNjhObmJzRG51bndoNEt6ck80U1h5b0JHSF84MTAtMmJpR0dCSzRORWpLZU1EbUEyVzdiM2haTVFkelhTYXlKNU9ndEpmWXhkQS1kMXBRLUp6RDJ4LVpjVTJZYUdVY1NZd3NIYkFWN2M1RXZ5M09TY3JaRXlObURIY0VXV1lmNGJCWmFpeHdmOW52Y1d5c0ZIQ2VDY0l5Sng?oc=5"
+     }
+    ]
+   },
+   {
+    "category": "ai",
+    "headline": "OpenAI expands in the Gulf while tightening usage limits",
+    "summary": "OpenAI signed deals in Abu Dhabi, including with Adnoc and G42. It has also tightened ChatGPT and Codex limits as fundraising plans reportedly shrink.",
+    "sources": [
+     {
+      "source": "The National",
+      "title": "Adnoc signs agreement with OpenAI and G42 to deploy Frontier AI",
+      "link": "https://www.thenationalnews.com/business/energy/2026/11/02/adnoc-signs-agreement-with-openai-and-g42-to-deploy-frontier-ai/"
+     },
+     {
+      "source": "Yahoo Finance",
+      "title": "OpenAI Tightens ChatGPT, Codex Usage Limits As Fundraising Plans Reportedly Shrink",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPdFFpUFJpd3hOZlZGbUw4NDdMSnhEUU5GZzhoRzBzdWU1T0FvUUxOdFM0Nm4tbUJRM3JnT3JuMm54Z21GaVVzN3M4LWJmaUdGd0lJSzJlVGwxaGVCOTQxS29HdFZfQ25NN3MweFNmcmZLX3lpVFVpQUVrQVRKckVMYVFqWnZIUVVoeDB1T0dQOFdrS0hCWTF1ZHZjYUhQUHNp?oc=5"
+     },
+     {
+      "source": "مكتب أبوظبي الإعلامي",
+      "title": "Khaled bin Mohamed bin Zayed meets Sam Altman and witnesses signing of agreements with OpenAI",
+      "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQSF82ZjVUUDJfeW1tWjd6N1RDWXhBekdsbWkwdkZBRGp6X2tMQlRXb1haeVNXTS1qZnZ1bENZV2N0S2dONjlram81Rkg1VzRZRUU4SG55cWZ4TnF0Tl9CWjlJR2JvVF9FMXRrOGRkcS0zTlpuMGFZQjROZ0w0M1pHNXVzWlh3X2g3SUtobUItNFA5OUhDYnNXYmk4QXBpdFR2MW0yckNheXlZazhKN2pNeTNtMS1VTlJGNUd4TG1EYjRkNm9PdjVYZ09VSkdXQ1R4V3lWeThNOHVGR3UybXRZcnJR?oc=5"
+     }
+    ]
+   },
+   {
+    "category": "ai",
+    "headline": "Parents sue OpenAI over woman's death after ChatGPT advice",
+    "summary": "The parents of a woman who died of a seizure say ChatGPT gave her a schedule to taper her anti-seizure medication. The lawsuit adds to scrutiny of chatbot safety.",
+    "sources": [
+     {
+      "source": "Guardian",
+      "title": "Parents of woman who died of seizure after ChatGPT misguidance sue OpenAI",
+      "link": "https://www.theguardian.com/us-news/2026/nov/01/chatgpt-woman-seizure-lawsuit-openai"
+     },
+     {
+      "source": "FT",
+      "title": "The race to keep AI under control",
+      "link": "https://ig.ft.com/ai-safety/?syn-25a6b1a6=1"
+     }
+    ]
+   }
+  ],
+  "tech": [
+   {
+    "category": "tech",
+    "headline": "Binance hack blamed on North Korea as withdrawals resume",
+    "summary": "The FBI says North Korea was behind the $6.3bn hack of Binance. The exchange has resumed withdrawals and saw about $3.6bn net outflows.",
+    "sources": [
+     {
+      "source": "The Verge",
+      "title": "North Korea linked to massive Binance crypto heist",
+      "link": "https://www.theverge.com/tech/1024176/north-korea-binance-crypto-heist"
+     },
+     {
+      "source": "Guardian Business",
+      "title": "Investors pull billions in funds from Binance after record $6.3bn hack",
+      "link": "https://www.theguardian.com/business/2026/nov/01/investors-take-out-36bn-from-binance-after-record-hack-that-stole-billions"
+     },
+     {
+      "source": "Euronews",
+      "title": "Binance resumes withdrawals after billions stolen in hack",
+      "link": "https://www.euronews.com/2026/11/02/binance-resumes-withdrawals-after-billions-stolen-in-hack"
+     },
+     {
+      "source": "CNBC",
+      "title": "Binance sees $3.64 billion in net outflows as withdrawals resume after massive hack",
+      "link": "https://www.cnbc.com/2026/11/02/binance-outflow-hack-bitcoin.html"
+     },
+     {
+      "source": "BBC Business",
+      "title": "Binance users withdraw $3.6bn after record crypto hack",
+      "link": "https://www.bbc.co.uk/news/articles/cwj34gdmnly4o?at_medium=RSS&at_campaign=rss"
+     },
+     {
+      "source": "TechCrunch",
+      "title": "Binance resumes withdrawals following $6.3 billion breach",
+      "link": "https://techcrunch.com/2026/11/01/binance-resumes-withdrawals-following-6-3-billion-breach/"
+     }
+    ]
+   },
+   {
+    "category": "tech",
+    "headline": "Data centres become a midterm election issue",
+    "summary": "Data centres are drawing bipartisan dislike in US campaigns, and OpenAI is reportedly considering calling them 'AI compute campuses'. A California ballot measure is also criticised for a possible data centre loophole.",
+    "sources": [
+     {
+      "source": "NPR Politics",
+      "title": "Politics chat: Data centers are on everyone's minds going into Election Day",
+      "link": "https://www.npr.org/2026/11/01/nx-s1-6023270/politics-chat-data-centers-are-on-everyones-minds-going-into-election-day"
+     },
+     {
+      "source": "TechCrunch",
+      "title": "Data centers are now a midterm issue, even in Brooklyn",
+      "link": "https://techcrunch.com/2026/10/31/data-centers-are-now-a-midterm-issue-even-in-brooklyn/"
+     },
+     {
+      "source": "TechCrunch AI",
+      "title": "OpenAI might rebrand its data centers as ‘AI compute campuses’",
+      "link": "https://techcrunch.com/2026/11/01/openai-might-rebrand-its-data-centers-as-ai-compute-campuses/"
+     },
+     {
+      "source": "AOL.com",
+      "title": "OpenAI Would Reportedly Like You to Use Its Pleasant New Term for Data Centers",
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOTk1jaTllYnREN3g2emVzSlloZnJNdlIzYkxwYzlWME5lNktnN0tvVm12UlhhSW5jZkpvTllMNk9vbU82VkdCOFRsck1NUW5lS3Q4YVlkaEwwakF6SXJsNnl1NW9LZzQ1dFJtUWd1bDRBNWN5UXRqekZaWjgxbjRZYjBLYmFfanl3SXc?oc=5"
+     },
+     {
+      "source": "The Verge",
+      "title": "Prop 45 in California could be hiding a loophole for data centers",
+      "link": "https://www.theverge.com/policy/1023877/prop-45-california-data-centers-energy"
+     }
+    ]
+   },
+   {
+    "category": "tech",
+    "headline": "Sadiq Khan seeks cap on London robotaxis",
+    "summary": "London's mayor wants limits on driverless taxis, citing air quality, congestion and jobs. The government is poised to allow them in the capital.",
+    "sources": [
+     {
+      "source": "Guardian Business",
+      "title": "Sadiq Khan calls for cap on numbers of robotaxis on London streets",
+      "link": "https://www.theguardian.com/technology/2026/nov/01/sadiq-khan-calls-cap-numbers-robotaxis-london-streets"
+     }
+    ]
+   }
+  ]
+ },
+ "stats": {
+  "headlines": 331,
+  "feeds": 45,
+  "feedsFailed": 0
+ }
+}
