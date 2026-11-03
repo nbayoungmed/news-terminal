@@ -1,0 +1,1350 @@
+{
+ "date": "2026-11-03",
+ "dateLabel": "Tuesday, 3 November 2026",
+ "generatedAt": "2026-11-03T09:22:46.087Z",
+ "mode": "ai",
+ "model": "claude-sonnet-5-5",
+ "error": null,
+ "headlineOfDay": "US midterms begin as Washington strikes Iran's Qeshm Island while talks continue, and tech stocks slide on AI worries.",
+ "markets": {
+  "summary": "Wall Street ended mostly lower, with the Nasdaq down 1.07% and the S&P 500 down 0.51% as AI worries deepened the tech sell-off, while the Dow edged up 0.41%. The FTSE 100 and Euro Stoxx 50 also slipped, and Brent rose 1.5% to about $106 amid US-Iran tensions. Gold, silver and copper fell.",
+  "indices": [
+   {
+    "symbol": "^GSPC",
+    "label": "S&P 500",
+    "price": 7541.39990234375,
+    "asOf": "2026-11-02",
+    "d1": -0.5101525813317368,
+    "w1": -1.7633733568035923,
+    "m1": -2.347881412970087,
+    "ytd": 10.16580092533416,
+    "spark": [
+     7722.7202,
+     7773.9502,
+     7818.9302,
+     7801.77,
+     7765.3599,
+     7811.54,
+     7807.2402,
+     7805.4502,
+     7718.9399,
+     7744.0601,
+     7659.4399,
+     7690.73,
+     7712.5698,
+     7757.1699,
+     7663.4302,
+     7623.6802,
+     7676.77,
+     7722.6001,
+     7743.98,
+     7720.3901,
+     7580.0698,
+     7541.3999
+    ]
+   },
+   {
+    "symbol": "SPUS",
+    "label": "S&P 500 Shariah",
+    "sub": "via SPUS ETF",
+    "price": 57.61000061035156,
+    "asOf": "2026-11-02",
+    "d1": -1.386507333073361,
+    "w1": -2.849913403797805,
+    "m1": -4.508538269765165,
+    "ytd": 12.805954483273968,
+    "spark": [
+     60.33,
+     60.81,
+     61.15,
+     61.07,
+     60.48,
+     60.77,
+     60.57,
+     60.53,
+     59.67,
+     59.72,
+     58.82,
+     59.21,
+     59.28,
+     59.78,
+     58.81,
+     58.66,
+     59.3,
+     59.87,
+     60.11,
+     59.77,
+     58.42,
+     57.61
+    ]
+   },
+   {
+    "symbol": "^IXIC",
+    "label": "Nasdaq",
+    "price": 25164.310546875,
+    "asOf": "2026-11-02",
+    "d1": -1.0720189217478475,
+    "w1": -3.8406346634675557,
+    "m1": -7.453051778084892,
+    "ytd": 8.270893727753489,
+    "spark": [
+     27190.8594,
+     27477.3105,
+     27599.7891,
+     27538.6895,
+     27193.3398,
+     27366.1699,
+     27245.9004,
+     27204.3809,
+     26692.8691,
+     26713.0293,
+     26140.0293,
+     26430.8906,
+     26424.8203,
+     26702.8594,
+     26008.8594,
+     25955.3398,
+     26169.3809,
+     26477.8105,
+     26549.8496,
+     26184.7207,
+     25437,
+     25164.3105
+    ]
+   },
+   {
+    "symbol": "^DJI",
+    "label": "Dow Jones",
+    "price": 51983.98046875,
+    "asOf": "2026-11-02",
+    "d1": 0.41273054150926125,
+    "w1": -0.721134980593177,
+    "m1": 1.5769196069215106,
+    "ytd": 8.157351447903732,
+    "spark": [
+     51176.9609,
+     51267.8984,
+     51521.2813,
+     51179.8711,
+     51231.6406,
+     51654.9492,
+     51850.5508,
+     51670.1016,
+     51621.4805,
+     52177.6914,
+     52002.4102,
+     51966.0313,
+     52495.8789,
+     52856.0898,
+     52867.9805,
+     52215.1602,
+     52361.5781,
+     52377.5703,
+     52475.1016,
+     52342.5586,
+     51770.3086,
+     51983.9805
+    ]
+   },
+   {
+    "symbol": "^FTSE",
+    "label": "FTSE 100",
+    "price": 10717.5703125,
+    "asOf": "2026-11-03",
+    "d1": -0.4063588319363794,
+    "w1": 0.29074357834651193,
+    "m1": 2.092512918784913,
+    "ytd": 7.916002687970623,
+    "spark": [
+     10497.9004,
+     10541.7002,
+     10458.5,
+     10441.5996,
+     10552.0996,
+     10656.2998,
+     10650.2998,
+     10724.9004,
+     10840.4004,
+     10881.9004,
+     10764.7002,
+     10733,
+     10752.9004,
+     10725,
+     10690.4004,
+     10767.2998,
+     10686.5,
+     10694.5,
+     10722.0996,
+     10729.7998,
+     10761.2998,
+     10717.5703
+    ]
+   },
+   {
+    "symbol": "^STOXX50E",
+    "label": "Euro Stoxx 50",
+    "price": 6135.68017578125,
+    "asOf": "2026-11-03",
+    "d1": -0.6538129880442621,
+    "w1": -0.47057947602766986,
+    "m1": -1.7055041797485477,
+    "ytd": 5.856574601292143,
+    "spark": [
+     6242.1401,
+     6272.23,
+     6180.29,
+     6126.73,
+     6173.3701,
+     6201.21,
+     6167.0098,
+     6190.3701,
+     6168.2598,
+     6204.23,
+     6144.8101,
+     6121.6602,
+     6207.52,
+     6087.0098,
+     6068.2202,
+     6116.23,
+     6164.6899,
+     6167.8101,
+     6207.0698,
+     6131.3101,
+     6176.0601,
+     6135.6802
+    ]
+   },
+   {
+    "symbol": "^TASI.SR",
+    "label": "Tadawul (Saudi)",
+    "price": 9845.36,
+    "asOf": "2026-11-03",
+    "d1": -0.3793440151373317,
+    "w1": null,
+    "m1": null,
+    "ytd": null,
+    "spark": []
+   }
+  ],
+  "commodities": [
+   {
+    "symbol": "GC=F",
+    "label": "Gold",
+    "unit": "$/oz",
+    "price": 3912.39990234375,
+    "asOf": "2026-11-03",
+    "d1": -1.440956114100068,
+    "w1": -3.9807635455022727,
+    "m1": -5.879520636720283,
+    "ytd": -9.875381485535296,
+    "spark": [
+     4156.7998,
+     4187.1001,
+     4140.7002,
+     4157,
+     4216.2998,
+     4190.6001,
+     4177.2998,
+     4107.8999,
+     4170.1001,
+     4181.1001,
+     4160.1001,
+     4142.6001,
+     4150,
+     4060.3999,
+     4007.8999,
+     4038.3999,
+     4074.6001,
+     4051.6001,
+     4031.3999,
+     3898.8999,
+     3969.6001,
+     3912.3999
+    ]
+   },
+   {
+    "symbol": "SI=F",
+    "label": "Silver",
+    "unit": "$/oz",
+    "price": 48.77000045776367,
+    "asOf": "2026-11-03",
+    "d1": -3.844638635662124,
+    "w1": -10.17258004590031,
+    "m1": -19.877111709671134,
+    "ytd": -30.461689636581756,
+    "spark": [
+     60.869,
+     61.168,
+     59.899,
+     59.064,
+     60.67,
+     60.141,
+     59.161,
+     55.55,
+     56.837,
+     56.995,
+     56.974,
+     57.706,
+     57.422,
+     54.764,
+     53.711,
+     54.108,
+     54.293,
+     53.457,
+     52.191,
+     49.097,
+     50.72,
+     48.77
+    ]
+   },
+   {
+    "symbol": "BZ=F",
+    "label": "Brent crude",
+    "unit": "$/bbl",
+    "price": 106.33999633789062,
+    "asOf": "2026-11-03",
+    "d1": 1.4985203255975479,
+    "w1": -6.621005529837277,
+    "m1": 6.000794120194754,
+    "ytd": 74.75759902133109,
+    "spark": [
+     100.32,
+     100.58,
+     100.2,
+     104.28,
+     104.72,
+     106.65,
+     105.69,
+     106.06,
+     105.92,
+     109.86,
+     109.55,
+     108.79,
+     108.82,
+     113.17,
+     116.72,
+     115.81,
+     113.88,
+     115.32,
+     114.88,
+     117.64,
+     104.77,
+     106.34
+    ],
+    "note": "Brent edged up as US strikes on Iran's Qeshm Island followed a sharp fall on Monday when diplomacy hopes emerged."
+   },
+   {
+    "symbol": "CL=F",
+    "label": "WTI crude",
+    "unit": "$/bbl",
+    "price": 97.7699966430664,
+    "asOf": "2026-11-03",
+    "d1": 1.3580733682638224,
+    "w1": -2.1321369872659375,
+    "m1": 9.325725494163892,
+    "ytd": 70.27168192412752,
+    "spark": [
+     89.43,
+     89.44,
+     88.28,
+     91.49,
+     91.85,
+     93.74,
+     94.14,
+     95.09,
+     97.97,
+     101.41,
+     103.66,
+     101.79,
+     97.15,
+     99.47,
+     103.27,
+     101.76,
+     99.9,
+     102.78,
+     102,
+     104.12,
+     96.46,
+     97.77
+    ]
+   },
+   {
+    "symbol": "HG=F",
+    "label": "Copper",
+    "unit": "$/lb",
+    "price": 6.338500022888184,
+    "asOf": "2026-11-03",
+    "d1": -3.132878816828799,
+    "w1": -4.281186729698652,
+    "m1": -3.750660534072118,
+    "ytd": 12.584367567417404,
+    "spark": [
+     6.5855,
+     6.5945,
+     6.5965,
+     6.519,
+     6.6425,
+     6.6985,
+     6.678,
+     6.6115,
+     6.5115,
+     6.531,
+     6.538,
+     6.5665,
+     6.543,
+     6.3625,
+     6.476,
+     6.508,
+     6.622,
+     6.6415,
+     6.581,
+     6.4585,
+     6.5435,
+     6.3385
+    ]
+   },
+   {
+    "symbol": "NG=F",
+    "label": "US natural gas",
+    "unit": "$/MMBtu",
+    "price": 2.9019999504089355,
+    "asOf": "2026-11-03",
+    "d1": 1.6106444213891524,
+    "w1": 7.601035286479767,
+    "m1": -5.348990057027609,
+    "ytd": -21.269672685452747,
+    "spark": [
+     3.066,
+     3.114,
+     3.203,
+     3.168,
+     3.22,
+     3.167,
+     3.283,
+     3.198,
+     3.236,
+     3.116,
+     3.058,
+     2.963,
+     2.79,
+     2.796,
+     2.64,
+     2.602,
+     2.697,
+     2.817,
+     2.952,
+     2.898,
+     2.856,
+     2.902
+    ]
+   }
+  ],
+  "rates_fx": [
+   {
+    "symbol": "GBPUSD=X",
+    "label": "GBP/USD",
+    "price": 1.3417235612869263,
+    "asOf": "2026-11-03",
+    "d1": 0.23614536245009096,
+    "w1": 0.5407130648518017,
+    "m1": 1.3162241625554258,
+    "ytd": -0.3709888835227152,
+    "spark": [
+     1.3243,
+     1.3219,
+     1.3267,
+     1.3215,
+     1.3229,
+     1.3242,
+     1.321,
+     1.3257,
+     1.323,
+     1.3273,
+     1.3336,
+     1.3308,
+     1.3373,
+     1.3396,
+     1.3404,
+     1.3378,
+     1.3345,
+     1.3306,
+     1.3328,
+     1.3379,
+     1.3386,
+     1.3417
+    ]
+   },
+   {
+    "symbol": "EURUSD=X",
+    "label": "EUR/USD",
+    "price": 1.1191942691802979,
+    "asOf": "2026-11-03",
+    "d1": 0.31449779934882266,
+    "w1": 0.1622912814844766,
+    "m1": -0.5562336855136895,
+    "ytd": -4.727468893664448,
+    "spark": [
+     1.1255,
+     1.1217,
+     1.1254,
+     1.1201,
+     1.1213,
+     1.1205,
+     1.116,
+     1.1204,
+     1.1195,
+     1.1213,
+     1.1225,
+     1.1216,
+     1.1227,
+     1.1235,
+     1.1221,
+     1.1218,
+     1.1174,
+     1.113,
+     1.1156,
+     1.1183,
+     1.1157,
+     1.1192
+    ]
+   },
+   {
+    "symbol": "^TNX",
+    "label": "US 10Y yield",
+    "unit": "%",
+    "price": 4.894000053405762,
+    "asOf": "2026-11-02",
+    "d1": -0.7100800997440035,
+    "w1": -1.84516659653418,
+    "m1": -7.2579098086497735,
+    "ytd": 17.559450584643805,
+    "spark": [
+     5.277,
+     5.311,
+     5.269,
+     5.277,
+     5.231,
+     5.244,
+     5.24,
+     5.217,
+     5.19,
+     5.089,
+     5.098,
+     5.136,
+     5.117,
+     5.146,
+     4.953,
+     4.988,
+     4.986,
+     4.993,
+     5.045,
+     4.989,
+     4.929,
+     4.894
+    ]
+   }
+  ],
+  "movers": {
+   "sp500": {
+    "gainers": [
+     {
+      "ticker": "IDXX",
+      "name": "Idexx Laboratories",
+      "price": 671.64,
+      "d1": 21.848297382122954,
+      "shariah": true
+     },
+     {
+      "ticker": "HWM",
+      "name": "Howmet Aerospace",
+      "price": 212.99,
+      "d1": 6.911956630860361,
+      "shariah": false
+     },
+     {
+      "ticker": "PNR",
+      "name": "Pentair",
+      "price": 70.56,
+      "d1": 6.489586477512824,
+      "shariah": true
+     },
+     {
+      "ticker": "CRH",
+      "name": "CRH plc",
+      "price": 96.59,
+      "d1": 6.364937782182579,
+      "shariah": true
+     },
+     {
+      "ticker": "DASH",
+      "name": "DoorDash",
+      "price": 190.07,
+      "d1": 6.19028996033297,
+      "shariah": true
+     }
+    ],
+    "losers": [
+     {
+      "ticker": "LITE",
+      "name": "Lumentum",
+      "price": 684.4,
+      "d1": -18.59164981562984,
+      "shariah": true,
+      "note": "Fell after Marvell's all-stock takeover agreement, which shareholders criticised."
+     },
+     {
+      "ticker": "MRVL",
+      "name": "Marvell Technology",
+      "price": 171.41,
+      "d1": -12.724032586558048,
+      "shariah": true,
+      "note": "Fell after agreeing an all-stock deal to buy Lumentum, which shareholders of both firms criticised."
+     },
+     {
+      "ticker": "CIEN",
+      "name": "Ciena",
+      "price": 284.34,
+      "d1": -11.343227737590437,
+      "shariah": true
+     },
+     {
+      "ticker": "P",
+      "name": "Everpure",
+      "price": 113.78,
+      "d1": -10.395337848480079,
+      "shariah": true
+     },
+     {
+      "ticker": "INTC",
+      "name": "Intel",
+      "price": 59.97,
+      "d1": -8.804744525547454,
+      "shariah": false
+     }
+    ],
+    "coverage": 502
+   },
+   "ftse100": {
+    "gainers": [
+     {
+      "ticker": "CNA",
+      "name": "Centrica",
+      "price": 154.7,
+      "d1": 3.2021347565043246
+     },
+     {
+      "ticker": "HSX",
+      "name": "Hiscox",
+      "price": 1930,
+      "d1": 2.496016994158258
+     },
+     {
+      "ticker": "GSK",
+      "name": "GSK plc",
+      "price": 1846.5,
+      "d1": 1.2058098109070978
+     },
+     {
+      "ticker": "AAF",
+      "name": "Airtel Africa",
+      "price": 270.6,
+      "d1": 1.1967090501122086
+     },
+     {
+      "ticker": "III",
+      "name": "3i",
+      "price": 2555,
+      "d1": 1.0680379746835442
+     }
+    ],
+    "losers": [
+     {
+      "ticker": "AAL",
+      "name": "Anglo American plc",
+      "price": 3692,
+      "d1": -3.4518828451882846
+     },
+     {
+      "ticker": "FRES",
+      "name": "Fresnillo plc",
+      "price": 2272,
+      "d1": -2.781343602909713
+     },
+     {
+      "ticker": "ANTO",
+      "name": "Antofagasta plc",
+      "price": 3167,
+      "d1": -2.6437134952351675
+     },
+     {
+      "ticker": "PCT",
+      "name": "Polar Capital Technology Trust",
+      "price": 578.5,
+      "d1": -2.6094276094276094
+     },
+     {
+      "ticker": "EDV",
+      "name": "Endeavour Mining",
+      "price": 3644,
+      "d1": -2.41028387787895
+     }
+    ],
+    "coverage": 100
+   },
+   "shariahListAvailable": true
+  },
+  "stories": [
+   {
+    "category": "markets",
+    "headline": "Nasdaq-100 slides into third correction this year on AI worries",
+    "summary": "The Nasdaq-100 fell into its third correction of the year as the October tech sell-off continued, with optical and chip names hit hard. Marvell and Lumentum both fell after Marvell agreed an all-stock deal for Lumentum that shareholders criticised.",
+    "sources": [
+     {
+      "source": "MarketWatch",
+      "title": "Nasdaq-100 tumbles into its third correction this year as AI worries mount",
+      "link": "https://www.marketwatch.com/story/nasdaq-100-tumbles-into-its-third-correction-this-year-as-ai-worries-mount-abee4c0d?mod=mw_rss_topstories"
+     },
+     {
+      "source": "Reuters",
+      "title": "Global markets were already fragile. Big AI bets could break them",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOcE4zc2x5OEJZU0pFUTJXWlF6V2c5TmZ2MmFxLW9QcHhMdFpUZ0tsNWtSTXYtUG5pckRUVTZBQnNGZkE4T1FhRHdESDRmejMzc2VOTjI3UGhjUEJiLUM1bUNHZU1qTWtMOEthVnp5QklOMDdkOWdVSk5DR0g1UFZ0ekJ5TTROejhJaXpRd1FTRVMyZlNIbG4zcA?oc=5"
+     },
+     {
+      "source": "WSJ",
+      "title": "The Tangled Web of AI Bets Is Reason to Fear Tech Stocks",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQMFhvME5UY0lraHNqbUFNN015bXJpV05xSk1jUHVUbDVlbk5jaEJQU0FLYzZnNV8zd201X1JJQmhsLVJpWGMwbWlyRUh3SFJLR1B5R3NCVUxJaVdJUE1LTDlOLTJxRjZiTXhycTRCUndwbU9BeHA3LWkzWFFFbUtjZEI0NVJQaElNYTZTN1ZQbVQ4c1hp?oc=5"
+     },
+     {
+      "source": "Bloomberg.com",
+      "title": "Nasdaq Slide Clouds Asian Open, Oil Falls on Iran: Markets Wrap",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOTGEyREpLdzRYM3VsY3NTclQ1Y2xud2pYNVl6Y0JhZ3RNczRVVjJ0aG43NmgyWkQ5SU85SmtVWGVCU0wySnBTdkhzZXR3R3RpMWloMWdlckxKM3BBUFB4VU9FbzhDQ2l2dm5xZlIwbFZJTHdJQVVyaU1Qc3djSmowcHdGMDNOVUIyMDdURnFwWWpUbmZN?oc=5"
+     },
+     {
+      "source": "Google News (Markets)",
+      "title": "Europe stocks fall on AI concerns, escalating Iran tensions - Euronext Markets: Real-time Stock Market Data | live",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOeGlOTTZKNkhuWHRXYkx2TGxmZU0ybGFXNWNlV1VXdk5GNC1zT3dDNXhWbGNMV3pOb2JqYmtzZ3JIUG01TFQwQ0l6V0RsSkNFZ2tqNmZNNUVhY3hheXZlbmN4SXpXTWttOXJMRTlpRzRXcVNSMi0xMHZhc0lfX0tNZW9MTHZHdElobXVZLWItaGVXTmZIM0ZQU1ZHdm5YTndB?oc=5"
+     },
+     {
+      "source": "Yahoo Finance UK",
+      "title": "MARKETS LIVE: FTSE 100 set to open lower as tech weakness weighs",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBSN3NhRmQwYTdfeHJTUk1HbjU4Y0NXNkxVTG54dWM4T1lrbzVnVE1YSnA3aDNSWjNwbW9wc1BrNFZPQWVBRXNLaV96emo0enpRV3k4WEtNT2w2cDNtYnZYdVFZZlZhcmpLekJaV21jSG1MN2dmdWxURGdmeUVwTFE?oc=5"
+     }
+    ]
+   },
+   {
+    "category": "companies",
+    "headline": "Apple warns of 'unprecedented' memory chip costs despite record iPhone sales",
+    "summary": "Apple reported record iPhone sales but warned that memory chip prices are rising at an unprecedented rate, which will hit margins. Its inventory surged and the services outlook disappointed.",
+    "sources": [
+     {
+      "source": "Guardian",
+      "title": "Apple warns of ‘unprecedented’ rise in memory chip prices",
+      "link": "https://www.theguardian.com/technology/2026/nov/02/apple-third-quarter-revenue-earnings"
+     },
+     {
+      "source": "MarketWatch",
+      "title": "Apple’s iPhone business is booming. Here’s why the stock is falling anyway.",
+      "link": "https://www.marketwatch.com/story/apples-iphone-business-is-booming-heres-why-the-stock-is-falling-anyway-07de9fff?mod=mw_rss_topstories"
+     },
+     {
+      "source": "FT",
+      "title": "Apple warns ‘unprecedented’ memory chip costs will hit margins",
+      "link": "https://www.ft.com/content/f6ad8c32-cacb-48ad-ad85-a9a7edac3f16?syn-25a6b1a6=1"
+     },
+     {
+      "source": "The Verge",
+      "title": "Apple set an iPhone sales record even without a new standard iPhone",
+      "link": "https://www.theverge.com/tech/1024748/apple-q4-2026-iphone-sales-earnings"
+     },
+     {
+      "source": "TechCrunch",
+      "title": "Apple’s inventory surges 154% as memory chip costs climb",
+      "link": "https://techcrunch.com/2026/11/02/apples-inventory-surges-154-as-memory-chip-costs-climb/"
+     }
+    ]
+   },
+   {
+    "category": "economy",
+    "headline": "Australia raises rates to highest level since 2008",
+    "summary": "The Reserve Bank of Australia lifted its cash rate to 4.85%, its fifth increase this year, in line with expectations. Governor Bullock said the 'pain now' would prevent worse later.",
+    "sources": [
+     {
+      "source": "CNBC Economy",
+      "title": "Australia hikes rates to 18-year high to fight inflation",
+      "link": "https://www.cnbc.com/2026/11/03/australia-hikes-rates-18-year-high-finflation.html"
+     },
+     {
+      "source": "Guardian Business",
+      "title": "RBA interest rates: Bullock says ‘pain now’ will prevent worse later as Reserve Bank hikes rates for fifth time",
+      "link": "https://www.theguardian.com/australia-news/2026/nov/03/rba-interest-rates-decision-cash-rate-november-reserve-bank-australia"
+     }
+    ]
+   }
+  ],
+  "calendar": [
+   {
+    "when": "Today, polls close from 23:00 GMT",
+    "event": "US midterm elections: first results expected, with final results possibly taking days"
+   },
+   {
+    "when": "Today",
+    "event": "Israeli opposition bloc meets for the first time since the inconclusive election"
+   },
+   {
+    "when": "Today, around midday",
+    "event": "Zelenskyy visits Berlin for talks with Chancellor Merz"
+   }
+  ]
+ },
+ "world": {
+  "us": [
+   {
+    "category": "political",
+    "headline": "Americans vote in midterms seen as referendum on Trump",
+    "summary": "Voters are choosing a new Congress, with control of the Senate and House at stake in elections widely seen as a verdict on Trump's second term. Spending is projected at nearly $12bn, a record, and the president has lowered expectations by saying a sitting president 'doesn't win' midterms.",
+    "sources": [
+     {
+      "source": "BBC",
+      "title": "Americans head to the polls for elections that could define Trump's closing chapter",
+      "link": "https://www.bbc.co.uk/news/articles/cq2d6k4r5n9ro?at_medium=RSS&at_campaign=rss"
+     },
+     {
+      "source": "NPR",
+      "title": "6 things to watch for on election night",
+      "link": "https://www.npr.org/2026/11/02/nx-s1-6025451/midterms-what-to-watch-election-night"
+     },
+     {
+      "source": "Guardian",
+      "title": "US midterm elections 2026 live: Americans go to the polls in referendum on Trump’s agenda",
+      "link": "https://www.theguardian.com/us-news/live/2026/nov/03/midterm-elections-live-updates-voting"
+     },
+     {
+      "source": "DW",
+      "title": "US midterm election: How it works, why it's important and races to watch",
+      "link": "https://www.dw.com/en/us-midterm-election-how-it-works-why-it-s-important-and-races-to-watch/a-79789932?maca=en-rss-en-all-1573-rdf"
+     },
+     {
+      "source": "Al Jazeera",
+      "title": "When will we know the US midterm election results?",
+      "link": "https://www.aljazeera.com/news/2026/11/3/when-will-we-know-the-us-midterm-election-results?traffic_source=rss"
+     },
+     {
+      "source": "FT",
+      "title": "Key races that will decide the US midterm elections",
+      "link": "https://www.ft.com/content/1626b14d-524f-4d2a-94d1-860ae4a68692?syn-25a6b1a6=1"
+     },
+     {
+      "source": "CNBC",
+      "title": "Trump focuses on Reflecting Pool in final public speech before midterms",
+      "link": "https://www.cnbc.com/2026/11/02/trump-midterm-election-speech-reflecting-pool.html"
+     }
+    ]
+   },
+   {
+    "category": "notable",
+    "headline": "Supreme Court blocks Trump bid to set aside 20,000 California ballots",
+    "summary": "The court rejected a last-minute Justice Department request to have California segregate and not count about 20,000 disputed ballots. The ruling essentially ends the administration's attempt to disqualify them ahead of the midterms.",
+    "sources": [
+     {
+      "source": "BBC",
+      "title": "Supreme Court rejects Trump's request to stop California counting disputed votes",
+      "link": "https://www.bbc.co.uk/news/articles/cm5ynekkn5qko?at_medium=RSS&at_campaign=rss"
+     },
+     {
+      "source": "NPR",
+      "title": "The Supreme Court rejects a DOJ push to separate California ballots",
+      "link": "https://www.npr.org/2026/11/02/nx-s1-6023802/supreme-court-california-voting-ballots-trump"
+     },
+     {
+      "source": "Guardian",
+      "title": "Trump loses supreme court bid to set aside 20,000 California ballots as justices refuse to take up emergency request – as it happened",
+      "link": "https://www.theguardian.com/us-news/live/2026/nov/02/democrats-haley-stevens-mike-rogers-abdul-el-sayed-michigan-midterms-trump-rallies-latest-news-updates"
+     },
+     {
+      "source": "DW",
+      "title": "Supreme Court rejects Trump bid to block 20,000 California ballots",
+      "link": "https://www.dw.com/en/supreme-court-rejects-trump-bid-to-block-20-000-california-ballots/a-79833739?maca=en-rss-en-all-1573-rdf"
+     },
+     {
+      "source": "CNBC",
+      "title": "Supreme Court rejects DOJ's bid to block California from counting disputed ballots",
+      "link": "https://www.cnbc.com/2026/11/02/supreme-court-california-mail-ballots-election.html"
+     }
+    ]
+   }
+  ],
+  "uk": [
+   {
+    "category": "political",
+    "headline": "Mahmood softens settlement plans after cabinet backlash",
+    "summary": "The home secretary has watered down immigration proposals, with an exception letting care workers apply for indefinite leave after five years. She still faces scrutiny over the cost of the revised plans, which she declined to detail.",
+    "sources": [
+     {
+      "source": "BBC",
+      "title": "Mahmood refuses to detail cost of revised settlement plans",
+      "link": "https://www.bbc.co.uk/news/articles/cm75pgqdyzldo?at_medium=RSS&at_campaign=rss"
+     },
+     {
+      "source": "BBC Politics",
+      "title": "Labour MPs pull their punches on immigration changes",
+      "link": "https://www.bbc.co.uk/news/articles/ck0e0jpww9wro?at_medium=RSS&at_campaign=rss"
+     },
+     {
+      "source": "Guardian",
+      "title": "Shabana Mahmood softens immigration plans in face of cabinet backlash",
+      "link": "https://www.theguardian.com/uk-news/2026/nov/02/shabana-mahmood-softens-immigration-plans-cabinet-backlash-leave-to-remain"
+     },
+     {
+      "source": "Guardian Politics",
+      "title": "Burnham says he has not proposed return to EU freedom of movement – UK politics live",
+      "link": "https://www.theguardian.com/politics/live/2026/nov/03/shabana-mahmood-migration-brexit-eu-labour-andy-burnham-kemi-badenoch-king-charles-commonwealth-uk-politics-latest-news"
+     },
+     {
+      "source": "Politico Europe",
+      "title": "Shabana Mahmood – her fightback kicks off",
+      "link": "https://www.politico.eu/podcast/politics-at-sam-and-annes/shabana-mahmood-her-fightback-kicks-off/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication"
+     }
+    ]
+   },
+   {
+    "category": "financial",
+    "headline": "Virgin Media O2 to cut thousands of jobs in £800m savings drive",
+    "summary": "The telecoms group plans up to 25% cuts to its 16,000 workforce while using more AI in areas such as customer service. It follows other signs of strain in UK business, including a profit warning from brickmaker Ibstock.",
+    "sources": [
+     {
+      "source": "Guardian",
+      "title": "Virgin Media O2 to cut thousands of jobs as it plans £800m cost savings",
+      "link": "https://www.theguardian.com/business/2026/nov/03/virgin-media-o2-cut-jobs-cost-savings-telecoms-ai"
+     },
+     {
+      "source": "Guardian Business",
+      "title": "Brickmaker’s woes deepen the UK housebuilding gloom",
+      "link": "https://www.theguardian.com/business/nils-pratley-on-finance/2026/nov/02/brickmakers-woes-deepen-the-uk-housebuilding-gloom"
+     }
+    ]
+   },
+   {
+    "category": "notable",
+    "headline": "NCSC warns AI-powered malware likely to target UK infrastructure by 2028",
+    "summary": "The National Cyber Security Centre said AI is helping to industrialise cyber attacks and is 'highly likely' to be used against critical sites such as power stations, airports and hospitals. Businesses were told to prepare or risk disruption such as empty shelves.",
+    "sources": [
+     {
+      "source": "Guardian",
+      "title": "AI-powered malware ‘highly likely’ to be used to hack UK infrastructure by 2028",
+      "link": "https://www.theguardian.com/technology/2026/nov/03/ai-powered-malware-artificial-intelligence-hacking-critical-uk-infrastructure"
+     },
+     {
+      "source": "Sky News",
+      "title": "Prepare for cyber attacks or face empty shelves, businesses told",
+      "link": "https://news.sky.com/story/ai-highly-likely-to-be-used-in-attack-on-britains-infrastructure-ncsc-warns-13607264"
+     }
+    ]
+   }
+  ],
+  "europe": [
+   {
+    "category": "political",
+    "headline": "Russian strike on Ukrainian aid centre kills at least 26 as ceasefire ends",
+    "summary": "Russian bombing of an aid distribution centre in southern Ukraine killed at least 26 people hours after the war's longest ceasefire. Zelenskyy travels to Berlin today, and US envoy Witkoff says Washington-led talks will resume next week.",
+    "sources": [
+     {
+      "source": "BBC",
+      "title": "Russian bombing kills 29 people at Ukraine aid centre, Kyiv says",
+      "link": "https://www.bbc.co.uk/news/articles/cjy56dndlyz0o?at_medium=RSS&at_campaign=rss"
+     },
+     {
+      "source": "Guardian",
+      "title": "Zelenskyy to make unexpected visit to Berlin for talks with Merz – Europe live",
+      "link": "https://www.theguardian.com/world/live/2026/nov/03/zelenskyy-berlin-merz-europe-sweden-spain-france-belgium-poland-latest-news"
+     },
+     {
+      "source": "France24",
+      "title": "Russian strikes kill at least 26 in Ukraine after war's longest ceasefire ends",
+      "link": "https://www.france24.com/en/europe/20261103-russian-strikes-kill-26-in-ukraine-after-longest-ceasefire-ends"
+     },
+     {
+      "source": "DW",
+      "title": "Ukrainian President Zelenskyy to make surprise Berlin visit this Tuesday, Merz says",
+      "link": "https://www.dw.com/en/ukrainian-president-zelenskyy-to-make-surprise-berlin-visit-this-tuesday-merz-says/a-79836026?maca=en-rss-en-all-1573-rdf"
+     },
+     {
+      "source": "Euronews",
+      "title": "Russia pounds Ukraine with 289 drones and 17 ballistic missiles in overnight strikes, Zelenskyy says",
+      "link": "https://www.euronews.com/2026/11/03/russia-pounds-ukraine-with-289-drones-and-17-ballistic-missiles-in-overnight-strikes-zelen"
+     }
+    ]
+   },
+   {
+    "category": "notable",
+    "headline": "Fridge cyber-attacks hit supermarkets across seven European countries",
+    "summary": "Freezers and fridges in shops in at least seven countries saw temperatures soar to as high as 50C, forcing food to be dumped. The EU called it a deliberate attempt to disrupt its food supply and the Commission will investigate.",
+    "sources": [
+     {
+      "source": "Guardian Business",
+      "title": "Who is hacking Europe’s supermarket fridges and freezers, and why?",
+      "link": "https://www.theguardian.com/technology/2026/nov/02/europe-supermarket-fridges-freezers-who-hacking-why"
+     },
+     {
+      "source": "BBC",
+      "title": "Shop freezers in seven European countries hit by cyber-attack",
+      "link": "https://www.bbc.co.uk/news/articles/cq1kd1nee80eo?at_medium=RSS&at_campaign=rss"
+     },
+     {
+      "source": "Guardian",
+      "title": "'It's a form of terrorism': fridges across Europe hit by suspected cyber-attacks – video",
+      "link": "https://www.theguardian.com/technology/video/2026/nov/02/its-a-form-of-terrorism-fridges-across-europe-hit-by-suspected-cyber-attacks-video"
+     },
+     {
+      "source": "Politico Europe",
+      "title": "EU Commission to probe supermarket cyberattacks",
+      "link": "https://www.politico.eu/article/european-commission-probe-supermarket-cyberattack-christophe-hansen/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication"
+     },
+     {
+      "source": "France24",
+      "title": "EU says fridge attacks 'deliberate attempt to disrupt' bloc's food supply",
+      "link": "https://www.france24.com/en/eu-says-fridge-attacks-deliberate-attempt-to-disrupt-bloc-s-food-supply"
+     },
+     {
+      "source": "DW",
+      "title": "European supermarkets targeted in second reported cyberattack",
+      "link": "https://www.dw.com/en/european-supermarkets-targeted-in-second-reported-cyberattack/a-79831139?maca=en-rss-en-all-1573-rdf"
+     }
+    ]
+   }
+  ],
+  "middle_east": [
+   {
+    "category": "political",
+    "headline": "US strikes Iran's Qeshm Island as indirect talks continue",
+    "summary": "The US carried out limited strikes it called defensive on Qeshm Island, while Iran says it is in 'very intensive' indirect talks with Washington and Trump says a deal 'could happen'. Gulf states are bracing for possible renewed US action after the midterms.",
+    "sources": [
+     {
+      "source": "BBC",
+      "title": "US strikes Iranian island ahead of midterm elections",
+      "link": "https://www.bbc.co.uk/news/articles/cx240mrm3g8vo?at_medium=RSS&at_campaign=rss"
+     },
+     {
+      "source": "NPR",
+      "title": "Haley Stevens backs Mike Rogers. And, Gulf states brace for potential attack on Iran",
+      "link": "https://www.npr.org/2026/11/02/g-s1-151215/up-first-newsletter-michigan-senate-iran-war-supreme-court-colorado-catholic-church"
+     },
+     {
+      "source": "DW",
+      "title": "What might Trump have planned for Iran following the midterm election?",
+      "link": "https://www.dw.com/en/what-might-trump-have-planned-for-iran-following-the-midterm-election/a-79831816?maca=en-rss-en-all-1573-rdf"
+     },
+     {
+      "source": "Guardian",
+      "title": "US strikes Iran’s Qeshm Island as Vance voices optimism about a deal",
+      "link": "https://www.theguardian.com/world/2026/nov/03/us-strikes-irans-qeshm-island"
+     },
+     {
+      "source": "France24",
+      "title": "US strikes Iran's Qeshm Island as Trump signals progress in talks",
+      "link": "https://www.france24.com/en/middle-east/20261103-us-strikes-iran-qeshm-island-as-trump-signals-progress-in-talks"
+     },
+     {
+      "source": "Arab News",
+      "title": "Iran foreign minister says in ‘very intensive’ indirect talks with Washington",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQSGRvR1NNOHgybi1wMVZYWTNwVkp1V200Z0lGa2xYRm5jaTlHU29haDFXZUVrWVlMbTl6MU84dlIyRDZBWGRVUkVWV0lHQjVibTlsWUxWR3JYUml5U2J3VTY2cVFNT3V2ZVcwOUZCaTF0SzdPRmNBQ1NWLW9lZ3hhM2Rpc3pmX2J3Qk9QLU1BWUpNcTlnQ25KNjhsaVNDcVE4NnhXS2RXWnZ6MnFNMWM0SG9MVDQxYWVUam56Rw?oc=5"
+     },
+     {
+      "source": "The National",
+      "title": "Trump's Iran dilemma as Americans vote: escalate, negotiate or risk wider war",
+      "link": "https://www.thenationalnews.com/news/gulf/2026/11/03/trumps-iran-dilemma-as-americans-vote-escalate-negotiate-or-risk-wider-war/"
+     },
+     {
+      "source": "CNBC",
+      "title": "U.S. strikes Iran’s Qeshm Island as Vance hopes for ‘negotiated settlement’ with Tehran",
+      "link": "https://www.cnbc.com/2026/11/03/iran-us-vance-trump-strikes.html"
+     },
+     {
+      "source": "FT",
+      "title": "US strikes Iran’s Qeshm Island on eve of election",
+      "link": "https://www.ft.com/content/ebeaca62-8958-459a-be9d-d3d39e441a53?syn-25a6b1a6=1"
+     }
+    ]
+   },
+   {
+    "category": "financial",
+    "headline": "Aramco profit jumps about 35% despite attacks",
+    "summary": "Higher oil prices and a joint venture sale lifted Saudi Aramco's earnings even as attacks cut output and disrupted exports. The result offers some relief to the kingdom's finances.",
+    "sources": [
+     {
+      "source": "Guardian Business",
+      "title": "Saudi state oil company reports jump in profits despite attacks; Australian central bank lifts rates – business live",
+      "link": "https://www.theguardian.com/business/live/2026/nov/03/saudi-oil-company-profits-australian-central-bank-rates-brent-crude-crypto-hack-energy-prices-latest-news-updates"
+     },
+     {
+      "source": "Euronews",
+      "title": "Saudi Aramco profits jump 35% despite attacks on oil facilities",
+      "link": "https://www.euronews.com/2026/11/03/saudi-aramco-profits-jump-35-despite-attacks-on-oil-facilities"
+     },
+     {
+      "source": "The National",
+      "title": "Aramco posts 34 per cent jump in third-quarter profit despite attacks on energy infrastructure",
+      "link": "https://www.thenationalnews.com/business/energy/2026/11/03/aramco-posts-34-jump-in-q3-profit-despite-attacks-on-energy-infrastructure/"
+     },
+     {
+      "source": "WSJ",
+      "title": "Saudi Aramco Profit Surges, Offering Some Relief to Kingdom’s Finances",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNSWZFWFRuNDlNWmtyM25adzF4Y3ZucmJaRkZUYWJXU0lwT2xuY19HdEJnSElRQ3dpYUZxWEgtVi0wMTE3YnZEYTdGeUpmcG5WNjZGSlQ0UDRyRWhrR1ZmdnZpdjNlSFRFUnZLdFFEMms3cnBrWThJQnFzeWlwNW9lMnFOSUZaeTNoMjllc19nQ2RZYnE1dmxUOXJubkJBRnV4VE12dlh1bU93SEI1eTVKUzIxY2g1a1VZ?oc=5"
+     },
+     {
+      "source": "The New York Times",
+      "title": "Saudi Aramco Profit Jumps Despite Damaging Attacks on Pipelines and Refineries",
+      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE8yNWtyRjVSdzJFSk4xeXctTEFXSloyU0VMWk11R0libnQ2ZnRkRVZfNkJTaGtYSng0akhzT21GSFRfTkRQNG80WDFubEpUWmVRbDJUa0RhcU0zMXFOdWFrc2dGS2dlOHMxQ2NoVGU4M3JUSTNtbzFCbGJvWVBqdw?oc=5"
+     }
+    ]
+   },
+   {
+    "category": "notable",
+    "headline": "Asian Cup in Saudi Arabia postponed to late 2027 over security",
+    "summary": "The AFC moved the tournament from January to December because of Houthi attacks on Saudi Arabia. It shows the regional conflict's wider effect on Gulf events.",
+    "sources": [
+     {
+      "source": "Al Jazeera",
+      "title": "AFC reschedules Asian Cup 2027 in Saudi Arabia amid regional conflict",
+      "link": "https://www.aljazeera.com/sports/2026/11/3/afc-reschedules-asian-cup-2027-in-saudi-arabia-amid-regional-conflict?traffic_source=rss"
+     },
+     {
+      "source": "The National",
+      "title": "AFC postpones 2027 Asian Cup in Saudi Arabia due to security concerns",
+      "link": "https://www.thenationalnews.com/sport/football/2026/11/03/afc-postpones-2027-asian-cup-in-saudi-arabia-due-to-security-concerns/"
+     },
+     {
+      "source": "BBC",
+      "title": "Asian Cup postponed in wake of attacks on Saudi Arabia",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9MNUFlakc3bzF5bjJXazdhRi1KX1hUcDVHVFI1b2twdlRuVVFJbU1hVzNTWlhrNVRndTJUN0tyWEU0RkhDZy1XWURnNG9KWmFlcU84TkxpVWVlemNIZ1BXcVE2Q2xvV1dv?oc=5"
+     },
+     {
+      "source": "The Guardian",
+      "title": "AFC postpones Asian Cup in Saudi Arabia to late 2027 due to conflict in Middle East",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPRktld21sN0hicVkzSmRFc3FxV3RGTDVFTDY5Um54WF85UzF0UXBkNGNVOTdSaG5xTWw3TnZSb1lYZWNMRm04eWhjWG55N0FQdW85NGxzdjB4NGpzLTdmZU50WGtEZzZBdEo4cFpZNDlhNm1rNGt1X3g5UkdmdlMtNHN0V0hBZl82RERJVzdlSjBJd2lpaWtrU0xNbTdHcGR6bWs3SFNIOS1BZ3M?oc=5"
+     },
+     {
+      "source": "Financial Times",
+      "title": "Asian Cup football tournament in Saudi Arabia postponed",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPYjJMRy1LbDdNaWdHTXhoeERDWDBFbmZEY0NNNlprektFcTBNNUpuQ3hjR2NJcHpRR2g1OHZwbEpwVm4ydVpuYzV5RTZNWUpzNktYbGlRYmY0YWZKMnloOENRZVoxczZ3U3g1ZmZaYXVva3E3R3dnNFoyVHEwUkhwY2tPa3Y?oc=5"
+     },
+     {
+      "source": "The Independent",
+      "title": "Asian Cup postponed following Houthi attacks on Saudi Arabia",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQZGtITkFzaVRzQ0FoRi1ZYU5XaWxIVEhzSDdVMTVsTVQ0azEzZy1pRzQtUVY5ZUF4UHk1SUREYW5PcXg3S0JNN0hfbEdBR0s5THhPZGoyNmV4cHpwWUxxZERLNU9meUItSU9lV21JSE5pbjJZQlNtRXRQMkd1eVpodDd4X1R6U3VuN0hQdWR4MTR4WXpKeFE?oc=5"
+     },
+     {
+      "source": "TNT Sports",
+      "title": "Asian Cup postponed due to 'exceptional circumstances', say AFC",
+      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNdGc3ODdLMDQ2SV9JZ1E2VVpOUkFWbF9Xd3VxTVZjekZBUnFBVWwtc2oxTzBrZE1WLXVqTUxGN1BtRGRZaEJEYTFuSTBrdVhMNEs1QnNhc0hLd3NGVTdZRmNmQUQweU1Ycm1WOGJRYXhrNHJVYndJVTB1UDUtZmZVLVk5bVJ5M19JaUwtQ2FhNXUyZmY3NURWdzRrNzNmX1ZoYVRnNDlHQ0FzYkZ2eHpwMW9hRUNIeEJHV0FvTVpFN2FaU1hCNWpiMU1xcldTLXVG?oc=5"
+     },
+     {
+      "source": "Anadolu Ajansı",
+      "title": "AFC postpones 2027 Asian Cup in Saudi Arabia by nearly a year",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNcnhwN2ZDZU9oTFpUZ1BER29wODRJYjBjUUh4b3U1UEhKTXZJMkwwYVVuT19pbW1YUkZzRGJDRnZjcVN3ZjgtekRuQWQyajVyWWQwVGtYWmlrWXI0cmJtNTdNVGlkeFFnQVhkUS1WcVhxaFVBNlpiRmNPQVk3WEU5RGtOOVY0MTVQLWVsRG5ORFlIdkctWHo4cGJXQThndw?oc=5"
+     }
+    ]
+   }
+  ]
+ },
+ "energyTech": {
+  "energy": [
+   {
+    "category": "energy",
+    "headline": "National Grid to spend up to £400m keeping UK-France link running to 2050",
+    "summary": "National Grid is investing to extend the life of the France-UK interconnector. It has also secured consent for the 138km Sea Link subsea connection.",
+    "sources": [
+     {
+      "source": "New Civil Engineer",
+      "title": "National Grid spending up to £400M to keep France–UK power link running to 2050",
+      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOYWx0Q3dMRVREclR5a3JVdGx0dEpkYl9mRk5xRmdxUjVKNlpmby1UZ1JYcFFqRWtMbkJCdTF3bnJvYTNVbm9jSzhEYl9qY2RIcUt1OW96Q1hEOElVVlczSlhvWkV1V2hfWVpWQ19MVzVUTGx2US1uSkZlS0dWQmhqd3h2SWNpaGJ6TXZsanY0STlETFVYWVQ3c2JBYVp4akRsc2hmdU8wOUlzSllvYTVodVlQaWJ4OU5Bc29zTE1zS05lbGt2YVFaaDV3?oc=5"
+     },
+     {
+      "source": "energynews.pro",
+      "title": "National Grid Secures Consent for Sea Link, a 138 km Subsea Link",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPU0w1YmN5VVQ5OURzb1ZBSVhGQ3BDTzBBY1I1aGk0eXJ2ejZsLXVzb19jV20wMlZNTUUzd0JPT3I3M0JfWnBCeUdybzViYkRrWFU1MktWVkZJVThHblpqN0hGUFAxY1lUUDNVZ3laR2lNSS1jUmtXdF9lY2h6ZzEybTZXUHJycFh6M3MtOGlraUU4LUU?oc=5"
+     }
+    ]
+   },
+   {
+    "category": "energy",
+    "headline": "Government backs data centre queue fee for grid connections",
+    "summary": "A proposed fee for data centres joining the grid queue has government support and could 'completely flip' the system, according to industry commentary. Teesworks also sold land to National Grid for AI and data centre development.",
+    "sources": [
+     {
+      "source": "Utility Week",
+      "title": "Data centre queue fee could ‘completely flip’ system as government backs plan",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQWTd3REw0Wm5ZRjF0cXB3ZkxqbmhOY05vX3dib3NpVUFtc1UxcmpXVXhwNWk0cDU4REdnNHoxUGp1dGFtNzVzdWI1NzB1T2VIV09LeE5ua0d0WC1ZSDBCNVhtZlJfTjkxSUNYYVExNzhLLVIzak9aN0QzLVgyc2VTMGg4d0VaR0g1YkFDSkRHQXlDUF8tWm83WloxN3FZSEZ6NTZvMtIBsAFBVV95cUxPRzdFbFBJbXpIWFV0Y1RLZjVRanRFZzBlNEdreFU1MFotWHZkaUtwdGtzNjNGeEhadkNiTjkwbU4weUpEbV9tX096WWJBWksyVm1sWUh4UXp0SkVuV2hjeXc5eUNwcEl3YjJNWEU1aDZaRnI1aV9pS2JJSl9kQUNXNUdEM0tKRDFwdm54Q0x6dDNmUHppVDY3aG1PUzEzZGg1anpSR0hmQkt6WkhFZ01zag?oc=5"
+     },
+     {
+      "source": "W.Media",
+      "title": "Teesworks sells land to National Grid for AI and data center development",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNc0o1Tk9CdTBzM3JzWEhudm51MVVjYXBpLU9YWTB3M0NlOVJ1ZlFXWWNQcWJVUkx5dE1BcWcwcURSUDNDT2tBeWJ5anhYNHhKTTdzeWg0YzdTOUJkRGRBQ2ZVMXUtQjhfcmIybEg2X2xpLUd5bDllYnFXRVpuNGEzamJGdUxFRDRyWFBSNlc4NkRkZ2M?oc=5"
+     }
+    ]
+   },
+   {
+    "category": "energy",
+    "headline": "Oil swings on Iran diplomacy; Europe's gas supply tightens",
+    "summary": "Brent fell about 7% on Monday as the US and Iran signalled room for diplomacy, then steadied around $105-106 after the Qeshm strikes. Germany missed its gas storage target and the European gas benchmark has stayed above €100/MWh.",
+    "sources": [
+     {
+      "source": "Guardian",
+      "title": "Oil price falls amid hope of a breakthrough to end Iran war",
+      "link": "https://www.theguardian.com/business/2026/nov/02/oil-price-falls-amid-hope-of-a-breakthrough-to-end-iran-war"
+     },
+     {
+      "source": "FT",
+      "title": "Oil prices steady at $106 after sharp declines",
+      "link": "https://www.ft.com/content/d0ab9542-8542-4357-a534-ddbdd1a9678d?syn-25a6b1a6=1"
+     },
+     {
+      "source": "OilPrice",
+      "title": "Oil Prices Bounce Back Following Reports of U.S. Strikes on Iran",
+      "link": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Bounce-Back-Following-Reports-of-US-Strikes-on-Iran.html"
+     },
+     {
+      "source": "The National",
+      "title": "Oil prices cross $105 after US strikes on Iran’s Qeshm Island",
+      "link": "https://www.thenationalnews.com/business/energy/2026/11/03/oil-prices-cross-105-after-us-strikes-on-irans-qeshm-island/"
+     }
+    ]
+   }
+  ],
+  "ai": [
+   {
+    "category": "ai",
+    "headline": "Anthropic reveals $17bn quarterly revenue and $895bn commitments in IPO filing",
+    "summary": "A revised S-1 shows Q3 revenue of about $17bn alongside purchase commitments of $895.4bn. Reports note growth is slowing and compute financing risks are mounting ahead of the listing.",
+    "sources": [
+     {
+      "source": "CNBC",
+      "title": "Anthropic reports $17 billion in Q3 revenue, purchase commitments of $895.4 billion in revised S-1",
+      "link": "https://www.cnbc.com/2026/11/02/anthropic-ant-s-1-quarter-financials.html"
+     },
+     {
+      "source": "Financial Times",
+      "title": "Anthropic reveals $900bn AI spending commitments ahead of IPO",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNeHIxTTNxemhYRmRhV2dJOXlhc1ZBdW05MVp2MkFWdy02SVhIdzZqaWplcXl4SHQ0eGc4RFlaRlNwVWw2d2NQUjJucnFseEJ6ZUdpOUloSG9HOXczOGxmRGhuRk9XZ2VYTFNVUHJPQXltZ0d4S3pVTnZMOElUS0lXcGxBT3M?oc=5"
+     },
+     {
+      "source": "WSJ",
+      "title": "Anthropic Unveils Paperwork for Blockbuster IPO",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQbmI5VHgtQjFuck9nQkJ5Q0hCekJJT1YxVVR4MlFwcUNodk9hYzJPYWlaQ2JhYjVRcC1JYUFpZlRNNE5iZWJFMFZUQ0tyQ3VnempEZFJNcnhmalhDQWlpWjN5MkllV0p6cWtzd1lHWGZXZVdjcDVlREplX1JReV9fUUdSWjRqQUNr?oc=5"
+     },
+     {
+      "source": "Bloomberg.com",
+      "title": "Anthropic Revenue Hits Nearly $17 Billion Before Blockbuster IPO",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNY1J3NXRpRXlFZHZiUUotRlNhandEU19SQVVyM3c1SW0teWRrMGxhUnpzbjJYN0hyTUlOMGd2a3dqSDl3ZG9tMFIyVEhkN1BnVDdTcmNzUF94dExOZEMwN0VUMTBKbE52U2hma3BLOVp3T0VCRVh0ZE1mVWdvU0RiNjFIOWhRTHdfeElXZUJHMkppd0hHbFRuVzNiODBURVJLNzJyLXpRSkx1TTlsaVJvUDJnSUo?oc=5"
+     },
+     {
+      "source": "The Coin Republic",
+      "title": "Anthropic Revenue Surges by 1,127% to $17B, But Losses Persist",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQQXgtWXZ5bWcxak5pSGRuTWVfLThlTzEwVG1yZEFJRTVZOTViX0dzUDVVM1NHV21OX2ktanZmQlVFVVRIUGtfTDZVXzNQVVQxYjhTRWxVR3l6VFZlcERraDdXU1AtMmJmS2RWM213NEtsNmhHV0R6OFlmbXRyMUdqMDlWMGE0X3c5UklEYXdTR3g1a3lMSG1xbENzLUJjZFRBMnAzadIBqgFBVV95cUxNODQwN0tJUzhvVEhHQjRrajN1aWJmc1EwTkJsX0pSTEhsWlJScTZjNFV2Ql9KTkdleE5XVE5TRjZJTWtrLUtReG9SamU2UG1QN3JfZERGTzctQk1BRGhrWDFKakpkb19JalBid1FjMkxRS284QkFzaU1YbHBaeTZxV1o4LW5LQnhWM1ZOYlRJdHVES0hDWWpwVUthM2h3NkNTdC01a0Z0UnRKdw?oc=5"
+     },
+     {
+      "source": "Reuters",
+      "title": "Anthropic revenue growth slows, compute financing risks mount ahead of IPO",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPalN1b2NwcllWRkRjRUNmOVBjSDMxWDNzdjZIclhDNTdMMFlaVUx2eWN1U19acllfTk0xX0JIbkJma21jVDFhZUR1czFjbVdLbThjMHVQZ0F4MkFvNmc0cURPN05FMkE3VFNyMTktbmNzWVIxN3c1YVFhSXpBTmZSQk1DZ013aDVRcXE5OEplekFkZWFJbmQxUEhDSVJ3RVVrZWJUd2ZRYWRfWUJhMVMycEZRRk8?oc=5"
+     }
+    ]
+   },
+   {
+    "category": "ai",
+    "headline": "OpenAI pitches data centre 'Grid Protectors' and hires ex-Army secretary",
+    "summary": "OpenAI will pilot a programme at a Georgia data centre promising to free up to 1,000MW of power in extreme conditions. It also hired former US Army Secretary Dan Driscoll for a new national security role.",
+    "sources": [
+     {
+      "source": "The Verge AI",
+      "title": "OpenAI pitches data center power plants as a way to protect nearby areas",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1024604/openai-data-center-grid-protection-program"
+     },
+     {
+      "source": "CNBC",
+      "title": "OpenAI hires former U.S. Army Secretary Dan Driscoll for national security role",
+      "link": "https://www.cnbc.com/2026/11/03/openai-hires-dan-driscoll-national-security.html"
+     },
+     {
+      "source": "Financial Times",
+      "title": "OpenAI hires former US Army secretary as military seeks to expand AI use",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPdVIwNmtWSjgyZ3BiQUV2akNTSzVrQnQyeTVVSEtua3BBVXpiQURSQmsyVzVwY2R3QTdOTWZER24xTTBPay0ybXl6RzBPdmtzOVdPbnR4dmtDOEliZWtyQUZwVjhtN1h4VVo4c09iVTMweVVYUmdSdjUyeEtNZXpOYXdFTk4?oc=5"
+     }
+    ]
+   },
+   {
+    "category": "ai",
+    "headline": "Blackstone and others warn of debt risks in AI buildout",
+    "summary": "Blackstone's Jon Gray says AI infrastructure needs more equity as debt investors face concentration risks. Reuters says an AI-related debt binge may also pressure European bond markets.",
+    "sources": [
+     {
+      "source": "CNBC Finance",
+      "title": "Blackstone president calls for more equity to fund AI buildout as debt risks mount",
+      "link": "https://www.cnbc.com/2026/11/03/equity-ai-debt-blackstone-pimco-financing.html"
+     },
+     {
+      "source": "Reuters",
+      "title": "AI-related debt binge may pressure European bond markets",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOblQ0XzlqZzJsa2FDYW5uSVdhTUluMGpBaEY0NV9hSXNZWUMtMGtBX202UnhyWWR3NmJ5VGtMLUtJOGllZjRfVGZVU05aZFBDQldVT29SOTg0a3owVVkwa000ZnktWmlwaUdWRFg4QzhYNXFCVm1oaGlFRXlzQnJtcjN4T01VN0Y5cmhKdVJoOG1FVWg3WXFIbjI0d3Vhd1Fhanhn?oc=5"
+     }
+    ]
+   }
+  ],
+  "tech": [
+   {
+    "category": "tech",
+    "headline": "Apple cannot say when iPhone Duo supply will catch up",
+    "summary": "Apple's foldable iPhone Duo sold out and the company says it is hard to predict when constraints will ease. Shipping delays are stretching into next year.",
+    "sources": [
+     {
+      "source": "BBC",
+      "title": "Apple unsure when more foldable iPhones will be available after selling out",
+      "link": "https://www.bbc.co.uk/news/articles/c6n8dn457ypko?at_medium=RSS&at_campaign=rss"
+     },
+     {
+      "source": "The Verge",
+      "title": "Apple is ‘not able to predict’ when it&#8217;ll have enough iPhone Duos to go around",
+      "link": "https://www.theverge.com/tech/1024915/apple-iphone-duo-supply-chain-constraints"
+     },
+     {
+      "source": "TechCrunch",
+      "title": "Apple says it’s ‘hard to predict’ when iPhone Duo constraints will improve",
+      "link": "https://techcrunch.com/2026/11/02/apple-says-its-hard-to-predict-when-iphone-duo-constraints-will-improve/"
+     }
+    ]
+   },
+   {
+    "category": "tech",
+    "headline": "Nvidia tells cloud clients to cut China exposure",
+    "summary": "Nvidia has told data centre customers that a majority of their clients must be non-Chinese. Separately, its humanoid robot systems rely on China-made hands.",
+    "sources": [
+     {
+      "source": "FT",
+      "title": "Nvidia orders data centre clients to reduce China exposure",
+      "link": "https://www.ft.com/content/1902df70-1380-4588-bad5-171352b575f2?syn-25a6b1a6=1"
+     },
+     {
+      "source": "CNBC",
+      "title": "CNBC's The China Connection newsletter: Nvidia's humanoid push relies on China-made robot hands",
+      "link": "https://www.cnbc.com/2026/11/02/cnbcs-the-china-connection-newsletter-nvidias-humanoid-push-relies-on-china-made-robot-hands.html"
+     }
+    ]
+   },
+   {
+    "category": "tech",
+    "headline": "Google dismantles botnet built into 1.3m Android set-top boxes",
+    "summary": "Google says an Android manufacturing partner secretly built a backdoor into the devices and turned them into a botnet. The company says it has now dismantled it.",
+    "sources": [
+     {
+      "source": "The Verge",
+      "title": "One of Google’s Android partners turned 1.3 million set-top boxes into a botnet",
+      "link": "https://www.theverge.com/1024807/google-botnet-android-tv-shut-down"
+     }
+    ]
+   }
+  ]
+ },
+ "stats": {
+  "headlines": 436,
+  "feeds": 45,
+  "feedsFailed": 0
+ }
+}
