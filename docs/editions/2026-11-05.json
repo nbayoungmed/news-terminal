@@ -1,0 +1,1271 @@
+{
+ "date": "2026-11-05",
+ "dateLabel": "Thursday, 5 November 2026",
+ "generatedAt": "2026-11-05T07:17:11.859Z",
+ "mode": "ai",
+ "model": "claude-sonnet-5-5",
+ "error": null,
+ "headlineOfDay": "Democrats win both chambers of Congress in a historic midterm rout, driving a Wall Street rally and a sharp fall in oil on hopes of an end to the Iran war.",
+ "markets": {
+  "summary": "US stocks rallied strongly, with the Dow up about 3% and the S&P 500 up 1.6%, after Democrats swept the midterms and investors bet on a divided Washington producing fewer policy shocks. The FTSE 100 and Euro Stoxx 50 gained around 2%, while oil slid and the 10-year Treasury yield eased. Data-centre and power-related stocks such as Vistra and Datadog were hit by worries that Democratic control could slow the AI build-out.",
+  "indices": [
+   {
+    "symbol": "^GSPC",
+    "label": "S&P 500",
+    "price": 7688.6201171875,
+    "asOf": "2026-11-04",
+    "d1": 1.5814699659663916,
+    "w1": -0.7148761156520838,
+    "m1": -1.666597036476665,
+    "ytd": 12.316413953509604,
+    "spark": [
+     7818.9302,
+     7801.77,
+     7765.3599,
+     7811.54,
+     7807.2402,
+     7805.4502,
+     7718.9399,
+     7744.0601,
+     7659.4399,
+     7690.73,
+     7712.5698,
+     7757.1699,
+     7663.4302,
+     7623.6802,
+     7676.77,
+     7722.6001,
+     7743.98,
+     7720.3901,
+     7580.0698,
+     7541.3999,
+     7568.9199,
+     7688.6201
+    ]
+   },
+   {
+    "symbol": "SPUS",
+    "label": "S&P 500 Shariah",
+    "sub": "via SPUS ETF",
+    "price": 58.65999984741211,
+    "asOf": "2026-11-04",
+    "d1": 1.225192536885555,
+    "w1": -2.412245463677051,
+    "m1": -4.071956854184246,
+    "ytd": 14.861954568128013,
+    "spark": [
+     61.15,
+     61.07,
+     60.48,
+     60.77,
+     60.57,
+     60.53,
+     59.67,
+     59.72,
+     58.82,
+     59.21,
+     59.28,
+     59.78,
+     58.81,
+     58.66,
+     59.3,
+     59.87,
+     60.11,
+     59.77,
+     58.42,
+     57.61,
+     57.95,
+     58.66
+    ]
+   },
+   {
+    "symbol": "^IXIC",
+    "label": "Nasdaq",
+    "price": 25736.509765625,
+    "asOf": "2026-11-04",
+    "d1": 1.4366224960777012,
+    "w1": -3.063444259446208,
+    "m1": -6.751063541303107,
+    "ytd": 10.732813782705215,
+    "spark": [
+     27599.7891,
+     27538.6895,
+     27193.3398,
+     27366.1699,
+     27245.9004,
+     27204.3809,
+     26692.8691,
+     26713.0293,
+     26140.0293,
+     26430.8906,
+     26424.8203,
+     26702.8594,
+     26008.8594,
+     25955.3398,
+     26169.3809,
+     26477.8105,
+     26549.8496,
+     26184.7207,
+     25437,
+     25164.3105,
+     25372.0098,
+     25736.5098
+    ]
+   },
+   {
+    "symbol": "^DJI",
+    "label": "Dow Jones",
+    "price": 53356.12109375,
+    "asOf": "2026-11-04",
+    "d1": 3.0305112616350116,
+    "w1": 1.6789286823974408,
+    "m1": 3.561324173687936,
+    "ytd": 11.012213551110426,
+    "spark": [
+     51521.2813,
+     51179.8711,
+     51231.6406,
+     51654.9492,
+     51850.5508,
+     51670.1016,
+     51621.4805,
+     52177.6914,
+     52002.4102,
+     51966.0313,
+     52495.8789,
+     52856.0898,
+     52867.9805,
+     52215.1602,
+     52361.5781,
+     52377.5703,
+     52475.1016,
+     52342.5586,
+     51770.3086,
+     51983.9805,
+     51786.7188,
+     53356.1211
+    ]
+   },
+   {
+    "symbol": "^FTSE",
+    "label": "FTSE 100",
+    "price": 10829.2001953125,
+    "asOf": "2026-11-04",
+    "d1": 1.7935008805989356,
+    "w1": 1.259527750829866,
+    "m1": 2.727264052983033,
+    "ytd": 9.040012177285703,
+    "spark": [
+     10541.7002,
+     10458.5,
+     10441.5996,
+     10552.0996,
+     10656.2998,
+     10650.2998,
+     10724.9004,
+     10840.4004,
+     10881.9004,
+     10764.7002,
+     10733,
+     10752.9004,
+     10725,
+     10690.4004,
+     10767.2998,
+     10686.5,
+     10694.5,
+     10722.0996,
+     10729.7998,
+     10761.2998,
+     10638.4004,
+     10829.2002
+    ]
+   },
+   {
+    "symbol": "^STOXX50E",
+    "label": "Euro Stoxx 50",
+    "price": 6265.7099609375,
+    "asOf": "2026-11-04",
+    "d1": 1.9716611309594148,
+    "w1": 1.5872716801215991,
+    "m1": -0.10395058139693295,
+    "ytd": 8.099929414196803,
+    "spark": [
+     6272.23,
+     6180.29,
+     6126.73,
+     6173.3701,
+     6201.21,
+     6167.0098,
+     6190.3701,
+     6168.2598,
+     6204.23,
+     6144.8101,
+     6121.6602,
+     6207.52,
+     6087.0098,
+     6068.2202,
+     6116.23,
+     6164.6899,
+     6167.8101,
+     6207.0698,
+     6131.3101,
+     6176.0601,
+     6144.5601,
+     6265.71
+    ]
+   },
+   {
+    "symbol": "^TASI.SR",
+    "label": "Tadawul (Saudi)",
+    "price": 10118.4,
+    "asOf": "2026-11-05",
+    "d1": 0.7920198348622229,
+    "w1": null,
+    "m1": null,
+    "ytd": null,
+    "spark": []
+   }
+  ],
+  "commodities": [
+   {
+    "symbol": "GC=F",
+    "label": "Gold",
+    "unit": "$/oz",
+    "price": 4137.7998046875,
+    "asOf": "2026-11-05",
+    "d1": 1.5909600954456173,
+    "w1": 2.639279280675973,
+    "m1": -0.07004589775138517,
+    "ytd": -4.683151468414915,
+    "spark": [
+     4140.7002,
+     4157,
+     4216.2998,
+     4190.6001,
+     4177.2998,
+     4107.8999,
+     4170.1001,
+     4181.1001,
+     4160.1001,
+     4142.6001,
+     4150,
+     4060.3999,
+     4007.8999,
+     4038.3999,
+     4074.6001,
+     4051.6001,
+     4031.3999,
+     3898.8999,
+     3969.6001,
+     3940.3999,
+     4073,
+     4137.7998
+    ]
+   },
+   {
+    "symbol": "SI=F",
+    "label": "Silver",
+    "unit": "$/oz",
+    "price": 52.79499816894531,
+    "asOf": "2026-11-05",
+    "d1": 1.2950868205939496,
+    "w1": 1.1572804793138325,
+    "m1": -11.859964770458694,
+    "ytd": -24.722679232130528,
+    "spark": [
+     59.899,
+     59.064,
+     60.67,
+     60.141,
+     59.161,
+     55.55,
+     56.837,
+     56.995,
+     56.974,
+     57.706,
+     57.422,
+     54.764,
+     53.711,
+     54.108,
+     54.293,
+     53.457,
+     52.191,
+     49.097,
+     50.72,
+     49.587,
+     52.12,
+     52.795
+    ]
+   },
+   {
+    "symbol": "BZ=F",
+    "label": "Brent crude",
+    "unit": "$/bbl",
+    "price": 94.08999633789062,
+    "asOf": "2026-11-05",
+    "d1": -0.5601420347776853,
+    "w1": -18.097146076410432,
+    "m1": -6.097805186069669,
+    "ytd": 54.626127686603276,
+    "spark": [
+     100.2,
+     104.28,
+     104.72,
+     106.65,
+     105.69,
+     106.06,
+     105.92,
+     109.86,
+     109.55,
+     108.79,
+     108.82,
+     113.17,
+     116.72,
+     115.81,
+     113.88,
+     115.32,
+     114.88,
+     117.64,
+     104.77,
+     103.6,
+     94.62,
+     94.09
+    ],
+    "note": "Oil fell on post-election hopes of a US-Iran settlement after Trump and Vance linked the Republican defeat to the war."
+   },
+   {
+    "symbol": "CL=F",
+    "label": "WTI crude",
+    "unit": "$/bbl",
+    "price": 87.02999877929688,
+    "asOf": "2026-11-05",
+    "d1": -1.2369540777476145,
+    "w1": -14.676471785003065,
+    "m1": -1.4159492719580165,
+    "ytd": 51.56740082650448,
+    "spark": [
+     88.28,
+     91.49,
+     91.85,
+     93.74,
+     94.14,
+     95.09,
+     97.97,
+     101.41,
+     103.66,
+     101.79,
+     97.15,
+     99.47,
+     103.27,
+     101.76,
+     99.9,
+     102.78,
+     102,
+     104.12,
+     96.46,
+     96.09,
+     88.12,
+     87.03
+    ]
+   },
+   {
+    "symbol": "HG=F",
+    "label": "Copper",
+    "unit": "$/lb",
+    "price": 6.389999866485596,
+    "asOf": "2026-11-05",
+    "d1": -0.20303001236812693,
+    "w1": -2.902294317870337,
+    "m1": -3.1304488124539036,
+    "ytd": 13.499107221956935,
+    "spark": [
+     6.5965,
+     6.519,
+     6.6425,
+     6.6985,
+     6.678,
+     6.6115,
+     6.5115,
+     6.531,
+     6.538,
+     6.5665,
+     6.543,
+     6.3625,
+     6.476,
+     6.508,
+     6.622,
+     6.6415,
+     6.581,
+     6.4585,
+     6.5435,
+     6.3785,
+     6.403,
+     6.39
+    ]
+   },
+   {
+    "symbol": "NG=F",
+    "label": "US natural gas",
+    "unit": "$/MMBtu",
+    "price": 2.944000005722046,
+    "asOf": "2026-11-05",
+    "d1": -0.5069315425270564,
+    "w1": -0.2709992299047335,
+    "m1": -8.086171008122758,
+    "ytd": -20.130224663903228,
+    "spark": [
+     3.203,
+     3.168,
+     3.22,
+     3.167,
+     3.283,
+     3.198,
+     3.236,
+     3.116,
+     3.058,
+     2.963,
+     2.79,
+     2.796,
+     2.64,
+     2.602,
+     2.697,
+     2.817,
+     2.952,
+     2.898,
+     2.856,
+     2.895,
+     2.959,
+     2.944
+    ]
+   }
+  ],
+  "rates_fx": [
+   {
+    "symbol": "GBPUSD=X",
+    "label": "GBP/USD",
+    "price": 1.349127173423767,
+    "asOf": "2026-11-05",
+    "d1": 0.4249735589459144,
+    "w1": 1.2250075780349774,
+    "m1": 1.6918115948605346,
+    "ytd": 0.178762628015109,
+    "spark": [
+     1.3267,
+     1.3215,
+     1.3229,
+     1.3242,
+     1.321,
+     1.3257,
+     1.323,
+     1.3273,
+     1.3336,
+     1.3308,
+     1.3373,
+     1.3396,
+     1.3404,
+     1.3378,
+     1.3345,
+     1.3306,
+     1.3328,
+     1.3379,
+     1.3386,
+     1.341,
+     1.3434,
+     1.3491
+    ]
+   },
+   {
+    "symbol": "EURUSD=X",
+    "label": "EUR/USD",
+    "price": 1.1259993314743042,
+    "asOf": "2026-11-05",
+    "d1": 0.47066804888420966,
+    "w1": 0.9345799385944252,
+    "m1": 0.05742495931736649,
+    "ytd": -4.148181162356536,
+    "spark": [
+     1.1254,
+     1.1201,
+     1.1213,
+     1.1205,
+     1.116,
+     1.1204,
+     1.1195,
+     1.1213,
+     1.1225,
+     1.1216,
+     1.1227,
+     1.1235,
+     1.1221,
+     1.1218,
+     1.1174,
+     1.113,
+     1.1156,
+     1.1183,
+     1.1157,
+     1.1192,
+     1.1207,
+     1.126
+    ]
+   },
+   {
+    "symbol": "^TNX",
+    "label": "US 10Y yield",
+    "unit": "%",
+    "price": 4.894000053405762,
+    "asOf": "2026-11-04",
+    "d1": -1.1712456802281193,
+    "w1": -2.993062846474883,
+    "m1": -7.117099946841118,
+    "ytd": 17.559450584643805,
+    "spark": [
+     5.269,
+     5.277,
+     5.231,
+     5.244,
+     5.24,
+     5.217,
+     5.19,
+     5.089,
+     5.098,
+     5.136,
+     5.117,
+     5.146,
+     4.953,
+     4.988,
+     4.986,
+     4.993,
+     5.045,
+     4.989,
+     4.929,
+     4.894,
+     4.952,
+     4.894
+    ],
+    "note": "Treasury yields eased as investors weighed the Democratic midterm victories and lower oil prices."
+   }
+  ],
+  "movers": {
+   "sp500": {
+    "gainers": [
+     {
+      "ticker": "MOS",
+      "name": "Mosaic Company (The)",
+      "price": 21.62,
+      "d1": 17.372421281216063,
+      "shariah": false
+     },
+     {
+      "ticker": "XYZ",
+      "name": "Block, Inc.",
+      "price": 87.63,
+      "d1": 15.302631578947363,
+      "shariah": false
+     },
+     {
+      "ticker": "ZBH",
+      "name": "Zimmer Biomet",
+      "price": 110.15,
+      "d1": 13.486503193900685,
+      "shariah": false
+     },
+     {
+      "ticker": "MRNA",
+      "name": "Moderna",
+      "price": 258.38,
+      "d1": 13.106286114515846,
+      "shariah": false
+     },
+     {
+      "ticker": "SWK",
+      "name": "Stanley Black & Decker",
+      "price": 118.33,
+      "d1": 13.104568916077225,
+      "shariah": false
+     }
+    ],
+    "losers": [
+     {
+      "ticker": "FIS",
+      "name": "Fidelity National Information Services",
+      "price": 29.76,
+      "d1": -23.67273659912798,
+      "shariah": false
+     },
+     {
+      "ticker": "TRMB",
+      "name": "Trimble Inc.",
+      "price": 54.25,
+      "d1": -17.314433775339126,
+      "shariah": true
+     },
+     {
+      "ticker": "FIX",
+      "name": "Comfort Systems USA",
+      "price": 1091.31,
+      "d1": -15.081742703072853,
+      "shariah": true
+     },
+     {
+      "ticker": "DDOG",
+      "name": "Datadog",
+      "price": 188.72,
+      "d1": -14.420460729185566,
+      "shariah": false
+     },
+     {
+      "ticker": "VST",
+      "name": "Vistra Corp.",
+      "price": 120.29,
+      "d1": -13.826205315567016,
+      "shariah": false,
+      "note": "Energy stocks slid on worries that Democratic gains could slow the data-centre boom, though some analysts called the reaction excessive."
+     }
+    ],
+    "coverage": 502
+   },
+   "ftse100": {
+    "gainers": [
+     {
+      "ticker": "HSX",
+      "name": "Hiscox",
+      "price": 1939,
+      "d1": 2.973977695167286
+     },
+     {
+      "ticker": "BAB",
+      "name": "Babcock International",
+      "price": 1047.5,
+      "d1": 1.5511391177896268
+     },
+     {
+      "ticker": "III",
+      "name": "3i",
+      "price": 2562,
+      "d1": 1.3449367088607596
+     },
+     {
+      "ticker": "WPP",
+      "name": "WPP",
+      "price": 413.2,
+      "d1": 1.2745098039215659
+     },
+     {
+      "ticker": "PRU",
+      "name": "Prudential plc",
+      "price": 944.2,
+      "d1": 1.178739819974282
+     }
+    ],
+    "losers": [
+     {
+      "ticker": "EDV",
+      "name": "Endeavour Mining",
+      "price": 3557,
+      "d1": -4.740224959828602
+     },
+     {
+      "ticker": "BTRW",
+      "name": "Barratt Redrow",
+      "price": 319,
+      "d1": -4.662283323371196
+     },
+     {
+      "ticker": "ANTO",
+      "name": "Antofagasta plc",
+      "price": 3138,
+      "d1": -3.5351982785121425
+     },
+     {
+      "ticker": "CPG",
+      "name": "Compass Group",
+      "price": 33.5,
+      "d1": -2.870397216584523
+     },
+     {
+      "ticker": "GLEN",
+      "name": "Glencore",
+      "price": 504.3,
+      "d1": -2.8323699421965296
+     }
+    ],
+    "coverage": 100
+   },
+   "shariahListAvailable": true
+  },
+  "stories": [
+   {
+    "category": "markets",
+    "headline": "Wall Street posts best day since August after Democratic sweep",
+    "summary": "US stocks surged as markets welcomed the prospect of a divided Washington with fewer policy shocks, helped by Trump's conciliatory reaction. Tech and data-centre names lagged on fears that the AI infrastructure build-out could be slowed.",
+    "sources": [
+     {
+      "source": "CNBC",
+      "title": "What was really behind Wednesday's monster rally? Trump quickly making peace",
+      "link": "https://www.cnbc.com/2026/11/04/stock-market-rally-trump-midterms.html"
+     },
+     {
+      "source": "Financial Times",
+      "title": "US stocks post best day since August after Democrats sweep midterms",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOVEtJOG9HYUZYU0lNTFl5cUE4cEVLN2FsMlVWYUN6cGdSMnpJVDdOVVRsUE8zNUZJSEltczZNM2h2OXZuUVFtTV9uSzcwekdVaGRsTU5YTjYwRmhXVnNHclhfVU5Ed3ZFeHBZY1I0TWszTnVPNktoUG5kSGh4aHhGcTVVc2c?oc=5"
+     },
+     {
+      "source": "Reuters",
+      "title": "Markets cheer Democratic win, betting divided Washington means fewer policy shocks",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQa19fZ0FrSFljZ2xPQlpBRmJ4NUFwcGZfME5lOGRNYnVKb2dtdldILTNDRHBwM3c1YzRiWVpXVUY1c3NzWVlINHAweEFjTUNaeTZwNjc3Q2swM2U4ZEk3SWJvdHJkVEQ4dUU4WEFnaEhoMDFONGhSd1I3TkthSkRmbWtQUzRBRjRuNGprcEEweUJTb3RXRktwaHZKMVlEM1RyaGZTVUluX3o5dXRlcElQVS1XVVVuTlE2?oc=5"
+     },
+     {
+      "source": "France 24",
+      "title": "Tech hit by new AI worries on positive day for most markets",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNQm1yZDhfTUZubmgxVWpOWTFLWTlNTkV6QWVHZXFzSkVXUmhZOFE5Y2xaZGNJWHBtNXpKS3hzRDF3aW9PTkttQmltdGZHOElRRExjX0NnZ2RfS3NaMl81aDAwTFVpV1pfTWFMeDJRQ2EyWERTMExtblFCMUpBTVZPX1NKYlI5Vnk5TDBaUngycDdLRFdvcmh5VzVpSjh6NnoxRV9DazB1aEpIUQ?oc=5"
+     },
+     {
+      "source": "FT",
+      "title": "Asian tech stocks slide on post-midterm AI fears",
+      "link": "https://www.ft.com/content/21755495-c68a-45a9-90d8-64f698cd1952?syn-25a6b1a6=1"
+     },
+     {
+      "source": "MarketWatch",
+      "title": "Micron and other chip stocks slip as election results strike at the core of data-center optimism",
+      "link": "https://www.marketwatch.com/story/micron-and-other-chip-stocks-slip-as-election-results-strike-at-the-core-of-data-center-optimism-b55d19b3?mod=mw_rss_topstories"
+     },
+     {
+      "source": "Euronews",
+      "title": "Shares advance after Wall Street rally following US midterm elections",
+      "link": "https://www.euronews.com/2026/11/05/shares-advance-after-wall-street-rally-following-us-midterm-elections"
+     },
+     {
+      "source": "Bloomberg.com",
+      "title": "Asian Stocks to Rise as Oil Slides After US Vote: Markets Wrap",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPaHBnOEludEdwalhTMXRiLWFQbk9RRVVIVGYzY3cwZUk4TmxLY1hnZExZQTZBTExfR2l2TmpJNXUwRWUwc21Jd0EzZklqc2hCbnRta19OU1lQV2NTdjhuNUZxaGQwaHlBZG51eG44WXFxNTNuX1FRYVluOGdaTFptSWRFY3J1ZTdMTlFzY3VmYVhkbDJH?oc=5"
+     },
+     {
+      "source": "City AM",
+      "title": "FTSE 100 Live: Stocks to jump ahead of interest rate decision; oil at two-month low",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQUm5GckFQQy1UZlhhakh2NldkeWg0blNiT1VFUURoS09yaHNDVWlYdkFhNktBSGo1cUprbUlzUW5xVnRXNXZZdjV0M1JVRkRPSGdEZWpabkMxWmVVemoycTVpTzZCWmhaMzdkMlR3QXVNNGFsLVFSUFZLb0pZNWg1NUlMY2kyMlo3N0Z0akxwZm1QMzZ3a1U2djA1UlplcVhwbWJ2amVMZFU?oc=5"
+     }
+    ]
+   },
+   {
+    "category": "economy",
+    "headline": "Bank of England expected to raise rates for first time in over three years",
+    "summary": "Most analysts expect the Bank of England to lift rates from 3.75% to 4%, the first rise in more than three years. Euro zone inflation has also reached 4%, driven by energy costs, with a rate rise looming there too.",
+    "sources": [
+     {
+      "source": "BBC Business",
+      "title": "Interest rates expected to rise for first time in over three years",
+      "link": "https://www.bbc.co.uk/news/articles/ck5ynw45jrgqo?at_medium=RSS&at_campaign=rss"
+     },
+     {
+      "source": "CNBC Economy",
+      "title": "Euro zone inflation hits 4% for first time in three years as interest rate hike looms",
+      "link": "https://www.cnbc.com/2026/11/04/euro-zone-cpi-inflation-october-ecb-rate-hike.html"
+     }
+    ]
+   },
+   {
+    "category": "companies",
+    "headline": "Qualcomm pivots to data centres as smartphone sales sink",
+    "summary": "Qualcomm's shares fell as it faces the loss of Apple's business and high memory costs weighing on smartphone demand. The company is looking to data centres to lift its earnings.",
+    "sources": [
+     {
+      "source": "MarketWatch",
+      "title": "Qualcomm’s stock falls as twin forces pressure sales",
+      "link": "https://www.marketwatch.com/story/qualcomms-stock-falls-as-twin-forces-pressure-sales-fa161159?mod=mw_rss_topstories"
+     },
+     {
+      "source": "The Verge AI",
+      "title": "Qualcomm is betting big on data centers as smartphone sales sink",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1026867/qualcomm-earnings-data-centers"
+     }
+    ]
+   }
+  ],
+  "calendar": [
+   {
+    "when": "Today",
+    "event": "Bank of England interest rate decision, with a rise from 3.75% to 4% widely expected"
+   }
+  ]
+ },
+ "world": {
+  "us": [
+   {
+    "category": "political",
+    "headline": "Democrats win control of both the House and Senate",
+    "summary": "Democrats swept the midterms, flipping the Senate and House and leaving Republicans blaming Trump and the Iran war. Speaker Mike Johnson will not seek to stay on as House Republican leader.",
+    "sources": [
+     {
+      "source": "BBC",
+      "title": "Anthony Zurcher: Midterm carnage weakens Trump but he still wields power for now",
+      "link": "https://www.bbc.co.uk/news/articles/cmpdg093e589o?at_medium=RSS&at_campaign=rss"
+     },
+     {
+      "source": "NPR",
+      "title": "Chuck Schumer heralds Democrats' 'generational remake' of Senate",
+      "link": "https://www.npr.org/2026/11/04/g-s1-151833/2026-midterms-chuck-schumer-senate-democrats"
+     },
+     {
+      "source": "NPR Politics",
+      "title": "Democrats sweeping victories mean big changes for Trump's final two years in office",
+      "link": "https://www.npr.org/2026/11/04/nx-s1-6028819/democrats-sweeping-victories-mean-big-changes-for-trumps-final-two-years-in-office"
+     },
+     {
+      "source": "Guardian",
+      "title": "Trump-backed Republicans lose dozens of US midterm races, raising questions over his influence",
+      "link": "https://www.theguardian.com/us-news/2026/nov/05/trump-endorsed-republicans-lose-midterm-election-races"
+     },
+     {
+      "source": "Politico",
+      "title": "Voters pummel GOP out of power",
+      "link": "https://www.politico.com/news/2026/11/03/midterms-blue-wave-gop-wipeout-01147461"
+     },
+     {
+      "source": "DW",
+      "title": "Democrats take House and Senate from Republicans in US midterm rout",
+      "link": "https://www.dw.com/en/democrats-take-house-and-senate-from-republicans-in-us-midterm-rout/a-79859416?maca=en-rss-en-all-1573-rdf"
+     },
+     {
+      "source": "CNBC",
+      "title": "Democrats flip dozens of GOP seats. Republicans haven't flipped a single one",
+      "link": "https://www.cnbc.com/2026/11/04/democrats-2026-midterm-election-results.html"
+     },
+     {
+      "source": "FT",
+      "title": "Democrats look to reshape America after historic midterm victories",
+      "link": "https://www.ft.com/content/9a4a7357-f783-462f-b5d3-9852daf0f328?syn-25a6b1a6=1"
+     }
+    ]
+   },
+   {
+    "category": "financial",
+    "headline": "Economy blamed for Trump's defeat as debt ceiling fight looms",
+    "summary": "Voters ranked the economy as their top issue, and analysts say a Democratic Congress could extract concessions in the next debt-ceiling confrontation. That raises the prospect of market volatility.",
+    "sources": [
+     {
+      "source": "CNBC Economy",
+      "title": "The economy brought Trump back to power. Now it's his downfall",
+      "link": "https://www.cnbc.com/2026/11/04/2026-midterms-trump-economy-iran-war.html"
+     },
+     {
+      "source": "BBC Business",
+      "title": "Democrats won on affordability. Can they deliver it?",
+      "link": "https://www.bbc.co.uk/news/articles/ck1ex50x5q46o?at_medium=RSS&at_campaign=rss"
+     },
+     {
+      "source": "Guardian Business",
+      "title": "After the US midterms, what will a lame duck Trump mean for the global economy?",
+      "link": "https://www.theguardian.com/us-news/2026/nov/04/explainer-midterms-trump-us-global-economy-markets"
+     }
+    ]
+   },
+   {
+    "category": "notable",
+    "headline": "Voters back data-centre moratoriums at the ballot box",
+    "summary": "Voters approved nearly every datacentre moratorium on the ballot in Tuesday's elections. This could constrain the US AI infrastructure build-out.",
+    "sources": [
+     {
+      "source": "Guardian",
+      "title": "Datacenters were on the ballot. US voters rejected them",
+      "link": "https://www.theguardian.com/us-news/2026/nov/04/datacenters-midterm-elections"
+     },
+     {
+      "source": "The Verge AI",
+      "title": "Data centers lost the midterms",
+      "link": "https://www.theverge.com/policy/1026365/data-centers-midterms-results"
+     },
+     {
+      "source": "TechCrunch AI",
+      "title": "After the midterms, a bigger clash over data centers could be coming",
+      "link": "https://techcrunch.com/2026/11/04/after-the-midterms-a-bigger-clash-over-data-centers-could-be-coming/"
+     },
+     {
+      "source": "MIT Tech Review",
+      "title": "Texas was the new epicenter of the AI data center buildout. That might be kaput.",
+      "link": "https://www.technologyreview.com/2026/11/04/1148043/texas-was-the-new-epicenter-of-the-ai-data-center-buildout-that-might-be-kaput/"
+     },
+     {
+      "source": "FT",
+      "title": "Voters have put a helpful chill on the US data centre boom",
+      "link": "https://www.ft.com/content/b7d0761f-e5fb-4746-924f-b15420a57844?syn-25a6b1a6=1"
+     },
+     {
+      "source": "Ars Technica",
+      "title": "Big Tech claims voters’ AI backlash is “anti-Trump” not “anti-tech”",
+      "link": "https://arstechnica.com/tech-policy/2026/11/big-tech-claims-voters-ai-backlash-is-anti-trump-not-anti-tech/"
+     }
+    ]
+   }
+  ],
+  "uk": [
+   {
+    "category": "political",
+    "headline": "PM Burnham says US result is a chance to focus on cost of living and ending the Iran war",
+    "summary": "Andy Burnham said prices will not fall until the US conflict with Iran is resolved. The government is also watching whether Trump's domestic defeat makes him more aggressive abroad.",
+    "sources": [
+     {
+      "source": "BBC Politics",
+      "title": "Time to focus on cost of living, says PM after US election results",
+      "link": "https://www.bbc.co.uk/news/articles/c6kgl0xk8en9o?at_medium=RSS&at_campaign=rss"
+     },
+     {
+      "source": "Guardian Politics",
+      "title": "UK politics: Burnham says US midterm results have created ‘opportunity’ for world to focus on cost of living and ending Iran war – as it happened",
+      "link": "https://www.theguardian.com/politics/live/2026/nov/04/ed-miliband-andy-burnham-king-charles-labour-louise-haigh-alex-burghart-pmqs-conservatives-uk-politics-latest-news"
+     }
+    ]
+   },
+   {
+    "category": "financial",
+    "headline": "Poundland teeters as owner faces scrutiny",
+    "summary": "Poundland's owner held crunch talks with ministers as the retailer's collapse looms. Suppliers face millions in losses and are urging a probe into the owner's conduct.",
+    "sources": [
+     {
+      "source": "BBC Politics",
+      "title": "Poundland owner in crunch talks as retailer's collapse looms",
+      "link": "https://www.bbc.co.uk/news/articles/ck240mm3e42do?at_medium=RSS&at_campaign=rss"
+     },
+     {
+      "source": "Guardian",
+      "title": "Don’t let Poundland owner maximise its return at our expense, suppliers say",
+      "link": "https://www.theguardian.com/business/2026/nov/04/poundland-suppliers-facing-losses-gordon-brothers"
+     },
+     {
+      "source": "Sky Politics",
+      "title": "Poundland supplier urges 'thorough' state probe into owner's conduct",
+      "link": "https://news.sky.com/story/poundland-supplier-urges-thorough-state-probe-into-owners-conduct-13607893"
+     }
+    ]
+   },
+   {
+    "category": "notable",
+    "headline": "UK moves to outlaw new North Sea drilling licences",
+    "summary": "Labour ministers have published legislation that would end the granting of new oil and gas licences. It marks a major shift in UK energy policy.",
+    "sources": [
+     {
+      "source": "BBC",
+      "title": "UK government to outlaw new North Sea drilling",
+      "link": "https://www.bbc.co.uk/news/articles/cqn734d24l0go?at_medium=RSS&at_campaign=rss"
+     }
+    ]
+   }
+  ],
+  "europe": [
+   {
+    "category": "political",
+    "headline": "European leaders hope for a reset with Washington as Zelensky seeks more US help",
+    "summary": "European leaders welcomed the Democratic win and hope for a reset with the US. Ukraine hopes for more support, though Kyiv does not expect rapid change.",
+    "sources": [
+     {
+      "source": "France24",
+      "title": "European leaders welcome Democrats' US midterms election win",
+      "link": "https://www.france24.com/en/european-leaders-welcome-democrats-us-midterms-election-win"
+     },
+     {
+      "source": "Al Jazeera",
+      "title": "Zelenskyy hopes Democratic Congress will bring more US help for Ukraine",
+      "link": "https://www.aljazeera.com/news/2026/11/5/zelenskyy-hopes-democratic-congress-will-bring-more-us-help-for-ukraine?traffic_source=rss"
+     },
+     {
+      "source": "Arab News",
+      "title": "Zelensky hopes US election outcome will generate more help for Ukraine",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOdTJkVHhoXzFNMktPOXNlb0dlZVBQMmpDRWdWWUZnTU1FTWV3WHF0ZUtyN0tZSmlPR0ExbjZHT2p1azZFU2lyTExSTVNkeHRlZ0R4amhtc1NGdkxfZnc1WmhSTVd0WUVWdVpUdVd0aGNHeFNkMWpoMUdyUTlVd3NOVjVnMXRVUXVZMjZtSW4wcjZpTkJ6RnJDUWJaUHBRQTdqd1VZX25jUFNXbnV5REE?oc=5"
+     },
+     {
+      "source": "DW",
+      "title": "Winners, losers, the EU: Five takeaways from the US midterms",
+      "link": "https://www.dw.com/en/winners-losers-the-eu-five-takeaways-from-the-us-midterms/a-79858901?maca=en-rss-en-all-1573-rdf"
+     },
+     {
+      "source": "Euronews",
+      "title": "Europe Today: Trump loses Congress. Will he now be even more unpredictable?",
+      "link": "https://www.euronews.com/2026/11/05/europe-today-trump-loses-congress-will-he-now-be-even-more-unpredictable"
+     }
+    ]
+   },
+   {
+    "category": "financial",
+    "headline": "Euro zone inflation reaches 4% on energy costs",
+    "summary": "Euro zone inflation hit 4% for the first time in three years, driven by energy inflation above 20%. An interest rate rise is expected.",
+    "sources": [
+     {
+      "source": "CNBC Economy",
+      "title": "Euro zone inflation hits 4% for first time in three years as interest rate hike looms",
+      "link": "https://www.cnbc.com/2026/11/04/euro-zone-cpi-inflation-october-ecb-rate-hike.html"
+     }
+    ]
+   },
+   {
+    "category": "notable",
+    "headline": "Cyberattack on French blood storage freezers",
+    "summary": "Hackers targeted cold rooms used by the French Blood Establishment, raising temperatures in refrigerators storing blood. The incident has raised fears of a new front in hybrid warfare.",
+    "sources": [
+     {
+      "source": "BBC",
+      "title": "French blood storage impacted by freezer hacks as theories swirl about culprits",
+      "link": "https://www.bbc.co.uk/news/articles/c8vgxyvz6y9ro?at_medium=RSS&at_campaign=rss"
+     },
+     {
+      "source": "DW",
+      "title": "French blood banks targeted by refrigerator cyberattack",
+      "link": "https://www.dw.com/en/french-blood-banks-targeted-by-refrigerator-cyberattack/a-79857981?maca=en-rss-en-all-1573-rdf"
+     },
+     {
+      "source": "CNBC",
+      "title": "Blood banks targeted in latest European fridge cyberattacks",
+      "link": "https://www.cnbc.com/2026/11/04/blood-bank-fridges-cyberattacks.html"
+     },
+     {
+      "source": "Euronews",
+      "title": "Europe Today: Trump loses Congress. Will he now be even more unpredictable?",
+      "link": "https://www.euronews.com/2026/11/05/europe-today-trump-loses-congress-will-he-now-be-even-more-unpredictable"
+     }
+    ]
+   }
+  ],
+  "middle_east": [
+   {
+    "category": "political",
+    "headline": "Iran says Americans voted 'no to war' as Trump concedes the war's role in the defeat",
+    "summary": "Iran's chief negotiator welcomed the result, while Trump acknowledged the war contributed to Republican losses. Iran also claimed four tankers hit mines in the Strait of Hormuz.",
+    "sources": [
+     {
+      "source": "BBC",
+      "title": "Iran's chief negotiator says Americans voted 'no to war'",
+      "link": "https://www.bbc.co.uk/news/articles/c6d934npl9y8o?at_medium=RSS&at_campaign=rss"
+     },
+     {
+      "source": "Arab News",
+      "title": "Trump says ‘largely true’ Iran war caused midterms loss, after Vance comments",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNcWdsLTJiOUxqX0ZlQjM1Ti1CNWVSTTlJX0s3R3hUZTRhbEpPUGFvVjQ5Um9KRzZsZnBLb0Iyb0Z3azkyZEFOdUlqcXJTUTJzdUJGVHBwekdVM25Fdm84RWRpTHFnR1NmMTRRR0hVdHVNMFRlV3RNRUEyd3ZJbmJaNDd6Z1ZDUnVwV2phSTc4Wmd0d21RSVdvdXZYU2VBa29LcTBydmVTYmV5T1M3bXd1T0swVFMwbDY4aGFJ?oc=5"
+     },
+     {
+      "source": "France24",
+      "title": "US midterms: Iran's deputy parliament speaker reacts to Trump's elections setback",
+      "link": "https://www.france24.com/en/video/20261104-us-midterms-iran-s-deputy-parliament-speaker-reacts-to-trump-s-elections-setback-1"
+     },
+     {
+      "source": "The National",
+      "title": "Iran war latest: IRGC claims two tankers and tugboat caught fire in Strait of Hormuz",
+      "link": "https://www.thenationalnews.com/news/mena/2026/11/05/live-iran-war-irgc-strait-of-hormuz/"
+     },
+     {
+      "source": "Guardian",
+      "title": "Iran unveils ‘We will kill Trump’ banner – but US president may now be tempted to resume bombing",
+      "link": "https://www.theguardian.com/us-news/2026/nov/04/joy-iran-trump-defeat-us-midterm-elections-war"
+     }
+    ]
+   },
+   {
+    "category": "financial",
+    "headline": "Hormuz crisis reshapes gas markets as Qatar becomes top buyer of US LNG",
+    "summary": "Qatar is set to become the largest buyer of US LNG during the Hormuz crisis, while the UAE weighs a third pipeline bypassing the strait. Emirates posted a $903m half-year profit despite regional disruption.",
+    "sources": [
+     {
+      "source": "OilPrice",
+      "title": "Qatar Becomes Largest Buyer of U.S. LNG Amid Hormuz Crisis",
+      "link": "https://oilprice.com/Energy/Natural-Gas/Qatar-Becomes-Largest-Buyer-of-US-LNG-Amid-Hormuz-Crisis.html"
+     },
+     {
+      "source": "The National",
+      "title": "Emirates airline posts $903m in half-year profit amid regional disruptions",
+      "link": "https://www.thenationalnews.com/business/aviation/2026/11/05/emirates-airline-posts-903m-in-half-year-profit-amid-regional-disruptions/"
+     }
+    ]
+   },
+   {
+    "category": "notable",
+    "headline": "Syria and Saudi Arabia sign defence deal with $403m in loans",
+    "summary": "The defence cooperation agreement was signed as President al-Sharaa visited Riyadh for the second time in under a month. Houthi attacks are also mounting.",
+    "sources": [
+     {
+      "source": "Al Jazeera",
+      "title": "Syria, Saudi Arabia sign defence cooperation deal, agree $403m in loans",
+      "link": "https://www.aljazeera.com/news/2026/11/5/syria-saudi-arabia-sign-defence-cooperation-deal-agree-403m-in-loans?traffic_source=rss"
+     },
+     {
+      "source": "Reuters",
+      "title": "Saudi, Syrian defence ministries sign cooperation agreement, SPA reports",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQQmUtR3gzU3paNkVHcE1aTUhvSXZ0YUVRdlpJak41aE1CMDdxLW1DUG5YOWI4cm1ZVTNabWcxR3hQNnlkRW5makZQeVhmRU1XcXZzN0VwMXpTaVQyeWo5SGFjYVQtUHlxXzEzUUxDdFd6WWl6TDNSanVycmhvVFRXTzNEd2lrS2JZSUNPZE5MajdJUEhKY1NjNnBMUzdBcFpnQ2dKTE5KVHJzd2lka3V1RW9KNFFUQkxGNnMyeVg3NDZsQQ?oc=5"
+     },
+     {
+      "source": "Arab News",
+      "title": "Turkiye’s parliament set to ratify defense pact with Saudi Arabia, Pakistan as Houthi attacks mount",
+      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQWFNpenM1b0VSMW1NTkhaM243SjlIeTl3R1BIS2d0YnNVRzVUTWtOQzBWWXl0cGQ5SnNqZ1FuVGtsTVR5RXJEb1BPWUkyeHJTNGh3X3lyMGZJalBKbEhzSC1XTUFvMU1odU80MDRZSFRtSlJtY3pGRTNDOFdrREVLWmV3d0dpNFI5aE8ySEVWWWhnUGRoMmdyZVJKVlJkZWJRbG9WUU5TQi1HLWVzbkk5Y2tiSkMyVklwcDA1a0N2SHJCNXV2Nk5rbUExYWJ6RHVWRDVuNWlVZ25sZw?oc=5"
+     },
+     {
+      "source": "WSJ",
+      "title": "Saudi Arabia Has No Easy Choices as It Weighs How to Combat Houthi Threat",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQVVhxQjdGQlQ0S0NwQjVReFpaVlpSOUM3c1I4YTVMS0FhWC1zYmQ0YTEwclNHRl9uaFdseHJtenlvM2tJakhPeENNWW1hSWtfQXlBOGs5NFFQUlZHVHgzeTF2SnV2SUxUalVuT0JLRWVOeDQxdGJGTUVOTGwtc1ROcmF2VFhUaVNJUnp3TDdWU2U4bzB4M1dsR0o5VVd1OHNaOHJrYkxGLXcxV2hmeG5XOG96UGtnTlVVMDN3Wg?oc=5"
+     }
+    ]
+   }
+  ]
+ },
+ "energyTech": {
+  "energy": [
+   {
+    "category": "energy",
+    "headline": "Oil tumbles below $100 on hopes the Iran war will end",
+    "summary": "Brent fell sharply after the White House tied the midterm defeat to the Iran war, with traders pricing a possible US-Iran settlement. It touched its lowest level since early September.",
+    "sources": [
+     {
+      "source": "OilPrice",
+      "title": "Oil Crashes 9% as Trump and Vance Blame Iran War for Midterm Rout",
+      "link": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Crashes-9-as-Trump-and-Vance-Blame-Iran-War-for-Midterm-Rout.html"
+     },
+     {
+      "source": "FT",
+      "title": "Oil tumbles below $100 on post-election peace hopes",
+      "link": "https://www.ft.com/content/b526f876-810a-4e74-8b8d-4ffca04b29c7?syn-25a6b1a6=1"
+     }
+    ]
+   },
+   {
+    "category": "energy",
+    "headline": "UK grid and renewables policy: AR8 constraints, AR9 pause and Energy Independence Bill",
+    "summary": "It is unclear how the government can avoid grid-constrained projects in AR8, and it will pause before AR9 to consider CfD reforms. An Energy Independence Bill brings new Ofgem powers.",
+    "sources": [
+     {
+      "source": "Utility Week",
+      "title": "‘Not clear’ how government can avoid grid-constrained projects in AR8",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNNG91d3NBMzVrN3dkdGhZRkN0UmlfMnpvSnh1NkNXS0ZhWl9SdGtsVkRJT2ZYaHRENmJLMld4T3hFcHRlTlpSbkN6Y0Vob19TNVlYem1oZ1B0NmVjWjNGdEs3ai1GWmM3VS1qQmdkZkpnVTFSUllGcjlJSm9vc0Zkc24ya1hoVy15TGFYa3pyNEhSYXcydTRFOWdB0gGmAUFVX3lxTE5xbU8yS29ETmZyU3BkYkFPbVFnV1pNQXBWRUNiM1RRNGFHNDlVRU5mS3ZLc1BaUWppdG9tOUh4RW1QcFdLU3A3Q3h6ME1tb3JnRURiZl8xSE9WdElncnhrU25jRGo3VV9WVW5FalkxSl9uX3NfRmxCQXVVdkZOLVBKVl9oNEpBdGNqMHNLVFFHTUoyUUNvdTJwN2JZZUliMHQzZ0VELUE?oc=5"
+     },
+     {
+      "source": "TradingView",
+      "title": "REG - OFGEM Scottish Power Ltd - Ofgem opens investigation into ScottishPower",
+      "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQQXdJTC0xYTlvV3VtdmRHOVZJODdzLWJWRjBJSFRUbDFSZlRYVkpZOXV6RjY5MlgxcXBnS19Zdmw0cVQ3NXJUU2hiVXlvRTdBYWpCM2hCOWNGMkx2WUVfSl9KZ0JISlBSMUk1MzdDZVgwRmdWMWxsRzNZZTRhNmE3VWo0aXpxZHo4ZDFZd1RMSi1LSThSQWszTUp3dlkyZUlyZmQxMGVGSDZRY2JRTkxnY3hVcFNNdFR0bGRxZDh0VFpLLVJCckRSV2xCaGJoS3BhU25kSTZTWUtCQ0dOVVA3Z0RLQQ?oc=5"
+     }
+    ]
+   },
+   {
+    "category": "energy",
+    "headline": "Global gas supply crunch deepens",
+    "summary": "Asian LNG spot prices have tripled this year as the Iran war and AI demand tighten supply. Europe also faces risks from an early polar vortex.",
+    "sources": [
+     {
+      "source": "OilPrice",
+      "title": "Iran War and AI Boom Drive Global Gas Supply Crunch",
+      "link": "https://oilprice.com/Energy/Natural-Gas/Iran-War-and-AI-Boom-Drive-Global-Gas-Supply-Crunch.html"
+     }
+    ]
+   }
+  ],
+  "ai": [
+   {
+    "category": "ai",
+    "headline": "Midterms cast doubt over AI data-centre build-out",
+    "summary": "Democratic wins in Texas and other states raise questions about the data-centre boom, and Asian tech stocks slid. Analysts note projects already funded are not unwound.",
+    "sources": [
+     {
+      "source": "MIT Tech Review",
+      "title": "Texas was the new epicenter of the AI data center buildout. That might be kaput.",
+      "link": "https://www.technologyreview.com/2026/11/04/1148043/texas-was-the-new-epicenter-of-the-ai-data-center-buildout-that-might-be-kaput/"
+     },
+     {
+      "source": "The Verge AI",
+      "title": "Data centers lost the midterms",
+      "link": "https://www.theverge.com/policy/1026365/data-centers-midterms-results"
+     },
+     {
+      "source": "TechCrunch AI",
+      "title": "After the midterms, a bigger clash over data centers could be coming",
+      "link": "https://techcrunch.com/2026/11/04/after-the-midterms-a-bigger-clash-over-data-centers-could-be-coming/"
+     },
+     {
+      "source": "FT",
+      "title": "‘The money didn’t work’: Big Tech’s $600mn midterm campaign falls flat",
+      "link": "https://www.ft.com/content/3e65138f-068f-465f-a1ae-a9c61ea1afc4?syn-25a6b1a6=1"
+     }
+    ]
+   },
+   {
+    "category": "ai",
+    "headline": "OpenAI buys Pierre Computer and counts mostly enterprise sales",
+    "summary": "OpenAI agreed to acquire developer tooling startup Pierre Computer to strengthen Codex. Its president says most sales now come from enterprises, with an IPO targeted for 2027.",
+    "sources": [
+     {
+      "source": "OpenAI",
+      "title": "OpenAI to acquire Pierre Computer Company, Inc.",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBIa01VeUZfc2tSNklmMWI5NG9kcnlIVlY5Wi1IMUE1d0dDSVNvNU1wMU9NaWhZQ1BhN0pLaThXc25BZ1lMUzZSQUk3QU5mS0hGTDhJam5VUXpNUkpnY3Nv?oc=5"
+     },
+     {
+      "source": "Kingy AI",
+      "title": "OpenAI Moves to Acquire Pierre Computer: A Major Step Toward Making Codex the Ultimate AI Coding Platform",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9RZEVCampFZXY2SnYtSG5WeGhWZ1Y1NmZsbmZxWnlpb0JhSUhBclZpUXhwSnZXRjBVNG1ELU1rb3BpZmdFYzZjeExyS1U0RkVBZ0JsYl90Wm5lRWt4Q3BhYkNSQVFMWmxJ?oc=5"
+     },
+     {
+      "source": "SiliconANGLE",
+      "title": "OpenAI to acquire developer tooling startup Pierre Computer",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPWk5Rd0JvSVN2YzJIMlF4VzJpcmtoMWdMZGhEbjNKbmFETEROeEpiUy1xNXd6VEVxaVRjMFVkdGRGQTRwRjgwSGxWTVFUX05NekttNE1UN2FMYlJaanBRLU13Nm1vNXctMHdjSE5pbTAxYzBfVW9iMEF6dzdDb1g0Z1VtWlJGbTJCdDZULVUxTmFCeUk1ZnJPeVNpZVI?oc=5"
+     },
+     {
+      "source": "Reuters",
+      "title": "OpenAI, ready to IPO in 2027, now counts majority of sales from enterprises, Brockman says",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOaVVsWWFIRkFSSHp4a1JRaW5lQjlwRXdmblNlZnhXQ0RJaVA3S3NjX2VmZjNDdDN3UERWVFRPVFN1UE9CMUEtMmtKbGZNNEdSM05OYVAySF9RNFlVdXVTQlp0N0NqX1hLc1BMR19qNXNmTmIzakthU0NBdlRmclhaMmhzcFRtNWFQMkI1RkkyaGJzV1FZOEptSlBkNnRGcThGa3BrTndZTE00VXd3cnE3My10X0MxWlFyNDZlZ3B1Tnc5emdJV1R2Zg?oc=5"
+     }
+    ]
+   },
+   {
+    "category": "ai",
+    "headline": "Meta buys AI coding startup Conductor",
+    "summary": "Conductor lets engineers deploy teams of agents on different parts of a project simultaneously. The deal adds to the race over AI coding tools.",
+    "sources": [
+     {
+      "source": "TechCrunch AI",
+      "title": "Meta acquires AI coding startup Conductor",
+      "link": "https://techcrunch.com/2026/11/04/meta-acquires-ai-coding-startup-conductor/"
+     }
+    ]
+   }
+  ],
+  "tech": [
+   {
+    "category": "tech",
+    "headline": "AMD posts record quarter as data-centre sales double",
+    "summary": "AMD reported record revenue of $13.4bn, while gaming revenue fell 40%. The result shows how AI demand is reshaping chip makers.",
+    "sources": [
+     {
+      "source": "Ars Technica",
+      "title": "AMD's record quarter: Data center business doubles, while gaming craters",
+      "link": "https://arstechnica.com/gadgets/2026/11/amds-record-quarter-data-center-business-doubles-while-gaming-craters/"
+     }
+    ]
+   },
+   {
+    "category": "tech",
+    "headline": "Nintendo Switch 2 sales plunge 41% on price rises and memory costs",
+    "summary": "Sales fell in the fiscal second quarter after price hikes amid soaring memory costs. The memory crunch is also hurting smartphone demand.",
+    "sources": [
+     {
+      "source": "CNBC",
+      "title": "Nintendo Switch 2 sales plunge 41% as price hikes and memory crunch bite",
+      "link": "https://www.cnbc.com/2026/11/05/nintendo-earnings-switch-2-sales.html"
+     }
+    ]
+   },
+   {
+    "category": "tech",
+    "headline": "Hackers exploited iOS and Android flaws, possibly Kremlin-linked",
+    "summary": "Researchers say the group may have been state-sponsored and sought diplomatic targets. Separately, hackers stole customer files and inboxes from web host DreamHost.",
+    "sources": [
+     {
+      "source": "Ars Technica",
+      "title": "Hackers exploited iOS and Android flaws to infect phones",
+      "link": "https://arstechnica.com/security/2026/11/hackers-exploited-ios-and-android-flaws-to-infect-phones/"
+     },
+     {
+      "source": "TechCrunch",
+      "title": "Hackers stole DreamHost customer files and inboxes during months-long attack",
+      "link": "https://techcrunch.com/2026/11/04/hackers-stole-dreamhost-customer-files-and-inboxes-during-months-long-attack/"
+     }
+    ]
+   }
+  ]
+ },
+ "stats": {
+  "headlines": 420,
+  "feeds": 45,
+  "feedsFailed": 0
+ }
+}
