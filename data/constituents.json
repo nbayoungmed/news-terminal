@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-31T08:42:00.623Z",
+ "updated": "2026-11-08T09:42:33.726Z",
  "sp500": [
   {
    "ticker": "MMM",
@@ -1347,11 +1347,6 @@
    "yahoo": "JPM"
   },
   {
-   "ticker": "KVUE",
-   "name": "Kenvue",
-   "yahoo": "KVUE"
-  },
-  {
    "ticker": "KDP",
    "name": "Keurig Dr Pepper",
    "yahoo": "KDP"
@@ -1735,6 +1730,11 @@
    "ticker": "OXY",
    "name": "Occidental Petroleum",
    "yahoo": "OXY"
+  },
+  {
+   "ticker": "OKTA",
+   "name": "Okta, Inc.",
+   "yahoo": "OKTA"
   },
   {
    "ticker": "ODFL",

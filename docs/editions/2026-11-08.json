@@ -1,0 +1,1207 @@
+{
+ "date": "2026-11-08",
+ "dateLabel": "Sunday, 8 November 2026",
+ "generatedAt": "2026-11-08T09:42:33.625Z",
+ "mode": "ai",
+ "model": "claude-sonnet-5-5",
+ "error": null,
+ "headlineOfDay": "Democrats' sweeping midterm wins leave Trump a lame duck, as he names Stephen Miller chief of staff while Iran and Gulf tensions stay high.",
+ "markets": {
+  "summary": "Wall Street ended mixed: the S&P 500 rose 0.31% and the Nasdaq 1.09%, while the Dow slipped 0.46%. The FTSE 100 fell 1.01% and the Euro Stoxx 50 lost 0.98%. Gold fell 0.94% and Brent held near $98 as traders watched the Iran situation.",
+  "indices": [
+   {
+    "symbol": "^GSPC",
+    "label": "S&P 500",
+    "price": 7376.85986328125,
+    "asOf": "2026-11-06",
+    "d1": 0.3145326640212812,
+    "w1": -2.6808455020853863,
+    "m1": -5.002987715186705,
+    "ytd": 7.762177536794244,
+    "spark": [
+     7765.3599,
+     7811.54,
+     7807.2402,
+     7805.4502,
+     7718.9399,
+     7744.0601,
+     7659.4399,
+     7690.73,
+     7712.5698,
+     7757.1699,
+     7663.4302,
+     7623.6802,
+     7676.77,
+     7722.6001,
+     7743.98,
+     7720.3901,
+     7580.0698,
+     7541.3999,
+     7568.9199,
+     7688.6201,
+     7353.73,
+     7376.8599
+    ]
+   },
+   {
+    "symbol": "SPUS",
+    "label": "S&P 500 Shariah",
+    "sub": "via SPUS ETF",
+    "price": 55.720001220703125,
+    "asOf": "2026-11-06",
+    "d1": 0.5594682803549837,
+    "w1": -4.621699816617663,
+    "m1": -7.870367654697234,
+    "ytd": 9.105152836627429,
+    "spark": [
+     60.48,
+     60.77,
+     60.57,
+     60.53,
+     59.67,
+     59.72,
+     58.82,
+     59.21,
+     59.28,
+     59.78,
+     58.81,
+     58.66,
+     59.3,
+     59.87,
+     60.11,
+     59.77,
+     58.42,
+     57.61,
+     57.95,
+     58.66,
+     55.41,
+     55.72
+    ]
+   },
+   {
+    "symbol": "^IXIC",
+    "label": "Nasdaq",
+    "price": 24579.4296875,
+    "asOf": "2026-11-06",
+    "d1": 1.087516707793543,
+    "w1": -3.371350051106656,
+    "m1": -9.61231746916431,
+    "ytd": 5.754410184489801,
+    "spark": [
+     27193.3398,
+     27366.1699,
+     27245.9004,
+     27204.3809,
+     26692.8691,
+     26713.0293,
+     26140.0293,
+     26430.8906,
+     26424.8203,
+     26702.8594,
+     26008.8594,
+     25955.3398,
+     26169.3809,
+     26477.8105,
+     26549.8496,
+     26184.7207,
+     25437,
+     25164.3105,
+     25372.0098,
+     25736.5098,
+     24315,
+     24579.4297
+    ]
+   },
+   {
+    "symbol": "^DJI",
+    "label": "Dow Jones",
+    "price": 51285.73046875,
+    "asOf": "2026-11-06",
+    "d1": -0.4606250705558639,
+    "w1": -0.9360155234973836,
+    "m1": 0.10557898027494605,
+    "ytd": 6.704579459927593,
+    "spark": [
+     51231.6406,
+     51654.9492,
+     51850.5508,
+     51670.1016,
+     51621.4805,
+     52177.6914,
+     52002.4102,
+     51966.0313,
+     52495.8789,
+     52856.0898,
+     52867.9805,
+     52215.1602,
+     52361.5781,
+     52377.5703,
+     52475.1016,
+     52342.5586,
+     51770.3086,
+     51983.9805,
+     51786.7188,
+     53356.1211,
+     51523.0586,
+     51285.7305
+    ]
+   },
+   {
+    "symbol": "^FTSE",
+    "label": "FTSE 100",
+    "price": 10673.900390625,
+    "asOf": "2026-11-06",
+    "d1": -1.0090218842845868,
+    "w1": -0.5209735044458087,
+    "m1": 2.2247623921666992,
+    "ytd": 7.476287037031574,
+    "spark": [
+     10441.5996,
+     10552.0996,
+     10656.2998,
+     10650.2998,
+     10724.9004,
+     10840.4004,
+     10881.9004,
+     10764.7002,
+     10733,
+     10752.9004,
+     10725,
+     10690.4004,
+     10767.2998,
+     10686.5,
+     10694.5,
+     10722.0996,
+     10729.7998,
+     10761.2998,
+     10638.4004,
+     10829.2002,
+     10782.7002,
+     10673.9004
+    ]
+   },
+   {
+    "symbol": "^STOXX50E",
+    "label": "Euro Stoxx 50",
+    "price": 6170.490234375,
+    "asOf": "2026-11-06",
+    "d1": -0.9796904826865975,
+    "w1": 0.6390180142061873,
+    "m1": 0.7142513877019588,
+    "ytd": 6.457139405655575,
+    "spark": [
+     6126.73,
+     6173.3701,
+     6201.21,
+     6167.0098,
+     6190.3701,
+     6168.2598,
+     6204.23,
+     6144.8101,
+     6121.6602,
+     6207.52,
+     6087.0098,
+     6068.2202,
+     6116.23,
+     6164.6899,
+     6167.8101,
+     6207.0698,
+     6131.3101,
+     6176.0601,
+     6144.5601,
+     6265.71,
+     6231.54,
+     6170.4902
+    ]
+   },
+   {
+    "symbol": "^TASI.SR",
+    "label": "Tadawul (Saudi)",
+    "price": 10061.34,
+    "asOf": "2026-11-08",
+    "d1": -0.3375788228721532,
+    "w1": null,
+    "m1": null,
+    "ytd": null,
+    "spark": []
+   }
+  ],
+  "commodities": [
+   {
+    "symbol": "GC=F",
+    "label": "Gold",
+    "unit": "$/oz",
+    "price": 4074.89990234375,
+    "asOf": "2026-11-06",
+    "d1": -0.9383760217880152,
+    "w1": 4.514093831806273,
+    "m1": -1.9749843073430358,
+    "ytd": -6.132090698765985,
+    "spark": [
+     4157,
+     4216.2998,
+     4190.6001,
+     4177.2998,
+     4107.8999,
+     4170.1001,
+     4181.1001,
+     4160.1001,
+     4142.6001,
+     4150,
+     4060.3999,
+     4007.8999,
+     4038.3999,
+     4074.6001,
+     4051.6001,
+     4031.3999,
+     3898.8999,
+     3969.6001,
+     3940.3999,
+     4073,
+     4113.5,
+     4074.8999
+    ]
+   },
+   {
+    "symbol": "SI=F",
+    "label": "Silver",
+    "unit": "$/oz",
+    "price": 51.94200134277344,
+    "asOf": "2026-11-06",
+    "d1": -0.5571197455437139,
+    "w1": 5.794653876264482,
+    "m1": -12.058102960530373,
+    "ytd": -25.938917851786066,
+    "spark": [
+     59.064,
+     60.67,
+     60.141,
+     59.161,
+     55.55,
+     56.837,
+     56.995,
+     56.974,
+     57.706,
+     57.422,
+     54.764,
+     53.711,
+     54.108,
+     54.293,
+     53.457,
+     52.191,
+     49.097,
+     50.72,
+     49.587,
+     52.12,
+     52.233,
+     51.942
+    ]
+   },
+   {
+    "symbol": "BZ=F",
+    "label": "Brent crude",
+    "unit": "$/bbl",
+    "price": 98.31999969482422,
+    "asOf": "2026-11-06",
+    "d1": 0.03052068269147401,
+    "w1": -16.422985204915136,
+    "m1": -5.715380853702041,
+    "ytd": 61.57765350912663,
+    "spark": [
+     104.28,
+     104.72,
+     106.65,
+     105.69,
+     106.06,
+     105.92,
+     109.86,
+     109.55,
+     108.79,
+     108.82,
+     113.17,
+     116.72,
+     115.81,
+     113.88,
+     115.32,
+     114.88,
+     117.64,
+     104.77,
+     103.6,
+     94.62,
+     98.29,
+     98.32
+    ]
+   },
+   {
+    "symbol": "CL=F",
+    "label": "WTI crude",
+    "unit": "$/bbl",
+    "price": 90.83000183105469,
+    "asOf": "2026-11-06",
+    "d1": 0.3424714974423575,
+    "w1": -12.76411886760502,
+    "m1": -0.721385996420714,
+    "ytd": 58.18530952196832,
+    "spark": [
+     91.49,
+     91.85,
+     93.74,
+     94.14,
+     95.09,
+     97.97,
+     101.41,
+     103.66,
+     101.79,
+     97.15,
+     99.47,
+     103.27,
+     101.76,
+     99.9,
+     102.78,
+     102,
+     104.12,
+     96.46,
+     96.09,
+     88.12,
+     90.52,
+     90.83
+    ]
+   },
+   {
+    "symbol": "HG=F",
+    "label": "Copper",
+    "unit": "$/lb",
+    "price": 6.237500190734863,
+    "asOf": "2026-11-06",
+    "d1": -0.18402755018407715,
+    "w1": -3.4218428558518705,
+    "m1": -4.318144813081152,
+    "ytd": 10.790409661550648,
+    "spark": [
+     6.519,
+     6.6425,
+     6.6985,
+     6.678,
+     6.6115,
+     6.5115,
+     6.531,
+     6.538,
+     6.5665,
+     6.543,
+     6.3625,
+     6.476,
+     6.508,
+     6.622,
+     6.6415,
+     6.581,
+     6.4585,
+     6.5435,
+     6.3785,
+     6.403,
+     6.249,
+     6.2375
+    ]
+   },
+   {
+    "symbol": "NG=F",
+    "label": "US natural gas",
+    "unit": "$/MMBtu",
+    "price": 2.997999906539917,
+    "asOf": "2026-11-06",
+    "d1": 1.7305693713920682,
+    "w1": 3.4506523314959416,
+    "m1": -5.36616405350721,
+    "ytd": -18.66522468492494,
+    "spark": [
+     3.168,
+     3.22,
+     3.167,
+     3.283,
+     3.198,
+     3.236,
+     3.116,
+     3.058,
+     2.963,
+     2.79,
+     2.796,
+     2.64,
+     2.602,
+     2.697,
+     2.817,
+     2.952,
+     2.898,
+     2.856,
+     2.895,
+     2.959,
+     2.947,
+     2.998
+    ]
+   }
+  ],
+  "rates_fx": [
+   {
+    "symbol": "GBPUSD=X",
+    "label": "GBP/USD",
+    "price": 1.3456052541732788,
+    "asOf": "2026-11-06",
+    "d1": -0.1560935206019211,
+    "w1": 0.578615816455368,
+    "m1": 1.8246382544381232,
+    "ytd": -0.0827557221744617,
+    "spark": [
+     1.3215,
+     1.3229,
+     1.3242,
+     1.321,
+     1.3257,
+     1.323,
+     1.3273,
+     1.3336,
+     1.3308,
+     1.3373,
+     1.3396,
+     1.3404,
+     1.3378,
+     1.3345,
+     1.3306,
+     1.3328,
+     1.3379,
+     1.3386,
+     1.341,
+     1.3434,
+     1.3477,
+     1.3456
+    ]
+   },
+   {
+    "symbol": "EURUSD=X",
+    "label": "EUR/USD",
+    "price": 1.1228259801864624,
+    "asOf": "2026-11-06",
+    "d1": -0.05950413573903489,
+    "w1": 0.4064677948626436,
+    "m1": 0.24029497354722593,
+    "ytd": -4.418315863371104,
+    "spark": [
+     1.1201,
+     1.1213,
+     1.1205,
+     1.116,
+     1.1204,
+     1.1195,
+     1.1213,
+     1.1225,
+     1.1216,
+     1.1227,
+     1.1235,
+     1.1221,
+     1.1218,
+     1.1174,
+     1.113,
+     1.1156,
+     1.1183,
+     1.1157,
+     1.1192,
+     1.1207,
+     1.1235,
+     1.1228
+    ]
+   },
+   {
+    "symbol": "^TNX",
+    "label": "US 10Y yield",
+    "unit": "%",
+    "price": 4.859000205993652,
+    "asOf": "2026-11-06",
+    "d1": 0.4548338493072306,
+    "w1": -1.420160199488007,
+    "m1": -7.1114460791150425,
+    "ytd": 16.71871442048079,
+    "spark": [
+     5.231,
+     5.244,
+     5.24,
+     5.217,
+     5.19,
+     5.089,
+     5.098,
+     5.136,
+     5.117,
+     5.146,
+     4.953,
+     4.988,
+     4.986,
+     4.993,
+     5.045,
+     4.989,
+     4.929,
+     4.894,
+     4.952,
+     4.894,
+     4.837,
+     4.859
+    ]
+   }
+  ],
+  "movers": {
+   "sp500": {
+    "gainers": [
+     {
+      "ticker": "COHR",
+      "name": "Coherent Corp.",
+      "price": 192.81,
+      "d1": 13.577992459943458,
+      "shariah": true
+     },
+     {
+      "ticker": "ABNB",
+      "name": "Airbnb",
+      "price": 189.99,
+      "d1": 11.673426203491456,
+      "shariah": false
+     },
+     {
+      "ticker": "AMD",
+      "name": "Advanced Micro Devices",
+      "price": 449.04,
+      "d1": 11.038575667655797,
+      "shariah": true,
+      "note": "Shares jumped 11% in a session in which the Nasdaq gained 1.09%."
+     },
+     {
+      "ticker": "VST",
+      "name": "Vistra Corp.",
+      "price": 124.8,
+      "d1": 10.550093010895559,
+      "shariah": false
+     },
+     {
+      "ticker": "APP",
+      "name": "AppLovin",
+      "price": 391.22,
+      "d1": 9.862398202752036,
+      "shariah": false
+     }
+    ],
+    "losers": [
+     {
+      "ticker": "AXON",
+      "name": "Axon Enterprise",
+      "price": 313,
+      "d1": -18.1827687160184,
+      "shariah": false
+     },
+     {
+      "ticker": "MCHP",
+      "name": "Microchip Technology",
+      "price": 58.35,
+      "d1": -10.023130300693898,
+      "shariah": true
+     },
+     {
+      "ticker": "CHTR",
+      "name": "Charter Communications",
+      "price": 118.07,
+      "d1": -6.189416812331166,
+      "shariah": false
+     },
+     {
+      "ticker": "PODD",
+      "name": "Insulet Corporation",
+      "price": 146.51,
+      "d1": -6.15552139379965,
+      "shariah": true
+     },
+     {
+      "ticker": "DXCM",
+      "name": "Dexcom",
+      "price": 79.41,
+      "d1": -5.979161733364903,
+      "shariah": true
+     }
+    ],
+    "coverage": 503
+   },
+   "ftse100": {
+    "gainers": [
+     {
+      "ticker": "CCH",
+      "name": "Coca-Cola HBC",
+      "price": 4188,
+      "d1": 3.356367226061204
+     },
+     {
+      "ticker": "SMT",
+      "name": "Scottish Mortgage Investment Trust",
+      "price": 1470,
+      "d1": 2.510460251046025
+     },
+     {
+      "ticker": "EDV",
+      "name": "Endeavour Mining",
+      "price": 4094,
+      "d1": 2.018440069773237
+     },
+     {
+      "ticker": "RR",
+      "name": "Rolls-Royce Holdings",
+      "price": 1261.2,
+      "d1": 1.7424975798644837
+     },
+     {
+      "ticker": "IAG",
+      "name": "International Airlines Group",
+      "price": 433.7,
+      "d1": 1.5215355805243447
+     }
+    ],
+    "losers": [
+     {
+      "ticker": "BT.A",
+      "name": "BT Group",
+      "price": 217,
+      "d1": -6.384814495254535
+     },
+     {
+      "ticker": "AAF",
+      "name": "Airtel Africa",
+      "price": 277.6,
+      "d1": -4.011065006915618
+     },
+     {
+      "ticker": "HSX",
+      "name": "Hiscox",
+      "price": 1913,
+      "d1": -3.383838383838384
+     },
+     {
+      "ticker": "SGE",
+      "name": "Sage Group",
+      "price": 1165,
+      "d1": -3.199002908184462
+     },
+     {
+      "ticker": "BATS",
+      "name": "British American Tobacco",
+      "price": 4567,
+      "d1": -3.17998728005088
+     }
+    ],
+    "coverage": 100
+   },
+   "shariahListAvailable": true
+  },
+  "stories": [
+   {
+    "category": "markets",
+    "headline": "AI jitters and Iran risk weigh on sentiment",
+    "summary": "Commentators describe a market worried about AI exposure, with Gulf markets retreating as traders await Trump's next move on Iran. The S&P 500 is down 5% over the past month and the Nasdaq nearly 10%.",
+    "sources": [
+     {
+      "source": "Reuters",
+      "title": "Gulf markets retreat as traders await Trump's next move on Iran",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPNEhqejQxdWF5MFpVWjduZHVuY1l1VmxKYm9CN3F4aC1qWkFIWFJqZDJEZ1VoWmthUW1NaWdWQUY4UUprUGsyWFA2a0trUE5HUjEtUHpPNFV1UnBpMHRrR2RlQWo1c2xvY1J2QnprNnNkbHNpY3ZtUWxMQkRzTVpKcktuZjhJdW5zSHdsZUhxYmxBVy00UWVnbndnOEc2WWplMEEwREVib0VyZ3BzZWlR?oc=5"
+     },
+     {
+      "source": "The Guardian",
+      "title": "US tech stock rout: is the AI bubble bursting?",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPUk5KWGFRY0lPalplQWNSaFZZTk11VEJvblJNWXBnTGlQU05xZTBoVlFzTHprWHVfaUVIb3ZFcGJOQUJmZFVqZVpNT0Q4X25EemUxc0hObXlhYmpkelJFcVpRcDZIQVZRTjBVTzMyUW5iMXRTLVlqZW04ZjNNRmRKcTl6TUNHcnY2QjNDdUR5QzVBX2U3UjZySVdvUE83S2Q4ZkR3RzJfQ1lzUFFXUnc?oc=5"
+     },
+     {
+      "source": "MarketWatch",
+      "title": "The S&P 500 could be dangerously exposed to AI. Here are some simple alternatives.",
+      "link": "https://www.marketwatch.com/story/the-s-p-500-has-become-a-big-ai-bet-here-are-some-simple-alternatives-3c7574a4?mod=mw_rss_topstories"
+     },
+     {
+      "source": "CNBC",
+      "title": "Cathie Wood 'always feels better when the market is worried' — here's why",
+      "link": "https://www.cnbc.com/2026/11/08/cathie-wood-ai-selloff.html"
+     }
+    ]
+   },
+   {
+    "category": "companies",
+    "headline": "Anthropic files for IPO",
+    "summary": "Anthropic has reportedly filed for a stock market listing, with reports citing an ANT ticker and an valuation of around $80bn. It would be the first pure-play AI company to list, at a time of public wariness over data centres.",
+    "sources": [
+     {
+      "source": "CNBC",
+      "title": "Anthropic IPO meets AI backlash after midterms show stinging rebuke of data centers",
+      "link": "https://www.cnbc.com/2026/11/07/anthropic-ipo-ai-data-center-backlash.html"
+     },
+     {
+      "source": "TradingKey",
+      "title": "What you Need to Know AboutClaude's Maker, Anthropic IPO",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNa28tTl93WVB4VlNSanNWbTJpaFFyVzFqV1poNkFtRkc2cG93ZDVmaTZkdDhNSTcxdzNTZml3NW9NLXNuc3ViZlZPTkZTc0tGZmFCRGkwOXpYb0g0aG1zVzRuRVJFYTFDWmROQm5LSmlfd0Zrd19kblFBczMySkJ3RFNNekRicWlDcXNZc1NvcVZvOFZ1Tk93clhBYVF4dw?oc=5"
+     },
+     {
+      "source": "TradingView",
+      "title": "Key facts: Anthropic $80B IPO; $17B revenue; $23B loss, capacity risks",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQZHNtVFV2cTNuRGlDeUd4ZGtKZXRhb1poLVJHcWo3aktFVjNXUDU5U0VCWkc3eTBSRl9xUDZkN3RrNTVrTUlHME9JcDJVOWJtaUFWckVOSHM0d3VObUFGbWwwTk9qMWxfRVlFVVhJYVliTFFDUkMwa1RLZDZ1eVhKNDNHRUZ6TDNaNm82MXU0ZEtKZGpZdkdQbTN4bzN3bGt2Nl8zdEU2eEliUnJfZU1raHV5eXVuWmE2T3JpN0FIc3ZRMTg?oc=5"
+     },
+     {
+      "source": "Google News (AI)",
+      "title": "Anthropic IPO: ANT Ticker, $16.3B Revenue, Control [2026] - tech-insider.org",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPMjU1VC1wRkJ4eDNDVmpFV1NfekRMVHdKV2RuSTdOc25LdWpaaks2TWJINkh3M3pLaklkZ2FHOVlGYnBjWEpRcWpPb1N2MmZ6MExDME9VM0pRTXJYM3JrbEl6UnF6VGhYMHdJNkdzMnV1Q255MjZIZ0I3SUp5RGFSaGdEUWJlODZPTTlwTkdFY1dDQQ?oc=5"
+     },
+     {
+      "source": "Nacionale",
+      "title": "When is the Anthropic IPO? What we know about the date, the ANT ticker and the valuation",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOdFcta3VjZFZQMDV0TWRXSFVUWXc2MmxfX1BOckx1ckU4X04zNlIzV0Ewdk80dHV3bHlWWENSdkx4aEdqZVpFVDRtNEtOR3BBdzJ4Q2VncVpOelpzXy1SM25QQ3dDbHdkLWR5cVYtN1BWZEtmTjZublo4U3ozbDJBZTlnbF9vVlRacTFRZkhtSXUteWh0ZVNkaUIxY3J0bkpkalJ3?oc=5"
+     },
+     {
+      "source": "StoneX",
+      "title": "Nasdaq 100 Forecast: NDX rebounds as Anthropic files for IPO",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxORUhySmR1aHB6eTVtLTRrNGt4RmF0MnJQdjNBaGZuZ3RXbGNkZnZNLVYwQnlsX3BjS1ptUVJTd3c1NGYxTFlUN2FHVDJJazE4c25vblVwSVlITlp0bU1mMU5wQUZzbjNqaXZsNm5GcVZ0OVViaE5WR0FHZDBnWEQ0b3VfTmRmQldGeTVhNUN1c19VV083blU0UTV1QmUwUDFmM1NQT2VQNjNuVXc?oc=5"
+     },
+     {
+      "source": "Yahoo Finance Singapore",
+      "title": "Seaport offers preliminary thoughts on Anthropic stock",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNOU8zd09HdjJ1cUtTQlp0OXhXby1LN3JRb1hFUENfNW1wTHJfcWh0NzE3WktZbm9MdHVRa0Vaci1tQUxUOWNoaVFkd1JYV3BWaFZnZnhsdFpITlFSOXc5aHBxVUx6aDFHRlNfUHR2WlNiQlotY2JoRUh3MElxZG1CNFg5UG9jS01zTjVzRXVsb2JUVEdMZXBaeTl3?oc=5"
+     }
+    ]
+   }
+  ],
+  "calendar": []
+ },
+ "world": {
+  "us": [
+   {
+    "category": "political",
+    "headline": "Trump names Stephen Miller chief of staff after midterm defeat",
+    "summary": "President Trump has promoted hardline immigration architect Stephen Miller to chief of staff days after Republicans lost both chambers of Congress. Critics from both parties say it signals a doubling down on Trumpism rather than a change of course.",
+    "sources": [
+     {
+      "source": "NPR Politics",
+      "title": "Week in Politics: Trump taps Miller for chief of staff; doubles down on Trumpism",
+      "link": "https://www.npr.org/2026/11/07/nx-s1-6030908/week-in-politics-trump-taps-miller-for-chief-of-staff-doubles-down-on-trumpism"
+     },
+     {
+      "source": "Guardian",
+      "title": "Stephen Miller, Trump’s incoming chief of staff, pledges ‘total devotion’ to the president",
+      "link": "https://www.theguardian.com/us-news/2026/nov/07/stephen-miller-trump-loyalty"
+     },
+     {
+      "source": "BBC",
+      "title": "The Trump coalition is shattered - what will Republicans do now?",
+      "link": "https://www.bbc.co.uk/news/articles/cm3r5gnxqz3jo?at_medium=RSS&at_campaign=rss"
+     },
+     {
+      "source": "DW",
+      "title": "After victory in the midterms, what next for US Democrats?",
+      "link": "https://www.dw.com/en/after-victory-in-the-midterms-what-next-for-us-democrats/a-79884957?maca=en-rss-en-all-1573-rdf"
+     }
+    ]
+   }
+  ],
+  "uk": [
+   {
+    "category": "political",
+    "headline": "Burnham signals closer ties with the EU ahead of summit",
+    "summary": "Prime Minister Andy Burnham is opening the conversation on closer EU relations, while former negotiator Michel Barnier warns the UK cannot cherry-pick single market access. Five European leaders have called for closer EU-UK ties ahead of a Brussels summit.",
+    "sources": [
+     {
+      "source": "BBC",
+      "title": "UK cannot 'cherry pick' EU single market deal, Barnier tells BBC",
+      "link": "https://www.bbc.co.uk/news/articles/c9kgjj206nzpo?at_medium=RSS&at_campaign=rss"
+     },
+     {
+      "source": "Guardian",
+      "title": "Five European leaders call for closer EU-UK ties ahead of Brussels summit",
+      "link": "https://www.theguardian.com/world/2026/nov/07/europe-leaders-call-closer-eu-uk-ties-brussels-summit"
+     }
+    ]
+   }
+  ],
+  "europe": [
+   {
+    "category": "notable",
+    "headline": "Gunman kills six in Kraków's main square",
+    "summary": "A gunman drove into Kraków's Main Market Square and shot six people dead, including a Briton, and wounded around 16 before police shot him. Three more bodies were found at his home, and officials say he held far-right views.",
+    "sources": [
+     {
+      "source": "NPR",
+      "title": "Polish gunman who killed 6 people in Krakow has 'ultranationalistic' views, authorities say",
+      "link": "https://www.npr.org/2026/11/07/g-s1-152532/gunman-opens-fire-in-polish-city-of-krakow-killing-6-people-and-injuring-15"
+     },
+     {
+      "source": "BBC",
+      "title": "Briton among six killed in 'far-right' shooting in Krakow",
+      "link": "https://www.bbc.co.uk/news/articles/c6n9r01d2709o?at_medium=RSS&at_campaign=rss"
+     },
+     {
+      "source": "Guardian",
+      "title": "Briton among six dead after gunman opens fire in Kraków market square",
+      "link": "https://www.theguardian.com/world/2026/nov/07/krakow-poland-shooting-market-square-deaths-gunman"
+     },
+     {
+      "source": "France24",
+      "title": "Gunman kills six in Krakow, three more bodies found at his house",
+      "link": "https://www.france24.com/en/gunmen-kills-six-in-krakow-three-more-bodies-found-at-his-house"
+     },
+     {
+      "source": "DW",
+      "title": "Poland: Gunman kills 6 in Krakow main square",
+      "link": "https://www.dw.com/en/poland-gunman-kills-6-in-krakow-main-square/a-79886489?maca=en-rss-en-all-1573-rdf"
+     },
+     {
+      "source": "Euronews",
+      "title": "What we know about the Krakow shooting that left six people dead",
+      "link": "https://www.euronews.com/2026/11/08/what-we-know-about-the-krakow-shooting-that-left-six-people-dead"
+     },
+     {
+      "source": "Arab News",
+      "title": "Polish gunman kills four women and two men in Krakow’s main square",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPdGJ1S3ZZbnl6U0NVeTZYUFl3T2ZFdXRLZjh0Y3NsUTEzUzFiWWZOQjdxdmlvUzZWRml4dXFLX0Z1ZmZFUEVzRlRGWElYMDc0Sm5pejMwdnR0b20yNUN3WEZSSWdGRUZlZDdJYnoyVGVsZ29jU2V3dWZUa2dlcWlxVVk5bVZsdExiNzYtX0xjVjZnTU5CYjBkd0l1elNWOU5qWTNfTWZoQQ?oc=5"
+     }
+    ]
+   },
+   {
+    "category": "political",
+    "headline": "Russia strikes Ukraine's grid ahead of Abu Dhabi talks",
+    "summary": "Russia hit Kyiv and other regions with 172 drones and 36 ballistic missiles, causing blackouts and water shortages. The strikes come before trilateral talks in Abu Dhabi next week.",
+    "sources": [
+     {
+      "source": "BBC",
+      "title": "Russian strikes wound nine and damage Ukraine's power network ahead of talks",
+      "link": "https://www.bbc.co.uk/news/articles/cm4g1nq8158po?at_medium=RSS&at_campaign=rss"
+     },
+     {
+      "source": "Guardian",
+      "title": "Ukraine war briefing: Russia ramping up attacks to ‘pressure’ Kyiv at trilateral talks, Zelenskyy says",
+      "link": "https://www.theguardian.com/world/2026/nov/08/ukraine-war-briefing-russia-ramping-up-attacks-to-pressure-kyiv-at-trilateral-talks-zelenskyy-says"
+     },
+     {
+      "source": "France24",
+      "title": "Russia launches massive strike on Kyiv",
+      "link": "https://www.france24.com/en/video/20261107-russia-launches-massive-strike-on-kyiv-1"
+     },
+     {
+      "source": "Euronews",
+      "title": "Ukraine: Russian strikes hit Kyiv region, damaging infrastructure",
+      "link": "https://www.euronews.com/video/2026/11/07/ukraine-russian-strikes-hit-kyiv-region-damaging-infrastructure"
+     },
+     {
+      "source": "IntelliNews",
+      "title": "Kyiv lacks generators for its homes as Russia hits substations carrying Ukraine's nuclear power",
+      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNUjJWNWtkUkNoN3NheE94U2RFZm5sc0NXNnVaeDJSODlCdkNXbEljNTRObl91cDl0OFAwZE85V1JISUZXVkVQQ3lHU3hNVmpkeUlUNlg2NXdESFpvQThRSXlsYmVOUVg5OVM4Mnc5eG56eUtBZEMwSXZqY0RhejJCSExrQ1ZLWHlfN19yNk5IYUNsUGYycWRsSl9YeGRBQUpaazhFTG5icVh3NXkwTlVCTVlWRDJBWVAzeF9Id3RZU1RXaDVEeWVVU0tGWQ?oc=5"
+     }
+    ]
+   }
+  ],
+  "middle_east": [
+   {
+    "category": "political",
+    "headline": "Israeli president picks Eisenkot to try to form government",
+    "summary": "President Herzog has given opposition leader Gadi Eisenkot the first chance to form a government after the inconclusive election. He has 28 days, extendable by 14, to build a coalition.",
+    "sources": [
+     {
+      "source": "NPR",
+      "title": "Israel's president taps opposition candidate, not Netanyahu, to form a government",
+      "link": "https://www.npr.org/2026/11/07/g-s1-152536/netanyahu-israel-government-eisenkot-herzog"
+     },
+     {
+      "source": "DW",
+      "title": "Israeli president tasks Gadi Eisenkot with forming government",
+      "link": "https://www.dw.com/en/israeli-president-tasks-gadi-eisenkot-with-forming-government/a-79888288?maca=en-rss-en-all-1573-rdf"
+     },
+     {
+      "source": "Euronews",
+      "title": "Netanyahu rival Eisenkot to be tasked with forming new government following Israeli elections",
+      "link": "https://www.euronews.com/2026/11/08/netanyahu-rival-eisenkot-to-be-tasked-with-forming-new-government-following-israeli-electi"
+     },
+     {
+      "source": "BBC",
+      "title": "Israel's president tasks opposition leader Eisenkot with forming government",
+      "link": "https://www.bbc.co.uk/news/articles/cmy8367lj5xlo?at_medium=RSS&at_campaign=rss"
+     },
+     {
+      "source": "Guardian",
+      "title": "Israel’s president picks Yashar leader Gadi Eisenkot to form government",
+      "link": "https://www.theguardian.com/world/2026/nov/07/israel-president-gadi-eisenkot-form-government"
+     },
+     {
+      "source": "France24",
+      "title": "Israeli president picks Netanyahu's rival Eisenkot to try to form government",
+      "link": "https://www.france24.com/en/middle-east/20261107-israeli-president-picks-netanyahu-s-rival-eisenkot-to-try-to-form-government"
+     },
+     {
+      "source": "Arab News",
+      "title": "Israeli president picks Gadi Eisenkot, Netanyahu rival, to form government",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNUnYzdGFmOFpqOFgwMmpZVXlSQXRvdGdkc2JzZUVqWVpzdVlWaWtNVjRlaDk0aXZOSlhjSkIzSmZySjE2aUM4V0w3VFdtenVFeXNacFpkV3NabUpxS3N5Z01hU0paR0JJcHV5ZFdKd0RkVVhkNlFDclNUbFZvX294NWQ2YUUtX2d1YUlNb3dJaUNZTmlsZGF0bGc5S0VWc2dXRlJaTklvSHYxbThIZ282ZGtPWklxUUhn?oc=5"
+     },
+     {
+      "source": "FT",
+      "title": "Israel’s president gives Gadi Eisenkot first chance at forming a government",
+      "link": "https://www.ft.com/content/bf737648-b974-4f87-ba0b-958f2aff1163?syn-25a6b1a6=1"
+     },
+     {
+      "source": "Al Jazeera",
+      "title": "The anti-Netanyahu: Can Gadi Eisenkot give the world a different Israel?",
+      "link": "https://www.aljazeera.com/news/2026/11/8/the-anti-netanyahu-can-gadi-eisenkot-give-the-world-a-different-israel?traffic_source=rss"
+     }
+    ]
+   },
+   {
+    "category": "notable",
+    "headline": "Houthi missiles target Riyadh as Aramco building hit",
+    "summary": "Saudi Arabia intercepted Houthi missiles aimed at Riyadh and the Eastern province, and an Aramco building in the capital was damaged in an attempted attack. The Houthis say a Saudi air strike killed 33 near Sanaa, which Riyadh has not commented on.",
+    "sources": [
+     {
+      "source": "BBC",
+      "title": "Houthis say at least 33 killed in Saudi air strike",
+      "link": "https://www.bbc.co.uk/news/articles/c65yn1v99ypmo?at_medium=RSS&at_campaign=rss"
+     },
+     {
+      "source": "Al Jazeera",
+      "title": "Saudi Arabia intercepts Houthi missiles targeting Riyadh, Eastern province",
+      "link": "https://www.aljazeera.com/news/2026/11/8/saudi-arabia-intercepts-houthi-missiles-targeting-riyadh-eastern-province?traffic_source=rss"
+     },
+     {
+      "source": "Arab News",
+      "title": "Saudi air defenses intercept ballistic missile, drone in Riyadh region",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNc1VsZU1YMXFnNUxjbWFaOXY1bjZLSVJ6QmJlOHI1RjBIYzNSdEtZZmtlMGRvUElyME11eEgtNGtpaDIyUTRrdXF5QTQwaHpZZ3ljemNmXzlDQ00tYm8wNHRNV25WWWQ5MDFUb3FTRHNBVV9DYVMyRUVuRVBjVGxSMjI0RVdDeHlraHNHdlNjLXFFZWw4VnNKLTM1cHdkbFZtXzVkeFlId2hrZ0lNLXJHdHR0VEpwQQ?oc=5"
+     },
+     {
+      "source": "The National",
+      "title": "Aramco building in Riyadh damaged in attempted attack, ministry says",
+      "link": "https://www.thenationalnews.com/news/gulf/2026/11/08/saudi-led-coalition-intercepts-two-houthi-missiles-fired-towards-riyadh/"
+     },
+     {
+      "source": "CNN",
+      "title": "Missile strikes multi-story Aramco building in Riyadh’s financial district, witnesses say",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQQnlLRVByNzg2LTdwYlg5YVNWZ3daRUw1YXZ2RTYzWWdRYTZCbjdWN1RRMlRsdWl2MDhPVkxPbE1kZElFS3N5MnpiMjQ3VTlsOGp4bjliUWNSQ0FXQXhGWFZGYlZ4T3dJYUZ3NnI5TU9lcGs4TDgyY2NHYVljb0F5YkRwZV9LWFVwcTZHLQ?oc=5"
+     },
+     {
+      "source": "The Independent",
+      "title": "Saudi airstrikes on homes near Yemen’s capital kill 33 people",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOMzM1dFFOQ0pZX2ZRSHhsVEJHbjRGT1h1ZlFTekhQbUdoaW1ZWkFOUWhnVmtXYUpIYVZWSWYzNl9Pb3RJN0g4LVhneUdLOU5hUU5PSF9Gc0h5cG92b2tXX1NYVEZNVDlzZFNwU3htVVhDNDJPY1Rfb2Y0ci1KOWxXNUROZE12OVd0ZmFTZGdwWlR0Z0d1NWVRMFczSTh3aWJOWENCWnV6cFVqTUJjbDlF?oc=5"
+     },
+     {
+      "source": "France24",
+      "title": "Yemen: 30 dead in strikes on Taiz market",
+      "link": "https://www.france24.com/en/yemen-30-dead-in-strikes-on-taiz-market"
+     },
+     {
+      "source": "Open Magazine",
+      "title": "Houthis Claim Six Strikes on Saudi Oil Sites, Riyadh Airport",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPWjNiREFjWVRHNGp6d0FmS2V6bWN2VVl5dmd1U2NrWDVBRThHSVRCVXlOaTZ5Xy01Zl9kcWhRcW5zeUxMWWM2d0J0TnhMbjg5eU83LWZRX2IzZDZfZHRpZDk5eWozWE9ZemF0QnAxTkpKLVlnbkpoaWJqM1RDem1ld21wWXZoZlFiMHM5YkNpem91QkIybmc1OQ?oc=5"
+     }
+    ]
+   },
+   {
+    "category": "financial",
+    "headline": "Saudi Arabia to expand renewables fivefold, IEA says",
+    "summary": "The IEA reports Saudi Arabia is set to expand renewable capacity fivefold. Separately, Saudi EXIM Bank provided $11.53bn in credit facilities in the first nine months of 2026.",
+    "sources": [
+     {
+      "source": "Arab News",
+      "title": "Saudi Arabia to expand renewables fivefold, IEA reports",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPeFkzcjZVQlFQcXNkQkk4Wm9POV9HLU1NNUtlU0R1V25zWWtDU1RyTEVwYU5BaVpJTVpHdDdPUDBNZGtWR3lTYTF5dE8tS2FuU3FlLWhKQjhKOXBzZXdacDJkZTB2MFJIb2hOVTA4TkJFSUFKVE9xbE1rNkU5OU8wa1FKY3RkeW9xVDV0Q1lIbFR1S0Jma0hPdHZR?oc=5"
+     }
+    ]
+   }
+  ]
+ },
+ "energyTech": {
+  "energy": [
+   {
+    "category": "energy",
+    "headline": "Scottish AI data centre to rely fully on National Grid",
+    "summary": "DataVita's planned Lanarkshire development has dropped its pledge to be powered wholly by renewables and will draw on the National Grid. Protesters in Scotland and elsewhere also oppose data centres over their electricity demand.",
+    "sources": [
+     {
+      "source": "Guardian Business",
+      "title": "Lanarkshire AI datacentre to fully rely on National Grid despite renewables claim",
+      "link": "https://www.theguardian.com/uk-news/2026/nov/07/lanarkshire-ai-datacentre-datavita-chapelhall-national-grid-renewable-energy"
+     },
+     {
+      "source": "The National Scot",
+      "title": "Scottish AI data centre developers ditch renewables to rely fully on National Grid",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOY1NCbnl5RlhZLXpJQk5wR1hBV25MSkpZT0Y4TmVZR3FEM0ZsaXJ0ZFA4a0stUWc0bUdvZUFTeGJrMEFFMFJZMWs5UmdiU181bU1IV2pJaExXYnlCbmZRbXBDNmZiT1ZWLWNVS1p3STRhQTJQSllHVVAtdnVhMGxhU1lRdXRHV1I3Z25Cc1Rrem1lYzJJcUhBNWM4NlNySjZGMXNocHhjc2g?oc=5"
+     },
+     {
+      "source": "Sky News",
+      "title": "Anti-data centre groups set to march in Edinburgh as part of Europe-wide protest",
+      "link": "https://news.sky.com/story/dozens-of-anti-data-centre-groups-set-to-march-in-edinburgh-as-part-of-europe-wide-protest-13609164"
+     },
+     {
+      "source": "Bristol24/7",
+      "title": "Protesters say datacentre would suck electricity from National Grid",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOSnlCdnRZNFZoVWp5bkF4a0Z6QjB0ZllHVzF1b0FQT0ZEQkVmLXFRNVhsOFdHdHhrZDY1UmgyMVA5cjJVVjU1RVFqT2hBZm43cXN0UU94bEdGRmlsSFl1YnRHQlNTVkhOcXhZTHl4cnJjT2pITFREOVRVSEFVaHc0dUVDemViT2VUaVdWWWRTbW1QMDBDX2xjdXVaRnlpYTVieVdlUS1QRUppYzA?oc=5"
+     }
+    ]
+   },
+   {
+    "category": "energy",
+    "headline": "Zaporizhzhia nuclear plant loses power again",
+    "summary": "The plant lost its last external power line and switched to diesel generators, its 16th blackout this year. Russian strikes continue on Ukrainian substations carrying nuclear power.",
+    "sources": [
+     {
+      "source": "The Moscow Times",
+      "title": "Zaporizhzhia Nuclear Plant Loses External Power Supply, Russian-Installed Management Says",
+      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPSDVRNk1LR0E1d3BaakVQRkQ4NDhFZ01SUVV4R3E1WUJKeldPX2cyVG43ay01c2dNWWdXV1hlWEFkZ3cxdEVPLTVRWjM5MWlzUVJBS2JrWkJNT2lRclhoRklMVENibEZNZDZjNVdJXzM4dXlPVHF0djk5U0xYTkJtMkRZTWpUZ0pVQkR1UkpvU280MWpqdTFjUU5rSXluMGd3TnIySjdXTk5wY3AwMmFFUlZWandFTUxkWjFtVWhqR0lLU205bDRVQ3AxcWdUYXBiZVMw?oc=5"
+     },
+     {
+      "source": "Investing.com UK",
+      "title": "Zaporizhzhia nuclear plant loses external power, switches to diesel generators",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQXy04aEJNRkZ2WWJIclJ5SEZoVy1Hcmx4bEtneDBOWWhxV1JGOUZITU9wT01DT1VrSHNVU2JsQVZ5bmNHZ2tPem5EeVZ2Ulg1ZXkzYlM0d1JKN1RrQ0JFQzZpMVBCb1hTeHR3WVVoeEJoWUtReGc0TkFTSnhMUXpqRGRjTHZuWko2a2FWN1lKdmtQUVo5ajNDSW4zbTVEa09VZThxTTZtNG5sRWJER0IzLTRVRE5ZcXNmMFhlWTB3a29KamNVTm9v?oc=5"
+     },
+     {
+      "source": "UkrMedia News",
+      "title": "Zaporizhzhia Nuclear Power Station is without power again: the 16th blackout this year",
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNSW4tMUhkcVBwZnFHdUFhZEVmV3BGc2QtaTlVUThYcE13X3BrZ1k4enVxZUxsNGxhbUN4S0NMSC1zOFNZWEY1d2xqXzR2U3piNWdzLTJOeUJ2NWVhSUdRWTZPOWlLOTFXelVfS25jaGR1eloyYWpkeWVoeVVJZ0hxRGpkUXBBaGFzY0E?oc=5"
+     },
+     {
+      "source": "Українська правда",
+      "title": "Zaporizhzhia Nuclear Power Plant experiences another blackout",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1yZEhTUWM1WVgxWjkxbWhtRDBJTFZhcFBlT001WC1qSERUREh2TW9LYlgtV05MU0lsTG9Sd1RXLThTZ1RoaFBSUzFUaTFra3dTb1lXWWJELTdRNWlIelU1bW9uMzDSAXBBVV95cUxPOFRfUDIzSEtvbURibHlDTWM5ZFFSaENzc0kwWUpGNGw5SGNLXzlEeTVQVlE4ckdWXzd6RFRFLUxKUnZ0REJGNGFjT2xzODZBS3NLR05DWGtQTkF3LWs3cXVHOU1WbkpSMHUwb2xGQ2dE?oc=5"
+     },
+     {
+      "source": "Mezha.net",
+      "title": "Zaporizhzhia Nuclear Power Plant loses power from its last operating line – Energoatom",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQbVpDNUx1aFJOcmZKa1ZkdzFnS0hWZkVhRVVuRGtwN0k0R1JGZ2FER0NGckVMc1JreEdsWWNkY29nV0JsMzZScTJyNG5NTlBkaVpVMnRoTllyQldFdXdQRkNOalRXTGl2SFJ4cXZIbUpQUTNiRm43bkNUV0RoNG5vLXFRenk0eFI4RXY0bk93?oc=5"
+     },
+     {
+      "source": "UA.NEWS",
+      "title": "The Zaporizhzhia Nuclear Power Plant experienced its 16th blackout since the beginning of the year; it was switched to generators",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNaTlFWGhYSDhWMGR6al9Ec3RDYko3bFpWVHVqQWxidU9MLUROczhiQzdVc1FfQkR3TXlvTHFRa2VLUnp4cXdRTGRMZFZRN2RfaXQ2dXZfWHhzMU52TXlPQmdvdGVURjMzNXJDYkx1VG1ISXVLYU5TRmpQamszcVJ0VUVQdmZqUnFQQWlrT0hUaTRaZEgwVFR2Smp2ODRwRC00d2VON3B6LWpFZS0tS0Fueg?oc=5"
+     }
+    ]
+   },
+   {
+    "category": "energy",
+    "headline": "Oil rises after drone attack on UAE nuclear plant",
+    "summary": "Oil touched a two-week high after a drone attack on a UAE nuclear power plant. Brent ended near $98, up 0.03%.",
+    "sources": [
+     {
+      "source": "EnergyNow.com",
+      "title": "Oil Touches Two-Week High After Drone Attack on UAE Nuclear Power Plant",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOOFR4cExqSkJkMUFiVmlJTTFvN3lQeUZKT1ZYRWlGTldSQ19Zc3pjU2pSeXZUZGQwb3JfaFZyWXFteU03aTRtaUY5aVhkLXBiTXdLMU9EaWpZU1Z4ekRLck1QTVRvdE95Ml9ramNEVTlWUW9MVEFtR3BTakRCRzlEd2tRNXJ1LVJtSnBHT05oSUdWeVpuYm1aSFJrc2JTZTJaSUUtcQ?oc=5"
+     }
+    ]
+   }
+  ],
+  "ai": [
+   {
+    "category": "ai",
+    "headline": "Anthropic IPO draws attention to AI-built AI",
+    "summary": "Anthropic's listing plans come alongside reports that it uses AI to speed its own model development, and that Claude wrote about 90% of Claude Code. Researchers find the pace alarming.",
+    "sources": [
+     {
+      "source": "The Verge AI",
+      "title": "Why a new report on Anthropic automating AI development is alarming researchers",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1029126/anthropic-metr-report-accelerating-ai-development"
+     },
+     {
+      "source": "BigGo Finance",
+      "title": "Anthropic Says Claude Wrote About 90% of Claude Code's Code, Discloses Six-Layer Review System",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE4zRnZSbk1QNi1IRmJabGEzc2pNU1BnbTBfQmdiYk9ibGJYQXc2bDlKOXlWTmY5MUdaeVhCSlZoSGQ2YXNsR3dCUjgwaEIzc28xUVVKTlJZd0JSOC1zRFBqazR4QlBmUVlTdjJOYThkbDllLXNSM3c?oc=5"
+     },
+     {
+      "source": "AI News",
+      "title": "Anthropic creates Public Benefit Fund that grows with company valuation",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPZldfTGhZTGVIQjF4eFQzQXdQNGhZUkVZeG0yUV9NeXIyNGpXalNBeWVrY1ZiT3BmLUtmVmRjaFVwMGZHV3Frb3gzTEdjRTQtaW54blZaOUhiM0RnUDlMOWxwbkZvWmM3OWY4QmdiVjVOUjkwUGdqY1JNTHJXODZXdFZOTmNGUXU5THJKb0tHcWpPYzROaDYzZ0xldUNqRmUwd05JX3NNVGNtZ0JMQWVKM0RUalZvRnViWHBPN3Bn?oc=5"
+     },
+     {
+      "source": "TradingView",
+      "title": "Key facts: Anthropic $80B IPO; $17B revenue; $23B loss, capacity risks",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQZHNtVFV2cTNuRGlDeUd4ZGtKZXRhb1poLVJHcWo3aktFVjNXUDU5U0VCWkc3eTBSRl9xUDZkN3RrNTVrTUlHME9JcDJVOWJtaUFWckVOSHM0d3VObUFGbWwwTk9qMWxfRVlFVVhJYVliTFFDUkMwa1RLZDZ1eVhKNDNHRUZ6TDNaNm82MXU0ZEtKZGpZdkdQbTN4bzN3bGt2Nl8zdEU2eEliUnJfZU1raHV5eXVuWmE2T3JpN0FIc3ZRMTg?oc=5"
+     }
+    ]
+   },
+   {
+    "category": "ai",
+    "headline": "OpenAI reportedly raises $11bn at $1.25tn valuation",
+    "summary": "A report says OpenAI has raised $11bn at a valuation of $1.25 trillion. It underlines investor appetite even as data centre backlash grows after the midterms.",
+    "sources": [
+     {
+      "source": "The Daily Star",
+      "title": "OpenAI raises $11 billion at $1.25 trillion valuation: report",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQZ0tqOFJDMDhvQXVTZXpwM3lwUk5kZVZCZXo2Y19WVFZmc2NoVFhTb0dGTW55VmdnRDNRY2hoenlVdnVXbHhVcGdYRklPeFBQVklSRjExcFVYTkNXMy1HSW96VnduTUh0anJLUGhpMnZuZTdCTGM1Qy1HTjlmTGc4bTFZZlhNdkw3Tm92UEh1ZE9oXy1lQzZkWDl1dHpNc2ZfVlRrVWhRZ0ZRUHI2S1dGVXFB?oc=5"
+     },
+     {
+      "source": "TechCrunch AI",
+      "title": "After the midterms, things are looking rocky for Elon Musk and data centers",
+      "link": "https://techcrunch.com/2026/11/07/after-the-midterms-things-are-looking-rocky-for-elon-musk-and-data-centers/"
+     }
+    ]
+   },
+   {
+    "category": "ai",
+    "headline": "Questions over US Nvidia chip sales to China",
+    "summary": "Reports say the US allowed Nvidia to sell H200 chips to a Chinese firm with an empty office, raising vetting concerns. A US intelligence memo also reportedly alleged a Megaspeed executive was recruited to spy on Nvidia's CEO.",
+    "sources": [
+     {
+      "source": "The Verge AI",
+      "title": "The US let Nvidia sell chips to an empty office in China",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1029483/nvidia-ai-chips-china-blacklist-government"
+     },
+     {
+      "source": "TechCrunch AI",
+      "title": "Megaspeed exec was recruited to spy on Nvidia CEO, according to US intelligence memo",
+      "link": "https://techcrunch.com/2026/11/07/chinese-exec-was-recruited-to-spy-on-nvidia-ceo-according-to-us-intelligence-memo/"
+     }
+    ]
+   }
+  ],
+  "tech": [
+   {
+    "category": "tech",
+    "headline": "Binance hit by $6.3bn hack as CFO departs",
+    "summary": "Binance's CFO is leaving barely a week after hackers stole $6.3bn of cryptocurrency from users. Wider reports point to a rise in cyberattacks as AI exposes flaws in IT systems.",
+    "sources": [
+     {
+      "source": "TechCrunch",
+      "title": "Binance CFO is leaving to ‘pursue a new venture’ after $6.3 billion hack",
+      "link": "https://techcrunch.com/2026/11/07/binance-cfo-is-leaving-to-pursue-a-new-venture-after-6-3-billion-hack/"
+     },
+     {
+      "source": "Guardian Business",
+      "title": "Hot fridges, a fake nuclear alert and a $6bn heist: are we in the foothills of a hacking epidemic?",
+      "link": "https://www.theguardian.com/news/ng-interactive/2026/nov/08/hot-fridges-a-fake-nuclear-alert-and-a-6bn-heist-are-we-in-the-foothills-of-a-hacking-epidemic"
+     },
+     {
+      "source": "The Verge AI",
+      "title": "AI broke the cybersecurity world. What’s next?",
+      "link": "https://www.theverge.com/podcast/1029038/ai-cybersecurity-hackers-data-breach-dark-age-alex-stamos"
+     }
+    ]
+   },
+   {
+    "category": "tech",
+    "headline": "Tesla to wind down Cybertruck production",
+    "summary": "Elon Musk said Tesla will wind down Cybertruck production next year to make room for the Cybercab.",
+    "sources": [
+     {
+      "source": "The Verge",
+      "title": "Good riddance, Cybertruck!",
+      "link": "https://www.theverge.com/transportation/1029460/elon-musk-cybertruck-death-election-backlash"
+     }
+    ]
+   },
+   {
+    "category": "tech",
+    "headline": "Big Tech faces a changed Washington after midterms",
+    "summary": "After courting the White House for two years, tech firms are seeking ties with Democrats. States and local communities remain a challenge, particularly over data centres.",
+    "sources": [
+     {
+      "source": "TechCrunch",
+      "title": "From the front row to the hot seat — what the midterms mean for Big Tech",
+      "link": "https://techcrunch.com/2026/11/06/from-the-front-row-to-the-hot-seat-what-the-midterms-mean-for-big-tech/"
+     },
+     {
+      "source": "TechCrunch AI",
+      "title": "After the midterms, things are looking rocky for Elon Musk and data centers",
+      "link": "https://techcrunch.com/2026/11/07/after-the-midterms-things-are-looking-rocky-for-elon-musk-and-data-centers/"
+     }
+    ]
+   }
+  ]
+ },
+ "stats": {
+  "headlines": 325,
+  "feeds": 45,
+  "feedsFailed": 0
+ }
+}
