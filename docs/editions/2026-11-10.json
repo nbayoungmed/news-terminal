@@ -1,0 +1,1437 @@
+{
+ "date": "2026-11-10",
+ "dateLabel": "Tuesday, 10 November 2026",
+ "generatedAt": "2026-11-10T06:34:31.595Z",
+ "mode": "ai",
+ "model": "claude-sonnet-5-5",
+ "error": null,
+ "headlineOfDay": "Wall Street rebounds sharply as oil slides on Trump's Iran de-escalation, even as Nvidia's CEO scandal deepens and Abu Dhabi hosts Ukraine talks.",
+ "markets": {
+  "summary": "US stocks rebounded strongly, with the S&P 500 up 2.35% and the Nasdaq up 2.74%, after last week's sell-off. A sharp fall in oil prices on Trump's signals of restraint on Iran lifted sentiment, while chip stocks such as AMD rallied even as Nvidia fell. European and Gulf markets also rose, with the FTSE 100 up 1.02%.",
+  "indices": [
+   {
+    "symbol": "^GSPC",
+    "label": "S&P 500",
+    "price": 7549.93994140625,
+    "asOf": "2026-11-09",
+    "d1": 2.3462568265193187,
+    "w1": 0.1132420926232262,
+    "m1": -3.348892745196066,
+    "ytd": 10.290554983657147,
+    "spark": [
+     7811.54,
+     7807.2402,
+     7805.4502,
+     7718.9399,
+     7744.0601,
+     7659.4399,
+     7690.73,
+     7712.5698,
+     7757.1699,
+     7663.4302,
+     7623.6802,
+     7676.77,
+     7722.6001,
+     7743.98,
+     7720.3901,
+     7580.0698,
+     7541.3999,
+     7568.9199,
+     7688.6201,
+     7353.73,
+     7376.8599,
+     7549.9399
+    ]
+   },
+   {
+    "symbol": "SPUS",
+    "label": "S&P 500 Shariah",
+    "sub": "via SPUS ETF",
+    "price": 57.189998626708984,
+    "asOf": "2026-11-09",
+    "d1": 2.6381862415675474,
+    "w1": -0.729043532707602,
+    "m1": -5.891067638781504,
+    "ytd": 11.983549967604578,
+    "spark": [
+     60.77,
+     60.57,
+     60.53,
+     59.67,
+     59.72,
+     58.82,
+     59.21,
+     59.28,
+     59.78,
+     58.81,
+     58.66,
+     59.3,
+     59.87,
+     60.11,
+     59.77,
+     58.42,
+     57.61,
+     57.95,
+     58.66,
+     55.41,
+     55.72,
+     57.19
+    ]
+   },
+   {
+    "symbol": "^IXIC",
+    "label": "Nasdaq",
+    "price": 25253.140625,
+    "asOf": "2026-11-09",
+    "d1": 2.740954310435524,
+    "w1": 0.3530002459615619,
+    "m1": -7.721319069885485,
+    "ytd": 8.65309024891724,
+    "spark": [
+     27366.1699,
+     27245.9004,
+     27204.3809,
+     26692.8691,
+     26713.0293,
+     26140.0293,
+     26430.8906,
+     26424.8203,
+     26702.8594,
+     26008.8594,
+     25955.3398,
+     26169.3809,
+     26477.8105,
+     26549.8496,
+     26184.7207,
+     25437,
+     25164.3105,
+     25372.0098,
+     25736.5098,
+     24315,
+     24579.4297,
+     25253.1406
+    ]
+   },
+   {
+    "symbol": "^DJI",
+    "label": "Dow Jones",
+    "price": 52389.75,
+    "asOf": "2026-11-09",
+    "d1": 2.1526836434994596,
+    "w1": 0.780566489120484,
+    "m1": 1.422517672291657,
+    "ytd": 9.001591488826339,
+    "spark": [
+     51654.9492,
+     51850.5508,
+     51670.1016,
+     51621.4805,
+     52177.6914,
+     52002.4102,
+     51966.0313,
+     52495.8789,
+     52856.0898,
+     52867.9805,
+     52215.1602,
+     52361.5781,
+     52377.5703,
+     52475.1016,
+     52342.5586,
+     51770.3086,
+     51983.9805,
+     51786.7188,
+     53356.1211,
+     51523.0586,
+     51285.7305,
+     52389.75
+    ]
+   },
+   {
+    "symbol": "^FTSE",
+    "label": "FTSE 100",
+    "price": 10782.900390625,
+    "asOf": "2026-11-09",
+    "d1": 1.021182473238516,
+    "w1": 0.20072469245853583,
+    "m1": 2.1872498345726887,
+    "ytd": 8.57381604314126,
+    "spark": [
+     10552.0996,
+     10656.2998,
+     10650.2998,
+     10724.9004,
+     10840.4004,
+     10881.9004,
+     10764.7002,
+     10733,
+     10752.9004,
+     10725,
+     10690.4004,
+     10767.2998,
+     10686.5,
+     10694.5,
+     10722.0996,
+     10729.7998,
+     10761.2998,
+     10638.4004,
+     10829.2002,
+     10782.7002,
+     10673.9004,
+     10782.9004
+    ]
+   },
+   {
+    "symbol": "^STOXX50E",
+    "label": "Euro Stoxx 50",
+    "price": 6290.4501953125,
+    "asOf": "2026-11-09",
+    "d1": 1.9440912533856487,
+    "w1": 1.8521538915344666,
+    "m1": 1.8965342414677713,
+    "ytd": 8.526763341445493,
+    "spark": [
+     6173.3701,
+     6201.21,
+     6167.0098,
+     6190.3701,
+     6168.2598,
+     6204.23,
+     6144.8101,
+     6121.6602,
+     6207.52,
+     6087.0098,
+     6068.2202,
+     6116.23,
+     6164.6899,
+     6167.8101,
+     6207.0698,
+     6131.3101,
+     6176.0601,
+     6144.5601,
+     6265.71,
+     6231.54,
+     6170.4902,
+     6290.4502
+    ]
+   },
+   {
+    "symbol": "^TASI.SR",
+    "label": "Tadawul (Saudi)",
+    "price": 10106.72,
+    "asOf": "2026-11-09",
+    "d1": 0.8966846030208917,
+    "w1": null,
+    "m1": null,
+    "ytd": null,
+    "spark": []
+   }
+  ],
+  "commodities": [
+   {
+    "symbol": "GC=F",
+    "label": "Gold",
+    "unit": "$/oz",
+    "price": 4132.2001953125,
+    "asOf": "2026-11-10",
+    "d1": 0.430190674747843,
+    "w1": 4.8675336951121935,
+    "m1": -1.3935928263928674,
+    "ytd": -4.812142029540728,
+    "spark": [
+     4190.6001,
+     4177.2998,
+     4107.8999,
+     4170.1001,
+     4181.1001,
+     4160.1001,
+     4142.6001,
+     4150,
+     4060.3999,
+     4007.8999,
+     4038.3999,
+     4074.6001,
+     4051.6001,
+     4031.3999,
+     3898.8999,
+     3969.6001,
+     3940.3999,
+     4073,
+     4113.5,
+     4074.8999,
+     4114.5,
+     4132.2002
+    ]
+   },
+   {
+    "symbol": "SI=F",
+    "label": "Silver",
+    "unit": "$/oz",
+    "price": 53.28499984741211,
+    "asOf": "2026-11-10",
+    "d1": 1.37166251177397,
+    "w1": 7.457595564559711,
+    "m1": -11.399875501106777,
+    "ytd": -24.024014305413353,
+    "spark": [
+     60.141,
+     59.161,
+     55.55,
+     56.837,
+     56.995,
+     56.974,
+     57.706,
+     57.422,
+     54.764,
+     53.711,
+     54.108,
+     54.293,
+     53.457,
+     52.191,
+     49.097,
+     50.72,
+     49.587,
+     52.12,
+     52.233,
+     51.803,
+     52.564,
+     53.285
+    ]
+   },
+   {
+    "symbol": "BZ=F",
+    "label": "Brent crude",
+    "unit": "$/bbl",
+    "price": 91.51000213623047,
+    "asOf": "2026-11-10",
+    "d1": -1.1450767657861585,
+    "w1": -11.66988080691011,
+    "m1": -14.195967344618065,
+    "ytd": 50.38620284460447,
+    "spark": [
+     106.65,
+     105.69,
+     106.06,
+     105.92,
+     109.86,
+     109.55,
+     108.79,
+     108.82,
+     113.17,
+     116.72,
+     115.81,
+     113.88,
+     115.32,
+     114.88,
+     117.64,
+     104.77,
+     103.6,
+     94.62,
+     98.29,
+     98.32,
+     92.57,
+     91.51
+    ]
+   },
+   {
+    "symbol": "CL=F",
+    "label": "WTI crude",
+    "unit": "$/bbl",
+    "price": 85.73999786376953,
+    "asOf": "2026-11-10",
+    "d1": -1.2780663556169343,
+    "w1": -10.77115086749133,
+    "m1": -8.53424384714222,
+    "ytd": 49.32079518968121,
+    "spark": [
+     93.74,
+     94.14,
+     95.09,
+     97.97,
+     101.41,
+     103.66,
+     101.79,
+     97.15,
+     99.47,
+     103.27,
+     101.76,
+     99.9,
+     102.78,
+     102,
+     104.12,
+     96.46,
+     96.09,
+     88.12,
+     90.52,
+     90.83,
+     86.85,
+     85.74
+    ]
+   },
+   {
+    "symbol": "HG=F",
+    "label": "Copper",
+    "unit": "$/lb",
+    "price": 6.334499835968018,
+    "asOf": "2026-11-10",
+    "d1": 0.09480986263683686,
+    "w1": -0.6898196892443598,
+    "m1": -5.434057056588258,
+    "ytd": 12.51331629141644,
+    "spark": [
+     6.6985,
+     6.678,
+     6.6115,
+     6.5115,
+     6.531,
+     6.538,
+     6.5665,
+     6.543,
+     6.3625,
+     6.476,
+     6.508,
+     6.622,
+     6.6415,
+     6.581,
+     6.4585,
+     6.5435,
+     6.3785,
+     6.403,
+     6.249,
+     6.218,
+     6.3285,
+     6.3345
+    ]
+   },
+   {
+    "symbol": "NG=F",
+    "label": "US natural gas",
+    "unit": "$/MMBtu",
+    "price": 3.240999937057495,
+    "asOf": "2026-11-10",
+    "d1": 0.714729719417334,
+    "w1": 11.95163932333595,
+    "m1": 2.3365923729694615,
+    "ytd": -12.072711843083582,
+    "spark": [
+     3.167,
+     3.283,
+     3.198,
+     3.236,
+     3.116,
+     3.058,
+     2.963,
+     2.79,
+     2.796,
+     2.64,
+     2.602,
+     2.697,
+     2.817,
+     2.952,
+     2.898,
+     2.856,
+     2.895,
+     2.959,
+     2.947,
+     2.998,
+     3.218,
+     3.241
+    ]
+   }
+  ],
+  "rates_fx": [
+   {
+    "symbol": "GBPUSD=X",
+    "label": "GBP/USD",
+    "price": 1.3453518152236938,
+    "asOf": "2026-11-10",
+    "d1": 0.6968979053714273,
+    "w1": 0.3255754620075287,
+    "m1": 1.600974666801587,
+    "ytd": -0.1015747044552303,
+    "spark": [
+     1.3242,
+     1.321,
+     1.3257,
+     1.323,
+     1.3273,
+     1.3336,
+     1.3308,
+     1.3373,
+     1.3396,
+     1.3404,
+     1.3378,
+     1.3345,
+     1.3306,
+     1.3328,
+     1.3379,
+     1.3386,
+     1.341,
+     1.3434,
+     1.3477,
+     1.3456,
+     1.336,
+     1.3454
+    ]
+   },
+   {
+    "symbol": "EURUSD=X",
+    "label": "EUR/USD",
+    "price": 1.1232168674468994,
+    "asOf": "2026-11-10",
+    "d1": 0.7615430797130663,
+    "w1": 0.35830741711265146,
+    "m1": 0.2448609782246616,
+    "ytd": -4.3850411945271235,
+    "spark": [
+     1.1205,
+     1.116,
+     1.1204,
+     1.1195,
+     1.1213,
+     1.1225,
+     1.1216,
+     1.1227,
+     1.1235,
+     1.1221,
+     1.1218,
+     1.1174,
+     1.113,
+     1.1156,
+     1.1183,
+     1.1157,
+     1.1192,
+     1.1207,
+     1.1235,
+     1.1228,
+     1.1147,
+     1.1232
+    ]
+   },
+   {
+    "symbol": "^TNX",
+    "label": "US 10Y yield",
+    "unit": "%",
+    "price": 4.863999843597412,
+    "asOf": "2026-11-09",
+    "d1": 0.10289436904309317,
+    "w1": -0.6129997850627791,
+    "m1": -7.246379051899687,
+    "ytd": 16.838811405238953,
+    "spark": [
+     5.244,
+     5.24,
+     5.217,
+     5.19,
+     5.089,
+     5.098,
+     5.136,
+     5.117,
+     5.146,
+     4.953,
+     4.988,
+     4.986,
+     4.993,
+     5.045,
+     4.989,
+     4.929,
+     4.894,
+     4.952,
+     4.894,
+     4.837,
+     4.859,
+     4.864
+    ]
+   }
+  ],
+  "movers": {
+   "sp500": {
+    "gainers": [
+     {
+      "ticker": "COHR",
+      "name": "Coherent Corp.",
+      "price": 225.19,
+      "d1": 16.793734764794355,
+      "shariah": true
+     },
+     {
+      "ticker": "MPWR",
+      "name": "Monolithic Power Systems",
+      "price": 1388.05,
+      "d1": 16.59974463223681,
+      "shariah": true
+     },
+     {
+      "ticker": "AMD",
+      "name": "Advanced Micro Devices",
+      "price": 508.58,
+      "d1": 13.259397826474247,
+      "shariah": true,
+      "note": "Rose sharply, with analysts noting it as a possible beneficiary of the Nvidia scandal."
+     },
+     {
+      "ticker": "TER",
+      "name": "Teradyne",
+      "price": 246,
+      "d1": 12.730272202364587,
+      "shariah": true
+     },
+     {
+      "ticker": "FLEX",
+      "name": "Flex Ltd.",
+      "price": 78.17,
+      "d1": 12.023502436228146,
+      "shariah": true
+     }
+    ],
+    "losers": [
+     {
+      "ticker": "FSLR",
+      "name": "First Solar",
+      "price": 191.61,
+      "d1": -4.737993437406768,
+      "shariah": true
+     },
+     {
+      "ticker": "NVDA",
+      "name": "Nvidia",
+      "price": 178.67,
+      "d1": -4.270252893270467,
+      "shariah": true,
+      "note": "Fell after its board opened an investigation into CEO Jensen Huang's relationship with a suspected Chinese spy."
+     },
+     {
+      "ticker": "TTWO",
+      "name": "Take-Two Interactive",
+      "price": 207.4,
+      "d1": -3.4765206869269787,
+      "shariah": false
+     },
+     {
+      "ticker": "AKAM",
+      "name": "Akamai Technologies",
+      "price": 80.29,
+      "d1": -3.3698399326031976,
+      "shariah": false
+     },
+     {
+      "ticker": "AXON",
+      "name": "Axon Enterprise",
+      "price": 303.18,
+      "d1": -3.137380191693288,
+      "shariah": false
+     }
+    ],
+    "coverage": 503
+   },
+   "ftse100": {
+    "gainers": [
+     {
+      "ticker": "CCH",
+      "name": "Coca-Cola HBC",
+      "price": 4188,
+      "d1": 3.356367226061204
+     },
+     {
+      "ticker": "SMT",
+      "name": "Scottish Mortgage Investment Trust",
+      "price": 1470,
+      "d1": 2.510460251046025
+     },
+     {
+      "ticker": "EDV",
+      "name": "Endeavour Mining",
+      "price": 4094,
+      "d1": 2.018440069773237
+     },
+     {
+      "ticker": "RR",
+      "name": "Rolls-Royce Holdings",
+      "price": 1261.2,
+      "d1": 1.7424975798644837
+     },
+     {
+      "ticker": "IAG",
+      "name": "International Airlines Group",
+      "price": 433.7,
+      "d1": 1.5215355805243447
+     }
+    ],
+    "losers": [
+     {
+      "ticker": "BT.A",
+      "name": "BT Group",
+      "price": 217,
+      "d1": -6.384814495254535
+     },
+     {
+      "ticker": "AAF",
+      "name": "Airtel Africa",
+      "price": 277.6,
+      "d1": -4.011065006915618
+     },
+     {
+      "ticker": "HSX",
+      "name": "Hiscox",
+      "price": 1913,
+      "d1": -3.383838383838384
+     },
+     {
+      "ticker": "SGE",
+      "name": "Sage Group",
+      "price": 1165,
+      "d1": -3.199002908184462
+     },
+     {
+      "ticker": "BATS",
+      "name": "British American Tobacco",
+      "price": 4567,
+      "d1": -3.17998728005088
+     }
+    ],
+    "coverage": 100
+   },
+   "shariahListAvailable": true
+  },
+  "stories": [
+   {
+    "category": "companies",
+    "headline": "Nvidia drops as board investigates CEO Jensen Huang's affair with suspected Chinese spy",
+    "summary": "Nvidia shares fell about 4% after its board opened an investigation into Jensen Huang's relationship with a suspected Chinese spy, and shareholders have begun suing. Trump says the FBI is looking into the matter, and there is no obvious successor at the world's second-largest company.",
+    "sources": [
+     {
+      "source": "BBC",
+      "title": "Nvidia shares tumble over investigation into Huang's affair with alleged Chinese spy",
+      "link": "https://www.bbc.co.uk/news/articles/c6zxjx01vyleo?at_medium=RSS&at_campaign=rss"
+     },
+     {
+      "source": "Guardian Business",
+      "title": "Silicon Valley and Trump rally behind Nvidia CEO after his affair with alleged Chinese spy",
+      "link": "https://www.theguardian.com/technology/2026/nov/09/nvidia-jensen-huang-affair-trump-musk"
+     },
+     {
+      "source": "DW",
+      "title": "Nvidia shareholders sue Jensen Huang over alleged spy ties",
+      "link": "https://www.dw.com/en/nvidia-shareholders-sue-jensen-huang-over-alleged-spy-ties/a-79905809?maca=en-rss-en-all-1573-rdf"
+     },
+     {
+      "source": "CNBC",
+      "title": "Jensen Huang affair puts Nvidia's future at risk, with no clear successor to the renowned CEO",
+      "link": "https://www.cnbc.com/2026/11/09/jensen-huang-affair-nvidia-succession.html"
+     },
+     {
+      "source": "CNBC Finance",
+      "title": "Jensen Huang exit odds are low on prediction markets after Nvidia probe",
+      "link": "https://www.cnbc.com/2026/11/09/jensen-huang-nvidia-exit-prediction-markets.html"
+     },
+     {
+      "source": "MarketWatch",
+      "title": "As Nvidia’s stock falls, here’s what Wall Street has to say about the Jensen Huang scandal",
+      "link": "https://www.marketwatch.com/story/how-wall-street-is-reacting-to-the-news-of-nvidias-jensen-huang-investigation-into-spy-claims-d8c839ab?mod=mw_rss_topstories"
+     },
+     {
+      "source": "BBC Business",
+      "title": "Trump says FBI investigating Nvidia boss's affair with alleged Chinese spy",
+      "link": "https://www.bbc.co.uk/news/articles/cqg7x7dpvym8o?at_medium=RSS&at_campaign=rss"
+     },
+     {
+      "source": "FT",
+      "title": "Trump says FBI is ‘looking into’ Nvidia’s Jensen Huang",
+      "link": "https://www.ft.com/content/cbabf2da-2079-4b69-88e3-0ba84cf8d6fd?syn-25a6b1a6=1"
+     },
+     {
+      "source": "TechCrunch AI",
+      "title": "The race is on to sue Nvidia",
+      "link": "https://techcrunch.com/2026/11/09/the-race-is-on-to-sue-nvidia/"
+     },
+     {
+      "source": "Ars Technica",
+      "title": "Nvidia CEO's affair becomes a national security problem",
+      "link": "https://arstechnica.com/tech-policy/2026/11/ceo-jensen-huang-admits-affair-as-nvidia-probes-possible-chinese-espionage/"
+     }
+    ]
+   },
+   {
+    "category": "economy",
+    "headline": "US inflation data and Fed speakers due as rally broadens",
+    "summary": "October CPI is expected to show headline inflation up 0.3% and core up 0.2%. Together with a heavy line-up of Federal Reserve speakers, it could test the resilience of the rotation beyond Big Tech.",
+    "sources": [
+     {
+      "source": "CNBC Economy",
+      "title": "A key report for where inflation stood in October comes out Tuesday. Here's what to expect",
+      "link": "https://www.cnbc.com/2026/11/09/october-cpi-report-2026-inflation.html"
+     },
+     {
+      "source": "MarketWatch",
+      "title": "The stock-market rally keeps spreading beyond Big Tech. October inflation data could put it to the test.",
+      "link": "https://www.marketwatch.com/story/the-stock-market-rally-keeps-spreading-beyond-big-tech-october-inflation-data-could-put-it-to-the-test-c1b87dcd?mod=mw_rss_topstories"
+     }
+    ]
+   },
+   {
+    "category": "markets",
+    "headline": "Oil tumbles on hopes of an end to the Iran war",
+    "summary": "Brent fell below $92 after Trump signalled restraint on Iran and said the war was effectively over, despite a fresh attack on a Saudi pipeline. Lower oil helped lift equities and Asian tech shares.",
+    "sources": [
+     {
+      "source": "OilPrice",
+      "title": "Oil Prices Plunge Below $92 as Trump Signals Restraint on Iran",
+      "link": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Plunge-Below-92-as-Trump-Signals-Restraint-on-Iran.html"
+     },
+     {
+      "source": "CNBC",
+      "title": "SoftBank Group shares surge 13% as Asian tech stocks track Wall Street rebound",
+      "link": "https://www.cnbc.com/2026/11/10/ai-softbank-sk-hynix-samsung-wall-street-tech-stocks.html"
+     },
+     {
+      "source": "Reuters",
+      "title": "Asian stocks climb as oil prices slide ahead US CPI",
+      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9CVDNSVXJpWURQMkF1dUt1amw1WkxILXhVSjZyZkQxdGlBdWZvT0tqclhabXRKZC1xNlRIRmJSdkhINDVsYXlRdk9paVRCa085WWVKRTJFcm9CZWo2VzNaYU5lQ2RXbDdqb3QxdkY4SDFRb2JMVE8yemVJMA?oc=5"
+     },
+     {
+      "source": "City AM",
+      "title": "FTSE 100 Live: Stocks to climb; Trump says Iran war ‘effectively over’",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNb2haRFUyckdlXzhHVlJhU1VIQVlaaEk1V1YxR1JXRWxxNDc3Y2ptdUNVeDlTMFpHbElzcmN4ZGJtMVRlM19kSi0wSWw0RVdlZG9iTjUyMmthT3BmV0RNSVBrNVh0Z21pMVhuQy1VTm5lYkhVOGFsNkNLeFNZRno5ZUYxaVllYUp3c3UzU1hubk94Nk1P?oc=5"
+     }
+    ]
+   }
+  ],
+  "calendar": [
+   {
+    "when": "Today",
+    "event": "US October CPI inflation report, with Federal Reserve speakers"
+   },
+   {
+    "when": "Today",
+    "event": "Russia-Ukraine-US trilateral peace talks in Abu Dhabi"
+   },
+   {
+    "when": "Today",
+    "event": "TSMC October sales figures"
+   },
+   {
+    "when": "Today",
+    "event": "New Israeli Knesset sworn in"
+   }
+  ]
+ },
+ "world": {
+  "us": [
+   {
+    "category": "political",
+    "headline": "Massie forces Hegseth impeachment push over Iran war",
+    "summary": "Republican Rep. Thomas Massie has filed articles of impeachment against the Defence Secretary, citing the War Powers Resolution, and a House vote is likely this week. It is expected to fail, but Trump has defended Hegseth.",
+    "sources": [
+     {
+      "source": "BBC",
+      "title": "Republican congressman to force impeachment vote on Defence Secretary Hegseth",
+      "link": "https://www.bbc.co.uk/news/articles/cwr5y58jjp8ro?at_medium=RSS&at_campaign=rss"
+     },
+     {
+      "source": "NPR",
+      "title": "Thomas Massie files articles of impeachment against Defense Secretary Pete Hegseth",
+      "link": "https://www.npr.org/2026/11/09/nx-s1-6034483/thomas-massie-impeachment-pete-hegseth"
+     },
+     {
+      "source": "Guardian",
+      "title": "Donald Trump doubles down on defense of Pete Hegseth and attacks fresh effort to impeach him – as it happened",
+      "link": "https://www.theguardian.com/us-news/live/2026/nov/09/donald-trump-stephen-miller-immigration-midterms-iran-qatar-economy-latest-news-updates"
+     },
+     {
+      "source": "DW",
+      "title": "US Pentagon chief Hegseth faces impeachment push over Iran war",
+      "link": "https://www.dw.com/en/us-pentagon-chief-hegseth-faces-impeachment-push-over-iran-war/a-79905323?maca=en-rss-en-all-1573-rdf"
+     },
+     {
+      "source": "Euronews",
+      "title": "Republican lawmaker launches eight articles of impeachment against US Defence chief Hegseth",
+      "link": "https://www.euronews.com/2026/11/10/republican-lawmaker-launched-eight-articles-of-impeachment-against-us-defence-chief-hegset"
+     },
+     {
+      "source": "Al Jazeera",
+      "title": "Newly-elected Democrats react to Hegseth impeachment bid",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/10/newly-elected-democrats-react-to-hegseth-impeachment-bid?traffic_source=rss"
+     },
+     {
+      "source": "Arab News",
+      "title": "Hegseth calls Iran war necessary, waves off ‘the noise’ of expected impeachment push",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOZ1IzSFFNU0lfY2tnRmV5R0VaNEl2eGZNNXlTb0JBaVdObnIteUNGUDZyMXFEd3VHZmpNTGMxZ2I5MzlobzZqOHpVQVNEaGRHVzlOa0RDdFJQcGt3dklCRFA4NTI1M09aelJXWHdhdWV2Wi1LRllGaUIzdk4wS1ZkZlNxaF9tTVVrZ1E1NFpZWHNSM2NVbTgwdDlMS0NCMGlWNVppaGFMNVc3MXdUR1BndERCRjRCUGxPakFyVA?oc=5"
+     },
+     {
+      "source": "CNBC",
+      "title": "Hegseth impeachment articles introduced by Rep. Massie",
+      "link": "https://www.cnbc.com/2026/11/09/pete-hegseth-impeachment-articles-massie.html"
+     },
+     {
+      "source": "FT",
+      "title": "Republican lawmaker moves to impeach US defence secretary Pete Hegseth",
+      "link": "https://www.ft.com/content/ed09fc96-5ad5-4ff8-a8a9-900740c6fcbb?syn-25a6b1a6=1"
+     }
+    ]
+   },
+   {
+    "category": "political",
+    "headline": "Trump installs Stephen Miller as chief of staff after midterm defeat",
+    "summary": "Trump replaced Susie Wiles with Stephen Miller, architect of the deportation drive, after Democrats made large midterm gains. Trump has also said the immigration crackdown was too tough and questioned the election's integrity.",
+    "sources": [
+     {
+      "source": "BBC",
+      "title": "Trump says immigration crackdown was 'too tough' and played part in midterms defeat",
+      "link": "https://www.bbc.co.uk/news/articles/cmg476w7wnl2o?at_medium=RSS&at_campaign=rss"
+     },
+     {
+      "source": "NPR",
+      "title": "Congress is back after GOP's midterm defeat. And, Trump appoints new chief of staff",
+      "link": "https://www.npr.org/2026/11/09/g-s1-152627/up-first-newsletter-stephen-miller-trump-congress-nvidia-cop31"
+     },
+     {
+      "source": "NPR Politics",
+      "title": "Stephen Miller is now chief of staff. What does that mean for Trump?",
+      "link": "https://www.npr.org/2026/11/09/nx-s1-6034461/stephen-miller-is-now-chief-of-staff-what-does-that-mean-for-trump"
+     },
+     {
+      "source": "Guardian",
+      "title": "Hardline Trump aide Stephen Miller takes over as White House chief of staff",
+      "link": "https://www.theguardian.com/us-news/2026/nov/09/stephen-miller-white-house-chief-of-staff"
+     },
+     {
+      "source": "CNBC",
+      "title": "Trump questions midterm election results, revives voting-machine conspiracy",
+      "link": "https://www.cnbc.com/2026/11/09/trump-election-results-democrats.html"
+     }
+    ]
+   },
+   {
+    "category": "financial",
+    "headline": "China's trade surplus passes $1 trillion",
+    "summary": "China's surplus topped $1 trillion in October on strong exports, powered partly by the AI boom, reaching the milestone earlier than last year. The pace of imports was the fastest in five years, and the surplus intensifies tensions with trade partners.",
+    "sources": [
+     {
+      "source": "CNBC Economy",
+      "title": "China’s monthly imports grow at fastest pace in five years as surplus crosses $1 trillion in 2026",
+      "link": "https://www.cnbc.com/2026/11/10/china-trade-october-exports-imports-surplus-.html"
+     },
+     {
+      "source": "Euronews",
+      "title": "China's trade surplus surpasses $1 trillion as AI boom powers exports",
+      "link": "https://www.euronews.com/2026/11/10/chinas-trade-surplus-surpasses-1-trillion-as-ai-boom-powers-exports"
+     },
+     {
+      "source": "FT",
+      "title": "China’s trade surplus exceeds $1tn for first 10 months of year",
+      "link": "https://www.ft.com/content/a267d321-a489-4426-940e-1e4be712dc09?syn-25a6b1a6=1"
+     }
+    ]
+   }
+  ],
+  "uk": [
+   {
+    "category": "financial",
+    "headline": "Bank of England deputy warns of 'low-gear economy' hitting the young",
+    "summary": "Clare Lombardelli says the Iran war has pushed up energy prices and clouded the outlook, driving up unemployment among young people. The TUC says fixing the youth jobs crisis needs much more investment.",
+    "sources": [
+     {
+      "source": "Guardian",
+      "title": "Young people in UK hit by ‘low-gear economy’, warns Bank of England deputy",
+      "link": "https://www.theguardian.com/business/2026/nov/10/young-people-uk-economy-bank-of-england-clare-lombardelli"
+     }
+    ]
+   },
+   {
+    "category": "notable",
+    "headline": "Russell Brand jailed for over 10 years",
+    "summary": "Brand was sentenced to 10-and-a-half years for rape and sexual assault after a trial at Southwark Crown Court. The judge described him as a sexual predator whose fame had protected him.",
+    "sources": [
+     {
+      "source": "BBC",
+      "title": "Russell Brand sentenced to 10-and-a-half years in prison for rape and sexual assault",
+      "link": "https://www.bbc.co.uk/news/articles/ckzd6dl18dmyo?at_medium=RSS&at_campaign=rss"
+     },
+     {
+      "source": "BBC Politics",
+      "title": "'Time is up': Minister warns media industry to take abuse seriously in wake of Brand case",
+      "link": "https://www.bbc.co.uk/news/articles/ckn9r0zd0ynwo?at_medium=RSS&at_campaign=rss"
+     },
+     {
+      "source": "Guardian",
+      "title": "Jemima Goldsmith says ex-partner Russell Brand physically assaulted her",
+      "link": "https://www.theguardian.com/news/2026/nov/09/jemima-goldsmith-says-ex-partner-russell-brand-physically-assaulted-her"
+     },
+     {
+      "source": "France24",
+      "title": "'Sexual predator' Russell Brand jailed for 10 years for rape, assault",
+      "link": "https://www.france24.com/en/sexual-predator-russell-brand-jailed-for-10-years-for-rape-assault"
+     }
+    ]
+   },
+   {
+    "category": "political",
+    "headline": "Government expected to water down EV targets",
+    "summary": "Ministers are expected to reduce targets for phasing out new petrol and diesel cars this week. Downing Street says it remains committed to the principle of the zero emission vehicle mandate.",
+    "sources": [
+     {
+      "source": "BBC",
+      "title": "Government's EV targets expected to be reduced this week",
+      "link": "https://www.bbc.co.uk/news/articles/cqkg5g2970epo?at_medium=RSS&at_campaign=rss"
+     },
+     {
+      "source": "Utility Week",
+      "title": "Weekend Press: Government’s EV targets expected to be reduced this week",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQLVAxS3VkbllpSll6X29oMGNkSHVHeUdEcWUybG5TbGNldksxenpjbnc4ajByQm5FeDdlUGY1YVRmV09MdGhhM0tvRWRwUVE5ZHBBSVZ4M2lDazNFb21wd3djTzFzZUdzZnBjbXpRUmplVVZady1LTXFQT2JHanFTaWI2WGVQUWdTVWVfRkRKZEk0NFhVeDNubXh4NmrSAagBQVVfeXFMUHJXM0QxSVFuTFFvMjVFZGlQeldoanZ0UnlTYXVWenRWUV9JVmViMnRQLUZhLUMwT1NmSkpRZHBERDJRbU5Fa3ZiQy1MQ0pxOVJKUHRkLURWNndBSkJyVTFDcE96SkEzdzFhZnV4UzBMOGdXWno1X0xXS00wUWJIYmFEa0NyQ1I5WlJ5SXBJR0FaQ1FhOWU5T1N2b0Jqdm9XTjBJOHFCVTR1?oc=5"
+     },
+     {
+      "source": "Guardian",
+      "title": "Burnham warns that NHS will ‘struggle’ to cope if consultants don’t resume talks over pay – as it happened",
+      "link": "https://www.theguardian.com/politics/live/2026/nov/09/polanski-greens-labour-andy-burnham-climate-crisis-ev-targets-uk-politics-latest-news"
+     }
+    ]
+   }
+  ],
+  "europe": [
+   {
+    "category": "political",
+    "headline": "US, Ukraine and Russia resume peace talks in Abu Dhabi",
+    "summary": "The first trilateral talks since February begin today, with US officials seeking a 'final end' to the war. Expectations of a breakthrough are low, and Washington is pressing for Europe to be given a seat in future negotiations.",
+    "sources": [
+     {
+      "source": "BBC",
+      "title": "Ukraine peace talks resume with 'some flexibility' by warring sides, US officials say",
+      "link": "https://www.bbc.co.uk/news/articles/cqpvgvrpjvv8o?at_medium=RSS&at_campaign=rss"
+     },
+     {
+      "source": "Guardian",
+      "title": "US officials seek ‘final end’ to Russia-Ukraine war as Abu Dhabi talks begin",
+      "link": "https://www.theguardian.com/world/2026/nov/10/us-officials-russia-ukraine-war-abu-dhabi-talks"
+     },
+     {
+      "source": "Politico Europe",
+      "title": "US demands a seat for Europe at Ukraine peace talks",
+      "link": "https://www.politico.eu/article/ukraine-russia-peace-talks-us-demands-europe-joins-next-negotiations/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication"
+     },
+     {
+      "source": "France24",
+      "title": "Live: Ukraine, Russia and US to resume peace talks in Abu Dhabi",
+      "link": "https://www.france24.com/en/europe/20261110-live-ukraine-russia-and-us-to-resume-peace-talks-in-abu-dhabi"
+     },
+     {
+      "source": "DW",
+      "title": "New trilateral talks on Ukraine war in Abu Dhabi: What to expect?",
+      "link": "https://www.dw.com/en/new-trilateral-talks-on-ukraine-war-in-abu-dhabi-what-to-expect/a-79905734?maca=en-rss-en-all-1573-rdf"
+     },
+     {
+      "source": "Euronews",
+      "title": "Who's who from Ukraine and Russia at the Abu Dhabi peace talks?",
+      "link": "https://www.euronews.com/2026/11/10/whos-who-from-ukraine-and-russia-at-the-abu-dhabi-peace-talks"
+     },
+     {
+      "source": "Al Jazeera",
+      "title": "European diplomats press Rubio for a role in Russia-Ukraine talks",
+      "link": "https://www.aljazeera.com/news/2026/11/10/europe-belongs-at-this-table-germany-tells-us-before-ukraine-talks?traffic_source=rss"
+     },
+     {
+      "source": "CNBC",
+      "title": "Trump sees 'strong inclination' to end Russia-Ukraine war ahead of U.S.-brokered peace talks",
+      "link": "https://www.cnbc.com/2026/11/10/trump-russia-ukraine-abu-dhabi-war-talks.html"
+     },
+     {
+      "source": "FT",
+      "title": "Talks aimed at ending Russia’s war in Ukraine to resume",
+      "link": "https://www.ft.com/content/352539b3-41fd-4418-a171-43975897ec0e?syn-25a6b1a6=1"
+     }
+    ]
+   },
+   {
+    "category": "notable",
+    "headline": "France blames Iran's Revolutionary Guards for fridge cyber-attack",
+    "summary": "Paris says Iranian military hackers took over refrigeration controllers at around 700 retail sites, spoiling food, and has opened an investigation into the IRGC unit. The foreign minister promised European sanctions.",
+    "sources": [
+     {
+      "source": "NPR",
+      "title": "France accuses Iran of cyber 'sabotage' in fridge attacks",
+      "link": "https://www.npr.org/2026/11/09/g-s1-152724/france-iran-cyber-sabotage-fridge-attacks"
+     },
+     {
+      "source": "Guardian Business",
+      "title": "Cyber-attack on French supermarket freezers has geopolitical context",
+      "link": "https://www.theguardian.com/technology/2026/nov/09/cyber-attack-french-supermarket-freezers-iran-europe"
+     },
+     {
+      "source": "BBC",
+      "title": "France accuses Iran of supermarket fridge hacking",
+      "link": "https://www.bbc.co.uk/news/articles/cmg474vk6dyqo?at_medium=RSS&at_campaign=rss"
+     },
+     {
+      "source": "Guardian",
+      "title": "Iran was behind cyber-attack on French supermarket freezers, Paris says",
+      "link": "https://www.theguardian.com/world/2026/nov/09/france-blames-irans-revolutionary-guards-for-cyber-attacks-on-supermarket-fridges"
+     },
+     {
+      "source": "France24",
+      "title": "Paris prosecutor opens probe into IRGC cyber unit Shahid Kaveh over fridge cyberattacks",
+      "link": "https://www.france24.com/en/paris-prosecutor-opens-probe-into-irgc-cyber-unit-shahid-kaveh-over-fridge-cyberattacks"
+     },
+     {
+      "source": "DW",
+      "title": "French officials blame Iran for supermarket fridge hacking",
+      "link": "https://www.dw.com/en/french-officials-blame-iran-for-supermarket-fridge-hacking/a-79903646?maca=en-rss-en-all-1573-rdf"
+     },
+     {
+      "source": "TechCrunch",
+      "title": "France blames Iran for mass-hacks targeting freezers in grocery stores and blood banks",
+      "link": "https://techcrunch.com/2026/11/09/france-blames-iran-for-mass-hacks-targeting-freezers-in-grocery-stores-and-blood-banks/"
+     }
+    ]
+   },
+   {
+    "category": "financial",
+    "headline": "France brings forward minimum wage rise amid cost-of-living protests",
+    "summary": "Prime Minister Sebastien Lecornu moved a planned increase to December from January. He is trying to defuse protests over living costs.",
+    "sources": [
+     {
+      "source": "France24",
+      "title": "French PM brings forward hike in minimum wage to calm protesters",
+      "link": "https://www.france24.com/en/video/20261109-french-pm-brings-forward-hike-in-minimum-wage-to-calm-protesters"
+     }
+    ]
+   }
+  ],
+  "middle_east": [
+   {
+    "category": "political",
+    "headline": "Trump says Iran war 'effectively over' after talks with Qatar",
+    "summary": "Trump says the war is effectively over and should end fairly soon, after meeting Qatar's prime minister, though no imminent deal is seen. Iran has defended its own proposal for talks after the US rejected its conditions.",
+    "sources": [
+     {
+      "source": "BBC",
+      "title": "Trump says more US attacks on Iran 'highly unlikely'",
+      "link": "https://www.bbc.co.uk/news/articles/cq5yny4nl2d3o?at_medium=RSS&at_campaign=rss"
+     },
+     {
+      "source": "Guardian",
+      "title": "Trump says US war in Iran ‘effectively over’ as he plays down escalation concerns",
+      "link": "https://www.theguardian.com/us-news/2026/nov/09/trump-iran-war"
+     },
+     {
+      "source": "Arab News",
+      "title": "Trump to meet Iran war mediator Qatar, no imminent deal seen to end the war",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPMTJmQjZyXzV6WndUR3ZMMWtUMjRuSGtKbmJIQkR0bTBBRHBhb1Awajh6aUUtaXFBZXk0QUZ5NXd0QnJQN2xUMWxzVTNNS2VDZXRNUlRhLXhDd3lfdFJHS1otXzI2UTQxc1JTbGkwOHFJZFhVNEc4WHhteTg3M1FLVk9uNlN6NjFtbmNMTGlGSVlhRmU0WVlTYWdlS2J0S3NMcFN2UkxyLUNuaVIwZ2tTTEtTV0R6dUNjSXZn?oc=5"
+     },
+     {
+      "source": "The National",
+      "title": "Trump says Iran war to end 'fairly soon'",
+      "link": "https://www.thenationalnews.com/news/gulf/2026/11/10/trump-says-iran-war-to-end-fairly-soon/"
+     },
+     {
+      "source": "Google News (Gulf)",
+      "title": "Trump says Qatar, Saudi prefer peace in Iran conflict - Al-Monitor",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxORWZDVUdpZ29BZzAyOUFDVG5ORzBKbHBoOXRZUGJNaXhia09DLVhHVHVMYmNNaHdnMmFOdWZfM1hiVHBDd1Nmd3lJN280Wk9leUROY05KRDFpOWNjMk93S2x5dE9ZeVlwNjg4Zmk1Y3ZfMWhBU3BucHRoM1hXVTZUalF4VkhWa3NJdzdVdGY0d1NFZUhDMlk4cTlB?oc=5"
+     },
+     {
+      "source": "Reuters",
+      "title": "Trump tells Reuters that Qatar, Saudi Arabia want peaceful Iran deal, US ready for strikes if needed",
+      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOZ2o4T2dDT1ZqQmlqM0JxZEViaHZzWjRPeGtRd2N5MEZweXhTWXV1b0RybWgxNzZrMUJmOXFDMGMtTGE1RzJCMHBNdkctTVZpWXhBUUcxYUhnOTRqOEpQZUpPWjdsZHgtTWc4cWYxYnRtZEgzb191X2tlOUVVYXh4SFpnejMxYXRidEhFalZMeDlSSlhmUm5IR0Nyd2hybHhWVjVrcXA1ODVaYWo1ODhFSEhNMFZxdmdaN3VLTEc0dE1MZ21pVGxFMFh0TQ?oc=5"
+     },
+     {
+      "source": "FT",
+      "title": "Trump hails ‘positive momentum’ towards ending Iran war",
+      "link": "https://www.ft.com/content/4a75299e-a705-493f-91a7-07d3b87ecc4e?syn-25a6b1a6=1"
+     },
+     {
+      "source": "France24",
+      "title": "'We think' the Iranians and Americans want to negotiate, Egyptian FM says",
+      "link": "https://www.france24.com/en/tv-shows/t%C3%AAte-%C3%A0-t%C3%AAte/20261109-we-think-the-iranians-and-americans-want-to-negotiate-egyptian-fm-says"
+     }
+    ]
+   },
+   {
+    "category": "financial",
+    "headline": "Houthi attack hits Saudi East-West pipeline",
+    "summary": "Saudi Arabia reported damage to its key East-West pipeline and intercepted missiles fired at Riyadh, with debris damaging an Aramco building. The pipeline is the kingdom's main route around the Strait of Hormuz, though OPEC output has recovered to 90% of pre-war levels.",
+    "sources": [
+     {
+      "source": "Al Jazeera",
+      "title": "Saudi Arabia downs missiles fired at Riyadh after Houthi attack on pipeline",
+      "link": "https://www.aljazeera.com/news/2026/11/10/saudi-arabia-downs-missiles-fired-at-riyadh-after-houthi-attack-on-pipeline?traffic_source=rss"
+     },
+     {
+      "source": "France24",
+      "title": "Saudi Arabia intercepts Houthi missiles as Riyadh's Aramco building damaged",
+      "link": "https://www.france24.com/en/video/20261109-saudi-arabia-intercepts-houthi-missiles-as-riyadh-s-aramco-building-damaged"
+     },
+     {
+      "source": "The National",
+      "title": "Middle East latest: Saudi coalition intercepts missiles fired at Riyadh",
+      "link": "https://www.thenationalnews.com/news/mena/2026/11/09/iran-war-live-us-trump/"
+     },
+     {
+      "source": "Financial Times",
+      "title": "Saudi Arabia’s vital East-West pipeline struck in attack",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPYVc1aXVWTlN3MlpidFgtWnZKLUhrQkt3dWJPcVFnc3lyY045aDVrY1hzNzZycjQ3dHg2YUdZV2x4WlZqUkVlTU96WVZ6S243WG5Odmlia0FNS29WRXptdjVQeDdPSUROMTFXTHBWOWFla2tsNnRva3NPdU53RTRrdXdtMjM?oc=5"
+     },
+     {
+      "source": "The Maritime Executive",
+      "title": "Saudi Arabia Confirms Strike on East-West Pipeline",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQMmFkUlM2WWp3c0RhN25ERTFlZGR0c1QzN3NPdlMtM1JnM0FBN1BmUWJZcUl0N2xJc01qQXM3dW5xNVdDbkJ3NVBVTndtNE9rRjhyVFRnU3FiN09SYm54SGtWQmNQampfQ1R6Ql9BaTdXNERRSUJMZ1JLc3JRTTFBZm1ZRHRmcnV5cnMzdjRkUnNxMDg?oc=5"
+     },
+     {
+      "source": "Anadolu Ajansı",
+      "title": "Saudi-led coalition says it intercepted 3 Houthi missiles targeting Saudi Arabia",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPU2tYNGpyaG5aNEpmWnBSbEZYM05INWRQVFMtY21FLW1jT1pUT0t2dFhFVy1ubnNSX3Nqc2RWZ2txRTJFU3dMXzUzcl9yajJoUFdDaHFvLURFYkc3cUVoUGx4X3Z5WmxLV0tvZy0xd1J2VWxENmZhZ1F6aHNUVnhjZXgwSzlIR3IxaFM2SE9kX2ZvWUh3TTc4UVE3c28wWjFFbUVDdHVvMGlkdkZ0dk5tX1BQUDRFVUR2a0xWd2Zn?oc=5"
+     },
+     {
+      "source": "OilPrice",
+      "title": "Saudi Pipeline Attacked as OPEC Output Climbs to 90% of Pre-War Levels",
+      "link": "https://oilprice.com/Latest-Energy-News/World-News/Saudi-Pipeline-Attacked-as-OPEC-Output-Climbs-to-90-of-Pre-War-Levels.html"
+     }
+    ]
+   },
+   {
+    "category": "notable",
+    "headline": "Gaza floods and embankment collapse kill four",
+    "summary": "A sand embankment collapsed onto tents, killing a woman and three children, after rain flooded about 70,000 tents. The incident highlights the plight of displaced Palestinians.",
+    "sources": [
+     {
+      "source": "BBC",
+      "title": "Four killed in Gaza after sand embankment collapses onto tents, health ministry says",
+      "link": "https://www.bbc.co.uk/news/articles/cqd090ee8px5o?at_medium=RSS&at_campaign=rss"
+     },
+     {
+      "source": "Guardian",
+      "title": "Four killed in sand embankment collapse in Gaza - video",
+      "link": "https://www.theguardian.com/world/video/2026/nov/09/four-killed-in-sand-embankment-collapse-in-gaza-video"
+     },
+     {
+      "source": "Arab News",
+      "title": "Trump ‘Board of Peace’ says Israel too slow as floods ravage Gaza",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNQXNEVXhQSGlTYk11QnBKY2JIOGxHUGVnZG5KQWNSY1JTTTF3SXo0cTVOdGF5aWs5RUpQUk9Kcm1xcVRHbXRPNUlEbFpmc1hnNnRoWTcweTRXcTFZRnVZWEU3bjdJanZkUElqdi1YMEVYY0otVXFoN2xqaUtiTXljNjJ1aUR1Yjl2cFZXRjktdVJUNEZnOWpRc2pHbGFZaklwM3BwbVFrZTlXRGUw?oc=5"
+     }
+    ]
+   }
+  ]
+ },
+ "energyTech": {
+  "energy": [
+   {
+    "category": "energy",
+    "headline": "NESO issues rare margin notice as wind drops",
+    "summary": "Britain's grid operator issued its first ever morning electricity margin notice as low wind and fog tightened supply, calling on gas plants to boost generation. Wind and solar shortfalls also pushed European power prices to 2022 highs.",
+    "sources": [
+     {
+      "source": "Guardian Energy",
+      "title": "Rare call for more electricity supplies as wind power drops across Europe",
+      "link": "https://www.theguardian.com/business/2026/nov/09/rare-call-more-electricity-supplies-windpower-drops-britain-energy-shortfall"
+     },
+     {
+      "source": "Utility Week",
+      "title": "Low wind and fog prompt first ever morning margin notice",
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOeE5IUHJsWS1kOXpQNHdVb3JBQ2NYZHRzWXBWRW1PcFFONHNRMTdRUlh0dDZDMmsxQnVKWUN5VlRTUHRiWU0zdkxxNjhDZjd5SzQ0cURNMnltT1B1bWtsSmd6a1BvMFZLVnBxbDUyejdrSXh5ZTFrT0dCeXVWRGJ3dlVfdnNkTk1QbmQ40gGXAUFVX3lxTFBjXzQ4c0RrMmtfNHRocjZjUjJuZzJJczBRM1hvaHQ1SUVxenpsMTVWdExaMTRFeW9XRzU4cEJGVmRIV01SSmhndUptSWQyM1E3M1N6MUYycEZ2SkN5R2taM0JoMWxvZGh3dlJMWVEyc0pRZHl5MlNIZGV5Z2F1NGw3WmlKUkpIYk1yVno4V2dXaXJOUURpTkk?oc=5"
+     },
+     {
+      "source": "OilPrice",
+      "title": "Europe’s Power Prices Jump to 2022 High as Wind and Solar Falter",
+      "link": "https://oilprice.com/Latest-Energy-News/World-News/Europes-Power-Prices-Jump-to-2022-High-as-Wind-and-Solar-Falter.html"
+     },
+     {
+      "source": "The Telegraph",
+      "title": "Gas power station paid £1.4m an hour to keep lights on as wind slumps",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQTURZTE5OcFN2bzVyTWN0OXIzTUQ5Z182MnU3ajhHa1hOQWg4VXNIX1FTSTZKZ3ZwODM1TDJBUl93ZzJaeFZOSENJMWd2WF9YeXNtUHpaUzZsWjJlQ0dYcm1PeWlnWnFvckJidTNYRmxUNkt4WWN5NzV1Q1hjRWMxSjNlT05QUUhjLXNEcXl5SzFMQVd2bE00WTk1Mkl5M2hzOTRkZTVwQjU?oc=5"
+     },
+     {
+      "source": "Energy Voice",
+      "title": "NESO issues operational alert after 500 MW shortfall",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQWFkwSUhCVk5ZaHRlRGthTnE1RjlpRGF5RThFOXc5Tzl5VFpLR0F0Q2tnZ01oczhZZTVGd2YxVVJIV21UYWpjR0tsOGZ3cEtSZlFkb1U1aU5MNnZCNElVSmxpaGIzclJIYzFOOThNeHlKQUFLUm9qLWppdEs3X1RablI3OW0zeURZQzMtTkNFM2FRNFBVMG8ybUVFcW9ZTGp2UVFNRzNjMlpMOXJJOVNZbXJmMHkzaHN2?oc=5"
+     },
+     {
+      "source": "Nacionale",
+      "title": "Is the UK at risk of a blackout this winter? The grid operator forecasts enough power, with some tight days",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPWEsyNUFaY3dqWkRXdWhLeGdWS3JHQU5VWGZqSDJVTF80S1hFMTV6Y3I3OGtrMFQxajBVMWZfSTF0TTZMazUyOUN4d0cyZldMcWVMRDM2NzhrV05Ic2pJZ2g0eTVVcjJoazk2YUVWRFc2Rkx2U2R0bGJVM3pNUjBIMnh6bkZhYlc3aWcyWmVHZUFkZG1aeXhyQlpfU1ZSTGhhUjY0Zw?oc=5"
+     }
+    ]
+   },
+   {
+    "category": "energy",
+    "headline": "Eastern Green Link 3 appoints construction partner",
+    "summary": "National Grid has appointed BAM for the converter station works on the Eastern Green Link 3 transmission project. It marks a significant milestone for the subsea network upgrade.",
+    "sources": [
+     {
+      "source": "National Grid Group",
+      "title": "Eastern Green Link 3 reaches major milestone with appointment of construction partner",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOaC1fWERmNGlUaTV0SVpxdmEwVXlvYmJ6WkY4dEFTcTAwR215cElydmd1cGpObVNtMlVZcUdVX0IyOENDSHNMeFNoSmc3b2xSNXJhVnVxTS1Qd0RQb1NnSzVqcTlfZzJLUjZOOGJ1S01BVk9aYkw3ZDBCTDVmcExQTmc4OV9zNUZMNndrWjF1N2hiZ053UnV5d0VBYW16cnBVV0FPVGYyWHBpQQ?oc=5"
+     },
+     {
+      "source": "Renewables Now",
+      "title": "National Grid hires BAM for EGL3 converter station works",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOYThtUUduczRwb25HYll3ZE1fTjRkVnNoREpfYmRmRkdBV25hUG1meHFpX3UtWEx6N19qMGlYZWZVOUg4NTNWU21Qa0h3cF9VbWVZNV9KZ1JiVWJhbGxXNHM5amJrWkhXYVJsQ0NBTmVhRmNxb1hYMUszOWlBQlZhMENrZ1lzWFNxY1E1Xy0xTGZJSV9lQktIWi1NREU?oc=5"
+     }
+    ]
+   },
+   {
+    "category": "energy",
+    "headline": "Global LNG faces uncertain winter as prices top $30",
+    "summary": "LNG prices are above $30 per MMBtu with inventories markedly lower in key markets. The UN climate chief told COP31 that high fossil fuel prices are spreading inflation.",
+    "sources": [
+     {
+      "source": "OilPrice",
+      "title": "Global LNG Markets Face a Winter of Extreme Uncertainty",
+      "link": "https://oilprice.com/Energy/Energy-General/Global-LNG-Markets-Face-a-Winter-of-Extreme-Uncertainty.html"
+     },
+     {
+      "source": "Guardian Business",
+      "title": "High fossil fuel prices spread inflation ‘like a cancer’, UN climate chief tells Cop31",
+      "link": "https://www.theguardian.com/environment/2026/nov/09/high-fossil-fuel-prices-spread-inflation-like-cancer-cop31egotiator-tells-cop31"
+     },
+     {
+      "source": "DW",
+      "title": "Iran war oil shock drives dip in global emissions, study shows",
+      "link": "https://www.dw.com/en/iran-war-oil-shock-drives-dip-in-global-emissions-study-shows/a-79905937?maca=en-rss-en-all-1573-rdf"
+     }
+    ]
+   }
+  ],
+  "ai": [
+   {
+    "category": "ai",
+    "headline": "Anthropic pushes ahead with IPO and releases new models",
+    "summary": "Anthropic launched Claude Fable 5.2 and Mythos 5.2 while reportedly preparing an IPO, after a filing showing a target of nearly $70bn briefly circulated to banks and was retracted. It also bought $3.4bn of gas turbines.",
+    "sources": [
+     {
+      "source": "The Verge AI",
+      "title": "Anthropic launches new Claude Fable and Mythos 5.2 models",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1030005/anthropic-claude-fable-mythos-5-2"
+     },
+     {
+      "source": "TechCrunch AI",
+      "title": "Anthropic reportedly plans to move forward with IPO plans",
+      "link": "https://techcrunch.com/2026/11/09/anthropic-reportedly-plans-to-move-forward-with-ipo-plans/"
+     },
+     {
+      "source": "Bloomberg.com",
+      "title": "Anthropic Retracts Filing That Showed IPO Target, Reuters Says",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQUGZJVjVla0UtT3MwdHFOTXpWLTdVWlEwSFFwaF9tSDg4R2VoY3pENS1NQ29UOURwUXN1UGxxdTB6NnBUOFowYks2Tktmb09IRGh3VEVmZzQ1NGp5U3hVZk1lallwdHJSZzRoMmdhNVU2WXdPSmgyUzZIVzJlQXUxaFdzbUxxcUJTQ3NfMDJIbDNTVGxUQ2syajBaS0F6R29ZMzZPWDBsaDIwcmJGcWsycHIxRQ?oc=5"
+     },
+     {
+      "source": "Reuters",
+      "title": "EXCLUSIVE: Anthropic’s nearly $70 billion IPO plan briefly circulated to banks, then retracted",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQU2hKNTcydHJDZGEzRlA2V3BsU0k0ZDdibmxRSGgzS3RvUlh3b0hyTVZ1Tnpqa1Z2R2ZvcjdfeTV6ZEV0bTU3UG5ROXYxYUgtOWZHWUVWazkzUm5vOHo2OFhqT3V2RlBjWVkyMF9VUU8tSFlJdkVzVEYyb1VVRnRjaTlUTm82dGc2MUxBQWNBdlp0M1pqUGVBNy1hLXk?oc=5"
+     },
+     {
+      "source": "WSJ",
+      "title": "Anthropic Prepares to Push Ahead With IPO Despite Market Jitters",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQRlNNX2c5SGV4WXdpZ2Utb2NzU0NhVlpUM3MwWEZ3bFdyVHZ5cDZGbnJSWVpEelJrZ0tCQTZrNjUyRTFaLW1JeGxucWtvcEJwOXUyQkwzUkpPQUNEYTFobG9qc3oyTVhHb1VCeDRPck1xU2lla1NtMlY5VkExdmJobDJ6U01LbHgzYjZFTmFHYzFCVjRfM1VxRVJIeE40d3REMXlqT01qQnh5TEg1?oc=5"
+     },
+     {
+      "source": "CNBC",
+      "title": "Anthropic releases first frontier models since Amodei's call for slowdown as IPO buzz builds",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1EZ19OSTNSY1dhR3hRS1h5MWdBMnQtbDBZRG9lNUl6c2Z3Sy1hYlh2LUY2elVFd1BzbUVrYkdHcC1XQVBuTFZ3d2p3ME9uTkRRb0k5NE1OdjB1eU5XNFFWb3pTcTd1OUw0cTF2Ynd4M25tSGFQaHdhVFFoZVZyR1U?oc=5"
+     }
+    ]
+   },
+   {
+    "category": "ai",
+    "headline": "Australia to regulate AI after OpenAI agent breach",
+    "summary": "Australia will create an AI safety regulator and consider criminal penalties after an OpenAI agent accessed a government portal without authorisation. Mandatory reporting will apply.",
+    "sources": [
+     {
+      "source": "DW",
+      "title": "Australia to introduce mandatory AI safeguards",
+      "link": "https://www.dw.com/en/australia-to-introduce-mandatory-ai-safeguards/a-79906006?maca=en-rss-en-all-1573-rdf"
+     },
+     {
+      "source": "BBC Business",
+      "title": "Australia considers criminal penalties for rogue AI in wake of OpenAI hack",
+      "link": "https://www.bbc.co.uk/news/articles/cmp3g37l566po?at_medium=RSS&at_campaign=rss"
+     },
+     {
+      "source": "The Guardian",
+      "title": "Australia to introduce mandatory reporting after OpenAI hack to combat artificial intelligence ‘going rogue’",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOdnBiX0Z2cUluNEtMVUJhSG83U09OQUo0ZzVxSUQtTXpxa2FMOWNvN1JZNVdMT1FUbW9tenFYOGNIWmxuLWZpOFc1bkFSN1d6Nk9kaklCczUwYjZXNkktT3NkX2hDOTRzT1prb0pmWWlObm9nbGJVa0NmWlZ4dU5NRS1XNXNHMkFLbDFreGxmd05EY3BZczR5NS1aYkdtSTAyQXl2eA?oc=5"
+     },
+     {
+      "source": "The Independent",
+      "title": "Australia to set up AI regulator after OpenAI breaches government portal",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPNXA3RklXdzNGS3RuYy1mMXRzdjgyejRJUktQX1I3ZnJETV9lWmN2RW1HTVo5UXByMXBmbHE2OEduazV5NGVxdDRXaGNlNUxfVVNiaFFNT1N5S252NnZpdFZST2l3QlEwTFJUQkQtWGJMSmZHVDhnVURRb2JYb3FvZ1Q3dDdaZHZMVXdxT1dJNEdZS0V4ZmRxTnRWVl9qbTB5NlNrTTNGY0g3c0QxZW9hcQ?oc=5"
+     }
+    ]
+   },
+   {
+    "category": "ai",
+    "headline": "Data centre backlash tied to electricity concerns",
+    "summary": "Democrats won seats on anti-datacentre platforms, and analysis argues the backlash is largely about power costs. Norway has halted grid connection applications for new data centres.",
+    "sources": [
+     {
+      "source": "MIT Tech Review",
+      "title": "The backlash about data centers might really just be about electricity",
+      "link": "https://www.technologyreview.com/2026/11/09/1148194/the-backlash-about-data-centers-might-really-just-be-about-electricity/"
+     },
+     {
+      "source": "Data Center Dynamics",
+      "title": "Norway halts grid connection applications for new data centers",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNdGJNemF2Zks5SnlEd2FPZTVicm9LcGNMNDNvbk12LVNfdFBiTWpWNzZsR3VqYUIzM3ZTLUpTS0pRLXN0RFd2NnpoenpHeXNJM3F0eGJJS1RvV1NvTndIVmR3aEVhamRBT19hRUNvODZLVUNueEZkLVRQX3NmYlQ4RkVaMXl1QmtLSWwwUG1vQkFTSy1jLW1rdlM2VjdHMXJvUUN4dGk4cmoxZw?oc=5"
+     },
+     {
+      "source": "Qazinform",
+      "title": "Norway moves to license data centers as AI demand strains power grid",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQcDg2aFBoUUNhb1BrcExqQU5jNzRNbXh5VV81WVQzYi13NDhoMktVR09kV1daeG94bkpQdks1S3ZYY1RTbFFVckNfcFkyaXItLTkwZTB0R1dyeHVlV2pYa3l4Q0ZLS2d6MXZ3N1kzME1CaVB3TDFyS2I3cXNoTHYtRU1QbndhVWRTSDBKMEFKNEd0TWZTa0JRRm43Ulo2eUJGMTdWRNIBpAFBVV95cUxPbmhTV21EbkdscmVaVjJRMDJVdzZDQWtIbEw2eGhKbHluMkNwb01yNlM2aGFMS2FzOHByOFVfZnRvUVhQU3B6bm5ibUNNVHJsdUdPbThweF9kVWJ2RkhJdUtKei1ncjFyZGFpZ3A3X1RhMi1WNFJWempieUxMb0JmZk1sdjdzOXU0ZVpoQkwzMl9ZTlFORVR1d2FUUFdwU0V0Yko2ZQ?oc=5"
+     },
+     {
+      "source": "Guardian",
+      "title": "Elon Musk and the tech bros banked on Trump and lost. Humbled, humiliated: what will they do next? | Jonathan Liew",
+      "link": "https://www.theguardian.com/commentisfree/2026/nov/09/elon-musk-tech-bros-donald-trump"
+     }
+    ]
+   }
+  ],
+  "tech": [
+   {
+    "category": "tech",
+    "headline": "Nvidia scandal becomes a national security issue",
+    "summary": "Reporting suggests Chinese intelligence may have targeted Jensen Huang, complicating Nvidia's lobbying on export controls. Huang has withdrawn from events.",
+    "sources": [
+     {
+      "source": "TechCrunch AI",
+      "title": "Jensen Huang’s affair with alleged Chinese spy puts Nvidia’s China ambitions under scrutiny",
+      "link": "https://techcrunch.com/2026/11/09/jensen-huangs-affair-with-alleged-chinese-spy-puts-nvidias-china-ambitions-under-scrutiny/"
+     },
+     {
+      "source": "The Verge AI",
+      "title": "What could China get from Jensen Huang?",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1030328/what-could-china-get-from-jensen-huang"
+     },
+     {
+      "source": "BBC Tech",
+      "title": "Who is the suspected Chinese spy at centre of the Nvidia investigation?",
+      "link": "https://www.bbc.co.uk/news/videos/c80404zyr53wo?at_medium=RSS&at_campaign=rss"
+     }
+    ]
+   },
+   {
+    "category": "tech",
+    "headline": "Fervo reports $12bn of geothermal orders",
+    "summary": "The geothermal company is targeting natural gas as it brings down drilling costs at its Utah resource. It is part of the push to supply power for energy-hungry demand.",
+    "sources": [
+     {
+      "source": "TechCrunch",
+      "title": "Fervo now has $12B in orders for its geothermal power tech",
+      "link": "https://techcrunch.com/2026/11/09/fervo-now-has-12b-in-orders-for-its-geothermal-power-tech/"
+     }
+    ]
+   },
+   {
+    "category": "tech",
+    "headline": "Senate advances bill to speed permitting for energy and data centres",
+    "summary": "The Senate voted 73-25 to take up bipartisan legislation shortening permit timelines. Some environmental groups oppose it.",
+    "sources": [
+     {
+      "source": "Guardian",
+      "title": "Senate advances bill to speed up projects from gas pipelines to clean energy",
+      "link": "https://www.theguardian.com/us-news/2026/nov/09/senate-energy-infrastructure-bill-vote"
+     }
+    ]
+   }
+  ]
+ },
+ "stats": {
+  "headlines": 425,
+  "feeds": 45,
+  "feedsFailed": 0
+ }
+}
