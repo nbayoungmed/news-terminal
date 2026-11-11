@@ -1,0 +1,1394 @@
+{
+ "date": "2026-11-11",
+ "dateLabel": "Wednesday, 11 November 2026",
+ "generatedAt": "2026-11-11T08:53:20.101Z",
+ "mode": "ai",
+ "model": "claude-sonnet-5-5",
+ "error": null,
+ "headlineOfDay": "US inflation runs hot and the 10-year yield nears 5%, with a Fed hike now in view, as Nvidia's spy-affair scandal rattles tech and Anthropic's IPO nears.",
+ "markets": {
+  "summary": "Wall Street fell, with the Nasdaq down 0.74% and the S&P 500 off 0.38%, as a hotter-than-expected US inflation reading pushed the 10-year Treasury yield back towards 5%. Nvidia fell 5.47% amid its CEO scandal, while European and UK shares rose, helped by miners and a firmer copper price.",
+  "indices": [
+   {
+    "symbol": "^GSPC",
+    "label": "S&P 500",
+    "price": 7520.93017578125,
+    "asOf": "2026-11-10",
+    "d1": -0.3842383628232763,
+    "w1": -0.6340369113306963,
+    "m1": -3.6672377177935047,
+    "ytd": 9.866776360839237,
+    "spark": [
+     7807.2402,
+     7805.4502,
+     7718.9399,
+     7744.0601,
+     7659.4399,
+     7690.73,
+     7712.5698,
+     7757.1699,
+     7663.4302,
+     7623.6802,
+     7676.77,
+     7722.6001,
+     7743.98,
+     7720.3901,
+     7580.0698,
+     7541.3999,
+     7568.9199,
+     7688.6201,
+     7353.73,
+     7376.8599,
+     7549.9399,
+     7520.9302
+    ]
+   },
+   {
+    "symbol": "SPUS",
+    "label": "S&P 500 Shariah",
+    "sub": "via SPUS ETF",
+    "price": 56.689998626708984,
+    "asOf": "2026-11-10",
+    "d1": -0.874278741049819,
+    "w1": -2.1742918371733193,
+    "m1": -6.405813253531822,
+    "ytd": 11.004501596764909,
+    "spark": [
+     60.57,
+     60.53,
+     59.67,
+     59.72,
+     58.82,
+     59.21,
+     59.28,
+     59.78,
+     58.81,
+     58.66,
+     59.3,
+     59.87,
+     60.11,
+     59.77,
+     58.42,
+     57.61,
+     57.95,
+     58.66,
+     55.41,
+     55.72,
+     57.19,
+     56.69
+    ]
+   },
+   {
+    "symbol": "^IXIC",
+    "label": "Nasdaq",
+    "price": 25065.869140625,
+    "asOf": "2026-11-10",
+    "d1": -0.741577006820315,
+    "w1": -1.2066077060035323,
+    "m1": -8.001318432295685,
+    "ytd": 7.8473439144315424,
+    "spark": [
+     27245.9004,
+     27204.3809,
+     26692.8691,
+     26713.0293,
+     26140.0293,
+     26430.8906,
+     26424.8203,
+     26702.8594,
+     26008.8594,
+     25955.3398,
+     26169.3809,
+     26477.8105,
+     26549.8496,
+     26184.7207,
+     25437,
+     25164.3105,
+     25372.0098,
+     25736.5098,
+     24315,
+     24579.4297,
+     25253.1406,
+     25065.8691
+    ]
+   },
+   {
+    "symbol": "^DJI",
+    "label": "Dow Jones",
+    "price": 52231.890625,
+    "asOf": "2026-11-10",
+    "d1": -0.30131729011877323,
+    "w1": 0.8596255676075248,
+    "m1": 0.7354595814397765,
+    "ytd": 8.673150847165871,
+    "spark": [
+     51850.5508,
+     51670.1016,
+     51621.4805,
+     52177.6914,
+     52002.4102,
+     51966.0313,
+     52495.8789,
+     52856.0898,
+     52867.9805,
+     52215.1602,
+     52361.5781,
+     52377.5703,
+     52475.1016,
+     52342.5586,
+     51770.3086,
+     51983.9805,
+     51786.7188,
+     53356.1211,
+     51523.0586,
+     51285.7305,
+     52389.75,
+     52231.8906
+    ]
+   },
+   {
+    "symbol": "^FTSE",
+    "label": "FTSE 100",
+    "price": 10833.26953125,
+    "asOf": "2026-11-11",
+    "d1": 0.7596071732785401,
+    "w1": 0.03757743752176123,
+    "m1": 1.717977239307102,
+    "ytd": 9.080986619735345,
+    "spark": [
+     10650.2998,
+     10724.9004,
+     10840.4004,
+     10881.9004,
+     10764.7002,
+     10733,
+     10752.9004,
+     10725,
+     10690.4004,
+     10767.2998,
+     10686.5,
+     10694.5,
+     10722.0996,
+     10729.7998,
+     10761.2998,
+     10638.4004,
+     10829.2002,
+     10782.7002,
+     10673.9004,
+     10782.9004,
+     10751.5996,
+     10833.2695
+    ],
+    "note": "Gains were led by mining stocks as commodity prices recovered."
+   },
+   {
+    "symbol": "^STOXX50E",
+    "label": "Euro Stoxx 50",
+    "price": 6396.31005859375,
+    "asOf": "2026-11-11",
+    "d1": 1.0815636247077236,
+    "w1": 2.084362322393696,
+    "m1": 3.7181762585633167,
+    "ytd": 10.3531236134405,
+    "spark": [
+     6167.0098,
+     6190.3701,
+     6168.2598,
+     6204.23,
+     6144.8101,
+     6121.6602,
+     6207.52,
+     6087.0098,
+     6068.2202,
+     6116.23,
+     6164.6899,
+     6167.8101,
+     6207.0698,
+     6131.3101,
+     6176.0601,
+     6144.5601,
+     6265.71,
+     6231.54,
+     6170.4902,
+     6290.4502,
+     6327.8701,
+     6396.3101
+    ]
+   },
+   {
+    "symbol": "^TASI.SR",
+    "label": "Tadawul (Saudi)",
+    "price": 10229.72,
+    "asOf": "2026-11-11",
+    "d1": 0.6060129227682555,
+    "w1": null,
+    "m1": null,
+    "ytd": null,
+    "spark": []
+   }
+  ],
+  "commodities": [
+   {
+    "symbol": "GC=F",
+    "label": "Gold",
+    "unit": "$/oz",
+    "price": 4067,
+    "asOf": "2026-11-11",
+    "d1": 0.9131072719462597,
+    "w1": -0.14731156395777067,
+    "m1": -2.6404569900328574,
+    "ytd": -6.31406997051821,
+    "spark": [
+     4177.2998,
+     4107.8999,
+     4170.1001,
+     4181.1001,
+     4160.1001,
+     4142.6001,
+     4150,
+     4060.3999,
+     4007.8999,
+     4038.3999,
+     4074.6001,
+     4051.6001,
+     4031.3999,
+     3898.8999,
+     3969.6001,
+     3940.3999,
+     4073,
+     4113.5,
+     4074.8999,
+     4114.5,
+     4030.2,
+     4067
+    ]
+   },
+   {
+    "symbol": "SI=F",
+    "label": "Silver",
+    "unit": "$/oz",
+    "price": 53.04999923706055,
+    "asOf": "2026-11-11",
+    "d1": 3.814010354423219,
+    "w1": 1.7843444440418958,
+    "m1": -10.32944022842403,
+    "ytd": -24.359088023371832,
+    "spark": [
+     59.161,
+     55.55,
+     56.837,
+     56.995,
+     56.974,
+     57.706,
+     57.422,
+     54.764,
+     53.711,
+     54.108,
+     54.293,
+     53.457,
+     52.191,
+     49.097,
+     50.72,
+     49.587,
+     52.12,
+     52.233,
+     51.803,
+     52.564,
+     51.101,
+     53.05
+    ]
+   },
+   {
+    "symbol": "BZ=F",
+    "label": "Brent crude",
+    "unit": "$/bbl",
+    "price": 91.79000091552734,
+    "asOf": "2026-11-11",
+    "d1": 0.32790803231247545,
+    "w1": -2.9909128608188675,
+    "m1": -13.15167111816935,
+    "ytd": 50.8463487547411,
+    "spark": [
+     105.69,
+     106.06,
+     105.92,
+     109.86,
+     109.55,
+     108.79,
+     108.82,
+     113.17,
+     116.72,
+     115.81,
+     113.88,
+     115.32,
+     114.88,
+     117.64,
+     104.77,
+     103.6,
+     94.62,
+     98.29,
+     98.32,
+     92.57,
+     91.49,
+     91.79
+    ]
+   },
+   {
+    "symbol": "CL=F",
+    "label": "WTI crude",
+    "unit": "$/bbl",
+    "price": 86.16000366210938,
+    "asOf": "2026-11-11",
+    "d1": 0.13947320467819146,
+    "w1": -2.224238564891193,
+    "m1": -8.476732291562493,
+    "ytd": 50.05225776671591,
+    "spark": [
+     94.14,
+     95.09,
+     97.97,
+     101.41,
+     103.66,
+     101.79,
+     97.15,
+     99.47,
+     103.27,
+     101.76,
+     99.9,
+     102.78,
+     102,
+     104.12,
+     96.46,
+     96.09,
+     88.12,
+     90.52,
+     90.83,
+     86.85,
+     86.04,
+     86.16
+    ]
+   },
+   {
+    "symbol": "HG=F",
+    "label": "Copper",
+    "unit": "$/lb",
+    "price": 6.320000171661377,
+    "asOf": "2026-11-11",
+    "d1": 1.615887221860647,
+    "w1": -1.296262811973491,
+    "m1": -5.3608835439840155,
+    "ytd": 12.255773413762688,
+    "spark": [
+     6.678,
+     6.6115,
+     6.5115,
+     6.531,
+     6.538,
+     6.5665,
+     6.543,
+     6.3625,
+     6.476,
+     6.508,
+     6.622,
+     6.6415,
+     6.581,
+     6.4585,
+     6.5435,
+     6.3785,
+     6.403,
+     6.249,
+     6.218,
+     6.3285,
+     6.2195,
+     6.32
+    ]
+   },
+   {
+    "symbol": "NG=F",
+    "label": "US natural gas",
+    "unit": "$/MMBtu",
+    "price": 3.3310000896453857,
+    "asOf": "2026-11-11",
+    "d1": 1.0618958067409092,
+    "w1": 12.571813623232266,
+    "m1": 1.4620803346429532,
+    "ytd": -9.63103658716039,
+    "spark": [
+     3.283,
+     3.198,
+     3.236,
+     3.116,
+     3.058,
+     2.963,
+     2.79,
+     2.796,
+     2.64,
+     2.602,
+     2.697,
+     2.817,
+     2.952,
+     2.898,
+     2.856,
+     2.895,
+     2.959,
+     2.947,
+     2.998,
+     3.218,
+     3.296,
+     3.331
+    ]
+   }
+  ],
+  "rates_fx": [
+   {
+    "symbol": "GBPUSD=X",
+    "label": "GBP/USD",
+    "price": 1.3320013284683228,
+    "asOf": "2026-11-11",
+    "d1": -0.9057564859440173,
+    "w1": -0.8498228877526564,
+    "m1": 0.8343606005858583,
+    "ytd": -1.0929084126338928,
+    "spark": [
+     1.321,
+     1.3257,
+     1.323,
+     1.3273,
+     1.3336,
+     1.3308,
+     1.3373,
+     1.3396,
+     1.3404,
+     1.3378,
+     1.3345,
+     1.3306,
+     1.3328,
+     1.3379,
+     1.3386,
+     1.341,
+     1.3434,
+     1.3477,
+     1.3456,
+     1.336,
+     1.3442,
+     1.332
+    ]
+   },
+   {
+    "symbol": "EURUSD=X",
+    "label": "EUR/USD",
+    "price": 1.1150758266448975,
+    "asOf": "2026-11-11",
+    "d1": -0.6389363001222423,
+    "w1": -0.504014437124667,
+    "m1": -0.08474804387329536,
+    "ytd": -5.07805543200597,
+    "spark": [
+     1.116,
+     1.1204,
+     1.1195,
+     1.1213,
+     1.1225,
+     1.1216,
+     1.1227,
+     1.1235,
+     1.1221,
+     1.1218,
+     1.1174,
+     1.113,
+     1.1156,
+     1.1183,
+     1.1157,
+     1.1192,
+     1.1207,
+     1.1235,
+     1.1228,
+     1.1147,
+     1.1222,
+     1.1151
+    ]
+   },
+   {
+    "symbol": "^TNX",
+    "label": "US 10Y yield",
+    "unit": "%",
+    "price": 4.982999801635742,
+    "asOf": "2026-11-10",
+    "d1": 2.446545268601772,
+    "w1": 0.6260028192322132,
+    "m1": -4.904579784505994,
+    "ytd": 19.697325817564376,
+    "spark": [
+     5.24,
+     5.217,
+     5.19,
+     5.089,
+     5.098,
+     5.136,
+     5.117,
+     5.146,
+     4.953,
+     4.988,
+     4.986,
+     4.993,
+     5.045,
+     4.989,
+     4.929,
+     4.894,
+     4.952,
+     4.894,
+     4.837,
+     4.859,
+     4.864,
+     4.983
+    ],
+    "note": "Yield rose towards 5% after hotter-than-expected US inflation data and Waller's comments on a possible December hike."
+   }
+  ],
+  "movers": {
+   "sp500": {
+    "gainers": [
+     {
+      "ticker": "CHTR",
+      "name": "Charter Communications",
+      "price": 134.06,
+      "d1": 10.61056105610561,
+      "shariah": false
+     },
+     {
+      "ticker": "TTWO",
+      "name": "Take-Two Interactive",
+      "price": 224.64,
+      "d1": 8.312439729990347,
+      "shariah": false
+     },
+     {
+      "ticker": "CVS",
+      "name": "CVS Health",
+      "price": 89.01,
+      "d1": 4.410557184750739,
+      "shariah": false
+     },
+     {
+      "ticker": "AKAM",
+      "name": "Akamai Technologies",
+      "price": 83.71,
+      "d1": 4.25955909826876,
+      "shariah": false
+     },
+     {
+      "ticker": "EQT",
+      "name": "EQT Corporation",
+      "price": 52,
+      "d1": 4.187537567621726,
+      "shariah": false
+     }
+    ],
+    "losers": [
+     {
+      "ticker": "SKYD",
+      "name": "Skydance",
+      "price": 8.04,
+      "d1": -7.586206896551727,
+      "shariah": false
+     },
+     {
+      "ticker": "MRNA",
+      "name": "Moderna",
+      "price": 250.83,
+      "d1": -6.754646840148694,
+      "shariah": false
+     },
+     {
+      "ticker": "FSLR",
+      "name": "First Solar",
+      "price": 180.98,
+      "d1": -5.547727154115142,
+      "shariah": true
+     },
+     {
+      "ticker": "NVDA",
+      "name": "Nvidia",
+      "price": 168.89,
+      "d1": -5.473778474282198,
+      "shariah": true,
+      "note": "Fell as the CEO scandal over an alleged Chinese spy deepened and the board launched an investigation."
+     },
+     {
+      "ticker": "LEN",
+      "name": "Lennar",
+      "price": 86.66,
+      "d1": -5.372352041930554,
+      "shariah": false
+     }
+    ],
+    "coverage": 503
+   },
+   "ftse100": {
+    "gainers": [
+     {
+      "ticker": "ICG",
+      "name": "ICG",
+      "price": 2028,
+      "d1": 3.840245775729647
+     },
+     {
+      "ticker": "SPX",
+      "name": "Spirax Group",
+      "price": 7625,
+      "d1": 3.6709721278042147
+     },
+     {
+      "ticker": "ANTO",
+      "name": "Antofagasta plc",
+      "price": 3348,
+      "d1": 3.525046382189239
+     },
+     {
+      "ticker": "PCT",
+      "name": "Polar Capital Technology Trust",
+      "price": 583.971,
+      "d1": 2.9023788546255513
+     },
+     {
+      "ticker": "GLEN",
+      "name": "Glencore",
+      "price": 517.702,
+      "d1": 2.5965120887831894
+     }
+    ],
+    "losers": [
+     {
+      "ticker": "JD",
+      "name": "JD Sports",
+      "price": 96.76,
+      "d1": -0.860655737704907
+     },
+     {
+      "ticker": "DGE",
+      "name": "Diageo",
+      "price": 1882,
+      "d1": -0.7122131363756266
+     },
+     {
+      "ticker": "CCH",
+      "name": "Coca-Cola HBC",
+      "price": 4234,
+      "d1": -0.3295668549905838
+     },
+     {
+      "ticker": "EXPN",
+      "name": "Experian",
+      "price": 2966,
+      "d1": -0.3025210084033613
+     },
+     {
+      "ticker": "REL",
+      "name": "RELX",
+      "price": 2963.106,
+      "d1": -0.2992597577388889
+     }
+    ],
+    "coverage": 100
+   },
+   "shariahListAvailable": true
+  },
+  "stories": [
+   {
+    "category": "economy",
+    "headline": "Hot US inflation and Waller comments lift rate-hike bets",
+    "summary": "US consumer prices rose 0.4% in October, more than expected, and Fed Governor Waller said he is leaning towards a December rate rise, possibly of half a point. The 10-year Treasury yield rose to nearly 5%, weighing on equities.",
+    "sources": [
+     {
+      "source": "CNBC Economy",
+      "title": "Consumer prices rose 0.4% in October, more than expected, complicating Fed's inflation fight",
+      "link": "https://www.cnbc.com/2026/11/10/cpi-inflation-report-october-2026.html"
+     },
+     {
+      "source": "BBC",
+      "title": "US inflation higher than expected in October - here's what is happening with prices",
+      "link": "https://www.bbc.co.uk/news/articles/cwy8lx3pg4k2o?at_medium=RSS&at_campaign=rss"
+     },
+     {
+      "source": "CNBC",
+      "title": "Here's the inflation breakdown for October 2026 — in one chart",
+      "link": "https://www.cnbc.com/2026/11/10/october-2026-cpi-inflation-breakdown.html"
+     },
+     {
+      "source": "CNBC Finance",
+      "title": "Fed Governor Waller sees December hike likely, opens door to possible half-point increase",
+      "link": "https://www.cnbc.com/2026/11/10/fed-governor-waller-sees-december-hike-likely.html"
+     },
+     {
+      "source": "MarketWatch",
+      "title": "Stocks fall as the 10-year Treasury yield nears 5% mark",
+      "link": "https://www.marketwatch.com/story/why-stocks-are-falling-and-10-year-yields-are-climbing-back-near-5-after-tuesdays-inflation-report-389b8392?mod=mw_rss_topstories"
+     }
+    ]
+   },
+   {
+    "category": "companies",
+    "headline": "Nvidia hires law firm to probe CEO Huang as shares slide",
+    "summary": "Nvidia has hired Wachtell Lipton to lead an independent investigation after reports that chief executive Jensen Huang had an affair with an alleged Chinese spy. The shares fell 5.47% and one report puts the loss in market value at about $430bn this week.",
+    "sources": [
+     {
+      "source": "Guardian Business",
+      "title": "Nvidia’s value tumbles by $430bn since spy allegations, as major US law firm hired to investigate claims – business live",
+      "link": "https://www.theguardian.com/business/live/2026/nov/11/nvidia-spy-allegations-us-law-firm-hired-investigation-stock-markets-pound-dollar-ftse-nasdaq-latest-news-updates"
+     },
+     {
+      "source": "Politico Europe",
+      "title": "Nvidia hires Wachtell Lipton for Jensen Huang investigation",
+      "link": "https://www.politico.eu/article/nvidia-hires-wachtell-lipton-for-jensen-huang-investigation/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication"
+     },
+     {
+      "source": "BBC Business",
+      "title": "Nvidia hires major US law firm to investigate alleged Chinese spy affair",
+      "link": "https://www.bbc.co.uk/news/articles/ck1wvwwl3x0go?at_medium=RSS&at_campaign=rss"
+     },
+     {
+      "source": "FT",
+      "title": "Nvidia hires former US prosecutor at Wachtell to lead Jensen Huang probe",
+      "link": "https://www.ft.com/content/8d59bf02-960e-4eb1-b5dc-55397e31cea5?syn-25a6b1a6=1"
+     },
+     {
+      "source": "MarketWatch",
+      "title": "Meet the former prosecutor Nvidia hired to investigate the Jensen Huang spy scandal",
+      "link": "https://www.marketwatch.com/story/meet-the-former-prosecutor-nvidia-hired-to-investigate-the-jensen-huang-spy-scandal-e8078f67?mod=mw_rss_topstories"
+     },
+     {
+      "source": "CNBC",
+      "title": "Nvidia's Huang tries to project 'business as usual' in return to office after affair revelation",
+      "link": "https://www.cnbc.com/2026/11/10/nvidia-jensen-huang-affair-office.html"
+     },
+     {
+      "source": "Ars Technica",
+      "title": "Nvidia has a Jensen Huang problem—and no obvious successor",
+      "link": "https://arstechnica.com/gadgets/2026/11/nvidia-has-a-jensen-huang-problem-and-no-obvious-successor/"
+     },
+     {
+      "source": "TechCrunch AI",
+      "title": "Nvidia’s crisis has corporate governance experts reaching for the popcorn",
+      "link": "https://techcrunch.com/2026/11/10/nvidias-crisis-has-corporate-governance-experts-reaching-for-the-popcorn/"
+     }
+    ]
+   },
+   {
+    "category": "companies",
+    "headline": "Anthropic sets IPO range valuing it at up to $1.4tn",
+    "summary": "Anthropic has set an IPO price range of $70 to $78 a share, implying a valuation of up to about $1.4tn, with trading expected to start on 19 November. Bankers are reportedly weighing a higher valuation after strong investor demand.",
+    "sources": [
+     {
+      "source": "BBC",
+      "title": "Claude chatbot maker set for $1.3tn stock market debut despite 'catastrophic' AI warning",
+      "link": "https://www.bbc.co.uk/news/articles/crpdgd723x2zo?at_medium=RSS&at_campaign=rss"
+     },
+     {
+      "source": "CNBC",
+      "title": "Anthropic sets IPO price range of $70 to $78, looks to start trading Nov. 19, sources say",
+      "link": "https://www.cnbc.com/2026/11/10/anthropic-sets-price-range-of-70-to-78-in-upcoming-ipo.html"
+     },
+     {
+      "source": "The Verge AI",
+      "title": "Anthropic targets $1.4 trillion IPO",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1030703/anthropic-ipo-1-4-trillion"
+     },
+     {
+      "source": "TechCrunch AI",
+      "title": "Anthropic sets IPO price range of $70 to $78 per share to reach an implied valuation of $1.404 trillion",
+      "link": "https://techcrunch.com/2026/11/10/anthropic-sets-ipo-price-range-of-70-to-78-per-share-to-reach-an-implied-valuation-of-1-404-trillion/"
+     },
+     {
+      "source": "FT",
+      "title": "Anthropic bankers prepare to increase IPO valuation to $1.5tn or more",
+      "link": "https://www.ft.com/content/68bcba57-0575-44ee-80f4-2e5ea23a431e?syn-25a6b1a6=1"
+     },
+     {
+      "source": "The Guardian",
+      "title": "Anthropic targets valuation of up to $1.4tn in stock market flotation",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPRWZNcUt6ZldxUnNyTXZySGZacWZueTYtS0JOUVZ2S3JUWENYcThEMm9CSnVXX25QTGJYZGc3UVhKNXloQ0pPdUJpbkxZQ3Q1NEdSMzJEWjB5M3UwVDJ5UjhxdllTMEhjQm41UDg1QndqbE5KWkNBZ3RoMlhHSjM5SDkyN2tmQjZjcEpyNGMxVjF1MV9vRmpJb3d4X1NibmRYd3V5TUNxMGtacGJjXzNqRURn?oc=5"
+     },
+     {
+      "source": "Bloomberg.com",
+      "title": "Anthropic Bankers Look to Increase IPO Valuation, Report Says",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOUTgtOV9zN3Ywb2UycWxaSlNwOGltSV91cjMtRWdlNnJibWhnTVgtQkZkd0ZYU0NweVB5MEhaMkd6ZVNpUXlra3JiQ2ltcU4xUUUta0pPV2dqb19uWWpLZWVkanNqTnlsVEo2YmdFeGw2M2dNcGtGVHdGb1hBMTN4MFRteXhkbUctZWIxSURUQjcxczZxbmdtbGQ0d3ZLWWJCcjFQQVpwb1pjNHNzWlE?oc=5"
+     },
+     {
+      "source": "Silicon UK",
+      "title": "Anthropic Plans IPO Next Week At Up To $1.4tn Valuation",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5NbWVEUkhXM0RwYmE0bVN2T3RRQlhrZzktak84N01jS2kwMl96bUF6MWhMSVVvZmR4YWQ0bXFtcjUxVFZNc1BQLVBGWko2VVhKQS1wSTBWMnBuM0tJb294V09OekpSdw?oc=5"
+     }
+    ]
+   }
+  ],
+  "calendar": [
+   {
+    "when": "Today",
+    "event": "Spain's general strike over housing and the cost of living"
+   },
+   {
+    "when": "Today",
+    "event": "Retrial of Egyptian journalist Lina Attalah"
+   },
+   {
+    "when": "Today",
+    "event": "Manchester United decision-makers meet in Monaco on Michael Carrick's future"
+   }
+  ]
+ },
+ "world": {
+  "us": [
+   {
+    "category": "political",
+    "headline": "House blocks effort to impeach Hegseth",
+    "summary": "House Republicans short-circuited a floor vote on the impeachment push against Defence Secretary Pete Hegseth, brought by Republican Thomas Massie. Democrats can try again next year, and Trump welcomed the outcome.",
+    "sources": [
+     {
+      "source": "BBC",
+      "title": "US House blocks bid to impeach Defence Secretary Pete Hegseth, for now",
+      "link": "https://www.bbc.co.uk/news/articles/cxly4y5jzl0qo?at_medium=RSS&at_campaign=rss"
+     },
+     {
+      "source": "NPR",
+      "title": "House votes to effectively end the impeachment effort against Pete Hegseth",
+      "link": "https://www.npr.org/2026/11/10/nx-s1-6036813/house-votes-to-effectively-end-the-impeachment-effort-against-pete-hegseth"
+     },
+     {
+      "source": "NPR Politics",
+      "title": "Hegseth has remained defiant as Congress members deliberate articles of impeachment",
+      "link": "https://www.npr.org/2026/11/10/nx-s1-6035792/hegseth-has-remained-defiant-as-congress-members-deliberate-articles-of-impeachment"
+     },
+     {
+      "source": "Guardian",
+      "title": "Pentagon declares ‘total victory’ after House Republicans block effort to impeach Pete Hegseth – as it happened",
+      "link": "https://www.theguardian.com/us-news/live/2026/nov/10/donald-trump-pete-hegseth-thomas-massie-republicans-iran-war-impeachment-midterms-latest-news-updates"
+     },
+     {
+      "source": "DW",
+      "title": "US Republicans derail push to impeach Defense Secretary Pete Hegseth",
+      "link": "https://www.dw.com/en/us-republicans-derail-push-to-impeach-defense-secretary-pete-hegseth/a-79913761?maca=en-rss-en-all-1573-rdf"
+     },
+     {
+      "source": "CNBC",
+      "title": "Hegseth impeachment effort torpedoed in House",
+      "link": "https://www.cnbc.com/2026/11/10/pete-hegseth-impeachment-massie-iran.html"
+     },
+     {
+      "source": "FT",
+      "title": "House blocks impeachment of US defence secretary Pete Hegseth",
+      "link": "https://www.ft.com/content/38100c3c-af0d-440b-8350-823c5e8c80d9?syn-25a6b1a6=1"
+     }
+    ]
+   },
+   {
+    "category": "financial",
+    "headline": "US inflation hotter than expected, complicating the Fed",
+    "summary": "Consumer prices rose 0.4% in October, driven by shelter, food and energy. The White House also vowed to press on with tariffs despite a midterm backlash over prices.",
+    "sources": [
+     {
+      "source": "CNBC Economy",
+      "title": "Consumer prices rose 0.4% in October, more than expected, complicating Fed's inflation fight",
+      "link": "https://www.cnbc.com/2026/11/10/cpi-inflation-report-october-2026.html"
+     },
+     {
+      "source": "BBC",
+      "title": "US inflation higher than expected in October - here's what is happening with prices",
+      "link": "https://www.bbc.co.uk/news/articles/cwy8lx3pg4k2o?at_medium=RSS&at_campaign=rss"
+     },
+     {
+      "source": "NPR",
+      "title": "Gas prices dip below $4 but inflation remains stubbornly high",
+      "link": "https://www.npr.org/2026/11/10/nx-s1-6034518/inflation-consumer-prices-economy-gas-prices"
+     },
+     {
+      "source": "CNBC",
+      "title": "White House vows to press ahead with tariffs despite midterm backlash over rising prices",
+      "link": "https://www.cnbc.com/2026/11/10/trump-tariffs-midterms-gary-cohn-inflation.html"
+     }
+    ]
+   },
+   {
+    "category": "notable",
+    "headline": "Republicans pick Jim Jordan as House leader after midterm losses",
+    "summary": "House Republicans elected Jim Jordan to succeed Mike Johnson as their leader following the party's midterm defeats. Democrats gained power across the country and are now debating their direction.",
+    "sources": [
+     {
+      "source": "NPR Politics",
+      "title": "House Republicans elect Jim Jordan as their next leader",
+      "link": "https://www.npr.org/2026/11/10/nx-s1-6035791/house-republicans-elect-jim-jordan-as-their-next-leader"
+     },
+     {
+      "source": "Guardian",
+      "title": "Republicans elect Jim Jordan as House minority leader after midterm defeats",
+      "link": "https://www.theguardian.com/us-news/2026/nov/10/jim-jordan-house-republican-leader"
+     }
+    ]
+   }
+  ],
+  "uk": [
+   {
+    "category": "political",
+    "headline": "US soldier arrested in UK on suspicion of spying for Russia",
+    "summary": "A 41-year-old senior US Army member was arrested near Gloucester and is being questioned in London under the National Security Act. UK and US investigators are involved.",
+    "sources": [
+     {
+      "source": "BBC",
+      "title": "US Army soldier suspected of spying for Russia arrested in UK",
+      "link": "https://www.bbc.co.uk/news/articles/c6d7q77xgw0vo?at_medium=RSS&at_campaign=rss"
+     },
+     {
+      "source": "France24",
+      "title": "US soldier arrested in Britain on suspicion of assisting Russian intelligence",
+      "link": "https://www.france24.com/en/europe/20261110-us-soldier-arrested-in-britain-on-suspicion-of-assisting-russian-intelligence"
+     },
+     {
+      "source": "DW",
+      "title": "British counterterrorism police arrest US soldier accused of spying on behalf of Russia",
+      "link": "https://www.dw.com/en/british-counterterrorism-police-arrest-us-soldier-accused-of-spying-on-behalf-of-russia/a-79913240?maca=en-rss-en-all-1573-rdf"
+     },
+     {
+      "source": "CNBC",
+      "title": "American soldier arrested on suspicion of spying for Russia",
+      "link": "https://www.cnbc.com/2026/11/11/us-army-soldier-russia-espionage-arrest.html"
+     },
+     {
+      "source": "FT",
+      "title": "Senior US soldier arrested in UK on suspicion of spying for Russia",
+      "link": "https://www.ft.com/content/94aa4846-58c6-4c17-b25a-095f122b4809?syn-25a6b1a6=1"
+     }
+    ]
+   },
+   {
+    "category": "financial",
+    "headline": "Bank of England deputy warns of 'low-gear economy'",
+    "summary": "Clare Lombardelli said young people are bearing the brunt as employers hold back hiring, with the Iran war pushing up energy prices. The Niesr thinktank separately warned that a timid rate rise risks higher rates for longer.",
+    "sources": [
+     {
+      "source": "Guardian",
+      "title": "Young people in UK hit by ‘low-gear economy’, warns Bank of England deputy",
+      "link": "https://www.theguardian.com/business/2026/nov/10/young-people-uk-economy-bank-of-england-clare-lombardelli"
+     },
+     {
+      "source": "Guardian Politics",
+      "title": "Bank of England’s inflation response ‘risks higher interest rates for longer’",
+      "link": "https://www.theguardian.com/business/2026/nov/11/bank-of-england-inflation-response-risks-higher-interest-rates-for-longer"
+     }
+    ]
+   },
+   {
+    "category": "notable",
+    "headline": "Iran-linked plots charged, including RAF Fairford incident",
+    "summary": "The US has charged three alleged Iranian operatives over plots including an incident near RAF Fairford. The US has since withdrawn aircraft from the UK base and from a second one.",
+    "sources": [
+     {
+      "source": "BBC",
+      "title": "Three Iran-backed suspects plotted attacks including RAF Fairford incident, US says",
+      "link": "https://www.bbc.co.uk/news/articles/c3rryrryk59zo?at_medium=RSS&at_campaign=rss"
+     },
+     {
+      "source": "Sky News",
+      "title": "US charges three men allegedly linked to RAF Fairford incident",
+      "link": "https://news.sky.com/story/us-charges-three-men-allegedly-linked-to-raf-fairford-incident-13610779"
+     },
+     {
+      "source": "DW",
+      "title": "US charges 3 alleged Iranian operatives over plots targeting Jewish communities and a UK airbase",
+      "link": "https://www.dw.com/en/us-charges-3-alleged-iranian-operatives-over-plots-targeting-jewish-communities-and-a-uk-airbase/a-79913543?maca=en-rss-en-all-1573-rdf"
+     },
+     {
+      "source": "Al Jazeera",
+      "title": "US charges three men for allegedly plotting attack on UK base",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/11/us-charges-three-men-for-allegedly-plotting-attack-on-uk-base?traffic_source=rss"
+     }
+    ]
+   }
+  ],
+  "europe": [
+   {
+    "category": "political",
+    "headline": "Ukraine, Russia and US hold talks in Abu Dhabi",
+    "summary": "The first trilateral talks since February opened in the UAE, and Zelensky called the first day constructive. Rubio said Europeans should be brought to the table.",
+    "sources": [
+     {
+      "source": "BBC",
+      "title": "First day of Ukraine peace talks constructive, Zelensky says",
+      "link": "https://www.bbc.co.uk/news/articles/cqpvgvrpjvv8o?at_medium=RSS&at_campaign=rss"
+     },
+     {
+      "source": "Guardian",
+      "title": "Ukraine’s Zelenskyy ‘happy’ with US envoys’ approach as Russia talks enter second day – Europe live",
+      "link": "https://www.theguardian.com/world/live/2026/nov/11/europe-ukraine-russia-us-talks-abu-dhabi-zelenskyy-latest-news-updates"
+     },
+     {
+      "source": "France24",
+      "title": "Live: Ukraine, Russia hold second day of US-mediated talks in Abu Dhabi",
+      "link": "https://www.france24.com/en/europe/20261111-live-ukraine-russia-hold-second-day-of-us-mediated-talks-in-abu-dhabi"
+     },
+     {
+      "source": "Politico Europe",
+      "title": "Zelenskyy tells Europe to hurry up and pick a rep for peace talks with Russia",
+      "link": "https://www.politico.eu/article/zelenskyy-tells-europe-pick-negotiator-peace-talks-russia-ukraine/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication"
+     }
+    ]
+   },
+   {
+    "category": "financial",
+    "headline": "Spain's general strike puts housing at centre of election",
+    "summary": "Millions of workers are striking in Spain for the first time in 14 years over housing costs and the cost of living. The crisis could bring down the government.",
+    "sources": [
+     {
+      "source": "France24",
+      "title": "Spain’s general strike puts housing crisis at centre of upcoming elections",
+      "link": "https://www.france24.com/en/europe/20261111-spain-general-strike-puts-housing-crisis-centre-upcoming-elections"
+     },
+     {
+      "source": "Politico Europe",
+      "title": "Spanish election: How bad is the housing crisis?",
+      "link": "https://www.politico.eu/article/spain-housing-crisis-election-rising-house-prices-rents/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication"
+     },
+     {
+      "source": "Al Jazeera",
+      "title": "‘I pay $500 for 5 square metres’: Spain’s protesters, in their own words",
+      "link": "https://www.aljazeera.com/news/2026/11/11/i-pay-500-for-5-square-metres-spains-protesters-in-their-own-words?traffic_source=rss"
+     }
+    ]
+   },
+   {
+    "category": "notable",
+    "headline": "France blames Iran for supermarket fridge hack",
+    "summary": "France summoned Iran's ambassador over last month's attack that overheated fridges in hundreds of supermarkets and says it rules out no response. Iran denies involvement.",
+    "sources": [
+     {
+      "source": "BBC",
+      "title": "Iran rejects French claims it was behind supermarket fridge hacking",
+      "link": "https://www.bbc.co.uk/news/articles/cmg474vk6dyqo?at_medium=RSS&at_campaign=rss"
+     },
+     {
+      "source": "France24",
+      "title": "What the hack? Europeans face growing psyops and cyberattacks",
+      "link": "https://www.france24.com/en/tv-shows/the-debate/20261110-what-the-hack-europeans-face-growing-psyops-and-cyberattacks"
+     },
+     {
+      "source": "DW",
+      "title": "Iran denies role in fridge hack, France summons ambassador",
+      "link": "https://www.dw.com/en/iran-denies-role-in-fridge-hack-france-summons-ambassador/a-79910206?maca=en-rss-en-all-1573-rdf"
+     },
+     {
+      "source": "Arab News",
+      "title": "France summons Iran envoy over supermarket fridge hack, warns of response",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPQjF0YjhfTEpCclhfeEUtQUVfbFlrTjlHZy1ZVG5RZU5sSzJub3l2QjVyQVdvWjUzbENfZDNfcTFDZ1V2QU9Gb184d05MWDBnWlZqbDFrdWgzSkZZdzFIbnRNNUNKUi1lQ3ZLN1pXT2otdnhJTWZINHV0MXdSVHJNT3YtalA0V1RYdHFsUzNvQ1E3TkxVWkJRbHR3V2hIajlnSFk0M0hYdmx4SzFsUmpoUg?oc=5"
+     }
+    ]
+   }
+  ],
+  "middle_east": [
+   {
+    "category": "political",
+    "headline": "Israel's new Knesset sworn in as Eisenkot seeks to form government",
+    "summary": "Gadi Eisenkot has the first chance to build a coalition to replace Netanyahu, but neither bloc has a majority. He pledged an inquiry into the 7 October attacks.",
+    "sources": [
+     {
+      "source": "BBC",
+      "title": "Israel's new parliament sworn in as leaders compete to form government",
+      "link": "https://www.bbc.co.uk/news/articles/crd939lpzjp9o?at_medium=RSS&at_campaign=rss"
+     },
+     {
+      "source": "DW",
+      "title": "Israel: Eisenkot proposes October 7 probe as new Knesset sworn in",
+      "link": "https://www.dw.com/en/israel-eisenkot-proposes-october-7-probe-as-new-knesset-sworn-in/a-79913636?maca=en-rss-en-all-1573-rdf"
+     },
+     {
+      "source": "Al Jazeera",
+      "title": "Netanyahu fights to stay relevant as Israel’s opposition closes in",
+      "link": "https://www.aljazeera.com/news/2026/11/11/netanyahu-fights-to-stay-relevant-as-israels-opposition-closes-in?traffic_source=rss"
+     },
+     {
+      "source": "Guardian",
+      "title": "Israeli opposition hurries to seize control as new Knesset is sworn in",
+      "link": "https://www.theguardian.com/world/2026/nov/10/israeli-opposition-hurries-to-seize-control-as-new-knesset-is-sworn-in"
+     },
+     {
+      "source": "France24",
+      "title": "Eisenkot pushes October 7 inquiry as Netanyahu targets Arab parties in tense new parliament",
+      "link": "https://www.france24.com/en/middle-east/20261110-eisenkot-pushes-october-7-inquiry-as-netanyahu-targets-arab-parties-in-tense-new-parliament"
+     },
+     {
+      "source": "Arab News",
+      "title": "Eisenkot quickly targets Netanyahu’s legacy in new Israeli parliament",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPY0FQS2c0NzhIM2M4TTg5N0lDSjJYUmlaQlBEcmd3eVRPYkNtZlJ6TEZaTi1oMllzQ3N6ZnB4UFlCaExxUmZKWE83YzhFcU9JUlZNZUM1NzFiNkhuczVYeFdkVTBiOFJPMjY1SVkxNkVmSHBhNDF3VDNvTEZIU0t6M0ZMM1U4Tl9qbXpVU3RnNGREWEJQekNNb3FnTF9Jckp4YnBIdzByV1dsWDRTdmgwZnBYSQ?oc=5"
+     }
+    ]
+   },
+   {
+    "category": "financial",
+    "headline": "Gulf states to base joint forces in Kuwait as Hormuz stays shut",
+    "summary": "Gulf states plan joint forces in Kuwait after Iranian attacks, while Iran says Hormuz stays shut until its demands are met and ships have been hit. A Saudi liquidity squeeze and a cancelled Qatari LNG contract add to economic strain.",
+    "sources": [
+     {
+      "source": "Arab News",
+      "title": "Gulf states to base joint forces in Kuwait after Iranian attacks",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNYkFpcDFRVmd3TDczVG9sdWtmaHQ1TXNHS2JGbFlSY1puNHF5S2F4SWRtR0RNaFJIV01LMUo4dnBZLUE2X2dGTnl1M042RHY0SElkeFRfUndsWlpkQ2doRUNYeWV6b0xuUWZCWGJMTFlvUXM5ZThQMUpxM2twSVFteTVPSFJhSHJ6UmVqYnRfM1F3cUloZkdhOVl6UEdBUHdQVGNMejJYSUsxVklubGc?oc=5"
+     },
+     {
+      "source": "Al Jazeera",
+      "title": "Iran denies talks with US, says Hormuz will stay shut until demands are met",
+      "link": "https://www.aljazeera.com/news/2026/11/11/iran-denies-talks-with-us-says-hormuz-will-stay-shut-until-demands-are-met?traffic_source=rss"
+     },
+     {
+      "source": "The National",
+      "title": "Middle East latest: Four Indian crew members injured in attack on Liberia-flagged oil tanker in Gulf",
+      "link": "https://www.thenationalnews.com/news/mena/2026/11/11/iran-war-live-shipping-oil-tanker-attack-indians/"
+     },
+     {
+      "source": "Ship & Bunker",
+      "title": "ADNOC L&S Confirms Vessel Damaged in Attack in UAE Waters",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPbi0xbTVqOEVwSnhUZzRnVGdkZHpwejFzMVEtT3lkX2RiaURUbEwweFVlWm5YNGhyTW85UkpZMHVDM0R4NHZWUEMyOElPSnVyVUQxUnRJWkhXdkxacThnbDNZZURTOWRkRW9obl9uU2VVTlBrRTZnSUFFYi1XYzJkY0g5dVVVdnNJd0ZqRVMteDE3VXBtMXNhMEVIc1BzdUJx?oc=5"
+     },
+     {
+      "source": "Bloomberg.com",
+      "title": "Saudi Liquidity Squeeze Adds to Challenges for Crown Prince",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPMWJyMS1TUlNmWFp4MTN6N01hbTVvcjNCYXlGRkgzeDE3enhiV3ltdndjaEtPTVJjYWIwM215WllYQkxXZUIzamFHOWRRYVJIM2V1ejYtWFZMOGxDWV9uV3JpdE5XXzdpaFktc2tiQXhYSDRDRDk1WEFMb05EM2IxckZXSVM3UWkweUF3YktMYUtfUm5Dck42WlZpTWRGRzJITC1kNmVOYldVOTBnRjV0Z2pjNUN3QQ?oc=5"
+     },
+     {
+      "source": "OilPrice",
+      "title": "Poland's Orlen Becomes First Buyer to Cancel Long-Term Qatar LNG Deal",
+      "link": "https://oilprice.com/Latest-Energy-News/World-News/Polands-Orlen-Becomes-First-Buyer-to-Cancel-Long-Term-Qatar-LNG-Deal.html"
+     }
+    ]
+   },
+   {
+    "category": "notable",
+    "headline": "Gaza storm victims lack shelter as aid response criticised",
+    "summary": "Thousands of displaced Palestinians face flooded tents, and the Board of Peace called Israel's aid response insufficient. Charities say 150,000 tents are needed.",
+    "sources": [
+     {
+      "source": "Guardian",
+      "title": "Thousands without shelter face lethal conditions in storm-hit Gaza as they wait for 150,000 tents",
+      "link": "https://www.theguardian.com/global-development/2026/nov/11/thousands-without-shelter-lethal-cold-storm-gaza-israel-tents-displaced-people-flood"
+     },
+     {
+      "source": "BBC",
+      "title": "Board of Peace says Israel's aid response after Gaza floods 'insufficent'",
+      "link": "https://www.bbc.co.uk/news/articles/cw4g1g4ll5m1o?at_medium=RSS&at_campaign=rss"
+     }
+    ]
+   }
+  ]
+ },
+ "energyTech": {
+  "energy": [
+   {
+    "category": "energy",
+    "headline": "RWE and KKR close financing for 2.8GW UK offshore wind",
+    "summary": "RWE and KKR reached financial close on 2.8GW of UK offshore wind capacity, an investment of around £12bn. SSE also picked Siemens for Berwick A turbines and substations.",
+    "sources": [
+     {
+      "source": "Offshore Wind",
+      "title": "RWE and KKR Reach Financial Close for 2.8 GW UK Offshore Wind Projects",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQNC1SVmEtSmtZQlMyNFdTNzU2a24xZXRPRmh6aFhzQjFXbEdGSFF5RzExT0dvM0cwTThiRS1tU0NYNU5jWnZKWUhvaXZjeEk2QTQ2NFIyLTczbE03Sy1Id0pUNElnVG5kc1c4bTR6WTVpckt3XzF2U3N1Qy1HWWROU2RBbUdrdE9VaUVkLTR4b0lMRnpXVUppWVVxS28yc0xEZVRsNk81eTJBVFlTbEE?oc=5"
+     },
+     {
+      "source": "Splash247",
+      "title": "RWE and KKR close $16bn UK offshore wind investment",
+      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5LeXNpUzNaNFlqZTQ5UVJFYm9qak81ZWlkNEN4SWF6bXBhdkp4VW8wTzF3SzdNZ2ticEVrdlFlLVpsbmI3SW1TUzdvYVdIVUlBWExhWGlsbGdhY29VVEgtT3RJNkFoOE40di13TWpaZTk5NVV3Z1FPUjJ1T3E3QQ?oc=5"
+     },
+     {
+      "source": "RWE",
+      "title": "RWE and KKR join forces to deliver 2.8 gigawatts of new offshore wind capacity in the UK – an investment of around £12 billion",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQSGR4ejcwSk9MSkgxZXZlRWx4V0F1WEl5bi1RTnVYNEc5azVpRm9SRHdyc0xUY3c0ZmJna0FNVTRQZnNkLTh4U3A2d0pHbmFCeXFLcVplZ3BUYks5YzlEZF9iRUtDbVVfZEJia25kemlfd0pYdmFGMTV2ZWl2c054V3YzTmd3alNUb3ZyOHl6TkNqajNTYXp5Qm5hcWpUM2gxOXR5dVJDLTlZd01PX1FTYUl0SFVlT2lvbzJkNGd4MFZ3WW85YmIwXw?oc=5"
+     },
+     {
+      "source": "Investing.com",
+      "title": "RWE and KKR develop 2.8 GW offshore wind project in Britain",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNUlhodUdxd1ZVVzhYcTFRUUtrV2JDOG1mSVNBRlpLbHpKUVFNSjF1eFRxcV90WEJ2RGRvMWc2LXNsWnFrMDUxVHFhUVRDQjlQRE5aN3BIbFF4ZDNyQU9Fckg5Rm1iMVJ2aWsxTUVvMGNsYUNZRWRodHVLbmpVNmpVcFA4c0g2MVpZUjByUXVxLTFuQy1XLTlpMXF2RGVqNmxLYTJNOVNxVkJxazZCa2tUVS16b0U0SlNVMEpjeg?oc=5"
+     },
+     {
+      "source": "GOV.UK",
+      "title": "Prime Minister hails major investment in UK renewables",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOLUVUNXdCTmE2bm1aVlh5anFXOUptRVQ3LWpieF9LUFdNeFdMT2JWaG1XN3lvY3NXMktmaXRoVHZia2VkcVZ4V0xLUTZIWW5qYVlWNHEwN1B4eUQxMnNuQlc4YV9wQmZ4clVxYUFYQnNXTGIxRERrd2h1ZmdqMTFuRUxGWmNUUFp4N1JBa0F3NHg3NlE?oc=5"
+     },
+     {
+      "source": "reNEWS",
+      "title": "SSE selects Siemens for Berwick A turbines, substations",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNRDRTeGJiUnFqbGdEcW1DTjhKZmZmaUQ2ZDR5NzZWMnE5LVg4MTVZbk1mbVRmdTFHZlpPUEs1UlhrOTRDVDRnRHNnWUg4RF85bDh4cEJMWHhkWTducGVuR0wxbjQyR2NTandOaE40ZXpkQ0t4Z3h1ZGxPZWhTYVJPczl4R1VwQkV2c0Y3WTFDaS1CeDNMeFRz?oc=5"
+     },
+     {
+      "source": "Daily Business",
+      "title": "Siemens Energy named preferred bidder for Berwick B",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPWEJuV19oUWpqaHhVc0NrbzlPZ25ybkNPZnNDWDVjX3pxRmNpTTJYUWxyWHFEbnV2S3U5YURHUDhxVDBGR0lGQm5tN3RFdWJqYm0zaWF4eF95dmFsbkYyYnozOHF1RjZLd1VZWnQwZE5ETHhSenpGTVBNaklrZnVGa2swWVgweHEtbVV1cnd2SVdSTTQxeW5MZQ?oc=5"
+     },
+     {
+      "source": "London Evening Standard",
+      "title": "Offshore wind farm will support 130 new Scottish jobs, SSE announces",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQdXJmc2UtbFN6RXpWbFdta1hOQjVZN0tLeVpPRGVmRFlaZUlWZ3FCWkIyN1MxWmxOT29jYzhVblAyS0owSzcyRDJyLWk1ZUdWdWVrbmpqWi1Udk9qUFM1Rk5qZExpamkzQW15NHhSNHVPTzhfaVVYbWxkd2Y4WFpQa2FJZ3FCRGx0QWpsdG9Pazc0UjdMOTk3MzU2Q2VrQ0g2cEdleHJhUXppNWxhY3BTVA?oc=5"
+     }
+    ]
+   },
+   {
+    "category": "energy",
+    "headline": "UK grid stress and demand for more capacity",
+    "summary": "Montel reports the UK power grid faces growing stress from unprecedented weather, while the nuclear sector says more reactors are needed after Neso requested more grid capacity. Britain is also willing to discuss paying into the EU to join its electricity market.",
+    "sources": [
+     {
+      "source": "Montel News",
+      "title": "UK power grid faces growing stress on “unprecedented” weather",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNZmN1bEd2bGk0czB6NUpyNUNINmU5U1RSRDhkZzNlZ0xOREdIajd1NmRjSmxraDdUeDFmRno1a3NUbEZJTmtPQmpQRHBMSHNVbXh1ck1SWmoyOGlBQVQzcDV2QVd6MlZZelZjaUE2b054RlVFblk0VFYta3BRelVQOHJFVmpuYy14SDhMZUFwMDQyOEhQZk1wRE1FWEtyV283dTZpdGo4YzV3Q0hEMXJQQ2hCak1raTFSbkZISXJNMGFyZw?oc=5"
+     },
+     {
+      "source": "New Civil Engineer",
+      "title": "Nuclear sector says more reactors needed after Neso requested increased electricity grid capacity",
+      "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQNUszRmt1NHRYMi1rQkgxR1NINzVLR01HdjNlMGo5cFlGVUIxejBWaTNkNlF5VmRRZ1h5Y3hLMmh1RHBtekxaMVk0dnQzYXpmQzRDMnFSdEFjMC1jOGN1bUFweWJUUkFVV2hEdzl4TFJhLV9Fa3BFbUpiTG5Pa1FXS3Z2QWpBZnFUVXJocHpPeWZ5Z2l6VVBZQVZvUXpZUFB5NzJNeUFoVTJ0dk01NFdoUGxLeE90QXFoaGV6LWtEbUE3YW1weDNlNDNlYkdLaXlVcFp3RW5Hb09GdHgwMERJVklUZw?oc=5"
+     },
+     {
+      "source": "Guardian",
+      "title": "Britain willing to discuss paying into EU to join electricity market, says minister",
+      "link": "https://www.theguardian.com/politics/2026/nov/10/britain-eu-electricity-market-cohesion-fund-hamish-falconer"
+     }
+    ]
+   },
+   {
+    "category": "energy",
+    "headline": "Oil edges up as Iran peace hopes fade",
+    "summary": "Crude rose as tanker attacks in Hormuz dampened optimism over a US-Iran deal, after Brent briefly fell below $90. Ukrainian strikes have disrupted about 30% of Russia's refining capacity.",
+    "sources": [
+     {
+      "source": "OilPrice",
+      "title": "Oil Prices Rise as Iran Peace Optimism Fades",
+      "link": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Rise-as-Iran-Peace-Optimism-Fades.html"
+     },
+     {
+      "source": "Arab News",
+      "title": "Recent Ukrainian attacks have reduced Russia’s oil processing capacity by 30 percent, sources say",
+      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPYlFkUGRiQUF2LXJxeHdBc2VpdkxfQ2RacUpYWm51em1TNHozNmY0d3ZNQlhSOTk1RnRfaFprX1I2bWdfby1UbWE3d1dkN0RWeUZNalBzdWh4Y0IteVl2Rk5aMDZvMDI2RThlUkFvejJMR0FmU2xwTF9RZlYtREd2cTdWY09BcEVQUFd4NmVqXzZlbG9ZdW5DZ3ZHU0JPY2NXZTh1TEdISmkxcUladVhPMDVyYjFSMDM4RW5kcDBjd1E0dC1hTDhXS3BmT0pZOFE?oc=5"
+     }
+    ]
+   }
+  ],
+  "ai": [
+   {
+    "category": "ai",
+    "headline": "Anthropic IPO and its new workplace tools",
+    "summary": "Anthropic's IPO is expected to be among the biggest ever, and it launched Claude Meetings and an AI office suite. Founders will each sell about $250m of shares.",
+    "sources": [
+     {
+      "source": "TechCrunch AI",
+      "title": "All 7 Anthropic founders will each cash out about $250M in IPO",
+      "link": "https://techcrunch.com/2026/11/10/all-7-anthropic-founders-will-each-cash-out-about-250m-in-ipo/"
+     },
+     {
+      "source": "The Verge AI",
+      "title": "Anthropic has its own AI-powered office suite now",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1030709/anthropic-has-its-own-ai-powered-office-suite-now"
+     },
+     {
+      "source": "Bloomberg.com",
+      "title": "Anthropic Aims for $3 Billion to $3.5 Billion in Japan Offering",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQb1hMUzBfTGwtdlVnemJqQlM4UDcyM05hcFpQekhGaTUxRGdTT2VROXhoaU84RjlkeC0wRFVPdmxDdGVqQWJqTDg4dlJtS2IzZTBIdFBrVnpGMnFELWJodWJtb1JhYmlKYXhqS0k5Ni1JS1hBVDFFbEdJek56MmRxNkVYX0hNQ2xlam80UEVGck51akJ2WWtqZm85TTlHdnJhZnNlblYwaHk0eG1NNnR4VDl3?oc=5"
+     },
+     {
+      "source": "Reuters",
+      "title": "Amazon, Google set for big windfall from Anthropic IPO",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOcjFwZHRWdU1KX1lVQzlmS2tLcE1EemFWd2trLV9Td2NtemNvRGdjbHVEUjJySldqUjRqaEtpZGpfck9QWkpCcmhoby1ERHFwSk4ySkNMQ2pQbkZsbmJXUm5NOTM3Y09XZnl1cEMxcjhZVFpEYTZDX0ZHRHNhVXdkZFdIOExqa2tHZC1qM0xuazYzRENHZzNDYUo4aVBSck5IRHc?oc=5"
+     },
+     {
+      "source": "Financial Times",
+      "title": "Goldman Sachs expects Anthropic revenue to exceed $600bn by 2030",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPc0tWeGNDOUh5S1RleHBrVDlUdGNiRjktVDZGbmtRNlBUcXkwbDRfNXBuSXZ4Yk1NNVBOUTZXNDRlc09LdDI0VlpKMlFRMUVCaVh6VndVSWlwT2NkNElsc1JxUDVZUWFYZ2pWY3NFTFNKQm9fZnk1YkNTZWV6dnFVc2s0T2o?oc=5"
+     }
+    ]
+   },
+   {
+    "category": "ai",
+    "headline": "Google releases Gemini 4 Carbon and new chips",
+    "summary": "Google rolled out Gemini 4 Carbon with an agent swarm feature and unveiled two new TPUs. It is the company's self-described strongest model.",
+    "sources": [
+     {
+      "source": "The Verge AI",
+      "title": "Google releases Gemini 4 Carbon with agent ‘swarm’ feature",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1030787/google-gemini-4-carbon-public-rollout"
+     },
+     {
+      "source": "TechCrunch AI",
+      "title": "Google broadens its AI hardware portfolio with two new specialized chips",
+      "link": "https://techcrunch.com/2026/11/10/google-broadens-its-ai-hardware-portfolio-with-two-new-specialized-chips/"
+     }
+    ]
+   },
+   {
+    "category": "ai",
+    "headline": "New York AI safety law takes effect",
+    "summary": "Major developers such as OpenAI and Anthropic must register, disclose safety practices and report incidents or face fines. Australia is separately considering criminal penalties for rogue AI.",
+    "sources": [
+     {
+      "source": "TechCrunch AI",
+      "title": "OpenAI, Anthropic face new oversight as New York’s AI safety law takes effect",
+      "link": "https://techcrunch.com/2026/11/10/openai-anthropic-face-new-oversight-as-new-yorks-ai-safety-law-takes-effect/"
+     },
+     {
+      "source": "BBC Business",
+      "title": "Australia considers criminal penalties for rogue AI in wake of OpenAI hack",
+      "link": "https://www.bbc.co.uk/news/articles/cmp3g37l566po?at_medium=RSS&at_campaign=rss"
+     }
+    ]
+   }
+  ],
+  "tech": [
+   {
+    "category": "tech",
+    "headline": "X-energy gets permit for Texas small reactors",
+    "summary": "The US Nuclear Regulatory Commission granted a construction permit for four small modular reactors in Texas. It is described as a landmark approval.",
+    "sources": [
+     {
+      "source": "TechCrunch",
+      "title": "X-energy gets green light to build its first small modular nuclear reactors",
+      "link": "https://techcrunch.com/2026/11/10/x-energy-gets-green-light-to-build-its-first-small-modular-nuclear-reactors/"
+     },
+     {
+      "source": "World Nuclear News",
+      "title": "US issues landmark construction permit for Texas SMR plant",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQbG1kMUdyd1VJTUlEWFQ2S2liZzFGZ3BRb1RUc3NETFBaU19CQTNxS3NYZk54STBjZzFhdjktb1pPU201N0pNenBjREYydHg5R045R2pPZXR2THZHVy1Gbm16TklJX0tkZ1VhZ2ZveEx1NHVaaTRXYnVoZmR5bHM4VkJhNTRMV29mUUNtTjg0OVUxcnJ5VEpVUmFkdXd4Yk1mdXpTYg?oc=5"
+     }
+    ]
+   },
+   {
+    "category": "tech",
+    "headline": "Alibaba plans Hong Kong listing of chip unit T-Head",
+    "summary": "Alibaba said it filed confidentially in September to list its Nvidia rival chip unit. Separately, reports say a Chinese university bought restricted Nvidia chips.",
+    "sources": [
+     {
+      "source": "CNBC",
+      "title": "Alibaba announces plans to list T-Head, its Nvidia chip rival",
+      "link": "https://www.cnbc.com/2026/11/11/alibaba-pr.html"
+     },
+     {
+      "source": "Al Jazeera",
+      "title": "Chinese university buys Nvidia AI H200 chips despite US ban, records show",
+      "link": "https://www.aljazeera.com/news/2026/11/11/chinese-university-buys-nvidia-ai-h200-chips-despite-us-ban-records-show?traffic_source=rss"
+     }
+    ]
+   },
+   {
+    "category": "tech",
+    "headline": "Ring and Amazon launch AI security drones",
+    "summary": "Ring's indoor Drone Cam ships on 27 January 2027 for $249.99. Amazon also showed roaming robotics devices.",
+    "sources": [
+     {
+      "source": "The Verge AI",
+      "title": "Hands-on with Ring’s new AI drone camera for your home",
+      "link": "https://www.theverge.com/tech/1030601/ring-drone-cam-hands-on-price-release-date-ai-pilot"
+     },
+     {
+      "source": "Ars Technica",
+      "title": "Ring cameras go mobile as Amazon debuts AI-powered security drone and robot",
+      "link": "https://arstechnica.com/ai/2026/11/ring-cameras-go-mobile-as-amazon-debuts-ai-powered-security-drone-and-robot/"
+     }
+    ]
+   }
+  ]
+ },
+ "stats": {
+  "headlines": 422,
+  "feeds": 45,
+  "feedsFailed": 1
+ }
+}
