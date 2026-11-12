@@ -1,0 +1,1439 @@
+{
+ "date": "2026-11-12",
+ "dateLabel": "Thursday, 12 November 2026",
+ "generatedAt": "2026-11-12T07:54:28.039Z",
+ "mode": "ai",
+ "model": "claude-sonnet-5-5",
+ "error": null,
+ "headlineOfDay": "Nvidia's board weighs ousting CEO Jensen Huang over affair claims, sending the chip giant down 8% after hours and unsettling the AI trade.",
+ "markets": {
+  "summary": "US stocks rallied on Wednesday, with the S&P 500 up 1.3% and the Nasdaq up 1.6%, led by chip and AI names after a strong CoreWeave report. The FTSE 100 gained 0.8% and the Euro Stoxx 50 rose 1.0%, while miners and Shell lagged in London. Futures turned lower after hours as Nvidia fell sharply on reports its board may remove its chief executive.",
+  "indices": [
+   {
+    "symbol": "^GSPC",
+    "label": "S&P 500",
+    "price": 7619.3798828125,
+    "asOf": "2026-11-11",
+    "d1": 1.3090097199449584,
+    "w1": -0.9005547591071271,
+    "m1": -2.3838511276613237,
+    "ytd": 11.304943142392814,
+    "spark": [
+     7805.4502,
+     7718.9399,
+     7744.0601,
+     7659.4399,
+     7690.73,
+     7712.5698,
+     7757.1699,
+     7663.4302,
+     7623.6802,
+     7676.77,
+     7722.6001,
+     7743.98,
+     7720.3901,
+     7580.0698,
+     7541.3999,
+     7568.9199,
+     7688.6201,
+     7353.73,
+     7376.8599,
+     7549.9399,
+     7520.9302,
+     7619.3799
+    ]
+   },
+   {
+    "symbol": "SPUS",
+    "label": "S&P 500 Shariah",
+    "sub": "via SPUS ETF",
+    "price": 57.7400016784668,
+    "asOf": "2026-11-11",
+    "d1": 1.852183942835929,
+    "w1": -1.5683569235227333,
+    "m1": -4.609279955552127,
+    "ytd": 13.060509151165242,
+    "spark": [
+     60.53,
+     59.67,
+     59.72,
+     58.82,
+     59.21,
+     59.28,
+     59.78,
+     58.81,
+     58.66,
+     59.3,
+     59.87,
+     60.11,
+     59.77,
+     58.42,
+     57.61,
+     57.95,
+     58.66,
+     55.41,
+     55.72,
+     57.19,
+     56.69,
+     57.74
+    ]
+   },
+   {
+    "symbol": "^IXIC",
+    "label": "Nasdaq",
+    "price": 25466.189453125,
+    "asOf": "2026-11-11",
+    "d1": 1.5970733360735094,
+    "w1": -1.0503378856019305,
+    "m1": -6.38938050174737,
+    "ytd": 9.569745087752425,
+    "spark": [
+     27204.3809,
+     26692.8691,
+     26713.0293,
+     26140.0293,
+     26430.8906,
+     26424.8203,
+     26702.8594,
+     26008.8594,
+     25955.3398,
+     26169.3809,
+     26477.8105,
+     26549.8496,
+     26184.7207,
+     25437,
+     25164.3105,
+     25372.0098,
+     25736.5098,
+     24315,
+     24579.4297,
+     25253.1406,
+     25065.8691,
+     25466.1895
+    ]
+   },
+   {
+    "symbol": "^DJI",
+    "label": "Dow Jones",
+    "price": 52486.48828125,
+    "asOf": "2026-11-11",
+    "d1": 0.48743718292314825,
+    "w1": -1.6298651301356812,
+    "m1": 1.5799982853962482,
+    "ytd": 9.20286419224912,
+    "spark": [
+     51670.1016,
+     51621.4805,
+     52177.6914,
+     52002.4102,
+     51966.0313,
+     52495.8789,
+     52856.0898,
+     52867.9805,
+     52215.1602,
+     52361.5781,
+     52377.5703,
+     52475.1016,
+     52342.5586,
+     51770.3086,
+     51983.9805,
+     51786.7188,
+     53356.1211,
+     51523.0586,
+     51285.7305,
+     52389.75,
+     52231.8906,
+     52486.4883
+    ]
+   },
+   {
+    "symbol": "^FTSE",
+    "label": "FTSE 100",
+    "price": 10835.5,
+    "asOf": "2026-11-11",
+    "d1": 0.7803526328476922,
+    "w1": 0.05817423792965724,
+    "m1": 1.7389200182983406,
+    "ytd": 9.103445373408245,
+    "spark": [
+     10650.2998,
+     10724.9004,
+     10840.4004,
+     10881.9004,
+     10764.7002,
+     10733,
+     10752.9004,
+     10725,
+     10690.4004,
+     10767.2998,
+     10686.5,
+     10694.5,
+     10722.0996,
+     10729.7998,
+     10761.2998,
+     10638.4004,
+     10829.2002,
+     10782.7002,
+     10673.9004,
+     10782.9004,
+     10751.5996,
+     10835.5
+    ]
+   },
+   {
+    "symbol": "^STOXX50E",
+    "label": "Euro Stoxx 50",
+    "price": 6393.39013671875,
+    "asOf": "2026-11-11",
+    "d1": 1.035419790827995,
+    "w1": 2.0377607099155606,
+    "m1": 3.6708288084056138,
+    "ytd": 10.30274730324576,
+    "spark": [
+     6167.0098,
+     6190.3701,
+     6168.2598,
+     6204.23,
+     6144.8101,
+     6121.6602,
+     6207.52,
+     6087.0098,
+     6068.2202,
+     6116.23,
+     6164.6899,
+     6167.8101,
+     6207.0698,
+     6131.3101,
+     6176.0601,
+     6144.5601,
+     6265.71,
+     6231.54,
+     6170.4902,
+     6290.4502,
+     6327.8701,
+     6393.3901
+    ]
+   },
+   {
+    "symbol": "^TASI.SR",
+    "label": "Tadawul (Saudi)",
+    "price": 10287,
+    "asOf": "2026-11-12",
+    "d1": -0.2073072658432012,
+    "w1": null,
+    "m1": null,
+    "ytd": null,
+    "spark": []
+   }
+  ],
+  "commodities": [
+   {
+    "symbol": "GC=F",
+    "label": "Gold",
+    "unit": "$/oz",
+    "price": 3962.10009765625,
+    "asOf": "2026-11-12",
+    "d1": -0.9598775738970129,
+    "w1": -3.6805616225537867,
+    "m1": -3.549254075161724,
+    "ytd": -8.730505896526578,
+    "spark": [
+     4107.8999,
+     4170.1001,
+     4181.1001,
+     4160.1001,
+     4142.6001,
+     4150,
+     4060.3999,
+     4007.8999,
+     4038.3999,
+     4074.6001,
+     4051.6001,
+     4031.3999,
+     3898.8999,
+     3969.6001,
+     3940.3999,
+     4073,
+     4113.5,
+     4074.8999,
+     4114.5,
+     4030.2,
+     4000.5,
+     3962.1001
+    ]
+   },
+   {
+    "symbol": "SI=F",
+    "label": "Silver",
+    "unit": "$/oz",
+    "price": 51.20000076293945,
+    "asOf": "2026-11-12",
+    "d1": -1.3126187796101159,
+    "w1": -1.977678694018536,
+    "m1": -7.8307804390012725,
+    "ytd": -26.996893372106534,
+    "spark": [
+     55.55,
+     56.837,
+     56.995,
+     56.974,
+     57.706,
+     57.422,
+     54.764,
+     53.711,
+     54.108,
+     54.293,
+     53.457,
+     52.191,
+     49.097,
+     50.72,
+     49.587,
+     52.12,
+     52.233,
+     51.803,
+     52.564,
+     51.101,
+     51.881,
+     51.2
+    ]
+   },
+   {
+    "symbol": "BZ=F",
+    "label": "Brent crude",
+    "unit": "$/bbl",
+    "price": 93.22000122070312,
+    "asOf": "2026-11-12",
+    "d1": 0.4959024082352716,
+    "w1": -5.15820495228349,
+    "m1": -12.106351719268199,
+    "ytd": 53.196390399826676,
+    "spark": [
+     106.06,
+     105.92,
+     109.86,
+     109.55,
+     108.79,
+     108.82,
+     113.17,
+     116.72,
+     115.81,
+     113.88,
+     115.32,
+     114.88,
+     117.64,
+     104.77,
+     103.6,
+     94.62,
+     98.29,
+     98.32,
+     92.57,
+     91.49,
+     92.76,
+     93.22
+    ],
+    "note": "Brent edged up after falling earlier in the week on peace hopes; Iran denied it was negotiating with Washington."
+   },
+   {
+    "symbol": "CL=F",
+    "label": "WTI crude",
+    "unit": "$/bbl",
+    "price": 86.8499984741211,
+    "asOf": "2026-11-12",
+    "d1": 0.36981358989777513,
+    "w1": -4.054350756790958,
+    "m1": -8.665472900524374,
+    "ytd": 51.25392066120359,
+    "spark": [
+     95.09,
+     97.97,
+     101.41,
+     103.66,
+     101.79,
+     97.15,
+     99.47,
+     103.27,
+     101.76,
+     99.9,
+     102.78,
+     102,
+     104.12,
+     96.46,
+     96.09,
+     88.12,
+     90.52,
+     90.83,
+     86.85,
+     86.04,
+     86.53,
+     86.85
+    ]
+   },
+   {
+    "symbol": "HG=F",
+    "label": "Copper",
+    "unit": "$/lb",
+    "price": 6.218999862670898,
+    "asOf": "2026-11-12",
+    "d1": -0.8845331335144065,
+    "w1": -0.4800801641925287,
+    "m1": -5.936624614505832,
+    "ytd": 10.46180703831958,
+    "spark": [
+     6.6115,
+     6.5115,
+     6.531,
+     6.538,
+     6.5665,
+     6.543,
+     6.3625,
+     6.476,
+     6.508,
+     6.622,
+     6.6415,
+     6.581,
+     6.4585,
+     6.5435,
+     6.3785,
+     6.403,
+     6.249,
+     6.218,
+     6.3285,
+     6.2195,
+     6.2745,
+     6.219
+    ]
+   },
+   {
+    "symbol": "NG=F",
+    "label": "US natural gas",
+    "unit": "$/MMBtu",
+    "price": 3.246999979019165,
+    "asOf": "2026-11-12",
+    "d1": 0.9953364138151668,
+    "w1": 10.179842198777504,
+    "m1": 1.532208427045703,
+    "ytd": -11.90993263025943,
+    "spark": [
+     3.198,
+     3.236,
+     3.116,
+     3.058,
+     2.963,
+     2.79,
+     2.796,
+     2.64,
+     2.602,
+     2.697,
+     2.817,
+     2.952,
+     2.898,
+     2.856,
+     2.895,
+     2.959,
+     2.947,
+     2.998,
+     3.218,
+     3.296,
+     3.215,
+     3.247
+    ]
+   }
+  ],
+  "rates_fx": [
+   {
+    "symbol": "GBPUSD=X",
+    "label": "GBP/USD",
+    "price": 1.327087163925171,
+    "asOf": "2026-11-12",
+    "d1": -0.5825865248511964,
+    "w1": -1.5301357704927254,
+    "m1": 0.10218459587898626,
+    "ytd": -1.4578072398023423,
+    "spark": [
+     1.3257,
+     1.323,
+     1.3273,
+     1.3336,
+     1.3308,
+     1.3373,
+     1.3396,
+     1.3404,
+     1.3378,
+     1.3345,
+     1.3306,
+     1.3328,
+     1.3379,
+     1.3386,
+     1.341,
+     1.3434,
+     1.3477,
+     1.3456,
+     1.336,
+     1.3442,
+     1.3349,
+     1.3271
+    ]
+   },
+   {
+    "symbol": "EURUSD=X",
+    "label": "EUR/USD",
+    "price": 1.1088933944702148,
+    "asOf": "2026-11-12",
+    "d1": -0.7163375007884889,
+    "w1": -1.2996157378252873,
+    "m1": -1.0312691742452202,
+    "ytd": -5.60434115191647,
+    "spark": [
+     1.1204,
+     1.1195,
+     1.1213,
+     1.1225,
+     1.1216,
+     1.1227,
+     1.1235,
+     1.1221,
+     1.1218,
+     1.1174,
+     1.113,
+     1.1156,
+     1.1183,
+     1.1157,
+     1.1192,
+     1.1207,
+     1.1235,
+     1.1228,
+     1.1147,
+     1.1222,
+     1.1169,
+     1.1089
+    ]
+   },
+   {
+    "symbol": "^TNX",
+    "label": "US 10Y yield",
+    "unit": "%",
+    "price": 4.998000144958496,
+    "asOf": "2026-11-11",
+    "d1": 0.3010303816955768,
+    "w1": 2.125052930482911,
+    "m1": -4.197812197635246,
+    "ytd": 20.05765113435239,
+    "spark": [
+     5.217,
+     5.19,
+     5.089,
+     5.098,
+     5.136,
+     5.117,
+     5.146,
+     4.953,
+     4.988,
+     4.986,
+     4.993,
+     5.045,
+     4.989,
+     4.929,
+     4.894,
+     4.952,
+     4.894,
+     4.837,
+     4.859,
+     4.864,
+     4.983,
+     4.998
+    ]
+   }
+  ],
+  "movers": {
+   "sp500": {
+    "gainers": [
+     {
+      "ticker": "SNDK",
+      "name": "Sandisk",
+      "price": 977.69,
+      "d1": 13.686205653554115,
+      "shariah": true
+     },
+     {
+      "ticker": "BE",
+      "name": "Bloom Energy",
+      "price": 209.47,
+      "d1": 12.970553338366958,
+      "shariah": true
+     },
+     {
+      "ticker": "MU",
+      "name": "Micron Technology",
+      "price": 811.3,
+      "d1": 11.886472397291437,
+      "shariah": true,
+      "note": "Micron rallied with the wider AI trade after CoreWeave's strong results."
+     },
+     {
+      "ticker": "DELL",
+      "name": "Dell Technologies",
+      "price": 373.68,
+      "d1": 11.753095280818235,
+      "shariah": false
+     },
+     {
+      "ticker": "LITE",
+      "name": "Lumentum",
+      "price": 648.06,
+      "d1": 10.671653260925233,
+      "shariah": true,
+      "note": "Lumentum rallied with the wider AI trade after CoreWeave's strong results."
+     }
+    ],
+    "losers": [
+     {
+      "ticker": "ABNB",
+      "name": "Airbnb",
+      "price": 181.13,
+      "d1": -3.087212413055115,
+      "shariah": false
+     },
+     {
+      "ticker": "LULU",
+      "name": "Lululemon Athletica",
+      "price": 107.45,
+      "d1": -2.6456464619008804,
+      "shariah": true
+     },
+     {
+      "ticker": "MCD",
+      "name": "McDonald's",
+      "price": 274.8,
+      "d1": -2.6119006272814276,
+      "shariah": false
+     },
+     {
+      "ticker": "LDOS",
+      "name": "Leidos",
+      "price": 133.89,
+      "d1": -2.440979306324703,
+      "shariah": false
+     },
+     {
+      "ticker": "NVR",
+      "name": "NVR, Inc.",
+      "price": 5895.4,
+      "d1": -2.3361528853194513,
+      "shariah": false
+     }
+    ],
+    "coverage": 503
+   },
+   "ftse100": {
+    "gainers": [
+     {
+      "ticker": "MKS",
+      "name": "Marks & Spencer",
+      "price": 455.4,
+      "d1": 4.067641681901269
+     },
+     {
+      "ticker": "INVP",
+      "name": "Investec",
+      "price": 644.5,
+      "d1": 1.8167456556082147
+     },
+     {
+      "ticker": "CCC",
+      "name": "Computacenter",
+      "price": 4708,
+      "d1": 1.772589710332901
+     },
+     {
+      "ticker": "BGEO",
+      "name": "Lion Finance Group",
+      "price": 13480,
+      "d1": 1.5060240963855422
+     },
+     {
+      "ticker": "BATS",
+      "name": "British American Tobacco",
+      "price": 4541,
+      "d1": 1.429528702255975
+     }
+    ],
+    "losers": [
+     {
+      "ticker": "FRES",
+      "name": "Fresnillo plc",
+      "price": 2513,
+      "d1": -4.7384382107657315
+     },
+     {
+      "ticker": "EDV",
+      "name": "Endeavour Mining",
+      "price": 4099,
+      "d1": -4.318394024276377
+     },
+     {
+      "ticker": "ANTO",
+      "name": "Antofagasta plc",
+      "price": 3234,
+      "d1": -2.1482602118003027
+     },
+     {
+      "ticker": "GLEN",
+      "name": "Glencore",
+      "price": 504.6,
+      "d1": -2.095459837019782
+     },
+     {
+      "ticker": "SHEL",
+      "name": "Shell plc",
+      "price": 3624.5,
+      "d1": -2.0670089165090517
+     }
+    ],
+    "coverage": 100
+   },
+   "shariahListAvailable": true
+  },
+  "stories": [
+   {
+    "category": "markets",
+    "headline": "Nvidia slides after hours on reports board may remove Huang",
+    "summary": "Nvidia shares fell around 8-9% in extended trading after reports that its board was weighing whether to oust chief executive Jensen Huang following a second alleged affair, with Nasdaq futures and Asian shares lower. The uncertainty matters because Nvidia sits at the centre of the AI trade and of a web of financing ties across the sector.",
+    "sources": [
+     {
+      "source": "Guardian Business",
+      "title": "Nvidia board reportedly meets to decide CEO Jensen Huang’s future as chip giant’s share price plunges – follow live",
+      "link": "https://www.theguardian.com/technology/live/2026/nov/12/nvidia-ceo-jensen-huang-affairs-share-price-plunges-live-latest"
+     },
+     {
+      "source": "Euronews",
+      "title": "Nvidia shares fall on reports board may oust CEO Jensen Huang",
+      "link": "https://www.euronews.com/2026/11/12/nvidia-shares-fall-on-reports-board-may-oust-ceo-jensen-huang"
+     },
+     {
+      "source": "CNBC",
+      "title": "Nvidia board meeting to decide CEO Jensen Huang’s fate stretches into evening",
+      "link": "https://www.cnbc.com/2026/11/11/nvidia-jensen-huang-affair-employee.html"
+     },
+     {
+      "source": "MarketWatch",
+      "title": "Nasdaq futures fall as Nvidia sinks 8% after hours on report board may oust Huang",
+      "link": "https://www.marketwatch.com/story/nasdaq-futures-fall-as-nvidia-sinks-8-after-hours-on-report-board-may-oust-huang-e99b898d?mod=mw_rss_topstories"
+     },
+     {
+      "source": "FT",
+      "title": "Nvidia shares tumble in after-market trading",
+      "link": "https://www.ft.com/content/a93307a7-e2cd-4abd-bd89-c38832d8c40e?syn-25a6b1a6=1"
+     },
+     {
+      "source": "Reuters",
+      "title": "Asian stocks fragile, Nvidia plummets as board to decide CEO's fate",
+      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFA1ODl5LXpyQ0RZanVjSnZGS1NjS1ljMjZvdW9xY3ZSSUxvNkY2Z3dCMThiSjdKNHI1TFRCZnBIRHdYY0UxTGh0QjRZX3Y2S25sY0k4M0dKN3VZdGNMSGk5N0tPUmVJa3ozWXRCcmluOWxVVjVfblRLdmttMA?oc=5"
+     },
+     {
+      "source": "DW",
+      "title": "Nvidia board reportedly weighs ousting Huang amid alleged affairs with exec and suspected Chinese spy",
+      "link": "https://www.dw.com/en/nvidia-board-reportedly-weighs-ousting-huang-amid-alleged-affairs-with-exec-and-suspected-chinese-spy/a-79925002?maca=en-rss-en-all-1573-rdf"
+     },
+     {
+      "source": "The National",
+      "title": "Jensen Huang faces second affair claim as Nvidia board considers his future",
+      "link": "https://www.thenationalnews.com/future/technology/2026/11/12/jensen-huang-faces-second-affair-claim-as-nvidia-board-weighs-his-future/"
+     },
+     {
+      "source": "The Verge AI",
+      "title": "Nvidia is reportedly preparing to fire Jensen Huang",
+      "link": "https://www.theverge.com/tech/1031652/jensen-huang-rumor"
+     },
+     {
+      "source": "TechCrunch AI",
+      "title": "Nvidia’s stock drops as board reportedly preps to oust CEO Jensen Huang",
+      "link": "https://techcrunch.com/2026/11/11/nvidias-stock-drops-as-board-reportedly-preps-to-oust-ceo-jensen-huang/"
+     },
+     {
+      "source": "Ars Technica",
+      "title": "CEO Jensen Huang's job is suddenly on the line at Nvidia",
+      "link": "https://arstechnica.com/gadgets/2026/11/ceo-jensen-huangs-job-is-suddenly-on-the-line-at-nvidia/"
+     }
+    ]
+   },
+   {
+    "category": "economy",
+    "headline": "Fed's Goolsbee calls October inflation 'borderline disturbing'",
+    "summary": "The Fed's Austan Goolsbee said October consumer prices rose more than expected, and the central bank is weighing further rate rises. Treasury yields edged higher as investors awaited fresh inflation and housing data.",
+    "sources": [
+     {
+      "source": "CNBC Finance",
+      "title": "Fed's Goolsbee calls inflation report 'borderline disturbing' as central bank weighs more hikes",
+      "link": "https://www.cnbc.com/2026/11/11/goolsbee-october-inflation-fed-rates-disturbing-distressing.html"
+     },
+     {
+      "source": "CNBC",
+      "title": "Treasury yields edge higher as investors await fresh inflation and housing data",
+      "link": "https://www.cnbc.com/2026/11/12/us-treasurys-bonds-yields.html"
+     },
+     {
+      "source": "ing think",
+      "title": "Rates Spark: Inflation pricing sends mixed signals",
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOODNLeHFyTko0b1VvQ01BNEl1MllsOFRPOGlVTWs2VlNfMnRMeWcwNHNBWnVWLTdWQTNqdm1keC1HSlVON1Q1Z21UX24xTHFNa09rejYtNk9EbU5aaXM5LThyVVRrRHA0dHhLY0FBa2Q1LWtHWkZkY2NyOTk3RzNpcFBuaWgtLUZVVWx3?oc=5"
+     }
+    ]
+   },
+   {
+    "category": "companies",
+    "headline": "CoreWeave jumps on strong results, lifting AI chip stocks",
+    "summary": "CoreWeave rose more than 24%, its best day since April 2025, after a strong third-quarter report and a pledge of discipline on debt. The rally spread across chip names including Micron and Lumentum, which were among the S&P 500's biggest gainers.",
+    "sources": [
+     {
+      "source": "CNBC",
+      "title": "CoreWeave soars more than 24% for best day since April 2025 after strong Q3 report",
+      "link": "https://www.cnbc.com/2026/11/11/coreweave-crwv-outlook-earnings-ai.html"
+     },
+     {
+      "source": "MarketWatch",
+      "title": "CoreWeave just gave a shot in the arm to Micron, Lumentum and the rest of the AI trade",
+      "link": "https://www.marketwatch.com/story/micron-and-other-ai-stocks-surge-as-coreweave-calms-wall-streets-worst-fears-0a18152a?mod=mw_rss_topstories"
+     },
+     {
+      "source": "TechCrunch AI",
+      "title": "CoreWeave turns to customer prepayments, shorter contracts to fund AI growth",
+      "link": "https://techcrunch.com/2026/11/11/coreweave-turns-to-customer-prepayments-shorter-contracts-to-fund-ai-growth/"
+     }
+    ]
+   }
+  ],
+  "calendar": [
+   {
+    "when": "Today",
+    "event": "US envoys Witkoff and Kushner meet Putin in Moscow, then brief Zelenskyy in Dublin at the European Political Community summit"
+   },
+   {
+    "when": "Today",
+    "event": "European Political Community summit in Dublin, with around 50 leaders attending"
+   },
+   {
+    "when": "Today",
+    "event": "Poundland's creditor protection from its notice of intention to appoint administrators runs until Thursday"
+   }
+  ]
+ },
+ "world": {
+  "us": [
+   {
+    "category": "political",
+    "headline": "Democrat Scott Colom wins Mississippi Senate seat",
+    "summary": "Scott Colom defeated Republican incumbent Cindy Hyde-Smith by a razor-thin margin, eight days after election day, to become Mississippi's first Black senator since Reconstruction. It is the state's first Democratic Senate win since 1982 and boosts Democrats' push in the South.",
+    "sources": [
+     {
+      "source": "BBC",
+      "title": "Democrat Scott Colom seals historic win in Mississippi Senate race",
+      "link": "https://www.bbc.co.uk/news/articles/cw7vppyr80eeo?at_medium=RSS&at_campaign=rss"
+     },
+     {
+      "source": "NPR",
+      "title": "Democrat Scott Colom wins the closest Senate race in the country",
+      "link": "https://www.npr.org/2026/11/11/nx-s1-6037840/democrat-scott-colom-wins-the-closest-senate-race-in-the-country"
+     },
+     {
+      "source": "Guardian",
+      "title": "Promises and pride: Scott Colom rejoices with young and old on historic night in Mississippi",
+      "link": "https://www.theguardian.com/us-news/2026/nov/12/scott-colom-celebrates-mississippi-senate-win-victory-party-speech"
+     },
+     {
+      "source": "Politico",
+      "title": "Mississippi elects Democrat Scott Colom to Senate in massive upset",
+      "link": "https://www.politico.com/news/2026/11/11/scott-colom-wins-mississippi-senate-01161555"
+     },
+     {
+      "source": "DW",
+      "title": "Mississippi Senate race: Democrat Scott Colom defeats Republican Cindy Hyde-Smith",
+      "link": "https://www.dw.com/en/mississippi-senate-race-democrat-scott-colom-defeats-republican-cindy-hyde-smith/a-79924938?maca=en-rss-en-all-1573-rdf"
+     },
+     {
+      "source": "CNBC",
+      "title": "Scott Colom wins Mississippi Senate election over incumbent Republican Hyde-Smith",
+      "link": "https://www.cnbc.com/2026/11/11/democrat-scott-colom-projected-to-win-mississippi-senate-election-over-incumbent-hyde-smith.html"
+     },
+     {
+      "source": "FT",
+      "title": "Scott Colom wins historic Senate race in Mississippi",
+      "link": "https://www.ft.com/content/ed93bd25-3ae4-4845-ac2e-ccb6e9c741e6?syn-25a6b1a6=1"
+     }
+    ]
+   },
+   {
+    "category": "financial",
+    "headline": "US retail sales slow as consumers show strain",
+    "summary": "The CNBC/NRF Retail Monitor showed October retail sales rising at their slowest pace in nearly a year. Shoppers kept spending but showed strain from high prices.",
+    "sources": [
+     {
+      "source": "CNBC Economy",
+      "title": "Consumers are showing signs of strain even as they keep spending, CNBC/NRF Retail Monitor shows",
+      "link": "https://www.cnbc.com/2026/11/11/october-retail-sales-cnbc-nrf-2026.html"
+     }
+    ]
+   },
+   {
+    "category": "notable",
+    "headline": "Three Iran-backed suspects charged over plots including near RAF Fairford",
+    "summary": "The US Justice Department says three men backed by Iran were involved in a string of plots, including an incident near RAF Fairford, which US forces use. Treasury Secretary Scott Bessent has also reportedly moved to a military base over alleged Iranian threats.",
+    "sources": [
+     {
+      "source": "BBC",
+      "title": "Three Iran-backed suspects plotted attacks including incident near UK air base, US says",
+      "link": "https://www.bbc.co.uk/news/articles/c3rryrryk59zo?at_medium=RSS&at_campaign=rss"
+     },
+     {
+      "source": "NPR",
+      "title": "House effectively ends Hegseth impeachment. And, 3 men accused of plotting U.K. attacks",
+      "link": "https://www.npr.org/2026/11/11/g-s1-152949/up-first-newsletter-pete-hegseth-jim-jordan-iran-backed-trio-us-bases"
+     },
+     {
+      "source": "NPR Politics",
+      "title": "Ex-CIA officer on UK investigations into alleged Iran, Russia threats",
+      "link": "https://www.npr.org/2026/11/11/nx-s1-6036829/ex-cia-officer-on-uk-investigations-into-alleged-iran-russia-threats"
+     },
+     {
+      "source": "Guardian",
+      "title": "US Treasury chief Scott Bessent is reportedly latest Trump official to move to military base",
+      "link": "https://www.theguardian.com/us-news/2026/nov/11/us-treasury-chief-scott-bessent-moves-military-base-iran-threats"
+     }
+    ]
+   }
+  ],
+  "uk": [
+   {
+    "category": "political",
+    "headline": "Welfare overhaul and Rosebank decision loom for government",
+    "summary": "The Milburn review is expected to propose moving some under-25s off the main sickness benefits. Separately, Labour MPs are speaking out against drilling at Rosebank as a green light is widely expected.",
+    "sources": [
+     {
+      "source": "BBC",
+      "title": "Some under-25s should get fewer benefits, Milburn review to say",
+      "link": "https://www.bbc.co.uk/news/articles/cwn70l1628l0o?at_medium=RSS&at_campaign=rss"
+     },
+     {
+      "source": "Guardian",
+      "title": "Double amputee marathon runner criticises Badenoch for ‘weaponising his success’",
+      "link": "https://www.theguardian.com/sport/2026/nov/11/double-amputee-runner-richard-whitehead-badenoch-weaponising-success-welfare"
+     },
+     {
+      "source": "Guardian Business",
+      "title": "Tories would have to raise state pension age above 70 to keep triple lock, says minister",
+      "link": "https://www.theguardian.com/money/2026/nov/11/tories-raise-state-pension-age-70-triple-lock-torsten-bell"
+     }
+    ]
+   },
+   {
+    "category": "financial",
+    "headline": "UK economy grows 0.7% in third quarter",
+    "summary": "The ONS said GDP grew 0.7% in the three months to September, in line with expectations and the fastest pace in over two years, with a 0.2% rise in September alone. Sky News reported a boost from AI investment but a slowdown looming.",
+    "sources": [
+     {
+      "source": "CNBC Economy",
+      "title": "UK economic growth picks up to 0.7% in third quarter",
+      "link": "https://www.cnbc.com/2026/11/12/uk-gdp-third-quarter-2026.html"
+     },
+     {
+      "source": "Guardian",
+      "title": "UK economy grows by 0.7% in third quarter despite high oil prices",
+      "link": "https://www.theguardian.com/business/2026/nov/12/uk-economy-grows-third-quarter-oil-price-ons-gdp"
+     },
+     {
+      "source": "Sky News",
+      "title": "Economy grows 0.7% in third quarter but slowdown looms",
+      "link": "https://news.sky.com/story/ai-rollout-boosts-economy-as-slowdown-fears-mount-13610911"
+     },
+     {
+      "source": "BBC Business",
+      "title": "UK economy grows at fastest rate for more than two years",
+      "link": "https://www.bbc.co.uk/news/articles/ck3rgd429zd5o?at_medium=RSS&at_campaign=rss"
+     },
+     {
+      "source": "Sharecast.com",
+      "title": "London pre-open: Stocks to rise after Wall St gains; UK GDP in focus",
+      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPN0tIV2Z4ODVzMGRWM0NaOXNMVEV5eWY3cTZySnZCRXhkX0xsSkQycjQ5RTN1VkU5ME1RRWFUM2VZblEwYzRKT3h0cm1IWEloSS1rdTVnWVhOUVBjNk90am5YUHZBZ0FHSXVFblBsTl9pcnNWbmN2bVlyalVpYWFWb0tQQU95LTZxQzNvSFA3WWNaQ1kteG9sdF9MWUlOb1BkOTJhQzZ4OWRvdnd6Qm55aU9UQnVnRUZjY3ppUmRuanJWd2g1Mm9Nel94dUFLQzgz?oc=5"
+     },
+     {
+      "source": "Yahoo Finance UK",
+      "title": "MARKETS LIVE: FTSE 100 set to rise after Wall Street AI rally with UK GDP in focus",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9jTS1GZVNWQTIzT2RIbFlGVThSaWtaVFRoSjA3eC13bnpGVVAyUlhDZXBjaEFVWDd5WkhYZkFSRXdZZjVIeDd6eUlXOXc0ZzNuc3IxbnpLQVRNQXpydGhQZEh1WlRtdVNmU3YtWVpOSnY2dlRWZDNZQ0YxVzVCdkE?oc=5"
+     }
+    ]
+   },
+   {
+    "category": "notable",
+    "headline": "Poundland edges towards administration as rescue talks continue",
+    "summary": "The discount chain has filed notice of intent to appoint administrators and is expected to get more time to find a buyer. MPs have accused its owner of extracting millions while it was on a knife-edge.",
+    "sources": [
+     {
+      "source": "BBC",
+      "title": "Poundland set for more time to secure a rescue deal as emergency talks continue",
+      "link": "https://www.bbc.co.uk/news/articles/c3702jjkez4ko?at_medium=RSS&at_campaign=rss"
+     },
+     {
+      "source": "Guardian",
+      "title": "Poundland owner extracted millions when chain was on ‘knife-edge’, MPs say",
+      "link": "https://www.theguardian.com/business/2026/nov/11/poundland-owner-chain-mps-claim-high-court"
+     },
+     {
+      "source": "Sky News",
+      "title": "Poundland bosses meet to decide firm's future",
+      "link": "https://news.sky.com/story/poundland-directors-to-meet-tonight-to-decide-companys-future-sky-news-told-13610213"
+     },
+     {
+      "source": "BBC Business",
+      "title": "Poundland founder writes to King for help",
+      "link": "https://www.bbc.co.uk/news/videos/cm4gndjd4nnno?at_medium=RSS&at_campaign=rss"
+     }
+    ]
+   }
+  ],
+  "europe": [
+   {
+    "category": "political",
+    "headline": "Ukraine talks yield prisoner swap but no breakthrough",
+    "summary": "Russia and Ukraine agreed their largest prisoner exchange of the war at US-brokered talks in Abu Dhabi, but there was no ceasefire. US envoys Witkoff and Kushner are meeting Putin in Moscow and will then brief Zelenskyy in Dublin at the European Political Community summit.",
+    "sources": [
+     {
+      "source": "NPR",
+      "title": "Russia and Ukraine agree to a prisoner exchange as talks end with no big breakthrough",
+      "link": "https://www.npr.org/2026/11/11/g-s1-152954/russia-ukraine-war-talks"
+     },
+     {
+      "source": "BBC",
+      "title": "Russia-Ukraine talks turn to post-war security but end without breakthrough",
+      "link": "https://www.bbc.co.uk/news/articles/ck792we7zrz4o?at_medium=RSS&at_campaign=rss"
+     },
+     {
+      "source": "Guardian",
+      "title": "Ukraine talks in Abu Dhabi bring progress on prisoners but not on peace",
+      "link": "https://www.theguardian.com/world/2026/nov/11/ukraine-talks-in-abu-dhabi-bring-progress-on-prisoners-but-not-on-peace"
+     },
+     {
+      "source": "France24",
+      "title": "Ukraine live: US envoys Witkoff and Kushner arrive in Russia to meet Putin",
+      "link": "https://www.france24.com/en/europe/20261112-live-us-envoys-to-meet-putin-and-zelensky-after-abu-dhabi-talks"
+     },
+     {
+      "source": "DW",
+      "title": "Ukraine peace talks: US envoys arrive in Russia to meet with Putin",
+      "link": "https://www.dw.com/en/ukraine-peace-talks-us-envoys-arrive-in-russia-to-meet-with-putin/live-79925580?maca=en-rss-en-all-1573-rdf"
+     },
+     {
+      "source": "Euronews",
+      "title": "Zelenskyy to meet US envoys in Dublin after Russia peace talks",
+      "link": "https://www.euronews.com/2026/11/12/zelenskyy-to-meet-us-envoys-in-dublin-after-russia-peace-talks"
+     },
+     {
+      "source": "Arab News",
+      "title": "Russia, Ukraine start second day of US-led talks",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOOWg2ZWcyMXhvMnBFQUd1a25selZLMFd2eUF2aUZBNXRZLVlZT0trZXYxOGN2OWtvU1V3eVVPYjVuN2RfNnhicmYzbWVETnp2aG9kS2RvNTZHaTNwT3EyMTFLY0hIUHZLanV4SkNDTktocnN2QTl3MVZnQVlveWtGb24yenNVYUFTTm0tV2hGcw?oc=5"
+     },
+     {
+      "source": "Politico Europe",
+      "title": "The summit Europe loves to hate",
+      "link": "https://www.politico.eu/podcast/brussels-playbook-podcast/the-summit-europe-loves-to-hate/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication"
+     }
+    ]
+   },
+   {
+    "category": "financial",
+    "headline": "Spain's first general strike in 14 years over housing costs",
+    "summary": "Millions of workers joined a 24-hour strike over housing and the cost of living, with clashes in Madrid and Barcelona and more than 70 arrests. It comes weeks before a snap election on 29 November.",
+    "sources": [
+     {
+      "source": "BBC",
+      "title": "Clashes erupt in Barcelona after thousands join Spain general strike",
+      "link": "https://www.bbc.co.uk/news/articles/cwvg25nypmrvo?at_medium=RSS&at_campaign=rss"
+     },
+     {
+      "source": "Guardian",
+      "title": "Police clash with protesters during Spain's general strike – video",
+      "link": "https://www.theguardian.com/world/video/2026/nov/11/police-clash-with-protesters-during-spains-general-strike-video"
+     },
+     {
+      "source": "France24",
+      "title": "General strike over housing brings out hundreds of thousands in Spain",
+      "link": "https://www.france24.com/en/general-strike-over-housing-brings-out-hundreds-of-thousands-in-spain"
+     },
+     {
+      "source": "DW",
+      "title": "Spain: Housing crisis prompts general strike, mass nighttime protests",
+      "link": "https://www.dw.com/en/spain-housing-crisis-prompts-general-strike-mass-nighttime-protests/a-79915208?maca=en-rss-en-all-1573-rdf"
+     },
+     {
+      "source": "Euronews",
+      "title": "Spain grinds to a halt in first general strike in 14 years",
+      "link": "https://www.euronews.com/2026/11/12/spain-holds-its-first-general-strike-in-14-years-amid-mass-protests-and-police-charges"
+     },
+     {
+      "source": "BBC Business",
+      "title": "Workers across Spain stage first general strike in 14 years",
+      "link": "https://www.bbc.co.uk/news/videos/c920xlpdl28eo?at_medium=RSS&at_campaign=rss"
+     }
+    ]
+   },
+   {
+    "category": "notable",
+    "headline": "Hoax bomb threats hit schools across Italy, Scotland and Northern Ireland",
+    "summary": "More than 6,000 Italian schools received threats and some were evacuated, with similar emails reaching schools in Scotland and Northern Ireland. Authorities say there is no risk to the public, though Ireland has mounted a large security operation amid hybrid-threat concerns.",
+    "sources": [
+     {
+      "source": "BBC",
+      "title": "Schools in Italy, Scotland and Northern Ireland hit by threats in suspected bomb hoax",
+      "link": "https://www.bbc.co.uk/news/articles/cwz0k79pr8z2o?at_medium=RSS&at_campaign=rss"
+     },
+     {
+      "source": "France24",
+      "title": "Schools evacuated across Italy after bomb threats",
+      "link": "https://www.france24.com/en/schools-evacuated-across-italy-after-bomb-threats"
+     },
+     {
+      "source": "Guardian",
+      "title": "US envoys to meet Putin and Zelenskyy separately - as it happened",
+      "link": "https://www.theguardian.com/world/live/2026/nov/11/europe-ukraine-russia-us-talks-abu-dhabi-zelenskyy-latest-news-updates"
+     },
+     {
+      "source": "Arab News",
+      "title": "Some 300 Italian schools evacuated due to bomb threats",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNZzB4NGpyYlRnbmNGNmRxSTNlR0kxeU9nYTYyMmxmX2t4aENzQ2xzZlpaRE94RnFWMzFOblV1RkdET1hzNXVjR2k3T0JpdDJfWlRkZFBMNTNySm1mTko5OXBPS0k4WWx3WkkwTUIzQUZ0a0swZ2Z2ZGFrVk9SUzZJd3B1aW9KbHdRYWhzcy0wUm1LMlRVY0hQTw?oc=5"
+     }
+    ]
+   }
+  ],
+  "middle_east": [
+   {
+    "category": "political",
+    "headline": "Yemen fighting escalates as Saudi Arabia reports Houthi missiles",
+    "summary": "Saudi Arabia says debris from intercepted missiles fell on the Mecca region, while the Houthis deny targeting Mecca and fighting with Saudi Arabia has intensified. The G7 backed Saudi Arabia's right to self-defence and called on Iran to stop arming the Houthis.",
+    "sources": [
+     {
+      "source": "Al Jazeera",
+      "title": "Fighting intensifies in Yemen as Houthis deny targeting Mecca",
+      "link": "https://www.aljazeera.com/news/2026/11/12/fighting-intensifies-in-yemen-as-houthis-deny-targeting-mecca?traffic_source=rss"
+     },
+     {
+      "source": "Arab News",
+      "title": "G7 backs Saudi right to self-defense and demands Iran stops arming the Houthis in Yemen",
+      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPcnFwVGFJeHpWZGxYZ3J6UW5qQkRNZ3RQUkMyLW9oa0xWejRnZFZpS3NaQkRFV0JEUzRTNzFHYmxiT3l2ajgyZGx4NDMyYnBMSnFFTjM2TEZXb0hrTkpvdExiNmZZWV9ORWNOS2t1MHM1b2FfaEhfZm9nekNtUS11N3JqR0JpbW9wU0tVc3N0aDJ6dHU5SkZIWkNwWFQ4aEFnLTBsV19xaDNXcEpPV3RjTEdaLUR1OXRXbW1sRlEzUzFObFdoRDVxSzdwOEI?oc=5"
+     },
+     {
+      "source": "Reuters",
+      "title": "Saudi Arabia says debris from intercepted missiles falls in Mecca region",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQSEdmMVduSHJxWEd1UWVkOUtrcF91S3VfSnI0MzlnTjh6NFdHOFNpSTBXU1JpdFk3NHdORlNsck91bFEyNUNLMHdoT1hFZmlqTGdaUDU2c2ZkeXE0Zl82cURaQXZxTS1IMmxqS3FNUEVNU1FRU1NQU01EQkxzNkN0YUhWek1qRm9ZYkNUS1FrWUIyTmFaUFFkTERqZER3UUx6cEN3VVdWNG56R19zSFkzRWphVUl1Z3I1eHc?oc=5"
+     },
+     {
+      "source": "Kurdistan24",
+      "title": "Houthi Strikes Reported in Yemen’s Aden as Fighting With Saudi Arabia Intensifies",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNcXRkT1FSakxhUzBuZFd5ZUpnZU5MY0FsVE1rYWVEdmZvUEV5YlZjdjRPS3pDRXhVekRzM3pvZWI3RTlkNDFSallLcnBQSmV5b2M0Yk9US3hMNW1tNVFtYUNYVFJadVYxaWF6X1pFT2NfcDA0b21JSDN1aXYxcmJSYWRRMzJwSERFRFFZX0Fha2s1SGZtUlExQnFRN3AxSjU2WmUtQ285LUdSay1CUjc2bkZRcXhOYjROV1dxVzIwaHl6QQ?oc=5"
+     },
+     {
+      "source": "Anadolu Ajansı",
+      "title": "Saudi-led coalition says it intercepted drone over Riyadh region",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNSUR5QmxROUNGWHhhU2FLbUtETi01b1AtQWQ0clR2RUV3bWxDcnFrTjBCdzNwQVpiQlNIMEJjRHZLWXVaSmdOeG5yQzdlRDExQktjcVdMVVAwZTJlQ0hud1B5MXYyMDRxcU9VQlA0Z2NqRmo4S2IwZVl3QWRQajVzSTNvd3MtcW0tSmUwbWtycGh1anBNRWFTaVB5MjhvdkdNX2hpMzZSeHRjZw?oc=5"
+     }
+    ]
+   },
+   {
+    "category": "financial",
+    "headline": "Qatar loses first LNG customer since war disrupted flows",
+    "summary": "Qatar has lost its first LNG customer since the war disrupted flows, according to Energy Connects. Elsewhere in the Gulf, Oman is cutting public debt on higher energy prices and Goldman and Fortress are backing a rare Saudi private credit deal.",
+    "sources": [
+     {
+      "source": "Energy Connects",
+      "title": "Qatar Loses First LNG Customer Since War Disrupted Flows",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQbldhYkQ2NWtIY2U4LTF5QnZNeVlyRlRvbEZ6SWxSRTJ3dzJlMkRhZUNmUm0xRzlJYlk0Qi1nRlJQckx5MGd3djg5ekRLTlNTbzlGMVlaN3FYeHRKd1pBWUtsalJOY0Z3NUFBQ2hMU3hOam0wZTZzRWZnclQweGd6SUZIeDZDYkhUTUNxbGVnanRxOUJqNWNKYTU4ZUpxVFQxQnZoVHd1TkRpNmpLRzJSeTlWc09IZw?oc=5"
+     },
+     {
+      "source": "Arabian Gulf Business Insight | AGBI",
+      "title": "Higher energy prices help Oman to cut public debt",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNNWhOMmtLSlVwbGd3bnhzbzlxRW5LQ3l2YUVxZ2tiSHpkNkxiWUh2aEl6bE45NkZWNml3aE1MRXk4THlMVFh5bUFwb3ItREZoU29uNmNDTk0zSGxiS1R3V2xfWkIycVFjMnpJNkZ1dGZUZThQY2RUZ0h3Zy1wNUtHNWJJbjhabm1DcURCaDc2UFc?oc=5"
+     },
+     {
+      "source": "Bloomberg.com",
+      "title": "Goldman, Fortress Back Rare Saudi Arabia Private Credit Deal",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOQlZQZGNGRlVobDVTT29TMDVvTXhNR2tlZjNpOWhYbzhkZDA5ay0zSDU0Z09DR28tRng3ZDVqbkdGVWk2Z09IOWdtX2UxOURreGx5OWNhaFh5cmFfZkxFdFNiNHNuS0J3TElFY01UdXRhTVdzRzkxYTV0c0VYVEhKMmlGbHIyUmxOQXJ1MWE5T2c0UVFVYklXVUdqdExHemFLSzRrVGZxUGRSYldTV2hfQmlRcUdNRlBLRjVfMTBRUQ?oc=5"
+     }
+    ]
+   },
+   {
+    "category": "notable",
+    "headline": "Iran says ball is in US court as Israel reportedly readies strike",
+    "summary": "Iran's chief negotiator said Tehran is open to a deal if the US avoids excessive demands, while Iran warned of expanded retaliation as Israeli media reported military preparations for a possible attack. Iranian officials also believe Washington is planning further strikes or tighter sanctions.",
+    "sources": [
+     {
+      "source": "Al Jazeera",
+      "title": "Iran open to deal if US ‘refrains from excessive demands’, says Ghalibaf",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/12/iran-open-to-deal-if-us-refrains-from-excessive-demands-says-ghalibaf?traffic_source=rss"
+     },
+     {
+      "source": "Guardian",
+      "title": "Trump planning new military assault or tighter sanctions, say Iranian officials",
+      "link": "https://www.theguardian.com/world/2026/nov/11/trump-planning-military-assault-or-tighter-sanctions-iranian-officials"
+     },
+     {
+      "source": "DW",
+      "title": "Where the US's war with Iran stands after the midterms",
+      "link": "https://www.dw.com/en/where-the-us-s-war-with-iran-stands-after-the-midterms/a-79918176?maca=en-rss-en-all-1573-rdf"
+     },
+     {
+      "source": "BBC",
+      "title": "Trump says 'we won' Iran war during Veterans Day service",
+      "link": "https://www.bbc.co.uk/news/videos/cke89dqmlp2eo?at_medium=RSS&at_campaign=rss"
+     }
+    ]
+   }
+  ]
+ },
+ "energyTech": {
+  "energy": [
+   {
+    "category": "energy",
+    "headline": "RWE and KKR secure £12bn for Vanguard offshore wind",
+    "summary": "RWE and KKR have secured about £12.8bn of loans for the Vanguard offshore wind projects off Norfolk, including £1bn from the UK National Wealth Fund. The 2.8GW package is seen as a vote of confidence in UK offshore wind.",
+    "sources": [
+     {
+      "source": "Guardian Business",
+      "title": "Burnham lauds £12bn offshore wind investment as he prepares for climate summit",
+      "link": "https://www.theguardian.com/environment/2026/nov/11/burnham-offshore-wind-investment-norfolk-climate-summit-cop31-jackdaw-gasfield"
+     },
+     {
+      "source": "Utility Week",
+      "title": "RWE and KKR secure £12.8bn of loans to build Vanguard offshore wind farms",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOQ0ZxMzc3T0V6Y2NRVlVhRUc0UU5VbmZ3ekxiYjltSHJpR3cwMUpXVmRvZUZ4cDVxSTZwM0ZVTzQ0dkR0OWg0cGJFWFZmdk4zNzlEWk1pTGdudWVtMXNTNHl1UndleEVmeldrUThmbU53dEFlUU5wMVZ1TXhMOE1JNXpWUERZMEdQZ180T1B2Ykw1X2d3OUlrdndBSzc2Skgy0gGsAUFVX3lxTE01TV80Ny10SXVqN05UZDBCVmIzajFxdWJzRkVOSWJDSlcybFNvU3dPM3NOQ3VKWldQUDRRYjhWVlJqOW1BZUstcnBiejVFczFQMFBCTkVKYnlwd3YwRkhRa2M0UFhuMnR0SlBPU1lfSm1KZUNqdExWUFJCbV9ZVnp5dHRZbTJBTHpJOUdUZlptVUJlNnFiOEtHRTFvbzRueXdyQlhocktwOUZOV1E?oc=5"
+     },
+     {
+      "source": "RenewableUK",
+      "title": "Vanguard announcement is a major vote of confidence in UK offshore wind",
+      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPTXFHVVFtNmstOUhmR2xqMlFMeHhpZ3NhUmVucHFPcFRqNkFyQ1BCeHZfVG5uY21YZDI2NUJaWV9zV05GcWtUZTg0TFU5TUJnNktVZXNIVWpHVThxVi1RN0xQTnN3YktMWkRGblcyTnMtSWFaeld6Ri1QUDNOWmFQYVRKRmJBbF9ic0wxV2g0cGg5ekFxTDVoNDJMcVB6NGVkNGRBWVFNXzRnOGVCZE8zMUxuYUxxbXRIUkpZS0JQN1VvbGlwNHlqUFNrc0taV0U?oc=5"
+     },
+     {
+      "source": "BBC",
+      "title": "Deal worth £12bn to build windfarms off Norfolk coast",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE0xbEhoSGgzWjdOd280UkFMOHdEa0Z0SzUzdlQ1UEhURDZiZjhJVGZQYV9lY3hFQmRxYUFHcVpCQTFiMXN4c1FXVm1wLXY3WGtYYlVyeTJsRTVEdGc?oc=5"
+     },
+     {
+      "source": "Energy Digital Magazine",
+      "title": "Vanguard: RWE & KKR to Build 2.8GW of New UK Offshore Wind",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPWFFrdktNU2tsZlpyd3VvY2sxU2pMSXMtb3B4TjNRNEVqZ0xLOF9hS2EyYkNlUWpYYzkyWlVLQXVxd0E5ODBjN0s5OW1IWlFoQXh2Tk5aMU5vR29JOURMTW5LSGdLX0FJc211Y2t1X1Z0bjZHeWtpbm9Yai1XN0xkamxHQjVjWUljTzNMa1NPcXQ?oc=5"
+     },
+     {
+      "source": "IPE Real Assets",
+      "title": "KKR and RWE secure backing for £12bn UK offshore wind projects",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPd3NmZG5UYi1qRDc5S3ZNM1Yta1Y1UHNhNEM5MmNYcWFpSXJ4akFFcTQ4MFlkM1JLU0txalA1SzVKWi1wemZHVmlhNVZWSlMtM0plZGtpRUd1TWVkejBOX2FlLXQwR0ZrcDdoVFppWjlpc2w0SUVDQkpHbVA2SkhZMU5yWTVEQkZsVWRiYm9YOURNRmVZQ2R1U3dxZHFRM0V0dW1QUU90VHZ2NzlnbDY0?oc=5"
+     },
+     {
+      "source": "EnergyWatch",
+      "title": "EIFO guarantees DKK 14bn for UK offshore wind farms",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1VS0YwSTVkYlNGSVpjdDQ2aWVJWXZWTnN3b0lLMEVSQ0VuYi1ZNnNlNS1tZDE0aGdyMjVtVUUwczhqdXBDTndGZ2tFb05PNU9ycmJLUWVIN0MtRVpjdGtsMmxtdTFUeEJOMVEw?oc=5"
+     },
+     {
+      "source": "Net Zero Investor",
+      "title": "The rise of the megadeals: UK offshore wind’s new pipeline of giant projects",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNOHd2c2J5TFZUQld4TERCbzhjVExvNXU4U2RMenJLTGtNUEJKX1hJdDRsVmdyLWNneUE5bFBNbTF1WlVfdmpaTG1KWmgxRVN4bzM0RFVpRzdPeGhNZXVpbmJzWVNrRzhYSy1hSndjMDM3eV9KbjN3X0h4OGVuYjZvbXdiRDZ6dDFhNEloN0FLWkY1V0NVMWVCQV9MeXNxbm5ULUZJNUJHMTl6T0JPdHYyR2Y2eHhpLW9Oay1ISVBn?oc=5"
+     }
+    ]
+   },
+   {
+    "category": "energy",
+    "headline": "Global grid expansion jumps 50% to a record",
+    "summary": "IRENA reported at COP31 that utilities built over 21,000 km of new transmission lines last year, a 50% rise. Separately, research shows AI datacentre developers plan 181GW of on-site gas power because of grid connection delays.",
+    "sources": [
+     {
+      "source": "OilPrice",
+      "title": "Global Power Grid Expansion Surges 50% to Record High",
+      "link": "https://oilprice.com/Energy/Energy-General/Global-Power-Grid-Expansion-Surges-50-to-Record-High.html"
+     },
+     {
+      "source": "Guardian Energy",
+      "title": "AI datacentres plan on-site power stations on huge scale despite climate risks, research reveals",
+      "link": "https://www.theguardian.com/world/2026/nov/11/ai-datacentres-on-site-gas-fired-power-stations"
+     },
+     {
+      "source": "TechCrunch AI",
+      "title": "Why the data center you dread might never even be built",
+      "link": "https://techcrunch.com/video/why-the-data-center-you-dread-might-never-even-be-built/"
+     }
+    ]
+   },
+   {
+    "category": "energy",
+    "headline": "Oil eases on peace hopes but stays volatile; UK diesel near £2",
+    "summary": "Crude fell earlier in the week on hopes for peace in Ukraine and Iran, then rebounded as Iran denied talks with Washington. UK diesel remains close to October's record near £2 a litre despite the oil price falls.",
+    "sources": [
+     {
+      "source": "OilPrice",
+      "title": "Oil Prices Sink as Iran and Ukraine Peace Optimism Builds",
+      "link": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Sink-as-Iran-and-Ukraine-Peace-Optimism-Builds.html"
+     },
+     {
+      "source": "Guardian Business",
+      "title": "Diesel still costing close to a ‘dismal’ £2 a litre despite oil price falls",
+      "link": "https://www.theguardian.com/money/2026/nov/11/diesel-prices-petrol-business-oil-hormuz"
+     }
+    ]
+   }
+  ],
+  "ai": [
+   {
+    "category": "ai",
+    "headline": "Anthropic IPO eyes valuation above $1.5trn",
+    "summary": "Reports suggest Anthropic's bankers may push its valuation past $1.5trn at flotation, with commentators asking whether turmoil at Nvidia could derail the listing. Elsewhere, OpenAI's quarterly revenue reportedly passed $10bn for the first time.",
+    "sources": [
+     {
+      "source": "Financial Times",
+      "title": "Can anything derail Anthropic’s IPO?",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNTnZOeWlFM3k0YVM2cjRwR1dmMGtSREdPWmdNMW16LU5mY2RvNTVnbDd1UTBKLWxLWGxadkpLaFBUY2FITjY5ZlVXQ1NZc3laeUJxSUhXczB1UURlZE5OZ3FmUXQyZm5xY1RwVjN2MHh6OVhVM2JQSWVzcDRVRmVweDg4VkU?oc=5"
+     },
+     {
+      "source": "This is Money",
+      "title": "Anthropic eyes higher value of $1.5trillion amid scramble for shares - but will crisis at Nvidia derail blockbuster float?",
+      "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPRDZ0MnNRUGFlUjh2cVFMczc5Z25vUVhrTzVIeHFxTno3MVBpWTlOcFliZFdMQ2czdzM0bjc1TUxGd2puZGtOVFllVjdabFY5ZVYtMEtfd3F1c2ZjcEhtMzFLZjdBbVhrSTVMbFJDSUF2aTdnWllIVmtRdjA1RjZteVkzaFJfbTNFMmJFbnN3dHF1bmpKT3pQSlZxY3dxNF9UUXZSOTN3VF90RHg4VGc1S21xYkZOQ0V6REk0RUdWSmx0R2NEV1ZrbjhDX1MxX0JpYWN6eTVVVDFKN0ctajBwQm9tSkw5M1VhYWtkTTZZYjNuU29ya2pKaQ?oc=5"
+     },
+     {
+      "source": "Citywire",
+      "title": "Thursday papers: Anthropic’s bankers may push its valuation past $1.5tn at IPO",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPbWc3UlZMYzEyVmlHaEtWWlFlT20zYUNMdlRpdjlyNGxMUHF0RFZvZE1PUnJSMmVFbWx0dW9hanpxQ3g4LTdQcmJTMkVpVVBNbzVqM3dBVU8wcVFlQ2VFaDIza1l5dDJYc3lVWEdJaF84RFg0QXF2d3IyNzhTRXVyTGtxZGw0MVhQbk9LTHFjMlBFaENpOVpsZFMxaHJCRWY0c0dCZUpwNGE1WjVEbzdTRXc2ZmM0NU4wdU93Zy1QQ2FzRWlpcG1hSg?oc=5"
+     },
+     {
+      "source": "Yahoo Finance UK",
+      "title": "Anthropic IPO retail demand and market positioning risks ahead of debut",
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQSkhxUnhqcHp6NzZTeEpqUV90NHNKNkZmbGM1UWM0Nl85NFhqelRpNW9pZmNZVXJERGczdUZRbDQzdVNjVnFXUF9zR0Q4UlZyZEw1OGE1dEVSVDhDcmJ2UVBwRVFFUEhLUlVvMnB3X1cyVFR0SUlPdEtwQWVadW5zdVB6YkR0MHktXzgw?oc=5"
+     },
+     {
+      "source": "The Daily Upside",
+      "title": "Anthropic’s IPO Is Both Boom and Bust for Big Tech",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNd1pjVV9ZTjlEVmh3QjRsdGg5bWlCSW5OTjczNTBzVk00a3ZuTUkzdFRjcEM4Qm1Lc1FQM3hiUC04WkVjLV84RlBTS2g0WmdMMmFUTVFUaTREMjhhTGV5ZjN4VUl5VktUV1h5X0tzZThrbHVPRm9fVndIeHFHR2dlNm1RRzVVTmhEazBIS25tLWpnNmxzTTV1eUVZaXRzbk9qcEdCMF8yZXR0cTUyazg5SlBfN0x6VE0?oc=5"
+     },
+     {
+      "source": "Reuters",
+      "title": "PODCAST: Anthropic heads for the ultimate AI benchmark",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPSGdVLUQtWmVvWFd2bVUzdWthU1I1UFh0Z21rWFYzUzdSMG5jVEZXVzVrSnVlTkViWmhNZ0hIcklOMDZTblZod3NEaTBocHZfMWd3eXRXOGhENGItU19waDJWTnV5eU1RNlltaDR3dUNwX0FSa3FRbEJEcGtSQnlSbEphNmRza2pMcXh3anN1V0pvWE9Wbkxj?oc=5"
+     },
+     {
+      "source": "CNBC",
+      "title": "Jim Cramer: This is the bet you're making if you buy the Anthropic IPO",
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPUUU1UTJ3dnVtQlBEN3FnbnhzUmVuUFd4UTdfOVQ4bW9lb1dXUVVqa3dPOXR4d0tWazhrdHBqajgwdnFEVk55UmIzZnF4MUR0ZnI0SVA0N2gxU0dObDBsSmNUY3N6NWlSYUd0VE1TY2NtT1Zta2hGbU9iSWtmaUxWdUN5ZS0xZw?oc=5"
+     },
+     {
+      "source": "TechCrunch AI",
+      "title": "OpenAI’s quarterly revenue reportedly crosses $10B for the first time",
+      "link": "https://techcrunch.com/2026/11/11/openais-quarterly-revenue-reportedly-crosses-10b-for-the-first-time/"
+     },
+     {
+      "source": "Silicon UK",
+      "title": "OpenAI Losses Widen Amid Revenue Growth",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBxTzRGeUtubjJXSGNIU05qWm1LVWItUFJNd3BSY0doY3d2QWQwYjVpZHpYbVZkT1BJUm1uSlctbjY0Sk55NVhqS00ydkZIRmlib2FJUzRfa3pMUTk5elRjWFd5OU80UQ?oc=5"
+     }
+    ]
+   },
+   {
+    "category": "ai",
+    "headline": "Nvidia crisis raises questions about AI financing web",
+    "summary": "Analysts warn that Nvidia's ties to other companies through chip supply and financing mean trouble at the top could spill across the AI sector. Lawmakers are also pushing to tighten Nvidia's China exports, and TSMC is reported to be investing $1bn in Anthropic and OpenAI.",
+    "sources": [
+     {
+      "source": "CNBC Economy",
+      "title": "Analysis: Is Nvidia too big to fail? Its AI financing web raises the stakes",
+      "link": "https://www.cnbc.com/2026/11/11/nvidia-jensen-huang-ai-financial-system-risk.html"
+     },
+     {
+      "source": "CNBC",
+      "title": "Jensen Huang affair in D.C.: Resignation calls and moves to tighten Nvidia China exports",
+      "link": "https://www.cnbc.com/2026/11/11/nvidia-jensen-huang-congress-resign-ai-chips.html"
+     },
+     {
+      "source": "FT",
+      "title": "State dinners to scrutiny: Nvidia’s Huang falls out of favour in Trump’s Washington",
+      "link": "https://www.ft.com/content/9ca8ba83-5a3c-409e-96d9-abee1323b688?syn-25a6b1a6=1"
+     },
+     {
+      "source": "Ars Technica",
+      "title": "Taiwan’s chipmaking giant TSMC to invest $1B in Anthropic, OpenAI",
+      "link": "https://arstechnica.com/ai/2026/11/taiwans-chipmaking-giant-tsmc-to-invest-1b-in-anthropic-openai/"
+     },
+     {
+      "source": "TechCrunch AI",
+      "title": "Congress to call Jensen Huang in to answer for alleged Chinese spy affair",
+      "link": "https://techcrunch.com/2026/11/11/congress-to-call-jensen-huang-in-to-answer-for-alleged-chinese-spy-affair/"
+     }
+    ]
+   },
+   {
+    "category": "ai",
+    "headline": "UK chip start-up Fractile raises $720m",
+    "summary": "Britain's Fractile has raised $720m, making it one of the best-funded makers of purpose-built AI chips. Meta also said its head of infrastructure will leave in 2027, to be succeeded by former AWS executive David Brown.",
+    "sources": [
+     {
+      "source": "TechCrunch AI",
+      "title": "With $720M round, Britain’s Fractile gets a leg up in the race for AI chips",
+      "link": "https://techcrunch.com/2026/11/11/with-720m-round-britains-fractile-gets-a-leg-up-in-the-race-for-ai-chips/"
+     },
+     {
+      "source": "CNBC",
+      "title": "Meta head of infrastructure will leave and be succeeded by former AWS cloud exec",
+      "link": "https://www.cnbc.com/2026/11/11/meta-infrastructure-departure-aws-cloud.html"
+     }
+    ]
+   }
+  ],
+  "tech": [
+   {
+    "category": "tech",
+    "headline": "EU proposes Digital Fairness Act targeting loot boxes and addictive design",
+    "summary": "The proposed act would bring new rules for gaming, social media and e-commerce platforms to make online experiences fairer. It targets practices such as loot boxes and influencer marketing.",
+    "sources": [
+     {
+      "source": "The Verge",
+      "title": "Loot boxes, influencers, and addictive features face an EU crackdown",
+      "link": "https://www.theverge.com/policy/1031575/digital-fairness-act-eu-dfa-consumer-protection"
+     }
+    ]
+   },
+   {
+    "category": "tech",
+    "headline": "DeepMind verifies key parts of Signal and unveils AlphaGenome 2",
+    "summary": "Google DeepMind mathematically verified key parts of the Signal messaging protocol in a four-week project, suggesting AI could make formal verification more practical. It also released AlphaGenome 2, a model for how cells read DNA and how changes drive disease.",
+    "sources": [
+     {
+      "source": "Ars Technica",
+      "title": "Google DeepMind just mathematically verified key parts of Signal",
+      "link": "https://arstechnica.com/ai/2026/11/signals-encryption-just-passed-an-ai-powered-mathematical-checkup/"
+     },
+     {
+      "source": "The Verge AI",
+      "title": "Google’s AlphaGenome 2 zooms in on the cellular roots of disease",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1031524/google-deepmind-alphagenome-2-genetic-ai-model"
+     },
+     {
+      "source": "Google DeepMind",
+      "title": "AlphaGenome 2: Deciphering how cells read DNA to better understand disease",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOTFJXSTYyMXR1RmNUdmgxZWhSNU5HVndHbzh4eW9FU2hPNDhTQzlwa2pjYVZ0MUFIWFBUSUxCRTVnWGQwdEZ4eGpMWUd5UWJ4blVZRUdQUVdsY1d0cjdLZWw1NUZEYU5rUm5UTHRmN1lIOWViUnM2RG11ZUVCX1ExZWhpcXFCQlh3bEx4eDRLR3FaR1d4UE92TnpHWkhOU1RCUlVRa1F3?oc=5"
+     }
+    ]
+   },
+   {
+    "category": "tech",
+    "headline": "IBM to offer dual-processor quantum system in 2027",
+    "summary": "IBM plans to link two 520-qubit chips before the end of next year and offer access to the system in 2027. Alibaba also plans to list its Nvidia rival T-Head chip unit in Hong Kong.",
+    "sources": [
+     {
+      "source": "Ars Technica",
+      "title": "IBM to offer access to a dual-processor quantum system in 2027",
+      "link": "https://arstechnica.com/science/2026/11/ibm-to-offer-access-to-a-dual-processor-quantum-system-in-2027/"
+     },
+     {
+      "source": "CNBC Finance",
+      "title": "Alibaba announces plans to list T-Head, its Nvidia chip rival",
+      "link": "https://www.cnbc.com/2026/11/11/alibaba-pr.html"
+     }
+    ]
+   }
+  ]
+ },
+ "stats": {
+  "headlines": 422,
+  "feeds": 45,
+  "feedsFailed": 0
+ }
+}
