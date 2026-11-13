@@ -1,0 +1,1295 @@
+{
+ "date": "2026-11-13",
+ "dateLabel": "Friday, 13 November 2026",
+ "generatedAt": "2026-11-13T06:24:48.756Z",
+ "mode": "ai",
+ "model": "claude-sonnet-5-5",
+ "error": null,
+ "headlineOfDay": "Nvidia chief Jensen Huang resigns over affairs, one with an alleged Chinese spy, shaking AI markets and Washington as US bond yields surge.",
+ "markets": {
+  "summary": "US stocks closed lower, with the S&P 500 down 0.35% and the Nasdaq down 0.39%, as Nvidia's turmoil weighed on tech. The 10-year Treasury yield jumped to 5.10%, while the FTSE 100 and Euro Stoxx 50 edged higher. Brent held near $96 after Trump said no Iran deal was needed.",
+  "indices": [
+   {
+    "symbol": "^GSPC",
+    "label": "S&P 500",
+    "price": 7592.39990234375,
+    "asOf": "2026-11-12",
+    "d1": -0.35409680162568596,
+    "w1": 3.245562762147903,
+    "m1": -1.639344780799612,
+    "ytd": 10.910815898674311,
+    "spark": [
+     7718.9399,
+     7744.0601,
+     7659.4399,
+     7690.73,
+     7712.5698,
+     7757.1699,
+     7663.4302,
+     7623.6802,
+     7676.77,
+     7722.6001,
+     7743.98,
+     7720.3901,
+     7580.0698,
+     7541.3999,
+     7568.9199,
+     7688.6201,
+     7353.73,
+     7376.8599,
+     7549.9399,
+     7520.9302,
+     7619.3799,
+     7592.3999
+    ]
+   },
+   {
+    "symbol": "SPUS",
+    "label": "S&P 500 Shariah",
+    "sub": "via SPUS ETF",
+    "price": 57.599998474121094,
+    "asOf": "2026-11-12",
+    "d1": -0.24247177048128676,
+    "w1": 3.9523527030135277,
+    "m1": -3.469079534682357,
+    "ytd": 12.786369332911255,
+    "spark": [
+     59.67,
+     59.72,
+     58.82,
+     59.21,
+     59.28,
+     59.78,
+     58.81,
+     58.66,
+     59.3,
+     59.87,
+     60.11,
+     59.77,
+     58.42,
+     57.61,
+     57.95,
+     58.66,
+     55.41,
+     55.72,
+     57.19,
+     56.69,
+     57.74,
+     57.6
+    ]
+   },
+   {
+    "symbol": "^IXIC",
+    "label": "Nasdaq",
+    "price": 25366.08984375,
+    "asOf": "2026-11-12",
+    "d1": -0.3930686589733063,
+    "w1": 4.322804210363973,
+    "m1": -4.970538348220195,
+    "ytd": 9.139060760095527,
+    "spark": [
+     26692.8691,
+     26713.0293,
+     26140.0293,
+     26430.8906,
+     26424.8203,
+     26702.8594,
+     26008.8594,
+     25955.3398,
+     26169.3809,
+     26477.8105,
+     26549.8496,
+     26184.7207,
+     25437,
+     25164.3105,
+     25372.0098,
+     25736.5098,
+     24315,
+     24579.4297,
+     25253.1406,
+     25065.8691,
+     25466.1895,
+     25366.0898
+    ]
+   },
+   {
+    "symbol": "^DJI",
+    "label": "Dow Jones",
+    "price": 52297.08984375,
+    "asOf": "2026-11-12",
+    "d1": -0.3608517995814548,
+    "w1": 1.5023006613467893,
+    "m1": 1.3087756663797978,
+    "ytd": 8.808803691616896,
+    "spark": [
+     51621.4805,
+     52177.6914,
+     52002.4102,
+     51966.0313,
+     52495.8789,
+     52856.0898,
+     52867.9805,
+     52215.1602,
+     52361.5781,
+     52377.5703,
+     52475.1016,
+     52342.5586,
+     51770.3086,
+     51983.9805,
+     51786.7188,
+     53356.1211,
+     51523.0586,
+     51285.7305,
+     52389.75,
+     52231.8906,
+     52486.4883,
+     52297.0898
+    ]
+   },
+   {
+    "symbol": "^FTSE",
+    "label": "FTSE 100",
+    "price": 10863.099609375,
+    "asOf": "2026-11-12",
+    "d1": 0.25471468206358727,
+    "w1": 0.7456333998551825,
+    "m1": 1.2885827720209377,
+    "ytd": 9.381347867411542,
+    "spark": [
+     10724.9004,
+     10840.4004,
+     10881.9004,
+     10764.7002,
+     10733,
+     10752.9004,
+     10725,
+     10690.4004,
+     10767.2998,
+     10686.5,
+     10694.5,
+     10722.0996,
+     10729.7998,
+     10761.2998,
+     10638.4004,
+     10829.2002,
+     10782.7002,
+     10673.9004,
+     10782.9004,
+     10751.5996,
+     10835.5,
+     10863.0996
+    ]
+   },
+   {
+    "symbol": "^STOXX50E",
+    "label": "Euro Stoxx 50",
+    "price": 6398.97998046875,
+    "asOf": "2026-11-12",
+    "d1": 0.08743160718280285,
+    "w1": 2.6869752959404942,
+    "m1": 3.369909380733905,
+    "ytd": 10.399186767979772,
+    "spark": [
+     6190.3701,
+     6168.2598,
+     6204.23,
+     6144.8101,
+     6121.6602,
+     6207.52,
+     6087.0098,
+     6068.2202,
+     6116.23,
+     6164.6899,
+     6167.8101,
+     6207.0698,
+     6131.3101,
+     6176.0601,
+     6144.5601,
+     6265.71,
+     6231.54,
+     6170.4902,
+     6290.4502,
+     6327.8701,
+     6393.3901,
+     6398.98
+    ]
+   },
+   {
+    "symbol": "^TASI.SR",
+    "label": "Tadawul (Saudi)",
+    "price": 10326.47,
+    "asOf": "2026-11-12",
+    "d1": 0.1755854708358212,
+    "w1": null,
+    "m1": null,
+    "ytd": null,
+    "spark": []
+   }
+  ],
+  "commodities": [
+   {
+    "symbol": "GC=F",
+    "label": "Gold",
+    "unit": "$/oz",
+    "price": 3901.5,
+    "asOf": "2026-11-13",
+    "d1": 0.41695495761675316,
+    "w1": -4.255316854384963,
+    "m1": -6.441094730728722,
+    "ytd": -10.126467664120186,
+    "spark": [
+     4170.1001,
+     4181.1001,
+     4160.1001,
+     4142.6001,
+     4150,
+     4060.3999,
+     4007.8999,
+     4038.3999,
+     4074.6001,
+     4051.6001,
+     4031.3999,
+     3898.8999,
+     3969.6001,
+     3940.3999,
+     4073,
+     4113.5,
+     4074.8999,
+     4114.5,
+     4030.2,
+     4000.5,
+     3885.3,
+     3901.5
+    ]
+   },
+   {
+    "symbol": "SI=F",
+    "label": "Silver",
+    "unit": "$/oz",
+    "price": 49.94499969482422,
+    "asOf": "2026-11-13",
+    "d1": -0.054031111782874015,
+    "w1": -3.586668066780728,
+    "m1": -12.125907221319618,
+    "ytd": -28.78632648594457,
+    "spark": [
+     56.837,
+     56.995,
+     56.974,
+     57.706,
+     57.422,
+     54.764,
+     53.711,
+     54.108,
+     54.293,
+     53.457,
+     52.191,
+     49.097,
+     50.72,
+     49.587,
+     52.12,
+     52.233,
+     51.803,
+     52.564,
+     51.101,
+     51.881,
+     49.972,
+     49.945
+    ]
+   },
+   {
+    "symbol": "BZ=F",
+    "label": "Brent crude",
+    "unit": "$/bbl",
+    "price": 96.01000213623047,
+    "asOf": "2026-11-13",
+    "d1": 0.19829100606489888,
+    "w1": -2.349468638897233,
+    "m1": -9.356114240965269,
+    "ytd": 57.78143721246366,
+    "spark": [
+     105.92,
+     109.86,
+     109.55,
+     108.79,
+     108.82,
+     113.17,
+     116.72,
+     115.81,
+     113.88,
+     115.32,
+     114.88,
+     117.64,
+     104.77,
+     103.6,
+     94.62,
+     98.29,
+     98.32,
+     92.57,
+     91.49,
+     92.76,
+     95.82,
+     96.01
+    ],
+    "note": "Brent edged up after Trump said the US does not need a deal with Iran, though oil is still heading for a second weekly loss."
+   },
+   {
+    "symbol": "CL=F",
+    "label": "WTI crude",
+    "unit": "$/bbl",
+    "price": 88.5,
+    "asOf": "2026-11-13",
+    "d1": -0.2704506080087667,
+    "w1": -2.5652337158250087,
+    "m1": -9.666225479950198,
+    "ytd": 54.12748662862865,
+    "spark": [
+     97.97,
+     101.41,
+     103.66,
+     101.79,
+     97.15,
+     99.47,
+     103.27,
+     101.76,
+     99.9,
+     102.78,
+     102,
+     104.12,
+     96.46,
+     96.09,
+     88.12,
+     90.52,
+     90.83,
+     86.85,
+     86.04,
+     86.53,
+     88.74,
+     88.5
+    ]
+   },
+   {
+    "symbol": "HG=F",
+    "label": "Copper",
+    "unit": "$/lb",
+    "price": 6.167500019073486,
+    "asOf": "2026-11-13",
+    "d1": -0.24261814416902766,
+    "w1": -0.8121569090277053,
+    "m1": -5.282958902223665,
+    "ytd": 9.54706738378005,
+    "spark": [
+     6.5115,
+     6.531,
+     6.538,
+     6.5665,
+     6.543,
+     6.3625,
+     6.476,
+     6.508,
+     6.622,
+     6.6415,
+     6.581,
+     6.4585,
+     6.5435,
+     6.3785,
+     6.403,
+     6.249,
+     6.218,
+     6.3285,
+     6.2195,
+     6.2745,
+     6.1825,
+     6.1675
+    ]
+   },
+   {
+    "symbol": "NG=F",
+    "label": "US natural gas",
+    "unit": "$/MMBtu",
+    "price": 3.309999942779541,
+    "asOf": "2026-11-13",
+    "d1": -0.8982027593025186,
+    "w1": 10.40693949185985,
+    "m1": 2.2867700973007126,
+    "ytd": -10.200763832044919,
+    "spark": [
+     3.236,
+     3.116,
+     3.058,
+     2.963,
+     2.79,
+     2.796,
+     2.64,
+     2.602,
+     2.697,
+     2.817,
+     2.952,
+     2.898,
+     2.856,
+     2.895,
+     2.959,
+     2.947,
+     2.998,
+     3.218,
+     3.296,
+     3.215,
+     3.34,
+     3.31
+    ]
+   }
+  ],
+  "rates_fx": [
+   {
+    "symbol": "GBPUSD=X",
+    "label": "GBP/USD",
+    "price": 1.3227688074111938,
+    "asOf": "2026-11-13",
+    "d1": -0.3690573974355705,
+    "w1": -1.6971133763976982,
+    "m1": -0.018516442781398572,
+    "ytd": -1.7784646401414024,
+    "spark": [
+     1.323,
+     1.3273,
+     1.3336,
+     1.3308,
+     1.3373,
+     1.3396,
+     1.3404,
+     1.3378,
+     1.3345,
+     1.3306,
+     1.3328,
+     1.3379,
+     1.3386,
+     1.341,
+     1.3434,
+     1.3477,
+     1.3456,
+     1.336,
+     1.3442,
+     1.3349,
+     1.3277,
+     1.3228
+    ]
+   },
+   {
+    "symbol": "EURUSD=X",
+    "label": "EUR/USD",
+    "price": 1.1061947345733643,
+    "asOf": "2026-11-13",
+    "d1": -0.29977431778269503,
+    "w1": -1.481195297096374,
+    "m1": -1.1891566800044595,
+    "ytd": -5.834067273688363,
+    "spark": [
+     1.1195,
+     1.1213,
+     1.1225,
+     1.1216,
+     1.1227,
+     1.1235,
+     1.1221,
+     1.1218,
+     1.1174,
+     1.113,
+     1.1156,
+     1.1183,
+     1.1157,
+     1.1192,
+     1.1207,
+     1.1235,
+     1.1228,
+     1.1147,
+     1.1222,
+     1.1169,
+     1.1095,
+     1.1062
+    ]
+   },
+   {
+    "symbol": "^TNX",
+    "label": "US 10Y yield",
+    "unit": "%",
+    "price": 5.103000164031982,
+    "asOf": "2026-11-12",
+    "d1": 2.100840656825516,
+    "w1": 5.499282131845625,
+    "m1": -1.6762985015277625,
+    "ytd": 22.579871081012605,
+    "spark": [
+     5.19,
+     5.089,
+     5.098,
+     5.136,
+     5.117,
+     5.146,
+     4.953,
+     4.988,
+     4.986,
+     4.993,
+     5.045,
+     4.989,
+     4.929,
+     4.894,
+     4.952,
+     4.894,
+     4.837,
+     4.859,
+     4.864,
+     4.983,
+     4.998,
+     5.103
+    ]
+   }
+  ],
+  "movers": {
+   "sp500": {
+    "gainers": [
+     {
+      "ticker": "AMD",
+      "name": "Advanced Micro Devices",
+      "price": 585.3,
+      "d1": 5.8600108518719445,
+      "shariah": true
+     },
+     {
+      "ticker": "AVGO",
+      "name": "Broadcom",
+      "price": 364.36,
+      "d1": 5.544290597300268,
+      "shariah": true
+     },
+     {
+      "ticker": "ANET",
+      "name": "Arista Networks",
+      "price": 206.63,
+      "d1": 5.058979052267637,
+      "shariah": true
+     },
+     {
+      "ticker": "P",
+      "name": "Everpure",
+      "price": 110.1,
+      "d1": 3.3802816901408397,
+      "shariah": true
+     },
+     {
+      "ticker": "VLO",
+      "name": "Valero Energy",
+      "price": 374.95,
+      "d1": 3.0903741992246596,
+      "shariah": false
+     }
+    ],
+    "losers": [
+     {
+      "ticker": "GPN",
+      "name": "Global Payments",
+      "price": 88.19,
+      "d1": -12.01237154544548,
+      "shariah": false
+     },
+     {
+      "ticker": "SMCI",
+      "name": "Supermicro",
+      "price": 26.99,
+      "d1": -11.30463358527769,
+      "shariah": false
+     },
+     {
+      "ticker": "KDP",
+      "name": "Keurig Dr Pepper",
+      "price": 35.42,
+      "d1": -7.398692810457512,
+      "shariah": false
+     },
+     {
+      "ticker": "MRNA",
+      "name": "Moderna",
+      "price": 231.35,
+      "d1": -6.972536089106922,
+      "shariah": false
+     },
+     {
+      "ticker": "FIS",
+      "name": "Fidelity National Information Services",
+      "price": 28.36,
+      "d1": -6.123800066203248,
+      "shariah": false
+     }
+    ],
+    "coverage": 503
+   },
+   "ftse100": {
+    "gainers": [
+     {
+      "ticker": "CCC",
+      "name": "Computacenter",
+      "price": 4928,
+      "d1": 4.672897196261682
+     },
+     {
+      "ticker": "PCT",
+      "name": "Polar Capital Technology Trust",
+      "price": 590,
+      "d1": 3.9647577092511015
+     },
+     {
+      "ticker": "SPX",
+      "name": "Spirax Group",
+      "price": 7620,
+      "d1": 3.6029911624745075
+     },
+     {
+      "ticker": "HLMA",
+      "name": "Halma plc",
+      "price": 3564,
+      "d1": 2.7089337175792507
+     },
+     {
+      "ticker": "BP",
+      "name": "BP",
+      "price": 567,
+      "d1": 2.680188337558847,
+      "note": "BP was among the FTSE 100's best performers as oil prices edged higher."
+     }
+    ],
+    "losers": [
+     {
+      "ticker": "JD",
+      "name": "JD Sports",
+      "price": 94.66,
+      "d1": -3.012295081967211
+     },
+     {
+      "ticker": "BAB",
+      "name": "Babcock International",
+      "price": 1040,
+      "d1": -2.0715630885122414
+     },
+     {
+      "ticker": "GSK",
+      "name": "GSK plc",
+      "price": 1887,
+      "d1": -1.5649452269170578
+     },
+     {
+      "ticker": "ABF",
+      "name": "Associated British Foods",
+      "price": 1984,
+      "d1": -1.2444001991040319
+     },
+     {
+      "ticker": "KGF",
+      "name": "Kingfisher plc",
+      "price": 369.9,
+      "d1": -1.1226944667201404
+     }
+    ],
+    "coverage": 100
+   },
+   "shariahListAvailable": true
+  },
+  "stories": [
+   {
+    "category": "markets",
+    "headline": "Nvidia's slide deepens after Huang exit",
+    "summary": "Nvidia fell about 5% on Thursday and is on course for its longest weekly losing streak since 2012, with roughly $1.6 trillion wiped from its market value. Broader indices have so far held up better than the chip leader.",
+    "sources": [
+     {
+      "source": "CNBC",
+      "title": "Nvidia on track for longest weekly losing streak since 2012 as market value sinks by $1.6 trillion",
+      "link": "https://www.cnbc.com/2026/11/13/nvidia-stock-jensen-affair-ai.html"
+     },
+     {
+      "source": "MarketWatch",
+      "title": "The S&P 500 is shrugging off Nvidia’s selloff this week. Here’s what’s keeping the rest of the market afloat.",
+      "link": "https://www.marketwatch.com/story/the-s-p-500-is-shrugging-off-nvidias-selloff-heres-whats-keeping-the-rest-of-the-market-afloat-7cdf2f05?mod=mw_rss_topstories"
+     },
+     {
+      "source": "Reuters",
+      "title": "AI stocks pare losses as investors assess fallout of Nvidia CEO's exit",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOTDc4NU9Ycko1b01GTVdRT1lMVzJWaEhrLS1OSU92el9GTTRMSEhyTW5VbThOZEhoVGNCbHNBU19EZS1UUlNiTW0wVU41RUdBVkJpQlNRazBvaHJFQ2VnT2FJU183NE9ub1RKQU5wMFp6N1luX3lrMFZubFVIaHJ0TWhZRVkyUzhJVjBsaDRlMEpKNUFLeWtITVhLRVhqOERFMzh0azNJeVlqVzI0ZUowcnV4Z3VYMUdXcFY0?oc=5"
+     }
+    ]
+   },
+   {
+    "category": "economy",
+    "headline": "Bond yields surge on fears of more Fed rate hikes",
+    "summary": "Treasury yields saw their biggest jump since 2022 as investors priced in a greater chance of further Fed rate hikes. The Fed also said its October 2027 meeting will have no rate vote.",
+    "sources": [
+     {
+      "source": "MarketWatch",
+      "title": "Bond yields just saw their biggest surge since 2022 as expectations grow for more Fed rate hikes",
+      "link": "https://www.marketwatch.com/story/bond-yields-just-saw-their-biggest-surge-since-2022-as-expectations-grow-for-more-fed-rate-hikes-d0a4f195?mod=mw_rss_topstories"
+     },
+     {
+      "source": "CNBC Finance",
+      "title": "In a policy switch, the Fed says its October 2027 meeting will not see a vote on interest rates",
+      "link": "https://www.cnbc.com/2026/11/12/in-policy-switch-fed-says-its-october-2027-meeting-will-not-see-a-vote-on-interest-rates.html"
+     }
+    ]
+   },
+   {
+    "category": "companies",
+    "headline": "Cerebras jumps on revenue beat and Microsoft deal",
+    "summary": "Cerebras shares surged 17% after it beat quarterly revenue expectations and announced a deal with Microsoft. It adds to partnerships with Amazon and Oracle.",
+    "sources": [
+     {
+      "source": "CNBC",
+      "title": "Cerebras surges 17% after beating on quarterly revenue and announcing Microsoft deal",
+      "link": "https://www.cnbc.com/2026/11/12/cerebras-systems-cbrs-q3-earnings-report-2026.html"
+     }
+    ]
+   }
+  ],
+  "calendar": [
+   {
+    "when": "Today",
+    "event": "EU leaders' summit in Dublin, with a first discussion on AI and the row over who speaks for Europe in Ukraine talks"
+   }
+  ]
+ },
+ "world": {
+  "us": [
+   {
+    "category": "political",
+    "headline": "Van Hollen to challenge Schumer for Senate Democratic leader",
+    "summary": "Maryland senator Chris Van Hollen said he will run for Senate majority leader, saying voters wanted change after the midterms. It is the first open challenge to Chuck Schumer's leadership.",
+    "sources": [
+     {
+      "source": "NPR",
+      "title": "Chris Van Hollen says he will challenge Chuck Schumer for Senate majority leader",
+      "link": "https://www.npr.org/2026/11/12/nx-s1-6039357/chris-van-hollen-chuck-schumer-senate-majority-leader"
+     },
+     {
+      "source": "Guardian",
+      "title": "Chris Van Hollen says he will run for Senate majority leader, challenging fellow Democrat Chuck Schumer – as it happened",
+      "link": "https://www.theguardian.com/us-news/live/2026/nov/12/mississippi-scott-colom-ukraine-donald-trump"
+     },
+     {
+      "source": "Euronews",
+      "title": "US senator Chris Van Hollen to challenge Chuck Schumer for Senate majority leader",
+      "link": "https://www.euronews.com/2026/11/13/us-senator-chris-van-hollen-to-challenge-chuck-schumer-for-senate-majority-leader"
+     },
+     {
+      "source": "Al Jazeera",
+      "title": "US Senator Chris Van Hollen seeks to lead Democrats: Who is he?",
+      "link": "https://www.aljazeera.com/news/2026/11/13/who-is-us-senator-chris-van-hollen?traffic_source=rss"
+     }
+    ]
+   },
+   {
+    "category": "financial",
+    "headline": "US existing home sales hit 16-year low",
+    "summary": "October existing home sales fell 8.8% from a year earlier to 3.75m units. Record-high mortgage rates are driving buyers away.",
+    "sources": [
+     {
+      "source": "NPR",
+      "title": "'Punch in the gut': Homes sales fall to their lowest in 16 years",
+      "link": "https://www.npr.org/2026/11/12/nx-s1-6038940/punch-in-the-gut-homes-sales-fall-to-their-lowest-in-16-years"
+     },
+     {
+      "source": "Guardian Business",
+      "title": "Home sales hit 16-year low in October amid record-high mortgage rates",
+      "link": "https://www.theguardian.com/business/2026/nov/12/home-sales-october-low"
+     }
+    ]
+   },
+   {
+    "category": "notable",
+    "headline": "Jensen Huang quits Nvidia and faces Congress",
+    "summary": "Huang resigned after revelations of affairs, including with a woman the US says is a Chinese spy, and has agreed to testify to Congress. Lawmakers are also pressing Commerce Secretary Howard Lutnick over chip sales.",
+    "sources": [
+     {
+      "source": "BBC",
+      "title": "Ex-Nvidia CEO Jensen Huang summoned to testify before Congress about affair with alleged Chinese spy",
+      "link": "https://www.bbc.co.uk/news/articles/cmq5vd1wdgz6o?at_medium=RSS&at_campaign=rss"
+     },
+     {
+      "source": "NPR",
+      "title": "What's a Honey Trap? The spy tactic that helped topple Jensen Huang",
+      "link": "https://www.npr.org/2026/11/12/nx-s1-6039266/jensen-huang-china-honey-trap-nvidia-spies-sex-alice-huang"
+     },
+     {
+      "source": "Guardian Business",
+      "title": "Nvidia turmoil continues as Jensen Huang resigns over affairs scandal and company appoints interim CEO – as it happened",
+      "link": "https://www.theguardian.com/technology/live/2026/nov/12/nvidia-ceo-jensen-huang-affairs-share-price-plunges-live-latest"
+     },
+     {
+      "source": "BBC Business",
+      "title": "What we know as Nvidia CEO Jensen Huang resigns over affair allegations",
+      "link": "https://www.bbc.co.uk/news/articles/ckgel338xql3o?at_medium=RSS&at_campaign=rss"
+     },
+     {
+      "source": "FT",
+      "title": "US lawmakers pile pressure on Lutnick as Nvidia scandal widens",
+      "link": "https://www.ft.com/content/190e5eea-7461-4b26-8b69-17a3288e31d4?syn-25a6b1a6=1"
+     },
+     {
+      "source": "TechCrunch AI",
+      "title": "Jensen Huang agrees to testify before Congress",
+      "link": "https://techcrunch.com/2026/11/12/jensen-huang-agrees-to-testify-before-congress/"
+     }
+    ]
+   }
+  ],
+  "uk": [
+   {
+    "category": "political",
+    "headline": "Milburn review to cut some benefits for under-25s",
+    "summary": "Alan Milburn's welfare review will propose moving some under-25s off the main sickness benefits, including some losing PIP but able to apply to a local fund. The plan risks a Labour backbench rebellion.",
+    "sources": [
+     {
+      "source": "BBC",
+      "title": "Some under-25s should get fewer benefits, Milburn review to say",
+      "link": "https://www.bbc.co.uk/news/articles/cwn70l1628l0o?at_medium=RSS&at_campaign=rss"
+     },
+     {
+      "source": "Guardian",
+      "title": "Some young disabled people to lose Pip in Milburn plan – but can apply to local fund",
+      "link": "https://www.theguardian.com/politics/2026/nov/12/local-fund-pip-personal-independence-payments-young-disabled-people-milburn"
+     }
+    ]
+   },
+   {
+    "category": "financial",
+    "headline": "UK economy grows 0.7% in third quarter",
+    "summary": "GDP grew at its fastest rate in more than two years, helped by AI-related activity and despite high oil prices. Commentators question whether the resilience will last.",
+    "sources": [
+     {
+      "source": "CNBC Economy",
+      "title": "UK economy expands 0.7% in third quarter as AI provides 'extra engine of growth'",
+      "link": "https://www.cnbc.com/2026/11/12/uk-gdp-third-quarter-2026.html"
+     },
+     {
+      "source": "BBC",
+      "title": "UK economy grows at fastest rate for more than two years",
+      "link": "https://www.bbc.co.uk/news/articles/ck3rgd429zd5o?at_medium=RSS&at_campaign=rss"
+     },
+     {
+      "source": "Guardian",
+      "title": "AI helped UK defy expectations – but will economy’s resilience fizzle out?",
+      "link": "https://www.theguardian.com/business/2026/nov/12/ai-uk-economy-john-healey"
+     },
+     {
+      "source": "Guardian Business",
+      "title": "AI helps UK economy grow at fastest pace for more than two years",
+      "link": "https://www.theguardian.com/business/2026/nov/12/uk-economy-grows-third-quarter-oil-price-ons-gdp"
+     },
+     {
+      "source": "BBC Business",
+      "title": "Faisal Islam: Why the UK economy is surprisingly resilient",
+      "link": "https://www.bbc.co.uk/news/articles/cj62p32k90wyo?at_medium=RSS&at_campaign=rss"
+     }
+    ]
+   },
+   {
+    "category": "notable",
+    "headline": "Two Iranians convicted of plot against UK-based journalists",
+    "summary": "A London court found two men guilty of surveilling journalists for an Iran-critical Persian-language broadcaster, with one also convicted of planning violence. It is described as the first case of its kind.",
+    "sources": [
+     {
+      "source": "Guardian",
+      "title": "Two men found guilty of helping Iran try to ‘eliminate’ UK-based journalists",
+      "link": "https://www.theguardian.com/uk-news/2026/nov/12/two-men-found-guilty-over-iranian-attempts-to-eliminate-uk-based-journalists"
+     },
+     {
+      "source": "Sky News",
+      "title": "Two Iranians convicted of spying for their country after entering Britain illegally",
+      "link": "https://news.sky.com/story/two-iranians-convicted-of-spying-for-their-country-after-entering-britain-illegally-13611458"
+     },
+     {
+      "source": "DW",
+      "title": "UK court convicts 2 Iranian men of spying on journalists",
+      "link": "https://www.dw.com/en/uk-court-convicts-2-iranian-men-of-spying-on-journalists/a-79931583?maca=en-rss-en-all-1573-rdf"
+     },
+     {
+      "source": "BBC",
+      "title": "Two men guilty of spying for Iran over plan to target journalists and lawyer",
+      "link": "https://www.bbc.co.uk/news/articles/ck9q8g8209l2o?at_medium=RSS&at_campaign=rss"
+     }
+    ]
+   }
+  ],
+  "europe": [
+   {
+    "category": "political",
+    "headline": "US and Russia agree Europe can join next Ukraine talks",
+    "summary": "After meeting Putin, US envoys met Zelensky in Dublin and said Europeans would join the next round, though Putin gave no ground on territory and Moscow played down the prospect. EU leaders remain split on who should represent Europe.",
+    "sources": [
+     {
+      "source": "BBC",
+      "title": "US envoys meet Zelensky in Dublin after talks with Putin in Moscow",
+      "link": "https://www.bbc.co.uk/news/articles/cwrkgmymk55zo?at_medium=RSS&at_campaign=rss"
+     },
+     {
+      "source": "Guardian",
+      "title": "Putin takes hard line in US talks as Ukraine says Starlink disrupted again",
+      "link": "https://www.theguardian.com/world/2026/nov/12/vladimir-putin-russia-target-foreign-troops-ukraine-elon-musk-starlink"
+     },
+     {
+      "source": "France24",
+      "title": "Live: Zelensky and Kushner confirm that Europe will join next round of Russia-Ukraine talks",
+      "link": "https://www.france24.com/en/europe/20261113-live-zelensky-and-kushner-confirm-that-europe-will-join-next-round-of-russia-ukraine-talks"
+     },
+     {
+      "source": "DW",
+      "title": "EU leaders tussle over whom to send to Ukraine, Russia peace talks",
+      "link": "https://www.dw.com/en/eu-leaders-tussle-over-whom-to-send-to-ukraine-russia-peace-talks/a-79935468?maca=en-rss-en-all-1573-rdf"
+     },
+     {
+      "source": "Euronews",
+      "title": "Russia plays down peace talks with Europe after Witkoff raises hopes of breakthrough",
+      "link": "https://www.euronews.com/2026/11/12/russia-plays-down-peace-talks-with-europe-after-witkoff-raises-hopes-of-breakthrough"
+     },
+     {
+      "source": "Politico Europe",
+      "title": "EU leaders start Friday’s summit still at odds over who should lead on Ukraine",
+      "link": "https://www.politico.eu/article/eu-leaders-start-friday-summit-still-at-odds-over-who-should-lead-on-ukraine/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication"
+     }
+    ]
+   },
+   {
+    "category": "financial",
+    "headline": "Mercedes-Benz halts German investment",
+    "summary": "Mercedes-Benz has paused all further investment at its German plants and is considering closures. Volkswagen and Audi have also announced cuts.",
+    "sources": [
+     {
+      "source": "DW",
+      "title": "Mercedes-Benz halts all further investment at German facilities",
+      "link": "https://www.dw.com/en/mercedes-benz-halts-all-further-investment-at-german-facilities/a-79934509?maca=en-rss-en-all-1573-rdf"
+     },
+     {
+      "source": "Euronews",
+      "title": "Mercedes-Benz halts new investment in German plants, considers closures",
+      "link": "https://www.euronews.com/2026/11/12/mercedes-benz-halts-new-investment-in-german-plants-considers-closures"
+     }
+    ]
+   },
+   {
+    "category": "notable",
+    "headline": "Hoax bomb threats force Italian school evacuations",
+    "summary": "Schools across Italy were evacuated for a second day, though Meloni said there was no concrete danger. Concern is growing that the threats are part of a wider hybrid campaign.",
+    "sources": [
+     {
+      "source": "BBC",
+      "title": "Suspected bomb hoax threats force fresh evacuations of Italian schools",
+      "link": "https://www.bbc.co.uk/news/articles/cr894w453e90o?at_medium=RSS&at_campaign=rss"
+     },
+     {
+      "source": "France24",
+      "title": "Thousands of schools evacuated in Italy as bomb threats spread across Europe",
+      "link": "https://www.france24.com/en/video/20261112-thousands-of-schools-evacuated-in-italy-as-bomb-threats-spread-across-europe"
+     }
+    ]
+   }
+  ],
+  "middle_east": [
+   {
+    "category": "political",
+    "headline": "Iran says it hit US radar in Bahrain; Trump drops Iran deal push",
+    "summary": "Iran's Guards said they targeted a US early-warning radar in Bahrain after an attack on a telecom tower in Hormozgan. Trump said the US does not need a deal and pulled Vance away from talks.",
+    "sources": [
+     {
+      "source": "Al Jazeera",
+      "title": "Iran says it targeted US radar site in Bahrain",
+      "link": "https://www.aljazeera.com/news/2026/11/13/iran-says-it-struck-us-radar-site-in-bahrain?traffic_source=rss"
+     },
+     {
+      "source": "Reuters",
+      "title": "Iran's Guards say they targeted a US early-warning radar in Bahrain",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNcjhnZVFHWnV4RHpscnFyUjFWOEl5VndNZ0Y4MFdEVlpueUNaeHRPMVdCbjA4Mmktc0tYWnFsZWdZSkd4dFNvTmszUHFWdC15S0pja2ozaTg0R0dOdEY3aDJtenZwREh5dmRvTGVTUkxVUDNjN3huQU1TRTU1bEVBampuYzdsTjJJZ2tBUXQwal85QnRsWDU4OWNvbDVzN0VUR1R0clNkZmpkaXZMaWh5dExSNHRCUQ?oc=5"
+     },
+     {
+      "source": "The Times of Israel",
+      "title": "IRGC says it targeted US early-warning radar in Bahrain after 'enemy attack' on telecom tower",
+      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPVXFtZndxNlpWWU9KT3hzZUtmTlEtZE5vRHNHS3hnVHB5VS1jbTJtNHhraUpqNmJxR1dFUmcyTzB0R1E5a2tDc0dBN0JXcmJVNHp0TWVqVWZZOC1TajdKcHA0WXhhNFlDc3Nob3JxX3pmQmpxQ2k1NTc0VWRBYmpmQUZZWWJtUmVxWFV5M3IxZ2lNU0hmTXFxVmpMQ2htQXE0ZE9RRDJENTlWZ2FMMmx2bldNUHN0ZXRfZ19LaXRlWkYwN0JHS0lnYmU1Nkk0MnRFcEZR?oc=5"
+     },
+     {
+      "source": "The Jerusalem Post",
+      "title": "Iran claims strike on US radar in Bahrain retaliation for Sirik telecom attack",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5qZWhoaVp5V1BxSWw2MC1OU21JR0xpMVhxeHBuaWFCak9tZlFwN2ZXdHItWnQ1Mk5iRExJdWpFLTJEMklfMC15ZXFwNnNpN3hlY1laUkUxdWhKQ0FuMXVTUjZVc2RCaWEzNXc?oc=5"
+     },
+     {
+      "source": "The Times",
+      "title": "Iran strikes US target in Bahrain as Trump pulls Vance out of talks",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPcEgyRDJEelpXcXZ1MlltZGowdUVjY0FOcHo5OGhtQm9hSXFnZHN4M2g4UDJGQjFmajdTcTZTVW5NR0Z1OThfemJ2WHlIVUJRUk9FTjFEU3dPQkdFYmRuRG92OFlKZWZpdEdGNHBncVVmT3pwTEFXM214WERFQ1V6M1ZWazNReEFIbS01WEx5eDVDWHZOaEZUNTRNTXhLMUhnT3dDMDNCZ2diNlU2V1AzcHNlOUJMWnJTQTIyQkhn?oc=5"
+     },
+     {
+      "source": "CNBC",
+      "title": "Trump says ‘we don’t need a deal with Iran’",
+      "link": "https://www.cnbc.com/2026/11/12/trump-iran-deal-hormuz-strait.html"
+     },
+     {
+      "source": "Arab News",
+      "title": "Trump says US does not ‘need a deal with Iran’",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOb2g0RERidDJMMHZjdHNyUGxGUU9ZcVpvZUpHS28zdlZvSnVmUm1TVXZiX1d2dC1jT3lfRDlScmkyOVpZNGhFT3RMT29IeVdpNTFtcDU4MktZbGZlZlFEcU5TVkJUalJGWkNlOGxVS053VThmSzZOelZCaFZ4SkNSbFpxeXY3N2dyVlVBWDFuNUlWZDA?oc=5"
+     },
+     {
+      "source": "Guardian",
+      "title": "Trump says no deal needed on Iran war and orders Vance to focus on domestic issues",
+      "link": "https://www.theguardian.com/us-news/2026/nov/12/trump-jd-vance-iran-war"
+     },
+     {
+      "source": "FT",
+      "title": "Trump signals end to vice-president’s Iran peace deal push",
+      "link": "https://www.ft.com/content/3c1727bb-2966-4e5c-808b-873d14854fa2?syn-25a6b1a6=1"
+     }
+    ]
+   },
+   {
+    "category": "financial",
+    "headline": "Saudi Arabia leads OPEC+ output recovery",
+    "summary": "Saudi Arabia is leading OPEC+ production back toward pre-war levels. Oil remains elevated amid the Iran war.",
+    "sources": [
+     {
+      "source": "Arab News",
+      "title": "Saudi Arabia leads OPEC+ production recovery toward pre-war levels",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOV3g4Y0pLUi1DSG9FeHotU1lRUHBmcnBrVjd1cE5Ca3NjcDByM3NKeWpwaWZlSk5oMFkzQTV1TmtEQnA4QVF5dmtaeHJON2JRRzBuTGJ0UDhrQldhbHR3VzZaRFVxSXhnMjJuNUhsVGxlb0VRVmNOVmRqaW5mRUtXbWduMl9vbjJtV2RzdGhwS0htRGlLSnA5LXpPelAzc3lUNDVCNVVWNFA?oc=5"
+     },
+     {
+      "source": "OilPrice",
+      "title": "Oil Prices Head for Second Weekly Loss Despite Fresh Middle East Attacks",
+      "link": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Head-for-Second-Weekly-Loss-Despite-Fresh-Middle-East-Attacks.html"
+     }
+    ]
+   },
+   {
+    "category": "notable",
+    "headline": "Israeli strike on Gaza's Nasser hospital kills six",
+    "summary": "The strike killed a surgeon and five others, the deadliest single strike since Israel's elections last month. Dozens of countries urged the incoming Israeli government to open Gaza for winter aid.",
+    "sources": [
+     {
+      "source": "BBC",
+      "title": "Israeli strike on Gaza hospital kills six Palestinians, health ministry says",
+      "link": "https://www.bbc.co.uk/news/articles/ckzd9p7e4eqeo?at_medium=RSS&at_campaign=rss"
+     },
+     {
+      "source": "Guardian",
+      "title": "Israeli strike on Gaza hospital kills surgeon and five others – video",
+      "link": "https://www.theguardian.com/world/video/2026/nov/12/israeli-strike-on-gaza-hospital-kills-surgeon-and-five-others-video"
+     },
+     {
+      "source": "France24",
+      "title": "Israeli strike on Gaza hospital kills six, including surgeon, medics say",
+      "link": "https://www.france24.com/en/israeli-strike-on-gaza-hospital-kills-six-including-surgeon-medics-say"
+     },
+     {
+      "source": "Arab News",
+      "title": "Surgeon and child among dead in Gaza hospital attack during day of Israeli strikes",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPY2V4Qk1aNEZhbWlBMEp1eUNBYXJxckZfaTRmdGhoWFYxVlVZNHRQdnQ5ZUVfalZweC0xSmw5b1JrOGcwTXRDWWY5Qy1NQzBpSWh0YXNJTkdpYm05MUMtZ3d5QkZVXzJBWGpHaERmaE1nS1kwaVNiSnptWHhTZVpQN2t0UmRxMnA3RnoyZDhQZENxWTBrei1YWkVhdFJwa0FHWXcxV2NZeGMwWi1mRVB1NWxFTGQtQWxkdnM0ZE81OThSNHVNRUE?oc=5"
+     }
+    ]
+   }
+  ]
+ },
+ "energyTech": {
+  "energy": [
+   {
+    "category": "energy",
+    "headline": "IEA chief says world is in 'age of electricity'",
+    "summary": "At COP31 the IEA head said fossil fuels are no longer the dominant energy source, as the summit weighs an electrification pledge. Thirty-nine countries also back tripling nuclear capacity by 2050.",
+    "sources": [
+     {
+      "source": "Guardian Energy",
+      "title": "World is now in ‘age of electricity’, energy agency chief says at Cop31",
+      "link": "https://www.theguardian.com/environment/2026/nov/13/cop-31-electricity-energy-fossil-fuels-fatih-birol-iea"
+     },
+     {
+      "source": "NucNet",
+      "title": "Thirty-Nine Countries Backing Ministerial Declaration To Triple Nuclear Capacity By 2050",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxORFVpdTFac2xXaHNUZ21jcXlvdF80SHcwTnFtS0RPMDQ0YXhfX01ZU0FFZ2FfXzNmd3dtMkdfUHFxY1BVTFVQeUVRN1VlYTJjSV9xRUwyaVkyc2lXZ1NYdlNVYVZqNGpUUHZSTXBoS3hwODUzb0FoNk1YSFh4S2h5dXBkcEFvWjRqWXRKeGJpQktWZGd5NXYtaFloVHI0ZGoxOVZ6RExuTExpR1lvQl9jb1J1S09iUU5QMFRyUE9yVkZ0bG1M?oc=5"
+     }
+    ]
+   },
+   {
+    "category": "energy",
+    "headline": "National Grid's North Humber to High Marnham line moves forward",
+    "summary": "The Planning Inspectorate accepted the application for the major transmission project. Hitachi Energy separately says it wants long-term clarity to build GB factories.",
+    "sources": [
+     {
+      "source": "National Grid Group",
+      "title": "North Humber to High Marnham application accepted by Planning Inspectorate in major project milestone",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPcVpBY2VETjJTR0x2VjFKYzBJZE1vWHdNeXNXOE0tSTN5NVpQUEt6dEpaMnhJXzVPZlhpZ1R1NEJVN3B6RjRlT0hleWlJVHdWTEhGSjBzOEJvbllWSTFwb1RrcHlfRWpIclM4SEFnNmVyemJELVhIMzctSzFacWd0WTN3R0IyUDh2aWlITnFJeERQZE1xUzBiLTU1OGphWm54NEhpNTNQOXY4bDdOM0FHTVBfMjBBR2tWakdlYzVn?oc=5"
+     },
+     {
+      "source": "Utility Week",
+      "title": "Hitachi Energy seeks long-term clarity to build GB factories, UK boss says",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOYWU5eV9ZNHdXaEJ3MGtDMUYwTFFWNEc0d01UY2lYX0tfajFkZmRSa0FER1hsZlFxUmVVcWVqRmRReUg2S3hzU2hKU2R2M0UySkRqT19xOGlVWVBjZEd4WG0tUHp1ZG43NzQtbzRrd3ZaT3ZHaXJhZzJoOGpVUngyOTdpem9LcS1yUmpNNE5IMGFMcnN2T1pSLUZqdzdPQXpKSHfSAa4BQVVfeXFMTmZGQ0dRdXRScWJjd3RLcnNLaHNhUjhneC0zLVllLUJEaDZFNFdRSjU0VGFhZHJka2pnM3NlVUtOMFh6RGFUSnl6cnpGX2F1QmxieVpyX3BoeXZzVkZTVjJYdGUtcTNBUEhpcHVnUE9YWmY5N1FhZzl3S0l4TjRRVzhuaHFlQmRSNFRLYTNyaXFoTmZYajMzVEtEMmZnd3FnLWx1Vk1iaUs3eTQyWm93?oc=5"
+     }
+    ]
+   },
+   {
+    "category": "energy",
+    "headline": "Europe enters winter with lowest gas stocks of the decade",
+    "summary": "Asian spot LNG is above $30 per mmBtu and European storage is the lowest of the 2020s. Rystad stops short of predicting a further price rally.",
+    "sources": [
+     {
+      "source": "OilPrice",
+      "title": "Europe Enters Winter With Its Lowest Gas Inventory of the 2020s",
+      "link": "https://oilprice.com/Energy/Natural-Gas/Europe-Enters-Winter-With-Its-Lowest-Gas-Inventory-of-the-2020s.html"
+     }
+    ]
+   }
+  ],
+  "ai": [
+   {
+    "category": "ai",
+    "headline": "Anthropic IPO reported six times oversubscribed",
+    "summary": "Anthropic has launched its IPO, and Bloomberg reports demand is about six times supply. Investors are weighing its prospectus ahead of the debut.",
+    "sources": [
+     {
+      "source": "Reuters",
+      "title": "Anthropic's IPO is about six times oversubscribed, Bloomberg News reports",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNN0pUQzVjV3ltd2hkZ29PSjdjWElOb3dmUlNPSG5HMC01V1EzSnlQdUl0Tm9WNnhJdktOamVLa1JWOTF5SGJZYTFrNWpBbElkc1lGUklCUUNVLXhHNWM1M0JmaHZTTmVaODlldER3Ulc3Q19zVGtOUDl1NzdCQWNuYkR5LWRVcXFUOGFTQXFDUDlTb2VLVzE3Z1M2dnlfeFFwSVV0MEpNNzExRHNxTlpsZGcyTlE1bE5LbEdLNGVtczd3M2hra1E?oc=5"
+     },
+     {
+      "source": "Bloomberg.com",
+      "title": "Anthropic’s IPO Is About Six Times Oversubscribed",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQeWxnOC1MRXVQbUJwaDdiSDE3TzdIbVRyYU5qWnF5YzkycUVPTXV0bUhOWEIzWU1xejMyQXJxaGtHT2dQbk1iTExkc29hYjBpQWRsY3RTaEtsTVhVaFJjOHl5aW5nb0dDYzRwcWxjVXpkbWw1bU5lSFhwVHo4aGw4bHJZYlNZTUVoN2VwYnhBWmNDNURMbXNmN2FvaEVONS1CVG1MY004MzdMbTRJd1E2eQ?oc=5"
+     },
+     {
+      "source": "Financial Times",
+      "title": "Anthropic launches its IPO",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBRYkZwX19iMmN0R29rVTd4bEdCcjc0dnk0eVpFLWpOSUFvRFdQY0tGWHhwcm1ERDIySUtoOFNLeFBaZVQ5My1jSVZrZjBRV3RaTDRUSG12M2t3SVRRWnNxcnZveDFLZnlLN1pBbm8xNXc?oc=5"
+     },
+     {
+      "source": "Forbes",
+      "title": "Anthropic IPO: What We Know About Its Forthcoming Stock Market Debut",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE40bHJOV1BMZmhXX3BYVHRYVC13RFVLY2t6NGJsZDdOUlM1b1hPWlJZTzJZaTR3MDJiejdLRUFFMU1GSi01aEkxeEtsRS1Ea0U3TFBBM18tbHZmR1dVY21KZlZTS1dqb0tUOVE?oc=5"
+     },
+     {
+      "source": "Yahoo Finance",
+      "title": "AI Trade Barometer: Anthropic’s IPO Is Reportedly Six-Times Oversubscribed",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOTFRGS1QxUlprRjJ5a0tUV1Q0eXRGSUtWZWlHSHpUVi1ESVZDcmJXVzl4MWRKdC05WnhBSUQ0Y0pWUGdzRG9DclBwR3dXNDVFSlpFaHFFV0RDX3Qwc3RfQmtfOS11dFlMcFlhMV90akRvSXM0RkhaOTZ1RTBvQ1VBTWYtS2VhWHluVk53T1liSTdaS0N6MW5IYUYwbGd6QQ?oc=5"
+     }
+    ]
+   },
+   {
+    "category": "ai",
+    "headline": "Google launches Gemini 4 Hydrogen",
+    "summary": "The new model powers Google's AI Mode and handles complex, multi-part queries better. It replaces Gemini 3.8 Flash.",
+    "sources": [
+     {
+      "source": "The Verge AI",
+      "title": "Google’s new Gemini model is better at understanding complicated questions",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1032505/google-search-ai-mode-gemini-4-hydrogen"
+     },
+     {
+      "source": "TechCrunch AI",
+      "title": "Google’s latest Search upgrade promises better answers to your most complicated questions",
+      "link": "https://techcrunch.com/2026/11/12/googles-latest-search-upgrade-promises-better-answers-to-your-most-complicated-questions/"
+     },
+     {
+      "source": "Ars Technica",
+      "title": "Google rolls out Gemini 4 Hydrogen, finally replacing 3.8 Flash",
+      "link": "https://arstechnica.com/google/2026/11/google-rolls-out-gemini-4-hydrogen-finally-replacing-3-8-flash/"
+     }
+    ]
+   },
+   {
+    "category": "ai",
+    "headline": "Nvidia turmoil raises questions for AI sector",
+    "summary": "Huang's exit puts Nvidia's open-source commitments and wider AI infrastructure financing under scrutiny. Neocloud Nscale warned it needs more cash ahead of a planned IPO.",
+    "sources": [
+     {
+      "source": "TechCrunch AI",
+      "title": "Five ways Jensen Huang’s ouster from Nvidia could damage the AI industry",
+      "link": "https://techcrunch.com/2026/11/12/five-ways-jensen-huangs-ouster-from-nvidia-could-damage-the-ai-industry/"
+     },
+     {
+      "source": "FT",
+      "title": "Nscale warns it needs more cash ahead of $35bn IPO",
+      "link": "https://www.ft.com/content/8d5a8642-d0a1-458d-aaa4-c1e7d344fe47?syn-25a6b1a6=1"
+     },
+     {
+      "source": "Guardian Business",
+      "title": "Jensen Huang built an AI kingdom. Now he’s gone, will Nvidia’s ramparts be breached?",
+      "link": "https://www.theguardian.com/technology/2026/nov/12/jensen-huang-built-an-ai-kingdom-now-hes-gone-will-nvidias-ramparts-be-breached"
+     }
+    ]
+   }
+  ],
+  "tech": [
+   {
+    "category": "tech",
+    "headline": "Global Microsoft outage hits Outlook and Teams",
+    "summary": "A worldwide outage disrupted Outlook, Teams and Copilot across 74 countries. Microsoft said it was not caused by malicious activity and partial recovery was seen.",
+    "sources": [
+     {
+      "source": "NPR",
+      "title": "Is Outlook down? Widespread outage hits Microsoft email and other apps",
+      "link": "https://www.npr.org/2026/11/12/nx-s1-6039343/is-outlook-down-widespread-outage-hits-microsoft-email-and-other-apps"
+     },
+     {
+      "source": "DW",
+      "title": "Microsoft works to restore Outlook and Teams after global outage",
+      "link": "https://www.dw.com/en/microsoft-works-to-restore-outlook-and-teams-after-global-outage/a-79935611?maca=en-rss-en-all-1573-rdf"
+     },
+     {
+      "source": "Euronews",
+      "title": "Worldwide Microsoft outage hits Outlook, Teams and Copilot, disrupting thousands",
+      "link": "https://www.euronews.com/2026/11/12/microsoft-outage-hits-outlook-teams-and-copilot-disrupting-thousands"
+     },
+     {
+      "source": "CNBC",
+      "title": "Widespread Microsoft outage takes down Outlook and other 365 services",
+      "link": "https://www.cnbc.com/2026/11/12/microsoft-outage-outlook-aws-google.html"
+     },
+     {
+      "source": "FT",
+      "title": "Microsoft races to restore services after global outage",
+      "link": "https://www.ft.com/content/025b2769-bca8-4a74-b9f5-5d7ad7da32c7?syn-25a6b1a6=1"
+     },
+     {
+      "source": "BBC Tech",
+      "title": "Global Microsoft outage affecting tens of thousands of users",
+      "link": "https://www.bbc.co.uk/news/articles/c5gm3g9ldz8xo?at_medium=RSS&at_campaign=rss"
+     },
+     {
+      "source": "The Verge",
+      "title": "Microsoft Outlook is still down",
+      "link": "https://www.theverge.com/tech/1032226/microsoft-outlook-is-down"
+     }
+    ]
+   },
+   {
+    "category": "tech",
+    "headline": "Ukraine says Starshield limits hamper its forces",
+    "summary": "Zelensky said new restrictions on the satellite service were causing significant disruption to military units. Ukraine suspects the limits may help Russia in peace talks.",
+    "sources": [
+     {
+      "source": "France24",
+      "title": "New restrictions to Starshield network 'kill more Ukrainians', Zelensky says",
+      "link": "https://www.france24.com/en/europe/20261112-new-systematic-restrictions-starshield-network-kill-more-ukrainians-zelensky-says"
+     },
+     {
+      "source": "Ars Technica",
+      "title": "Ukraine says it can’t stop Russian strikes because Starshield is limited again",
+      "link": "https://arstechnica.com/tech-policy/2026/11/ukraine-says-spacex-starshield-is-restricted-again-spacex-claims-it-isnt/"
+     }
+    ]
+   },
+   {
+    "category": "tech",
+    "headline": "Google debuts Gemini smartglasses from $395",
+    "summary": "The first Gemini-powered glasses are a collaboration with Samsung, Gentle Monster and Warby Parker. Google is stressing privacy.",
+    "sources": [
+     {
+      "source": "Ars Technica",
+      "title": "Google pushes privacy angle as Gemini-powered smartglasses debut starting at $395",
+      "link": "https://arstechnica.com/google/2026/11/google-pushes-privacy-angle-as-gemini-powered-smartglasses-debut-starting-at-395/"
+     }
+    ]
+   }
+  ]
+ },
+ "stats": {
+  "headlines": 439,
+  "feeds": 45,
+  "feedsFailed": 0
+ }
+}
