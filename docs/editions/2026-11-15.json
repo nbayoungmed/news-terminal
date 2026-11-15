@@ -1,0 +1,1294 @@
+{
+ "date": "2026-11-15",
+ "dateLabel": "Sunday, 15 November 2026",
+ "generatedAt": "2026-11-15T10:09:45.484Z",
+ "mode": "ai",
+ "model": "claude-sonnet-5-5",
+ "error": null,
+ "headlineOfDay": "Iran launches fresh drone attacks on a US base in Bahrain as Nvidia's leadership crisis deepens and the US recovers from a nationwide flight grounding.",
+ "markets": {
+  "summary": "US equities ended lower, with the Nasdaq down 0.91% and the S&P 500 down 0.40% as tech and chip stocks sold off, while the Dow edged up 0.10%. The FTSE 100 rose 0.36% and the Euro Stoxx 50 slipped 0.19%. The 10-year US Treasury yield rose to 5.15%, and Brent was broadly flat near $95.84.",
+  "indices": [
+   {
+    "symbol": "^GSPC",
+    "label": "S&P 500",
+    "price": 7561.669921875,
+    "asOf": "2026-11-13",
+    "d1": -0.4047466000738943,
+    "w1": 2.505267309111467,
+    "m1": -2.3552262681169127,
+    "ytd": 10.461908142210211,
+    "spark": [
+     7744.0601,
+     7659.4399,
+     7690.73,
+     7712.5698,
+     7757.1699,
+     7663.4302,
+     7623.6802,
+     7676.77,
+     7722.6001,
+     7743.98,
+     7720.3901,
+     7580.0698,
+     7541.3999,
+     7568.9199,
+     7688.6201,
+     7353.73,
+     7376.8599,
+     7549.9399,
+     7520.9302,
+     7619.3799,
+     7592.3999,
+     7561.6699
+    ]
+   },
+   {
+    "symbol": "SPUS",
+    "label": "S&P 500 Shariah",
+    "sub": "via SPUS ETF",
+    "price": 57.040000915527344,
+    "asOf": "2026-11-13",
+    "d1": -0.9722180094246867,
+    "w1": 2.3689871965289266,
+    "m1": -4.487609260541518,
+    "ytd": 11.689839938080448,
+    "spark": [
+     59.72,
+     58.82,
+     59.21,
+     59.28,
+     59.78,
+     58.81,
+     58.66,
+     59.3,
+     59.87,
+     60.11,
+     59.77,
+     58.42,
+     57.61,
+     57.95,
+     58.66,
+     55.41,
+     55.72,
+     57.19,
+     56.69,
+     57.74,
+     57.6,
+     57.04
+    ]
+   },
+   {
+    "symbol": "^IXIC",
+    "label": "Nasdaq",
+    "price": 25136.26953125,
+    "asOf": "2026-11-13",
+    "d1": -0.9060139497874792,
+    "w1": 2.2654709683243133,
+    "m1": -5.902586891593968,
+    "ytd": 8.150245644942029,
+    "spark": [
+     26713.0293,
+     26140.0293,
+     26430.8906,
+     26424.8203,
+     26702.8594,
+     26008.8594,
+     25955.3398,
+     26169.3809,
+     26477.8105,
+     26549.8496,
+     26184.7207,
+     25437,
+     25164.3105,
+     25372.0098,
+     25736.5098,
+     24315,
+     24579.4297,
+     25253.1406,
+     25065.8691,
+     25466.1895,
+     25366.0898,
+     25136.2695
+    ]
+   },
+   {
+    "symbol": "^DJI",
+    "label": "Dow Jones",
+    "price": 52347.55078125,
+    "asOf": "2026-11-13",
+    "d1": 0.0964889970947983,
+    "w1": 2.070401070229467,
+    "m1": 0.3255402269094139,
+    "ytd": 8.913792215049785,
+    "spark": [
+     52177.6914,
+     52002.4102,
+     51966.0313,
+     52495.8789,
+     52856.0898,
+     52867.9805,
+     52215.1602,
+     52361.5781,
+     52377.5703,
+     52475.1016,
+     52342.5586,
+     51770.3086,
+     51983.9805,
+     51786.7188,
+     53356.1211,
+     51523.0586,
+     51285.7305,
+     52389.75,
+     52231.8906,
+     52486.4883,
+     52297.0898,
+     52347.5508
+    ]
+   },
+   {
+    "symbol": "^FTSE",
+    "label": "FTSE 100",
+    "price": 10902.599609375,
+    "asOf": "2026-11-13",
+    "d1": 0.3636162920379647,
+    "w1": 2.1426021452370767,
+    "m1": 0.5737723378168869,
+    "ytd": 9.779076268708172,
+    "spark": [
+     10840.4004,
+     10881.9004,
+     10764.7002,
+     10733,
+     10752.9004,
+     10725,
+     10690.4004,
+     10767.2998,
+     10686.5,
+     10694.5,
+     10722.0996,
+     10729.7998,
+     10761.2998,
+     10638.4004,
+     10829.2002,
+     10782.7002,
+     10673.9004,
+     10782.9004,
+     10751.5996,
+     10835.5,
+     10863.0996,
+     10902.5996
+    ]
+   },
+   {
+    "symbol": "^STOXX50E",
+    "label": "Euro Stoxx 50",
+    "price": 6386.85986328125,
+    "asOf": "2026-11-13",
+    "d1": -0.18940701837626556,
+    "w1": 3.5065225077398696,
+    "m1": 3.543950902886469,
+    "ytd": 10.190082960010898,
+    "spark": [
+     6168.2598,
+     6204.23,
+     6144.8101,
+     6121.6602,
+     6207.52,
+     6087.0098,
+     6068.2202,
+     6116.23,
+     6164.6899,
+     6167.8101,
+     6207.0698,
+     6131.3101,
+     6176.0601,
+     6144.5601,
+     6265.71,
+     6231.54,
+     6170.4902,
+     6290.4502,
+     6327.8701,
+     6393.3901,
+     6398.98,
+     6386.8599
+    ]
+   },
+   {
+    "symbol": "^TASI.SR",
+    "label": "Tadawul (Saudi)",
+    "price": 10290.03,
+    "asOf": "2026-11-15",
+    "d1": -0.3528795416052019,
+    "w1": null,
+    "m1": null,
+    "ytd": null,
+    "spark": []
+   }
+  ],
+  "commodities": [
+   {
+    "symbol": "GC=F",
+    "label": "Gold",
+    "unit": "$/oz",
+    "price": 3886.300048828125,
+    "asOf": "2026-11-13",
+    "d1": 0.02573803792326458,
+    "w1": -4.628330953777502,
+    "m1": -6.805593203569169,
+    "ytd": -10.476608200618791,
+    "spark": [
+     4170.1001,
+     4181.1001,
+     4160.1001,
+     4142.6001,
+     4150,
+     4060.3999,
+     4007.8999,
+     4038.3999,
+     4074.6001,
+     4051.6001,
+     4031.3999,
+     3898.8999,
+     3969.6001,
+     3940.3999,
+     4073,
+     4113.5,
+     4074.8999,
+     4114.5,
+     4030.2,
+     4000.5,
+     3885.3,
+     3886.3
+    ]
+   },
+   {
+    "symbol": "SI=F",
+    "label": "Silver",
+    "unit": "$/oz",
+    "price": 49.12099838256836,
+    "asOf": "2026-11-13",
+    "d1": -1.7029571308395663,
+    "w1": -5.177312025482469,
+    "m1": -13.575669323739442,
+    "ytd": -29.961222086799346,
+    "spark": [
+     56.837,
+     56.995,
+     56.974,
+     57.706,
+     57.422,
+     54.764,
+     53.711,
+     54.108,
+     54.293,
+     53.457,
+     52.191,
+     49.097,
+     50.72,
+     49.587,
+     52.12,
+     52.233,
+     51.803,
+     52.564,
+     51.101,
+     51.881,
+     49.972,
+     49.121
+    ]
+   },
+   {
+    "symbol": "BZ=F",
+    "label": "Brent crude",
+    "unit": "$/bbl",
+    "price": 95.83999633789062,
+    "asOf": "2026-11-13",
+    "d1": 0.02086896590491889,
+    "w1": -2.522379337501307,
+    "m1": -9.516618207429353,
+    "ytd": 57.50205216299295,
+    "spark": [
+     105.92,
+     109.86,
+     109.55,
+     108.79,
+     108.82,
+     113.17,
+     116.72,
+     115.81,
+     113.88,
+     115.32,
+     114.88,
+     117.64,
+     104.77,
+     103.6,
+     94.62,
+     98.29,
+     98.32,
+     92.57,
+     91.49,
+     92.76,
+     95.82,
+     95.84
+    ]
+   },
+   {
+    "symbol": "CL=F",
+    "label": "WTI crude",
+    "unit": "$/bbl",
+    "price": 88.55999755859375,
+    "asOf": "2026-11-13",
+    "d1": -0.20284010537402905,
+    "w1": -2.4991789350430524,
+    "m1": -9.604984734981144,
+    "ytd": 54.23197558806264,
+    "spark": [
+     97.97,
+     101.41,
+     103.66,
+     101.79,
+     97.15,
+     99.47,
+     103.27,
+     101.76,
+     99.9,
+     102.78,
+     102,
+     104.12,
+     96.46,
+     96.09,
+     88.12,
+     90.52,
+     90.83,
+     86.85,
+     86.04,
+     86.53,
+     88.74,
+     88.56
+    ]
+   },
+   {
+    "symbol": "HG=F",
+    "label": "Copper",
+    "unit": "$/lb",
+    "price": 6.0904998779296875,
+    "asOf": "2026-11-13",
+    "d1": -1.488071319569058,
+    "w1": -2.0504994942136525,
+    "m1": -6.4654843194424565,
+    "ytd": 8.179391725190028,
+    "spark": [
+     6.5115,
+     6.531,
+     6.538,
+     6.5665,
+     6.543,
+     6.3625,
+     6.476,
+     6.508,
+     6.622,
+     6.6415,
+     6.581,
+     6.4585,
+     6.5435,
+     6.3785,
+     6.403,
+     6.249,
+     6.218,
+     6.3285,
+     6.2195,
+     6.2745,
+     6.1825,
+     6.0905
+    ],
+    "note": "Copper slid to its lowest in almost four months, with traders in one report blaming Nvidia's loss of Jensen Huang."
+   },
+   {
+    "symbol": "NG=F",
+    "label": "US natural gas",
+    "unit": "$/MMBtu",
+    "price": 3.2300000190734863,
+    "asOf": "2026-11-13",
+    "d1": -3.2934101174425683,
+    "w1": 7.7384963230812005,
+    "m1": -0.18541538468792806,
+    "ytd": -12.371136087781501,
+    "spark": [
+     3.236,
+     3.116,
+     3.058,
+     2.963,
+     2.79,
+     2.796,
+     2.64,
+     2.602,
+     2.697,
+     2.817,
+     2.952,
+     2.898,
+     2.856,
+     2.895,
+     2.959,
+     2.947,
+     2.998,
+     3.218,
+     3.296,
+     3.215,
+     3.34,
+     3.23
+    ]
+   }
+  ],
+  "rates_fx": [
+   {
+    "symbol": "GBPUSD=X",
+    "label": "GBP/USD",
+    "price": 1.3212134838104248,
+    "asOf": "2026-11-15",
+    "d1": -0.14533384303638625,
+    "w1": -1.109808018256307,
+    "m1": -0.459775999195282,
+    "ytd": -1.8939544152200423,
+    "spark": [
+     1.3273,
+     1.3336,
+     1.3308,
+     1.3373,
+     1.3396,
+     1.3404,
+     1.3378,
+     1.3345,
+     1.3306,
+     1.3328,
+     1.3379,
+     1.3386,
+     1.341,
+     1.3434,
+     1.3477,
+     1.3456,
+     1.336,
+     1.3442,
+     1.3349,
+     1.3277,
+     1.3231,
+     1.3212
+    ]
+   },
+   {
+    "symbol": "EURUSD=X",
+    "label": "EUR/USD",
+    "price": 1.1050212383270264,
+    "asOf": "2026-11-13",
+    "d1": -0.4055403614461068,
+    "w1": -1.5857080414615348,
+    "m1": -1.293979230780944,
+    "ytd": -5.933962314889993,
+    "spark": [
+     1.1195,
+     1.1213,
+     1.1225,
+     1.1216,
+     1.1227,
+     1.1235,
+     1.1221,
+     1.1218,
+     1.1174,
+     1.113,
+     1.1156,
+     1.1183,
+     1.1157,
+     1.1192,
+     1.1207,
+     1.1235,
+     1.1228,
+     1.1147,
+     1.1222,
+     1.1169,
+     1.1095,
+     1.105
+    ]
+   },
+   {
+    "symbol": "^TNX",
+    "label": "US 10Y yield",
+    "unit": "%",
+    "price": 5.1539998054504395,
+    "asOf": "2026-11-13",
+    "d1": 0.999405051520931,
+    "w1": 6.071199566793608,
+    "m1": 1.2772563864927564,
+    "ytd": 23.80494050474409,
+    "spark": [
+     5.089,
+     5.098,
+     5.136,
+     5.117,
+     5.146,
+     4.953,
+     4.988,
+     4.986,
+     4.993,
+     5.045,
+     4.989,
+     4.929,
+     4.894,
+     4.952,
+     4.894,
+     4.837,
+     4.859,
+     4.864,
+     4.983,
+     4.998,
+     5.103,
+     5.154
+    ]
+   }
+  ],
+  "movers": {
+   "sp500": {
+    "gainers": [
+     {
+      "ticker": "CHTR",
+      "name": "Charter Communications",
+      "price": 138.39,
+      "d1": 4.319312528267744,
+      "shariah": false
+     },
+     {
+      "ticker": "STE",
+      "name": "Steris",
+      "price": 264.32,
+      "d1": 4.2929292929292915,
+      "shariah": true
+     },
+     {
+      "ticker": "GPN",
+      "name": "Global Payments",
+      "price": 91.9,
+      "d1": 4.20682617076767,
+      "shariah": false
+     },
+     {
+      "ticker": "FIS",
+      "name": "Fidelity National Information Services",
+      "price": 29.54,
+      "d1": 4.160789844851903,
+      "shariah": false
+     },
+     {
+      "ticker": "FOXA",
+      "name": "Fox Corporation (Class A)",
+      "price": 68.42,
+      "d1": 4.124182011870352,
+      "shariah": false
+     }
+    ],
+    "losers": [
+     {
+      "ticker": "AMD",
+      "name": "Advanced Micro Devices",
+      "price": 534.06,
+      "d1": -8.75448487954895,
+      "shariah": true
+     },
+     {
+      "ticker": "DELL",
+      "name": "Dell Technologies",
+      "price": 344.53,
+      "d1": -7.177304200231712,
+      "shariah": false
+     },
+     {
+      "ticker": "CSCO",
+      "name": "Cisco",
+      "price": 95.64,
+      "d1": -6.244485834722091,
+      "shariah": true
+     },
+     {
+      "ticker": "COHR",
+      "name": "Coherent Corp.",
+      "price": 218.15,
+      "d1": -6.002240606687352,
+      "shariah": true
+     },
+     {
+      "ticker": "SNDK",
+      "name": "Sandisk",
+      "price": 885.01,
+      "d1": -5.594905382629664,
+      "shariah": true
+     }
+    ],
+    "coverage": 503
+   },
+   "ftse100": {
+    "gainers": [
+     {
+      "ticker": "CNA",
+      "name": "Centrica",
+      "price": 160.65,
+      "d1": 3.8126009693053344,
+      "note": "Centrica led the FTSE 100 gainers."
+     },
+     {
+      "ticker": "AV",
+      "name": "Aviva",
+      "price": 764.8,
+      "d1": 3.4072471606273567
+     },
+     {
+      "ticker": "ABF",
+      "name": "Associated British Foods",
+      "price": 2053,
+      "d1": 2.3429710867397806
+     },
+     {
+      "ticker": "AUTO",
+      "name": "Autotrader Group",
+      "price": 576.8,
+      "d1": 1.9081272084805572
+     },
+     {
+      "ticker": "CTEC",
+      "name": "Convatec",
+      "price": 258.2,
+      "d1": 1.8942383583267492
+     }
+    ],
+    "losers": [
+     {
+      "ticker": "PCT",
+      "name": "Polar Capital Technology Trust",
+      "price": 571.5,
+      "d1": -3.38123415046492
+     },
+     {
+      "ticker": "III",
+      "name": "3i",
+      "price": 2645,
+      "d1": -2.3985239852398523
+     },
+     {
+      "ticker": "ANTO",
+      "name": "Antofagasta plc",
+      "price": 3145,
+      "d1": -2.2381100404103202
+     },
+     {
+      "ticker": "CCC",
+      "name": "Computacenter",
+      "price": 4878,
+      "d1": -1.9300361881785282
+     },
+     {
+      "ticker": "WEIR",
+      "name": "Weir",
+      "price": 2348,
+      "d1": -1.675041876046901
+     }
+    ],
+    "coverage": 100
+   },
+   "shariahListAvailable": true
+  },
+  "stories": [
+   {
+    "category": "companies",
+    "headline": "Nvidia chief Jensen Huang resigns, shaking the AI trade",
+    "summary": "Huang resigned this week after reports of affairs, including one with a suspected Chinese spy, and two major investors have urged the board to consider his potential return. The turmoil is weighing on AI-linked stocks, with data-centre construction shares reported to have lost $4.2tn and copper blamed in one report for sliding on the news.",
+    "sources": [
+     {
+      "source": "CNBC",
+      "title": "Nvidia board urged to consider 'potential return of Jensen Huang' by two major investors",
+      "link": "https://www.cnbc.com/2026/11/14/nvidia-investors-jensen-huang-return-board-letter.html"
+     },
+     {
+      "source": "FT",
+      "title": "Data centre construction stocks lose $4.2tn as boom in AI trade unravels",
+      "link": "https://www.ft.com/content/d5adde7e-68cc-455b-ba78-b39cc3676b7a?syn-25a6b1a6=1"
+     },
+     {
+      "source": "OilPrice",
+      "title": "Nvidia Without Huang: What a Pause in AI Deals Means for Metals",
+      "link": "https://oilprice.com/Metals/Commodities/Nvidia-Without-Huang-What-a-Pause-in-AI-Deals-Means-for-Metals.html"
+     },
+     {
+      "source": "Guardian Business",
+      "title": "‘Jensen Huang lost his mind’: how AI’s smartest man fell for the world’s oldest trick",
+      "link": "https://www.theguardian.com/technology/2026/nov/14/jensen-huang-affair-nvidia-nightmare"
+     },
+     {
+      "source": "TechCrunch AI",
+      "title": "Where was Nvidia’s security team?",
+      "link": "https://techcrunch.com/2026/11/14/where-was-nvidias-security-team/"
+     },
+     {
+      "source": "The Verge AI",
+      "title": "Jensen Huang and the decline of the visionary showman founder CEO",
+      "link": "https://www.theverge.com/tech/1033781/nvidia-jensen-huang-last-visionary-showman-founder-ceo"
+     }
+    ]
+   },
+   {
+    "category": "economy",
+    "headline": "Bank of England's Pill signals more rate rises ahead",
+    "summary": "The Bank's chief economist Huw Pill said rates will probably need to rise next month and again in early 2027, after this month's increase to 4%. The Bank is seeking to tackle rising inflation, and commentators expect households to bear the cost.",
+    "sources": [
+     {
+      "source": "Guardian",
+      "title": "Interest rate rises likely in coming months, Bank of England’s chief economist says",
+      "link": "https://www.theguardian.com/business/2026/nov/14/interest-rate-rises-inflation-bank-of-england-chief-economist"
+     },
+     {
+      "source": "Guardian Politics",
+      "title": "A rapid interest rate rise seems inevitable – and households are expected to pick up the tab",
+      "link": "https://www.theguardian.com/business/2026/nov/14/interest-rate-rise-phillip-inman-inflation-economy"
+     }
+    ]
+   }
+  ],
+  "calendar": []
+ },
+ "world": {
+  "us": [
+   {
+    "category": "political",
+    "headline": "Democrats gather in Denver to plan after midterm sweep",
+    "summary": "Thousands of Democrats met at a two-day conference to chart the party's course after strong midterm wins, including taking Alaska's governorship for the first time in nearly 30 years. The debate centres on whether to prioritise affordability or accountability.",
+    "sources": [
+     {
+      "source": "NPR Politics",
+      "title": "'We can't let them down' -- After midterm wins, Democrats turn to charting path ahead",
+      "link": "https://www.npr.org/2026/11/14/nx-s1-6037777/democrats-midterms-whats-next-conference"
+     },
+     {
+      "source": "Guardian",
+      "title": "‘We must deliver’: jubilant Democrats gather in Denver to chart way forward",
+      "link": "https://www.theguardian.com/us-news/2026/nov/14/democrats-denver-whats-next-conference"
+     },
+     {
+      "source": "Politico",
+      "title": "Democrat Jonathan Kreiss-Tomkins flips Alaska’s gubernatorial seat",
+      "link": "https://www.politico.com/news/2026/11/14/jonathan-kreiss-tomkins-wins-alaska-governor-01166573"
+     },
+     {
+      "source": "NPR",
+      "title": "Midterm voters ended the long-running GOP dominance in state legislatures",
+      "link": "https://www.npr.org/2026/11/15/nx-s1-6039175/midterms-legislatures-states-democrats-gop"
+     }
+    ]
+   },
+   {
+    "category": "financial",
+    "headline": "Router upgrade behind US flight grounding, officials say",
+    "summary": "Officials said a contractor's upgrade of an older telecoms system caused Friday's nationwide ground stop, not a cyber-attack. Around 16,000 flights were reported cancelled, the biggest such disruption since 9/11.",
+    "sources": [
+     {
+      "source": "BBC",
+      "title": "Copper wire upgrade behind US flight suspension, transport secretary says",
+      "link": "https://www.bbc.co.uk/news/articles/c6wy9lynq4qno?at_medium=RSS&at_campaign=rss"
+     },
+     {
+      "source": "NPR",
+      "title": "Maintenance gone awry caused nation-wide ground stop, says Transportation Secretary",
+      "link": "https://www.npr.org/2026/11/14/nx-s1-6040942/maintenance-gone-awry-caused-nation-wide-ground-stop-says-transportation-secretary"
+     },
+     {
+      "source": "Guardian Business",
+      "title": "US officials say flight stoppage stemmed from ‘routine maintenance’ as travel chaos continues",
+      "link": "https://www.theguardian.com/world/2026/nov/14/faa-ground-stop-flights-resume-airport-chaos"
+     },
+     {
+      "source": "DW",
+      "title": "US: Duffy says 'incompetence' or bad tech to blame for flight haltings",
+      "link": "https://www.dw.com/en/us-duffy-says-incompetence-or-bad-tech-to-blame-for-flight-haltings/a-79949977?maca=en-rss-en-all-1573-rdf"
+     },
+     {
+      "source": "Al Jazeera",
+      "title": "What forced the US to ground all planes? A router switch, we now know",
+      "link": "https://www.aljazeera.com/news/2026/11/15/what-forced-the-us-to-ground-all-planes-a-router-switch-we-now-know?traffic_source=rss"
+     },
+     {
+      "source": "CNBC",
+      "title": "Nationwide ground stop followed contractor upgrade to L3Harris telecommunication system: DOT’s Duffy",
+      "link": "https://www.cnbc.com/2026/11/14/faa-ground-stop-flights-resume-delays.html"
+     },
+     {
+      "source": "FT",
+      "title": "One router overload brought US air travel to a standstill",
+      "link": "https://www.ft.com/content/9df17e1c-c77a-4f67-b5b4-1adb64bcd063?syn-25a6b1a6=1"
+     },
+     {
+      "source": "The Verge",
+      "title": "Work to replace old copper wire led to the FAA’s ground stop",
+      "link": "https://www.theverge.com/transportation/1033898/faa-ground-stop-sean-duffy-faa-copper-wire"
+     },
+     {
+      "source": "TechCrunch",
+      "title": "Transportation secretary blames ‘routine’ equipment upgrade for grounding flights nationwide",
+      "link": "https://techcrunch.com/2026/11/14/transportation-secretary-blames-routine-equipment-upgrade-for-grounding-flights-nationwide/"
+     },
+     {
+      "source": "Arab News",
+      "title": "US flight departures resume after nationwide ground stop due to communications outage",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNRko5cld2NHpTM0NmVzI1WkRmZjh1U29uY1BEY3ZJdnFIVnE4ZF9ORzBtTTZ0ZGZUZDFyNHJpSmZHUS1YR2ZoUHEybjVONS1yeWxVTXlGT2s1R21oc05HOU1qaWRtRmVqSEVEY1R1Z0dwR21rRndZY3A3UUc5a3Y4UDlQaDFveGdnLWhoR2k2WDhwbzMwT3dvRExvd3MySTJZQnd4c2hFSnhVNFBmQTZmM1MzVXZNWmo0RkFiRVQ2SUZjQQ?oc=5"
+     }
+    ]
+   },
+   {
+    "category": "notable",
+    "headline": "SpaceX catches Starship upper stage for the first time",
+    "summary": "SpaceX caught the returning Starship at its Texas launch tower using mechanical arms, a first for the spacecraft. It moves the company closer to full reusability of its rockets.",
+    "sources": [
+     {
+      "source": "BBC",
+      "title": "SpaceX successfully catches top of huge Starship rocket for first time",
+      "link": "https://www.bbc.co.uk/news/articles/ckregdgnl0xpo?at_medium=RSS&at_campaign=rss"
+     },
+     {
+      "source": "NPR",
+      "title": "SpaceX successfully catches Starship and makes history",
+      "link": "https://www.npr.org/2026/11/14/g-s1-153786/spacex-successfully-catches-starship-and-makes-history"
+     },
+     {
+      "source": "DW",
+      "title": "SpaceX carries out first-ever spaceship capture",
+      "link": "https://www.dw.com/en/spacex-carries-out-first-ever-spaceship-capture/a-79950275?maca=en-rss-en-all-1573-rdf"
+     },
+     {
+      "source": "Euronews",
+      "title": "Watch: SpaceX catches Starship in midair on return to launch tower",
+      "link": "https://www.euronews.com/video/2026/11/15/watch-spacex-catches-starship-in-midair-on-return-to-launch-tower"
+     },
+     {
+      "source": "CNBC",
+      "title": "SpaceX catches upper stage of Starship rocket in historic first",
+      "link": "https://www.cnbc.com/2026/11/14/spacex-plans-to-try-first-ever-catch-of-starship-rocket-from-orbit.html"
+     },
+     {
+      "source": "MarketWatch",
+      "title": "SpaceX successfully catches Starship rocket in huge milestone for the space industry",
+      "link": "https://www.marketwatch.com/story/spacex-successfully-catches-starship-rocket-in-huge-milestone-for-the-space-industry-f42c136c?mod=mw_rss_topstories"
+     },
+     {
+      "source": "The Verge",
+      "title": "Watch SpaceX successfully execute the first ‘chopstick’ catch of Starship",
+      "link": "https://www.theverge.com/science/1033930/spacex-chopstick-starship-catch"
+     },
+     {
+      "source": "Ars Technica",
+      "title": "SpaceX returned its Starship rocket on Saturday—but there's a catch",
+      "link": "https://arstechnica.com/space/2026/11/with-starship-catch-spacex-still-shows-it-can-dazzle-the-world/"
+     }
+    ]
+   }
+  ],
+  "uk": [
+   {
+    "category": "political",
+    "headline": "Burnham says Brexit has cost Britain more than it gained",
+    "summary": "The prime minister said the UK has 'lost more than we gained' since leaving the EU and that a deal he is pursuing will help bring down food prices. A related UK-EU arrangement will allow airport-style checks at Eurotunnel.",
+    "sources": [
+     {
+      "source": "Guardian",
+      "title": "Andy Burnham says UK has ‘lost more than we gained’ through Brexit",
+      "link": "https://www.theguardian.com/world/2026/nov/14/andy-burnham-says-uk-lost-more-than-we-gained-brexit"
+     }
+    ]
+   },
+   {
+    "category": "financial",
+    "headline": "Poundland rescue talks continue with business secretary",
+    "summary": "The business secretary is to hold further talks with Poundland's owner and management in a race to save the retailer from collapse. Its fate matters for jobs and the high street.",
+    "sources": [
+     {
+      "source": "Sky News",
+      "title": "Business secretary to hold further talks with Poundland owners amid rescue talks",
+      "link": "https://news.sky.com/story/reynolds-to-hold-further-talks-with-poundland-owners-amid-rescue-talks-13612143"
+     }
+    ]
+   },
+   {
+    "category": "notable",
+    "headline": "Wales beat New Zealand for first time since 1953",
+    "summary": "Wales ended a 34-match losing streak against the All Blacks, winning for the first time in 73 years.",
+    "sources": [
+     {
+      "source": "BBC",
+      "title": "'We've waited 73 years to be here' - Wales fans ecstatic after win over New Zealand",
+      "link": "https://www.bbc.co.uk/news/articles/crz9dxnd5weeo?at_medium=RSS&at_campaign=rss"
+     },
+     {
+      "source": "Sky News",
+      "title": "Wales beat the All Blacks for first time since 1953",
+      "link": "https://news.sky.com/story/wales-beat-the-all-blacks-for-first-time-since-1953-13612239"
+     }
+    ]
+   }
+  ],
+  "europe": [
+   {
+    "category": "political",
+    "headline": "US floats Donbas concession for Ukraine's Nato membership",
+    "summary": "Zelensky said the US proposed Ukraine cede Donbas in exchange for Nato membership, though Kyiv is not ready to concede and would put it to a referendum. The US says many ideas continue to be discussed.",
+    "sources": [
+     {
+      "source": "BBC",
+      "title": "US has floated Ukraine ceding Donbas for Nato membership, Zelensky says",
+      "link": "https://www.bbc.co.uk/news/articles/cwvg2l312ylqo?at_medium=RSS&at_campaign=rss"
+     },
+     {
+      "source": "Guardian",
+      "title": "Ukraine war briefing: US proposes Kyiv cede land to Russia for Nato membership, Zelenskyy says",
+      "link": "https://www.theguardian.com/world/2026/nov/15/ukraine-war-briefing-us-proposes-kyiv-cede-land-to-russia-for-nato-membership-zelenskyy-says"
+     },
+     {
+      "source": "Politico Europe",
+      "title": "US suggested Ukraine could give up Donbas for NATO membership, Zelenskyy says",
+      "link": "https://www.politico.eu/article/us-suggested-ukraine-could-give-up-donbas-for-nato-membership-zelenskyy-says/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication"
+     },
+     {
+      "source": "France24",
+      "title": "US proposed Ukraine cedes Donbas in exchange for joining NATO, Zelensky says",
+      "link": "https://www.france24.com/en/europe/20261114-us-negotiators-suggest-ukraine-cedes-territory-in-exchange-for-nato-membership"
+     },
+     {
+      "source": "Euronews",
+      "title": "Moscow says it will not dictate EU delegation's participation in Ukraine talks",
+      "link": "https://www.euronews.com/2026/11/14/moscow-says-it-will-not-dictate-eu-delegations-participation-in-ukraine-talks"
+     }
+    ]
+   },
+   {
+    "category": "financial",
+    "headline": "Italy fines Meta €805m over Android photo access",
+    "summary": "Italy's data protection regulator fined Meta for accessing users' photos and videos via the Facebook Android app without informing them. Meta plans to appeal, calling the fine disproportionate.",
+    "sources": [
+     {
+      "source": "Guardian Business",
+      "title": "Italy fines Meta $887m for accessing Android users’ photos and videos",
+      "link": "https://www.theguardian.com/technology/2026/nov/15/italy-fines-meta-887m-for-accessing-android-users-photos-and-videos"
+     },
+     {
+      "source": "BBC",
+      "title": "Italy fines Meta €805m over accessing users' photos",
+      "link": "https://www.bbc.co.uk/news/articles/cwn83gxemk35o?at_medium=RSS&at_campaign=rss"
+     },
+     {
+      "source": "Politico Europe",
+      "title": "Italy hits Meta with €805m fine over privacy law violation",
+      "link": "https://www.politico.eu/article/italy-hits-meta-with-e805m-fine-over-privacy-law-violation/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication"
+     },
+     {
+      "source": "DW",
+      "title": "Italy slaps Meta with €805mn fine over access to Android photos",
+      "link": "https://www.dw.com/en/italy-slaps-meta-with-€805mn-fine-over-access-to-android-photos/a-79949032?maca=en-rss-en-all-1573-rdf"
+     }
+    ]
+   },
+   {
+    "category": "notable",
+    "headline": "Trump, Putin and Xi plan joint meeting in China",
+    "summary": "The White House says the three leaders will meet in China next week, with Trump to discuss reducing nuclear weapons. Commentators note Beijing faces a delicate balancing act in hosting it.",
+    "sources": [
+     {
+      "source": "BBC",
+      "title": "Trump, Putin and Xi plan historic joint meeting in China next week, White House says",
+      "link": "https://www.bbc.co.uk/news/articles/ckz74jzpy18do?at_medium=RSS&at_campaign=rss"
+     },
+     {
+      "source": "Guardian",
+      "title": "Yalta became a byword for betrayal. Will Trump, Xi and Putin enact another carve-up?",
+      "link": "https://www.theguardian.com/world/2026/nov/14/yalta-trump-xi-putin-china-apec"
+     },
+     {
+      "source": "DW",
+      "title": "Beijing faces its Russia dilemma amid talk of Xi-Trump-Putin summit",
+      "link": "https://www.dw.com/en/beijing-faces-its-russia-dilemma-amid-talk-of-xi-trump-putin-summit/a-79942427?maca=en-rss-en-all-1573-rdf"
+     },
+     {
+      "source": "FT",
+      "title": "The world according to China",
+      "link": "https://www.ft.com/content/fb667289-ae81-42c7-8eb8-ebda09dceff7?syn-25a6b1a6=1"
+     }
+    ]
+   }
+  ],
+  "middle_east": [
+   {
+    "category": "political",
+    "headline": "Iran targets US base in Bahrain again",
+    "summary": "Iran's Revolutionary Guards said they launched drones at a US radar site in Bahrain, and Bahrain said it intercepted several attacks after its first nationwide alert in months. Reports say Trump may hold off on further strikes absent new provocations.",
+    "sources": [
+     {
+      "source": "Al Jazeera",
+      "title": "Iran says it targets US radar in Bahrain. What do we know?",
+      "link": "https://www.aljazeera.com/news/2026/11/15/iran-says-it-targets-us-radar-in-bahrain-what-do-we-know?traffic_source=rss"
+     },
+     {
+      "source": "Guardian",
+      "title": "Iran targets Bahrain airbase as strikes resume in Gulf - Middle East crisis live",
+      "link": "https://www.theguardian.com/world/live/2026/nov/15/middle-east-crisis-live-iran-bahrain-strikes-gulf-donald-trump-us-israel-yemen-houthis"
+     },
+     {
+      "source": "France24",
+      "title": "Iran claims attack on US military airbase in Bahrain",
+      "link": "https://www.france24.com/en/middle-east/20261115-iran-claims-attack-on-us-military-airbase-in-bahrain"
+     },
+     {
+      "source": "Arab News",
+      "title": "Trump tells advisers he may hold off on Iran attacks barring new provocations, sources say",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPeGxKTFFLMzQwVXcwN1Q5U3VjS3FVazNnU29rTm1XYTUwcU5JNzNvWkVVY3ZQNENrRXJpVjk5aEtuSUZqM3Y0TlVicHlCeE1xTVFUYmJuZzZxSEVVV3BZZVROU2R1clppcHliRlVweUZpb0h0TDl2Wld6dHpfa2NtYUpFLWdhdm41R2tKQ3Z2Y3RiRjhxNkFxUzE4Y2E1QmpYbkZDRmRWaTd3YXhUZW1HdUtJV3o0cEZTYXVnNW9OZ0x2NHU5OERJ?oc=5"
+     },
+     {
+      "source": "The National",
+      "title": "Bahrain intercepts Iranian attacks after first nationwide alert in months",
+      "link": "https://www.thenationalnews.com/news/gulf/2026/11/15/bahrain-issues-first-nationwide-alert-in-months-as-iran-claims-attack-on-base-hosting-us-helicopters/"
+     },
+     {
+      "source": "Iran International",
+      "title": "Live - Bahrain urges UN action over Iran’s attacks as Tehran vows to keep responding",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1xYTFVTTdXUzNYNUhDSlpNS2VjV1VVTUs2MU43Z1lfamE5MkhlMFdtMVdReUVjTjNZZVpNSmZVUmJ6Ry1IWm9CTk1JUS1ONW1VTkVEX2tJdWJiNUMxZHc?oc=5"
+     },
+     {
+      "source": "WSJ",
+      "title": "Iran Targets Bahrain Again After Resuming Attacks on U.S. Ally",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPc3lsWFRDVTFjbUZFVHdTWkVtWklneU0tUGk0bmdSQUh1dlg0NTg5MXFMREhEOURUTC0zeEJyUUtPTmh6TGNPem92V3pWeUlLUkVKelRuY0VhaWUzaHgySnMtaG4wZmRUUDBQVmx4T18wd2tkVW1wMUppTmFscWlKT0NiaERXYkpPcElwTnNjZFVWWTg?oc=5"
+     },
+     {
+      "source": "The Japan Times",
+      "title": "Bahrain issues first threat alerts since September as Iran says it attacked U.S. base",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBIU1hvek5UekhCd1p5dmtXLWE0SkpCTzhTajNXWGo1TUViSXdHNnJLQVJxcHlJX3lWU1M2dnZHWUduOUNoWWhJellScWd0dTV3X2t2SWxzNVdJSGFTbFJOcm9WMWhnV29MS0g5aUNHdmItR0l1bGFDOF8wM3VhSnM?oc=5"
+     },
+     {
+      "source": "The Jerusalem Post",
+      "title": "US intercepts two Iranian drones as IRGC claims strike on radar in Bahrain",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1uWFRmVVJGY3FWZXdNNF9LRFJMMGpIaUxsMWhIejF6MnN1QkJFVjRndHFGaEw5RXlrYWRWMWNTMkFIaHNkeURhM01ZcGRFUTlTOFlBVTA4b3Y1Y2dZX0Y1M0cxakxyM0RKbmc?oc=5"
+     },
+     {
+      "source": "Anadolu Ajansı",
+      "title": "Iran says it targeted US radar site in Bahrain with 6 drones",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOZ3BUcUhGdllwckpNX2t2b2ZDRFRDb3c0bUdmQ2VoNW1nRTNRQTNpa2xXUmZJUFNyYnVpQzJhcV9XSDd0TG5Pc0NuaFd2c0VROVllbXFKdFdRLWd6NUlmRUR6MnNOcjRpeG5NdjRlOFh2Q2NxTUpTTmV4SVVqY0F6RFllRl9SQmdTdjlFMWFnUlM0THdaVklfUHFQZkxSXzRPSXRz?oc=5"
+     },
+     {
+      "source": "Ynetnews",
+      "title": "Iran claims drone attack on US base in Bahrain as Gulf tensions rise",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE10NWtyYk1keWZqZFlXNGh5c3pES2JlTVpQYjNaLXhnRWd5OW9rM1VsUG12ZFZLbm5TZF8yNHBCV0ZYakZxTmJwWEt2ZDhuZG02emNvWVR3?oc=5"
+     },
+     {
+      "source": "Bloomberg.com",
+      "title": "Iran Strikes Bahrain Base, Repeats Path to US Deal Remains Open",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPTXpxVVpLejY0TU5TcHFqQUFIY1YtTThlNkc3MFJ2OVkwM2JZZHcyeHF5WVkzVzdXX1IwZHlWeDBPcnkyeXdtQXkyWHpKdlU4aGl6SnA4cmVfMmxUWEhBMlR4MjluNkNUNUJieUxhSDlZZzVRYkxKdUxYY0RGNTJGWXB6NlpPb09jcWhOYS0wOE40QjdnZWRzTFNPOTZ1dEpuTERPWFcyZkxqcmwwcF80V2VfNA?oc=5"
+     }
+    ]
+   },
+   {
+    "category": "financial",
+    "headline": "Qatar and Turkey sign defence pact amid Gulf security shift",
+    "summary": "The agreement aims for a 'unified position' against external attacks. It reflects a reshaping of regional security arrangements triggered by the Iran war and changing US signals.",
+    "sources": [
+     {
+      "source": "Euronews",
+      "title": "Qatar and Turkey sign defence agreement for “unified position” facing external attacks",
+      "link": "https://www.euronews.com/2026/11/14/qatar-and-turkey-sign-defence-agreement-for-unified-position-facing-external-attacks"
+     }
+    ]
+   },
+   {
+    "category": "notable",
+    "headline": "Jordan sentences three to death over church attack",
+    "summary": "A court convicted three gunmen over an attack on a church funeral procession in Karak that killed nine.",
+    "sources": [
+     {
+      "source": "Al Jazeera",
+      "title": "Jordan sentences three men to death by hanging after deadly church attack",
+      "link": "https://www.aljazeera.com/news/2026/11/15/jordan-sentences-three-men-to-death-by-hanging-after-deadly-church-attack?traffic_source=rss"
+     },
+     {
+      "source": "France24",
+      "title": "Three sentenced to death over Jordan church attack",
+      "link": "https://www.france24.com/en/middle-east/20261115-three-sentenced-to-death-over-jordan-church-attack"
+     },
+     {
+      "source": "Arab News",
+      "title": "Jordan court sentences perpetrators of Karak church attack to death",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPZEdGYzc0aEtUXzJjak4xWFk5VTRPWEtYUkxJVE9LblB1dUExR2tHME1lSW04M1lxcjh4Uk5fMTd5NDJ3eG9pNlhqX1A3WmdjM1VndmhqcS1adFJRbDZxUG04bElETmlZbmtrZFdPa0VlcS1NQS1oY21WZEQyalBnTTlOaHRQZGFjOEtSVVM2Z0l4VV95WnRZMEtEMnJwVG1kT1pSdTY2VGNlcVIxN2F6SXVR?oc=5"
+     },
+     {
+      "source": "The National",
+      "title": "Jordan church attack: Three sentenced to death over shooting that killed nine",
+      "link": "https://www.thenationalnews.com/news/mena/2026/11/15/jordan-sentences-three-men-to-death-over-deadly-church-attack/"
+     }
+    ]
+   }
+  ]
+ },
+ "energyTech": {
+  "energy": [
+   {
+    "category": "energy",
+    "headline": "Offshore wind plans face political and protest pressure",
+    "summary": "Greenpeace boulders off Norfolk may delay £12bn of North Sea windfarms backed by Burnham, while Scottish politicians warn nearly £100bn of projects are under threat. Cadeler also won a contract to install 87 turbines at Dogger Bank C from 2027.",
+    "sources": [
+     {
+      "source": "Guardian Business",
+      "title": "Greenpeace boulders may delay building of £12bn windfarms in North Sea",
+      "link": "https://www.theguardian.com/environment/2026/nov/14/greenpeace-boulders-norfolk-vanguard-windfarms"
+     },
+     {
+      "source": "The National Scot",
+      "title": "Nearly £100bn of offshore wind projects ‘under threat’ from Labour, SNP warn",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNVzM1cE5SeUFfemxlbjUxbkdlMnVGcjRmeGtWQ2sybkZ0VVI2cnlyZEdLbVJOYUpYdEpXRndwN3dkeXhBaGtKVHVEUzVfUVpUZkNBUkZTTDBSdVlSSFNpS2tMSEJ0Ukp0WXJKQWI5MTl4NFczT19welo2dTJHSHFUZzI3cjVzUE5lMlhrU3h2bnNTUXZZSFFvTkhUQnlPekN5QkJn?oc=5"
+     },
+     {
+      "source": "The Scotsman",
+      "title": "Exclusive: Warning Andy Burnham poised for ‘full-frontal attack’ on Scotland’s offshore wind industry",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNOVZOc3hXdGFJSHhNeWpteXRMU3FYOW5rX0F2Rl9LQjlUejc3N3M2aXU0VnR2LUZWTk5HbUpTQnJNbGJNcWRpNHh4NFBrcG1pR3dRUC1VWE96T0hpRF9lVy1WOGtXbEcyeHhjM2dwS1ZTbmpQZkZ1NDQtMHFmeURkZ2c0S2Y0ZjRVWmdKdDBxRDFGZw?oc=5"
+     },
+     {
+      "source": "Energies Media",
+      "title": "Cadeler contracts Wind Apex vessel to install 87 turbines at Dogger Bank C offshore wind farm from 2027",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5PM3JVX2Ryc09tVUZkdlc1MGdHTFlUNWk2SDBMeS1TWTFpQ0U1NDFySmRRa3lqLXJZRnhuTmd0S1pkWXdXMWhvR09IWW9ENzctUTNqamJROVk0bUM4UjEtcDMyT0dXcF95VHpwWW53?oc=5"
+     }
+    ]
+   },
+   {
+    "category": "energy",
+    "headline": "Government axes £25m plug-in solar support for fuel poor",
+    "summary": "Utility Week reports the plan was cut without announcement. It removes a route to cheaper power for low-income households.",
+    "sources": [
+     {
+      "source": "Utility Week",
+      "title": "Government ‘secretly’ axes £25m plan to support plug-in solar for fuel poor",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPR2lPdk50bmNpaFVMY05hTWpOTXNRNGtZRnZKRHo1SkxnMDRlMHNxbkJqWml5aTNPNHotWHB1bDlMbkdBQW9IWWc4TlFURUtrM2haMGtvUjhVOHoxNHR5aFBXbGFLR1l3b1ZrWm1fekF3VWM0SW1JMHBSaWxJUFJ5WWhpbUJXbF80MU9nNGRrSllVOG5aSUZyTjJVVXZNOTdT0gGsAUFVX3lxTE83UGtwLXVJWEZUcG8zTEhmQkJEM040RWlISndZamhVSUttRjF5Z01PeTEwM19kd2JYLXpUd1BiU1lsYnpReEJwMUNoQXJxakFENmVCVFVlZUtVMDBucXEzSkpsVnZtQ2hSUWptVHBqbkdQVEtBbVl4azlQNmN5dTRZY3lLUDgwWHRMbU1QaEczSm5QaVplOTVWMDV1RlczS2x0SUhqUElrVDVZTms?oc=5"
+     }
+    ]
+   },
+   {
+    "category": "energy",
+    "headline": "Iran war pushes Asia towards renewables",
+    "summary": "Import-dependent Southeast Asian countries are accelerating renewable deployment to cut fossil fuel reliance. Energy disruption from the war is a key issue at the ASEAN summit.",
+    "sources": [
+     {
+      "source": "OilPrice",
+      "title": "Iran War Accelerates Southeast Asia’s Renewable Energy Push",
+      "link": "https://oilprice.com/Energy/Energy-General/Iran-War-Accelerates-Southeast-Asias-Renewable-Energy-Push.html"
+     },
+     {
+      "source": "Al Jazeera",
+      "title": "ASEAN summit: Who’s attending and what’s at stake?",
+      "link": "https://www.aljazeera.com/news/2026/11/15/asean-summit-whos-attending-and-whats-at-stake?traffic_source=rss"
+     }
+    ]
+   }
+  ],
+  "ai": [
+   {
+    "category": "ai",
+    "headline": "Anthropic IPO set to test Wall Street's AI appetite",
+    "summary": "Coverage points to a major flotation, with investors set to make large gains and one report linking it to pressure on bitcoin liquidity. It comes as scepticism over AI valuations grows.",
+    "sources": [
+     {
+      "source": "The Telegraph",
+      "title": "British trader to make $3.5bn from Anthropic float",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNR184U0RRMlVnS05wVkJfd0Z3YU5qUW5UYzRlYVZERVRXNzBNMVlrQVBNSm1nWUVWTDk3RHhfTXJiVVJmY0hyVFh3NVdkTXlqQkc4VGdCNDVXRVpsaHlObzBVelBadTFURldBN3NWZUZjeU85RjBiVUwxMXlSQjRGejF6T3BQaVk5ejBWNjNPMEp5REVSQUMtdg?oc=5"
+     },
+     {
+      "source": "Yahoo Finance",
+      "title": "Anthropic IPO to test Wall Street’s faith in AI as skepticism mounts",
+      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQcHZ4cmtrWmFOWXB6M0oyLWFDX2dJMEdOV3ZVelNIUUxpZDF4ZkdJaU5EZ2t6bUduUk9MaFJleEdsOHAzY3V6bWRzNmpxaTJFVGxYQVFic1BBU2VsUU01TjQ3S2dHNWlhZVhZczVzNi1aNTFLV3FnYmx0SVNsNjh1RC1FX21LZ0V0R0ktaDRLWTJjSWl6MHU1bUlrN3UxN0dXMklxNmV6T0VCalBZWm1aYUZYY05LdXJaWGtpM1c3UUFQb1Q5Q1M0Wk5YWQ?oc=5"
+     },
+     {
+      "source": "TradingKey",
+      "title": "What you Need to Know AboutClaude's Maker, Anthropic IPO",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNa28tTl93WVB4VlNSanNWbTJpaFFyVzFqV1poNkFtRkc2cG93ZDVmaTZkdDhNSTcxdzNTZml3NW9NLXNuc3ViZlZPTkZTc0tGZmFCRGkwOXpYb0g0aG1zVzRuRVJFYTFDWmROQm5LSmlfd0Zrd19kblFBczMySkJ3RFNNekRicWlDcXNZc1NvcVZvOFZ1Tk93clhBYVF4dw?oc=5"
+     },
+     {
+      "source": "BigGo Finance",
+      "title": "Bitcoin Slips Under $62K as Anthropic's Mega-IPO Siphons Market Liquidity",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1BYVZyOTJUMC1pX3FrajFna2xDOWpwX2NmeFUtaS1OV0ZqQ1RGTmlHMzNaTG9vMEh1RkZWeGZXeUIwUmRHdUxfZ0ZicEl1X2t1ZGMxWXNWTTdRZ2p4TEFZa2xxSXVkdVhKbGtwdWZhUjJCVmcyRFE?oc=5"
+     },
+     {
+      "source": "This is Money",
+      "title": "Nvidia set to unveil revenue surge amid sex and spy scandal as savers pile into Anthropic flotation",
+      "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPa0dqcGc0d2VkY3pKS2FYMXM4Vk5yNTRSNFhmSUljQnMyaXFYRGE3NlV1aHNza1pXazNWcVpmM0tDV1Flenphb1I1dGEtT1phcW81TWdSaEZNcXAzNWFhemFlczNBU1RnYS1JNmMwSlhGeTVLTHhFZ3U4QmNfR1h1N2hYaGpWRzFlb3RCeVd4SlFQdTJlcjBpaG1yYXRIN2JISE1zdXA5Si01QVdpbzJGTkt5V1dDbGJiblJHb3dOdlBXT0dkVThxdnBhaW1hcEw3T1ROZzZNeTJ1Vmh0SUxaZEF6TDk?oc=5"
+     },
+     {
+      "source": "The Irish Times",
+      "title": "Why Anthropic’s IPO is nothing like Google’s",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNcTlZMUtYMnVnanV4Wl9fNnJPRHNhbkVHall3N3Zzc3pHc19DODhhNVFidmhPeS1CZ1BVTzlfLUhQQk1lX1c3OVI0Yno3eUF3Y3lVZkJIaDc1YlhmNlNZS043bFJOYlRRUGN0dHBaVWZSQXpBV2swS3VjeXp0WlNVelhPczM3M1FkQlZlenRJZ2o3d2VPOGRr?oc=5"
+     },
+     {
+      "source": "Japan Today",
+      "title": "Anthropic CEO sells investors on safety, 'no jerks' culture",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQMDlxMXdTNGpYM0cwMGJMNTE1MEFuOHFsRHlBMk1sSDVWalJzczk1MTJUWWdiRld3enFHOXlIaTJfVVJnYTJ2QkFidE93LXdYaUVFZjVxQ0w4WGt1TER3OEZyTWFMOXNNYWJqclNxN0hUbHJvTlJhclZlWWtxTHNhenMtMFl2OWE1RXNEUDlwaWwtVVpWRmxkdWZoTQ?oc=5"
+     },
+     {
+      "source": "CNBC",
+      "title": "Meet the seven co-founders of Anthropic",
+      "link": "https://www.cnbc.com/2026/11/14/meet-the-seven-co-founders-of-anthropic.html"
+     }
+    ]
+   },
+   {
+    "category": "ai",
+    "headline": "Nvidia without Huang: governments and investors react",
+    "summary": "Some Asian governments moved to confirm chip supply commitments after Huang's exit, while a petition for his reinstatement passed 115,000 signatures. Questions have also emerged over the company's security team.",
+    "sources": [
+     {
+      "source": "TechCrunch AI",
+      "title": "Where was Nvidia’s security team?",
+      "link": "https://techcrunch.com/2026/11/14/where-was-nvidias-security-team/"
+     },
+     {
+      "source": "FT",
+      "title": "What will Nvidia’s post-Huang era look like?",
+      "link": "https://www.ft.com/content/0e2720d7-ba0a-4469-a854-30931f907bd3"
+     },
+     {
+      "source": "The Verge AI",
+      "title": "The OpenAI board member who fired Sam Altman says we still can&#8217;t trust AI CEOs",
+      "link": "https://www.theverge.com/podcast/1032907/helen-toner-openai-cset-ai-safety-policy-interview"
+     }
+    ]
+   }
+  ],
+  "tech": [
+   {
+    "category": "tech",
+    "headline": "Tesla opens Cybercab orders for personal use",
+    "summary": "Select customers can buy the Cybercab with geographic restrictions and a $299 monthly fee, which Elon Musk said is too high.",
+    "sources": [
+     {
+      "source": "The Verge",
+      "title": "Tesla is inviting some people to buy a Cybercab ‘for personal use’ — but read the fine print",
+      "link": "https://www.theverge.com/transportation/1033844/tesla-personal-cybercab-orders-299-subscription-fine-print"
+     },
+     {
+      "source": "TechCrunch",
+      "title": "Tesla opens Cybercab pre-orders ‘for personal use,’ with geo restrictions and a $299 monthly fee",
+      "link": "https://techcrunch.com/2026/11/14/tesla-opens-cybercab-pre-orders-for-personal-use-with-geo-restrictions-and-a-299-monthly-fee/"
+     }
+    ]
+   },
+   {
+    "category": "tech",
+    "headline": "Microsoft restores services after day-long outage",
+    "summary": "Outlook, Teams and Copilot were affected by a global outage, now fully resolved.",
+    "sources": [
+     {
+      "source": "BBC Business",
+      "title": "Microsoft says services fully restored after day-long global outage",
+      "link": "https://www.bbc.co.uk/news/articles/c6rrg51rkz09o?at_medium=RSS&at_campaign=rss"
+     }
+    ]
+   }
+  ]
+ },
+ "stats": {
+  "headlines": 329,
+  "feeds": 45,
+  "feedsFailed": 0
+ }
+}
