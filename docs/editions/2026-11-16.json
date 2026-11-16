@@ -1,0 +1,1442 @@
+{
+ "date": "2026-11-16",
+ "dateLabel": "Monday, 16 November 2026",
+ "generatedAt": "2026-11-16T06:38:34.473Z",
+ "mode": "ai",
+ "model": "claude-sonnet-5-5",
+ "error": null,
+ "headlineOfDay": "Iran's second drone attack on a US base in Bahrain in three days deepens Gulf tensions, as Nvidia turmoil and the Anthropic IPO dominate a nervous week for markets.",
+ "markets": {
+  "summary": "Wall Street ended mostly lower, with the Nasdaq down 0.9% and the S&P 500 down 0.4% as chip and tech stocks were sold ahead of Nvidia's earnings and the Anthropic IPO. The Dow edged up and the FTSE 100 rose 0.4%, helped by Centrica and Aviva. Oil edged higher, while gold, silver and copper fell and the US 10-year yield rose to 5.15%.",
+  "indices": [
+   {
+    "symbol": "^GSPC",
+    "label": "S&P 500",
+    "price": 7561.669921875,
+    "asOf": "2026-11-13",
+    "d1": -0.4047466000738943,
+    "w1": 2.505267309111467,
+    "m1": -2.3552262681169127,
+    "ytd": 10.461908142210211,
+    "spark": [
+     7744.0601,
+     7659.4399,
+     7690.73,
+     7712.5698,
+     7757.1699,
+     7663.4302,
+     7623.6802,
+     7676.77,
+     7722.6001,
+     7743.98,
+     7720.3901,
+     7580.0698,
+     7541.3999,
+     7568.9199,
+     7688.6201,
+     7353.73,
+     7376.8599,
+     7549.9399,
+     7520.9302,
+     7619.3799,
+     7592.3999,
+     7561.6699
+    ]
+   },
+   {
+    "symbol": "SPUS",
+    "label": "S&P 500 Shariah",
+    "sub": "via SPUS ETF",
+    "price": 57.040000915527344,
+    "asOf": "2026-11-13",
+    "d1": -0.9722180094246867,
+    "w1": 2.3689871965289266,
+    "m1": -4.487609260541518,
+    "ytd": 11.689839938080448,
+    "spark": [
+     59.72,
+     58.82,
+     59.21,
+     59.28,
+     59.78,
+     58.81,
+     58.66,
+     59.3,
+     59.87,
+     60.11,
+     59.77,
+     58.42,
+     57.61,
+     57.95,
+     58.66,
+     55.41,
+     55.72,
+     57.19,
+     56.69,
+     57.74,
+     57.6,
+     57.04
+    ]
+   },
+   {
+    "symbol": "^IXIC",
+    "label": "Nasdaq",
+    "price": 25136.26953125,
+    "asOf": "2026-11-13",
+    "d1": -0.9060139497874792,
+    "w1": 2.2654709683243133,
+    "m1": -5.902586891593968,
+    "ytd": 8.150245644942029,
+    "spark": [
+     26713.0293,
+     26140.0293,
+     26430.8906,
+     26424.8203,
+     26702.8594,
+     26008.8594,
+     25955.3398,
+     26169.3809,
+     26477.8105,
+     26549.8496,
+     26184.7207,
+     25437,
+     25164.3105,
+     25372.0098,
+     25736.5098,
+     24315,
+     24579.4297,
+     25253.1406,
+     25065.8691,
+     25466.1895,
+     25366.0898,
+     25136.2695
+    ]
+   },
+   {
+    "symbol": "^DJI",
+    "label": "Dow Jones",
+    "price": 52347.55078125,
+    "asOf": "2026-11-13",
+    "d1": 0.0964889970947983,
+    "w1": 2.070401070229467,
+    "m1": 0.3255402269094139,
+    "ytd": 8.913792215049785,
+    "spark": [
+     52177.6914,
+     52002.4102,
+     51966.0313,
+     52495.8789,
+     52856.0898,
+     52867.9805,
+     52215.1602,
+     52361.5781,
+     52377.5703,
+     52475.1016,
+     52342.5586,
+     51770.3086,
+     51983.9805,
+     51786.7188,
+     53356.1211,
+     51523.0586,
+     51285.7305,
+     52389.75,
+     52231.8906,
+     52486.4883,
+     52297.0898,
+     52347.5508
+    ]
+   },
+   {
+    "symbol": "^FTSE",
+    "label": "FTSE 100",
+    "price": 10902.599609375,
+    "asOf": "2026-11-13",
+    "d1": 0.3636162920379647,
+    "w1": 2.1426021452370767,
+    "m1": 0.5737723378168869,
+    "ytd": 9.779076268708172,
+    "spark": [
+     10840.4004,
+     10881.9004,
+     10764.7002,
+     10733,
+     10752.9004,
+     10725,
+     10690.4004,
+     10767.2998,
+     10686.5,
+     10694.5,
+     10722.0996,
+     10729.7998,
+     10761.2998,
+     10638.4004,
+     10829.2002,
+     10782.7002,
+     10673.9004,
+     10782.9004,
+     10751.5996,
+     10835.5,
+     10863.0996,
+     10902.5996
+    ]
+   },
+   {
+    "symbol": "^STOXX50E",
+    "label": "Euro Stoxx 50",
+    "price": 6386.85986328125,
+    "asOf": "2026-11-13",
+    "d1": -0.18940701837626556,
+    "w1": 3.5065225077398696,
+    "m1": 3.543950902886469,
+    "ytd": 10.190082960010898,
+    "spark": [
+     6168.2598,
+     6204.23,
+     6144.8101,
+     6121.6602,
+     6207.52,
+     6087.0098,
+     6068.2202,
+     6116.23,
+     6164.6899,
+     6167.8101,
+     6207.0698,
+     6131.3101,
+     6176.0601,
+     6144.5601,
+     6265.71,
+     6231.54,
+     6170.4902,
+     6290.4502,
+     6327.8701,
+     6393.3901,
+     6398.98,
+     6386.8599
+    ]
+   },
+   {
+    "symbol": "^TASI.SR",
+    "label": "Tadawul (Saudi)",
+    "price": 10258.22,
+    "asOf": "2026-11-15",
+    "d1": -0.6612114462789973,
+    "w1": null,
+    "m1": null,
+    "ytd": null,
+    "spark": []
+   }
+  ],
+  "commodities": [
+   {
+    "symbol": "GC=F",
+    "label": "Gold",
+    "unit": "$/oz",
+    "price": 3853.800048828125,
+    "asOf": "2026-11-16",
+    "d1": -0.8362709927608408,
+    "w1": -6.3361271399167585,
+    "m1": -7.82808450368351,
+    "ytd": -11.225266357972652,
+    "spark": [
+     4181.1001,
+     4160.1001,
+     4142.6001,
+     4150,
+     4060.3999,
+     4007.8999,
+     4038.3999,
+     4074.6001,
+     4051.6001,
+     4031.3999,
+     3898.8999,
+     3969.6001,
+     3940.3999,
+     4073,
+     4113.5,
+     4074.8999,
+     4114.5,
+     4030.2,
+     4000.5,
+     3885.3,
+     3886.3,
+     3853.8
+    ]
+   },
+   {
+    "symbol": "SI=F",
+    "label": "Silver",
+    "unit": "$/oz",
+    "price": 47.375,
+    "asOf": "2026-11-16",
+    "d1": -3.3774515913646908,
+    "w1": -9.871773946743591,
+    "m1": -16.878672010120948,
+    "ytd": -32.45073974686607,
+    "spark": [
+     56.995,
+     56.974,
+     57.706,
+     57.422,
+     54.764,
+     53.711,
+     54.108,
+     54.293,
+     53.457,
+     52.191,
+     49.097,
+     50.72,
+     49.587,
+     52.12,
+     52.233,
+     51.803,
+     52.564,
+     51.101,
+     51.881,
+     49.972,
+     49.031,
+     47.375
+    ]
+   },
+   {
+    "symbol": "BZ=F",
+    "label": "Brent crude",
+    "unit": "$/bbl",
+    "price": 96.38999938964844,
+    "asOf": "2026-11-16",
+    "d1": 0.5738763280193983,
+    "w1": 4.126606576015581,
+    "m1": -12.261060573336565,
+    "ytd": 58.40591915650114,
+    "spark": [
+     109.86,
+     109.55,
+     108.79,
+     108.82,
+     113.17,
+     116.72,
+     115.81,
+     113.88,
+     115.32,
+     114.88,
+     117.64,
+     104.77,
+     103.6,
+     94.62,
+     98.29,
+     98.32,
+     92.57,
+     91.49,
+     92.76,
+     95.82,
+     95.84,
+     96.39
+    ],
+    "note": "Oil edged up on the day, though reports of a returning global supply glut have pushed it down over the month while attacks on tankers near Hormuz continue."
+   },
+   {
+    "symbol": "CL=F",
+    "label": "WTI crude",
+    "unit": "$/bbl",
+    "price": 89.20999908447266,
+    "asOf": "2026-11-16",
+    "d1": 0.733967416212774,
+    "w1": 2.71732947819772,
+    "m1": -12.030375837758799,
+    "ytd": 55.36398803426026,
+    "spark": [
+     101.41,
+     103.66,
+     101.79,
+     97.15,
+     99.47,
+     103.27,
+     101.76,
+     99.9,
+     102.78,
+     102,
+     104.12,
+     96.46,
+     96.09,
+     88.12,
+     90.52,
+     90.83,
+     86.85,
+     86.04,
+     86.53,
+     88.74,
+     88.56,
+     89.21
+    ]
+   },
+   {
+    "symbol": "HG=F",
+    "label": "Copper",
+    "unit": "$/lb",
+    "price": 6.014999866485596,
+    "asOf": "2026-11-16",
+    "d1": -1.0609479360822536,
+    "w1": -4.953779532673199,
+    "m1": -7.900784872047603,
+    "ytd": 6.838361353797411,
+    "spark": [
+     6.531,
+     6.538,
+     6.5665,
+     6.543,
+     6.3625,
+     6.476,
+     6.508,
+     6.622,
+     6.6415,
+     6.581,
+     6.4585,
+     6.5435,
+     6.3785,
+     6.403,
+     6.249,
+     6.218,
+     6.3285,
+     6.2195,
+     6.2745,
+     6.1825,
+     6.0795,
+     6.015
+    ]
+   },
+   {
+    "symbol": "NG=F",
+    "label": "US natural gas",
+    "unit": "$/MMBtu",
+    "price": 3.1419999599456787,
+    "asOf": "2026-11-16",
+    "d1": -2.7244600188284243,
+    "w1": -2.3617146282174097,
+    "m1": 0.8344038322650278,
+    "ytd": -14.758549450023464,
+    "spark": [
+     3.116,
+     3.058,
+     2.963,
+     2.79,
+     2.796,
+     2.64,
+     2.602,
+     2.697,
+     2.817,
+     2.952,
+     2.898,
+     2.856,
+     2.895,
+     2.959,
+     2.947,
+     2.998,
+     3.218,
+     3.296,
+     3.215,
+     3.34,
+     3.23,
+     3.142
+    ]
+   }
+  ],
+  "rates_fx": [
+   {
+    "symbol": "GBPUSD=X",
+    "label": "GBP/USD",
+    "price": 1.3203237056732178,
+    "asOf": "2026-11-16",
+    "d1": -0.21258149069763396,
+    "w1": -1.1764061357352436,
+    "m1": -0.526811884140364,
+    "ytd": -1.9600244452029476,
+    "spark": [
+     1.3273,
+     1.3336,
+     1.3308,
+     1.3373,
+     1.3396,
+     1.3404,
+     1.3378,
+     1.3345,
+     1.3306,
+     1.3328,
+     1.3379,
+     1.3386,
+     1.341,
+     1.3434,
+     1.3477,
+     1.3456,
+     1.336,
+     1.3442,
+     1.3349,
+     1.3277,
+     1.3231,
+     1.3203
+    ]
+   },
+   {
+    "symbol": "EURUSD=X",
+    "label": "EUR/USD",
+    "price": 1.1016855239868164,
+    "asOf": "2026-11-16",
+    "d1": -0.3018687989436426,
+    "w1": -1.1699907624991257,
+    "m1": -1.7505870816209566,
+    "ytd": -6.217918333063909,
+    "spark": [
+     1.1213,
+     1.1225,
+     1.1216,
+     1.1227,
+     1.1235,
+     1.1221,
+     1.1218,
+     1.1174,
+     1.113,
+     1.1156,
+     1.1183,
+     1.1157,
+     1.1192,
+     1.1207,
+     1.1235,
+     1.1228,
+     1.1147,
+     1.1222,
+     1.1169,
+     1.1095,
+     1.105,
+     1.1017
+    ]
+   },
+   {
+    "symbol": "^TNX",
+    "label": "US 10Y yield",
+    "unit": "%",
+    "price": 5.1539998054504395,
+    "asOf": "2026-11-13",
+    "d1": 0.999405051520931,
+    "w1": 6.071199566793608,
+    "m1": 1.2772563864927564,
+    "ytd": 23.80494050474409,
+    "spark": [
+     5.089,
+     5.098,
+     5.136,
+     5.117,
+     5.146,
+     4.953,
+     4.988,
+     4.986,
+     4.993,
+     5.045,
+     4.989,
+     4.929,
+     4.894,
+     4.952,
+     4.894,
+     4.837,
+     4.859,
+     4.864,
+     4.983,
+     4.998,
+     5.103,
+     5.154
+    ]
+   }
+  ],
+  "movers": {
+   "sp500": {
+    "gainers": [
+     {
+      "ticker": "CHTR",
+      "name": "Charter Communications",
+      "price": 138.39,
+      "d1": 4.319312528267744,
+      "shariah": false
+     },
+     {
+      "ticker": "STE",
+      "name": "Steris",
+      "price": 264.32,
+      "d1": 4.2929292929292915,
+      "shariah": true
+     },
+     {
+      "ticker": "GPN",
+      "name": "Global Payments",
+      "price": 91.9,
+      "d1": 4.20682617076767,
+      "shariah": false
+     },
+     {
+      "ticker": "FIS",
+      "name": "Fidelity National Information Services",
+      "price": 29.54,
+      "d1": 4.160789844851903,
+      "shariah": false
+     },
+     {
+      "ticker": "FOXA",
+      "name": "Fox Corporation (Class A)",
+      "price": 68.42,
+      "d1": 4.124182011870352,
+      "shariah": false
+     }
+    ],
+    "losers": [
+     {
+      "ticker": "AMD",
+      "name": "Advanced Micro Devices",
+      "price": 534.06,
+      "d1": -8.75448487954895,
+      "shariah": true
+     },
+     {
+      "ticker": "DELL",
+      "name": "Dell Technologies",
+      "price": 344.53,
+      "d1": -7.177304200231712,
+      "shariah": false
+     },
+     {
+      "ticker": "CSCO",
+      "name": "Cisco",
+      "price": 95.64,
+      "d1": -6.244485834722091,
+      "shariah": true
+     },
+     {
+      "ticker": "COHR",
+      "name": "Coherent Corp.",
+      "price": 218.15,
+      "d1": -6.002240606687352,
+      "shariah": true
+     },
+     {
+      "ticker": "SNDK",
+      "name": "Sandisk",
+      "price": 885.01,
+      "d1": -5.594905382629664,
+      "shariah": true
+     }
+    ],
+    "coverage": 503
+   },
+   "ftse100": {
+    "gainers": [
+     {
+      "ticker": "CNA",
+      "name": "Centrica",
+      "price": 160.65,
+      "d1": 3.8126009693053344
+     },
+     {
+      "ticker": "AV",
+      "name": "Aviva",
+      "price": 764.8,
+      "d1": 3.4072471606273567
+     },
+     {
+      "ticker": "ABF",
+      "name": "Associated British Foods",
+      "price": 2053,
+      "d1": 2.3429710867397806
+     },
+     {
+      "ticker": "AUTO",
+      "name": "Autotrader Group",
+      "price": 576.8,
+      "d1": 1.9081272084805572
+     },
+     {
+      "ticker": "CTEC",
+      "name": "Convatec",
+      "price": 258.2,
+      "d1": 1.8942383583267492
+     }
+    ],
+    "losers": [
+     {
+      "ticker": "PCT",
+      "name": "Polar Capital Technology Trust",
+      "price": 571.5,
+      "d1": -3.38123415046492
+     },
+     {
+      "ticker": "III",
+      "name": "3i",
+      "price": 2645,
+      "d1": -2.3985239852398523
+     },
+     {
+      "ticker": "ANTO",
+      "name": "Antofagasta plc",
+      "price": 3145,
+      "d1": -2.2381100404103202
+     },
+     {
+      "ticker": "CCC",
+      "name": "Computacenter",
+      "price": 4878,
+      "d1": -1.9300361881785282
+     },
+     {
+      "ticker": "WEIR",
+      "name": "Weir",
+      "price": 2348,
+      "d1": -1.675041876046901
+     }
+    ],
+    "coverage": 100
+   },
+   "shariahListAvailable": true
+  },
+  "stories": [
+   {
+    "category": "markets",
+    "headline": "Tech sold off as Nvidia turmoil unsettles AI trade",
+    "summary": "Stocks fell in Asia and the US as investors worried about fallout from Nvidia chief Jensen Huang's resignation ahead of Tuesday's earnings and the Anthropic IPO. The outcome matters because so much of the AI-driven market rally depends on Nvidia.",
+    "sources": [
+     {
+      "source": "CNBC",
+      "title": "Tech world's calls for Jensen Huang to return to Nvidia are growing",
+      "link": "https://www.cnbc.com/2026/11/16/nvidia-jensen-huang-return-tech.html"
+     },
+     {
+      "source": "MarketWatch",
+      "title": "Nvidia is gearing up for one of Wall Street’s most anticipated earnings calls in years",
+      "link": "https://www.marketwatch.com/story/nvidia-is-gearing-up-for-one-of-wall-streets-most-anticipated-earnings-calls-in-years-91855b1e?mod=mw_rss_topstories"
+     },
+     {
+      "source": "Yahoo Finance",
+      "title": "Stocks decline in Asia as investor concerns over Nvidia fallout extend into another week",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPUzlZUzFxVm9xVVBYc2hULWVhMDJuUGpHRlBpMTJyNnhhZFJZb3hLbFhLeTRwZEhyTDJGc1pZa1BPYUJvclR0U1hySVdXRjctWVFIY0FIOGdhM3ppVEVWWVpYajlKTVZaR19TenVnYlB1SnhMcEtBaVVCNFR2NFVUTk5jRTQtRzhOSEVreWNFRzk2ZFN5alYtb0lHN3QyTUhiT0IyYw?oc=5"
+     },
+     {
+      "source": "Bloomberg.com",
+      "title": "Asian Stocks Brace for AI Pressure, Data Dump: Markets Wrap",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOU3BQd2lUam5YX1RGekdqV203U1BmRzNUQnlhem10ajRycVpfTUYzRWtOM2h1ZDd5M2tvUnNXeG1VOHRGTEl4VkJsSUhuQk41UlcyNU1EZDJaSTNTd2NvM3lDUDV5NU95SUtxSHZaZEpjSnMxRGgtamUtb0lYWUtHMTFZZDBLblVaeXhVTEhSa2ZPeF9y?oc=5"
+     },
+     {
+      "source": "Reuters",
+      "title": "Asian shares fall before Nvidia earnings, Anthropic IPO test tech rally",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPa3g3MVMxZ2lSN1ZpTmpaWkdYR25ZdDZ4M3BELXQ3ZC1PZDhtNTVjYmpQdHlJZUFtLWxiUkFLbXhUVHM0OHNScEUyTWFHUU5MMmZYb0EyVW51dXd1OWJFak1NbVFwazhlVzBIcHB3TENzRG1IZ2FvVFlpS0xubFBadXlPYw?oc=5"
+     },
+     {
+      "source": "Euronews.com",
+      "title": "Stocks extend losses as traders anticipate Nvidia earnings",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOaTlsV21JaXVTcVJBczlFbG00TEg1Um52MDJ1TUhfbW9DU1BGT2VhYWZZQlM0UHlrMnd2LUlPbTBwazBGR2hCU09iamtMcFNmenpKZGVXWU9RU2pocXNMRElWR3pDUUxQQWFPMVI3bVBNN0JvUXB2aGpIWFlyQks1djFCQk5zZG14OUtTTUc1Uk1CQ2tSVnhMb2F6Xy14eUVDWnRvcnEyX1RiMkE?oc=5"
+     },
+     {
+      "source": "Euronews",
+      "title": "Stocks extend losses as traders await Nvidia earnings and Anthropic IPO",
+      "link": "https://www.euronews.com/2026/11/16/stocks-extend-losses-as-traders-await-nvidia-earnings-and-anthropic-ipo"
+     },
+     {
+      "source": "FT",
+      "title": "Jensen Huang discusses comeback as Nvidia CEO with allies",
+      "link": "https://www.ft.com/content/45383d86-33c4-4d99-86e5-5e058d3567c1?syn-25a6b1a6=1"
+     },
+     {
+      "source": "The Verge AI",
+      "title": "Jensen Huang might be plotting a return and more of the latest Nvidia drama",
+      "link": "https://www.theverge.com/tech/1033999/jensen-huang-return-nvidia-megaspeed"
+     },
+     {
+      "source": "TechCrunch AI",
+      "title": "Is bad news for Jensen Huang also bad news for the AI industry?",
+      "link": "https://techcrunch.com/2026/11/15/is-bad-news-for-jensen-huang-also-bad-news-for-the-ai-industry/"
+     },
+     {
+      "source": "The National",
+      "title": "Nvidia earnings and Anthropic IPO lead crucial week for AI bulls",
+      "link": "https://www.thenationalnews.com/business/markets/2026/11/16/nvidia-earnings-anthropic-ipo/"
+     },
+     {
+      "source": "Finimize",
+      "title": "Asia’s AI Supply Chain Stocks Took A Hit Before Nvidia’s Earnings",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNVk9Dc1VjSGpRcFJTbU1JTnY2YmpwMXQ2TG53UVd6VG8yOWJ5M2drY1Jzd29ZdVF5SXlqSkVsdzNnR19YUERabDRaOFdIOC05RVRRdUh6ZEdNUkNZdm85b2ZqeVVNS2Rtam9HNnpzNTJOZERsTHFfemhzem5EUTMwTTEwdTJhRW9aSC0zY3dndmdmVEdVMklj?oc=5"
+     }
+    ]
+   },
+   {
+    "category": "economy",
+    "headline": "Japan contracts and China slows, clouding Asia's outlook",
+    "summary": "Japan's economy unexpectedly shrank in the third quarter as higher energy costs and weak spending bit, while China's October output, retail sales and investment all missed forecasts. The data raises doubts over global growth and complicates central bank plans.",
+    "sources": [
+     {
+      "source": "CNBC Economy",
+      "title": "Japan's economy unexpectedly contracts in third-quarter as elevated energy costs bite",
+      "link": "https://www.cnbc.com/2026/11/16/japan-q3-gdp-energy-oil-prices.html"
+     },
+     {
+      "source": "FT",
+      "title": "Japan’s economy contracts for the first time in a year",
+      "link": "https://www.ft.com/content/4eb7ff18-1ba3-4944-ad48-bdc9e5ddc84e?syn-25a6b1a6=1"
+     },
+     {
+      "source": "CNBC",
+      "title": "China’s slowdown deepens in October as industrial output, retail sales, investment miss estimates",
+      "link": "https://www.cnbc.com/2026/11/16/china-retail-sales-october-industrial-output-investment.html"
+     }
+    ]
+   },
+   {
+    "category": "companies",
+    "headline": "Anthropic IPO lands as a test for the AI trade",
+    "summary": "Anthropic's flotation is reportedly oversubscribed seven times and is seen as a much-needed bright spot for an AI trade under pressure. It matters because the year's biggest IPOs have lost investors money on average.",
+    "sources": [
+     {
+      "source": "CNBC",
+      "title": "Anthropic’s IPO lands as the embattled AI trade looks for a much-needed bright spot",
+      "link": "https://www.cnbc.com/2026/11/15/anthropic-ipo-is-make-or-break-for-the-technology-industry.html"
+     },
+     {
+      "source": "Yahoo Finance",
+      "title": "Anthropic IPO Reportedly Oversubscribed 7 Times – But Will The AI Euphoria Survive The Stock Market Debut?",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQckw3X3Rrb0lZaUgyX3ljNzhPQW1PdUFhR3k2c2txMjdGNHBzQ1JoTXk5NlZLU2xKWlNrU2U0SkZKZzJRNnFycWtjdnVmWmdwTW9adlBubnhvS3Y3VTFsSkY3bzFVRDd1eTZ2ME03RXZNTXRNcHFlbl9GaEFST2VXZ2xkcnkxSXhTUEo3dGZYQngySHpFWkREZ3NPclEwYl9IY1pGNlR4dDJGdw?oc=5"
+     },
+     {
+      "source": "The Economist",
+      "title": "Anthropic’s giant IPO puts the heat on OpenAI",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNRTd6eHRac3JHWEQ5TElWUXZZUWRsMHdXckRQbjJ6X3ZvOFUtVHZDcjFBVWVqOE9LVnNPS3NWeDROZUtsRFdEdklzRzctYlpWbWszbElsMU94VWxtUm5OZ1ozdUxWWnVGRlpGM3ozYWxISG5fS1Y5QlB1bVQ0Z09sVGphWmgzMlpKMWduNkZYX0N1b1Br?oc=5"
+     },
+     {
+      "source": "Asia Times",
+      "title": "Anthropic IPO: the age of miracles, priced at $78 a share",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNX01aN0Vqc2Iwc1F5UlFFQTh6RkFXUS0wSjVkY1o3dmZyOG82MjhUZXJGa2RSMktDaGxUT0JiaTQtWUg3bUx3eXdzeTRZeFpjaXBIS1NiMmxRZVFMa0EzaUhiMkxhbG42bDBGMXl6VlJIZkpwUHpEODBrT1h3V3ZzSXQ4UmZIeW5oZ3FZUEV3?oc=5"
+     },
+     {
+      "source": "FT",
+      "title": "Biggest IPOs this year lose investors money as AI frenzy fades",
+      "link": "https://www.ft.com/content/7974acec-e378-4298-a1a7-2b16b00d8b32?syn-25a6b1a6=1"
+     },
+     {
+      "source": "KuCoin",
+      "title": "Anthropic's IPO Falls Short of 'Largest in History' Amid Shifting Market Conditions",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQa0tpTDBBdGNFcGJaWHNCTzlwY0dLaE96YUhiVkpraXJEZktXTjZRaU9rQ1YzWjN1WGl5ZHcxUUhKaGMzU3I1bmZEcmNwbjVJcFp1Mk1MbVlfV2xHTXRCMnhYaGlNb2NpdXJSYWR2cnY3U09ZRTdOcUx2Q09hNGdMeldGRElUXzFVWHNvcW93RWEyTjRMY0NjS3VUVkVuRnRYVmFxQW1ZNS1Ud1Et?oc=5"
+     },
+     {
+      "source": "The Conversation",
+      "title": "Anthropic’s trillion-dollar IPO is open to Australians. There’s a catch for small investors",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQWlpFRjlPc245WVF2Y2dZajdoZjlTVkowQ3dyWTMyejd2NHFSNWpDQzNGcDdSUnFlX2tQOXI2SU9wYmFsWHg2YW0xMWQtVU5ablhiTUFINDJSTGVEZ25KT2hob1BLZGhGWV9ibndrMUQ1bFdoZmxMYjhhRTZfTHhxRGdJdE1EdkY2SFdSNC0xdHNvNzI0UTFVcGw3OXVuTnh4UXZQYl9pUWV0Sy1KRFMwMEhkT1JBNUJmLU5qbTFBSUk?oc=5"
+     },
+     {
+      "source": "ETF Stream",
+      "title": "Leverage Shares lists 3x Anthropic ETP after FCA naming query delays debut",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOVlRaRkJlVkhsTTYwWHdycGJzd0NNVW1id1pmekVJbU8yRGFJQ3VyYW1PMkE3cWhoS3dFQzMtc1lQM0tVNzhTdExVN3pXa3F5NU1FQ1lmaEtmYXVjTTIxU2dtNXZnNi0xbVZnOVdfYVoyenlLMXFyVFh0dVVfTnRsRUpJQkNnbFBkUFpyVTRrSGluem9teFpCSmd3Ynd3N2RkcGN0RHNTdHJpSGlGeXc?oc=5"
+     }
+    ]
+   }
+  ],
+  "calendar": [
+   {
+    "when": "Today",
+    "event": "Five EU countries could announce a pilot return hub for migrants in Rwanda"
+   },
+   {
+    "when": "Today",
+    "event": "EU foreign ministers meet in Brussels, with Ukraine, Gaza and Iran on the agenda"
+   },
+   {
+    "when": "Today",
+    "event": "Hungarian central bank rate decision in focus"
+   }
+  ]
+ },
+ "world": {
+  "us": [
+   {
+    "category": "political",
+    "headline": "Vance's call to end Iran war exposes rift with Trump",
+    "summary": "Vice President Vance has called for an end to the Iran war, opening a visible rift with President Trump. It matters as the conflict escalates and Republicans debate direction after midterm losses.",
+    "sources": [
+     {
+      "source": "NPR Politics",
+      "title": "In calling for an end to the Iran War, Vance walks a fine line with Trump",
+      "link": "https://www.npr.org/2026/11/15/nx-s1-6040447/in-calling-for-an-end-to-the-iran-war-vance-walks-a-fine-line-with-trump"
+     },
+     {
+      "source": "Politico",
+      "title": "Poll: Republicans have a MAGA dilemma after their midterm losses",
+      "link": "https://www.politico.com/news/2026/11/15/tpp-trump-coalition-maga-breaks-01164574"
+     }
+    ]
+   },
+   {
+    "category": "financial",
+    "headline": "Trump seeks $50bn to fix air traffic control after grounding",
+    "summary": "The administration is pressing for $50bn to overhaul ageing air traffic control after a four-hour nationwide ground stop on Friday, blamed on old telecoms equipment rather than a cyber-attack. Democrats want transparency before more money is spent, and disruption lingered into Monday.",
+    "sources": [
+     {
+      "source": "BBC",
+      "title": "Copper wire upgrade behind US flight suspension, transport secretary says",
+      "link": "https://www.bbc.co.uk/news/articles/c6wy9lynq4qno?at_medium=RSS&at_campaign=rss"
+     },
+     {
+      "source": "NPR",
+      "title": "Flight disruptions expected to last into Monday",
+      "link": "https://www.npr.org/2026/11/15/nx-s1-6041683/flight-disruptions-expected-to-last-into-monday"
+     },
+     {
+      "source": "NPR Politics",
+      "title": "Politics chat: Duffy calls for more funding, Democrats plans for accountability",
+      "link": "https://www.npr.org/2026/11/15/nx-s1-6040041/politics-chat-duffy-calls-for-more-funding-democrats-plans-for-accountability"
+     },
+     {
+      "source": "Guardian",
+      "title": "Transportation secretary Sean Duffy blames prior presidents and Congress for flight stoppage",
+      "link": "https://www.theguardian.com/us-news/2026/nov/15/transportation-secretary-sean-duffy-faa-flight-stoppag"
+     },
+     {
+      "source": "Euronews",
+      "title": "Trump administration presses for $50bn to fix air traffic control after nationwide grounding",
+      "link": "https://www.euronews.com/2026/11/16/trump-presses-for-50bn-to-fix-air-traffic-control-after-nationwide-grounding"
+     },
+     {
+      "source": "Al Jazeera",
+      "title": "After a nationwide ground stop, US faces aviation infrastructure questions",
+      "link": "https://www.aljazeera.com/news/2026/11/16/after-a-nationwide-ground-stop-us-faces-aviation-infrastructure-questions?traffic_source=rss"
+     },
+     {
+      "source": "CNBC",
+      "title": "Trump breaks silence about FAA nationwide ground stop, blames Biden administration",
+      "link": "https://www.cnbc.com/2026/11/15/trump-breaks-silence-on-faa-nationwide-ground-stop-blames-biden-.html"
+     }
+    ]
+   },
+   {
+    "category": "notable",
+    "headline": "Tanker's steering failed before New Orleans cruise ship collision",
+    "summary": "The NTSB says the tanker suffered a steering casualty about two minutes before hitting a docked cruise ship, and New Orleans port has sued for at least $1m. No one was killed.",
+    "sources": [
+     {
+      "source": "BBC",
+      "title": "Steering failure preceded New Orleans cruise ship collision, says NTSB",
+      "link": "https://www.bbc.co.uk/news/articles/c65y131w1534o?at_medium=RSS&at_campaign=rss"
+     },
+     {
+      "source": "NPR",
+      "title": "New Orleans port sues owners of tanker involved in Mississippi crash",
+      "link": "https://www.npr.org/2026/11/15/nx-s1-6041677/new-orleans-port-sues-miracle-mississippi-cruise-ship"
+     },
+     {
+      "source": "Guardian",
+      "title": "US officials recover audio from ‘Mississippi miracle’ cruise ship and tanker crash",
+      "link": "https://www.theguardian.com/us-news/2026/nov/15/audio-new-orleans-mississippi-river-cruise-tanker-crash"
+     }
+    ]
+   }
+  ],
+  "uk": [
+   {
+    "category": "political",
+    "headline": "Burnham to say 'Brexit hasn't worked' ahead of EU summit",
+    "summary": "The prime minister will say the Brexit deal has not worked and set conditions for a reset before Friday's UK-EU summit. A minister says Britain would have a voice but no vote on EU food rules.",
+    "sources": [
+     {
+      "source": "Sky News",
+      "title": "PM to say 'Brexit hasn't worked' and set out conditions for future EU deal in major speech",
+      "link": "https://news.sky.com/story/pm-to-say-brexit-hasnt-worked-and-set-out-conditions-for-future-eu-deal-in-major-speech-13612600"
+     },
+     {
+      "source": "BBC",
+      "title": "UK will have 'voice' but no vote on EU food rules in Brexit reset",
+      "link": "https://www.bbc.co.uk/news/articles/c6wy4l8nl42wo?at_medium=RSS&at_campaign=rss"
+     },
+     {
+      "source": "Politico Europe",
+      "title": "The City of London isn’t up for more Brexit trauma",
+      "link": "https://www.politico.eu/article/the-city-of-london-isnt-up-for-more-brexit-trauma/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication"
+     },
+     {
+      "source": "Guardian Politics",
+      "title": "Pasta, pies and paperwork errors: the reality of Brexit food checks",
+      "link": "https://www.theguardian.com/politics/2026/nov/15/drivers-delays-brexit-food-checks"
+     }
+    ]
+   },
+   {
+    "category": "financial",
+    "headline": "Milburn review urges action on youth jobs crisis",
+    "summary": "The Milburn report is expected to propose gradually cutting employer National Insurance for under-25s and a benefits backstop. Burnham promises a root-and-branch rethink of support for young people.",
+    "sources": [
+     {
+      "source": "BBC",
+      "title": "Cut National Insurance for under-25s to create jobs, Milburn report to say",
+      "link": "https://www.bbc.co.uk/news/articles/c6p9dzmj514ko?at_medium=RSS&at_campaign=rss"
+     },
+     {
+      "source": "Guardian",
+      "title": "Burnham pledges early intervention and ‘benefits backstop’ to tackle youth jobs crisis",
+      "link": "https://www.theguardian.com/society/2026/nov/15/no-free-lunch-milburn-mcfadden-kuenssberg-uk-benefits-youth-unemployment-neet"
+     },
+     {
+      "source": "Sky Politics",
+      "title": "Minister says 'fundamental reset' of system needed as NEETs review looms",
+      "link": "https://news.sky.com/story/minister-says-fundamental-reset-of-system-needed-as-neets-review-looms-13612451"
+     },
+     {
+      "source": "Sky News",
+      "title": "'I'm applying for 8-9 jobs a week and getting nothing back': Young people on struggle to find work",
+      "link": "https://news.sky.com/story/im-applying-for-8-9-jobs-a-week-and-getting-nothing-back-young-people-on-struggle-to-find-work-13612667"
+     },
+     {
+      "source": "Guardian Business",
+      "title": "‘I’m scared about my future’: young people on the stress and desperation of jobseeking",
+      "link": "https://www.theguardian.com/business/2026/nov/15/young-people-stress-seeking-a-job-mental-physical-health"
+     }
+    ]
+   },
+   {
+    "category": "notable",
+    "headline": "Peers warn UK emergency planning is underprepared",
+    "summary": "A Lords committee says the government is complacent about catastrophic risks such as war, power cuts and cyber-attacks. It calls for more preparation, including paid time off for crisis training.",
+    "sources": [
+     {
+      "source": "BBC",
+      "title": "Workers should get paid time off to train for crises, say peers",
+      "link": "https://www.bbc.co.uk/news/articles/cq8j4yn1vjymo?at_medium=RSS&at_campaign=rss"
+     },
+     {
+      "source": "Sky News",
+      "title": "Government accused of 'complacency' over 'catastrophic' security risks to UK",
+      "link": "https://news.sky.com/story/government-accused-of-complacency-over-catastrophic-security-risks-to-uk-13612651"
+     },
+     {
+      "source": "The National",
+      "title": "UK national emergency planning 'out of date, underfunded and untested'",
+      "link": "https://www.thenationalnews.com/news/uk/2026/11/16/uk-national-emergency-planning-out-of-date-underfunded-and-untested/"
+     }
+    ]
+   }
+  ],
+  "europe": [
+   {
+    "category": "political",
+    "headline": "Estonia to close Russia border after drone-maker sabotage",
+    "summary": "Estonia will close all border crossings with Russia from 1 December after a suspected sabotage attack on drone maker Threod Systems, which it says Russian military intelligence ordered. It is a sharp escalation in hybrid-warfare tensions.",
+    "sources": [
+     {
+      "source": "Guardian",
+      "title": "Estonia to close all border crossings with Russia after attack on drone maker",
+      "link": "https://www.theguardian.com/world/2026/nov/15/estonia-to-close-all-border-crossings-with-russia-after-attack-on-drone-maker"
+     },
+     {
+      "source": "France24",
+      "title": "Estonia to close Russian border crossings after 'sabotage' attempt at drone factory",
+      "link": "https://www.france24.com/en/europe/20261115-estonia-to-close-russian-border-crossings-after-sabotage-attempt-at-drone-factory"
+     },
+     {
+      "source": "DW",
+      "title": "Estonia closes border to Russia after suspected drone factory arson",
+      "link": "https://www.dw.com/en/estonia-closes-border-to-russia-after-suspected-drone-factory-arson/a-79953115?maca=en-rss-en-all-1573-rdf"
+     },
+     {
+      "source": "Euronews",
+      "title": "Estonia to close Russia border after 'sabotage' bid on drone maker, foreign minister says",
+      "link": "https://www.euronews.com/2026/11/16/estonia-to-close-russia-border-after-sabotage-bid-on-drone-maker-foreign-minister-says"
+     },
+     {
+      "source": "Arab News",
+      "title": "Estonia to close Russian border crossings after attempted arson attack",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQQ2ZXYWhpMzhOR0xINV9lWXoxRmpjdklVa05UWGtyUFFpYVl5ZU9iSF9qQWVGSEJ0LTlrYlpHRGtXc0ZRV0xXWTB1MlFZVmhfYS1ZbEtYYVgzcmNYQS13OTRNenhrZUdWZXVtSFhWM0I5UmdDY0IwaW1QVUJsaU1GbVd2T2M0TEVWVzdXRVF6QkhfSHliRElDdDNqbnh0ZkZYMlJQLTl5UHk4bnVMZ2c?oc=5"
+     },
+     {
+      "source": "FT",
+      "title": "Estonia to close border with Russia after second alleged sabotage attempt",
+      "link": "https://www.ft.com/content/4dbb2c30-1649-4d0f-b1b6-3ca91c64e250?syn-25a6b1a6=1"
+     }
+    ]
+   },
+   {
+    "category": "financial",
+    "headline": "Brussels to propose €45bn Ukraine loan",
+    "summary": "The European Commission will present a plan on Wednesday for a €45bn loan borrowed against the EU budget to bridge Kyiv's funding gap next year.",
+    "sources": [
+     {
+      "source": "FT",
+      "title": "Brussels to propose €45bn Ukraine loan borrowed against EU budget",
+      "link": "https://www.ft.com/content/2c9de06b-aa86-4275-b9f3-1276f8c20994?syn-25a6b1a6=1"
+     }
+    ]
+   },
+   {
+    "category": "notable",
+    "headline": "Hundreds of thousands rally in Prague over public media",
+    "summary": "An estimated 350,000 Czechs protested against plans to scrap licence fees and fund public broadcasters from the state budget. Critics say it threatens media independence.",
+    "sources": [
+     {
+      "source": "Guardian",
+      "title": "Hundreds of thousands of Czechs protest in Prague over media freedom",
+      "link": "https://www.theguardian.com/world/2026/nov/15/czechia-protest-prague-media-freedom"
+     },
+     {
+      "source": "BBC",
+      "title": "Czechs rally against plan to switch funding of public media",
+      "link": "https://www.bbc.co.uk/news/articles/cm8e0knr7604o?at_medium=RSS&at_campaign=rss"
+     },
+     {
+      "source": "France24",
+      "title": "Hundreds of thousands of Czechs protest in Prague over public media funding plan",
+      "link": "https://www.france24.com/en/europe/20261116-czechs-protest-prague-public-media-funding-plan"
+     },
+     {
+      "source": "DW",
+      "title": "Czechia: Scores protest against public media reform",
+      "link": "https://www.dw.com/en/czechia-scores-protest-against-public-media-reform/a-79953057?maca=en-rss-en-all-1573-rdf"
+     },
+     {
+      "source": "Al Jazeera",
+      "title": "Czechs rally against gov’t threat to media independence",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/16/czechs-rally-against-govt-threat-to-media-independence?traffic_source=rss"
+     }
+    ]
+   }
+  ],
+  "middle_east": [
+   {
+    "category": "political",
+    "headline": "Iran strikes US base in Bahrain with drones",
+    "summary": "Iran launched its second drone attack in three days on a US base in Bahrain, which says its air defences destroyed several drones. Saudi Arabia, Qatar, Jordan and Egypt condemned it, and a third US carrier has reached the region.",
+    "sources": [
+     {
+      "source": "Guardian",
+      "title": "Iran launches drone attacks against US military base in Bahrain",
+      "link": "https://www.theguardian.com/world/2026/nov/15/iran-launches-drone-attacks-against-us-military-base-in-bahrain"
+     },
+     {
+      "source": "France24",
+      "title": "Iran claims drone attack on US military base in Bahrain",
+      "link": "https://www.france24.com/en/iran-claims-drone-attack-on-us-military-base-in-bahrain"
+     },
+     {
+      "source": "Arab News",
+      "title": "Blasts, sirens in Bahrain as Iran announces attack on US base",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOZU9yaEp1dDRQdlBVRllpVEx0eHJvaVBkMW9RR3ZtV3I3b1N2SUtiNlRyTlV0b3h1R2NLcXZNdDFpRzJjdnN2Z0ZhcHJLcmdwM0RycjdXeVJocTU1NXVDWld2dk9UbDhmYVM0Vm54M2ZUY1Ixa0pYTFFVYVRhUnl3YWJkM042NjFPX3Zybkt0UGN6aFhDTmdkWVpWYmNoSDkwWXZSVkdaSVc?oc=5"
+     },
+     {
+      "source": "BBC",
+      "title": "Iran Targets Bahrain as it Resumes Attacks on US Allies",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPUFExWDdiZkQtcEgtd1VoeEV6NUFUbVpXN2YzWTlwU3ZvQ2syaEtnSk1mZVQzcFZpT1Qyb2JlTXlSc0FLMVFFWjVncjFUR0Rjc1cwcmlrdXRCb3l3MGhoWERoYmRDR1Ezck1hVFotNk1OZ3RtRE9MT1FGSkNNTDhRb1BVa2U4ZkNuUzByY0ZaNnNZakg3UGQ5VDZmMUk4RUthNGtxNg?oc=5"
+     },
+     {
+      "source": "thenationalnews.com",
+      "title": "Middle East latest: Bahrain says it intercepted Iranian aerial attacks after nationwide alert",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQRWFZVVhzUDVtSFIwNTY3QjZWN2NIRzJXVmdMWEc4ZEtKQlpQb1NBZ2VnUGxtaFZtc1IyLUZ0ZGFXZUtaUEVsd1lSNG1vSmF0Sy1KRndMcDdSYTdYaWI0ZXowSEwzLUhRN0ZKTVlhZ2ZiT2M1RTRwMEF4dEJQVGY4aExtUnF5T1RQLTlOMHdsLTVUblN2QUN1SXhmZ3hjZWV1?oc=5"
+     },
+     {
+      "source": "The Washington Post",
+      "title": "Iran targets Bahrain twice after months of quiet, claiming retaliation against U.S.",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNcDJzX3ZZUmk0ZHJvY3hHNFpBbDRfQlBpT25MWEZNNGY1QUsxWnlRVkl2WXNFN3puTS1ra2pHc2ZkeDI5WUxZcm9yZ1JheGRQYXlGM0VfMVRmY01UdmVDc1R1UDYyUk9MWGpKTzQ0bzFKOGJQS3VhMDhJdzkyaDQwanNLTFMzVU5vRVdUbVRudjQtQ0NCZXdleUJOeWwxaEVXQ3c0TEs1dkNZSTY4RnAxc1I3c1JhY3dNNy1JRFR4cmJnWHNl?oc=5"
+     },
+     {
+      "source": "The National",
+      "title": "Third US aircraft carrier reaches Middle East, death sentences over Jordan attacks and Lebanon-Qatar gas talks",
+      "link": "https://www.thenationalnews.com/podcasts/trending-middle-east/2026/11/16/third-us-aircraft-carrier-reaches-middle-east-death-sentences-over-jordan-attacks-and-lebanon-qatar-gas-talks/"
+     }
+    ]
+   },
+   {
+    "category": "financial",
+    "headline": "Oil eases on supply glut fears despite Hormuz risks",
+    "summary": "Oil fell further at the start of the week on signs of oversupply, even as tanker attacks in the Strait of Hormuz continue and an Iranian supertanker was reported sunk. Diesel prices have also eased as Gulf exports recover.",
+    "sources": [
+     {
+      "source": "OilPrice",
+      "title": "Oil Prices Fall as Fears of a Global Supply Glut Return",
+      "link": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Fall-as-Fears-of-a-Global-Supply-Glut-Return.html"
+     },
+     {
+      "source": "France24",
+      "title": "Global diesel prices ease as winter approaches",
+      "link": "https://www.france24.com/en/global-diesel-prices-ease-as-winter-approaches"
+     },
+     {
+      "source": "Arab News",
+      "title": "Iran says supertanker with 2 million barrels of oil sank in Gulf",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOeUY0ektjWVZqdUZvX0kxLXU2UzNmVFRZNXZzYmR1SW1jUEg1WTV5dDNnVVk1bWc1ejZZSTdETlJPNlhmcks5NEtvY21SLXpsR2ZqWFpMQzlNMlJ5YXFVR0hYd29ldFhkZW0yMVJxdEdVc0wyd0p5QnQ5YmZ0cllGQVUwU2FRLUo0NEZJbm80UFdtb3gzSmkzWEQyd0c0UTRPcWdCS0g3YzRhRzRTWWc?oc=5"
+     },
+     {
+      "source": "The Telegraph",
+      "title": "Oil supertanker ‘sinks after hitting mine’ in Strait of Hormuz",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOUmpReEpXNS0wU1l5SlZqc3J1ZGQtRUF0WF9XeHgxUURQVk9VeVhtbFB5dy11VUtSaU9pZGktZmNQeEZ1cFE1eTR0NHZJaDhPT2ZZSjg4ay1PVVIwRGV4bDNjOFRWQ29qNzNlZmp1djBhUHdBUnQ3bUh1WVlHUm5iUUpCSzkxdHlUZjdvU0ZOU2JpamhOQnc?oc=5"
+     },
+     {
+      "source": "Українські Національні Новини (УНН)",
+      "title": "How oil prices changed after Iran's attack on Bahrain",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPTF83ZVlUa0hxOTRLU0FCZ2lpX1E5Ui15RHFJYjZGRE40c1l2c1NmV3JvOThkV3RFTWFlY2M2SURXMlE0WlgwaDJfLURHRHhFczNZenMwcVIzY3c5aDJqR3EwUFdqUWVmWFZqbzZldHpUWW9zYTV5YUl3QTB1RXJQRdIBf0FVX3lxTE5LR0hPWVR2dmdlRGQybjhLb2d5SV9RRlRYZHkwZFVBRGNUSXNGNERBdHF0XzVBOTB5TDI5Ynl4V2NJOENsRjhfRkVnWk1aYy1iWFhTZ2x4MF9nUWhKZEp2ZXNUSWpmaWZsOGtyMFkxcnUyN2RSalBVQWtiUVVUam8?oc=5"
+     }
+    ]
+   },
+   {
+    "category": "notable",
+    "headline": "Houthis advance towards Aden as Saudi-backed forces retreat",
+    "summary": "Houthi forces have come within about 60km of Aden, and Saudi-backed forces have pulled back from the Red Sea. The Houthis now threaten the government's last strongholds and control over a key strait.",
+    "sources": [
+     {
+      "source": "Al Jazeera",
+      "title": "Houthis advance in Yemen as government forces move to defend Aden",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/16/houthis-advance-in-yemen-as-government-forces-move-to-defend-aden?traffic_source=rss"
+     },
+     {
+      "source": "France24",
+      "title": "Yemen's Houthis advance on Aden as government forces retreat to defend their capital",
+      "link": "https://www.france24.com/en/middle-east/20261115-yemen-houthis-advance-to-within-60-kilometres-of-aden-military-sources-say"
+     },
+     {
+      "source": "DW",
+      "title": "Yemen: Anti-Houthi forces pull back as rebels advance",
+      "link": "https://www.dw.com/en/yemen-anti-houthi-forces-pull-back-as-rebels-advance/a-79953692?maca=en-rss-en-all-1573-rdf"
+     },
+     {
+      "source": "Arab News",
+      "title": "Yemen’s southern forces redeploy troops to bolster Aden’s defenses",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNUER5U2dVQUVoeUZrNGFaNmhHeGVyUXppVjNhejQyakpKdWR2VmNCN3NLaWNfUHV6QUVndmlsZTZJalZob25GUkhPUkxER1RSRkNXRlNrRi1Ob3VMODBzQWFUcUE3T1BONjFaQ0ZFVUVFT2tOSVNWMFJwa3ZmQnY4aVlzZ3NPYmtkV2lzRWxVdFBiNEN5VTBObU9wWXVsR2tZTVo0RzNyeVhVT1Y4SHc?oc=5"
+     },
+     {
+      "source": "Financial Times",
+      "title": "Saudi-backed Yemeni forces retreat from Red Sea in win for Houthis",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNc2ZhbkloS1VjeGxGQUFobEtNWlU2Sk5CYWV0cndHckx0VXRSdlFHYV82OFZIbDFYdEl0WnNrY3pZLWZteWw5bnJ3dUNkMU9YSVB6emdsa19FMm5xdkxNcEhGczZuWDBKblZlazhLRmU2QktBUl9aQnBjSURsckFmclVaUEw?oc=5"
+     },
+     {
+      "source": "The New York Times",
+      "title": "Saudi-Backed Forces Retreat in Yemen, Leaving Key Strait in Houthi Control",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNY1IwcVF0czdZWmVxeGJhcTV1ZW50R25FMzB5V2pwQTZCVnZVVFA0MGNvdzY1NWlHNkxod3hVZ2xWcUlLWkRvbmhodTJGSVM3cGNQbmRXYlJKX3RndWwzUTVuU1B3UHNzYWxxeE9oemUxZFE0b1pJN1VaeEZIRGVrMmQ4OThwV2ZaRk1jbQ?oc=5"
+     },
+     {
+      "source": "Nacionale",
+      "title": "Iran's drones targeted Bahrain on Sunday; the missiles fired at Riyadh came from Yemen's Houthis",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNQjNZNmtJUXUyZFZGY1lxUHJuZi1UNVZyY3AyMGpPUm5vVzQ5WE1pRnVOekNKUXFrWW9sQVJDcDZBb0dLa2M1Vl94VkVMYlNJNE40dE9odXJPanVyQVltQ2F5RzRxcUhBTHJpV3VONU5TWjRTb1hxZ3ZVdks1UXMwSXVKbDJyNkJPS1dsLUVoTUg2UFFQUnRIMkRwTjJMczhNRW9vUkJ5MkREcXJORzVmT2paekhsVHN0QWc?oc=5"
+     }
+    ]
+   }
+  ]
+ },
+ "energyTech": {
+  "energy": [
+   {
+    "category": "energy",
+    "headline": "National Grid stresses resilience against cyber and sabotage threats",
+    "summary": "National Grid's chief executive says keeping Britain's lights on means countering sabotage and cyber-attacks while expanding the network. It plans new infrastructure such as the Aberthaw substation.",
+    "sources": [
+     {
+      "source": "Financial Times",
+      "title": "National Grid CEO on keeping Britain’s lights on amid sabotage and cyber attacks",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOYl9LOVAyamg0bTBaTlZweE94M05RYldOMnp1UDR5WnFGejVJVlU1dDB1NkxFQ1hrTGxUa0FtbnFIYVhiR3hSRmpueklxQkE4OThiRE5VeTI0Q3FFdjdjY3o5MUw4TGhpMkRlMFNmclo3aktfS3dVSGNEUEZyTTVhN2N1Wl8?oc=5"
+     },
+     {
+      "source": "Traders Union",
+      "title": "National Grid pushes grid resilience and expansion as cyber and sabotage risks rise",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOek9IUnZPZ0dKV0kxNUc2OWV6T092aEY0aWY3blVyVGt3TzhZQWN5S21FSmJzVXUxRVBOUENoYlB2MGQ0S1ZOZk45Mkwwa0gzektmRGx6RWpFOGZldlgyQ09JYUxoeXlHOExucEdjeVRERHRXazczNHNTM05DRV9sbXV2S2lseVRsYUZ4cFFZZVZkVGpWWk9jYi1B?oc=5"
+     },
+     {
+      "source": "Herald.Wales",
+      "title": "National Grid unveils new plans for green Aberthaw substation",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNVlNONy1MUnpERkctSUNkWHZ6blUtZmZERGlFUHJNMnJ2V1k3WF9paWdCYmEtamZ2aHllZzd0WGlkOFlQTGpmY2x4NlRqZ1dtbk12VEhheS1jVDM2ZUtRWkFONU1VR1A3d1R5eTYyRXlpOGpYaWF5Q3piZ0dTekN6dGM5YkVyN2F5ZllfaGJyTVo2cDU2elRkQTdCVkw5bXR4YmZmakZuQTduRHRrV05fdWRMbw?oc=5"
+     }
+    ]
+   },
+   {
+    "category": "energy",
+    "headline": "SSE wins consent for Berwick Bank cable; Britain to spend £4bn on grid bottlenecks",
+    "summary": "SSE secured consent for the Berwick Bank C cable, while Britain plans to spend about £4bn easing grid constraints that waste wind power. Both matter for moving Scottish renewables to demand.",
+    "sources": [
+     {
+      "source": "Ocean Energy Resources",
+      "title": "SSE secures Berwick Bank C cable consent",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPV05aSmtCNHRPc2lKeUZadDktOHFsODZtd1h4clJjYmI2VEFadC0wVmc1MXRsUno5ZW1kRDBxYjBObEJITm43MzZIYm5JN3FKYktmakEzOXdwcGN6MmJOdDhJczRsYkc2cEs2R1hsNjRjUU5TeE9TdjRnLVlLR3FpY3JpbmRwV1Iyc21WajNOZw?oc=5"
+     },
+     {
+      "source": "Cryptonews.net",
+      "title": "Britain to spend £4 billion on grid bottlenecks. Can Bitcoin use the wasted wind?",
+      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5kdWRoQk83SWZTN0tiNDljYjVEc2dyZ2JvUUM1cGNLbmFQd0thWFJPU05tOVdockFHM01KOF9WX1lCblNRVDBmZjZIUzkyakFoVnFrRmN3Zw?oc=5"
+     }
+    ]
+   },
+   {
+    "category": "energy",
+    "headline": "Jackdaw gas flows as Labour MPs oppose Rosebank",
+    "summary": "Gas has begun flowing from the Jackdaw field after government approval, while up to 100 Labour MPs may sign a letter opposing the Rosebank oilfield. It shows the tension in UK North Sea policy.",
+    "sources": [
+     {
+      "source": "BBC",
+      "title": "Gas starts flowing from Jackdaw after government green light",
+      "link": "https://www.bbc.co.uk/news/articles/c9x2elzm047po?at_medium=RSS&at_campaign=rss"
+     },
+     {
+      "source": "Guardian",
+      "title": "Labour rebellion over Rosebank oilfield expected to top 100 MPs",
+      "link": "https://www.theguardian.com/business/2026/nov/15/rosebank-oilfield-mps-rebellion"
+     }
+    ]
+   }
+  ],
+  "ai": [
+   {
+    "category": "ai",
+    "headline": "Nvidia in turmoil as Huang resigns and may seek return",
+    "summary": "Jensen Huang resigned as Nvidia CEO after an affair with a suspected Chinese spy, and allies are lobbying the board to reinstate him. Treasury Secretary Bessent wants an external CEO, and Congress is looking to tighten AI chip export rules.",
+    "sources": [
+     {
+      "source": "Guardian Business",
+      "title": "‘Jensen Huang lost his mind’: how AI’s smartest man fell for the world’s oldest trick",
+      "link": "https://www.theguardian.com/technology/2026/nov/14/jensen-huang-affair-nvidia-nightmare"
+     },
+     {
+      "source": "FT",
+      "title": "Jensen Huang discusses comeback as Nvidia CEO with allies",
+      "link": "https://www.ft.com/content/45383d86-33c4-4d99-86e5-5e058d3567c1?syn-25a6b1a6=1"
+     },
+     {
+      "source": "The Verge AI",
+      "title": "Congress wants to tighten export rules on AI chips after Nvidia spy scandal",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1033984/congress-export-rules-ai-chips-china"
+     },
+     {
+      "source": "BBC Business",
+      "title": "Suspected China spy linked to Nvidia's ex-boss left in 2025, Megaspeed says",
+      "link": "https://www.bbc.co.uk/news/articles/cmdx1vpprk9vo?at_medium=RSS&at_campaign=rss"
+     },
+     {
+      "source": "Al Jazeera",
+      "title": "Megaspeed, firm at centre of Nvidia scandal, says Alice Huang left in 2025",
+      "link": "https://www.aljazeera.com/news/2026/11/16/megaspeed-firm-at-centre-of-nvidia-scandal-says-alice-huang-left-in-2025?traffic_source=rss"
+     },
+     {
+      "source": "CNBC",
+      "title": "Lutnick faces questions over Nvidia spy scandal. His sons' firm has ties to the chipmaker",
+      "link": "https://www.cnbc.com/2026/11/13/howard-lutnick-nvidia-jensen-huang-china-cantor-fitzgerald.html"
+     },
+     {
+      "source": "MarketWatch",
+      "title": "A big chunk of your 401(k) is likely invested in Nvidia",
+      "link": "https://www.marketwatch.com/story/the-scandal-at-nvidia-is-exactly-whats-wrong-with-the-s-p-500-7307457e?mod=mw_rss_topstories"
+     },
+     {
+      "source": "Financial Times",
+      "title": "Jensen Huang’s fall hits ‘open’ models in boost to Anthropic and OpenAI",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNdVhYSlplNHZVVUFRTlRWc1BIbWFqTFFSWkRLR1NfMUhhazRKRjhLYjM4emVsYU9IRzBKMVlaUlVLZzRsRW40NkZwY3dhNjFwVjVsd29GVGNlcnVPanlOVUw4RWZBdjVWZ0JOb2pBQTJrb3VMZkRSS0tfNUkwN3ZrSThSdDg?oc=5"
+     }
+    ]
+   },
+   {
+    "category": "ai",
+    "headline": "Anthropic IPO priced at $78 a share",
+    "summary": "Anthropic's IPO is reportedly oversubscribed seven times, though it falls short of the largest ever. It puts pressure on OpenAI.",
+    "sources": [
+     {
+      "source": "Yahoo Finance",
+      "title": "Anthropic IPO Reportedly Oversubscribed 7 Times – But Will The AI Euphoria Survive The Stock Market Debut?",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQckw3X3Rrb0lZaUgyX3ljNzhPQW1PdUFhR3k2c2txMjdGNHBzQ1JoTXk5NlZLU2xKWlNrU2U0SkZKZzJRNnFycWtjdnVmWmdwTW9adlBubnhvS3Y3VTFsSkY3bzFVRDd1eTZ2ME03RXZNTXRNcHFlbl9GaEFST2VXZ2xkcnkxSXhTUEo3dGZYQngySHpFWkREZ3NPclEwYl9IY1pGNlR4dDJGdw?oc=5"
+     },
+     {
+      "source": "The Economist",
+      "title": "Anthropic’s giant IPO puts the heat on OpenAI",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNRTd6eHRac3JHWEQ5TElWUXZZUWRsMHdXckRQbjJ6X3ZvOFUtVHZDcjFBVWVqOE9LVnNPS3NWeDROZUtsRFdEdklzRzctYlpWbWszbElsMU94VWxtUm5OZ1ozdUxWWnVGRlpGM3ozYWxISG5fS1Y5QlB1bVQ0Z09sVGphWmgzMlpKMWduNkZYX0N1b1Br?oc=5"
+     },
+     {
+      "source": "Asia Times",
+      "title": "Anthropic IPO: the age of miracles, priced at $78 a share",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNX01aN0Vqc2Iwc1F5UlFFQTh6RkFXUS0wSjVkY1o3dmZyOG82MjhUZXJGa2RSMktDaGxUT0JiaTQtWUg3bUx3eXdzeTRZeFpjaXBIS1NiMmxRZVFMa0EzaUhiMkxhbG42bDBGMXl6VlJIZkpwUHpEODBrT1h3V3ZzSXQ4UmZIeW5oZ3FZUEV3?oc=5"
+     },
+     {
+      "source": "KuCoin",
+      "title": "Anthropic's IPO Falls Short of 'Largest in History' Amid Shifting Market Conditions",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQa0tpTDBBdGNFcGJaWHNCTzlwY0dLaE96YUhiVkpraXJEZktXTjZRaU9rQ1YzWjN1WGl5ZHcxUUhKaGMzU3I1bmZEcmNwbjVJcFp1Mk1MbVlfV2xHTXRCMnhYaGlNb2NpdXJSYWR2cnY3U09ZRTdOcUx2Q09hNGdMeldGRElUXzFVWHNvcW93RWEyTjRMY0NjS3VUVkVuRnRYVmFxQW1ZNS1Ud1Et?oc=5"
+     },
+     {
+      "source": "Bloomberg.com",
+      "title": "Anthropic News: Latest Updates on the AI Company Behind Claude - Bloomberg",
+      "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5RWXl0T0lpR1J0WE1VZ050anMwUlhTeUEzVGtGcDhYUTNKUnpsMDlkZHV2ZEpGanBNc0Vxb3VueVBYQ19pc2xlWTVvdw?oc=5"
+     }
+    ]
+   },
+   {
+    "category": "ai",
+    "headline": "US and allies sign pact to protect AI supply chains from China",
+    "summary": "The accord comes before Trump meets Xi at the APEC forum in Shenzhen. It is part of a week of diplomacy that may also involve Putin.",
+    "sources": [
+     {
+      "source": "FT",
+      "title": "US and allies sign accord to protect AI supply chains from China",
+      "link": "https://www.ft.com/content/3c2197fc-9618-4838-91e6-522ce1a96a22?syn-25a6b1a6=1"
+     },
+     {
+      "source": "CNBC",
+      "title": "China confirms Xi-Trump-Putin historic summit. What will be on the agenda?",
+      "link": "https://www.cnbc.com/2026/11/16/trump-xi-putin-ukraine-nuclear-tariffs-russia-iran-.html"
+     }
+    ]
+   }
+  ],
+  "tech": [
+   {
+    "category": "tech",
+    "headline": "Vulcan rocket fails, destroying 40 Amazon Leo satellites",
+    "summary": "ULA's Vulcan suffered an anomaly about ten minutes after launch, the first total mission failure in the company's history. It is a blow to a SpaceX rival and to Amazon's broadband network plans.",
+    "sources": [
+     {
+      "source": "DW",
+      "title": "Rocket from Boeing-Lockheed firm fails mid-flight, destroys payload of Amazon satellites",
+      "link": "https://www.dw.com/en/rocket-from-boeing-lockheed-firm-fails-mid-flight-destroys-payload-of-amazon-satellites/a-79953931?maca=en-rss-en-all-1573-rdf"
+     },
+     {
+      "source": "The Verge",
+      "title": "Vulcan rocket fails, destroying 40 Amazon Leo satellites",
+      "link": "https://www.theverge.com/science/1034006/vulcan-rocket-fails-destroying-40-amazon-leo-satellites"
+     },
+     {
+      "source": "Ars Technica",
+      "title": "Vulcan rocket fails during launch, dealing major blow to SpaceX competitors",
+      "link": "https://arstechnica.com/space/2026/11/vulcan-rocket-fails-during-launch-dealing-major-blow-to-spacex-competitors/"
+     }
+    ]
+   },
+   {
+    "category": "tech",
+    "headline": "Zelensky presses Musk to lift Starlink restrictions",
+    "summary": "Ukraine's president says throttled satellite internet is hampering efforts to intercept Russian attacks on energy and railways. He urged the US and Musk to lift the limits.",
+    "sources": [
+     {
+      "source": "BBC",
+      "title": "Zelensky urges US and Musk to lift Starlink restrictions and be on 'right side of history'",
+      "link": "https://www.bbc.co.uk/news/articles/c6m25zg88k45o?at_medium=RSS&at_campaign=rss"
+     },
+     {
+      "source": "Guardian",
+      "title": "Ukraine war briefing: Energy attacks made possible by continuing Starshield restrictions, says Zelenskyy",
+      "link": "https://www.theguardian.com/world/2026/nov/16/ukraine-war-briefing-energy-attacks-made-possible-by-continuing-starshield-restrictions-says-zelenskyy"
+     },
+     {
+      "source": "DW",
+      "title": "Zelenskyy urges removal of Starshield limits on Ukraine",
+      "link": "https://www.dw.com/en/zelenskyy-urges-removal-of-starshield-limits-on-ukraine/a-79953300?maca=en-rss-en-all-1573-rdf"
+     }
+    ]
+   },
+   {
+    "category": "tech",
+    "headline": "South Korean exam topper admits AI cheating",
+    "summary": "Han Won-seok confessed to using a hidden camera and AI to score near-perfect in a tax accountancy exam. Seoul has promised a crackdown ahead of the university entrance test.",
+    "sources": [
+     {
+      "source": "BBC Tech",
+      "title": "South Korea's top scorer in tax accountancy exam admits cheating",
+      "link": "https://www.bbc.co.uk/news/articles/ckvg2ezvpe08o?at_medium=RSS&at_campaign=rss"
+     },
+     {
+      "source": "FT",
+      "title": "Accounting student’s AI cheating sparks South Korean exam furore",
+      "link": "https://www.ft.com/content/5cf11f3d-0d22-4eb5-8279-7533e161e4d0?syn-25a6b1a6=1"
+     }
+    ]
+   }
+  ]
+ },
+ "stats": {
+  "headlines": 348,
+  "feeds": 45,
+  "feedsFailed": 0
+ }
+}
