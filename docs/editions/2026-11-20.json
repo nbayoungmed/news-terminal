@@ -1,0 +1,1394 @@
+{
+ "date": "2026-11-20",
+ "dateLabel": "Friday, 20 November 2026",
+ "generatedAt": "2026-11-20T13:01:01.184Z",
+ "mode": "ai",
+ "model": "claude-sonnet-5-5",
+ "error": null,
+ "headlineOfDay": "Anthropic's record IPO fails to stop a global tech sell-off as the UK and EU agree a Brexit reset, though tuition fees remain unresolved.",
+ "markets": {
+  "summary": "Global equities fell sharply: the S&P 500 lost 2.0%, the Nasdaq 2.3%, the Euro Stoxx 50 2.3% and the FTSE 100 0.9%. Anthropic's record IPO failed to ease fears over AI spending and the Nvidia turmoil, and US indexes are on course for their worst week since April 2025. Gold, silver, copper and Brent also fell, while US natural gas jumped 10%.",
+  "indices": [
+   {
+    "symbol": "^GSPC",
+    "label": "S&P 500",
+    "price": 7175.830078125,
+    "asOf": "2026-11-19",
+    "d1": -2.0181222570294652,
+    "w1": -5.486668636752869,
+    "m1": -7.494225981960742,
+    "ytd": 4.825506947995033,
+    "spark": [
+     7757.1699,
+     7663.4302,
+     7623.6802,
+     7676.77,
+     7722.6001,
+     7743.98,
+     7720.3901,
+     7580.0698,
+     7541.3999,
+     7568.9199,
+     7688.6201,
+     7353.73,
+     7376.8599,
+     7549.9399,
+     7520.9302,
+     7619.3799,
+     7592.3999,
+     7561.6699,
+     7416.5898,
+     7340.5298,
+     7323.6299,
+     7175.8301
+    ]
+   },
+   {
+    "symbol": "SPUS",
+    "label": "S&P 500 Shariah",
+    "sub": "via SPUS ETF",
+    "price": 54.11000061035156,
+    "asOf": "2026-11-19",
+    "d1": -2.0987874756732814,
+    "w1": -6.0590242295536525,
+    "m1": -9.48477464825402,
+    "ytd": 5.952615887396291,
+    "spark": [
+     59.78,
+     58.81,
+     58.66,
+     59.3,
+     59.87,
+     60.11,
+     59.77,
+     58.42,
+     57.61,
+     57.95,
+     58.66,
+     55.41,
+     55.72,
+     57.19,
+     56.69,
+     57.74,
+     57.6,
+     57.04,
+     55.78,
+     55.32,
+     55.27,
+     54.11
+    ]
+   },
+   {
+    "symbol": "^IXIC",
+    "label": "Nasdaq",
+    "price": 23879.19921875,
+    "asOf": "2026-11-19",
+    "d1": -2.2541315031165006,
+    "w1": -5.8617257691624784,
+    "m1": -10.574373764981864,
+    "ytd": 2.7416283112991127,
+    "spark": [
+     26702.8594,
+     26008.8594,
+     25955.3398,
+     26169.3809,
+     26477.8105,
+     26549.8496,
+     26184.7207,
+     25437,
+     25164.3105,
+     25372.0098,
+     25736.5098,
+     24315,
+     24579.4297,
+     25253.1406,
+     25065.8691,
+     25466.1895,
+     25366.0898,
+     25136.2695,
+     24509.7598,
+     24328.3809,
+     24429.8809,
+     23879.1992
+    ]
+   },
+   {
+    "symbol": "^DJI",
+    "label": "Dow Jones",
+    "price": 49097.05859375,
+    "asOf": "2026-11-19",
+    "d1": -2.1935326330048746,
+    "w1": -6.118947076330356,
+    "m1": -7.111822424080598,
+    "ytd": 2.1508505793386683,
+    "spark": [
+     52856.0898,
+     52867.9805,
+     52215.1602,
+     52361.5781,
+     52377.5703,
+     52475.1016,
+     52342.5586,
+     51770.3086,
+     51983.9805,
+     51786.7188,
+     53356.1211,
+     51523.0586,
+     51285.7305,
+     52389.75,
+     52231.8906,
+     52486.4883,
+     52297.0898,
+     52347.5508,
+     51608.1719,
+     50759.4219,
+     50198.1719,
+     49097.0586
+    ]
+   },
+   {
+    "symbol": "^FTSE",
+    "label": "FTSE 100",
+    "price": 10355.900390625,
+    "asOf": "2026-11-20",
+    "d1": -0.9260746302750531,
+    "w1": -5.014393248743177,
+    "m1": -3.441488199300699,
+    "ytd": 4.2743216797574455,
+    "spark": [
+     10725,
+     10690.4004,
+     10767.2998,
+     10686.5,
+     10694.5,
+     10722.0996,
+     10729.7998,
+     10761.2998,
+     10638.4004,
+     10829.2002,
+     10782.7002,
+     10673.9004,
+     10782.9004,
+     10751.5996,
+     10835.5,
+     10863.0996,
+     10902.5996,
+     10881.5996,
+     10689.9004,
+     10551.2002,
+     10452.7002,
+     10355.9004
+    ]
+   },
+   {
+    "symbol": "^STOXX50E",
+    "label": "Euro Stoxx 50",
+    "price": 5970.64013671875,
+    "asOf": "2026-11-20",
+    "d1": -2.342541860055578,
+    "w1": -6.5168131988521045,
+    "m1": -1.9117700379490263,
+    "ytd": 3.0092010898468233,
+    "spark": [
+     6087.0098,
+     6068.2202,
+     6116.23,
+     6164.6899,
+     6167.8101,
+     6207.0698,
+     6131.3101,
+     6176.0601,
+     6144.5601,
+     6265.71,
+     6231.54,
+     6170.4902,
+     6290.4502,
+     6327.8701,
+     6393.3901,
+     6398.98,
+     6386.8599,
+     6348.3501,
+     6212.1099,
+     6154.3901,
+     6113.8599,
+     5970.6401
+    ]
+   },
+   {
+    "symbol": "^TASI.SR",
+    "label": "Tadawul (Saudi)",
+    "price": 10158.9,
+    "asOf": "2026-11-19",
+    "d1": -0.40450345876927635,
+    "w1": null,
+    "m1": null,
+    "ytd": null,
+    "spark": []
+   }
+  ],
+  "commodities": [
+   {
+    "symbol": "GC=F",
+    "label": "Gold",
+    "unit": "$/oz",
+    "price": 3567.5,
+    "asOf": "2026-11-20",
+    "d1": -3.2017365350698683,
+    "w1": -8.203176410021557,
+    "m1": -12.13919599542985,
+    "ytd": -17.820369958156803,
+    "spark": [
+     4060.3999,
+     4007.8999,
+     4038.3999,
+     4074.6001,
+     4051.6001,
+     4031.3999,
+     3898.8999,
+     3969.6001,
+     3940.3999,
+     4073,
+     4113.5,
+     4074.8999,
+     4114.5,
+     4030.2,
+     4000.5,
+     3885.3,
+     3886.3,
+     3853,
+     3864.2,
+     3741.8999,
+     3685.5,
+     3567.5
+    ],
+    "note": "Gold extended its slide in the broad risk-off session."
+   },
+   {
+    "symbol": "SI=F",
+    "label": "Silver",
+    "unit": "$/oz",
+    "price": 42.119998931884766,
+    "asOf": "2026-11-20",
+    "d1": -4.95961420240051,
+    "w1": -14.095163361103888,
+    "m1": -23.08816196985606,
+    "ytd": -39.943540481021486,
+    "spark": [
+     54.764,
+     53.711,
+     54.108,
+     54.293,
+     53.457,
+     52.191,
+     49.097,
+     50.72,
+     49.587,
+     52.12,
+     52.233,
+     51.803,
+     52.564,
+     51.101,
+     51.881,
+     49.972,
+     49.031,
+     46.785,
+     47.288,
+     44.999,
+     44.318,
+     42.12
+    ]
+   },
+   {
+    "symbol": "BZ=F",
+    "label": "Brent crude",
+    "unit": "$/bbl",
+    "price": 89.61000061035156,
+    "asOf": "2026-11-20",
+    "d1": -2.576649989221137,
+    "w1": -6.500413152745516,
+    "m1": -20.818236228494335,
+    "ytd": 47.26376804834566,
+    "spark": [
+     113.17,
+     116.72,
+     115.81,
+     113.88,
+     115.32,
+     114.88,
+     117.64,
+     104.77,
+     103.6,
+     94.62,
+     98.29,
+     98.32,
+     92.57,
+     91.49,
+     92.76,
+     95.82,
+     95.84,
+     92.44,
+     93.14,
+     91.95,
+     91.98,
+     89.61
+    ],
+    "note": "Brent fell despite fresh Houthi attacks on Saudi targets, amid expectations of oversupply as Gulf exports recover."
+   },
+   {
+    "symbol": "CL=F",
+    "label": "WTI crude",
+    "unit": "$/bbl",
+    "price": 82.58999633789062,
+    "asOf": "2026-11-20",
+    "d1": -0.7451060610547783,
+    "w1": -6.741193976155212,
+    "m1": -16.969945386206742,
+    "ytd": 43.83489894041499,
+    "spark": [
+     99.47,
+     103.27,
+     101.76,
+     99.9,
+     102.78,
+     102,
+     104.12,
+     96.46,
+     96.09,
+     88.12,
+     90.52,
+     90.83,
+     86.85,
+     86.04,
+     86.53,
+     88.74,
+     88.56,
+     85.72,
+     86.01,
+     83.26,
+     83.21,
+     82.59
+    ]
+   },
+   {
+    "symbol": "HG=F",
+    "label": "Copper",
+    "unit": "$/lb",
+    "price": 5.525000095367432,
+    "asOf": "2026-11-20",
+    "d1": -1.7777760823567708,
+    "w1": -9.120817253135698,
+    "m1": -13.163065937302568,
+    "ytd": -1.865009181867721,
+    "spark": [
+     6.3625,
+     6.476,
+     6.508,
+     6.622,
+     6.6415,
+     6.581,
+     6.4585,
+     6.5435,
+     6.3785,
+     6.403,
+     6.249,
+     6.218,
+     6.3285,
+     6.2195,
+     6.2745,
+     6.1825,
+     6.0795,
+     5.9975,
+     5.976,
+     5.6595,
+     5.625,
+     5.525
+    ]
+   },
+   {
+    "symbol": "NG=F",
+    "label": "US natural gas",
+    "unit": "$/MMBtu",
+    "price": 3.5989999771118164,
+    "asOf": "2026-11-20",
+    "d1": 10.128522063750708,
+    "w1": 11.424147240227459,
+    "m1": 28.71959843353195,
+    "ytd": -2.3602856495111157,
+    "spark": [
+     2.796,
+     2.64,
+     2.602,
+     2.697,
+     2.817,
+     2.952,
+     2.898,
+     2.856,
+     2.895,
+     2.959,
+     2.947,
+     2.998,
+     3.218,
+     3.296,
+     3.215,
+     3.34,
+     3.23,
+     3.122,
+     3.208,
+     3.372,
+     3.268,
+     3.599
+    ]
+   }
+  ],
+  "rates_fx": [
+   {
+    "symbol": "GBPUSD=X",
+    "label": "GBP/USD",
+    "price": 1.311475396156311,
+    "asOf": "2026-11-20",
+    "d1": -0.2426232362278194,
+    "w1": -0.8813189836847873,
+    "m1": -2.0970446111541237,
+    "ytd": -2.61705123720203,
+    "spark": [
+     1.3396,
+     1.3404,
+     1.3378,
+     1.3345,
+     1.3306,
+     1.3328,
+     1.3379,
+     1.3386,
+     1.341,
+     1.3434,
+     1.3477,
+     1.3456,
+     1.336,
+     1.3442,
+     1.3349,
+     1.3277,
+     1.3231,
+     1.3216,
+     1.3185,
+     1.3205,
+     1.3147,
+     1.3115
+    ]
+   },
+   {
+    "symbol": "EURUSD=X",
+    "label": "EUR/USD",
+    "price": 1.098659634590149,
+    "asOf": "2026-11-20",
+    "d1": 0.1329314786304635,
+    "w1": -0.575699680352637,
+    "m1": -2.208302477955227,
+    "ytd": -6.475500193163562,
+    "spark": [
+     1.1235,
+     1.1221,
+     1.1218,
+     1.1174,
+     1.113,
+     1.1156,
+     1.1183,
+     1.1157,
+     1.1192,
+     1.1207,
+     1.1235,
+     1.1228,
+     1.1147,
+     1.1222,
+     1.1169,
+     1.1095,
+     1.105,
+     1.1025,
+     1.0998,
+     1.0993,
+     1.0972,
+     1.0987
+    ]
+   },
+   {
+    "symbol": "^TNX",
+    "label": "US 10Y yield",
+    "unit": "%",
+    "price": 5.052000045776367,
+    "asOf": "2026-11-19",
+    "d1": -0.2763509476314954,
+    "w1": -0.9994143957722122,
+    "m1": -1.8266588484892063,
+    "ytd": 21.354790203109943,
+    "spark": [
+     5.146,
+     4.953,
+     4.988,
+     4.986,
+     4.993,
+     5.045,
+     4.989,
+     4.929,
+     4.894,
+     4.952,
+     4.894,
+     4.837,
+     4.859,
+     4.864,
+     4.983,
+     4.998,
+     5.103,
+     5.154,
+     5.121,
+     5.103,
+     5.066,
+     5.052
+    ]
+   }
+  ],
+  "movers": {
+   "sp500": {
+    "gainers": [
+     {
+      "ticker": "PANW",
+      "name": "Palo Alto Networks",
+      "price": 361.73,
+      "d1": 6.416215580136503,
+      "shariah": true
+     },
+     {
+      "ticker": "OKTA",
+      "name": "Okta, Inc.",
+      "price": 206.85,
+      "d1": 5.746127498594132,
+      "shariah": true
+     },
+     {
+      "ticker": "P",
+      "name": "Everpure",
+      "price": 105.5,
+      "d1": 4.725034742902526,
+      "shariah": true
+     },
+     {
+      "ticker": "WDC",
+      "name": "Western Digital",
+      "price": 296.78,
+      "d1": 2.980672473021262,
+      "shariah": false
+     },
+     {
+      "ticker": "CRWD",
+      "name": "CrowdStrike",
+      "price": 243.46,
+      "d1": 2.712736784373289,
+      "shariah": true
+     }
+    ],
+    "losers": [
+     {
+      "ticker": "WSM",
+      "name": "Williams-Sonoma, Inc.",
+      "price": 220.66,
+      "d1": -15.160136875696868,
+      "shariah": true
+     },
+     {
+      "ticker": "TWLO",
+      "name": "Twilio",
+      "price": 178.78,
+      "d1": -8.75312611647017,
+      "shariah": true
+     },
+     {
+      "ticker": "SKYD",
+      "name": "Skydance",
+      "price": 6.34,
+      "d1": -8.381502890173412,
+      "shariah": false
+     },
+     {
+      "ticker": "AMD",
+      "name": "Advanced Micro Devices",
+      "price": 489.19,
+      "d1": -7.724374693477193,
+      "shariah": true,
+      "note": "Fell sharply amid the broad AI and chip sell-off."
+     },
+     {
+      "ticker": "FISV",
+      "name": "Fiserv",
+      "price": 56.62,
+      "d1": -6.382275132275132,
+      "shariah": false
+     }
+    ],
+    "coverage": 503
+   },
+   "ftse100": {
+    "gainers": [
+     {
+      "ticker": "ULVR",
+      "name": "Unilever",
+      "price": 4857.5,
+      "d1": 1.536371237458194
+     },
+     {
+      "ticker": "RKT",
+      "name": "Reckitt",
+      "price": 5651.057,
+      "d1": 1.4188262742282804
+     },
+     {
+      "ticker": "CCEP",
+      "name": "Coca-Cola Europacific Partners",
+      "price": 8800,
+      "d1": 1.2658227848101267
+     },
+     {
+      "ticker": "HLN",
+      "name": "Haleon",
+      "price": 345.9,
+      "d1": 1.16993272886809
+     },
+     {
+      "ticker": "ADM",
+      "name": "Admiral Group",
+      "price": 3916,
+      "d1": 1.1363636363636365
+     }
+    ],
+    "losers": [
+     {
+      "ticker": "PCT",
+      "name": "Polar Capital Technology Trust",
+      "price": 529,
+      "d1": -5.78806767586821
+     },
+     {
+      "ticker": "ITH",
+      "name": "Ithaca Energy",
+      "price": 232.6,
+      "d1": -4.9836601307189605
+     },
+     {
+      "ticker": "HLMA",
+      "name": "Halma plc",
+      "price": 3324,
+      "d1": -4.865483686319404
+     },
+     {
+      "ticker": "STAN",
+      "name": "Standard Chartered",
+      "price": 1938.5,
+      "d1": -4.460325283390833
+     },
+     {
+      "ticker": "BGEO",
+      "name": "Lion Finance Group",
+      "price": 12382.043,
+      "d1": -4.237873163186391
+     }
+    ],
+    "coverage": 100
+   },
+   "shariahListAvailable": true
+  },
+  "stories": [
+   {
+    "category": "markets",
+    "headline": "Anthropic soars on debut but AI sell-off deepens",
+    "summary": "Anthropic shares closed up 17% on their first day after a record IPO, yet the wider market fell sharply as AI bubble fears persisted. Weakness in tech and the Nvidia crisis dragged global stocks lower.",
+    "sources": [
+     {
+      "source": "CNBC",
+      "title": "Anthropic defies the odds, holding record IPO despite ‘massively disruptive’ market",
+      "link": "https://www.cnbc.com/2026/11/20/anthropic-defies-odds-holding-ipo-despite-massively-disruptive-market.html"
+     },
+     {
+      "source": "MarketWatch",
+      "title": "Anthropic’s stock surges in its debut — and the rest of the market dives anyway",
+      "link": "https://www.marketwatch.com/story/anthropics-stock-surges-in-its-debut-and-the-rest-of-the-market-dives-anyway-19671218?mod=mw_rss_topstories"
+     },
+     {
+      "source": "The Guardian",
+      "title": "Global stock markets slump as Anthropic IPO fails to stem AI sell-off",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOam9yUlhjeXdQYldnSlpuMlRsWjJsLXFYUGxaM3ZVc21qbTEyUG9Ja2x1aVpZRDU4amVMaTFsZVh0dWlYLXRWV1BJbGtoTkdfUjFkVlhvTnduWGFIY1VKcGNTRWRjTTNlQ1c5Z0FrazRudjFKOFVMYXVhMGNjYmVrMEpFSnpJa09jTHNDX0xrdG95NHl3ckRDc0RLZW9SQXNnSWdF?oc=5"
+     },
+     {
+      "source": "FT",
+      "title": "Anthropic shares slide as fears over AI boom dominate",
+      "link": "https://www.ft.com/content/c7ad2e0c-efd1-40c2-a5a8-819ced8acf5b?syn-25a6b1a6=1"
+     },
+     {
+      "source": "Al Jazeera",
+      "title": "Asia’s stock markets dive as Anthropic debut fails to allay AI bubble fears",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQOTlLRHZDNTRIaV9TZFlkd3VqNHZUTHZ2OVI1N01jdlM1ZnF2RWdFT25RV2dKN0l5THVNQndQTzhrVlpRUmNrRjh4MloxWHo5OXRwTzBJQy1vLVRDUU5yMFpEblRycUYyZnI3MFJEaHBrU1Awa3JTdDlha2tYd0FlbU5FOVI2SW5Nb3hISDg2R0d5RTVXTHctZmhWcEdjU2ptVzdPMUVtLW8yR1l2YjV3UV9GcXBZdGxaR3FF0gHAAUFVX3lxTE9qaEdWMGtKak9xeE5PSTJIeklFdG11ZmIySmR4UHFMV3pENnRvSnp5LVozRThVaE52SDA2Q1VnXzBrYUFjXzFFZmJmLVBFTkxudDFXQ2MxVTNiRlNHTWxabEw3NXRLMlN0VWY5U3I3YXhRZ0tUU2FRdGR0MGxTSW4tMlY1QXVTX0xoYnFRVERZaUY4U0d5RWQyZW9ITlNDY0xOanllVFhpTEgtSmVQa3JHTDNpQWNidGVQUjVJcWxKVg?oc=5"
+     },
+     {
+      "source": "Bloomberg.com",
+      "title": "Emerging-Market Stocks Set for Bear Market on AI-Led Tech Slide",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNRmlSZDA3dEs3UFFwUXMwMnpNbndUTTRVazNPVlVIZG9oeGYyVjRyN2I4S1NLVGdDV2pXdl9WZE9BRVJEQ2MzT1FMWjcydllNLUstTnVVaFRaQ1EwSE4tS3VGOWlmOWNQdlJrSXBIVlFBVVZFcDVKQXZuaGExSU03RGQxRkRsU0dkX09XX0w4M2N0S04ySnZRLWRSd3FwUDUzbWVSNE1YTUJoa0dSOGd2d3pvWnc?oc=5"
+     },
+     {
+      "source": "Reuters",
+      "title": "Anthropic's post-debut stumble delivers reality check for AI trade",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPNWtIWXhnWHpsWWZSZ2dFVFRFSXBHaUxOWlp1VnFSZEoycGRtMDE1NVhuM2NEa2ZUTHlLN0lFbG5aX295SThLcFVXMEV3VmJidHF2amdDelVYWWprLXRsNWpodU9LcERma2xnc2pWaTZGbmNHZnYwREdjQnBOcGR0S0JSdnZTaC1aYmtBWXdRXzJiVDhHbFBEZ3lDdWhzS3Q3dnFMY3d3cjZIdw?oc=5"
+     },
+     {
+      "source": "This is Money",
+      "title": "Technology stock selloff deepens despite Anthropic IPO",
+      "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOa01rVmxGd2lUendZc3k0NXBsRHZMY3N2cjZ3bk0xRUJkdE1GeDNQUE1mS1pYQkVwSnktUEJGek90SnRPRXpQR21ZMElXRDVZVHlxa3BSb0dSRFNiakRCSl9PQm90UFlKTDBvLXkwTmxxUUNnS3hKRFlYLUcwVGN2QUY5Um95U0d6azMyWFBGRnVoa1oyM3Jvd2NzOE9NczZuSHJyN1RPOVhvcGJ2alJyN3dUU2piN1ZTS0hOcE9IMkhmd3lyLVhKZXUtaDJMQVdhdjduMFBGZ1k1a2RhZGgyOQ?oc=5"
+     }
+    ]
+   },
+   {
+    "category": "economy",
+    "headline": "Strategists warn of hard-landing risk as Citi turns cautious",
+    "summary": "Bank of America and Citi strategists say investors may be underpricing recession risk and should wait before buying risky assets. Separately, the FT notes that the link between oil prices and bond yields has broken down.",
+    "sources": [
+     {
+      "source": "MarketWatch",
+      "title": "Bank of America strategist warns doom loop could hit stocks with Wall Street underpricing hard-landing risks",
+      "link": "https://www.marketwatch.com/story/bank-of-america-strategist-warns-doom-loop-could-hit-stocks-with-wall-street-underpricing-hard-landing-risks-c3181e57?mod=mw_rss_topstories"
+     },
+     {
+      "source": "FT",
+      "title": "Oil loses grip on bond markets as inflation ‘virus’ spreads",
+      "link": "https://www.ft.com/content/562e278e-1e12-49d2-b7f7-91a289ffd660?syn-25a6b1a6=1"
+     }
+    ]
+   },
+   {
+    "category": "companies",
+    "headline": "Nvidia's leadership crisis deepens as legal exposure grows",
+    "summary": "California has served a subpoena on Nvidia after the scandal that led to Jensen Huang's departure, and the company's legal exposure is expanding. Nvidia has reportedly approached Arm's Rene Haas about the chief executive role.",
+    "sources": [
+     {
+      "source": "CNBC",
+      "title": "Jensen Huang's — and Nvidia's — legal exposure balloons",
+      "link": "https://www.cnbc.com/2026/11/19/nvidia-jensen-huang-legal.html"
+     },
+     {
+      "source": "Guardian Business",
+      "title": "Anthropic shares fall in pre-market trade as AI rout hits global markets - business live",
+      "link": "https://www.theguardian.com/business/live/2026/nov/20/asia-stocks-worst-anthropic-ipo-ai-stock-market-latest-updates-news"
+     },
+     {
+      "source": "BBC",
+      "title": "California targets Nvidia in China AI chip probe",
+      "link": "https://www.bbc.co.uk/news/articles/cqn70vxp5p4no?at_medium=RSS&at_campaign=rss"
+     },
+     {
+      "source": "The Verge AI",
+      "title": "A brief history of Nvidia’s recent stock fluctuations",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1038063/nvidia-stock-market-price-earnings"
+     },
+     {
+      "source": "TechCrunch AI",
+      "title": "The unfolding Jensen Huang scandal: a timeline",
+      "link": "https://techcrunch.com/2026/11/19/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/"
+     }
+    ]
+   }
+  ],
+  "calendar": [
+   {
+    "when": "Friday",
+    "event": "UK-EU summit in Brussels, where Andy Burnham meets EU leaders"
+   },
+   {
+    "when": "Friday",
+    "event": "COP31 climate summit reaches its final day"
+   },
+   {
+    "when": "Friday",
+    "event": "UN Security Council meeting round on the next UN secretary general"
+   }
+  ]
+ },
+ "world": {
+  "us": [
+   {
+    "category": "political",
+    "headline": "White House replaces cyber director after wave of outages",
+    "summary": "National cyber director Sean Cairncross has been ousted after a week of tech outages and is replaced by Pentagon CIO Kirsten Davies. The change comes as questions mount over the vulnerability of ageing infrastructure.",
+    "sources": [
+     {
+      "source": "BBC",
+      "title": "White House removes cyber-security chief after series of tech outages",
+      "link": "https://www.bbc.co.uk/news/articles/cwz0k3nn5p5mo?at_medium=RSS&at_campaign=rss"
+     },
+     {
+      "source": "Guardian",
+      "title": "White House cyber director ousted after US hit by wave of tech outages",
+      "link": "https://www.theguardian.com/us-news/2026/nov/19/white-house-cyber-director-ousted"
+     },
+     {
+      "source": "DW",
+      "title": "White House replaces cyber security chief after tech outages",
+      "link": "https://www.dw.com/en/white-house-replaces-cyber-security-chief-after-tech-outages/a-79998531?maca=en-rss-en-all-1573-rdf"
+     },
+     {
+      "source": "Al Jazeera",
+      "title": "US appoints new cybersecurity chief after series of tech failures",
+      "link": "https://www.aljazeera.com/news/2026/11/20/us-appoints-new-cybersecurity-chief-after-series-of-tech-failures?traffic_source=rss"
+     },
+     {
+      "source": "CNBC",
+      "title": "White House replaces cyber director Sean Cairncross amid widespread tech outages",
+      "link": "https://www.cnbc.com/2026/11/20/sean-cairncross-white-house-cyber-director.html"
+     },
+     {
+      "source": "FT",
+      "title": "White House replaces top cyber security official",
+      "link": "https://www.ft.com/content/6333f2e6-98da-4491-bd2e-30237d7bfbf5?syn-25a6b1a6=1"
+     },
+     {
+      "source": "TechCrunch",
+      "title": "The U.S. national cyber director is stepping down",
+      "link": "https://techcrunch.com/2026/11/20/the-u-s-national-cyber-director-is-stepping-down/"
+     }
+    ]
+   },
+   {
+    "category": "financial",
+    "headline": "Senate passes energy permitting reform bill",
+    "summary": "The Senate voted 62-33 for a bipartisan bill to speed approvals of power plants, grid upgrades and data centres. It still needs to clear the House before reaching President Trump.",
+    "sources": [
+     {
+      "source": "NPR",
+      "title": "Senate passes bipartisan energy bill amid environmental concerns",
+      "link": "https://www.npr.org/2026/11/20/g-s1-154579/senate-bipartisan-energy-bill"
+     },
+     {
+      "source": "CNBC",
+      "title": "Senate passes BAAJA permitting reform bill backed by AI, energy sectors",
+      "link": "https://www.cnbc.com/2026/11/20/baaja-bill-senate-passes-permitting-reform.html"
+     },
+     {
+      "source": "OilPrice",
+      "title": "Senate Passes Sweeping Energy Permitting Reform Bill in 62-33 Vote",
+      "link": "https://oilprice.com/Latest-Energy-News/World-News/Senate-Passes-Sweeping-Energy-Permitting-Reform-Bill-in-62-33-Vote.html"
+     }
+    ]
+   },
+   {
+    "category": "notable",
+    "headline": "Texas execution lasted over an hour",
+    "summary": "Reinaldo Dennes's lethal injection in Texas took more than an hour as staff struggled to find a vein. It follows a similar prolonged case weeks earlier.",
+    "sources": [
+     {
+      "source": "BBC",
+      "title": "Texas death-row inmate screams as execution takes more than one hour",
+      "link": "https://www.bbc.co.uk/news/articles/ck20vl1dd8qzo?at_medium=RSS&at_campaign=rss"
+     },
+     {
+      "source": "NPR",
+      "title": "Texas execution took over an hour as staff struggled to find vein; Reinaldo Dennes moaned about pain",
+      "link": "https://www.npr.org/2026/11/20/nx-s1-6048461/texas-execution-dennes-moaned-pain"
+     }
+    ]
+   }
+  ],
+  "uk": [
+   {
+    "category": "political",
+    "headline": "UK and EU agree Brexit reset, but tuition fees cloud delivery",
+    "summary": "Andy Burnham and EU leaders agreed a deal covering food trade, youth mobility and energy, though Brussels says it depends on a further agreement on EU student fees. Nigel Farage accused the prime minister of betraying Brexit.",
+    "sources": [
+     {
+      "source": "NPR",
+      "title": "The U.K. and EU hold a rare summit to strengthen ties",
+      "link": "https://www.npr.org/2026/11/20/g-s1-154576/uk-eu-summit"
+     },
+     {
+      "source": "BBC",
+      "title": "New EU-UK deal should reduce 'Irish Sea border' impact",
+      "link": "https://www.bbc.co.uk/news/articles/cm4gn9xw1v99o?at_medium=RSS&at_campaign=rss"
+     },
+     {
+      "source": "BBC Politics",
+      "title": "What the Brussels summit could mean for the UK-EU Brexit deal",
+      "link": "https://www.bbc.co.uk/news/videos/c6lymr5x4ye5o?at_medium=RSS&at_campaign=rss"
+     },
+     {
+      "source": "Guardian",
+      "title": "Fallout over tuition fees may snag Burnham’s EU deal, say insiders",
+      "link": "https://www.theguardian.com/politics/2026/nov/20/fallout-over-tuition-fees-may-snag-burnhams-eu-deal-say-insiders"
+     },
+     {
+      "source": "Politico Europe",
+      "title": "Brussels to link UK-EU summit package to tuition fee demands",
+      "link": "https://www.politico.eu/article/brussels-to-link-uk-eu-summit-package-to-tuition-fee-demands/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication"
+     },
+     {
+      "source": "France24",
+      "title": "Burnham hails 'landmark' EU-UK deal on trade, energy, youth mobility as 'good day' for Europe",
+      "link": "https://www.france24.com/en/europe/20261120-eu-and-uk-set-to-sign-deals-on-trade-energy-youth-mobility-at-brussels-summit"
+     },
+     {
+      "source": "DW",
+      "title": "EU and UK hold a rare summit in bid to 'rebuild ties'",
+      "link": "https://www.dw.com/en/eu-and-uk-hold-a-rare-summit-in-bid-to-rebuild-ties/a-80001076?maca=en-rss-en-all-1573-rdf"
+     },
+     {
+      "source": "Al Jazeera",
+      "title": "‘The deal is done’: EU, UK agree to reset relations 10 years after Brexit",
+      "link": "https://www.aljazeera.com/news/2026/11/20/eu-and-uk-seal-reset-deal?traffic_source=rss"
+     },
+     {
+      "source": "FT",
+      "title": "UK and EU agree Brexit ‘reset’ but delivery rests on tuition fees",
+      "link": "https://www.ft.com/content/8515b514-2067-43eb-a7f5-b5aa20ec4cc3"
+     },
+     {
+      "source": "Euronews",
+      "title": "Furious Farage accuses Burnham of betraying Brexit as EU-UK summit gets underway",
+      "link": "https://www.euronews.com/2026/11/20/furious-farage-accuses-burnham-of-betraying-brexit-as-eu-uk-summit-gets-underway"
+     }
+    ]
+   },
+   {
+    "category": "financial",
+    "headline": "Stockpiling lifts retail sales; borrowing below forecast",
+    "summary": "British retail sales jumped as households stocked up after the government's Be Ready campaign. Separately, October borrowing was about £1bn lower than expected at £17bn.",
+    "sources": [
+     {
+      "source": "BBC",
+      "title": "Tinned food and long-life milk boost retail sales after 'Be Ready' campaign launch",
+      "link": "https://www.bbc.co.uk/news/articles/ck053mzy2qqeo?at_medium=RSS&at_campaign=rss"
+     },
+     {
+      "source": "Guardian",
+      "title": "Household rush to stockpile emergency supplies sends British retail sales soaring",
+      "link": "https://www.theguardian.com/world/2026/nov/20/rush-stockpile-emergency-supplies-sends-british-retail-sales-soaring"
+     },
+     {
+      "source": "Sky News",
+      "title": "Households stockpiling 'emergency items' boosts retail sales",
+      "link": "https://news.sky.com/story/emergency-items-give-surprise-lift-to-retail-sales-13614254"
+     },
+     {
+      "source": "Guardian Politics",
+      "title": "UK government borrowing rises less than forecast in surprise boost for chancellor John Healey",
+      "link": "https://www.theguardian.com/business/2026/nov/20/uk-government-borrowing-rises-less-than-forecast-in-surprise-boost-for-chancellor-john-healey"
+     }
+    ]
+   },
+   {
+    "category": "notable",
+    "headline": "Pancreatic cancer pill shows striking trial results",
+    "summary": "The daily pill daraxonrasib shrank tumours and left cancer undetectable in one in 12 patients in a trial. It has been hailed as the biggest breakthrough in decades.",
+    "sources": [
+     {
+      "source": "BBC",
+      "title": "Massive hope for pancreatic cancer pill after trial saw tumours vanish",
+      "link": "https://www.bbc.co.uk/news/articles/cqrmgjnzz9l0o?at_medium=RSS&at_campaign=rss"
+     },
+     {
+      "source": "Guardian",
+      "title": "Pill to treat pancreatic cancer hailed as ‘biggest breakthrough in decades’",
+      "link": "https://www.theguardian.com/society/2026/nov/20/pill-pancreatic-cancer-breakthrough-daraxonrasib"
+     }
+    ]
+   }
+  ],
+  "europe": [
+   {
+    "category": "political",
+    "headline": "Russia hits Kyiv bridges as missile lands in Poland",
+    "summary": "Russia launched one of its largest attacks on Ukraine, striking Kyiv crossings, while a missile hit Polish territory, which Donald Tusk called an intentional provocation. European allies meeting in Berlin said they were ready for talks with Russia.",
+    "sources": [
+     {
+      "source": "BBC",
+      "title": "Russia targets Kyiv crossings days after Ukraine hits Crimean Bridge",
+      "link": "https://www.bbc.co.uk/news/articles/c6x29gn4pdn9o?at_medium=RSS&at_campaign=rss"
+     },
+     {
+      "source": "Guardian",
+      "title": "Russian missiles and drone reportedly hit Poland during attacks on Ukraine",
+      "link": "https://www.theguardian.com/world/2026/nov/20/russian-missiles-drone-poland-attacks-ukraine"
+     },
+     {
+      "source": "Politico Europe",
+      "title": "Tusk: Russian cruise missile incursion into Poland seems ‘intentional’",
+      "link": "https://www.politico.eu/article/russian-missile-incursion-into-poland-seems-intentional-tusk-says/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication"
+     },
+     {
+      "source": "France24",
+      "title": "Poland's Tusk denounces Russian 'provocation' after Warsaw says missile hit territory",
+      "link": "https://www.france24.com/en/europe/20261120-poland-says-russian-missile-hit-its-territory-during-attack-on-ukraine"
+     },
+     {
+      "source": "DW",
+      "title": "Ukraine updates: Russian attack 'one of largest,' Zelenskyy says",
+      "link": "https://www.dw.com/en/ukraine-updates-russian-attack-one-of-largest-zelenskyy-says/live-79999822?maca=en-rss-en-all-1573-rdf"
+     },
+     {
+      "source": "Al Jazeera",
+      "title": "Russia unleashes retaliatory barrage on Kyiv bridges",
+      "link": "https://www.aljazeera.com/news/2026/11/20/russia-unleashes-retaliatory-barrage-on-kyiv-bridges?traffic_source=rss"
+     },
+     {
+      "source": "BBC Politics",
+      "title": "Europe ready for talks with Russia on ending war in Ukraine, leaders say",
+      "link": "https://www.bbc.co.uk/news/articles/ckzd9nln5e6go?at_medium=RSS&at_campaign=rss"
+     }
+    ]
+   },
+   {
+    "category": "financial",
+    "headline": "Lufthansa to cut 1,000 jobs",
+    "summary": "Lufthansa plans to cut 1,000 posts in Frankfurt and Munich, saying its flagship airline loses about €20m a month. Strikes and fuel costs linked to the Iran war are slowing its turnaround.",
+    "sources": [
+     {
+      "source": "DW",
+      "title": "Lufthansa to cut 1,000 jobs, citing ongoing losses — reports",
+      "link": "https://www.dw.com/en/lufthansa-to-cut-1-000-jobs-citing-ongoing-losses-reports/a-80000062?maca=en-rss-en-all-1573-rdf"
+     },
+     {
+      "source": "Euronews",
+      "title": "Lufthansa plans 1,000 job cuts in Frankfurt and Munich as Iran war slows turnaround",
+      "link": "https://www.euronews.com/2026/11/20/lufthansa-plans-1000-job-cuts-in-frankfurt-and-munich-as-iran-war-slows-turnaround"
+     }
+    ]
+   },
+   {
+    "category": "notable",
+    "headline": "Commission staff demand answers over cyberattack",
+    "summary": "The main staff union says employees learned of the breach from the press and fear their personal data is at risk. Management has yet to send an update to all staff.",
+    "sources": [
+     {
+      "source": "Politico Europe",
+      "title": "‘Staff deserve answers’ on Commission cyberattack, union says",
+      "link": "https://www.politico.eu/article/staff-deserve-answers-eu-commission-cyberattack-union-says/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication"
+     },
+     {
+      "source": "Euronews",
+      "title": "European Commission staff criticise lack of communication over cyberattack",
+      "link": "https://www.euronews.com/2026/11/20/european-commission-staff-criticise-lack-of-communication-over-cyberattack"
+     }
+    ]
+   }
+  ],
+  "middle_east": [
+   {
+    "category": "political",
+    "headline": "Houthis attack Saudi Arabia, damaging Riyadh's PIF Tower",
+    "summary": "Saudi Arabia reported a surge in Houthi attacks, with the Public Investment Fund Tower in Riyadh damaged. The Houthis also threatened Saudi Red Sea ports, while Britain is stepping up air-defence support to Riyadh.",
+    "sources": [
+     {
+      "source": "France24",
+      "title": "Skyscraper in Riyadh damaged as Saudi Arabia reports surge in new Houthi attacks",
+      "link": "https://www.france24.com/en/middle-east/20261119-skyscraper-in-riyadh-damaged-as-saudi-arabia-reports-surge-in-new-houthi-attacks"
+     },
+     {
+      "source": "thenationalnews.com",
+      "title": "Middle East latest: Saudi Arabia confirms strike on PIF tower and condemns Houthi attacks",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPam9XS0tmcEhaa3NBUzd2bUJ5ME1FWktqN2hhaVFzd2k0MlVDaExwX0EyUW84Ylg2QkNFZ2FMTC1RbkZ2VGtUNV9xQzhMQ1lhcklId3JXbGQ1dTBHNDg3Qm0wT1RBWEZYRGFIUjZ0YVZlcHI3NUcyZV9yNFdaam9qX1FHZUtIbnFpRU5EU2dxMnRXZ2lRNlpfYTFJWQ?oc=5"
+     },
+     {
+      "source": "Sky News",
+      "title": "Saudi's tallest skyscraper damaged in Houthi attack",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxORThXT3I5QnpTVGwxaTdQek9zdk1MUUxYTWhqbTItZFNHNGZZMFdGdVpURWRSdE1NbDBZQmVxVkV6MF9BSHBFRWpIQ1Zlb2NoSFRTM09ldmRlTEU5U3FTUzFvUEtTTnMtZjMtM1M1WTNfWmxpMVdNbXhKeGJ3OTdUVTJQN0I5NnFFdmN0ZnpxYw?oc=5"
+     },
+     {
+      "source": "Middle East Eye",
+      "title": "'Evacuate immediately': Houthis threaten to target Saudi Red Sea ports",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNVGdmaHdXWFkwU205cnk0VVZuOGRyRTRLMHZ5c3h1anZpbXZHblJRQzhpUDRjZ1ZRbHJITGVwZkxoZlRVQXhxeEFyRDRrZ1hWTDBYM2tYNXM0NlNpZzZXcE43YUQ2T0xucUlJZFJ1UHQ3dHVZUW5FOFE2bnZ6Z0s0YXlWWGNCMlBIQTdGMzlWMjE0N05KXzVxTGlpLVNoeUpHNkMxODFYd2NqZE1hYTRnaXlGUFJ1N2IyanpzWXh3?oc=5"
+     },
+     {
+      "source": "The National",
+      "title": "Middle East latest: Saudi coalition and Houthis threaten strikes on ports",
+      "link": "https://www.thenationalnews.com/news/mena/2026/11/20/live-iran-war-saudi-arabia-houthis/"
+     },
+     {
+      "source": "Arab News",
+      "title": "Britain steps up Saudi air-defense support amid Houthi attacks, UK Middle East minister says",
+      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOMkE3YWFvM3o0MVM1VE5jcmI3T3J2WGV3SlNnZ0x2Uy1lV19VcmtsSHh2TWpuVlRGTlBmRE5hVndSSXlzTy1MQTBLcFZBaldPbVo5Z1FwUU82SV92MXpKeElTZk5qalI2bzBaRGljZXJER0ZTYzhNR3Q4Zi16UmpEdXU5NmtXbWdNVm1PZUR1WkdXWkRKbkY3WmhvQnZHLVNYMC1NcVhWdm50cW9rUDVGVHAwZUlXRnJBbDVuQ3FsZGJ1QmswNWhGM09nbXpsU0g2Wmc?oc=5"
+     },
+     {
+      "source": "EA WorldView",
+      "title": "UPDATES: US War on Iran, Day 267 — Houthi Missile Attacks on Saudi Arabia",
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNM2RrVEhkLTl5UDFBVUdjZ1NZTXN2RzgzSnhUUGZ3enFsWVA1ZllBbUc2QU9UNVpkcDN3UUFiMlpfVHZVVzBjYUtScVg1UDFMYmFNLXhjLVc5aG1xSjhRQ0J2ZXpNVHRYbEx2NmxrTXRlZ09BUHdqZ2tuTms2a3pNWGtR?oc=5"
+     },
+     {
+      "source": "The Times of Israel",
+      "title": "Yemen’s Houthis threaten counter-strike if Saudi coalition hits Red Sea port",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQZU41ZExFZTlydi1nXzlMaVNOdHVDRENEa01BLWpVOEIyWVpxWUdTX0lYeEZUVVppTDNObmlnYjFrY0EwX245OWpVTmdOY0lMZDJwbkJTOWZ2UE9JdEV0X1VOeHlqNEt3cDNPd2sxOXBzZlJRaDZRVTcyaHRTX2Y5NmdzRV82a2FjaWN4TEQxdEhfenhaUjZBaFlrZmdETU5LZlh1RnJ3T2gxem4yeGFNa2VLemprejRuaFBoTUtn?oc=5"
+     }
+    ]
+   },
+   {
+    "category": "financial",
+    "headline": "Iran war costs pass $48bn; Saudi to impose top-up tax",
+    "summary": "The Pentagon says the US war on Iran has cost more than $48bn, excluding damage to bases. Saudi Arabia will impose a top-up tax on global firms' profits from 2027.",
+    "sources": [
+     {
+      "source": "DW",
+      "title": "Price tag for US war in Iran barrels past $48 billion",
+      "link": "https://www.dw.com/en/price-tag-for-us-war-in-iran-barrels-past-48-billion/a-79998255?maca=en-rss-en-all-1573-rdf"
+     },
+     {
+      "source": "Arab News",
+      "title": "Iran war costs surpass $48bn amid calls for base damage estimates",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOeG9ZeENmY1RYVWZ6TFplVjlHU0tDVGluYzBaUmlVQ1VvMlRBWTZFdThabzFBLTIyclBQVUQzRDgxRlBIYlpPRFF3MWRKc2xGd0hTVkttUUt0VmowcG9ZS3poekRPVFVrbUxER0ZoRHVvZl9MZGwwRW1Tek4tQ01uY1kyM2J2OGI3TXBJUlJ2a0Jwc2xOa1o3a1V2M2YwQ05pSXQyUGpiZFdPejJUTXc?oc=5"
+     },
+     {
+      "source": "Fortune",
+      "title": "The world got used to endless Saudi cash. The Iran war ushered in a new reality",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQT2R2YlFRR0N4MWNYNks2SjhzYXpBNmFIYnA5QjF0MXZGeEJISE9scEZlVThQQTRuWHdBcHBmMjExbnA2b1NKTUlRU21HWFBwRWNLaU1SVEFwTXhMZk1VMVcyRVQ1Y3ZtZDhVRWJ2Z1RsRGdxb2dJN1RKQlFyR3JqbVY5S3lYY0FjcEVIU0pubDFURjNnbHNmVHdBOEg2NTYxTUVIaWJtaw?oc=5"
+     }
+    ]
+   },
+   {
+    "category": "notable",
+    "headline": "Israel launches ground operation beyond Gaza's Yellow Line",
+    "summary": "Israeli forces crossed the ceasefire boundary into central Gaza, saying they aimed to dismantle a tunnel. Hamas called it a flagrant ceasefire violation.",
+    "sources": [
+     {
+      "source": "BBC",
+      "title": "Israeli military completes ground operation in Gaza beyond Yellow Line",
+      "link": "https://www.bbc.co.uk/news/articles/cw8r7510degno?at_medium=RSS&at_campaign=rss"
+     },
+     {
+      "source": "Guardian",
+      "title": "Israeli tanks cross ‘yellow line’ boundary into Hamas-controlled central Gaza",
+      "link": "https://www.theguardian.com/world/2026/nov/18/israeli-tanks-cross-yellow-line-boundary-into-hamas-controlled-central-gaza"
+     },
+     {
+      "source": "France24",
+      "title": "Gaza: Israel launched new offensive on Nuseirat",
+      "link": "https://www.france24.com/en/gaza-israel-launched-new-offensive-on-nuseirat"
+     }
+    ]
+   }
+  ]
+ },
+ "energyTech": {
+  "energy": [
+   {
+    "category": "energy",
+    "headline": "Ofgem opens urgent inquiry into grid connection delays",
+    "summary": "The regulator is investigating delayed connection dates amid continuing grid queue problems. It matters for generation and demand projects awaiting access to the network.",
+    "sources": [
+     {
+      "source": "Utility Week",
+      "title": "Ofgem launches ‘urgent inquiry’ into delayed connection dates",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNcFZLc2RCcm51VDZQUkFRVEZEd0trSGNYanUwUVg2NE5ULTFqZHY4M2hMLUd6RDdYVDNSZ3RXeFlRVUtqZDdtQWlEbW9hbURadmFkMW5IR05JcnY5bnNyd3RLcy1WWlppNmNQaktYd3hMVzExSWR2WVA2WGdZdEFvM1lJWWd1cVBNT0Z2RXVoNNIBmwFBVV95cUxNZjlOMGFOeU83c3d4T2xPUTNRTjdEdno0SGR3Tkl4S1RjUlBsREc1S2piUTFuVUV0Q0d4eGdYQlA3djhJTEdQakJoN2hfd1AxYkpCQTJtbUtVSm4wSXROV1ZEa05nLWxFblJ2T2kwMk10M3VNQ1c4TkNnOEpENDZUWDFORUYtV3NkQ3pLVEF5cW5qTWpXN19ULVVYRQ?oc=5"
+     },
+     {
+      "source": "The Telegraph",
+      "title": "Ofgem launches urgent inquiry into power grid delays",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNbmRySnlaamtfRHFraExQSWZQUTZVT2U2YmtUS1c4M2hFbFB0MGRBUWprX3hnT3R3TkpxRmIwRF9ja2VpRi02a3hZVmxfS1hOb1lOWUlnMkJVbF8xSzAtVUViMEJIRkl1MzlXcXZFaFZZVHhCUEo4bG1FTFFVRG1TZ3dKU1ZHUUpEY0k4b2h5S29Ib1VrSGlJQURPZFRoeVdIR2lJ?oc=5"
+     },
+     {
+      "source": "Planning Geek",
+      "title": "Grid connection delays prompt Ofgem inquiry",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9IaGVubEFMYUI0U2ZOb1VJT2VMRXhMUC1PUk5FVHdJUXVHMFQ5ZzZvbGdENWtkRW05WTY4MG1SS3dFSmJGMlF3dnduZFJtUFFzdl9zNXVWRDhWR29Ub0I3TUFBamd5cjdubjRB?oc=5"
+     },
+     {
+      "source": "Energy Live News",
+      "title": "Grid queue chaos continues admits Ofgem",
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNWm1QWDlzNFBkYjl5c1JxdkZsaVdvOU5raFdwWU9HX3JaVEhkMkFBa3pCa0hGb3pWcXdCWUw1OE8yQlJILVFYRHhLUGdxVGFhTDFQSTlNWVBIUHU5WDBOR29SeWo1Z2NKMHoyZnlTN2t0UHpTaUpJa3dzVW5SLUQyOUFSbXEwaE9TRnc?oc=5"
+     }
+    ]
+   },
+   {
+    "category": "energy",
+    "headline": "SSEN and National Grid push network investment",
+    "summary": "SSEN Distribution has sent Ofgem a £10.2bn plan while its transmission arm seeks £7.4bn approval. National Grid has begun building a 400kV substation in Somerset.",
+    "sources": [
+     {
+      "source": "London South East",
+      "title": "IN BRIEF: SSE's SSEN Distribution sends GBP10.2 billion plan to Ofgem",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQT29kZHBUZTZnc2J3RmZyS3RyVVVTTEVPLWlYMnFjYzNsY2tkMk82Y3MyZERwMUNsSnZ4TWRZVU9JeVVUU2l5dHRheEw0azNoUUVjYTVpeWdkMlh6clNvWWxBWnUyVElpZEkwRUsyVXV3UUgwZXVmTkh1UlpNVFY3R05XZUp0ODBPRVROTHhfT1B2R0ZGUTlDemJPMDFCMndyNnpxWFR4Z1FRRGwxdUYtV2hZYno?oc=5"
+     },
+     {
+      "source": "The Herald",
+      "title": "SSEN seeks £7.4 billion Ofgem approval for electricity network investment plan",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNcjl3bWlGVmU4UlZyUTUwZ2VVTDQ2STlabmE0SXJtWi1FS0RyZUkxOElTOFdILVhUTGF5bEwxZ3hQT09iR1dDcHBNRG93cWZRMTVBM04zWi1CVzMwTTVwZ19VdmM5S0pmbENsT24xOTNrc1ZXekdhcmw1T3B4OEJ1MHlvSm5jYXdZYzBDZ2loOEl6bWNOeldQd1JIMA?oc=5"
+     },
+     {
+      "source": "New Civil Engineer",
+      "title": "National Grid begins construction of 400kV substation in Somerset",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOZ3VwaUhnaVE3cEJzME8tRDBwR3E4NGJRNXFHbW8zUFhEOTBJRHppZGhyRTJlU01UZEhJSXFhX0NrYVJQWEQwWUVSNnFpdUlMYjRma291ekh3SFlXRDN2VmRONkNKMjRKSkN4M3VDbEtDcllmUkVPb2FkcEJ6SE1xM2Z1X3ktTjFXblRvVktKLWx0UEtjcC1pODA4bHhNMXJpRGt3VThPWXcxM19RWDg4WVlTT2FRZ2tZ?oc=5"
+     }
+    ]
+   },
+   {
+    "category": "energy",
+    "headline": "Oil slips on glut fears despite Hormuz tanker attacks",
+    "summary": "Oil prices fell as Gulf exports recovered towards pre-war levels and US inventories built. Iran has stepped up tanker attacks in Hormuz and is preparing to restart exports despite the US blockade.",
+    "sources": [
+     {
+      "source": "OilPrice",
+      "title": "WTI Crude Sinks More Than 5% as Global Oil Glut Fears Grow",
+      "link": "https://oilprice.com/Energy/Energy-General/WTI-Crude-Sinks-More-Than-5-as-Global-Oil-Glut-Fears-Grow.html"
+     }
+    ]
+   }
+  ],
+  "ai": [
+   {
+    "category": "ai",
+    "headline": "Anthropic completes record IPO, then slips",
+    "summary": "Anthropic raised about $81bn at $83 a share and shares closed up 17% on day one, before slipping in post-market trade. Its heavy compute commitments remain a key uncertainty.",
+    "sources": [
+     {
+      "source": "BBC",
+      "title": "How did Anthropic's stock market debut unfold?",
+      "link": "https://www.bbc.co.uk/news/videos/cwg7l01vg081o?at_medium=RSS&at_campaign=rss"
+     },
+     {
+      "source": "The Verge AI",
+      "title": "Anthropic starts trading on Wall Street",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1035384/anthropic-ipo-trading-nasdaq"
+     },
+     {
+      "source": "TechCrunch AI",
+      "title": "Anthropic hits Nasdaq exchanges at $111, 33% above IPO price",
+      "link": "https://techcrunch.com/2026/11/19/anthropic-hits-nasdaq-exchanges-at-110-27-above-ipo-price/"
+     },
+     {
+      "source": "Bloomberg.com",
+      "title": "Anthropic Slumps 5% Post-Market After Record $107.3 Billion IPO",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNU05IcE5RazNyajNodmVGbEJxU0g5U3FPc2IzMFlfdVdSbkxsUWRFYkxpc0JpOWxQNnVZSGlEVWpHSklHMGwyRzRmdjZXUFVYWDdxdTIwbmRGUVk0WGZ6RnB3MHFhSS1YR3VJSVUxeUtlcktQY1NDbUVWNXpfOVpXREFYY3k5bXpnMjEwM2drWTdMQldwWEFFVG9BX2cySUdmUUNOcFFURVNIa2dZal84?oc=5"
+     },
+     {
+      "source": "Yahoo Finance",
+      "title": "Anthropic stock dives after rip-roaring IPO",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNN1JHbkFlQm5mcHJFMmFVZzhqRnpfMkxwTUtwS0F0OTZicDN0VDNfdnoxVlBLcTViVXNDa2o1ZW4yVkpsd1daOFlQMXdZdjVWYzlkWnFVRHRhanJFRUlXNXBLd0E1Y1NlRlhieWR6V2hzSkkzTkZueE1HT24tOC1ZbHpUZHEzdnVfc3NPdFl3ZWtjMVpLVDdhd2F6VzRCTUJCTEdXMWFGNEJWS0k?oc=5"
+     },
+     {
+      "source": "CNBC",
+      "title": "The Tech Download: Anthropic charmed Wall Street. But one big uncertainty hangs over the business",
+      "link": "https://www.cnbc.com/2026/11/20/tech-download-anthropic-compute-access.html"
+     },
+     {
+      "source": "BBC Business",
+      "title": "Anthropic raises $81bn in record-breaking stock market debut",
+      "link": "https://www.bbc.co.uk/news/articles/c6742m39xgzxo?at_medium=RSS&at_campaign=rss"
+     },
+     {
+      "source": "Guardian Business",
+      "title": "Anthropic’s historic stock market debut: key takeaways, and what comes next for the AI industry",
+      "link": "https://www.theguardian.com/technology/2026/nov/20/anthropic-ipo-historic-stock-market-debut-key-takeaways-what-next-for-ai"
+     }
+    ]
+   },
+   {
+    "category": "ai",
+    "headline": "Apple building its own AI agent",
+    "summary": "Job listings suggest Apple is developing an agent that can browse, work across apps and write code. It would compete with Meta's Muse and others.",
+    "sources": [
+     {
+      "source": "The Verge AI",
+      "title": "Apple is hiring engineers to build its own AI agent",
+      "link": "https://www.theverge.com/tech/1038227/apple-ai-agent-engineer-job-listing"
+     },
+     {
+      "source": "TechCrunch AI",
+      "title": "Apple may be developing its own AI agent that runs your Mac",
+      "link": "https://techcrunch.com/2026/11/19/apple-may-be-developing-its-own-ai-agent-that-runs-your-mac/"
+     },
+     {
+      "source": "MarketWatch",
+      "title": "Apple seems to be building its own AI agent. This could be bad news for Meta’s Muse.",
+      "link": "https://www.marketwatch.com/story/apple-seems-to-be-building-its-own-ai-agent-this-could-be-bad-news-for-metas-muse-8d9be2a7?mod=mw_rss_topstories"
+     }
+    ]
+   },
+   {
+    "category": "ai",
+    "headline": "Google lets Gemini control your Mac",
+    "summary": "Gemini's macOS app can now carry out multi-step tasks across files, apps and the web. Google is also adding AI chats to its homepage.",
+    "sources": [
+     {
+      "source": "The Verge AI",
+      "title": "Gemini on Mac can now use your computer",
+      "link": "https://www.theverge.com/tech/1037902/google-gemini-macos-ai-computer-use"
+     },
+     {
+      "source": "TechCrunch AI",
+      "title": "Google gives Gemini the ability to use your Mac for you",
+      "link": "https://techcrunch.com/2026/11/19/google-gives-gemini-the-ability-to-use-your-mac-for-you/"
+     }
+    ]
+   }
+  ],
+  "tech": [
+   {
+    "category": "tech",
+    "headline": "Outages raise questions over ageing infrastructure",
+    "summary": "A week of airline, banking and productivity outages has prompted debate over whether cyberattacks are involved. Experts say ageing systems and incentives are a likelier cause.",
+    "sources": [
+     {
+      "source": "NPR",
+      "title": "Why the U.S. air traffic control system still relies on an 'antique' network",
+      "link": "https://www.npr.org/2026/11/19/nx-s1-6045773/faa-air-traffic-control-system-modernization-challenges"
+     },
+     {
+      "source": "TechCrunch AI",
+      "title": "These tech outages are giving Y2K, AI agent style",
+      "link": "https://techcrunch.com/2026/11/19/these-tech-outages-are-giving-y2k-ai-agent-style/"
+     },
+     {
+      "source": "Ars Technica",
+      "title": "How to tell a cyberattack from a plain old outage",
+      "link": "https://arstechnica.com/security/2026/11/how-to-tell-a-cyberattack-from-a-plain-old-outage/"
+     },
+     {
+      "source": "Guardian",
+      "title": "Don’t blame cyber-attacks for recent outages. The real villain is the US economy | Bruce Schneier",
+      "link": "https://www.theguardian.com/commentisfree/2026/nov/20/cyber-attacks-outages-blame-economy"
+     }
+    ]
+   },
+   {
+    "category": "tech",
+    "headline": "GTA 6 launches worldwide with record sales",
+    "summary": "Rockstar's long-awaited game is estimated to have topped $2.3bn in sales. It is expected to be the biggest entertainment launch ever.",
+    "sources": [
+     {
+      "source": "BBC",
+      "title": "GTA 6 breaks records as estimated sales top $2.3bn",
+      "link": "https://www.bbc.co.uk/news/articles/c9zr5nyv5dj2o?at_medium=RSS&at_campaign=rss"
+     },
+     {
+      "source": "BBC Tech",
+      "title": "UK joins in GTA 6 frenzy as game becomes available worldwide",
+      "link": "https://www.bbc.co.uk/news/articles/c6z74ep2n17zo?at_medium=RSS&at_campaign=rss"
+     },
+     {
+      "source": "CNBC",
+      "title": "‘More than just a game’: How GTA VI’s blockbuster launch fuels a booming content economy",
+      "link": "https://www.cnbc.com/2026/11/20/gta-vi-launch-streaming-content-economy.html"
+     }
+    ]
+   },
+   {
+    "category": "tech",
+    "headline": "Bending Spoons to buy Mailchimp from Intuit",
+    "summary": "The Italian firm will pay about $3.68bn (€3.35bn), less than a third of what Intuit paid in 2021. Intuit is shedding a slow-growing unit.",
+    "sources": [
+     {
+      "source": "CNBC",
+      "title": "Intuit to sell Mailchimp to Bending Spoons for $3.68 billion",
+      "link": "https://www.cnbc.com/2026/11/19/intuit-mailchimp-sale-bending-spoons.html"
+     },
+     {
+      "source": "Euronews",
+      "title": "Bending Spoons to buy Mailchimp from Intuit in €3.35bn deal",
+      "link": "https://www.euronews.com/2026/11/20/bending-spoons-to-buy-mailchimp-from-intuit-in-332-billion-deal"
+     }
+    ]
+   }
+  ]
+ },
+ "stats": {
+  "headlines": 440,
+  "feeds": 45,
+  "feedsFailed": 0
+ }
+}
