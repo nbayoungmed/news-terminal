@@ -1,13 +1,13 @@
 {
  "date": "2026-11-23",
  "dateLabel": "Monday, 23 November 2026",
- "generatedAt": "2026-11-23T09:04:09.633Z",
- "mode": "fallback",
- "model": null,
- "error": "400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011ChKbFffvJa38fnjFtPtNA\"}",
- "headlineOfDay": "",
+ "generatedAt": "2026-11-23T09:19:19.964Z",
+ "mode": "ai",
+ "model": "claude-opus-5-5 (via Claude Code)",
+ "error": null,
+ "headlineOfDay": "AI rout sends the Nasdaq down more than 5% as Asian regulators step in to prop up markets, while COP31 collapses without a fossil-fuel deal.",
  "markets": {
-  "summary": "",
+  "summary": "Wall Street suffered a heavy AI-led sell-off in the last session: the Nasdaq fell 5.3% and the S&P 500 3.7%, pushing the index into a correction, with chipmakers such as Nvidia, Micron and Sandisk down 14-16%. Asian markets followed lower and regulators in South Korea, China and Taiwan announced support measures, but US futures and European stocks are pointing to a rebound this morning.",
   "indices": [
    {
     "symbol": "^GSPC",
@@ -41,7 +41,8 @@
      7323.6299,
      7175.8301,
      6910.3901
-    ]
+    ],
+    "note": "Fell into a correction on AI bubble fears"
    },
    {
     "symbol": "SPUS",
@@ -110,7 +111,8 @@
      24429.8809,
      23879.1992,
      22617.7305
-    ]
+    ],
+    "note": "AI and chip stocks led a broad sell-off"
    },
    {
     "symbol": "^DJI",
@@ -149,12 +151,12 @@
    {
     "symbol": "^FTSE",
     "label": "FTSE 100",
-    "price": 10390.1396484375,
+    "price": 10409.2099609375,
     "asOf": "2026-11-23",
-    "d1": 0.42372485407911625,
-    "w1": -4.5164312102982045,
-    "m1": -2.8086950087558473,
-    "ytd": 4.619079281563742,
+    "d1": 0.6080449768283139,
+    "w1": -4.341178368946,
+    "m1": -2.630307747257917,
+    "ytd": 4.8110996588511385,
     "spark": [
      10690.4004,
      10767.2998,
@@ -177,18 +179,18 @@
      10551.2002,
      10452.7002,
      10346.2998,
-     10390.1396
+     10409.21
     ]
    },
    {
     "symbol": "^STOXX50E",
     "label": "Euro Stoxx 50",
-    "price": 5990.77001953125,
+    "price": 6007.02001953125,
     "asOf": "2026-11-23",
-    "d1": 0.8216128142114537,
-    "w1": -5.632645846942422,
-    "m1": -1.2763247306524168,
-    "ytd": 3.3564943614335143,
+    "d1": 1.095092050251152,
+    "w1": -5.376673826653256,
+    "m1": -1.0085361629229508,
+    "ytd": 3.636849479039032,
     "spark": [
      6068.2202,
      6116.23,
@@ -211,15 +213,15 @@
      6154.3901,
      6113.8599,
      5941.9502,
-     5990.77
+     6007.02
     ]
    },
    {
     "symbol": "^TASI.SR",
     "label": "Tadawul (Saudi)",
-    "price": 10037.12,
+    "price": 10038.09,
     "asOf": "2026-11-23",
-    "d1": 0.769845508832946,
+    "d1": 0.7795840344402419,
     "w1": null,
     "m1": null,
     "ytd": null,
@@ -231,12 +233,12 @@
     "symbol": "GC=F",
     "label": "Gold",
     "unit": "$/oz",
-    "price": 3612.199951171875,
+    "price": 3612.10009765625,
     "asOf": "2026-11-23",
-    "d1": 2.7535999179947495,
-    "w1": -6.2496768447476,
-    "m1": -9.872999845641768,
-    "ytd": -16.790678171137003,
+    "d1": 2.7507594583486528,
+    "w1": -6.252268423144303,
+    "m1": -9.87549126304385,
+    "ytd": -16.792978360337404,
     "spark": [
      4007.8999,
      4038.3999,
@@ -259,19 +261,19 @@
      3741.8999,
      3685.5,
      3515.3999,
-     3612.2
+     3612.1001
     ]
    },
    {
     "symbol": "SI=F",
     "label": "Silver",
     "unit": "$/oz",
-    "price": 42.415000915527344,
+    "price": 42.45000076293945,
     "asOf": "2026-11-23",
-    "d1": 3.3629854349865798,
-    "w1": -9.340598367291626,
-    "m1": -21.031069851056987,
-    "ytd": -39.522914290662364,
+    "d1": 3.4482781059802567,
+    "w1": -9.265788390747307,
+    "m1": -20.96590657283344,
+    "ytd": -39.47301004155079,
     "spark": [
      53.711,
      54.108,
@@ -294,19 +296,19 @@
      44.999,
      44.318,
      41.035,
-     42.415
+     42.45
     ]
    },
    {
     "symbol": "BZ=F",
     "label": "Brent crude",
     "unit": "$/bbl",
-    "price": 89.18000030517578,
+    "price": 89.29000091552734,
     "asOf": "2026-11-23",
-    "d1": -3.662092903558667,
-    "w1": -3.526614074136188,
-    "m1": -23.594928570513463,
-    "ytd": 46.55711181833991,
+    "d1": -3.5432632495517513,
+    "w1": -3.4076173114291697,
+    "m1": -23.50068541663998,
+    "ytd": 46.737885217041544,
     "spark": [
      116.72,
      115.81,
@@ -329,19 +331,20 @@
      91.95,
      91.98,
      92.57,
-     89.18
-    ]
+     89.29
+    ],
+    "note": "AI sell-off spilled into commodities; Middle East supply recovering"
    },
    {
     "symbol": "CL=F",
     "label": "WTI crude",
     "unit": "$/bbl",
-    "price": 82.69999694824219,
+    "price": 82.86000061035156,
     "asOf": "2026-11-23",
-    "d1": -1.5241799922906596,
-    "w1": -3.523103394137079,
-    "m1": -19.918660175733915,
-    "ytd": 44.026470890709916,
+    "d1": -1.3336540864636215,
+    "w1": -3.3364449015672837,
+    "m1": -19.76372295552426,
+    "ytd": 44.30512583186578,
     "spark": [
      103.27,
      101.76,
@@ -364,19 +367,19 @@
      83.26,
      83.21,
      83.98,
-     82.7
+     82.86
     ]
    },
    {
     "symbol": "HG=F",
     "label": "Copper",
     "unit": "$/lb",
-    "price": 5.521500110626221,
+    "price": 5.521999835968018,
     "asOf": "2026-11-23",
-    "d1": 0.812486255128154,
-    "w1": -7.936637543888299,
-    "m1": -14.739032524182772,
-    "ytd": -1.9271758722774333,
+    "d1": 0.8216103252434986,
+    "w1": -7.928305316350748,
+    "m1": -14.731315949835198,
+    "ytd": -1.918299756262532,
     "spark": [
      6.476,
      6.508,
@@ -399,19 +402,19 @@
      5.6595,
      5.625,
      5.477,
-     5.5215
+     5.522
     ]
    },
    {
     "symbol": "NG=F",
     "label": "US natural gas",
     "unit": "$/MMBtu",
-    "price": 3.50600004196167,
+    "price": 3.4830000400543213,
     "asOf": "2026-11-23",
-    "d1": 2.7851078346050273,
-    "w1": 12.299809914257134,
-    "m1": 32.80302661536935,
-    "ytd": -4.883344043626847,
+    "d1": 2.1108187165363868,
+    "w1": 11.563102609263028,
+    "m1": 31.93181445652803,
+    "ytd": -5.507326713973068,
     "spark": [
      2.64,
      2.602,
@@ -434,7 +437,7 @@
      3.372,
      3.268,
      3.411,
-     3.506
+     3.483
     ]
    }
   ],
@@ -442,12 +445,12 @@
    {
     "symbol": "GBPUSD=X",
     "label": "GBP/USD",
-    "price": 1.3129217624664307,
+    "price": 1.3125426769256592,
     "asOf": "2026-11-23",
-    "d1": 0.3269173555330088,
-    "w1": -0.6603977720177764,
-    "m1": -2.0494699898052557,
-    "ytd": -2.5096520311754236,
+    "d1": 0.29794953368183386,
+    "w1": -0.6890805221306809,
+    "m1": -2.0777516671292826,
+    "ytd": -2.537800838161709,
     "spark": [
      1.3404,
      1.3378,
@@ -470,18 +473,18 @@
      1.3205,
      1.3147,
      1.3086,
-     1.3129
+     1.3125
     ]
    },
    {
     "symbol": "EURUSD=X",
     "label": "EUR/USD",
-    "price": 1.0989010334014893,
+    "price": 1.098538875579834,
     "asOf": "2026-11-23",
-    "d1": 0.17581911724002128,
-    "w1": -0.32528024239611614,
-    "m1": -2.0714336478655224,
-    "ytd": -6.454950878003738,
+    "d1": 0.1428048099172458,
+    "w1": -0.3581294055912563,
+    "m1": -2.103707342392985,
+    "ytd": -6.485779924648452,
     "spark": [
      1.1221,
      1.1218,
@@ -504,7 +507,7 @@
      1.0993,
      1.0972,
      1.097,
-     1.0989
+     1.0985
     ]
    },
    {
@@ -584,6 +587,13 @@
     ],
     "losers": [
      {
+      "ticker": "SNDK",
+      "name": "Sandisk",
+      "price": 79.24,
+      "d1": -16.054875787912497,
+      "shariah": true
+     },
+     {
       "ticker": "BE",
       "name": "Bloom Energy",
       "price": 142.39,
@@ -595,7 +605,8 @@
       "name": "Nvidia",
       "price": 125.53,
       "d1": -14.008768324427997,
-      "shariah": true
+      "shariah": true,
+      "note": "AI sell-off; US probe into chip smuggling to China"
      },
      {
       "ticker": "LITE",
@@ -610,13 +621,6 @@
       "price": 594.51,
       "d1": -13.894038584091312,
       "shariah": true
-     },
-     {
-      "ticker": "AMD",
-      "name": "Advanced Micro Devices",
-      "price": 424.39,
-      "d1": -13.24638688444163,
-      "shariah": true
      }
     ],
     "coverage": 503
@@ -626,40 +630,40 @@
      {
       "ticker": "FRES",
       "name": "Fresnillo plc",
-      "price": 2202,
-      "d1": 2.3709902370990235
-     },
-     {
-      "ticker": "IHG",
-      "name": "IHG Hotels & Resorts",
-      "price": 173.65,
-      "d1": 2.3276370064820373
+      "price": 2209.5,
+      "d1": 2.7196652719665275
      },
      {
       "ticker": "RR",
       "name": "Rolls-Royce Holdings",
-      "price": 1299,
-      "d1": 2.0744931636020816
+      "price": 1303.8,
+      "d1": 2.451673738802455
      },
      {
-      "ticker": "BGEO",
-      "name": "Lion Finance Group",
-      "price": 12240,
-      "d1": 1.8302828618968388
+      "ticker": "IHG",
+      "name": "IHG Hotels & Resorts",
+      "price": 173.8,
+      "d1": 2.4160282852092063
+     },
+     {
+      "ticker": "HLMA",
+      "name": "Halma plc",
+      "price": 3332,
+      "d1": 2.334152334152334
      },
      {
       "ticker": "PCT",
       "name": "Polar Capital Technology Trust",
-      "price": 523.939,
-      "d1": 1.735728155339799
+      "price": 526.545,
+      "d1": 2.2417475728155263
      }
     ],
     "losers": [
      {
       "ticker": "VOD",
       "name": "Vodafone Group",
-      "price": 105.105,
-      "d1": -2.9949238578680113
+      "price": 105.796,
+      "d1": -2.357175819104742
      },
      {
       "ticker": "IGG",
@@ -670,20 +674,20 @@
      {
       "ticker": "REL",
       "name": "RELX",
-      "price": 2937,
-      "d1": -1.310483870967742
+      "price": 2944,
+      "d1": -1.0752688172043012
      },
      {
       "ticker": "BTRW",
       "name": "Barratt Redrow",
-      "price": 308.356,
-      "d1": -1.2944942381562046
+      "price": 309.3,
+      "d1": -0.9923175416133054
      },
      {
-      "ticker": "AUTO",
-      "name": "Autotrader Group",
-      "price": 536.2,
-      "d1": -0.7404664938911514
+      "ticker": "WPP",
+      "name": "WPP",
+      "price": 392.345,
+      "d1": -0.5714647744551432
      }
     ],
     "coverage": 100
@@ -693,49 +697,124 @@
   "stories": [
    {
     "category": "markets",
-    "headline": "Forget Anthropic: In Europe, the IPO hype is about a blue lagoon",
-    "summary": "Iceland’s famed Blue Lagoon geothermal spa is going public in a $110 million IPO, tapping investor interest in tourism and the booming wellness industry.",
+    "headline": "Asia moves to steady markets after AI sell-off; Wall Street futures recover",
+    "summary": "Regulators in South Korea, China and Taiwan have introduced measures to support their markets as chipmakers and hardware suppliers slid, with South Korean chip stocks down about 3%. US stock futures and European shares are recovering this morning after the steep tech-led sell-off.",
     "sources": [
      {
       "source": "CNBC",
-      "title": "Forget Anthropic: In Europe, the IPO hype is about a blue lagoon",
-      "link": "https://www.cnbc.com/2026/11/20/anthropic-ipo-iceland-blue-lagoon.html"
+      "title": "How Asian countries are looking to prop up markets as AI downturn sinks stocks",
+      "link": "https://www.cnbc.com/2026/11/23/asia-markets-kospi-taiwan-china-csi300.html"
+     },
+     {
+      "source": "FT",
+      "title": "Asian regulators rush to support sagging markets as AI trade falters",
+      "link": "https://www.ft.com/content/69459363-8299-4555-a39c-8980ee6c3590?syn-25a6b1a6=1"
+     },
+     {
+      "source": "Al Jazeera",
+      "title": "Asian stock markets tumble as AI bubble fears mount",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOaWg2VjJNckwyMnpNTjV6cnBRckpmX2hndGxyM29qMnU0aml6bUNicGJPNXJKdzludzVfYVNhSHpJR0xhZjJMeHFDM3d4MldqQUJPbE9ha3VFbjMyLXFEeS1VSkFxejNJN2czNFlnMF9uNGdnb2lPUUdoTmZZeUFrbHFfNjVsZzc5QUVSR3hST2VYaDB1S2dYd0ktRWNoSHNmQUHSAacBQVVfeXFMUHlLZVl5SzNCcWd0RjktYlZwT2pDLXNDZmg1dzNKQ2k4VFZaa08xWjhQcEFubzhxYnpsZWxQU3ZIaGZSZlFzOGlrY3RRNUlLczVZRk8xN05VdkduMFRaVy03ME5zMWFtT0JSSWRqTzZ0cjVtUVBwYzJ5LWZhM0FiOFlSSlJHS1ZhcmZqeGlFdi1CLTBLeVpVSFNJVElhSnQxQmU4WS1hSWM?oc=5"
+     },
+     {
+      "source": "Bloomberg.com",
+      "title": "Stock Futures Rally After AI Rout, Havens Decline: Markets Wrap",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNMFVRM2J2cTZ6eU02Qzk1TF83UmhsSEN3SlpHYjJuc2lDeXBVM0h6WkN2bEJCUlk5RnZNOFMta05FOXFqeTZQQWZnbFl2RG1WTWVNSXYwVWhZRFZxRkx6SDlhTWtUWk92UVBJa2FGWVk3ak9rOUVJYjZ6RDBqcUZCOEpiWmFVWGxvVmM1Y2prdDk2N19EZG0xWjU3aFV5QkJ6MjF4eExGSkd3TWxaWGRBVzhB?oc=5"
+     },
+     {
+      "source": "Reuters",
+      "title": "European stocks recover after steep technology-led selloff",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNdDFuaFRyaktlcVA5TVR0eXF2QlktZ3ZVU3JkbzZycU8zTU90WEhFSlhuVTc5RTRCdVctYVpuQzZhdUJnN1BlZWdOYkZEQXg5alR6d1BDVWEwMEszRTlRUFB1aG9ueFhHWmZmbkI1dmFSSmNZMVF6VzlhZFpBOG5BaVJ0QlprZnRVRmVIZ2djcXFzM3VrU2VQa3FQelVLU2Qzd2MwT19jTUdkRnVWYmc?oc=5"
+     },
+     {
+      "source": "Guardian Business",
+      "title": "Tech sell-off eases as stock market support measures are deployed after AI slump – business live",
+      "link": "https://www.theguardian.com/business/live/2026/nov/23/tech-sell-off-ai-stock-market-support-measures-deployed-south-korea-taiwan-china-ftse-nasdaq-latest-news-updates"
      }
     ]
    },
    {
-    "category": "markets",
-    "headline": "LME aluminium cash offer price rises 1.51% to $3,184.5/t as stocks fall 0.76% on November 20",
-    "summary": "",
+    "category": "economy",
+    "headline": "Ofgem to confirm January price cap as Centrica warns over unpaid bills",
+    "summary": "Forecasts suggest household energy bills will rise by around £443 a year from January, with Ofgem due to confirm the cap on Wednesday. Centrica's chief executive Chris O'Shea says he is 'hugely concerned' that more people will be unable or unwilling to pay.",
     "sources": [
      {
-      "source": "AL Circle",
-      "title": "LME aluminium cash offer price rises 1.51% to $3,184.5/t as stocks fall 0.76% on November 20",
-      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQeVFDd19pRXZldTBxM0ZHOV9BSWxNeHN4NjVSeGdwR0p3QTJ5bERGNU9oZ1ZEQ0l4TUZJVlRDRXhBNlZvcFdySnhuSV9VVDdqajhMcVdmMkh3ZTZsY1JuM2hpemFneVNueThmMnVsbEwtWVNOMzlmQ2ZJSkF6N0Z3ZnU3LVdDRVlvRFQ5WWxWeUNLUnJxX2JZYmJteWp0cVZOMlVMdGlwb05HWUdpdU1VTHZfYVRyckZ3X19aQUJyX2l5S2Zx?oc=5"
+      "source": "BBC Business",
+      "title": "Centrica boss says he is 'hugely concerned' over impact of soaring energy bills",
+      "link": "https://www.bbc.co.uk/news/articles/c6jre7gpdw13o?at_medium=RSS&at_campaign=rss"
+     },
+     {
+      "source": "BBC",
+      "title": "Boss of British Gas owners Centrica 'hugely concerned' over impact of soaring energy bills",
+      "link": "https://www.bbc.co.uk/news/articles/c6jre7gpdw13o?at_medium=RSS&at_campaign=rss"
+     },
+     {
+      "source": "Nacionale",
+      "title": "Are energy bills going up in January? Forecasts say by £443 a year, and Ofgem confirms the cap on Wednesday",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNeTkzR3dKYVo4dTF5elVnQUhadDNfNWVPMkJFSTNxbTg2cm1CM0gyWDlUQ1E1cXl2X2dYT0wwdkxFWG5XNEFydDE2M2lBbElkNnF6TW1GMkJzWTRKRXZSSnJFMkczbGFtaWdZWVI2RkhRQ0FIdEoyVndPNzE3VmJKcUtRWm5FM21XUFdmRGFlcnRPdlloNllIVy1NVTdNeldJeDdVZlQ2c3BoUEU2blVhN2VXeC00S3VT?oc=5"
      }
     ]
    },
    {
-    "category": "markets",
-    "headline": "Stock-market slides this steep and fast trigger a rebound 91% of the time over the last decade",
-    "summary": "The big question for traders is whether the S&P 500’s swift fall into a correction is the start of something much worse for the stock market or actually a harbinger of a reversal.",
+    "category": "companies",
+    "headline": "US widens probe into how Nvidia's top chips reached China",
+    "summary": "US authorities are investigating Megaspeed and Alice Huang after a former associate was reportedly deeply involved in the firm's activities, as senators ask how China bypassed export controls on Nvidia's best AI chips. The case adds pressure on Nvidia, which fell 14% in the last session.",
     "sources": [
      {
-      "source": "MarketWatch",
-      "title": "Stock-market slides this steep and fast trigger a rebound 91% of the time over the last decade",
-      "link": "https://www.marketwatch.com/story/stock-market-slides-this-steep-and-fast-trigger-a-rebound-91-of-the-time-over-the-last-decade-798bd2c2?mod=mw_rss_topstories"
+      "source": "CNBC",
+      "title": "U.S. probes Megaspeed, Alice Huang as new figure emerges in Nvidia chip case",
+      "link": "https://www.cnbc.com/2026/11/23/nvidia-megaspeed-chipmaker-us.html"
+     },
+     {
+      "source": "Guardian",
+      "title": "Jensen Huang’s reported affair was ‘most expensive sex since Helen of Troy’, US senator says",
+      "link": "https://www.theguardian.com/us-news/2026/nov/22/jensen-huang-nvidia-john-kennedy"
      }
     ]
    }
   ],
-  "calendar": []
+  "calendar": [
+   {
+    "when": "Today",
+    "event": "PM Andy Burnham addresses MPs on the UK-EU deal"
+   },
+   {
+    "when": "Today",
+    "event": "MPs debate bereavement support petition"
+   },
+   {
+    "when": "Wednesday",
+    "event": "Ofgem confirms January energy price cap"
+   }
+  ]
  },
  "world": {
   "us": [
    {
-    "category": "notable",
-    "headline": "Trump hosts third crypto gala for meme coin amid conflict of interest outcry",
-    "summary": "Virginia dinner comes as Democrats accuse president of improperly profiting from his cryptocurrency ventures Donald Trump has headlined his third cryptocurrency gala at his ​country club in Virginia, rewarding top holder",
+    "category": "political",
+    "headline": "Democrats win 258+ House seats, biggest sweep since 1992",
+    "summary": "Democrats passed 258 seats after Chuck Hubbard beat Virginia Foxx in North Carolina, giving them their largest House majority this century. Incoming speaker Hakeem Jeffries says the party will focus on affordability, healthcare and immigration, and plans to use its powers to investigate corruption claims against the administration.",
+    "sources": [
+     {
+      "source": "Guardian",
+      "title": "Democrats capture at least 258 House seats in largest sweep since 1992",
+      "link": "https://www.theguardian.com/us-news/2026/nov/22/house-democrats-historic-sweep"
+     },
+     {
+      "source": "FT",
+      "title": "House Democrats to start new Congress with largest majority this century",
+      "link": "https://www.ft.com/content/9d2983a7-196d-4164-a0c1-e262f32fd8c9?syn-25a6b1a6=1"
+     },
+     {
+      "source": "NPR Politics",
+      "title": "Politics chat: Lawmakers step up with only weeks to Democrats' control of Congress",
+      "link": "https://www.npr.org/2026/11/22/nx-s1-6045787/politics-chat-lawmakers-step-up-with-only-weeks-to-democrats-control-of-congress"
+     }
+    ]
+   },
+   {
+    "category": "financial",
+    "headline": "Trump's third crypto gala draws conflict-of-interest criticism",
+    "summary": "President Trump headlined a third dinner for his meme coin in Virginia as Democrats accused him of improperly profiting from his cryptocurrency ventures. The event comes as the incoming Democratic House prepares investigations into the administration.",
     "sources": [
      {
       "source": "Guardian",
@@ -746,139 +825,257 @@
    },
    {
     "category": "notable",
-    "headline": "The Ravens have long been a model of stability. Now they’re going off the rails",
-    "summary": "Baltimore have been one of the most successful teams in the league this century. But recent events have dinged their reputation The Baltimore Ravens have lost in all sorts of fashion in recent weeks. There were the blowo",
-    "sources": [
-     {
-      "source": "Guardian",
-      "title": "The Ravens have long been a model of stability. Now they’re going off the rails",
-      "link": "https://www.theguardian.com/sport/2026/nov/23/baltimore-ravens-nfl-football"
-     }
-    ]
-   },
-   {
-    "category": "notable",
-    "headline": "Video of ICE detaining father and daughter while boarding flight sparks protests in Seattle",
-    "summary": "Footage of Saturday incident, filmed by fellow passengers, quickly went viral on social media as mayor calls tactics ‘un-American’ Protesters marched through the Seattle-Tacoma international airport on Sunday after widel",
+    "headline": "ICE arrests at Seattle airport spark protests",
+    "summary": "Video of ICE detaining a father and daughter as they boarded a flight went viral, prompting protests, with Washington's governor calling the scenes 'horrific'. ICE says the two Mexican nationals had overstayed their visas.",
     "sources": [
      {
       "source": "Guardian",
       "title": "Video of ICE detaining father and daughter while boarding flight sparks protests in Seattle",
       "link": "https://www.theguardian.com/us-news/2026/nov/23/father-daughter-ice-arrests-video-sparks-protests-seattle-airport"
+     },
+     {
+      "source": "BBC",
+      "title": "Seattle airport operator 'outraged' over ICE arrest of two passengers",
+      "link": "https://www.bbc.co.uk/news/articles/cmwy479wz91no?at_medium=RSS&at_campaign=rss"
+     },
+     {
+      "source": "DW",
+      "title": "US: ICE arrests 2 at Seattle airport in 'chilling' scenes — governor",
+      "link": "https://www.dw.com/en/us-ice-arrests-2-at-seattle-airport-in-chilling-scenes-governor/a-80012480?maca=en-rss-en-all-1573-rdf"
      }
     ]
    }
   ],
   "uk": [
    {
+    "category": "political",
+    "headline": "Burnham defends EU deal to MPs as former PMs and Tories push back",
+    "summary": "Andy Burnham will tell MPs Friday's 'landmark' UK-EU deal on trade and youth mobility is a choice between 'a broken status quo or change'. Theresa May said she was 'aghast' at talk of rejoining, and the Conservatives say they would scrap the deal.",
+    "sources": [
+     {
+      "source": "BBC",
+      "title": "Burnham to tell MPs 'landmark' EU deal could make next decade 'much better'",
+      "link": "https://www.bbc.co.uk/news/articles/cmde1dy82lepo?at_medium=RSS&at_campaign=rss"
+     },
+     {
+      "source": "BBC Politics",
+      "title": "'Move on!' Former PMs pile in with advice for Andy Burnham, but will he listen?",
+      "link": "https://www.bbc.co.uk/news/articles/cjn5023e6ez4o?at_medium=RSS&at_campaign=rss"
+     },
+     {
+      "source": "Guardian",
+      "title": "Burnham not ‘backtracking’ on creating closer links with EU, officials say",
+      "link": "https://www.theguardian.com/politics/2026/nov/23/andy-burnham-not-backtracking-creating-closer-links-eu-officials-say"
+     }
+    ]
+   },
+   {
+    "category": "financial",
+    "headline": "Hospitals warn of 'unpalatable' cuts under NHS savings drive",
+    "summary": "Thirty-one NHS trusts in England have warned that cost-cutting demands threaten their ability to function normally. Separately, a review led by Sir Stephen Timms will recommend an overhaul of Pip disability payments rather than scrapping them for under-25s.",
+    "sources": [
+     {
+      "source": "Guardian",
+      "title": "NHS savings drive leaves hospitals in England facing ‘unpalatable’ cuts",
+      "link": "https://www.theguardian.com/society/2026/nov/22/nhs-savings-hospitals-trusts-england-cuts"
+     },
+     {
+      "source": "BBC",
+      "title": "Pip assessments need 'fundamental overhaul', report to say",
+      "link": "https://www.bbc.co.uk/news/articles/cvlyj3rn201xo?at_medium=RSS&at_campaign=rss"
+     }
+    ]
+   },
+   {
     "category": "notable",
-    "headline": "Manchester's Co-op Live evacuated after 'unknown substance' let off in crowd",
-    "summary": "One person was taken to hospital after a major incident was declared during a performance by US rapper Don Toliver.",
+    "headline": "12,000 evacuated from Manchester's Co-op Live after substance released",
+    "summary": "A major incident was declared when an 'unknown substance' was let off in the crowd at a Don Toliver concert at the UK's biggest arena. One person was taken to hospital.",
     "sources": [
      {
       "source": "BBC",
       "title": "Manchester's Co-op Live evacuated after 'unknown substance' let off in crowd",
       "link": "https://www.bbc.co.uk/news/articles/c9e851dn8516o?at_medium=RSS&at_campaign=rss"
-     }
-    ]
-   },
-   {
-    "category": "notable",
-    "headline": "Tech sell-off eases as stock market support measures are deployed after AI slump – business live",
-    "summary": "Rolling coverage of the latest economic and financial news Outsourcing group Capita has halved in value (!) in early trading, after the company announced the departure of its CEO, cut its profit forecasts, and proposed r",
-    "sources": [
+     },
      {
-      "source": "Guardian Business",
-      "title": "Tech sell-off eases as stock market support measures are deployed after AI slump – business live",
-      "link": "https://www.theguardian.com/business/live/2026/nov/23/tech-sell-off-ai-stock-market-support-measures-deployed-south-korea-taiwan-china-ftse-nasdaq-latest-news-updates"
-     }
-    ]
-   },
-   {
-    "category": "notable",
-    "headline": "Gas prices in Europe surge as forecast cold snap feeds supply shortage fears",
-    "summary": "Jump in price follows slowdown in Qatar supplies and depleted summer stocks due to heatwaves Business live – latest updates European gas prices surged on Monday as a forecast cold snap in the coming weeks fed fears acros",
-    "sources": [
-     {
-      "source": "Guardian Business",
-      "title": "Gas prices in Europe surge as forecast cold snap feeds supply shortage fears",
-      "link": "https://www.theguardian.com/business/2026/nov/23/gas-prices-in-europe-surge-as-forecast-cold-snap-feeds-supply-shortage-fears"
+      "source": "Sky News",
+      "title": "Concertgoer describes 'distressing scenes' after 'unknown substance' released at gig",
+      "link": "https://news.sky.com/story/concert-goers-evacuated-from-manchester-co-op-live-as-major-incident-declared-13615479"
      }
     ]
    }
   ],
   "europe": [
    {
-    "category": "notable",
-    "headline": "NATO members to discuss Russian airspace violations",
-    "summary": "Ukrainian President Zelenskyy and German Foreign Minister Wadephul are set to address the NATO Parliamentary Assembly in Berlin while NATO representatives discuss Russian airspace violations in Brussels. DW has more.",
+    "category": "political",
+    "headline": "Ukraine sinks Russian warship in Libya's Benghazi port",
+    "summary": "Zelensky says Ukrainian sea drones sank the corvette Merkury and hit a cargo ship at Benghazi, spreading the naval war from the Baltic to the Mediterranean. A separate Russia-bound ship was attacked in the Gulf of Finland, which Finland says Ukraine was likely behind.",
     "sources": [
      {
-      "source": "DW",
-      "title": "NATO members to discuss Russian airspace violations",
-      "link": "https://www.dw.com/en/nato-members-to-discuss-russian-airspace-violations/live-80016415?maca=en-rss-en-all-1573-rdf"
-     }
-    ]
-   },
-   {
-    "category": "notable",
-    "headline": "How industrial cooperation strengthens Europe’s defense readiness",
-    "summary": "European and North American defense companies are strengthening industrial cooperation through the Patriot® program, supporting manufacturing capacity, technical expertise, and long-term defense readiness across Europe.",
-    "sources": [
-     {
-      "source": "Politico Europe",
-      "title": "How industrial cooperation strengthens Europe’s defense readiness",
-      "link": "https://www.politico.eu/sponsored-content/how-industrial-cooperation-strengthens-europes-defense-readiness/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication"
-     }
-    ]
-   },
-   {
-    "category": "notable",
-    "headline": "Ukraine sank Russian warship off Libya, Zelenskyy says",
-    "summary": "Kyiv said seven sea drones sank the corvette and hit a cargo ship, as Ukraine's war at sea spreads from the Baltic to the Mediterranean.",
-    "sources": [
+      "source": "Guardian",
+      "title": "Zelenskyy says Ukraine responsible for sinking Russian warship in Libya – Europe live",
+      "link": "https://www.theguardian.com/world/live/2026/nov/23/russia-ukraine-war-zelenskyy-libya-benghazi-drone-attack-ship-merkury-un-nato-europe-latest-news-updates"
+     },
      {
       "source": "Politico Europe",
       "title": "Ukraine sank Russian warship off Libya, Zelenskyy says",
       "link": "https://www.politico.eu/article/volodymyr-zelenskyy-claims-ukraine-sank-russia-warship-benghazi-libya/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication"
+     },
+     {
+      "source": "FT",
+      "title": "Ukraine blows up Russian warship in Libya’s Benghazi naval base",
+      "link": "https://www.ft.com/content/b3f020fc-2617-4432-bced-af2a0b120133?syn-25a6b1a6=1"
+     },
+     {
+      "source": "BBC",
+      "title": "Russian ships hit by Ukrainian drones off Libya coast, Zelensky says",
+      "link": "https://www.bbc.co.uk/news/articles/cr894gjz0j0yo?at_medium=RSS&at_campaign=rss"
+     },
+     {
+      "source": "France24",
+      "title": "Live: Zelensky confirms Ukraine’s military struck Russian ships in Libyan waters",
+      "link": "https://www.france24.com/en/europe/20261123-live-russian-strikes-kill-at-least-15-people-in-kyiv-region-ukraine-says"
+     },
+     {
+      "source": "DW",
+      "title": "Ukraine updates: Kyiv claims strike that sunk Russian ship off Libya",
+      "link": "https://www.dw.com/en/ukraine-updates-kyiv-claims-strike-that-sunk-russian-ship-off-libya/live-80015859?maca=en-rss-en-all-1573-rdf"
+     },
+     {
+      "source": "Al Jazeera",
+      "title": "Zelenskyy says Ukraine behind drone attacks on Russian ships near Libya",
+      "link": "https://www.aljazeera.com/news/2026/11/23/zelenskyy-says-ukraine-behind-drone-attacks-on-russian-ships-near-libya?traffic_source=rss"
+     }
+    ]
+   },
+   {
+    "category": "financial",
+    "headline": "IG Metall calls 24-hour strikes in German car and shipyard pay row",
+    "summary": "Germany's biggest union is escalating its pay dispute with walkouts at carmakers including Mercedes and at shipyards. It follows three days of protests across Europe over rising costs and public services.",
+    "sources": [
+     {
+      "source": "DW",
+      "title": "Germany news: IG Metall union calls for new 24-hour strike",
+      "link": "https://www.dw.com/en/germany-news-ig-metall-union-calls-for-new-24-hour-strike/live-80008430?maca=en-rss-en-all-1573-rdf"
+     },
+     {
+      "source": "France24",
+      "title": "Europe sees new protests over rising costs, inequality and public services",
+      "link": "https://www.france24.com/en/europe-sees-new-protests-over-rising-costs-inequality-and-public-services"
+     }
+    ]
+   },
+   {
+    "category": "notable",
+    "headline": "Russian drone strike on Kyiv-region apartment block kills at least 11",
+    "summary": "Rescuers pulled a woman and children alive from the rubble in Dymer, including a seven-year-old trapped for 14 hours. The UN mission has called for an investigation.",
+    "sources": [
+     {
+      "source": "Guardian",
+      "title": "Ukraine war briefing: Race to find survivors after Russian attack on apartment block kills at least 11",
+      "link": "https://www.theguardian.com/world/2026/nov/23/ukraine-war-briefing-race-to-find-survivors-after-russian-attack-on-apartment-block-kills-at-least-nine"
+     },
+     {
+      "source": "BBC",
+      "title": "'Danger seems greater all the time': Ukrainians search for missing after Russian strikes",
+      "link": "https://www.bbc.co.uk/news/videos/cre3dvd1k9y1o?at_medium=RSS&at_campaign=rss"
+     },
+     {
+      "source": "France24",
+      "title": "Ukrainian rescuers search for survivors in rubble after Russian attack",
+      "link": "https://www.france24.com/en/europe/20261122-live-finland-says-war-spilling-over-after-baltic-sea-drone-strike-on-russian-cargo-ship"
+     },
+     {
+      "source": "Al Jazeera",
+      "title": "Child rescued in Ukraine after Russian drone attack kills 10",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/23/child-rescued-in-ukraine-after-russian-drone-attack-kills-10?traffic_source=rss"
      }
     ]
    }
   ],
   "middle_east": [
    {
-    "category": "notable",
-    "headline": "Iraq says $2.5bn recovered in corruption clamp down",
-    "summary": "",
+    "category": "political",
+    "headline": "Bahrain says Iran struck industrial site as tankers hit in Hormuz",
+    "summary": "Bahrain accused Iran of attacking a civilian industrial site, injuring two, as two tankers were hit in the Strait of Hormuz and another incident was reported in the Gulf of Oman. Yemen's Houthis also claim attacks on a Saudi oil refinery, while Trump warns of new strikes next year.",
+    "sources": [
+     {
+      "source": "France24",
+      "title": "Bahrain accuses Iran of striking industrial site as tankers hit in Hormuz",
+      "link": "https://www.france24.com/en/middle-east/20261122-bahrain-accuses-iran-of-striking-industrial-site-as-tankers-hit-in-hormuz"
+     },
+     {
+      "source": "Arab News",
+      "title": "Bahrain says two injured in Iranian attack on industrial site, as tankers hit in Hormuz",
+      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNekRKMDcxVEE3NUpvRXVuNmdSV3lEbURYZ2drNnZFTHFybUxpU0hQREFDM083VllXbVdhME9IX2xKMUpGMG5jZDY5Y2QtcVRsbDFvWnFTT1FUSmNtVWpQczhYOVpsZS04aDZDOElmaEdpUDdaMDJucGJXV3lCS1VIdUlkUFc2WVBaVFdFYmw5OVhwLUw5Y0JzdWpaNk5BYmJpdy16N3k1dFJDWnFaaU5uRWV3NjkwQlVXblFRWDA0MTlKNjk5OGNhekFrbw?oc=5"
+     },
+     {
+      "source": "Ship & Bunker",
+      "title": "Tankers Attacked Over the Weekend in Gulf of Oman and Strait of Hormuz",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNb1RPejg4dTJzYjRpYmp0ejRKM0dQMnY4VXM1emJlRkozLUV2Y0dxNFVnTjQ4RUZhUzVvZ2NmalU1cmdqVlMycWRwQ1Q4RGxlWUZfQkJwakFaNVBkRkFfT3dtSndiLTQ0Vm1VMm5QX3IwZXRTUXZwbWU0VWZnSG02Z1B6RUQ1eGNkT3NlNHktWVdiVWVqV2ZaTUJBeEJROVVHZjZENldPTnM5aDh1WElwU2kwbw?oc=5"
+     },
+     {
+      "source": "Bloomberg.com",
+      "title": "Watch Iran Targets Bahrain as US-Iran Tensions Escalate Over Fresh Strikes",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPRk5LbmZLRVVRdTF0YzFiQTA5RVdZaEJKbmljVWotREZIOXVaSzlYV3ExaHcybEV4Y2x4aGpadUhPSGR4Z1dTRXpsSTQ2cmlZR3ctLWxHZy1kSlN5dVFfMTVlc0JjeTltdnVXS2RFRGY3SFlEenlRSEJZSEd0aFNsUXhFMWhRM1VlblNtN2ZEYW5PT1FjcU9KNQ?oc=5"
+     },
+     {
+      "source": "CNBC",
+      "title": "Yemen's Houthis claim attacks on Saudi oil refinery as Trump warns of new strikes next year",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9YeVVuSzlMa1Vza0JNYXpXbGw2emp5RndTVHplTzB1QllobEw0SW5Dc3VyTFhwMFJnMkpRSEJEZnhPOFFZYWZhckZXaUlKdTZPRzNyOGNzLWp0YUZDOHM4N0xZQWZHVm9zOHRPbXp1a040YUHSAXhBVV95cUxNcG02RV9VeGk3SG90SjhQdWEyTGd3RVdNRmw4YkZreEZmY2JHUU5nVGNBQklaSmFES0ppelA3UmZFVFVUdVF0RzlzdVBtWWF1emF1U3o1N0x4T25VRDVTMS1Od3BWZnhTVERFN0hJd1Bud1hHdkk3MnA?oc=5"
+     },
+     {
+      "source": "The National",
+      "title": "Middle East latest: New attacks have failed, claims Trump, as Iran imposes power cuts",
+      "link": "https://www.thenationalnews.com/news/mena/2026/11/23/live-iran-us-war-trump/"
+     }
+    ]
+   },
+   {
+    "category": "financial",
+    "headline": "Saudi tightens Saudisation rules for finance jobs",
+    "summary": "Saudi Arabia will require more citizens to be employed in finance roles by May. Meanwhile Bahrain is pushing a Gulf tourism comeback despite the Iranian attacks.",
     "sources": [
      {
       "source": "The National",
-      "title": "Iraq says $2.5bn recovered in corruption clamp down",
-      "link": "https://www.thenationalnews.com/news/mena/2026/11/23/iraq-says-25bn-recovered-in-corruption-clamp-down/"
+      "title": "Saudi Arabia tightens rules to boost employment of citizens in finance jobs by May",
+      "link": "https://www.thenationalnews.com/business/economy/2026/11/23/saudi-arabia-tightens-rules-to-boost-employment-of-citizens-in-finance-jobs-by-may/"
+     },
+     {
+      "source": "TravelMole",
+      "title": "Bahrain pushes Gulf tourism comeback amid Iranian attacks",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFAyNWtCUXQ5ZWtQZXNRRGRFbEJTN25CSDZlX2V3MUZ1Y3FjaHpPZ0NQWGRaMllkSkZSVDNsMkpacnRULWZCejhETlVfT0dyUmdNM2RlcFR3VWNFNTJPcVpmY1I1Sm5fUnVJOGlKN3VZWQ?oc=5"
+     },
+     {
+      "source": "FT",
+      "title": "The Gulf’s ‘new normal’",
+      "link": "https://www.ft.com/content/770e588c-9d85-4999-a25a-c01b8c3078d3?syn-25a6b1a6=1"
      }
     ]
    },
    {
     "category": "notable",
-    "headline": "New Al Ain Museum exhibition explores 3,000 years of ingenuity behind aflaj",
-    "summary": "",
+    "headline": "Israeli opposition leader condemns settler 'Jewish terrorism'",
+    "summary": "Gadi Eisenkot condemned arson attacks by settlers on Palestinian villages in the West Bank, and Israeli authorities have opened an investigation. Separately, talks between Netanyahu's and Eisenkot's parties on forming a government ended without a deal.",
     "sources": [
      {
-      "source": "The National",
-      "title": "New Al Ain Museum exhibition explores 3,000 years of ingenuity behind aflaj",
-      "link": "https://www.thenationalnews.com/arts-culture/2026/11/23/new-al-ain-museum-exhibition-explores-3000-years-of-ingenuity-behind-aflaj/"
-     }
-    ]
-   },
-   {
-    "category": "notable",
-    "headline": "Sport quiz of the week: November 23, 2026",
-    "summary": "",
-    "sources": [
+      "source": "DW",
+      "title": "Israel's Eisenkot condemns 'Jewish terrorism' in West Bank",
+      "link": "https://www.dw.com/en/israel-s-eisenkot-condemns-jewish-terrorism-in-west-bank/a-80013861?maca=en-rss-en-all-1573-rdf"
+     },
      {
-      "source": "The National",
-      "title": "Sport quiz of the week: November 23, 2026",
-      "link": "https://www.thenationalnews.com/sport/2026/11/23/sport-quiz-of-the-week-november-23-2026/"
+      "source": "Guardian",
+      "title": "Netanyahu rival condemns ‘Jewish terrorism’ after settler attacks on Palestinian villages",
+      "link": "https://www.theguardian.com/world/2026/nov/22/netanyahu-rival-condemns-settler-arson-attacks-palestinian-villages-west-bank"
+     },
+     {
+      "source": "France24",
+      "title": "Israel’s Eisenkot slams ‘Jewish terrorism’ after attacks by settlers in West Bank",
+      "link": "https://www.france24.com/en/middle-east/20261122-israel-s-eisenkot-slams-jewish-terrorism-after-attacks-by-settlers-in-west-bank"
+     },
+     {
+      "source": "Arab News",
+      "title": "Netanyahu, Eisenkot parties end talks without deal on forming Israel govt",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPQzN5endsNFZmWVdDQmVrUnpTUm5tM0ZMaUNmQ2ExZGkyWHFrTTVqaFRpTWw4STFRSC1nZTZaMzQ5d3hIWDRhMmMxRHJmMEFzRnpYaVg1U2tUcmpaTGFpT3RZVDRRbXpQa1doYnplSWxKSEVBbElTQTBDaXNjeFc2NU9HQ3NFSkxnX0lhdFh6Tnp1S2piMDhKYW5sdEY3dEZrTkQ3TWx2dXBrSXVtVzVfbzNlT0t5YkFp?oc=5"
      }
     ]
    }
@@ -888,37 +1085,77 @@
   "energy": [
    {
     "category": "energy",
-    "headline": "Norway funds nuclear propulsion push as offshore owner targets 2032 debut",
-    "summary": "",
+    "headline": "COP31 collapses without agreement on fossil fuels",
+    "summary": "Talks in Antalya broke down two days late after nearly 200 countries failed to agree on moving away from coal, oil and gas or on funding vulnerable countries. Reuters reports Saudi Arabia's influence loomed large over the failure.",
     "sources": [
      {
-      "source": "Splash247",
-      "title": "Norway funds nuclear propulsion push as offshore owner targets 2032 debut",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOMWl4YzdvNjdNTGFhbzhVeUFaTVNqSmw5OXczRGtmY0JQUHhmLXA5aVZ3aF96RUkxMzBJS1B3Z0FfQ1pndmY3ZGc5d1pGa3g4VW1oOFRmUWZseUowZDFuekR2MHNrX0FZRTk3RTVOUUJfVUFBRXBydEtjdHBxZlNWT2p2TU9GaVJYeHRBZDc3UWRDQkswcGM1RVM5eTM?oc=5"
+      "source": "DW",
+      "title": "COP31 climate talks end without consensus on how to fund vulnerable countries or move the world away from coal, oil and gas use",
+      "link": "https://www.dw.com/en/cop31-climate-talks-end-without-consensus-on-how-to-fund-vulnerable-countries-or-move-the-world-away-from-coal-oil-and-gas-use/a-80003610?maca=en-rss-en-all-1573-rdf"
+     },
+     {
+      "source": "NPR",
+      "title": "Climate change talks fall apart in final hours over fossil fuels",
+      "link": "https://www.npr.org/2026/11/22/nx-s1-6046195/cop31-climate-talks-close-disappointment"
+     },
+     {
+      "source": "BBC",
+      "title": "What's next after no deal at COP31 climate talks?",
+      "link": "https://www.bbc.co.uk/news/videos/cr1ewge81q4qo?at_medium=RSS&at_campaign=rss"
+     },
+     {
+      "source": "Reuters",
+      "title": "Saudi Arabia's influence loomed large over failed COP31 deal",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNTlIwMm16SERFRUIwTHpnYXA5RE1pZDIyd3hSM3YxZUVDZTVkOVU0bnl6emlESm1ja0dEaFptdXN4V3FwZzFDNWN0ZE9iSS02ZDIxTFFkTXJsek5RX2duZjdrVk1CUnhXRkhjbTBEWG1WeWR6R0k0T2VVTFVSamJubUxfZi1lY2g1NXpvTmZiMllacVFfR21fbEVfbG1scTBzTUNybkF5cHpWUnBwV0RYOGdUaWg?oc=5"
+     },
+     {
+      "source": "Guardian Energy",
+      "title": "Finance, fossil fuels and the ‘overshoot’: six key takeaways from Cop31",
+      "link": "https://www.theguardian.com/environment/2026/nov/22/finance-fossil-fuels-overshoot-six-key-takeaways-cop31"
      }
     ]
    },
    {
     "category": "energy",
-    "headline": "DNV issues design compliance statement for Formosa 4 offshore wind project",
-    "summary": "",
+    "headline": "European gas jumps 8.6% on cold snap and slower Qatari supply",
+    "summary": "Prices rose to about €96/MWh as colder forecasts met depleted storage and reduced Qatari supplies. Oil moved the other way, sliding as the AI sell-off spread to commodities and Middle East supply recovered.",
     "sources": [
      {
-      "source": "Windtech International",
-      "title": "DNV issues design compliance statement for Formosa 4 offshore wind project",
-      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNV05aY1A2cHd4cHc4OVJqLVM1OFlLc3ZodzdpVFdRZHNNc1RUcUN1blA5VnFqN2kzOEQ3QzBZV3poZUhXai1LU1JaVVh4NTBhZTY1NGpuTllONmtacEdacTJGYlNSUHhxQWRtMFZjclZXTG5PaVIwQkplaTFsbWFMWXBTcjJYOVEwd1FWSk5kY0NuY2NaLVptdUZ3Q0lnQlo1VFNrblZuTW54bUZKSlJiU3FVVGxIWHV1S1ZsbTZxWUZaNjV1ZWY5VmQyMmRfcEM0MWc?oc=5"
+      "source": "Guardian Business",
+      "title": "Gas prices in Europe surge as forecast cold snap feeds supply shortage fears",
+      "link": "https://www.theguardian.com/business/2026/nov/23/gas-prices-in-europe-surge-as-forecast-cold-snap-feeds-supply-shortage-fears"
+     },
+     {
+      "source": "OilPrice",
+      "title": "European Natural Gas Prices Surge 8.6% as Cold Snap Looms",
+      "link": "https://oilprice.com/Latest-Energy-News/World-News/European-Natural-Gas-Prices-Surge-86-as-Cold-Snap-Looms.html"
+     },
+     {
+      "source": "Anadolu Ajansı",
+      "title": "Oil prices fall as Middle East supply recovers, surplus concerns mount",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQTC1CNjZIVnRKSVhBUFlteUZwdU9sSm9XS094aDlrVzdKWFd6bWkzSm1LUThmOVpLbXF6eFY2WTVfc1ZnMmxQMGFhWk9oc1FIUzJtQ3ZUOGdDX0VLUmxuam5ud3VMeFM2UE9PYURLZkVwRW91UWVLeFhaVUR3WEh1R1YxbTZWNFRtai1OTVU3N09sTGdwSGhja01NQ3ltQk8zYmpWWWV3TkF4ZHJGX0hnc9IBuAFBVV95cUxQUVhacHZyYUlMNkVjVjc2My03RVJXNjNNdENNclFkdXBzaWNaMFgzZUZTcHIwdXZOYVh2UU1XUi04TzJJQzZ1clhqa2g3bVRia2tEWTlCSk90UXlXb0VDYk9ackpuZTNwNFpBUXhHaGxzNl9zT2xZdFhsM3ZNZmJtUzRQaTlNdjU3a1ZRbnpOVXJIeDZZX1dVNDVxWlROQ2dMVF9mbGZXUnFqQ3d0ckw4cGtON3dGLUh1?oc=5"
      }
     ]
    },
    {
     "category": "energy",
-    "headline": "LR approves new Rules for nuclear-powered ships and offshore units",
-    "summary": "",
+    "headline": "Scotland approves 1 GW Muir Mhòr floating offshore wind farm",
+    "summary": "The Scottish government has given the go-ahead to the floating wind project. A Highland offshore wind manufacturing plant has also moved a step closer.",
     "sources": [
      {
-      "source": "Howl.Link",
-      "title": "LR approves new Rules for nuclear-powered ships and offshore units",
-      "link": "https://news.google.com/rss/articles/CBMiO0FVX3lxTE5VemlEd1hkX3pEUklnT3dXLXZnY3J5a1owTmVqVW0zSU4yRnU0OGc3VkhqLU1wTXN3THQ4?oc=5"
+      "source": "Enerdata",
+      "title": "Scotland (UK) approves the 1 GW Muir Mhòr floating offshore wind park",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPUGY2MG96TU5rUmxLbTBvVURJVURpNXQyYktQNl9QNUk4R2owZW4xVjdETHNCZVV3TGN6TElybGJkQWRMQmJTUjZoMGdMVFVYNFk0dmNRUzRlVVBiU3RIQ3RrNEJ5MVRKbDRUMUJkcmRYNGNSWkpkWWlra1RCdmtLVnR2bTM3cUtWV1BIWlJOclg2a2loTk9kZC1Vb1dvLUtqb3ZrZU1hNkNHVklUd3BBeERfV0lRWnItN3JXWVNGTHlMUQ?oc=5"
+     },
+     {
+      "source": "Insider Media Ltd",
+      "title": "Scottish government gives go ahead for offshore wind farm",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPR0JJaUZiUlRKaGtaQ3RuMlNsV1JlbDJlTHlIQ2VSa2ZrUGo3YVVVaVI3ODNwMEFBQXU4aWhORlFoWXhmZmE4OWU3TmZvY3pfVkl5N0RIdWZObmFNUVRXWkdNSm00c0lIR1dTazJOMkZsSmNoT3VEQ3lLc3k1NDJscloxSjctcXBNbVVtTDBycF9vUVJXRk42endEcVJGdlRYOFE?oc=5"
+     },
+     {
+      "source": "ScottishNews.com",
+      "title": "Highland offshore wind manufacturing plant moves a step closer",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOeGJKT1prWF9FSFcxR003WC04cTJ6ZVNyU2tvRnRDaVJuVkh6djcwcDRoRzNlZldMMmZaSTZtNEFreDFwQkIxT09oanA3UGw4YlJsZFRYcWNqVHo3dzk3X2hqaUdsYnhJR1lvVEZ1bzBtVGY4S1B4ekRBWWtKR09hYUk1UDZmUlZCNUpjQVAxbmpUNXNPazBzdnlzN216Zk1GWHc?oc=5"
      }
     ]
    }
@@ -926,37 +1163,77 @@
   "ai": [
    {
     "category": "ai",
-    "headline": "Anthropic Raises $81.3 Billion In Record IPO",
-    "summary": "",
+    "headline": "Anthropic's IPO fails to calm AI worries as debt concerns grow",
+    "summary": "Anthropic raised a record $81.3bn in its IPO, but the listing has not steadied AI stocks, and WSJ reports Wall Street expects debt backing its $900bn spending commitments to be rated junk. Analysts say the selloff is clouding China's next AI deals.",
     "sources": [
      {
       "source": "CIO Africa",
       "title": "Anthropic Raises $81.3 Billion In Record IPO",
       "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFA0RWhyOGlkanlGeGcyWUV3WHFoQl9rMXQxWkxoVEh4N3pGX2pwTUliclVpeWY5TW12VFNsQWhrV1p0ai1oQ2VrNnViWE1TVHdyeDRoZEtaazEzdUtKeHVOVmp3aEV6NkZscnlscDl0TVgwVDQ?oc=5"
+     },
+     {
+      "source": "StoneX",
+      "title": "Nasdaq 100 Forecast: Anthropic IPO fails to calm AI worries",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNWU8ybzlxdUlpQzh6R1hNU0hOTDF6SllWeHhHWW1FZFI3Vkx4UXpMRjZfZjVrOFNVcUdZbEM2cmQxX1BaZVJmal9waTFFV2JZcHlYUXIteUhyQmdwVUJGRGJyQ3RZN2xxa210SUhUUGV2b2dOR1pCX0ZEcG1obXdGbFZzVkNWSV9pLWNCajF4V0FVUjZNek93dEczRWxpRUFNNFp1dmN0WlEydw?oc=5"
+     },
+     {
+      "source": "WSJ",
+      "title": "Anthropic Committed to Spend $900 Billion. Wall Street Expects Its Debt to Be Junk.",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQNHFQOEdMZm5FNmNuNWo3WHNuNHhBVkprTmplTktaZ1J5Ni0wN0NBdHF5YWg5X2pfc09rZldBYU80NWVCNTRRZDVsb1RfVkRHdFBseWh5VmZieU45WnhMb0JpNEFkZHlCRXp1Y1FMb1M0WjNEWGk0MjBJb3V5eGRtQmVaVzBWaWtPeUhOX1hleHkteHRNN2JUekRTMGpTYmtuMTNKNUdZZG8xWF9iSzYzT3kzaUEzbkYzZ0NsT281aHl6U1FDWUE?oc=5"
+     },
+     {
+      "source": "Bloomberg.com",
+      "title": "China’s Next AI Deals Clouded by Selloff After Anthropic IPO",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNMkp1VktEN3BMdFcyUi1nVWNEY2JLdExKaWhVZ2pBV2xOeUdVOGtJZ1B5N05DRXlXeHVFWTdOWHdUVnI2TGs2cG5EaEZWdnkyejVTanV1NUh2OEZ2N240dUxaT205Z0RmNlZtTEJuWjEwT1lST2laR3JDenRiVXd2VzM1T1pTZmlnZWxjZHc4aVFRMERaTmZHal8zemk5NDRqMlNhN0IzTkhpRzFrdzhILQ?oc=5"
+     },
+     {
+      "source": "FT",
+      "title": "The problem with the circular AI economy",
+      "link": "https://www.ft.com/content/e49add11-3cc8-4edd-8daa-db8daaf994dd?syn-25a6b1a6=1"
      }
     ]
    },
    {
     "category": "ai",
-    "headline": "The Double Alignment Problem: Civil-Military Relations in the Age of Artificial Intelligence",
-    "summary": "",
+    "headline": "Two groups verify Claude-assisted proof of Riemann hypothesis",
+    "summary": "Anthropic mathematician Levent Alpöge says he used Claude over six weeks to prove the 19th-century problem, and two groups have now verified the claim. Separately, Novartis's CEO pushed back on AI industry hopes of curing cancer within five to 10 years.",
     "sources": [
      {
-      "source": "War on the Rocks",
-      "title": "The Double Alignment Problem: Civil-Military Relations in the Age of Artificial Intelligence",
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOa0Y5bFdTbGFaaDhyeWdsVGdxWnZlUTNzSTFMYzd2NWgxXy1neWpFSU1BdWdkSzhwbkFtdGRGR09VR3hPWk5QcGpLYUVwcHlyV1ZLQXF0Y0Y5MGxYejYzS1FTdXlTaVF1VUJHbTZ0UjZZaUJLakpyZGpQZ1lNSEpzTjVlUUZJS1lMZzNyVEhMNGVDNnpPaDAyU0dpaVlhcEVJME04VUxfMV8zMjBDTWhEQS1ZbUlleTBlalE?oc=5"
+      "source": "Guardian Business",
+      "title": "Two groups verify mathematician’s claim that Claude helped prove mathematics problem",
+      "link": "https://www.theguardian.com/technology/2026/nov/21/anthropic-riemann-hypothesis-solved-claude-ai"
+     },
+     {
+      "source": "The Independent",
+      "title": "Anthropic mathematician claims to have proved Riemann hypothesis with help of Claude",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNTnliTkVvRWFBQ3NScjZ6bUlDT1plNFM3d3hDcWFsLVF2dnhnQW05QWZEc2tuaU5Ha2Y1b3g1bFdlSUd1eXF2b2VvT3hrNHN2dTJrRmZhN2QyWkhtY053UTlZN3dfQlpkMVBEclkxU0ZnMDFZanI4YTRWQ1F2YXhBd2Z3RVR5MXptR0poX3hYN0lMUQ?oc=5"
+     },
+     {
+      "source": "Guardian",
+      "title": "Why I won’t leave mathematics, despite AI solving centuries-old problems | Ken Ono",
+      "link": "https://www.theguardian.com/commentisfree/2026/nov/22/why-i-wont-leave-mathematics-despite-ai-solving-centuries-old-problems"
+     },
+     {
+      "source": "FT",
+      "title": "Novartis rejects AI industry hopes to cure cancer in five to 10 years",
+      "link": "https://www.ft.com/content/1e5a9d70-221d-461d-ae03-dc235b1db340?syn-25a6b1a6=1"
      }
     ]
    },
    {
     "category": "ai",
-    "headline": "Friday Briefing: Grand Theft Anthropic",
-    "summary": "",
+    "headline": "NHS launches world's largest trial of AI in breast cancer screening",
+    "summary": "Hundreds of thousands of women's scans will be assessed by AI to see whether it leads to earlier diagnosis. Researchers hope it could ease pressure on the screening programme.",
     "sources": [
      {
-      "source": "Investment Week",
-      "title": "Friday Briefing: Grand Theft Anthropic",
-      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPZTY3NEQzUlhpcVpaWllQVktFWGR6RGN5aTNWOGZLT0ZqbWZ0LURYN09wd2RkLWQzNnUyV3ktTGdCT0R3M3ZSaE1vRFg4RDQzNHE4TXltdXZxUEc5X1ZxR3NMZmZJdnBCdWZNcjlGMWJSOERNZ291SVA5MjhNY2VfZk1qMXE1R2ctUFlBNFB1RQ?oc=5"
+      "source": "BBC",
+      "title": "Can AI spot breast cancer earlier? NHS launches world's largest trial to find out",
+      "link": "https://www.bbc.co.uk/news/articles/cmpdwnw3nvzjo?at_medium=RSS&at_campaign=rss"
+     },
+     {
+      "source": "Sky News",
+      "title": "Major trial to examine if AI can help detect breast cancer earlier",
+      "link": "https://news.sky.com/story/major-trial-to-examine-if-ai-can-help-detect-breast-cancer-earlier-13615166"
      }
     ]
    }
@@ -964,45 +1241,48 @@
   "tech": [
    {
     "category": "tech",
-    "headline": "‘You Can See Everything’ has made more than $100M worldwide",
-    "summary": "The new Elizabeth Holmes documentary is just beginning to roll out internationally.",
+    "headline": "Run of major outages hits flights, Outlook and banking",
+    "summary": "A nationwide FAA ground stop, a multi-day Microsoft Outlook outage and a banking disruption hit last week, and Delta flights at Atlanta were delayed on Sunday by a system failure. The US intelligence chief warned of more 'bumps in the road' ahead of Thanksgiving travel.",
     "sources": [
      {
-      "source": "TechCrunch",
-      "title": "‘You Can See Everything’ has made more than $100M worldwide",
-      "link": "https://techcrunch.com/2026/11/22/you-can-see-everything-has-made-more-than-100m-worldwide/"
-     }
-    ]
-   },
-   {
-    "category": "tech",
-    "headline": "The best apps to make new friends right now",
-    "summary": "We've compiled a list of friendship apps, from friend discovery platforms like BFF to event-focused ones like Timeleft.",
-    "sources": [
-     {
-      "source": "TechCrunch",
-      "title": "The best apps to make new friends right now",
-      "link": "https://techcrunch.com/2026/11/22/as-people-look-for-ways-to-make-new-friends-here-are-the-apps-promising-to-help/"
-     }
-    ]
-   },
-   {
-    "category": "tech",
-    "headline": "Delta flights in and out of Atlanta delayed due to system outage",
-    "summary": "A Delta Air Lines Airbus A220. | Photo: Saul Loeb / AFP via Getty Images All Delta flights in and out of Atlanta are facing significant delays on Sunday due to a problem with the system that calculates a plane's weight a",
-    "sources": [
+      "source": "The Verge AI",
+      "title": "We haven’t seen the last of the major tech outages",
+      "link": "https://www.theverge.com/tech/1039851/major-tech-outages"
+     },
      {
       "source": "The Verge",
       "title": "Delta flights in and out of Atlanta delayed due to system outage",
       "link": "https://www.theverge.com/transportation/1039779/delta-flights-delayed-system-outage"
+     },
+     {
+      "source": "CNBC",
+      "title": "Director of National Intelligence Jay Clayton warns Americans of 'bumps in the road' after tech outages",
+      "link": "https://www.cnbc.com/2026/11/22/jay-clayton-tech-outages-faa-microsoft-thanksgiving.html"
+     }
+    ]
+   },
+   {
+    "category": "tech",
+    "headline": "Court bans BYD's 'Defender clone' SUV from sale in EU",
+    "summary": "A Hague district court found the Chinese carmaker infringed Jaguar Land Rover's intellectual property. It comes as Western carmakers fight to avoid losing ground at home to Chinese EVs.",
+    "sources": [
+     {
+      "source": "Guardian Business",
+      "title": "Court bans China’s BYD from selling ‘Defender clone’ SUV in EU",
+      "link": "https://www.theguardian.com/business/2026/nov/22/court-bans-china-byd-selling-defender-clone-suv-in-eu"
+     },
+     {
+      "source": "FT",
+      "title": "China is winning the car war",
+      "link": "https://www.ft.com/content/d279b04d-1fb7-49c7-a191-d34cf6467681?syn-25a6b1a6=1"
      }
     ]
    }
   ]
  },
  "stats": {
-  "headlines": 335,
+  "headlines": 320,
   "feeds": 45,
-  "feedsFailed": 0
+  "feedsFailed": 1
  }
 }
