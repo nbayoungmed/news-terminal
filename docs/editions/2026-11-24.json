@@ -1,1008 +1,1319 @@
 {
- "date": "2026-11-24",
- "dateLabel": "Tuesday, 24 November 2026",
- "generatedAt": "2026-11-24T07:25:00.016Z",
- "mode": "fallback",
- "model": null,
- "error": "400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011ChMMVxpJypR5gy6BSq4NM\"}",
- "headlineOfDay": "",
- "markets": {
-  "summary": "",
-  "indices": [
-   {
-    "symbol": "^GSPC",
-    "label": "S&P 500",
-    "price": 7237.169921875,
-    "asOf": "2026-11-23",
-    "d1": 4.728818180899615,
-    "w1": -2.419170072161913,
-    "m1": -5.069864487942553,
-    "ytd": 5.7215677726243515,
-    "spark": [
-     7623.6802,
-     7676.77,
-     7722.6001,
-     7743.98,
-     7720.3901,
-     7580.0698,
-     7541.3999,
-     7568.9199,
-     7688.6201,
-     7353.73,
-     7376.8599,
-     7549.9399,
-     7520.9302,
-     7619.3799,
-     7592.3999,
-     7561.6699,
-     7416.5898,
-     7340.5298,
-     7323.6299,
-     7175.8301,
-     6910.3901,
-     7237.1699
-    ]
-   },
-   {
-    "symbol": "SPUS",
-    "label": "S&P 500 Shariah",
-    "sub": "via SPUS ETF",
-    "price": 54.779998779296875,
-    "asOf": "2026-11-23",
-    "d1": 6.121658103057869,
-    "w1": -1.7927572999000436,
-    "m1": -6.614389836699612,
-    "ytd": 7.264537118939229,
-    "spark": [
-     58.66,
-     59.3,
-     59.87,
-     60.11,
-     59.77,
-     58.42,
-     57.61,
-     57.95,
-     58.66,
-     55.41,
-     55.72,
-     57.19,
-     56.69,
-     57.74,
-     57.6,
-     57.04,
-     55.78,
-     55.32,
-     55.27,
-     54.11,
-     51.62,
-     54.78
-    ]
-   },
-   {
-    "symbol": "^IXIC",
-    "label": "Nasdaq",
-    "price": 24089.560546875,
-    "asOf": "2026-11-23",
-    "d1": 6.507417179449406,
-    "w1": -1.714415901127397,
-    "m1": -7.188421758709032,
-    "ytd": 3.6467200267834206,
-    "spark": [
-     25955.3398,
-     26169.3809,
-     26477.8105,
-     26549.8496,
-     26184.7207,
-     25437,
-     25164.3105,
-     25372.0098,
-     25736.5098,
-     24315,
-     24579.4297,
-     25253.1406,
-     25065.8691,
-     25466.1895,
-     25366.0898,
-     25136.2695,
-     24509.7598,
-     24328.3809,
-     24429.8809,
-     23879.1992,
-     22617.7305,
-     24089.5605
-    ]
-   },
-   {
-    "symbol": "^DJI",
-    "label": "Dow Jones",
-    "price": 49595.30859375,
-    "asOf": "2026-11-23",
-    "d1": 3.0073952701814646,
-    "w1": -3.900280145798131,
-    "m1": -5.017415544949567,
-    "ytd": 3.18750456144982,
-    "spark": [
-     52215.1602,
-     52361.5781,
-     52377.5703,
-     52475.1016,
-     52342.5586,
-     51770.3086,
-     51983.9805,
-     51786.7188,
-     53356.1211,
-     51523.0586,
-     51285.7305,
-     52389.75,
-     52231.8906,
-     52486.4883,
-     52297.0898,
-     52347.5508,
-     51608.1719,
-     50759.4219,
-     50198.1719,
-     49097.0586,
-     48147.3281,
-     49595.3086
-    ]
-   },
-   {
-    "symbol": "^FTSE",
-    "label": "FTSE 100",
-    "price": 10480.7998046875,
-    "asOf": "2026-11-23",
-    "d1": 1.2999816604875818,
-    "w1": -3.683280207646976,
-    "m1": -1.9606429907088445,
-    "ytd": 5.531943053883113,
-    "spark": [
-     10690.4004,
-     10767.2998,
-     10686.5,
-     10694.5,
-     10722.0996,
-     10729.7998,
-     10761.2998,
-     10638.4004,
-     10829.2002,
-     10782.7002,
-     10673.9004,
-     10782.9004,
-     10751.5996,
-     10835.5,
-     10863.0996,
-     10902.5996,
-     10881.5996,
-     10689.9004,
-     10551.2002,
-     10452.7002,
-     10346.2998,
-     10480.7998
-    ]
-   },
-   {
-    "symbol": "^STOXX50E",
-    "label": "Euro Stoxx 50",
-    "price": 6074.47021484375,
-    "asOf": "2026-11-23",
-    "d1": 2.2302445354690574,
-    "w1": -4.314189964312363,
-    "m1": 0.10299560297287152,
-    "ytd": 4.800542244537561,
-    "spark": [
-     6068.2202,
-     6116.23,
-     6164.6899,
-     6167.8101,
-     6207.0698,
-     6131.3101,
-     6176.0601,
-     6144.5601,
-     6265.71,
-     6231.54,
-     6170.4902,
-     6290.4502,
-     6327.8701,
-     6393.3901,
-     6398.98,
-     6386.8599,
-     6348.3501,
-     6212.1099,
-     6154.3901,
-     6113.8599,
-     5941.9502,
-     6074.4702
-    ]
-   },
-   {
-    "symbol": "^TASI.SR",
-    "label": "Tadawul (Saudi)",
-    "price": 10001.68,
-    "asOf": "2026-11-24",
-    "d1": 0.6482672285921881,
-    "w1": null,
-    "m1": null,
-    "ytd": null,
-    "spark": []
-   }
-  ],
-  "commodities": [
-   {
-    "symbol": "GC=F",
-    "label": "Gold",
-    "unit": "$/oz",
-    "price": 3621.10009765625,
-    "asOf": "2026-11-24",
-    "d1": -0.8298133728943589,
-    "w1": -6.291078530806912,
-    "m1": -10.33329573045288,
-    "ytd": -16.58565763983941,
-    "spark": [
-     4038.3999,
-     4074.6001,
-     4051.6001,
-     4031.3999,
-     3898.8999,
-     3969.6001,
-     3940.3999,
-     4073,
-     4113.5,
-     4074.8999,
-     4114.5,
-     4030.2,
-     4000.5,
-     3885.3,
-     3886.3,
-     3853,
-     3864.2,
-     3741.8999,
-     3685.5,
-     3515.3999,
-     3651.3999,
-     3621.1001
-    ]
-   },
-   {
-    "symbol": "SI=F",
-    "label": "Silver",
-    "unit": "$/oz",
-    "price": 42.154998779296875,
-    "asOf": "2026-11-24",
-    "d1": -2.299118350217453,
-    "w1": -10.854761494692152,
-    "m1": -22.09100789560809,
-    "ytd": -39.89363623190991,
-    "spark": [
-     54.108,
-     54.293,
-     53.457,
-     52.191,
-     49.097,
-     50.72,
-     49.587,
-     52.12,
-     52.233,
-     51.803,
-     52.564,
-     51.101,
-     51.881,
-     49.972,
-     49.031,
-     46.785,
-     47.288,
-     44.999,
-     44.318,
-     41.035,
-     43.147,
-     42.155
-    ]
-   },
-   {
-    "symbol": "BZ=F",
-    "label": "Brent crude",
-    "unit": "$/bbl",
-    "price": 86.4000015258789,
-    "asOf": "2026-11-24",
-    "d1": -3.3232641036443438,
-    "w1": -7.236416048891034,
-    "m1": -25.395040715578066,
-    "ytd": 41.988502370503724,
-    "spark": [
-     115.81,
-     113.88,
-     115.32,
-     114.88,
-     117.64,
-     104.77,
-     103.6,
-     94.62,
-     98.29,
-     98.32,
-     92.57,
-     91.49,
-     92.76,
-     95.82,
-     95.84,
-     92.44,
-     93.14,
-     91.95,
-     91.98,
-     92.57,
-     89.37,
-     86.4
-    ]
-   },
-   {
-    "symbol": "CL=F",
-    "label": "WTI crude",
-    "unit": "$/bbl",
-    "price": 79.88999938964844,
-    "asOf": "2026-11-24",
-    "d1": -0.34925631245097805,
-    "w1": -7.115454708265922,
-    "m1": -21.491747530924503,
-    "ytd": 39.132709747900456,
-    "spark": [
-     101.76,
-     99.9,
-     102.78,
-     102,
-     104.12,
-     96.46,
-     96.09,
-     88.12,
-     90.52,
-     90.83,
-     86.85,
-     86.04,
-     86.53,
-     88.74,
-     88.56,
-     85.72,
-     86.01,
-     83.26,
-     83.21,
-     83.98,
-     80.17,
-     79.89
-    ]
-   },
-   {
-    "symbol": "HG=F",
-    "label": "Copper",
-    "unit": "$/lb",
-    "price": 5.527500152587891,
-    "asOf": "2026-11-24",
-    "d1": -1.7682549318793146,
-    "w1": -7.505014929088823,
-    "m1": -15.066068837321081,
-    "ytd": -1.8206031930641624,
-    "spark": [
-     6.508,
-     6.622,
-     6.6415,
-     6.581,
-     6.4585,
-     6.5435,
-     6.3785,
-     6.403,
-     6.249,
-     6.218,
-     6.3285,
-     6.2195,
-     6.2745,
-     6.1825,
-     6.0795,
-     5.9975,
-     5.976,
-     5.6595,
-     5.625,
-     5.477,
-     5.627,
-     5.5275
-    ]
-   },
-   {
-    "symbol": "NG=F",
-    "label": "US natural gas",
-    "unit": "$/MMBtu",
-    "price": 3.555999994277954,
-    "asOf": "2026-11-24",
-    "d1": 11.68341637049049,
-    "w1": 10.847882032149794,
-    "m1": 36.6641044152427,
-    "ytd": -3.5268613837914824,
-    "spark": [
-     2.602,
-     2.697,
-     2.817,
-     2.952,
-     2.898,
-     2.856,
-     2.895,
-     2.959,
-     2.947,
-     2.998,
-     3.218,
-     3.296,
-     3.215,
-     3.34,
-     3.23,
-     3.122,
-     3.208,
-     3.372,
-     3.268,
-     3.411,
-     3.184,
-     3.556
-    ]
-   }
-  ],
-  "rates_fx": [
-   {
-    "symbol": "GBPUSD=X",
-    "label": "GBP/USD",
-    "price": 1.3041890859603882,
-    "asOf": "2026-11-24",
-    "d1": -0.40299153414626554,
-    "w1": -1.0824722087678964,
-    "m1": -2.5105622243600734,
-    "ytd": -3.158092551861079,
-    "spark": [
-     1.3378,
-     1.3345,
-     1.3306,
-     1.3328,
-     1.3379,
-     1.3386,
-     1.341,
-     1.3434,
-     1.3477,
-     1.3456,
-     1.336,
-     1.3442,
-     1.3349,
-     1.3277,
-     1.3231,
-     1.3216,
-     1.3185,
-     1.3205,
-     1.3147,
-     1.3086,
-     1.3095,
-     1.3042
-    ]
-   },
-   {
-    "symbol": "EURUSD=X",
-    "label": "EUR/USD",
-    "price": 1.090869426727295,
-    "asOf": "2026-11-24",
-    "d1": -0.5727007465025856,
-    "w1": -0.8137910044227394,
-    "m1": -2.753357451025859,
-    "ytd": -7.1386494259434645,
-    "spark": [
-     1.1218,
-     1.1174,
-     1.113,
-     1.1156,
-     1.1183,
-     1.1157,
-     1.1192,
-     1.1207,
-     1.1235,
-     1.1228,
-     1.1147,
-     1.1222,
-     1.1169,
-     1.1095,
-     1.105,
-     1.1025,
-     1.0998,
-     1.0993,
-     1.0972,
-     1.097,
-     1.0972,
-     1.0909
-    ]
-   },
-   {
-    "symbol": "^TNX",
-    "label": "US 10Y yield",
-    "unit": "%",
-    "price": 4.918000221252441,
-    "asOf": "2026-11-23",
-    "d1": 0.12215068694350596,
-    "w1": -3.964061691798931,
-    "m1": -1.40336198881249,
-    "ytd": 18.135961928167685,
-    "spark": [
-     4.988,
-     4.986,
-     4.993,
-     5.045,
-     4.989,
-     4.929,
-     4.894,
-     4.952,
-     4.894,
-     4.837,
-     4.859,
-     4.864,
-     4.983,
-     4.998,
-     5.103,
-     5.154,
-     5.121,
-     5.103,
-     5.066,
-     5.052,
-     4.912,
-     4.918
-    ]
-   }
-  ],
-  "movers": {
-   "sp500": {
-    "gainers": [
-     {
-      "ticker": "NVDA",
-      "name": "Nvidia",
-      "price": 165.05,
-      "d1": 31.482514140046213,
-      "shariah": true
-     },
-     {
-      "ticker": "DELL",
-      "name": "Dell Technologies",
-      "price": 334.91,
-      "d1": 20.462556650600693,
-      "shariah": false
-     },
-     {
-      "ticker": "MU",
-      "name": "Micron Technology",
-      "price": 707.7,
-      "d1": 19.039208760155432,
-      "shariah": true
-     },
-     {
-      "ticker": "MRVL",
-      "name": "Marvell Technology",
-      "price": 144.74,
-      "d1": 18.367680732744525,
-      "shariah": true
-     },
-     {
-      "ticker": "LITE",
-      "name": "Lumentum",
-      "price": 544.38,
-      "d1": 18.20471620271854,
-      "shariah": true
-     }
+  "date": "2026-11-24",
+  "dateLabel": "Tuesday, 24 November 2026",
+  "generatedAt": "2026-11-24T07:27:12.261Z",
+  "mode": "ai",
+  "model": "claude-opus-5-5 (via Claude Code)",
+  "error": null,
+  "headlineOfDay": "Jensen Huang's return to Nvidia, backed by Trump, sparked Wall Street's best day in over a year and a global tech rally.",
+  "markets": {
+    "summary": "US stocks had their best day in more than a year on Monday after Nvidia's board reinstated Jensen Huang as chief executive, with the Nasdaq up 6.5% and the S&P 500 up 4.7%. Nvidia added almost $1tn in value, Asian markets followed higher overnight, while consumer stocks lagged and Brent crude slipped to near three-month lows.",
+    "indices": [
+      {
+        "symbol": "^GSPC",
+        "label": "S&P 500",
+        "price": 7237.169921875,
+        "asOf": "2026-11-23",
+        "d1": 4.728818180899615,
+        "w1": -2.419170072161913,
+        "m1": -5.069864487942553,
+        "ytd": 5.7215677726243515,
+        "spark": [
+          7623.6802,
+          7676.77,
+          7722.6001,
+          7743.98,
+          7720.3901,
+          7580.0698,
+          7541.3999,
+          7568.9199,
+          7688.6201,
+          7353.73,
+          7376.8599,
+          7549.9399,
+          7520.9302,
+          7619.3799,
+          7592.3999,
+          7561.6699,
+          7416.5898,
+          7340.5298,
+          7323.6299,
+          7175.8301,
+          6910.3901,
+          7237.1699
+        ],
+        "note": "Best day in over a year on Nvidia's rebound"
+      },
+      {
+        "symbol": "SPUS",
+        "label": "S&P 500 Shariah",
+        "sub": "via SPUS ETF",
+        "price": 54.779998779296875,
+        "asOf": "2026-11-23",
+        "d1": 6.121658103057869,
+        "w1": -1.7927572999000436,
+        "m1": -6.614389836699612,
+        "ytd": 7.264537118939229,
+        "spark": [
+          58.66,
+          59.3,
+          59.87,
+          60.11,
+          59.77,
+          58.42,
+          57.61,
+          57.95,
+          58.66,
+          55.41,
+          55.72,
+          57.19,
+          56.69,
+          57.74,
+          57.6,
+          57.04,
+          55.78,
+          55.32,
+          55.27,
+          54.11,
+          51.62,
+          54.78
+        ],
+        "note": "Tech-heavy Shariah index led by Nvidia rally"
+      },
+      {
+        "symbol": "^IXIC",
+        "label": "Nasdaq",
+        "price": 24089.560546875,
+        "asOf": "2026-11-23",
+        "d1": 6.507417179449406,
+        "w1": -1.714415901127397,
+        "m1": -7.188421758709032,
+        "ytd": 3.6467200267834206,
+        "spark": [
+          25955.3398,
+          26169.3809,
+          26477.8105,
+          26549.8496,
+          26184.7207,
+          25437,
+          25164.3105,
+          25372.0098,
+          25736.5098,
+          24315,
+          24579.4297,
+          25253.1406,
+          25065.8691,
+          25466.1895,
+          25366.0898,
+          25136.2695,
+          24509.7598,
+          24328.3809,
+          24429.8809,
+          23879.1992,
+          22617.7305,
+          24089.5605
+        ],
+        "note": "Tech rally after Jensen Huang reinstated as Nvidia CEO"
+      },
+      {
+        "symbol": "^DJI",
+        "label": "Dow Jones",
+        "price": 49595.30859375,
+        "asOf": "2026-11-23",
+        "d1": 3.0073952701814646,
+        "w1": -3.900280145798131,
+        "m1": -5.017415544949567,
+        "ytd": 3.18750456144982,
+        "spark": [
+          52215.1602,
+          52361.5781,
+          52377.5703,
+          52475.1016,
+          52342.5586,
+          51770.3086,
+          51983.9805,
+          51786.7188,
+          53356.1211,
+          51523.0586,
+          51285.7305,
+          52389.75,
+          52231.8906,
+          52486.4883,
+          52297.0898,
+          52347.5508,
+          51608.1719,
+          50759.4219,
+          50198.1719,
+          49097.0586,
+          48147.3281,
+          49595.3086
+        ]
+      },
+      {
+        "symbol": "^FTSE",
+        "label": "FTSE 100",
+        "price": 10480.7998046875,
+        "asOf": "2026-11-23",
+        "d1": 1.2999816604875818,
+        "w1": -3.683280207646976,
+        "m1": -1.9606429907088445,
+        "ytd": 5.531943053883113,
+        "spark": [
+          10690.4004,
+          10767.2998,
+          10686.5,
+          10694.5,
+          10722.0996,
+          10729.7998,
+          10761.2998,
+          10638.4004,
+          10829.2002,
+          10782.7002,
+          10673.9004,
+          10782.9004,
+          10751.5996,
+          10835.5,
+          10863.0996,
+          10902.5996,
+          10881.5996,
+          10689.9004,
+          10551.2002,
+          10452.7002,
+          10346.2998,
+          10480.7998
+        ]
+      },
+      {
+        "symbol": "^STOXX50E",
+        "label": "Euro Stoxx 50",
+        "price": 6074.47021484375,
+        "asOf": "2026-11-23",
+        "d1": 2.2302445354690574,
+        "w1": -4.314189964312363,
+        "m1": 0.10299560297287152,
+        "ytd": 4.800542244537561,
+        "spark": [
+          6068.2202,
+          6116.23,
+          6164.6899,
+          6167.8101,
+          6207.0698,
+          6131.3101,
+          6176.0601,
+          6144.5601,
+          6265.71,
+          6231.54,
+          6170.4902,
+          6290.4502,
+          6327.8701,
+          6393.3901,
+          6398.98,
+          6386.8599,
+          6348.3501,
+          6212.1099,
+          6154.3901,
+          6113.8599,
+          5941.9502,
+          6074.4702
+        ]
+      },
+      {
+        "symbol": "^TASI.SR",
+        "label": "Tadawul (Saudi)",
+        "price": 10000.54,
+        "asOf": "2026-11-24",
+        "d1": 0.6367952534199633,
+        "w1": null,
+        "m1": null,
+        "ytd": null,
+        "spark": []
+      }
     ],
-    "losers": [
-     {
-      "ticker": "CRWD",
-      "name": "CrowdStrike",
-      "price": 208.97,
-      "d1": -8.921722454672246,
-      "shariah": true
-     },
-     {
-      "ticker": "IP",
-      "name": "International Paper",
-      "price": 28.98,
-      "d1": -4.545454545454542,
-      "shariah": false
-     },
-     {
-      "ticker": "ELV",
-      "name": "Elevance Health",
-      "price": 379.55,
-      "d1": -3.7847292638410073,
-      "shariah": false
-     },
-     {
-      "ticker": "BF.B",
-      "name": "Brown–Forman",
-      "price": 28.83,
-      "d1": -3.643048128342257,
-      "shariah": false
-     },
-     {
-      "ticker": "TPL",
-      "name": "Texas Pacific Land Corporation",
-      "price": 258.07,
-      "d1": -3.5035895901884553,
-      "shariah": true
-     }
+    "commodities": [
+      {
+        "symbol": "GC=F",
+        "label": "Gold",
+        "unit": "$/oz",
+        "price": 3618.699951171875,
+        "asOf": "2026-11-24",
+        "d1": -0.8955456002199498,
+        "w1": -6.353190908911133,
+        "m1": -10.392728836198105,
+        "ytd": -16.640946539666228,
+        "spark": [
+          4038.3999,
+          4074.6001,
+          4051.6001,
+          4031.3999,
+          3898.8999,
+          3969.6001,
+          3940.3999,
+          4073,
+          4113.5,
+          4074.8999,
+          4114.5,
+          4030.2,
+          4000.5,
+          3885.3,
+          3886.3,
+          3853,
+          3864.2,
+          3741.8999,
+          3685.5,
+          3515.3999,
+          3651.3999,
+          3618.7
+        ]
+      },
+      {
+        "symbol": "SI=F",
+        "label": "Silver",
+        "unit": "$/oz",
+        "price": 42.1349983215332,
+        "asOf": "2026-11-24",
+        "d1": -2.345472576608029,
+        "w1": -10.89705649241929,
+        "m1": -22.12797185127447,
+        "ytd": -39.92215372271012,
+        "spark": [
+          54.108,
+          54.293,
+          53.457,
+          52.191,
+          49.097,
+          50.72,
+          49.587,
+          52.12,
+          52.233,
+          51.803,
+          52.564,
+          51.101,
+          51.881,
+          49.972,
+          49.031,
+          46.785,
+          47.288,
+          44.999,
+          44.318,
+          41.035,
+          43.147,
+          42.135
+        ]
+      },
+      {
+        "symbol": "BZ=F",
+        "label": "Brent crude",
+        "unit": "$/bbl",
+        "price": 86.38999938964844,
+        "asOf": "2026-11-24",
+        "d1": -3.3344559307933603,
+        "w1": -7.247154868191028,
+        "m1": -25.403677393275437,
+        "ytd": 41.97206500570292,
+        "spark": [
+          115.81,
+          113.88,
+          115.32,
+          114.88,
+          117.64,
+          104.77,
+          103.6,
+          94.62,
+          98.29,
+          98.32,
+          92.57,
+          91.49,
+          92.76,
+          95.82,
+          95.84,
+          92.44,
+          93.14,
+          91.95,
+          91.98,
+          92.57,
+          89.37,
+          86.39
+        ],
+        "note": "Near three-month lows as Qatar backs diplomacy over Iran, despite Hormuz mine claims"
+      },
+      {
+        "symbol": "CL=F",
+        "label": "WTI crude",
+        "unit": "$/bbl",
+        "price": 80.0199966430664,
+        "asOf": "2026-11-24",
+        "d1": -0.18710431496181687,
+        "w1": -6.9643126896759595,
+        "m1": -21.363998660357524,
+        "ytd": 39.359106922340416,
+        "spark": [
+          101.76,
+          99.9,
+          102.78,
+          102,
+          104.12,
+          96.46,
+          96.09,
+          88.12,
+          90.52,
+          90.83,
+          86.85,
+          86.04,
+          86.53,
+          88.74,
+          88.56,
+          85.72,
+          86.01,
+          83.26,
+          83.21,
+          83.98,
+          80.17,
+          80.02
+        ]
+      },
+      {
+        "symbol": "HG=F",
+        "label": "Copper",
+        "unit": "$/lb",
+        "price": 5.526500225067139,
+        "asOf": "2026-11-24",
+        "d1": -1.7860251033118957,
+        "w1": -7.5217473177909095,
+        "m1": -15.08143342761882,
+        "ytd": -1.8383638946703158,
+        "spark": [
+          6.508,
+          6.622,
+          6.6415,
+          6.581,
+          6.4585,
+          6.5435,
+          6.3785,
+          6.403,
+          6.249,
+          6.218,
+          6.3285,
+          6.2195,
+          6.2745,
+          6.1825,
+          6.0795,
+          5.9975,
+          5.976,
+          5.6595,
+          5.625,
+          5.477,
+          5.627,
+          5.5265
+        ]
+      },
+      {
+        "symbol": "NG=F",
+        "label": "US natural gas",
+        "unit": "$/MMBtu",
+        "price": 3.566999912261963,
+        "asOf": "2026-11-24",
+        "d1": 12.028891179890412,
+        "w1": 11.190772249533586,
+        "m1": 37.086852992954924,
+        "ytd": -3.228437139093563,
+        "spark": [
+          2.602,
+          2.697,
+          2.817,
+          2.952,
+          2.898,
+          2.856,
+          2.895,
+          2.959,
+          2.947,
+          2.998,
+          3.218,
+          3.296,
+          3.215,
+          3.34,
+          3.23,
+          3.122,
+          3.208,
+          3.372,
+          3.268,
+          3.411,
+          3.184,
+          3.567
+        ]
+      }
     ],
-    "coverage": 503
-   },
-   "ftse100": {
-    "gainers": [
-     {
-      "ticker": "ULVR",
-      "name": "Unilever",
-      "price": 4887.5,
-      "d1": 2.1634615384615383
-     },
-     {
-      "ticker": "CCEP",
-      "name": "Coca-Cola Europacific Partners",
-      "price": 8875,
-      "d1": 2.128883774453395
-     },
-     {
-      "ticker": "CPG",
-      "name": "Compass Group",
-      "price": 33.55,
-      "d1": 1.2983091787439605
-     },
-     {
-      "ticker": "BATS",
-      "name": "British American Tobacco",
-      "price": 4401,
-      "d1": 1.2422360248447204
-     },
-     {
-      "ticker": "RTO",
-      "name": "Rentokil Initial",
-      "price": 367.2,
-      "d1": 1.240694789081886
-     }
+    "rates_fx": [
+      {
+        "symbol": "GBPUSD=X",
+        "label": "GBP/USD",
+        "price": 1.304069995880127,
+        "asOf": "2026-11-24",
+        "d1": -0.41208608635473054,
+        "w1": -1.091504715212486,
+        "m1": -2.519464326895898,
+        "ytd": -3.166935526131299,
+        "spark": [
+          1.3378,
+          1.3345,
+          1.3306,
+          1.3328,
+          1.3379,
+          1.3386,
+          1.341,
+          1.3434,
+          1.3477,
+          1.3456,
+          1.336,
+          1.3442,
+          1.3349,
+          1.3277,
+          1.3231,
+          1.3216,
+          1.3185,
+          1.3205,
+          1.3147,
+          1.3086,
+          1.3095,
+          1.3041
+        ]
+      },
+      {
+        "symbol": "EURUSD=X",
+        "label": "EUR/USD",
+        "price": 1.090869426727295,
+        "asOf": "2026-11-24",
+        "d1": -0.5727007465025856,
+        "w1": -0.8137910044227394,
+        "m1": -2.753357451025859,
+        "ytd": -7.1386494259434645,
+        "spark": [
+          1.1218,
+          1.1174,
+          1.113,
+          1.1156,
+          1.1183,
+          1.1157,
+          1.1192,
+          1.1207,
+          1.1235,
+          1.1228,
+          1.1147,
+          1.1222,
+          1.1169,
+          1.1095,
+          1.105,
+          1.1025,
+          1.0998,
+          1.0993,
+          1.0972,
+          1.097,
+          1.0972,
+          1.0909
+        ]
+      },
+      {
+        "symbol": "^TNX",
+        "label": "US 10Y yield",
+        "unit": "%",
+        "price": 4.918000221252441,
+        "asOf": "2026-11-23",
+        "d1": 0.12215068694350596,
+        "w1": -3.964061691798931,
+        "m1": -1.40336198881249,
+        "ytd": 18.135961928167685,
+        "spark": [
+          4.988,
+          4.986,
+          4.993,
+          5.045,
+          4.989,
+          4.929,
+          4.894,
+          4.952,
+          4.894,
+          4.837,
+          4.859,
+          4.864,
+          4.983,
+          4.998,
+          5.103,
+          5.154,
+          5.121,
+          5.103,
+          5.066,
+          5.052,
+          4.912,
+          4.918
+        ]
+      }
     ],
-    "losers": [
-     {
-      "ticker": "PCT",
-      "name": "Polar Capital Technology Trust",
-      "price": 515,
-      "d1": -8.281389136242208
-     },
-     {
-      "ticker": "BGEO",
-      "name": "Lion Finance Group",
-      "price": 12020,
-      "d1": -7.037896365042537
-     },
-     {
-      "ticker": "HLMA",
-      "name": "Halma plc",
-      "price": 3256,
-      "d1": -6.811677160847167
-     },
-     {
-      "ticker": "ITH",
-      "name": "Ithaca Energy",
-      "price": 229.8,
-      "d1": -6.127450980392156
-     },
-     {
-      "ticker": "EDV",
-      "name": "Endeavour Mining",
-      "price": 3174,
-      "d1": -5.927682276229993
-     }
+    "movers": {
+      "sp500": {
+        "gainers": [
+          {
+            "ticker": "NVDA",
+            "name": "Nvidia",
+            "price": 165.05,
+            "d1": 31.482514140046213,
+            "shariah": true,
+            "note": "Biggest one-day gain in stock-market history after Huang reinstated"
+          },
+          {
+            "ticker": "DELL",
+            "name": "Dell Technologies",
+            "price": 334.91,
+            "d1": 20.462556650600693,
+            "shariah": false
+          },
+          {
+            "ticker": "MU",
+            "name": "Micron Technology",
+            "price": 707.7,
+            "d1": 19.039208760155432,
+            "shariah": true
+          },
+          {
+            "ticker": "MRVL",
+            "name": "Marvell Technology",
+            "price": 144.74,
+            "d1": 18.367680732744525,
+            "shariah": true
+          },
+          {
+            "ticker": "LITE",
+            "name": "Lumentum",
+            "price": 544.38,
+            "d1": 18.20471620271854,
+            "shariah": true
+          }
+        ],
+        "losers": [
+          {
+            "ticker": "CRWD",
+            "name": "CrowdStrike",
+            "price": 208.97,
+            "d1": -8.921722454672246,
+            "shariah": true,
+            "note": "Announced $44bn acquisition of Zscaler"
+          },
+          {
+            "ticker": "IP",
+            "name": "International Paper",
+            "price": 28.98,
+            "d1": -4.545454545454542,
+            "shariah": false
+          },
+          {
+            "ticker": "ELV",
+            "name": "Elevance Health",
+            "price": 379.55,
+            "d1": -3.7847292638410073,
+            "shariah": false
+          },
+          {
+            "ticker": "BF.B",
+            "name": "Brown–Forman",
+            "price": 28.83,
+            "d1": -3.643048128342257,
+            "shariah": false
+          },
+          {
+            "ticker": "TPL",
+            "name": "Texas Pacific Land Corporation",
+            "price": 258.07,
+            "d1": -3.5035895901884553,
+            "shariah": true
+          }
+        ],
+        "coverage": 503
+      },
+      "ftse100": {
+        "gainers": [
+          {
+            "ticker": "ULVR",
+            "name": "Unilever",
+            "price": 4887.5,
+            "d1": 2.1634615384615383
+          },
+          {
+            "ticker": "CCEP",
+            "name": "Coca-Cola Europacific Partners",
+            "price": 8875,
+            "d1": 2.128883774453395
+          },
+          {
+            "ticker": "CPG",
+            "name": "Compass Group",
+            "price": 33.55,
+            "d1": 1.2983091787439605
+          },
+          {
+            "ticker": "BATS",
+            "name": "British American Tobacco",
+            "price": 4401,
+            "d1": 1.2422360248447204
+          },
+          {
+            "ticker": "RTO",
+            "name": "Rentokil Initial",
+            "price": 367.2,
+            "d1": 1.240694789081886
+          }
+        ],
+        "losers": [
+          {
+            "ticker": "PCT",
+            "name": "Polar Capital Technology Trust",
+            "price": 515,
+            "d1": -8.281389136242208
+          },
+          {
+            "ticker": "BGEO",
+            "name": "Lion Finance Group",
+            "price": 12020,
+            "d1": -7.037896365042537
+          },
+          {
+            "ticker": "HLMA",
+            "name": "Halma plc",
+            "price": 3256,
+            "d1": -6.811677160847167
+          },
+          {
+            "ticker": "ITH",
+            "name": "Ithaca Energy",
+            "price": 229.8,
+            "d1": -6.127450980392156
+          },
+          {
+            "ticker": "EDV",
+            "name": "Endeavour Mining",
+            "price": 3174,
+            "d1": -5.927682276229993
+          }
+        ],
+        "coverage": 100
+      },
+      "shariahListAvailable": true
+    },
+    "stories": [
+      {
+        "category": "markets",
+        "headline": "Huang's return powers best US trading day in over a year",
+        "summary": "Nvidia posted the biggest one-day gain in stock-market history after reinstating Jensen Huang, lifting chipmakers, Oracle and CoreWeave, and nearly wiping out products betting against the stock. Strategists say the move could put a floor under the recent AI sell-off, and Asian and emerging-market stocks rallied in its wake.",
+        "sources": [
+          {
+            "source": "MarketWatch",
+            "title": "U.S. stocks see best day in more than a year, as return of Jensen Huang revives AI enthusiasm",
+            "link": "https://www.marketwatch.com/story/u-s-stocks-see-best-day-in-more-than-a-year-as-return-of-jensen-huang-revives-ai-enthusiasm-c3b9d274?mod=mw_rss_topstories"
+          },
+          {
+            "source": "The New York Times",
+            "title": "Stocks Surge After Jensen Huang Is Reinstated as Nvidia CEO",
+            "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPNXRXMlFUQkJfcnJPMGVlaWZRejZzSnVuRWJiV1E3TUM3c3pkWkxSSGZJaGtCcEc0Uzdja0xzbFFNcWRIZEtZNlFHMHNDclAzVzJqUHU2Z2lFRE51V3AwSWV1cnRoamFsbDVleTdVUFVhSElYMEhXTlhiNkhQNWtSZlRGT1FYQURPeE9RTA?oc=5"
+          },
+          {
+            "source": "Financial Times",
+            "title": "Nasdaq jumps 7% as Nvidia shares soar",
+            "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNeXhpd01xVDBQSlFMWUJzZktLSGh3WXZ0b3JfRTdwSEV4Rll0bjlIc3FfM3MwemllQlRidmpiOEpUbHJBQzZ4YU1ZOFNhMmVpMjBWc3RULWppdmxLZVdERHFTLXJHSjU3aTFWcmFrakkzS3VpTDFkSE45Vk1TbmszWUhzcVM?oc=5"
+          },
+          {
+            "source": "BBC",
+            "title": "Nvidia value climbs by almost $1tn and tech stocks rally after Jensen Huang returns",
+            "link": "https://www.bbc.co.uk/news/articles/cq62pn6j42jko?at_medium=RSS&at_campaign=rss"
+          },
+          {
+            "source": "CNBC Finance",
+            "title": "‘This establishes a bottom’: Jensen Huang’s return seen as likely to stop market sell-off, for now",
+            "link": "https://www.cnbc.com/2026/11/23/nvidia-jensen-huang-ceo-market-rally.html"
+          },
+          {
+            "source": "CNBC",
+            "title": "Nvidia surge: What investors should do with the stock and the AI trade now",
+            "link": "https://www.cnbc.com/2026/11/23/nvidia-stock-jensen-huang-ai-trade.html"
+          },
+          {
+            "source": "FT",
+            "title": "Tech stocks surge on Jensen Huang’s return",
+            "link": "https://www.ft.com/content/c0cb932a-076e-4471-8009-91749fde5f47?syn-25a6b1a6=1"
+          },
+          {
+            "source": "The National",
+            "title": "Asian markets surge on Nvidia rehiring Jensen Huang",
+            "link": "https://www.thenationalnews.com/business/2026/11/24/asian-markets-surge-on-nvidia-rehiring-jensen-huang/"
+          },
+          {
+            "source": "Google News (Markets)",
+            "title": "Asian stocks rally as Huang's return to Nvidia revives the AI trade - Euronext Markets: Real-time Stock Market Data | live",
+            "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOODNYak90b2g5eEo0MW8xUDhNQlBJSDBkdUFUdjZmRFNZNWs4Y1BmNkFVRURnQlFobHc4MVNTWTdsZXV5SmJpNVZBaUhRbFJCZW5aTkFEU0U3OFNDQkRyUXlRSHBBUm55T0ZmdGFucFd4dWNvTDRJWnc2djNvZm50MGVmakVCSU5nZFVNT1RONl9YVUVzM0NxREMwTTdIVVJsTGc?oc=5"
+          },
+          {
+            "source": "Bloomberg.com",
+            "title": "Asian Stocks to Rally as Huang’s Return Revives AI: Markets Wrap",
+            "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQVVBVLTBQYkhINGhEXzM0b3k1ZjV2b25YWmVNMzFuVl9EbkhNWlV1OUtGVVk4YTRLV01lMFZXRGpDLURZVkVJZy15MkZQNUZxYnRhQV9pLXFRQl9EaHlzemVJTmFUQ1VhTUxNUXd0bGxwZm4yLUJMVXdPeHJ2OWdDSkFOTml2a3NRM3VWcThHWGpJVDNi?oc=5"
+          },
+          {
+            "source": "Yahoo Finance UK",
+            "title": "Asian stocks roar back as Jensen Huang's Nvidia return reignites the AI trade",
+            "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNdGZPTnJvUEM5ZU01NHNrMDM2MnNmYkpZZTVUVDM0dEJxZ2tHbEh6Nm9RNG80X240RGdsRzdzUksyTURUN3FDWEt2ZldmWmhLYnNkOWR2XzZYZk1FWXp4ZUxuR3FueTV1UjBTQmE2TUlYWFZnV2lBd0ZPZ1NCNFBJT2J5THo?oc=5"
+          },
+          {
+            "source": "Al Jazeera",
+            "title": "Nvidia live: Markets surge as Jensen Huang returns as CEO",
+            "link": "https://www.aljazeera.com/news/liveblog/2026/11/24/nvidia-live-markets-surge-as-jensen-huang-returns-as-ceo?traffic_source=rss"
+          },
+          {
+            "source": "City AM",
+            "title": "FTSE 100 Live: Stocks to continue gains after Huang return boosts tech",
+            "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPMzVXenlKdkFySDBoUUpOM2VQdWNoQTdtTUx1SDhEakxhblc5c3pQS3ZOelpJLWVLRHA5TDJ1RzJZM09FX3NSdVdSRXFOV0ZrQldhSHllbDgxSUlOUU5MSUxsMTZJdjd0RkIwcFoyX1ZoRzQ1VUpsYV84S2o3YVdfSHF3cVgxV0ZmU2lUM1FGeEY3MlI4SVVaQw?oc=5"
+          }
+        ]
+      },
+      {
+        "category": "economy",
+        "headline": "Fed's Williams signals higher rates likely over time",
+        "summary": "New York Fed president John Williams said interest rates will probably need to rise over time to tackle inflation, while expressing confidence it will move closer to the 2% target. Markets widely expect the Fed to raise rates at its 9 December meeting.",
+        "sources": [
+          {
+            "source": "CNBC Finance",
+            "title": "Fed's John Williams indicates higher interest rates likely 'over time' to address inflation",
+            "link": "https://www.cnbc.com/2026/11/23/john-williams-fed-inflation-rate-hikes.html"
+          },
+          {
+            "source": "OilPrice",
+            "title": "5 Energy Stocks That Can Shrug Off a December Fed Rate Hike",
+            "link": "https://oilprice.com/Energy/Energy-General/5-Energy-Stocks-That-Can-Shrug-Off-a-December-Fed-Rate-Hike.html"
+          }
+        ]
+      },
+      {
+        "category": "companies",
+        "headline": "CrowdStrike agrees $44bn deal for Zscaler",
+        "summary": "Cybersecurity group CrowdStrike is buying Zscaler, which sells zero-trust security products to large enterprises, for $44bn. The deal comes as investors reassess tech valuations.",
+        "sources": [
+          {
+            "source": "TechCrunch",
+            "title": "CrowdStrike to acquire Zscaler for $44 billion",
+            "link": "https://techcrunch.com/2026/11/23/crowdstrike-to-acquire-zscaler-for-44-billion/"
+          }
+        ]
+      }
     ],
-    "coverage": 100
-   },
-   "shariahListAvailable": true
+    "calendar": []
   },
-  "stories": [
-   {
-    "category": "markets",
-    "headline": "Six key questions raised by Jensen Huang's return to Nvidia",
-    "summary": "As Jensen Huang returns to Nvidia, questions remained around the board's reversal, Trump's involvement and the tech giant's future.",
-    "sources": [
-     {
-      "source": "CNBC",
-      "title": "Six key questions raised by Jensen Huang's return to Nvidia",
-      "link": "https://www.cnbc.com/2026/11/24/nvidia-jensen-huang-politics-market.html"
-     }
+  "world": {
+    "us": [
+      {
+        "category": "political",
+        "headline": "Trump claims credit for Huang's Nvidia return, drawing bipartisan fire",
+        "summary": "Trump said he spoke to Nvidia's board and 'convinced' it to reinstate Jensen Huang, assuring it he was not a national-security risk despite his affair with an alleged Chinese spy. Members of Congress from both parties condemned the move, the FT reports Trump made up to $15mn on the share jump, and Huang is due to testify to the Senate next week.",
+        "sources": [
+          {
+            "source": "BBC",
+            "title": "Trump faces backlash after saying he 'convinced' Nvidia to reinstate CEO Jensen Huang",
+            "link": "https://www.bbc.co.uk/news/articles/cq5y1k8ez407o?at_medium=RSS&at_campaign=rss"
+          },
+          {
+            "source": "NPR",
+            "title": "Trump claims credit as Jensen Huang returns to Nvidia",
+            "link": "https://www.npr.org/2026/11/23/nx-s1-6050910/nvidias-jensen-huang-trump"
+          },
+          {
+            "source": "Politico",
+            "title": "2028 Democrats say Nvidia news is another example of corruption in government",
+            "link": "https://www.politico.com/news/2026/11/23/democrats-2028-nvidia-trump-corruption-message-01181056"
+          },
+          {
+            "source": "CNBC Economy",
+            "title": "Peterson: Here’s what Bessent’s about-face on Jensen Huang reveals about Trump and China",
+            "link": "https://www.cnbc.com/2026/11/23/nvidia-jensen-huang-trump-bessent-china.html"
+          },
+          {
+            "source": "CNBC",
+            "title": "Trump sealed deal for Nvidia to rehire Jensen Huang as CEO",
+            "link": "https://www.cnbc.com/2026/11/23/trump-nvidia-jensen-huang.html"
+          },
+          {
+            "source": "The Verge AI",
+            "title": "White House brags that Trump was ‘totally involved’ in getting Jensen reinstated",
+            "link": "https://www.theverge.com/policy/1040096/trump-nvidia-jensen-huang-reinstated"
+          },
+          {
+            "source": "TechCrunch AI",
+            "title": "Trump reportedly called into Nvidia board meeting to advocate for Huang’s return",
+            "link": "https://techcrunch.com/2026/11/23/trump-reportedly-called-into-nvidia-board-meeting-to-advocate-for-huangs-return/"
+          },
+          {
+            "source": "TechCrunch",
+            "title": "‘Outrageous,’ ‘reckless,’ ‘wow’: Here’s what politicians are saying about Jensen Huang’s return to Nvidia",
+            "link": "https://techcrunch.com/2026/11/23/outrageous-reckless-wow-heres-what-politicians-are-saying-about-jensen-huangs-return-to-nvidia/"
+          },
+          {
+            "source": "FT",
+            "title": "Inside the ‘war room’ that lobbied Trump to bring back Jensen Huang",
+            "link": "https://www.ft.com/content/82d3be02-8ac7-4acb-aefa-6e3722ee05cc?syn-25a6b1a6=1"
+          },
+          {
+            "source": "DW",
+            "title": "Nvidia reinstates former CEO Jensen Huang despite China espionage scandal",
+            "link": "https://www.dw.com/en/nvidia-reinstates-former-ceo-jensen-huang-despite-china-espionage-scandal/a-80021926?maca=en-rss-en-all-1573-rdf"
+          },
+          {
+            "source": "Arab News",
+            "title": "Nvidia board reinstates Jensen Huang as CEO; Trump hails 'Great Patriot'",
+            "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQaVZCWXYtSlY1d3JXMjNfMmVNY3JKZ0JMeEpFTkRmLU5rUHQ5QVlnbmMtVUZqVFZORThWM2QyZ0VfbmxPVkVQMnNnZkFUcV83ZWtERnBpNGpRV2dlOHpNa1VfaUk1MVNVOHRrU19vbnFkZ3JlTXY3LVA2cU1NSlhWU2dDVFRmVVFadEJoRk1MWmgzMHFsOWFUb0c2YlU3VEloclNmS2VGaURjelF3?oc=5"
+          },
+          {
+            "source": "BBC Business",
+            "title": "Faisal Islam: Why Jensen Huang proved too big to fire",
+            "link": "https://www.bbc.co.uk/news/articles/ckr5g8edl94eo?at_medium=RSS&at_campaign=rss"
+          },
+          {
+            "source": "Ars Technica",
+            "title": "Jensen Huang reinstated as Nvidia CEO, board chair",
+            "link": "https://arstechnica.com/ai/2026/11/jensen-huang-reinstated-as-nvidia-ceo-board-chair/"
+          }
+        ]
+      },
+      {
+        "category": "financial",
+        "headline": "US blacklists Megaspeed, firm at centre of Nvidia scandal",
+        "summary": "The US added Megaspeed and six other companies to its trade blacklist over concerns they funnelled AI chips to China. Megaspeed was previously led by the former executive whose affair with Jensen Huang triggered his resignation.",
+        "sources": [
+          {
+            "source": "BBC",
+            "title": "US to blacklist Asian AI firm Megaspeed after Nvidia scandal",
+            "link": "https://www.bbc.co.uk/news/articles/cv98xpg5dg5zo?at_medium=RSS&at_campaign=rss"
+          },
+          {
+            "source": "DW",
+            "title": "US adds Megaspeed, at center of Nvidia scandal, to a trade blacklist",
+            "link": "https://www.dw.com/en/us-adds-megaspeed-at-center-of-nvidia-scandal-to-a-trade-blacklist/a-80026849?maca=en-rss-en-all-1573-rdf"
+          },
+          {
+            "source": "CNBC",
+            "title": "U.S. adds Megaspeed to trade blacklist over export control concerns amid Nvidia controversy",
+            "link": "https://www.cnbc.com/2026/11/24/us-adds-megaspeed-to-trade-blacklist-over-export-control-concerns-.html"
+          },
+          {
+            "source": "TechCrunch AI",
+            "title": "Megaspeed, the company at the center of the Jensen Huang scandal, appears headed for a US blacklist",
+            "link": "https://techcrunch.com/2026/11/23/megaspeed-the-company-at-the-center-of-the-jensen-huang-scandal-appears-headed-for-a-u-s-blacklist/"
+          }
+        ]
+      },
+      {
+        "category": "notable",
+        "headline": "Congressman Jimmy Gomez to resign over misconduct findings",
+        "summary": "The California Democrat said he will step down after a House Ethics report concluded he engaged in sexual misconduct. Gomez had already lost his seat in this month's election.",
+        "sources": [
+          {
+            "source": "BBC",
+            "title": "California Democrat to resign from Congress after evidence of sexual misconduct",
+            "link": "https://www.bbc.co.uk/news/articles/cm2l5kgpw5l5o?at_medium=RSS&at_campaign=rss"
+          },
+          {
+            "source": "NPR",
+            "title": "California Democrat Rep. Gomez resigns following ethics report on sexual misconduct allegations",
+            "link": "https://www.npr.org/2026/11/23/g-s1-155142/california-democrat-rep-gomez-resigns-following-ethics-report-on-sexual-misconduct-allegations"
+          }
+        ]
+      }
+    ],
+    "uk": [
+      {
+        "category": "political",
+        "headline": "Burnham defends opening up the EU debate",
+        "summary": "Prime Minister Andy Burnham called his approach to Europe 'pragmatic' and said former PMs urging him not to reopen Brexit are 'stuck in the past'. He told the FT it would be 'unthinkable' to rejoin the EU without a referendum.",
+        "sources": [
+          {
+            "source": "BBC Politics",
+            "title": "My approach to EU is pragmatic, says Burnham",
+            "link": "https://www.bbc.co.uk/news/articles/c6vg2v9xkr40o?at_medium=RSS&at_campaign=rss"
+          },
+          {
+            "source": "FT",
+            "title": "‘Unthinkable’ for Britain to rejoin EU without referendum, says Burnham",
+            "link": "https://www.ft.com/content/46fa4178-055f-44ca-b043-773428e8e986?syn-25a6b1a6=1"
+          },
+          {
+            "source": "BBC",
+            "title": "Chris Mason: Can Burnham turn volume down on EU debate?",
+            "link": "https://www.bbc.co.uk/news/articles/c6pw47jyyz5no?at_medium=RSS&at_campaign=rss"
+          }
+        ]
+      },
+      {
+        "category": "financial",
+        "headline": "Capita shares crash 70% as boss quits over pensions failure",
+        "summary": "Capita's shares fell to a 35-year low after it announced a cash call and the departure of its chief executive over failures in the civil service pension scheme it runs. Public sector workers have faced delays to pension payments since Capita took over the scheme last year.",
+        "sources": [
+          {
+            "source": "BBC Politics",
+            "title": "Capita shares plunge 70% as boss quits after civil service pensions failure",
+            "link": "https://www.bbc.co.uk/news/articles/c65y1qqw3kjxo?at_medium=RSS&at_campaign=rss"
+          },
+          {
+            "source": "Sky News",
+            "title": "Capita shares at 35-year low as firm counts cost of civil service pension failures",
+            "link": "https://news.sky.com/story/capita-counts-cost-of-civil-service-pension-failures-13615632"
+          }
+        ]
+      },
+      {
+        "category": "notable",
+        "headline": "Review to recommend overhaul of disability benefit Pip",
+        "summary": "Disability minister Sir Stephen Timms will call for a fundamental overhaul of Pip assessments, including no reassessments for people with severe conditions. The review follows the government's forced climbdown on planned welfare cuts last year.",
+        "sources": [
+          {
+            "source": "BBC",
+            "title": "Benefits review to suggest quicker payment for some disabled people",
+            "link": "https://www.bbc.co.uk/news/articles/cvx2xjed2r3ro?at_medium=RSS&at_campaign=rss"
+          },
+          {
+            "source": "BBC Business",
+            "title": "Pip assessments need 'fundamental overhaul', report to say",
+            "link": "https://www.bbc.co.uk/news/articles/cvlyj3rn201xo?at_medium=RSS&at_campaign=rss"
+          }
+        ]
+      }
+    ],
+    "europe": [
+      {
+        "category": "political",
+        "headline": "Ukraine says it sank a Russian warship off Libya",
+        "summary": "Kyiv claimed drone strikes on two Russian vessels near Benghazi, sinking one, extending the war well beyond Europe. Libya's Tripoli government condemned the attack and the Kremlin warned of escalation, as Zelensky called for four-way peace talks with Russia, Europe and the US.",
+        "sources": [
+          {
+            "source": "BBC",
+            "title": "Russian warship hit by Ukrainian drones in Libya, Zelensky says",
+            "link": "https://www.bbc.co.uk/news/articles/cr894gjz0j0yo?at_medium=RSS&at_campaign=rss"
+          },
+          {
+            "source": "NPR",
+            "title": "Zelenskyy hails Ukraine's attack on a Russian warship docked at a naval base in Libya",
+            "link": "https://www.npr.org/2026/11/23/g-s1-155017/ukraine-attack-russian-warship-libya"
+          },
+          {
+            "source": "France24",
+            "title": "Live: Tripoli demands explanation from Kyiv for striking Russian ships in Libyan waters",
+            "link": "https://www.france24.com/en/europe/20261124-live-tripoli-demands-explanation-from-kyiv-for-striking-russian-ships-in-libyan-waters"
+          },
+          {
+            "source": "Arab News",
+            "title": "Zelensky confirms Ukrainian army targeted Russian cruiser in Libya",
+            "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPbUZJZFRJLUllZm52T0ZiZEhLbFN0QlpGM3hmNDdzbnZuMGxMX1hzSU4xR2ZPZVgySDRBZHpMYnlENDhJUTIxUXJHblY5NktpTUNuaVpmdm13cC1KVWktOVJMZ2FqT2lGSm1IdWR1NUFLYk5UZGVPY3ZzbU41UTdVcWpkOXBkWHJybXlHbmV6SWZZVGFkRHdIVEFZS0kydlB4bHVueHdBeDZOMDFpTS1kdg?oc=5"
+          }
+        ]
+      },
+      {
+        "category": "financial",
+        "headline": "Bank of France still expects growth despite recession risk",
+        "summary": "Bank of France governor Emmanuel Moulin told CNBC he still expects the economy to grow, citing resilient sectors, as street protests and political unrest weigh on the outlook. Elsewhere, cost-of-living strikes grounded flights in Belgium.",
+        "sources": [
+          {
+            "source": "CNBC Economy",
+            "title": "Why France is at risk of recession — and what could keep it out of one",
+            "link": "https://www.cnbc.com/2026/11/24/france-recession-risk-pmi.html"
+          },
+          {
+            "source": "BBC",
+            "title": "'I want to destroy capitalism, not France': On the streets with the French ultra left",
+            "link": "https://www.bbc.co.uk/news/articles/cw074km48myeo?at_medium=RSS&at_campaign=rss"
+          }
+        ]
+      },
+      {
+        "category": "notable",
+        "headline": "COP31 ends without a deal for the first time since 2009",
+        "summary": "The longest climate summit on record collapsed after countries split over fossil fuels and climate finance. Calls are growing for a reset of how global climate diplomacy works.",
+        "sources": [
+          {
+            "source": "BBC",
+            "title": "What's next after no deal at COP31 climate talks?",
+            "link": "https://www.bbc.co.uk/news/videos/cr1ewge81q4qo?at_medium=RSS&at_campaign=rss"
+          },
+          {
+            "source": "DW",
+            "title": "COP deadlock prompts calls for a reset of climate diplomacy",
+            "link": "https://www.dw.com/en/cop-deadlock-prompts-calls-for-a-reset-of-climate-diplomacy/a-80020494?maca=en-rss-en-all-1573-rdf"
+          },
+          {
+            "source": "OilPrice",
+            "title": "Climate Finance Dispute Derails COP31 Negotiations",
+            "link": "https://oilprice.com/Alternative-Energy/Renewable-Energy/Climate-Finance-Dispute-Derails-COP31-Negotiations.html"
+          },
+          {
+            "source": "Ars Technica",
+            "title": "COP31 ends in failure as countries split over fossil fuels, climate finance",
+            "link": "https://arstechnica.com/science/2026/11/cop31-ends-in-failure-as-countries-split-over-fossil-fuels-climate-finance/"
+          },
+          {
+            "source": "NPR",
+            "title": "Democrats win House by largest margin in 50 years. And, COP31 ends with no deal",
+            "link": "https://www.npr.org/2026/11/23/g-s1-155021/up-first-newsletter-midterms-house-ai-stocks-poland-nato-cop31"
+          },
+          {
+            "source": "The Verge AI",
+            "title": "AI data centers throw another wrench into chaotic UN climate talks",
+            "link": "https://www.theverge.com/science/1040497/ai-data-centers-electricity-un-climate-summit"
+          }
+        ]
+      }
+    ],
+    "middle_east": [
+      {
+        "category": "political",
+        "headline": "Iran says three tankers ablaze after hitting Hormuz mines",
+        "summary": "Iran said three oil tankers caught fire after striking naval mines in the Strait of Hormuz despite a US escort, and vowed to use all means against the US naval blockade. Washington widened sanctions on Tehran.",
+        "sources": [
+          {
+            "source": "The National",
+            "title": "Middle East latest: IRGC says three tankers ablaze in Strait of Hormuz",
+            "link": "https://www.thenationalnews.com/news/mena/2026/11/24/live-iran-war-hormuz-tanker/"
+          },
+          {
+            "source": "CNBC",
+            "title": "Iran says three tankers hit mines in Hormuz despite U.S. escort, as Treasury widens sanctions",
+            "link": "https://www.cnbc.com/2026/11/24/iran-trump-hormuz-crude-.html"
+          },
+          {
+            "source": "Arab News",
+            "title": "Iran says will use all available means to confront US naval blockade",
+            "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNY0UyMjNPZGdkc0RxV3Q1MFd4Z1F5aGNTUkd4OEtPNkVBNkUwajhRaE5VejhqY05wQmRqbjR3SndxRkNQNjRvMzhHUTd4YmhoaWFWQVcxUHNNZ29IeC1GZHVqNjgtdkpaajZGUWxfZ1BiTjZsT19fVlM5emlqOTFuQTlUV2ctSjgxSFBudlhTVXdoZGtTaEE3OWdZUVJ5MzhwRHNmbVpCRzQ3RzJYNksxZzdfOA?oc=5"
+          }
+        ]
+      },
+      {
+        "category": "financial",
+        "headline": "Qatar pushes to revive US–Iran talks, oil prices ease",
+        "summary": "Qatar's prime minister said he is working to de-escalate tensions between Iran and the US after meeting Secretary of State Rubio. Brent crude held near three-month lows below $90 as markets weighed the diplomatic push against the Hormuz mine claims.",
+        "sources": [
+          {
+            "source": "Al Jazeera",
+            "title": "Qatar PM looks to revive US-Iran talks after meeting Rubio",
+            "link": "https://www.aljazeera.com/video/newsfeed/2026/11/24/qatar-pm-looks-to-revive-us-iran-talks-after-meeting-rubio?traffic_source=rss"
+          },
+          {
+            "source": "Arabian Gulf Business Insight | AGBI",
+            "title": "Oil prices fall as Qatar backs diplomacy to end Iran war",
+            "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQaThLSXJpYzhoaHM1N3ZybTU2TzVvdjE1bjNrOTlMa1BkVkFja2VsTVRNVEQ1RzZOMnFBTnJvbjVJMUhJUzBZS0V5LTBTRFdlSEZYT3h3R2lJUnZVdUhUOGRTNUxmbUJFN2JTc3UzS1REZnZrMGJCLXJjZ3FkeGlET05TQURJcGpjYzZNTHZuTEd0aGt6TFJFY1Q4c0VpZE0?oc=5"
+          },
+          {
+            "source": "OilPrice",
+            "title": "Oil Prices Hold Near Three-Month Lows Despite Hormuz Mine Claims",
+            "link": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Hold-Near-Three-Month-Lows-Despite-Hormuz-Mine-Claims.html"
+          }
+        ]
+      },
+      {
+        "category": "notable",
+        "headline": "Oxfam says Gaza has become a 'toxic wasteland'",
+        "summary": "An Oxfam report found signs of possible contamination across almost all of Gaza as a result of Israel's military actions. Separately, Flydubai has been approved to resume flights to Tel Aviv.",
+        "sources": [
+          {
+            "source": "BBC",
+            "title": "Israeli attacks have turned Gaza into 'toxic wasteland', Oxfam says",
+            "link": "https://www.bbc.co.uk/news/articles/c8r4gzzxvxl3o?at_medium=RSS&at_campaign=rss"
+          },
+          {
+            "source": "Arab News",
+            "title": "Gaza a ‘toxic wasteland’ after Israel’s war: Oxfam",
+            "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPX1FBajBVdXpwbWNsWUtiZjFFVjJydnN2ampSSkkyWjNUN2hpNW54S0I1UlBBZzJGWDd4WTRKZGtzV21qd0FOYWdacWtJc002azdGRkxvLVdMbDFPdDBzRFJZcVlReE1tc3BQS0V2Z3NSQlo4cllJWTRHalBid2lwQkJUQkE3MVQ4Z08yUTl6WnZhOVpfR2c?oc=5"
+          },
+          {
+            "source": "The National",
+            "title": "Flydubai given approval to resume flights to Tel Aviv by Israeli authorities",
+            "link": "https://www.thenationalnews.com/travel/2026/11/24/flydubai-given-approval-to-resume-flights-to-tel-aviv-by-israeli-authorities/"
+          }
+        ]
+      }
     ]
-   },
-   {
-    "category": "markets",
-    "headline": "MARKETS LIVE: London futures edge lower despite strong tailwinds from Wall Street and Asia",
-    "summary": "",
-    "sources": [
-     {
-      "source": "Yahoo Finance UK",
-      "title": "MARKETS LIVE: London futures edge lower despite strong tailwinds from Wall Street and Asia",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQSGJrcjBPcFVydlp6MS0wS2xSZ05RN0cwZzhBWWxCRHlpV0d3U002bDdYRXF0NmxTLWdTQmItd0NIZUFXWjN6c3FvQURVeVdpbDZLT2YtSDlucHhPR1pPbXlQM2Q4YkVLbWZwVjl2NFpHb3N5TVRoWm5JaHZGMy1Wb245RDZOckdK?oc=5"
-     }
+  },
+  "energyTech": {
+    "energy": [
+      {
+        "category": "energy",
+        "headline": "NESO proposes locational procurement of ancillary services",
+        "summary": "Britain's system operator has set out proposals to buy ancillary services based on where on the network they are located. The move would tie balancing and stability services more closely to local grid conditions.",
+        "sources": [
+          {
+            "source": "Utility Week",
+            "title": "NESO sets out proposals for locational procurement of ancillary services",
+            "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQcUhpR2ozbVRWb0RXSGNlenpEMWJtb20xX1c5aFdSWEtXWVRSdmZCUWdWSWZMUmtnZmtsWXFYZlhkVWR2YmZDdXNVbXIyM25jcGJrT1JOOTFZM2t0OUlVWm1rZXR0VU1IVTZrM1BxeHE1bkxDc0RwWVdFVzNLcGNTaHNYTnhXQXhFbF9Xa1dPMzl0YmhCYWZaSS1kb3dwN2pQ0gGsAUFVX3lxTE5KYTNnc2JQb0Q0NWlIeURkSFpzQjhySUprUUY4djNnb1JJTTBvN3V1UlNrd2FGTG9MOTVtN1BDRW9MSTlXbXlOU3BfbWlMd0p6U0VSY1FIWHlHZUJFTzcxWEE3NzAzY0s4WnB5Yy1VTF9JS1ZPX0JoQW45b1NGR1pzbm5CcnktbWtwS0g0Y1RTcUZPcUsxVTFZRFlqQWFmb19ST0RCVWQySlpucFo?oc=5"
+          }
+        ]
+      },
+      {
+        "category": "energy",
+        "headline": "Spain approves €17.1bn power grid plan to 2030",
+        "summary": "Spain has signed off a €17.1bn investment plan for its electricity grid through 2030. Elsewhere, Jan De Nul has connected Poland's Baltyk 2 offshore wind farm to the mainland.",
+        "sources": [
+          {
+            "source": "Renewables Now",
+            "title": "Spain approves EUR-17.1bn power grid plan through 2030",
+            "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQYU5adGhoTklleVFfSnNVUTF4NTNZYlF4ODFFTS1JUVA3VVJoOVFtSlJkcHhDQjc2Q2NQcUNncFpZZmc3dFpEN2xBX1FWM05kQjNnSkpKejRDWDE0VC1PbTh4MWRDNUNTOGxPenluOFV2aE1tczFQVnNmcFJDSE1QYUxjMTBLQ3MxaW5oRkVvSlgxZkZBaGxKMmJB?oc=5"
+          },
+          {
+            "source": "DredgeWire",
+            "title": "Jan De Nul connected the offshore wind farm Baltyk 2 to the Polish mainland",
+            "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQSnlrWDQwaFdWR3dWUmwwNWJUR1J3dlNZcWlHZFhjdnR4RlBsQmxIWmpJNTFxUXNPc0VEVERiQktUTDFDMDViLW9SUmZmYjVnM2VtTERJbUZhNUZOM013cmdQaGpYQWRlUlNxMlRpc0ZSZmFuaFJnQ3UzQkdxQk82ZW9aSGI5TDRrb3B4Y0RLLVBzMzR1ajNDbk1TdDcyVFJy?oc=5"
+          }
+        ]
+      },
+      {
+        "category": "energy",
+        "headline": "ConocoPhillips sells Norway business to Vår Energi for $4.43bn",
+        "summary": "Vår Energi will buy ConocoPhillips' Norwegian operations, including its stake in the Ekofisk area. The deal marks ConocoPhillips' exit from Norway.",
+        "sources": [
+          {
+            "source": "OilPrice",
+            "title": "ConocoPhillips to Exit Norway in $4.43 Billion Deal with Vaar Energi",
+            "link": "https://oilprice.com/Latest-Energy-News/World-News/ConocoPhillips-to-Exit-Norway-in-443-Billion-Deal-with-Vaar-Energi.html"
+          }
+        ]
+      }
+    ],
+    "ai": [
+      {
+        "category": "ai",
+        "headline": "Anthropic launches Claude Ship for autonomous code review",
+        "summary": "Anthropic's new developer tools let AI agents review pull requests, fix issues and approve code changes on their own. The aim is to clear the review bottleneck created by the rising volume of AI-generated code.",
+        "sources": [
+          {
+            "source": "TechCrunch AI",
+            "title": "Anthropic launches Claude Ship, letting AI agents review, fix, and approve code changes",
+            "link": "https://techcrunch.com/2026/11/23/anthropic-launches-claude-ship-letting-ai-agents-review-fix-and-approve-code-changes/"
+          },
+          {
+            "source": "The Verge AI",
+            "title": "Claude AI can review pull requests and ship fixes on its own now",
+            "link": "https://www.theverge.com/ai-artificial-intelligence/1040134/anthropic-claude-ship-ai-pull-requests"
+          },
+          {
+            "source": "Reuters",
+            "title": "Anthropic launches Claude Ship to help developers ship code faster",
+            "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNVURIRFNoWllBMDkzLVhtNFloSkdUTFZ2ZmZWN2pMMm52ckI0N1dXT3pVX0VDa3NZYW1YNW5NMVlVdkJCSXVTTGJVc0RxVVNndnhCdTA2dDRIVFIyempCd0MxTEc4SzJoTHJsZGVNTTNDRUlmN1RWb0tzRWRzX2RBZzFkLTlFQkF3VllOUV9ReHg0VHQ4cWtld3psMWpiYTVDZER3UUJ0cXpseWpj?oc=5"
+          }
+        ]
+      },
+      {
+        "category": "ai",
+        "headline": "Anthropic shares sink despite the AI rally",
+        "summary": "Anthropic's newly listed shares fell even as Nvidia's rebound lifted the wider AI trade, having already dropped about 20% from their first trade in two days. Forbes reports Dario and Daniela Amodei sold $561mn of stock in the IPO.",
+        "sources": [
+          {
+            "source": "Bloomberg.com",
+            "title": "Anthropic Shares Sink, Defying AI Trade Rally on Huang’s Return",
+            "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNM3FZMk45aHRWV3NIaWg3cWoxX1A3WDYwbnJlelBOZTR5emJTOU1NOFJNbWJFTC1STmNXT1ExMlRnc3BHQWRLRzNIMnJ1eWpSRG1LSWNfanpDY0xDekl4a3NINm9jTzRyVjRzUFpEMDFwc0toMllDYlNaZkwxYXB6djBKT0FyWi1pZmROZzRjaEJGeEhMaWNJWUllWGZBVndiU1FVNnV2RmlkN2ZrTFJ3cHc4WVU?oc=5"
+          },
+          {
+            "source": "WSJ",
+            "title": "Investors Dumping AI Stocks to Buy Into Anthropic Send Tech Shares Lower",
+            "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQdFNYN21fTE9wTk80YmxDNU96RlIzdnluRmtKMklDMVAxX1dEa1hGQzBNd1g2QUpBVUdLYVFLeVltUHR2b0MzSzJNMS1LX1VCU29NWm10TWQ0cTVncXdPbU5HLTZrVk9fODh0WDZkanl0UllHRW4zaFhsYU13bGl6WklFYTRjSEVTVjJsVnItTHZQWU5ST3AxVjItR3pTZG8tUW5WTjJLOEMtRXVkZDRRRWFDT0F6X0k?oc=5"
+          },
+          {
+            "source": "Yahoo Finance UK",
+            "title": "Why the falling Anthropic share price could be everyone’s problem",
+            "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPSnFqNWcxaXlPVU9LNC1ZTDI1dHctNkJ1WFJyRnVSa1ZTYjVMTFhKd0tBTklXamRxaXhONlRMbDlBZEtYV2lGbXhPejZOMmRyODkySHNiMXcyamRGNVAwXzFidnJ5NlpJbzJQMDVVdzdqTzIzOGdocGZheEJSWVdKNFZJWVNiYnZoMUE?oc=5"
+          },
+          {
+            "source": "The Motley Fool",
+            "title": "Anthropic Stock Fell About 20% From Its First Trade in Its First 2 Days. Here's the Price at Which I'd Buy It.",
+            "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNbjAzdHlOUjItSEZLd2ZuaF9pbnVPQUNYRkpjTnY3YmpKRWl4aVVmQzVaRDNKR0VPZHZ3MjJKdUEtbEtPOHRpQktHZmRuQmV2RXl3bGFmOVc1TWYwZDhWM1pnbVpkTlpIOGdzX2x0OUtkZDFmNzNZZ3Q4NGV2S242TGp2V0J5ODdiNnU5UkFtYzhEdGRIUlNLZkUwWEwyYksxQW1KUFJNY2lIaEFZZWVSSjVfRE5WdkJDYTRQbDFGTHJ3U3YtMDJYZFJ6V2hOM1RhSzNrVnpkQk91VjdibGo0Sy0xNjM?oc=5"
+          },
+          {
+            "source": "Forbes",
+            "title": "Anthropic CEO Dario Amodei And Sister Daniela Sold $561 Million In Stock During IPO",
+            "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOMEM3N2FYVjhpdmpzMU1BVmVkMk4xRmtVUVpBcFB5ZWVZNWN0cXJOT2JnNHctM2Y2d1V4anI5YUlaMF9wcXBsTnhQQm5Cbnhod1N1b0pPNm80Q2ZERzBNX01lc09zellWNndleVAwaDJCSVZBRlFxVW9CNTN5RWwtYmFCSTA2ODhTUjJpNm5RYUNrMV82d2FGVjQwSVZWVWxxLWxqT3ZJRkFTY1dQcHBvTExkaDNQYUNVNUFMSVZjVnF3OGpXT0QtcA?oc=5"
+          },
+          {
+            "source": "IG",
+            "title": "Huang's Nvidia Return: What It Means for Anthropic",
+            "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNTjU3TFg0cDBZWlJCdHlEVTNGNW02SzFQSDg5UmYzdVlVdVliTnhQbWpmWDctTkZRV3pQc0wtN3ljT3B4TVJvakFMcTFaOFdzRktoVlZTbWNtQUhoWk5MbThEYTd6SFFIcUVQazB2WF9nclkwSkNoc0tfeUJIMW5XbDlvNmtZUXpnb0k2UDZmdWhsT043NXZqRVRiQ08xSmlrZ0llMjdZVWF3VDdfeEdUcUoxYw?oc=5"
+          },
+          {
+            "source": "TechCrunch AI",
+            "title": "How Notable Capital, GIC, and Baillie Gifford bet big on Anthropic before its IPO",
+            "link": "https://techcrunch.com/2026/11/22/how-notable-capital-gic-and-baillie-gifford-bet-big-on-anthropic-before-its-ipo/"
+          },
+          {
+            "source": "The Guardian",
+            "title": "Anthropic’s IPO was great for the tech elite – and not so great for the rest of us | Steven Greenhouse",
+            "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQb1BWeTVRdFVORDl1U1BBTTRHYXhPOFdsTW5fV29fa2s0Z0ViTzJhMng3QUJuWVdTeFN4aUhQSU1ZcTI3UFJLLVYxM185d0hxT3FrTXJkN1FtdkZkNlhUWHp1cl9aWnBvSUJPeElpaDk1eko4VEJjQWp6MTc4VzVNdlN4MzZQZGFtcEgwTmlrRzM2WHVIV0E?oc=5"
+          }
+        ]
+      },
+      {
+        "category": "ai",
+        "headline": "Amazon buys Decart's AI tech for a reported $7.5bn",
+        "summary": "Amazon is acquiring Decart's AI optimisation technology and research team as it prepares to sell its Trainium chips. Analysts see it as a relatively cheap way to get more performance out of its chips.",
+        "sources": [
+          {
+            "source": "TechCrunch AI",
+            "title": "Amazon snaps up Decart’s AI optimization tech for $7.5B as it prepares to sell Trainium chips",
+            "link": "https://techcrunch.com/2026/11/23/amazon-snaps-up-decarts-ai-optimization-tech-for-7-5b-as-it-prepares-to-sell-trainium-chips/"
+          },
+          {
+            "source": "MarketWatch",
+            "title": "Amazon may have just found a ‘cheap’ way to get a lot more out of its chips",
+            "link": "https://www.marketwatch.com/story/amazon-may-have-just-found-a-cheap-way-to-get-a-lot-more-out-of-its-chips-bd822bd5?mod=mw_rss_topstories"
+          }
+        ]
+      }
+    ],
+    "tech": [
+      {
+        "category": "tech",
+        "headline": "Reports say Russia may put a nuclear weapon in orbit",
+        "summary": "Reports suggest Russia could launch a nuclear weapon into orbit as soon as next month; a detonation in space could disable thousands of satellites. NATO chief Mark Rutte said the alliance would defend against threats in space.",
+        "sources": [
+          {
+            "source": "Ars Technica",
+            "title": "Reports: Russia may launch nuclear weapon into orbit as soon as next month",
+            "link": "https://arstechnica.com/space/2026/11/russia-may-launch-a-nuclear-armed-satellite-far-sooner-than-we-thought/"
+          },
+          {
+            "source": "France24",
+            "title": "NATO vows space defence after Russia nuclear satellite report",
+            "link": "https://www.france24.com/en/nato-vows-space-defence-after-russia-nuclear-satellite-report"
+          }
+        ]
+      },
+      {
+        "category": "tech",
+        "headline": "US states sue SpaceX over Grok deepfakes",
+        "summary": "Oregon and Virginia filed lawsuits alleging Grok is still generating sexual deepfakes and child abuse images. X says every Grok output is screened.",
+        "sources": [
+          {
+            "source": "The Verge AI",
+            "title": "Oregon and Virginia sue SpaceX over Grok’s porn deepfakes",
+            "link": "https://www.theverge.com/ai-artificial-intelligence/1040255/x-grok-ai-deepfakes-oregon-virginia-lawsuit"
+          },
+          {
+            "source": "Ars Technica",
+            "title": "States sue SpaceX to stop Grok from generating child sex images, revenge porn",
+            "link": "https://arstechnica.com/tech-policy/2026/11/states-sue-spacex-to-stop-grok-from-generating-child-sex-images-revenge-porn/"
+          }
+        ]
+      },
+      {
+        "category": "tech",
+        "headline": "Meta abandons its 2030 net-zero goal",
+        "summary": "Meta dropped its 2030 net-zero target in its 2026 sustainability report. The move could put pressure on rivals' climate pledges.",
+        "sources": [
+          {
+            "source": "TechCrunch",
+            "title": "Meta throws out its net-zero goal — its competitors should be furious",
+            "link": "https://techcrunch.com/2026/11/23/meta-throws-out-its-net-zero-goal-its-competitors-should-be-furious/"
+          }
+        ]
+      }
     ]
-   },
-   {
-    "category": "markets",
-    "headline": "Jensen Huang is ‘too big to fire,’ putting Nvidia’s governance in focus: analysts",
-    "summary": "Jensen Huang’s return has underscored Nvidia’s deep reliance on its founder, putting the company's board oversight and corporate governance under scrutiny.",
-    "sources": [
-     {
-      "source": "CNBC",
-      "title": "Jensen Huang is ‘too big to fire,’ putting Nvidia’s governance in focus: analysts",
-      "link": "https://www.cnbc.com/2026/11/24/nvidia-jensen-huang-governance.html"
-     }
-    ]
-   }
-  ],
-  "calendar": []
- },
- "world": {
-  "us": [
-   {
-    "category": "notable",
-    "headline": "Why France is at risk of recession — and what could keep it out of one",
-    "summary": "Bank of France Governor Emmanuel Moulin told CNBC he still expects growth, pointing to resilience in sectors including defense, aerospace and electricity.",
-    "sources": [
-     {
-      "source": "CNBC Economy",
-      "title": "Why France is at risk of recession — and what could keep it out of one",
-      "link": "https://www.cnbc.com/2026/11/24/france-recession-risk-pmi.html"
-     }
-    ]
-   },
-   {
-    "category": "notable",
-    "headline": "US Army to detonate toxic explosives in Iowa after Trump paused plan",
-    "summary": "The US military plans to detonate five tonnes of expired explosives on Wednesday, after appeals court decision.",
-    "sources": [
-     {
-      "source": "BBC",
-      "title": "US Army to detonate toxic explosives in Iowa after Trump paused plan",
-      "link": "https://www.bbc.co.uk/news/articles/cr2klqzqx1qvo?at_medium=RSS&at_campaign=rss"
-     }
-    ]
-   },
-   {
-    "category": "notable",
-    "headline": "Trump faces backlash after saying he 'convinced' Nvidia to reinstate CEO Jensen Huang",
-    "summary": "Nvidia had come under pressure from President Trump to reappoint Huang, whose comeback helped add $1tn to the company's stock value.",
-    "sources": [
-     {
-      "source": "BBC",
-      "title": "Trump faces backlash after saying he 'convinced' Nvidia to reinstate CEO Jensen Huang",
-      "link": "https://www.bbc.co.uk/news/articles/cq5y1k8ez407o?at_medium=RSS&at_campaign=rss"
-     }
-    ]
-   }
-  ],
-  "uk": [
-   {
-    "category": "notable",
-    "headline": "Property firm told to repay customers thousands over 'unfair' sales tactics",
-    "summary": "Let Property must make the \"unprecedented\" number of repayments after complaints were made to a watchdog.",
-    "sources": [
-     {
-      "source": "BBC",
-      "title": "Property firm told to repay customers thousands over 'unfair' sales tactics",
-      "link": "https://www.bbc.co.uk/news/articles/cm5y1vp20rx1o?at_medium=RSS&at_campaign=rss"
-     }
-    ]
-   },
-   {
-    "category": "notable",
-    "headline": "Vapes seized in schools spiked with drugs, Met says",
-    "summary": "A police pilot scheme in south-west London sees officers working with schools to address vape spiking.",
-    "sources": [
-     {
-      "source": "BBC",
-      "title": "Vapes seized in schools spiked with drugs, Met says",
-      "link": "https://www.bbc.co.uk/news/articles/c9rkg2j8nnveo?at_medium=RSS&at_campaign=rss"
-     }
-    ]
-   },
-   {
-    "category": "notable",
-    "headline": "State failing to keep public safe, warns victims' commissioner",
-    "summary": "Claire Waxman tells the BBC Andy Burnham needs to put justice in his 10-year plan for government.",
-    "sources": [
-     {
-      "source": "BBC",
-      "title": "State failing to keep public safe, warns victims' commissioner",
-      "link": "https://www.bbc.co.uk/news/articles/cr0jx7dw234jo?at_medium=RSS&at_campaign=rss"
-     }
-    ]
-   }
-  ],
-  "europe": [
-   {
-    "category": "notable",
-    "headline": "Ecuador: Severe flooding hits Galápagos Islands amid El Niño concerns",
-    "summary": "Torrential rains have inundated parts of Ecuador's Galápagos Islands, forcing residents to flee their homes. Rescue teams have evacuated people by boat as communities struggle to salvage their belongings.",
-    "sources": [
-     {
-      "source": "Euronews",
-      "title": "Ecuador: Severe flooding hits Galápagos Islands amid El Niño concerns",
-      "link": "https://www.euronews.com/video/2026/11/24/ecuador-severe-flooding-hits-galapagos-islands-amid-el-nino-concerns"
-     }
-    ]
-   },
-   {
-    "category": "notable",
-    "headline": "From Beaujolais wine to the midnight sun: Seven unusual European marathons and running events",
-    "summary": "From wine served at refreshment points to beer and tiramisu tastings, alongside fancy-dress races and runs under the midnight sun, Europe hosts marathons and running events that turn sport into a real party.",
-    "sources": [
-     {
-      "source": "Euronews",
-      "title": "From Beaujolais wine to the midnight sun: Seven unusual European marathons and running events",
-      "link": "https://www.euronews.com/2026/11/24/from-beaujolais-wine-to-the-midnight-sun-seven-unusual-european-marathons-and-running-even"
-     }
-    ]
-   },
-   {
-    "category": "notable",
-    "headline": "Europe Today: EU Commission proposes new round of sanctions against Russia",
-    "summary": "If approved by member states, new round of EU sanctions will mark the 22nd EU sanctions package since February 2022. US chipmaker Nvidia reinstated Jensen Huang as president, chief executive and board member, effective i",
-    "sources": [
-     {
-      "source": "Euronews",
-      "title": "Europe Today: EU Commission proposes new round of sanctions against Russia",
-      "link": "https://www.euronews.com/2026/11/24/europe-today-eu-commission-proposes-new-round-of-sanctions-against-russia"
-     }
-    ]
-   }
-  ],
-  "middle_east": [
-   {
-    "category": "notable",
-    "headline": "Dh200,000 per month: What the top UAE executives take home in 2026",
-    "summary": "",
-    "sources": [
-     {
-      "source": "The National",
-      "title": "Dh200,000 per month: What the top UAE executives take home in 2026",
-      "link": "https://www.thenationalnews.com/business/money/2026/11/24/dh200000-per-month-what-the-top-uae-executives-take-home-in-2026/"
-     }
-    ]
-   },
-   {
-    "category": "notable",
-    "headline": "Australia warns tech giants of multibillion-dollar fines for online ‘harm’",
-    "summary": "New internet safety bill expected to pass this week could impose fines of up to 5 percent of firms' global revenue.",
-    "sources": [
-     {
-      "source": "Al Jazeera",
-      "title": "Australia warns tech giants of multibillion-dollar fines for online ‘harm’",
-      "link": "https://www.aljazeera.com/news/2026/11/24/australia-warns-tech-giants-of-multibillion-dollar-fines-for-online-harm?traffic_source=rss"
-     }
-    ]
-   },
-   {
-    "category": "notable",
-    "headline": "Why Eisenkot is negotiating with Netanyahu",
-    "summary": "Talks with different political powers give Yashar leverage. But they also give Likud renewed political relevance.",
-    "sources": [
-     {
-      "source": "Al Jazeera",
-      "title": "Why Eisenkot is negotiating with Netanyahu",
-      "link": "https://www.aljazeera.com/opinions/2026/11/24/why-eisenkot-is-negotiating-with-netanyahu?traffic_source=rss"
-     }
-    ]
-   }
-  ]
- },
- "energyTech": {
-  "energy": [
-   {
-    "category": "energy",
-    "headline": "Oil Prices Hold Near Three-Month Lows Despite Hormuz Mine Claims",
-    "summary": "Crude oil prices remained subdued in early trading on Tuesday, with Brent trading below $90 per barrel despite Iranian claims that three oil tankers had struck mines in the Strait of Hormuz. At the time of writing, Brent",
-    "sources": [
-     {
-      "source": "OilPrice",
-      "title": "Oil Prices Hold Near Three-Month Lows Despite Hormuz Mine Claims",
-      "link": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Hold-Near-Three-Month-Lows-Despite-Hormuz-Mine-Claims.html"
-     }
-    ]
-   },
-   {
-    "category": "energy",
-    "headline": "Torness could keep generating power for years beyond 2030, council leader believes",
-    "summary": "",
-    "sources": [
-     {
-      "source": "East Lothian Courier",
-      "title": "Torness could keep generating power for years beyond 2030, council leader believes",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNT1hvM3QwUHhIMzlrNHNSRXpoZ2h4c01zZjJLeVQ2bE1hbXVMNkRMZkE0bWlveXlkY2RqckNSSm9SdWhqMG9Xd2JxOW54Nk9KYXlpbFk4UmRmeWxmQUdBRlNXdDhYdEVtNjVuUzZWbFhPZ2Rnckpxdkl1Z1YtWVJDT0dpaE5jamxIMVdvVzljVnpVdl9lVmtjcEZCZ0FHUQ?oc=5"
-     }
-    ]
-   },
-   {
-    "category": "energy",
-    "headline": "Labour urged to replace abandoned nuclear roadmap with new strategy",
-    "summary": "",
-    "sources": [
-     {
-      "source": "Engineering and Technology Magazine",
-      "title": "Labour urged to replace abandoned nuclear roadmap with new strategy",
-      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOTmZFVXdZN1ZvMTVnVTl4RXJhQTlQZVRyOGUzY2tvU3FMeWduZDlwdFZaOGVGbnZhaXBjWW82aVlxaEdUR0dWRDF4X3cwOExobmtHa0pvWVBOaE9VaWRldFdIOC1nbHVwQlgxLUdOWEpXZUxadGRpV1ZSSDVoMUFpcS11SEVXcUplSDNSU1JCbENKMWRSblU2OFJHUlJoQ1JWZzdZcXZySQ?oc=5"
-     }
-    ]
-   }
-  ],
-  "ai": [
-   {
-    "category": "ai",
-    "headline": "OpenAI’s coding agents finish nearly half of two- to four-hour research tasks unaided",
-    "summary": "",
-    "sources": [
-     {
-      "source": "EdTech Innovation Hub",
-      "title": "OpenAI’s coding agents finish nearly half of two- to four-hour research tasks unaided",
-      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOd25xYWRnTUNGQ25xcmxUbERzYTBDd21Fajd6T29wdDZLOVNtUThRakFzeTVxdDJzSlRjTWw3bnZoNzRGNTdEN3pHZUtfNk1vZWVxME5PQkhRcFBWTUtoUzhwbUNMRmhhZERFTFMzdEJGU0ExZG5odXhkUnFUMnB5NWxJR1J1ak13MTRTaHh3Qzc3OXJNWDFPV2lDZWdsMS1PS2lWZ3NuV2VRek5GUl9kbkJnOG1YT25QaDlBYWJMS1dIUQ?oc=5"
-     }
-    ]
-   },
-   {
-    "category": "ai",
-    "headline": "Huang's Nvidia Return: What It Means for Anthropic",
-    "summary": "",
-    "sources": [
-     {
-      "source": "IG",
-      "title": "Huang's Nvidia Return: What It Means for Anthropic",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNTjU3TFg0cDBZWlJCdHlEVTNGNW02SzFQSDg5UmYzdVlVdVliTnhQbWpmWDctTkZRV3pQc0wtN3ljT3B4TVJvakFMcTFaOFdzRktoVlZTbWNtQUhoWk5MbThEYTd6SFFIcUVQazB2WF9nclkwSkNoc0tfeUJIMW5XbDlvNmtZUXpnb0k2UDZmdWhsT043NXZqRVRiQ08xSmlrZ0llMjdZVWF3VDdfeEdUcUoxYw?oc=5"
-     }
-    ]
-   },
-   {
-    "category": "ai",
-    "headline": "Form 4 Anthropic: Christopher P. Liddell (Director) For: 20 November By Investing.com",
-    "summary": "",
-    "sources": [
-     {
-      "source": "Investing.com UK",
-      "title": "Form 4 Anthropic: Christopher P. Liddell (Director) For: 20 November By Investing.com",
-      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNX0JEQTRHdWZGXzN6M3dsZ21iakZRWE9pUjhwVG5sdjF6d0hYSUpGbEpaY2s3bURnSnJkcmhSWFFCMUhtcmVodXFQS1N4Sno0MWtrOUdXWHNYVGxHZTRjOXV3a3d3SkZtRzhMR3VRZHJlUzF1dnZKZk5EUnJ6RXFlMzlCaTRnQnFDVU5VMHgyNEZKOE9oTHppOUNaeUtzTEt4dzIxcEVKcEZ4MGloLW1PWkNmSEdkejlXZTBPTXlLdW9jQQ?oc=5"
-     }
-    ]
-   }
-  ],
-  "tech": [
-   {
-    "category": "tech",
-    "headline": "Google alternative Kagi launches an email service",
-    "summary": "Kagi, which already offers a paid alternative to Google Search and its own Orion browser as a rival to Chrome, is taking on another Google service: Gmail. Today, Kagi announced a public beta of Kagi Mail, a new email ser",
-    "sources": [
-     {
-      "source": "The Verge",
-      "title": "Google alternative Kagi launches an email service",
-      "link": "https://www.theverge.com/tech/1041000/kagi-mail-email-google-gmail-alternative"
-     }
-    ]
-   },
-   {
-    "category": "tech",
-    "headline": "The hacker behind early GTA VI leaks has been sentenced — and released",
-    "summary": "Arion Kurtaj, who pleaded guilty last week to hacking Grand Theft Auto VI developer Rockstar Games and other companies, including Uber and Revolut, was sentenced to seven years in prison but released on license, the BBC ",
-    "sources": [
-     {
-      "source": "The Verge",
-      "title": "The hacker behind early GTA VI leaks has been sentenced — and released",
-      "link": "https://www.theverge.com/games/1040966/arion-kurtaj-gta-vi-leaks-sentenced-released"
-     }
-    ]
-   },
-   {
-    "category": "tech",
-    "headline": "The Verge’s 2026 holiday gift guide",
-    "summary": "Gift-giving isn't just about grabbing something solid under a determined spending limit. It's an expression of love, a way to show someone how well you really know them. That doesn't mean you have to do it all on your ow",
-    "sources": [
-     {
-      "source": "The Verge",
-      "title": "The Verge’s 2026 holiday gift guide",
-      "link": "https://www.theverge.com/gadgets/1026041/holiday-gift-guide-2026"
-     }
-    ]
-   }
-  ]
- },
- "stats": {
-  "headlines": 320,
-  "feeds": 45,
-  "feedsFailed": 9
- }
+  },
+  "stats": {
+    "headlines": 333,
+    "feeds": 45,
+    "feedsFailed": 8
+  }
 }
