@@ -1,0 +1,1008 @@
+{
+ "date": "2026-11-24",
+ "dateLabel": "Tuesday, 24 November 2026",
+ "generatedAt": "2026-11-24T07:25:00.016Z",
+ "mode": "fallback",
+ "model": null,
+ "error": "400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011ChMMVxpJypR5gy6BSq4NM\"}",
+ "headlineOfDay": "",
+ "markets": {
+  "summary": "",
+  "indices": [
+   {
+    "symbol": "^GSPC",
+    "label": "S&P 500",
+    "price": 7237.169921875,
+    "asOf": "2026-11-23",
+    "d1": 4.728818180899615,
+    "w1": -2.419170072161913,
+    "m1": -5.069864487942553,
+    "ytd": 5.7215677726243515,
+    "spark": [
+     7623.6802,
+     7676.77,
+     7722.6001,
+     7743.98,
+     7720.3901,
+     7580.0698,
+     7541.3999,
+     7568.9199,
+     7688.6201,
+     7353.73,
+     7376.8599,
+     7549.9399,
+     7520.9302,
+     7619.3799,
+     7592.3999,
+     7561.6699,
+     7416.5898,
+     7340.5298,
+     7323.6299,
+     7175.8301,
+     6910.3901,
+     7237.1699
+    ]
+   },
+   {
+    "symbol": "SPUS",
+    "label": "S&P 500 Shariah",
+    "sub": "via SPUS ETF",
+    "price": 54.779998779296875,
+    "asOf": "2026-11-23",
+    "d1": 6.121658103057869,
+    "w1": -1.7927572999000436,
+    "m1": -6.614389836699612,
+    "ytd": 7.264537118939229,
+    "spark": [
+     58.66,
+     59.3,
+     59.87,
+     60.11,
+     59.77,
+     58.42,
+     57.61,
+     57.95,
+     58.66,
+     55.41,
+     55.72,
+     57.19,
+     56.69,
+     57.74,
+     57.6,
+     57.04,
+     55.78,
+     55.32,
+     55.27,
+     54.11,
+     51.62,
+     54.78
+    ]
+   },
+   {
+    "symbol": "^IXIC",
+    "label": "Nasdaq",
+    "price": 24089.560546875,
+    "asOf": "2026-11-23",
+    "d1": 6.507417179449406,
+    "w1": -1.714415901127397,
+    "m1": -7.188421758709032,
+    "ytd": 3.6467200267834206,
+    "spark": [
+     25955.3398,
+     26169.3809,
+     26477.8105,
+     26549.8496,
+     26184.7207,
+     25437,
+     25164.3105,
+     25372.0098,
+     25736.5098,
+     24315,
+     24579.4297,
+     25253.1406,
+     25065.8691,
+     25466.1895,
+     25366.0898,
+     25136.2695,
+     24509.7598,
+     24328.3809,
+     24429.8809,
+     23879.1992,
+     22617.7305,
+     24089.5605
+    ]
+   },
+   {
+    "symbol": "^DJI",
+    "label": "Dow Jones",
+    "price": 49595.30859375,
+    "asOf": "2026-11-23",
+    "d1": 3.0073952701814646,
+    "w1": -3.900280145798131,
+    "m1": -5.017415544949567,
+    "ytd": 3.18750456144982,
+    "spark": [
+     52215.1602,
+     52361.5781,
+     52377.5703,
+     52475.1016,
+     52342.5586,
+     51770.3086,
+     51983.9805,
+     51786.7188,
+     53356.1211,
+     51523.0586,
+     51285.7305,
+     52389.75,
+     52231.8906,
+     52486.4883,
+     52297.0898,
+     52347.5508,
+     51608.1719,
+     50759.4219,
+     50198.1719,
+     49097.0586,
+     48147.3281,
+     49595.3086
+    ]
+   },
+   {
+    "symbol": "^FTSE",
+    "label": "FTSE 100",
+    "price": 10480.7998046875,
+    "asOf": "2026-11-23",
+    "d1": 1.2999816604875818,
+    "w1": -3.683280207646976,
+    "m1": -1.9606429907088445,
+    "ytd": 5.531943053883113,
+    "spark": [
+     10690.4004,
+     10767.2998,
+     10686.5,
+     10694.5,
+     10722.0996,
+     10729.7998,
+     10761.2998,
+     10638.4004,
+     10829.2002,
+     10782.7002,
+     10673.9004,
+     10782.9004,
+     10751.5996,
+     10835.5,
+     10863.0996,
+     10902.5996,
+     10881.5996,
+     10689.9004,
+     10551.2002,
+     10452.7002,
+     10346.2998,
+     10480.7998
+    ]
+   },
+   {
+    "symbol": "^STOXX50E",
+    "label": "Euro Stoxx 50",
+    "price": 6074.47021484375,
+    "asOf": "2026-11-23",
+    "d1": 2.2302445354690574,
+    "w1": -4.314189964312363,
+    "m1": 0.10299560297287152,
+    "ytd": 4.800542244537561,
+    "spark": [
+     6068.2202,
+     6116.23,
+     6164.6899,
+     6167.8101,
+     6207.0698,
+     6131.3101,
+     6176.0601,
+     6144.5601,
+     6265.71,
+     6231.54,
+     6170.4902,
+     6290.4502,
+     6327.8701,
+     6393.3901,
+     6398.98,
+     6386.8599,
+     6348.3501,
+     6212.1099,
+     6154.3901,
+     6113.8599,
+     5941.9502,
+     6074.4702
+    ]
+   },
+   {
+    "symbol": "^TASI.SR",
+    "label": "Tadawul (Saudi)",
+    "price": 10001.68,
+    "asOf": "2026-11-24",
+    "d1": 0.6482672285921881,
+    "w1": null,
+    "m1": null,
+    "ytd": null,
+    "spark": []
+   }
+  ],
+  "commodities": [
+   {
+    "symbol": "GC=F",
+    "label": "Gold",
+    "unit": "$/oz",
+    "price": 3621.10009765625,
+    "asOf": "2026-11-24",
+    "d1": -0.8298133728943589,
+    "w1": -6.291078530806912,
+    "m1": -10.33329573045288,
+    "ytd": -16.58565763983941,
+    "spark": [
+     4038.3999,
+     4074.6001,
+     4051.6001,
+     4031.3999,
+     3898.8999,
+     3969.6001,
+     3940.3999,
+     4073,
+     4113.5,
+     4074.8999,
+     4114.5,
+     4030.2,
+     4000.5,
+     3885.3,
+     3886.3,
+     3853,
+     3864.2,
+     3741.8999,
+     3685.5,
+     3515.3999,
+     3651.3999,
+     3621.1001
+    ]
+   },
+   {
+    "symbol": "SI=F",
+    "label": "Silver",
+    "unit": "$/oz",
+    "price": 42.154998779296875,
+    "asOf": "2026-11-24",
+    "d1": -2.299118350217453,
+    "w1": -10.854761494692152,
+    "m1": -22.09100789560809,
+    "ytd": -39.89363623190991,
+    "spark": [
+     54.108,
+     54.293,
+     53.457,
+     52.191,
+     49.097,
+     50.72,
+     49.587,
+     52.12,
+     52.233,
+     51.803,
+     52.564,
+     51.101,
+     51.881,
+     49.972,
+     49.031,
+     46.785,
+     47.288,
+     44.999,
+     44.318,
+     41.035,
+     43.147,
+     42.155
+    ]
+   },
+   {
+    "symbol": "BZ=F",
+    "label": "Brent crude",
+    "unit": "$/bbl",
+    "price": 86.4000015258789,
+    "asOf": "2026-11-24",
+    "d1": -3.3232641036443438,
+    "w1": -7.236416048891034,
+    "m1": -25.395040715578066,
+    "ytd": 41.988502370503724,
+    "spark": [
+     115.81,
+     113.88,
+     115.32,
+     114.88,
+     117.64,
+     104.77,
+     103.6,
+     94.62,
+     98.29,
+     98.32,
+     92.57,
+     91.49,
+     92.76,
+     95.82,
+     95.84,
+     92.44,
+     93.14,
+     91.95,
+     91.98,
+     92.57,
+     89.37,
+     86.4
+    ]
+   },
+   {
+    "symbol": "CL=F",
+    "label": "WTI crude",
+    "unit": "$/bbl",
+    "price": 79.88999938964844,
+    "asOf": "2026-11-24",
+    "d1": -0.34925631245097805,
+    "w1": -7.115454708265922,
+    "m1": -21.491747530924503,
+    "ytd": 39.132709747900456,
+    "spark": [
+     101.76,
+     99.9,
+     102.78,
+     102,
+     104.12,
+     96.46,
+     96.09,
+     88.12,
+     90.52,
+     90.83,
+     86.85,
+     86.04,
+     86.53,
+     88.74,
+     88.56,
+     85.72,
+     86.01,
+     83.26,
+     83.21,
+     83.98,
+     80.17,
+     79.89
+    ]
+   },
+   {
+    "symbol": "HG=F",
+    "label": "Copper",
+    "unit": "$/lb",
+    "price": 5.527500152587891,
+    "asOf": "2026-11-24",
+    "d1": -1.7682549318793146,
+    "w1": -7.505014929088823,
+    "m1": -15.066068837321081,
+    "ytd": -1.8206031930641624,
+    "spark": [
+     6.508,
+     6.622,
+     6.6415,
+     6.581,
+     6.4585,
+     6.5435,
+     6.3785,
+     6.403,
+     6.249,
+     6.218,
+     6.3285,
+     6.2195,
+     6.2745,
+     6.1825,
+     6.0795,
+     5.9975,
+     5.976,
+     5.6595,
+     5.625,
+     5.477,
+     5.627,
+     5.5275
+    ]
+   },
+   {
+    "symbol": "NG=F",
+    "label": "US natural gas",
+    "unit": "$/MMBtu",
+    "price": 3.555999994277954,
+    "asOf": "2026-11-24",
+    "d1": 11.68341637049049,
+    "w1": 10.847882032149794,
+    "m1": 36.6641044152427,
+    "ytd": -3.5268613837914824,
+    "spark": [
+     2.602,
+     2.697,
+     2.817,
+     2.952,
+     2.898,
+     2.856,
+     2.895,
+     2.959,
+     2.947,
+     2.998,
+     3.218,
+     3.296,
+     3.215,
+     3.34,
+     3.23,
+     3.122,
+     3.208,
+     3.372,
+     3.268,
+     3.411,
+     3.184,
+     3.556
+    ]
+   }
+  ],
+  "rates_fx": [
+   {
+    "symbol": "GBPUSD=X",
+    "label": "GBP/USD",
+    "price": 1.3041890859603882,
+    "asOf": "2026-11-24",
+    "d1": -0.40299153414626554,
+    "w1": -1.0824722087678964,
+    "m1": -2.5105622243600734,
+    "ytd": -3.158092551861079,
+    "spark": [
+     1.3378,
+     1.3345,
+     1.3306,
+     1.3328,
+     1.3379,
+     1.3386,
+     1.341,
+     1.3434,
+     1.3477,
+     1.3456,
+     1.336,
+     1.3442,
+     1.3349,
+     1.3277,
+     1.3231,
+     1.3216,
+     1.3185,
+     1.3205,
+     1.3147,
+     1.3086,
+     1.3095,
+     1.3042
+    ]
+   },
+   {
+    "symbol": "EURUSD=X",
+    "label": "EUR/USD",
+    "price": 1.090869426727295,
+    "asOf": "2026-11-24",
+    "d1": -0.5727007465025856,
+    "w1": -0.8137910044227394,
+    "m1": -2.753357451025859,
+    "ytd": -7.1386494259434645,
+    "spark": [
+     1.1218,
+     1.1174,
+     1.113,
+     1.1156,
+     1.1183,
+     1.1157,
+     1.1192,
+     1.1207,
+     1.1235,
+     1.1228,
+     1.1147,
+     1.1222,
+     1.1169,
+     1.1095,
+     1.105,
+     1.1025,
+     1.0998,
+     1.0993,
+     1.0972,
+     1.097,
+     1.0972,
+     1.0909
+    ]
+   },
+   {
+    "symbol": "^TNX",
+    "label": "US 10Y yield",
+    "unit": "%",
+    "price": 4.918000221252441,
+    "asOf": "2026-11-23",
+    "d1": 0.12215068694350596,
+    "w1": -3.964061691798931,
+    "m1": -1.40336198881249,
+    "ytd": 18.135961928167685,
+    "spark": [
+     4.988,
+     4.986,
+     4.993,
+     5.045,
+     4.989,
+     4.929,
+     4.894,
+     4.952,
+     4.894,
+     4.837,
+     4.859,
+     4.864,
+     4.983,
+     4.998,
+     5.103,
+     5.154,
+     5.121,
+     5.103,
+     5.066,
+     5.052,
+     4.912,
+     4.918
+    ]
+   }
+  ],
+  "movers": {
+   "sp500": {
+    "gainers": [
+     {
+      "ticker": "NVDA",
+      "name": "Nvidia",
+      "price": 165.05,
+      "d1": 31.482514140046213,
+      "shariah": true
+     },
+     {
+      "ticker": "DELL",
+      "name": "Dell Technologies",
+      "price": 334.91,
+      "d1": 20.462556650600693,
+      "shariah": false
+     },
+     {
+      "ticker": "MU",
+      "name": "Micron Technology",
+      "price": 707.7,
+      "d1": 19.039208760155432,
+      "shariah": true
+     },
+     {
+      "ticker": "MRVL",
+      "name": "Marvell Technology",
+      "price": 144.74,
+      "d1": 18.367680732744525,
+      "shariah": true
+     },
+     {
+      "ticker": "LITE",
+      "name": "Lumentum",
+      "price": 544.38,
+      "d1": 18.20471620271854,
+      "shariah": true
+     }
+    ],
+    "losers": [
+     {
+      "ticker": "CRWD",
+      "name": "CrowdStrike",
+      "price": 208.97,
+      "d1": -8.921722454672246,
+      "shariah": true
+     },
+     {
+      "ticker": "IP",
+      "name": "International Paper",
+      "price": 28.98,
+      "d1": -4.545454545454542,
+      "shariah": false
+     },
+     {
+      "ticker": "ELV",
+      "name": "Elevance Health",
+      "price": 379.55,
+      "d1": -3.7847292638410073,
+      "shariah": false
+     },
+     {
+      "ticker": "BF.B",
+      "name": "Brown–Forman",
+      "price": 28.83,
+      "d1": -3.643048128342257,
+      "shariah": false
+     },
+     {
+      "ticker": "TPL",
+      "name": "Texas Pacific Land Corporation",
+      "price": 258.07,
+      "d1": -3.5035895901884553,
+      "shariah": true
+     }
+    ],
+    "coverage": 503
+   },
+   "ftse100": {
+    "gainers": [
+     {
+      "ticker": "ULVR",
+      "name": "Unilever",
+      "price": 4887.5,
+      "d1": 2.1634615384615383
+     },
+     {
+      "ticker": "CCEP",
+      "name": "Coca-Cola Europacific Partners",
+      "price": 8875,
+      "d1": 2.128883774453395
+     },
+     {
+      "ticker": "CPG",
+      "name": "Compass Group",
+      "price": 33.55,
+      "d1": 1.2983091787439605
+     },
+     {
+      "ticker": "BATS",
+      "name": "British American Tobacco",
+      "price": 4401,
+      "d1": 1.2422360248447204
+     },
+     {
+      "ticker": "RTO",
+      "name": "Rentokil Initial",
+      "price": 367.2,
+      "d1": 1.240694789081886
+     }
+    ],
+    "losers": [
+     {
+      "ticker": "PCT",
+      "name": "Polar Capital Technology Trust",
+      "price": 515,
+      "d1": -8.281389136242208
+     },
+     {
+      "ticker": "BGEO",
+      "name": "Lion Finance Group",
+      "price": 12020,
+      "d1": -7.037896365042537
+     },
+     {
+      "ticker": "HLMA",
+      "name": "Halma plc",
+      "price": 3256,
+      "d1": -6.811677160847167
+     },
+     {
+      "ticker": "ITH",
+      "name": "Ithaca Energy",
+      "price": 229.8,
+      "d1": -6.127450980392156
+     },
+     {
+      "ticker": "EDV",
+      "name": "Endeavour Mining",
+      "price": 3174,
+      "d1": -5.927682276229993
+     }
+    ],
+    "coverage": 100
+   },
+   "shariahListAvailable": true
+  },
+  "stories": [
+   {
+    "category": "markets",
+    "headline": "Six key questions raised by Jensen Huang's return to Nvidia",
+    "summary": "As Jensen Huang returns to Nvidia, questions remained around the board's reversal, Trump's involvement and the tech giant's future.",
+    "sources": [
+     {
+      "source": "CNBC",
+      "title": "Six key questions raised by Jensen Huang's return to Nvidia",
+      "link": "https://www.cnbc.com/2026/11/24/nvidia-jensen-huang-politics-market.html"
+     }
+    ]
+   },
+   {
+    "category": "markets",
+    "headline": "MARKETS LIVE: London futures edge lower despite strong tailwinds from Wall Street and Asia",
+    "summary": "",
+    "sources": [
+     {
+      "source": "Yahoo Finance UK",
+      "title": "MARKETS LIVE: London futures edge lower despite strong tailwinds from Wall Street and Asia",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQSGJrcjBPcFVydlp6MS0wS2xSZ05RN0cwZzhBWWxCRHlpV0d3U002bDdYRXF0NmxTLWdTQmItd0NIZUFXWjN6c3FvQURVeVdpbDZLT2YtSDlucHhPR1pPbXlQM2Q4YkVLbWZwVjl2NFpHb3N5TVRoWm5JaHZGMy1Wb245RDZOckdK?oc=5"
+     }
+    ]
+   },
+   {
+    "category": "markets",
+    "headline": "Jensen Huang is ‘too big to fire,’ putting Nvidia’s governance in focus: analysts",
+    "summary": "Jensen Huang’s return has underscored Nvidia’s deep reliance on its founder, putting the company's board oversight and corporate governance under scrutiny.",
+    "sources": [
+     {
+      "source": "CNBC",
+      "title": "Jensen Huang is ‘too big to fire,’ putting Nvidia’s governance in focus: analysts",
+      "link": "https://www.cnbc.com/2026/11/24/nvidia-jensen-huang-governance.html"
+     }
+    ]
+   }
+  ],
+  "calendar": []
+ },
+ "world": {
+  "us": [
+   {
+    "category": "notable",
+    "headline": "Why France is at risk of recession — and what could keep it out of one",
+    "summary": "Bank of France Governor Emmanuel Moulin told CNBC he still expects growth, pointing to resilience in sectors including defense, aerospace and electricity.",
+    "sources": [
+     {
+      "source": "CNBC Economy",
+      "title": "Why France is at risk of recession — and what could keep it out of one",
+      "link": "https://www.cnbc.com/2026/11/24/france-recession-risk-pmi.html"
+     }
+    ]
+   },
+   {
+    "category": "notable",
+    "headline": "US Army to detonate toxic explosives in Iowa after Trump paused plan",
+    "summary": "The US military plans to detonate five tonnes of expired explosives on Wednesday, after appeals court decision.",
+    "sources": [
+     {
+      "source": "BBC",
+      "title": "US Army to detonate toxic explosives in Iowa after Trump paused plan",
+      "link": "https://www.bbc.co.uk/news/articles/cr2klqzqx1qvo?at_medium=RSS&at_campaign=rss"
+     }
+    ]
+   },
+   {
+    "category": "notable",
+    "headline": "Trump faces backlash after saying he 'convinced' Nvidia to reinstate CEO Jensen Huang",
+    "summary": "Nvidia had come under pressure from President Trump to reappoint Huang, whose comeback helped add $1tn to the company's stock value.",
+    "sources": [
+     {
+      "source": "BBC",
+      "title": "Trump faces backlash after saying he 'convinced' Nvidia to reinstate CEO Jensen Huang",
+      "link": "https://www.bbc.co.uk/news/articles/cq5y1k8ez407o?at_medium=RSS&at_campaign=rss"
+     }
+    ]
+   }
+  ],
+  "uk": [
+   {
+    "category": "notable",
+    "headline": "Property firm told to repay customers thousands over 'unfair' sales tactics",
+    "summary": "Let Property must make the \"unprecedented\" number of repayments after complaints were made to a watchdog.",
+    "sources": [
+     {
+      "source": "BBC",
+      "title": "Property firm told to repay customers thousands over 'unfair' sales tactics",
+      "link": "https://www.bbc.co.uk/news/articles/cm5y1vp20rx1o?at_medium=RSS&at_campaign=rss"
+     }
+    ]
+   },
+   {
+    "category": "notable",
+    "headline": "Vapes seized in schools spiked with drugs, Met says",
+    "summary": "A police pilot scheme in south-west London sees officers working with schools to address vape spiking.",
+    "sources": [
+     {
+      "source": "BBC",
+      "title": "Vapes seized in schools spiked with drugs, Met says",
+      "link": "https://www.bbc.co.uk/news/articles/c9rkg2j8nnveo?at_medium=RSS&at_campaign=rss"
+     }
+    ]
+   },
+   {
+    "category": "notable",
+    "headline": "State failing to keep public safe, warns victims' commissioner",
+    "summary": "Claire Waxman tells the BBC Andy Burnham needs to put justice in his 10-year plan for government.",
+    "sources": [
+     {
+      "source": "BBC",
+      "title": "State failing to keep public safe, warns victims' commissioner",
+      "link": "https://www.bbc.co.uk/news/articles/cr0jx7dw234jo?at_medium=RSS&at_campaign=rss"
+     }
+    ]
+   }
+  ],
+  "europe": [
+   {
+    "category": "notable",
+    "headline": "Ecuador: Severe flooding hits Galápagos Islands amid El Niño concerns",
+    "summary": "Torrential rains have inundated parts of Ecuador's Galápagos Islands, forcing residents to flee their homes. Rescue teams have evacuated people by boat as communities struggle to salvage their belongings.",
+    "sources": [
+     {
+      "source": "Euronews",
+      "title": "Ecuador: Severe flooding hits Galápagos Islands amid El Niño concerns",
+      "link": "https://www.euronews.com/video/2026/11/24/ecuador-severe-flooding-hits-galapagos-islands-amid-el-nino-concerns"
+     }
+    ]
+   },
+   {
+    "category": "notable",
+    "headline": "From Beaujolais wine to the midnight sun: Seven unusual European marathons and running events",
+    "summary": "From wine served at refreshment points to beer and tiramisu tastings, alongside fancy-dress races and runs under the midnight sun, Europe hosts marathons and running events that turn sport into a real party.",
+    "sources": [
+     {
+      "source": "Euronews",
+      "title": "From Beaujolais wine to the midnight sun: Seven unusual European marathons and running events",
+      "link": "https://www.euronews.com/2026/11/24/from-beaujolais-wine-to-the-midnight-sun-seven-unusual-european-marathons-and-running-even"
+     }
+    ]
+   },
+   {
+    "category": "notable",
+    "headline": "Europe Today: EU Commission proposes new round of sanctions against Russia",
+    "summary": "If approved by member states, new round of EU sanctions will mark the 22nd EU sanctions package since February 2022. US chipmaker Nvidia reinstated Jensen Huang as president, chief executive and board member, effective i",
+    "sources": [
+     {
+      "source": "Euronews",
+      "title": "Europe Today: EU Commission proposes new round of sanctions against Russia",
+      "link": "https://www.euronews.com/2026/11/24/europe-today-eu-commission-proposes-new-round-of-sanctions-against-russia"
+     }
+    ]
+   }
+  ],
+  "middle_east": [
+   {
+    "category": "notable",
+    "headline": "Dh200,000 per month: What the top UAE executives take home in 2026",
+    "summary": "",
+    "sources": [
+     {
+      "source": "The National",
+      "title": "Dh200,000 per month: What the top UAE executives take home in 2026",
+      "link": "https://www.thenationalnews.com/business/money/2026/11/24/dh200000-per-month-what-the-top-uae-executives-take-home-in-2026/"
+     }
+    ]
+   },
+   {
+    "category": "notable",
+    "headline": "Australia warns tech giants of multibillion-dollar fines for online ‘harm’",
+    "summary": "New internet safety bill expected to pass this week could impose fines of up to 5 percent of firms' global revenue.",
+    "sources": [
+     {
+      "source": "Al Jazeera",
+      "title": "Australia warns tech giants of multibillion-dollar fines for online ‘harm’",
+      "link": "https://www.aljazeera.com/news/2026/11/24/australia-warns-tech-giants-of-multibillion-dollar-fines-for-online-harm?traffic_source=rss"
+     }
+    ]
+   },
+   {
+    "category": "notable",
+    "headline": "Why Eisenkot is negotiating with Netanyahu",
+    "summary": "Talks with different political powers give Yashar leverage. But they also give Likud renewed political relevance.",
+    "sources": [
+     {
+      "source": "Al Jazeera",
+      "title": "Why Eisenkot is negotiating with Netanyahu",
+      "link": "https://www.aljazeera.com/opinions/2026/11/24/why-eisenkot-is-negotiating-with-netanyahu?traffic_source=rss"
+     }
+    ]
+   }
+  ]
+ },
+ "energyTech": {
+  "energy": [
+   {
+    "category": "energy",
+    "headline": "Oil Prices Hold Near Three-Month Lows Despite Hormuz Mine Claims",
+    "summary": "Crude oil prices remained subdued in early trading on Tuesday, with Brent trading below $90 per barrel despite Iranian claims that three oil tankers had struck mines in the Strait of Hormuz. At the time of writing, Brent",
+    "sources": [
+     {
+      "source": "OilPrice",
+      "title": "Oil Prices Hold Near Three-Month Lows Despite Hormuz Mine Claims",
+      "link": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Hold-Near-Three-Month-Lows-Despite-Hormuz-Mine-Claims.html"
+     }
+    ]
+   },
+   {
+    "category": "energy",
+    "headline": "Torness could keep generating power for years beyond 2030, council leader believes",
+    "summary": "",
+    "sources": [
+     {
+      "source": "East Lothian Courier",
+      "title": "Torness could keep generating power for years beyond 2030, council leader believes",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNT1hvM3QwUHhIMzlrNHNSRXpoZ2h4c01zZjJLeVQ2bE1hbXVMNkRMZkE0bWlveXlkY2RqckNSSm9SdWhqMG9Xd2JxOW54Nk9KYXlpbFk4UmRmeWxmQUdBRlNXdDhYdEVtNjVuUzZWbFhPZ2Rnckpxdkl1Z1YtWVJDT0dpaE5jamxIMVdvVzljVnpVdl9lVmtjcEZCZ0FHUQ?oc=5"
+     }
+    ]
+   },
+   {
+    "category": "energy",
+    "headline": "Labour urged to replace abandoned nuclear roadmap with new strategy",
+    "summary": "",
+    "sources": [
+     {
+      "source": "Engineering and Technology Magazine",
+      "title": "Labour urged to replace abandoned nuclear roadmap with new strategy",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOTmZFVXdZN1ZvMTVnVTl4RXJhQTlQZVRyOGUzY2tvU3FMeWduZDlwdFZaOGVGbnZhaXBjWW82aVlxaEdUR0dWRDF4X3cwOExobmtHa0pvWVBOaE9VaWRldFdIOC1nbHVwQlgxLUdOWEpXZUxadGRpV1ZSSDVoMUFpcS11SEVXcUplSDNSU1JCbENKMWRSblU2OFJHUlJoQ1JWZzdZcXZySQ?oc=5"
+     }
+    ]
+   }
+  ],
+  "ai": [
+   {
+    "category": "ai",
+    "headline": "OpenAI’s coding agents finish nearly half of two- to four-hour research tasks unaided",
+    "summary": "",
+    "sources": [
+     {
+      "source": "EdTech Innovation Hub",
+      "title": "OpenAI’s coding agents finish nearly half of two- to four-hour research tasks unaided",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOd25xYWRnTUNGQ25xcmxUbERzYTBDd21Fajd6T29wdDZLOVNtUThRakFzeTVxdDJzSlRjTWw3bnZoNzRGNTdEN3pHZUtfNk1vZWVxME5PQkhRcFBWTUtoUzhwbUNMRmhhZERFTFMzdEJGU0ExZG5odXhkUnFUMnB5NWxJR1J1ak13MTRTaHh3Qzc3OXJNWDFPV2lDZWdsMS1PS2lWZ3NuV2VRek5GUl9kbkJnOG1YT25QaDlBYWJMS1dIUQ?oc=5"
+     }
+    ]
+   },
+   {
+    "category": "ai",
+    "headline": "Huang's Nvidia Return: What It Means for Anthropic",
+    "summary": "",
+    "sources": [
+     {
+      "source": "IG",
+      "title": "Huang's Nvidia Return: What It Means for Anthropic",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNTjU3TFg0cDBZWlJCdHlEVTNGNW02SzFQSDg5UmYzdVlVdVliTnhQbWpmWDctTkZRV3pQc0wtN3ljT3B4TVJvakFMcTFaOFdzRktoVlZTbWNtQUhoWk5MbThEYTd6SFFIcUVQazB2WF9nclkwSkNoc0tfeUJIMW5XbDlvNmtZUXpnb0k2UDZmdWhsT043NXZqRVRiQ08xSmlrZ0llMjdZVWF3VDdfeEdUcUoxYw?oc=5"
+     }
+    ]
+   },
+   {
+    "category": "ai",
+    "headline": "Form 4 Anthropic: Christopher P. Liddell (Director) For: 20 November By Investing.com",
+    "summary": "",
+    "sources": [
+     {
+      "source": "Investing.com UK",
+      "title": "Form 4 Anthropic: Christopher P. Liddell (Director) For: 20 November By Investing.com",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNX0JEQTRHdWZGXzN6M3dsZ21iakZRWE9pUjhwVG5sdjF6d0hYSUpGbEpaY2s3bURnSnJkcmhSWFFCMUhtcmVodXFQS1N4Sno0MWtrOUdXWHNYVGxHZTRjOXV3a3d3SkZtRzhMR3VRZHJlUzF1dnZKZk5EUnJ6RXFlMzlCaTRnQnFDVU5VMHgyNEZKOE9oTHppOUNaeUtzTEt4dzIxcEVKcEZ4MGloLW1PWkNmSEdkejlXZTBPTXlLdW9jQQ?oc=5"
+     }
+    ]
+   }
+  ],
+  "tech": [
+   {
+    "category": "tech",
+    "headline": "Google alternative Kagi launches an email service",
+    "summary": "Kagi, which already offers a paid alternative to Google Search and its own Orion browser as a rival to Chrome, is taking on another Google service: Gmail. Today, Kagi announced a public beta of Kagi Mail, a new email ser",
+    "sources": [
+     {
+      "source": "The Verge",
+      "title": "Google alternative Kagi launches an email service",
+      "link": "https://www.theverge.com/tech/1041000/kagi-mail-email-google-gmail-alternative"
+     }
+    ]
+   },
+   {
+    "category": "tech",
+    "headline": "The hacker behind early GTA VI leaks has been sentenced — and released",
+    "summary": "Arion Kurtaj, who pleaded guilty last week to hacking Grand Theft Auto VI developer Rockstar Games and other companies, including Uber and Revolut, was sentenced to seven years in prison but released on license, the BBC ",
+    "sources": [
+     {
+      "source": "The Verge",
+      "title": "The hacker behind early GTA VI leaks has been sentenced — and released",
+      "link": "https://www.theverge.com/games/1040966/arion-kurtaj-gta-vi-leaks-sentenced-released"
+     }
+    ]
+   },
+   {
+    "category": "tech",
+    "headline": "The Verge’s 2026 holiday gift guide",
+    "summary": "Gift-giving isn't just about grabbing something solid under a determined spending limit. It's an expression of love, a way to show someone how well you really know them. That doesn't mean you have to do it all on your ow",
+    "sources": [
+     {
+      "source": "The Verge",
+      "title": "The Verge’s 2026 holiday gift guide",
+      "link": "https://www.theverge.com/gadgets/1026041/holiday-gift-guide-2026"
+     }
+    ]
+   }
+  ]
+ },
+ "stats": {
+  "headlines": 320,
+  "feeds": 45,
+  "feedsFailed": 9
+ }
+}
