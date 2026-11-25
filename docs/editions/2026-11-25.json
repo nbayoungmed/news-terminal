@@ -1,0 +1,1361 @@
+{
+  "date": "2026-11-25",
+  "dateLabel": "Wednesday, 25 November 2026",
+  "generatedAt": "2026-11-25T07:18:55.116Z",
+  "mode": "ai",
+  "model": "claude-opus-5-5 (via Claude Code)",
+  "error": null,
+  "headlineOfDay": "Ofgem confirms a 26% rise in household energy bills from January, as the AI rally fades and Anthropic slips below its IPO price.",
+  "markets": {
+    "summary": "Monday's Huang-driven rebound faded on Tuesday: the Nasdaq fell 1.5% and the S&P 500 0.5% as AI doubts returned, Nvidia dropped 7% amid questions over Trump's role in its CEO's return, and Anthropic closed below its IPO price. The sell-off spread to Asia on Wednesday, with SoftBank down 15%, while Brent crude extended its November slide despite threats in the Strait of Hormuz.",
+    "indices": [
+      {
+        "symbol": "^GSPC",
+        "label": "S&P 500",
+        "price": 7201.08984375,
+        "asOf": "2026-11-24",
+        "d1": -0.49853849660134003,
+        "w1": -1.8995896139297783,
+        "m1": -6.196358293540431,
+        "ytd": 5.194505058067343,
+        "spark": [
+          7676.77,
+          7722.6001,
+          7743.98,
+          7720.3901,
+          7580.0698,
+          7541.3999,
+          7568.9199,
+          7688.6201,
+          7353.73,
+          7376.8599,
+          7549.9399,
+          7520.9302,
+          7619.3799,
+          7592.3999,
+          7561.6699,
+          7416.5898,
+          7340.5298,
+          7323.6299,
+          7175.8301,
+          6910.3901,
+          7237.1699,
+          7201.0898
+        ]
+      },
+      {
+        "symbol": "SPUS",
+        "label": "S&P 500 Shariah",
+        "sub": "via SPUS ETF",
+        "price": 54.16999816894531,
+        "asOf": "2026-11-24",
+        "d1": -1.1135462284495365,
+        "w1": -2.0788169418346927,
+        "m1": -8.650929399859338,
+        "ytd": 6.070096911387428,
+        "spark": [
+          59.3,
+          59.87,
+          60.11,
+          59.77,
+          58.42,
+          57.61,
+          57.95,
+          58.66,
+          55.41,
+          55.72,
+          57.19,
+          56.69,
+          57.74,
+          57.6,
+          57.04,
+          55.78,
+          55.32,
+          55.27,
+          54.11,
+          51.62,
+          54.78,
+          54.17
+        ],
+        "note": "Tech-heavy Shariah index hit by the AI pull-back"
+      },
+      {
+        "symbol": "^IXIC",
+        "label": "Nasdaq",
+        "price": 23733.5390625,
+        "asOf": "2026-11-24",
+        "d1": -1.4779077587664196,
+        "w1": -2.445052962272153,
+        "m1": -9.307984051913007,
+        "ytd": 2.11491710980068,
+        "spark": [
+          26169.3809,
+          26477.8105,
+          26549.8496,
+          26184.7207,
+          25437,
+          25164.3105,
+          25372.0098,
+          25736.5098,
+          24315,
+          24579.4297,
+          25253.1406,
+          25065.8691,
+          25466.1895,
+          25366.0898,
+          25136.2695,
+          24509.7598,
+          24328.3809,
+          24429.8809,
+          23879.1992,
+          22617.7305,
+          24089.5605,
+          23733.5391
+        ],
+        "note": "AI rally faded; Nvidia fell 7% amid questions over Trump's role"
+      },
+      {
+        "symbol": "^DJI",
+        "label": "Dow Jones",
+        "price": 50018.69921875,
+        "asOf": "2026-11-24",
+        "d1": 0.8536908772321978,
+        "w1": -1.4592811125274463,
+        "m1": -4.474423785809072,
+        "ytd": 4.0684068743344755,
+        "spark": [
+          52361.5781,
+          52377.5703,
+          52475.1016,
+          52342.5586,
+          51770.3086,
+          51983.9805,
+          51786.7188,
+          53356.1211,
+          51523.0586,
+          51285.7305,
+          52389.75,
+          52231.8906,
+          52486.4883,
+          52297.0898,
+          52347.5508,
+          51608.1719,
+          50759.4219,
+          50198.1719,
+          49097.0586,
+          48147.3281,
+          49595.3086,
+          50018.6992
+        ]
+      },
+      {
+        "symbol": "^FTSE",
+        "label": "FTSE 100",
+        "price": 10467.099609375,
+        "asOf": "2026-11-24",
+        "d1": -0.1307170785417792,
+        "w1": -2.0842175615162457,
+        "m1": -2.7880731544394175,
+        "ytd": 5.393994780994703,
+        "spark": [
+          10767.2998,
+          10686.5,
+          10694.5,
+          10722.0996,
+          10729.7998,
+          10761.2998,
+          10638.4004,
+          10829.2002,
+          10782.7002,
+          10673.9004,
+          10782.9004,
+          10751.5996,
+          10835.5,
+          10863.0996,
+          10902.5996,
+          10881.5996,
+          10689.9004,
+          10551.2002,
+          10452.7002,
+          10346.2998,
+          10480.7998,
+          10467.0996
+        ]
+      },
+      {
+        "symbol": "^STOXX50E",
+        "label": "Euro Stoxx 50",
+        "price": 6003.759765625,
+        "asOf": "2026-11-24",
+        "d1": -1.1640595264745872,
+        "w1": -3.3539345285532187,
+        "m1": -1.8388813894001128,
+        "ytd": 3.5806015487429974,
+        "spark": [
+          6116.23,
+          6164.6899,
+          6167.8101,
+          6207.0698,
+          6131.3101,
+          6176.0601,
+          6144.5601,
+          6265.71,
+          6231.54,
+          6170.4902,
+          6290.4502,
+          6327.8701,
+          6393.3901,
+          6398.98,
+          6386.8599,
+          6348.3501,
+          6212.1099,
+          6154.3901,
+          6113.8599,
+          5941.9502,
+          6074.4702,
+          6003.7598
+        ]
+      },
+      {
+        "symbol": "^TASI.SR",
+        "label": "Tadawul (Saudi)",
+        "price": 9970.85,
+        "asOf": "2026-11-25",
+        "d1": -0.062242784948663504,
+        "w1": null,
+        "m1": null,
+        "ytd": null,
+        "spark": []
+      }
+    ],
+    "commodities": [
+      {
+        "symbol": "GC=F",
+        "label": "Gold",
+        "unit": "$/oz",
+        "price": 3519,
+        "asOf": "2026-11-25",
+        "d1": -1.2044106662155674,
+        "w1": -5.956864378016526,
+        "m1": -13.63569637118098,
+        "ytd": -18.937598285284874,
+        "spark": [
+          4074.6001,
+          4051.6001,
+          4031.3999,
+          3898.8999,
+          3969.6001,
+          3940.3999,
+          4073,
+          4113.5,
+          4074.8999,
+          4114.5,
+          4030.2,
+          4000.5,
+          3885.3,
+          3886.3,
+          3853,
+          3864.2,
+          3741.8999,
+          3685.5,
+          3515.3999,
+          3651.3999,
+          3561.8999,
+          3519
+        ]
+      },
+      {
+        "symbol": "SI=F",
+        "label": "Silver",
+        "unit": "$/oz",
+        "price": 40.29499816894531,
+        "asOf": "2026-11-25",
+        "d1": -1.1408247589211369,
+        "w1": -10.453570797013075,
+        "m1": -25.78233158504457,
+        "ytd": -42.54570304562233,
+        "spark": [
+          54.293,
+          53.457,
+          52.191,
+          49.097,
+          50.72,
+          49.587,
+          52.12,
+          52.233,
+          51.803,
+          52.564,
+          51.101,
+          51.881,
+          49.972,
+          49.031,
+          46.785,
+          47.288,
+          44.999,
+          44.318,
+          41.035,
+          43.147,
+          40.76,
+          40.295
+        ]
+      },
+      {
+        "symbol": "BZ=F",
+        "label": "Brent crude",
+        "unit": "$/bbl",
+        "price": 87.47000122070312,
+        "asOf": "2026-11-25",
+        "d1": -4.299781443726831,
+        "w1": -4.87220867452645,
+        "m1": -23.191075403650117,
+        "ytd": 43.7469242631177,
+        "spark": [
+          113.88,
+          115.32,
+          114.88,
+          117.64,
+          104.77,
+          103.6,
+          94.62,
+          98.29,
+          98.32,
+          92.57,
+          91.49,
+          92.76,
+          95.82,
+          95.84,
+          92.44,
+          93.14,
+          91.95,
+          91.98,
+          92.57,
+          89.37,
+          91.4,
+          87.47
+        ],
+        "note": "Extending a 20%+ November slide despite Hormuz threats"
+      },
+      {
+        "symbol": "CL=F",
+        "label": "WTI crude",
+        "unit": "$/bbl",
+        "price": 80.68000030517578,
+        "asOf": "2026-11-25",
+        "d1": -1.6697168746207387,
+        "w1": -3.098728999349861,
+        "m1": -19.23924016730292,
+        "ytd": 40.50853862411,
+        "spark": [
+          99.9,
+          102.78,
+          102,
+          104.12,
+          96.46,
+          96.09,
+          88.12,
+          90.52,
+          90.83,
+          86.85,
+          86.04,
+          86.53,
+          88.74,
+          88.56,
+          85.72,
+          86.01,
+          83.26,
+          83.21,
+          83.98,
+          80.17,
+          82.05,
+          80.68
+        ]
+      },
+      {
+        "symbol": "HG=F",
+        "label": "Copper",
+        "unit": "$/lb",
+        "price": 5.39300012588501,
+        "asOf": "2026-11-25",
+        "d1": 0.5687633392133615,
+        "w1": -4.708896376661158,
+        "m1": -18.559348402260735,
+        "ytd": -4.209591185406988,
+        "spark": [
+          6.622,
+          6.6415,
+          6.581,
+          6.4585,
+          6.5435,
+          6.3785,
+          6.403,
+          6.249,
+          6.218,
+          6.3285,
+          6.2195,
+          6.2745,
+          6.1825,
+          6.0795,
+          5.9975,
+          5.976,
+          5.6595,
+          5.625,
+          5.477,
+          5.627,
+          5.3625,
+          5.393
+        ]
+      },
+      {
+        "symbol": "NG=F",
+        "label": "US natural gas",
+        "unit": "$/MMBtu",
+        "price": 3.63700008392334,
+        "asOf": "2026-11-25",
+        "d1": 9.449296840964545,
+        "w1": 7.858840645107508,
+        "m1": 34.85354274799996,
+        "ytd": -1.3293549471045176,
+        "spark": [
+          2.697,
+          2.817,
+          2.952,
+          2.898,
+          2.856,
+          2.895,
+          2.959,
+          2.947,
+          2.998,
+          3.218,
+          3.296,
+          3.215,
+          3.34,
+          3.23,
+          3.122,
+          3.208,
+          3.372,
+          3.268,
+          3.411,
+          3.184,
+          3.323,
+          3.637
+        ]
+      }
+    ],
+    "rates_fx": [
+      {
+        "symbol": "GBPUSD=X",
+        "label": "GBP/USD",
+        "price": 1.308455228805542,
+        "asOf": "2026-11-25",
+        "d1": 0.3820714938376259,
+        "w1": -0.9119952522045174,
+        "m1": -1.952216154449326,
+        "ytd": -2.841312251352205,
+        "spark": [
+          1.3345,
+          1.3306,
+          1.3328,
+          1.3379,
+          1.3386,
+          1.341,
+          1.3434,
+          1.3477,
+          1.3456,
+          1.336,
+          1.3442,
+          1.3349,
+          1.3277,
+          1.3231,
+          1.3216,
+          1.3185,
+          1.3205,
+          1.3147,
+          1.3086,
+          1.3095,
+          1.3035,
+          1.3085
+        ]
+      },
+      {
+        "symbol": "EURUSD=X",
+        "label": "EUR/USD",
+        "price": 1.0942115783691406,
+        "asOf": "2026-11-25",
+        "d1": 0.3118450747985575,
+        "w1": -0.4617581990248217,
+        "m1": -2.073534636258211,
+        "ytd": -6.854145426031953,
+        "spark": [
+          1.1174,
+          1.113,
+          1.1156,
+          1.1183,
+          1.1157,
+          1.1192,
+          1.1207,
+          1.1235,
+          1.1228,
+          1.1147,
+          1.1222,
+          1.1169,
+          1.1095,
+          1.105,
+          1.1025,
+          1.0998,
+          1.0993,
+          1.0972,
+          1.097,
+          1.0972,
+          1.0908,
+          1.0942
+        ]
+      },
+      {
+        "symbol": "^TNX",
+        "label": "US 10Y yield",
+        "unit": "%",
+        "price": 4.9039998054504395,
+        "asOf": "2026-11-24",
+        "d1": -0.2846770063470339,
+        "w1": -3.899673764155022,
+        "m1": -1.6446099996174592,
+        "ytd": 17.799656008331304,
+        "spark": [
+          4.986,
+          4.993,
+          5.045,
+          4.989,
+          4.929,
+          4.894,
+          4.952,
+          4.894,
+          4.837,
+          4.859,
+          4.864,
+          4.983,
+          4.998,
+          5.103,
+          5.154,
+          5.121,
+          5.103,
+          5.066,
+          5.052,
+          4.912,
+          4.918,
+          4.904
+        ]
+      }
+    ],
+    "movers": {
+      "sp500": {
+        "gainers": [
+          {
+            "ticker": "DLTR",
+            "name": "Dollar Tree",
+            "price": 154.65,
+            "d1": 11.17900790797988,
+            "shariah": false
+          },
+          {
+            "ticker": "CSGP",
+            "name": "CoStar Group",
+            "price": 32.64,
+            "d1": 8.079470198675502,
+            "shariah": true
+          },
+          {
+            "ticker": "MRNA",
+            "name": "Moderna",
+            "price": 227.38,
+            "d1": 7.21425877027536,
+            "shariah": false
+          },
+          {
+            "ticker": "CHTR",
+            "name": "Charter Communications",
+            "price": 135.87,
+            "d1": 6.214821763602254,
+            "shariah": false
+          },
+          {
+            "ticker": "NKE",
+            "name": "Nike, Inc.",
+            "price": 35.75,
+            "d1": 5.894549763033181,
+            "shariah": true
+          }
+        ],
+        "losers": [
+          {
+            "ticker": "ADI",
+            "name": "Analog Devices",
+            "price": 312.95,
+            "d1": -17.372937293729375,
+            "shariah": true
+          },
+          {
+            "ticker": "HPE",
+            "name": "Hewlett Packard Enterprise",
+            "price": 40.19,
+            "d1": -16.30570595585174,
+            "shariah": false,
+            "note": "Fell despite raising its forecast on strong AI demand"
+          },
+          {
+            "ticker": "DELL",
+            "name": "Dell Technologies",
+            "price": 295.28,
+            "d1": -11.83302976919174,
+            "shariah": false
+          },
+          {
+            "ticker": "TXN",
+            "name": "Texas Instruments",
+            "price": 258.44,
+            "d1": -11.246952161818744,
+            "shariah": true
+          },
+          {
+            "ticker": "SNDK",
+            "name": "Sandisk",
+            "price": 77.95,
+            "d1": -11.127579523429473,
+            "shariah": true
+          }
+        ],
+        "coverage": 503
+      },
+      "ftse100": {
+        "gainers": [
+          {
+            "ticker": "PCT",
+            "name": "Polar Capital Technology Trust",
+            "price": 558,
+            "d1": 8.349514563106796
+          },
+          {
+            "ticker": "RR",
+            "name": "Rolls-Royce Holdings",
+            "price": 1335.8,
+            "d1": 4.96621090680497
+          },
+          {
+            "ticker": "STAN",
+            "name": "Standard Chartered",
+            "price": 2010,
+            "d1": 4.9334377447141735
+          },
+          {
+            "ticker": "FRES",
+            "name": "Fresnillo plc",
+            "price": 2256,
+            "d1": 4.881450488145049
+          },
+          {
+            "ticker": "BGEO",
+            "name": "Lion Finance Group",
+            "price": 12600,
+            "d1": 4.825291181364393
+          }
+        ],
+        "losers": [
+          {
+            "ticker": "VOD",
+            "name": "Vodafone Group",
+            "price": 102.85,
+            "d1": -5.0761421319796955
+          },
+          {
+            "ticker": "BT.A",
+            "name": "BT Group",
+            "price": 207.9,
+            "d1": -2.0725388601036294
+          },
+          {
+            "ticker": "IGG",
+            "name": "IG Group",
+            "price": 910,
+            "d1": -1.5151515151515151
+          },
+          {
+            "ticker": "BTRW",
+            "name": "Barratt Redrow",
+            "price": 307.7,
+            "d1": -1.5044814340588952
+          },
+          {
+            "ticker": "REL",
+            "name": "RELX",
+            "price": 2933,
+            "d1": -1.4448924731182795
+          }
+        ],
+        "coverage": 100
+      },
+      "shariahListAvailable": true
+    },
+    "stories": [
+      {
+        "category": "markets",
+        "headline": "AI rebound stumbles and Asian tech stocks tumble",
+        "summary": "Wall Street's Huang bounce faded on Tuesday and Asian technology stocks fell sharply on Wednesday, led by Japanese chipmakers, with SoftBank down 15% and Seoul and Taipei also lower. Analysts warn Big Tech may find it harder to borrow to fund the AI build-out, and say Huang's return does not resolve existing fears about the boom.",
+        "sources": [
+          {
+            "source": "Reuters",
+            "title": "Stocks retreat as AI rebound stumbles, tariff threats loom",
+            "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNRFVsTjFROGtER0loSkZOcnF2NDRLUWFmcjBHZ01ybE51N19idjFFMXI1dnFqZ21JYS1HVVpicTJ1V1RfVU4zd3pkVEZMWHdqMUJWRENOQWJ2VjFqT1Y3WS0xYTV3bzd2RnRraFhtOVpzVE9yYThzdV9tdWxJbUpjNzFraw?oc=5"
+          },
+          {
+            "source": "FT",
+            "title": "Asian markets lose ground as AI fears return",
+            "link": "https://www.ft.com/content/705eb84c-801d-4a96-b908-e366511e886a?syn-25a6b1a6=1"
+          },
+          {
+            "source": "CNBC",
+            "title": "SoftBank drops 15% as Wall Street AI sell-off ripples across Asian tech names",
+            "link": "https://www.cnbc.com/2026/11/25/tech-stocks-softbank-group-advantest-sk-hynix-samsung.html"
+          },
+          {
+            "source": "Al Jazeera",
+            "title": "Asia’s stock markets dive as doubts swirl over AI boom",
+            "link": "https://www.aljazeera.com/news/2026/11/25/asias-stock-markets-dive-as-doubts-to-swirl-over-ai-boom?traffic_source=rss"
+          },
+          {
+            "source": "Investing.com UK",
+            "title": "Asian stocks slide as AI selloff deepens, U.S. tariff threats weigh on sentiment",
+            "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOTzZfQVp1S0FTbFJOLTQyOEhFMGF2dF8zbl84eGNHRHRTX2dKclk5R1d3LUpSUlpRUFJxSmM1ZmhDMUNLWTl3U0YwZlozX1Q3OTR0Y3ZZdm1oM3lHb1BfT0xXakxYVS1FNjJxUjlfR2ItZ051c3JuM3VBV0tFa0tKdUZGeWZ0Y1FtTF8tUE1vSEJ6VXJDNHd5QnlKeF9vOGZncFJ0MlF4a2lOYW9tNmZHV1FaamNBMHVZNkhmaFFkRHNMR3I5Yjc1NkxvN3RQZw?oc=5"
+          },
+          {
+            "source": "Bloomberg.com",
+            "title": "Asian Stocks to Slide as AI Trade Doubts Resurface: Markets Wrap",
+            "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPWjE4Zm9DOUxVdmFFaTlaQVJMWHFaVEVGVy1JcTNEcEc3bnhET2xfaGNCdFlpbXkwS210Tkx0d3JVUWVzbzA4amhwWU1FWGxLd2E0YUJBY1lOOUNlVmlwNF83b3Bqc2dqaWVMTzUwSGFfYWNJVDZwXzh5TGp5YUZaTzZoa0dZenZfalhyelF0UUZwbllhOEZIbWNGc1V3OHQxWlhfV3ZoeGdKRURCS3dTVEFSRnk?oc=5"
+          },
+          {
+            "source": "BBC",
+            "title": "Analysis: Fears over the AI boom haven't gone away",
+            "link": "https://www.bbc.co.uk/news/articles/c6894evgpel5o?at_medium=RSS&at_campaign=rss"
+          },
+          {
+            "source": "BBC Business",
+            "title": "Faisal Islam: Fears over the AI boom haven't gone away",
+            "link": "https://www.bbc.co.uk/news/articles/c6894evgpel5o?at_medium=RSS&at_campaign=rss"
+          }
+        ]
+      },
+      {
+        "category": "economy",
+        "headline": "Trump readies new tariffs on major trading partners",
+        "summary": "The US is preparing a fresh raft of tariffs expected to hit China, the EU, Japan and South Korea, with India among 16 economies reportedly in line after a trade probe. Markets are also awaiting a key US inflation reading.",
+        "sources": [
+          {
+            "source": "FT",
+            "title": "Trump readies raft of new tariffs on major economies",
+            "link": "https://www.ft.com/content/335b593d-1478-4550-ab0a-71fec6280eb0?syn-25a6b1a6=1"
+          },
+          {
+            "source": "BBC Business",
+            "title": "US preparing to unveil plan for new tariffs on global trading partners",
+            "link": "https://www.bbc.co.uk/news/articles/c893r9ke5p97o?at_medium=RSS&at_campaign=rss"
+          },
+          {
+            "source": "DW",
+            "title": "India news: US prepares new tariffs after trade probe",
+            "link": "https://www.dw.com/en/india-news-us-prepares-new-tariffs-after-trade-probe/live-80042306?maca=en-rss-en-all-1573-rdf"
+          },
+          {
+            "source": "Google News (Markets)",
+            "title": "Dollar takes breather before key inflation reading; Aussie slumps - Euronext Markets: Real-time Stock Market Data | live",
+            "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQekNqempGbjlpX2RPSmRYcWd2RkEzblZ1dWNGLTlOdGNuWFJ4bWp6NGIwalFVUUZKaVV5aGlGVWNuelBDXy1uMDB4elNjamt4cTZnWDVIMkFKbzNuU09FUEFDSUVCS0NzdU5DZWdMT1dBQk1QNWhlY1BLVDUwNHJHdHRqb3hqT2tManBPMUpUZ1JhRDk0bHl6cDM1V0d5TGZQQ0VJ?oc=5"
+          },
+          {
+            "source": "kalkine.co.uk",
+            "title": "US Core Inflation Data Become the Next Major Catalyst for Markets",
+            "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxObk11MXRfaGt4LXBQaDZ1VDZ4Zl9td05ac2dUUnMxZjc4MHQxLTFZUnZNRWE3bVVCRDdOa2VJaU9pY2tGN0tnY0c0a3dLaDYweEJOWkY4RHNvY1M2RGx1LWkwNjVjVXRtZFNZMjhfbU9sWjhHV1lHQjRyT2lZaVFaNmlCb0xMZFlWSmN0TUEtbEdZZWVSQl9zMkJxVnRVMEZjd0o1cF9TN24?oc=5"
+          }
+        ]
+      },
+      {
+        "category": "companies",
+        "headline": "US jury convicts Huawei of trade-secret theft and fraud",
+        "summary": "A New York jury found Huawei guilty on 10 of 12 charges, including bank fraud, money laundering and conspiracy to steal trade secrets, but acquitted it of racketeering. Huawei says it plans to appeal.",
+        "sources": [
+          {
+            "source": "CNBC",
+            "title": "U.S. jury convicts Huawei in a criminal trial over fraud and trade secrets",
+            "link": "https://www.cnbc.com/2026/11/25/huawei-fraud-trade-trial.html"
+          },
+          {
+            "source": "BBC",
+            "title": "Huawei found guilty of stealing trade secrets but acquitted of racketeering",
+            "link": "https://www.bbc.co.uk/news/articles/cmy49ngydqzpo?at_medium=RSS&at_campaign=rss"
+          },
+          {
+            "source": "DW",
+            "title": "US jury convicts Huawei of violating sanctions, stealing trade secrets",
+            "link": "https://www.dw.com/en/us-jury-convicts-huawei-of-violating-sanctions-stealing-trade-secrets/a-80042172?maca=en-rss-en-all-1573-rdf"
+          },
+          {
+            "source": "The National",
+            "title": "Huawei found guilty of money laundering and conspiracy to steal trade secrets in US case",
+            "link": "https://www.thenationalnews.com/future/technology/2026/11/25/huawei-found-guilty-of-money-laundering-and-conspiracy-to-steal-trade-secrets-in-us-case/"
+          },
+          {
+            "source": "The Verge",
+            "title": "Huawei found guilty of stealing trade secrets",
+            "link": "https://www.theverge.com/tech/1041820/huawei-guilty-trade-secrets-trial"
+          }
+        ]
+      }
+    ],
+    "calendar": [
+      {
+        "when": "Today",
+        "event": "easyJet full-year results ahead of its takeover"
+      },
+      {
+        "when": "Today",
+        "event": "US Army controlled detonation of explosives stockpile in Iowa"
+      }
+    ]
+  },
+  "world": {
+    "us": [
+      {
+        "category": "political",
+        "headline": "Trump says pardoning Jensen Huang is 'an option'",
+        "summary": "Trump said he would be willing to pardon the Nvidia CEO if needed, while the attorney general dodged questions about an investigation and Republicans voiced national-security worries over Huang's affair with a suspected Chinese spy. Huang told staff it was 'not true' that Trump got him rehired, thanked the White House and said he is in therapy.",
+        "sources": [
+          {
+            "source": "CNBC",
+            "title": "Trump open to pardoning Jensen Huang if needed: NY Post",
+            "link": "https://www.cnbc.com/2026/11/25/trump-huang-pardon-politics.html"
+          },
+          {
+            "source": "TechCrunch",
+            "title": "Trump reportedly says pardoning Jensen Huang is ‘an option’",
+            "link": "https://techcrunch.com/2026/11/24/trump-reportedly-says-pardoning-jensen-huang-is-an-option-but-that-he-doesnt-think-it-will-be-necessary/"
+          },
+          {
+            "source": "BBC Business",
+            "title": "US attorney general dodges questions about Nvidia investigation",
+            "link": "https://www.bbc.co.uk/news/articles/crpdw1qx7jgxo?at_medium=RSS&at_campaign=rss"
+          },
+          {
+            "source": "BBC",
+            "title": "With Huang rescue, Trump riskily ties his political fortunes to Nvidia",
+            "link": "https://www.bbc.co.uk/news/articles/ckj05m2zdyryo?at_medium=RSS&at_campaign=rss"
+          },
+          {
+            "source": "NPR Politics",
+            "title": "Trump takes credit for Jensen Huang returns to Nvidia, says its good for the economy",
+            "link": "https://www.npr.org/2026/11/24/nx-s1-6051045/trump-takes-credit-for-jensen-huang-returns-to-nvidia-says-its-good-for-the-economy"
+          },
+          {
+            "source": "NPR",
+            "title": "Jensen Huang returns to Nvidia. And, Rep. Gomez resigns amid alleged sexual misconduct",
+            "link": "https://www.npr.org/2026/11/24/g-s1-155227/up-first-newsletter-nvidia-jensen-huang-trump-ukraine-russia-jimmy-gomez"
+          },
+          {
+            "source": "The Verge AI",
+            "title": "Jensen Huang reportedly tells Nvidia staff it&#8217;s ‘not true’ Trump got him rehired",
+            "link": "https://www.theverge.com/tech/1041571/jensen-huang-all-hands-nvidia-apology"
+          },
+          {
+            "source": "TechCrunch AI",
+            "title": "In all-hands meeting, Jensen Huang thanks White House and says he’s in therapy",
+            "link": "https://techcrunch.com/2026/11/24/in-all-hands-meeting-jensen-huang-thanks-white-house-and-says-hes-in-therapy/"
+          },
+          {
+            "source": "Ars Technica",
+            "title": "How Trump and Silicon Valley forced Nvidia to take Jensen Huang back",
+            "link": "https://arstechnica.com/tech-policy/2026/11/how-trump-and-silicon-valley-forced-nvidia-to-take-jensen-huang-back/"
+          },
+          {
+            "source": "FT",
+            "title": "‘Tech bros strike back’ as Trump rescues Nvidia’s Huang",
+            "link": "https://www.ft.com/content/a1374617-d3a2-415a-8490-72b164eefc0e?syn-25a6b1a6=1"
+          }
+        ]
+      },
+      {
+        "category": "financial",
+        "headline": "US consumer confidence jumps after Democrats' midterm wins",
+        "summary": "The Conference Board's survey showed improvement across the board following the Democrats' midterm victories. Inflation worries persist, however.",
+        "sources": [
+          {
+            "source": "CNBC Economy",
+            "title": "Consumer confidence shoots up after Democrats' midterm victories — though inflation worries persist",
+            "link": "https://www.cnbc.com/2026/11/24/consumer-confidence-november-election-midterm.html"
+          }
+        ]
+      },
+      {
+        "category": "notable",
+        "headline": "Kilmar Ábrego García leaves US for Spain",
+        "summary": "Ábrego García, whose deportation to El Salvador and return to the US became a flashpoint in the immigration debate, has left for Spain. Senator Chris Van Hollen hailed his departure as a 'free man'.",
+        "sources": [
+          {
+            "source": "BBC",
+            "title": "Kilmar Ábrego García leaves US for Spain, ending Trump deportation battle",
+            "link": "https://www.bbc.co.uk/news/articles/c6808pyy5dl9o?at_medium=RSS&at_campaign=rss"
+          },
+          {
+            "source": "Al Jazeera",
+            "title": "Kilmar Abrego Garcia self-deports to Spain after lengthy US legal battle",
+            "link": "https://www.aljazeera.com/news/2026/11/25/kilmar-abrego-garcia-self-deports-to-spain-after-lengthy-us-legal-battle?traffic_source=rss"
+          }
+        ]
+      }
+    ],
+    "uk": [
+      {
+        "category": "political",
+        "headline": "Timms review calls for Pip overhaul",
+        "summary": "Disability minister Sir Stephen Timms published his review of personal independence payment, calling for reformed assessments and a 'rebalancing' of what different claimants receive. The Conservatives said the public is sick of an 'out of control' welfare system.",
+        "sources": [
+          {
+            "source": "BBC",
+            "title": "Disability benefit review calls for closer link with claimant costs",
+            "link": "https://www.bbc.co.uk/news/articles/cm4gn6gn9057o?at_medium=RSS&at_campaign=rss"
+          },
+          {
+            "source": "BBC Politics",
+            "title": "Key takeaways from the Timms review into Pip disability benefit",
+            "link": "https://www.bbc.co.uk/news/articles/c69w9gw9wx9no?at_medium=RSS&at_campaign=rss"
+          }
+        ]
+      },
+      {
+        "category": "financial",
+        "headline": "Energy bills to rise 26% from January",
+        "summary": "Ofgem has confirmed a 26% rise in the energy price cap from 1 January, hitting millions of households. Millions will also receive a £100 energy payment from January.",
+        "sources": [
+          {
+            "source": "BBC",
+            "title": "Energy bills to rise by 26% from January",
+            "link": "https://www.bbc.co.uk/news/articles/cm20qnq33e90o?at_medium=RSS&at_campaign=rss"
+          },
+          {
+            "source": "Daily Business",
+            "title": "Ofgem confirms 26% rise in energy costs from January",
+            "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxORm5zSFVuZ2tnUXlFdnJZYTdKdXVwVHJ1RER4b3ZmWUtqZm9BYkhLaUtQcy1Zc05ac19BRHA0eEdrWnpfVmpnQ2t6dFowRmdTUWZXNkl1dDhuQXRUU3BJanIwWWJPeU5jYndsQTFjY2RIN2hackY4bmktS0dFT3BINnhOcE42ZFRjcDZVWkY0WUtydHowWUg3cQ?oc=5"
+          },
+          {
+            "source": "The Independent",
+            "title": "Energy bills set to soar as Ofgem predicted to raise price cap by 26% from January",
+            "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNVzVCcnRjVmJXUnUxMDRfcGNYaE9seHpmN0tsa3RhRjZieGhtdXl4WWF1MnI5ZkN3eFhiNlp6c19QNjV5YmpHdU5qQWowb05oTGJDWEhuU3hxUk9VQ3hxLUlxdFliYWdlZ3lPenVQaGpybjlsWXBkSGJUTWVsU2I5cFZFUEtRUXE4bXNyTGduRm8tczZDNzcwMlJSN3pIbUJuaXpRMzZnSC1sY2hhMkhtTnVKeXl3ZTRILW5QM1VfNA?oc=5"
+          },
+          {
+            "source": "Money Saving Expert",
+            "title": "Energy Price Cap from 1 January set to be announced by regulator Ofgem – and it's expected to rise massively",
+            "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPNTB1WUdUNng5UjlrcDZ2b1A1SFNkeGVSeFNxV3Rab1BXNERVNF9UZGk2SnFmZ01YS1VCT21KRXU2UEIyU0xDT3hkV0ZrUEpRVjJ3Q0NOT0hnY0E4ekEyTVJoaENSYjhEOU5UVUJuaHFQSDM2cVZ0Y24yS1dQamJSdXB5cXpiVjZnYmpxOXdEVTZuN25o?oc=5"
+          },
+          {
+            "source": "BBC Business",
+            "title": "What will the energy cap changes mean for my bills?",
+            "link": "https://www.bbc.co.uk/news/articles/cdd29v8mp9jo?at_medium=RSS&at_campaign=rss"
+          },
+          {
+            "source": "Utility Week",
+            "title": "Suppliers’ fixed tariffs have risen almost three times faster than price cap",
+            "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNOWF2bnlSbWUxOU5oN2Z2SFVSWEY3MkcyY2xzRFVBNzUzOTJ6UlVDNDBtRWNQWl9BYjdWTjB2T3lQUmlyUUdXQ3pYQ0pSNWo2VnA5WHRlbUlFemkxQ0trek5BbnZwMnhIYkZoNTY4aVFFaGdwSTZNbzBzQVlwZjJUUHhOUkFPYTVFSXBEZjZwYXVLZjliUnI1azBIMl9oaUNYcGRhedIBsAFBVV95cUxNT3NDbEpkM1RVS2xXdWxFUFhBTEpmSkRvblM4aFAwZHliVU9fX05FRGtKMWVRbXFDVnNvUV9WVXlleTM2XzBHdU9EaUpSWTZmWWFrVnhBZmJZNGJYajRlVkMxcDlaMUZGbmZacS1BSGpBdUVOZHVQbXhRSk8xUG9lLVVub0FsZnAzX0tJcU8zZzY5ZGZGOGRtQk05aXZfUXJrWDg3UWxEanBEcHJZcEV0YQ?oc=5"
+          }
+        ]
+      },
+      {
+        "category": "notable",
+        "headline": "Businesses backing Ukraine warned of Russian sabotage",
+        "summary": "The Ministry of Defence and security service issued an unusual public alert warning of a heightened risk of sabotage such as arson against firms supporting Ukraine. A senior defence chief warned Europe that such 'hybrid' attacks must not be accepted as normal.",
+        "sources": [
+          {
+            "source": "BBC",
+            "title": "Businesses supporting Ukraine told to 'act now' to protect against Russian sabotage",
+            "link": "https://www.bbc.co.uk/news/articles/ckpdw4d0z2dwo?at_medium=RSS&at_campaign=rss"
+          },
+          {
+            "source": "Al Jazeera",
+            "title": "UK warns companies of potential Russian sabotage threat",
+            "link": "https://www.aljazeera.com/news/2026/11/25/uk-warns-companies-of-potential-russian-sabotage-threat?traffic_source=rss"
+          },
+          {
+            "source": "FT",
+            "title": "Europe must not accept ‘hybrid’ warfare as normal, defence chief warns",
+            "link": "https://www.ft.com/content/7f57f64e-1f85-4be8-87ec-2db18830ebb2?syn-25a6b1a6=1"
+          }
+        ]
+      }
+    ],
+    "europe": [
+      {
+        "category": "political",
+        "headline": "Far right could enter Spain's government in Sunday's election",
+        "summary": "Spain votes on Sunday with the far right poised to enter government for the first time. The conservative Alberto Núñez Feijóo is seen as one step away from becoming prime minister.",
+        "sources": [
+          {
+            "source": "BBC",
+            "title": "Clashing political visions reflect a divided Spain ahead of election",
+            "link": "https://www.bbc.co.uk/news/articles/cq5y1212y4pwo?at_medium=RSS&at_campaign=rss"
+          },
+          {
+            "source": "Politico Europe",
+            "title": "Alberto Núñez Feijóo: One step away from running Spain",
+            "link": "https://www.politico.eu/article/alberto-nunez-feijoo-one-step-away-from-running-spain/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication"
+          }
+        ]
+      },
+      {
+        "category": "financial",
+        "headline": "Ukraine needs €115bn in foreign aid for 2027, says Zelensky",
+        "summary": "Zelensky said Ukraine will need €115bn in external financing next year to sustain its economy and war effort. Hungary's new prime minister Péter Magyar visited Kyiv amid a thaw in relations.",
+        "sources": [
+          {
+            "source": "France24",
+            "title": "Ukraine seeks €115 billion in foreign aid for 2027, Zelensky says",
+            "link": "https://www.france24.com/en/europe/20261125-ukraine-seeks-%E2%82%AC115-billion-in-foreign-aid-for-2027-zelensky-says"
+          },
+          {
+            "source": "DW",
+            "title": "Ukraine: Zelenskyy and Hungary's Magyar meet amid thaw in ties",
+            "link": "https://www.dw.com/en/ukraine-zelenskyy-and-hungary-s-magyar-meet-amid-thaw-in-ties/a-80036546?maca=en-rss-en-all-1573-rdf"
+          }
+        ]
+      },
+      {
+        "category": "notable",
+        "headline": "Leaked Russian data point to huge war death toll",
+        "summary": "The BBC reports Russia's own figures show almost 500,000 deaths linked to the war, while a separate analysis puts Russian military losses including the missing above 700,000. Meanwhile two Libyan soldiers died after Ukraine's attack on Russian vessels in Benghazi.",
+        "sources": [
+          {
+            "source": "BBC",
+            "title": "Russia's own figures show almost 500,000 deaths in war in Ukraine",
+            "link": "https://www.bbc.co.uk/news/articles/cmx27g533zwyo?at_medium=RSS&at_campaign=rss"
+          },
+          {
+            "source": "France24",
+            "title": "Russian losses on Ukrainian front top 700,000 including missing",
+            "link": "https://www.france24.com/en/russian-losses-on-ukrainian-front-top-700-000-including-missing"
+          },
+          {
+            "source": "DW",
+            "title": "Libya: 2 dead after Ukrainian attack on Russian warship in Benghazi",
+            "link": "https://www.dw.com/en/libya-2-dead-after-ukrainian-attack-on-russian-warship-in-benghazi/a-80042348?maca=en-rss-en-all-1573-rdf"
+          },
+          {
+            "source": "Politico Europe",
+            "title": "‘Everything that concerns Libya concerns Italy’: Why Ukraine’s Med strike is a problem for Meloni",
+            "link": "https://www.politico.eu/article/ukraine-strikes-russian-ships-libya-giorgia-meloni-italy/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication"
+          }
+        ]
+      }
+    ],
+    "middle_east": [
+      {
+        "category": "political",
+        "headline": "Houthi strike on Riyadh's PIF tower injures 11",
+        "summary": "A Houthi attack hit the tower housing Saudi Arabia's sovereign wealth fund in Riyadh's financial district, the group's second strike on the building, and the Houthis threatened Jeddah and other Red Sea ports. The Saudi-led coalition struck Hodeidah port and Yemen's army says Houthi fighters are closing in on Aden.",
+        "sources": [
+          {
+            "source": "Arab News",
+            "title": "11 injured in Houthi attack on tower in Riyadh’s financial district",
+            "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNSm5HSE1KMnRpRWd2Qk4waTRWVVBfUzFwVjIweC1pZE9Ia0VueF8tSVdTT0RqN0VMSC02T19uQVNVdFBKR3hXVURWcUI3bGppR3J4WjNCVF82R0R0U002MVpQRG96NVotMU96MkctbmdPajR6WWtKSzhNV1RMai15bDc5eUVBb0tfVnEyX0pMTUQ0ZEJkdUt4MmVDbU14U0dMQVU0NU16WmRtOTduS29TZHh3?oc=5"
+          },
+          {
+            "source": "CNBC",
+            "title": "Houthi attack on Saudi Arabian sovereign wealth fund PIF's tower injures 11",
+            "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPSExVNjdwSUdhRzd4aHlwMWR6NklEdWV3bVptbElRRzdMRW1uQ2RzdFF4MFlHWkttR2tERy11ZnphRHY2d0d1ZHVNZ0g4OEpRRjU4VTctUFVlaDI2T0czSTVLNjhwdXoxbUtIdXhfZ00tejBhR2Itc3BPOWZsYUF2cEVDeFlVQ0Rid1VFVNIBkgFBVV95cUxNbG9HeEFpQkxXZjNsR0pobEI1SS1QaDRNdG9jRlltcEVXMHFQUlFFdHJpWndBdzZ5ZUZmakpiYzlUeE1CTWFnX21fc2w2UGhOMDZlTTRIT0lVeDVpekRoYWlTekptX3h3QXYyS29SNEdERno1c0p6Z2xMalJMMWtONjdZQzlFS2xCWENvcWstWWFCQQ?oc=5"
+          },
+          {
+            "source": "WSJ",
+            "title": "Yemen’s Houthis Take Second Swipe at Tallest Tower in Saudi Capital",
+            "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQdjZVLVU3RnVMWXdvYUpUUkdTcVVCTjVvdkR1NG12eUNYalM5bTJVbVFndmFEZ2d1UGhUeEROM2lMcTRuMHBQQmh6amtpaWJIc0k1aHdBMEZvRUNEUndCYWJZZnIxS0x0OFNuRmgxMl90VEZKVVVwZVB2d0swTmpyQjdaejluSXRVeGNrVEMzU21zMkhIT21uSWNvM0cza1RYdkFDeW9OdVNIdGhtcW1PRTJmUQ?oc=5"
+          },
+          {
+            "source": "Financial Times",
+            "title": "Houthi attack on Riyadh’s PIF Tower injures 11",
+            "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQRUoyYnRtNnd0OXpFV2M3VjdGZ0dqdnk0dFp0NmVFMkoxTnAxU28wWXdKZVRRREJEN1Zra1ZpaUE1NmR5eXVjT1hTMTR1SDhNbnpDU0lPMHg2a2c4SjZHUmVrQjRzcE9YTHFfYS0xZ3dwcVdQQno1UHNmb0FUWEs2UjdGQUw?oc=5"
+          },
+          {
+            "source": "The New York Times",
+            "title": "Houthi Attack on Skyscraper in Saudi Capital Wounds 11, Officials Say",
+            "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOOHZXOTJOeUpseXdGQ1NsTkYzWmc2YVo1M1NaQlphaVdnc2NNd1ZuNV9WSFpUYWl1UHJybkh1ZTZCMFVZbjVxMzRFM0xURE80aHJ3MDVCaC1mYnlGZVBHazhIYkRtTy15MFNsRDdZV21SMElzX295ZXRib2RxbU5maEpoa2N4RERQeC1fRm85M1Y?oc=5"
+          },
+          {
+            "source": "Reuters",
+            "title": "Yemen's Houthis threaten to target Jeddah and other Saudi Red Sea ports",
+            "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPbmE5cEFGWGFLVzVEUlVvWlE5NzJaT2p0MTUxclgxejJ2ZHJPbTQ5d1BLNzh6R2tFb251aWQ4dHBUTDRtaTlETkVick9uV1hKVkdZSjNPbFk5M2NBd1oxQXptdzAtLS1zVzlidDBDVXBmWFAyVnRzMGRmZHNGZVk4T3Y1aV9ycGZFcWxGejZ0T29BbG9EUks5QjZ0bzFVRG05YlVQemt4UDdDSEY5cUZrYzNsSU9VMGVX?oc=5"
+          },
+          {
+            "source": "Modern Diplomacy",
+            "title": "Houthis Threaten Saudi Red Sea Ports as Yemen-Saudi Escalation Intensifies",
+            "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPSnZtMjhBdnNPenpCX054UlAtYmg2T0FSX2xSR3lIajdYbkhtVk9tdE0xTDN1M2V4dXVQM1ctSlhDNU13c2Z5d0ZHaXllcS1pTEtXYnNjWkJaa0syVDVRdEdhM0gxckI4Z3RyY3ktU3ZueldZTjZvdjhkRzhfNWJQQWxOUmptakdLd1hDUm00TDdGVlhDMlEwS255SEV1eUFPODItUmJZdy1ma2pPcnpQbEhlbw?oc=5"
+          },
+          {
+            "source": "U.S. Embassy & Consulates in Saudi Arabia (.gov)",
+            "title": "Security Alert: U.S. Mission Saudi Arabia – November 24, 2026",
+            "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNenhZUnJuYTY3QnRZTTFnOTVDZUpKWUc5Y0M4V2hBQmNYZlp4QXphMnRjanItRmFzUFlSRHZwZjBUaVlqel9jTUQtdFVSajBha0R6R1BUQldMRUx6V2YtWFFmZHVPdVdQWV9KM1lIaTZUYTdDYnJmMzRDVXVLdEEzMV9RX2ZRc1oxZEE?oc=5"
+          },
+          {
+            "source": "France24",
+            "title": "Yemen’s army says Houthi fighters closing in on government stronghold of Aden",
+            "link": "https://www.france24.com/en/middle-east/20261124-yemen-army-houthi-attack-aden"
+          }
+        ]
+      },
+      {
+        "category": "financial",
+        "headline": "Saudi Arabia approves SR1.39tn budget for 2027",
+        "summary": "The kingdom expects growth to rebound next year, with the deficit narrowing through spending cuts but persisting. Riyadh now sees the economy shrinking 2.1% this year rather than 3.6% as more oil reaches market.",
+        "sources": [
+          {
+            "source": "Arab News",
+            "title": "Saudi Arabia approves SR1.39tn budget for 2027 as growth set to rebound",
+            "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQR2VoQ0c0Vi1PdmpnNXQ5TDE5VnNlaHBSeUxvNHFVbnJIY2dEUmFEY2o5a3p1bURSd1JzOXFkQ2ctSG84Yk9DclBNdmp4NTZZMHFkbm5KSG96dmJTM0dMYkpLbHhtaDhzLWxYOEVnc2ZONkZNV2FYTFNPRlZTNHRkSWo3R2hQY2VzS2hVTVM3WkNTMV9OZGUwcTNMTlhIaU44dEg5QmFDcVB6c1Z0NGVqXw?oc=5"
+          },
+          {
+            "source": "Arabian Gulf Business Insight | AGBI",
+            "title": "Saudi budget deficit to narrow with spending cuts",
+            "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNdTNvdVppbDFjSERWZXdnSjFEQ09hRVpUMV84QWZNUHROQm5Hb1N2OE5KQVI0Y0V6N1NJZExNTWpRcWc0SGZrYzM3Y1NvNENmOW5lcWM5UmhZR3NDdV9qUi1QLXk1ZmFmNkpVd0pEV3QxUjVVb2RxTnJlZHl6R19kOFEtOUhtZWFJZ3c2LTdjYUw?oc=5"
+          },
+          {
+            "source": "MUFG Research",
+            "title": "Saudi budget to remain in deficit in 2027",
+            "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBMVjNEakNDek1KWTZoSmhIM0o3QV9pS29DaXh6eXFXc0RxYWNkNklLQjZVOHhfQ0Y3NEFWeU5HYnhpdnFFOXpXYllKQ05Pdk9hY092c2JkbnhkRE9FRW9hVF9fZFpnSVZiay1DaHE0dGhRY3ZRbVBEUFlB?oc=5"
+          },
+          {
+            "source": "OilPrice",
+            "title": "Saudi Arabia Sees Smaller Economic Slump as More Oil Reaches Market",
+            "link": "https://oilprice.com/Latest-Energy-News/World-News/Saudi-Arabia-Sees-Smaller-Economic-Slump-as-More-Oil-Reaches-Market.html"
+          }
+        ]
+      },
+      {
+        "category": "notable",
+        "headline": "Iraq moves to take control of Kurdish oilfields and borders",
+        "summary": "Iraq's prime minister ordered the oil ministry to manage fields in Kurdish-controlled areas and federal takeover of the region's border crossings after an oil-smuggling probe. Kurdish authorities rejected the move.",
+        "sources": [
+          {
+            "source": "Arab News",
+            "title": "Iraqi PM orders ministry to manage oilfields in areas under Kurdish control, Kurds reject move",
+            "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNdmdiWTV6eTRJaXVBMzJSMGdTdXlLcUFodWpBWWFOTkJobkk3dDZBMW8xQUlMU0FhVDkzZWRhaDNVMWU4NXo0TmZ3WWh2UjRlZkRsQUlKbldsNEY2T0NMZEViRGp6SHVxeDFwUG94R28tOWZPa0ZjNWttNDJBRklWTmNFeExLbEVuRU90bFB5dlljSDZ4UVFyeFlpNkdVS2h0N2xUT2RZOEE4VHBOSXZXU1JqZEZFd3ZjdWJrTkw0ZE9NSnVaenRCTVZVNUxFRklkYklkSA?oc=5"
+          },
+          {
+            "source": "The National",
+            "title": "Iraqi PM's oil takeover, Saudi-led coalition strikes and Ras Al Khaimah crash death toll rises",
+            "link": "https://www.thenationalnews.com/podcasts/trending-middle-east/2026/11/25/iraqi-pms-oil-takeover-saudi-led-coalition-strikes-and-ras-al-khaimah-crash-death-toll-rises/"
+          },
+          {
+            "source": "OilPrice",
+            "title": "Iraq Refuses to Accept OPEC+ Assessment of its Production Capacity",
+            "link": "https://oilprice.com/Latest-Energy-News/World-News/Iraq-Refuses-to-Accept-OPEC-Assessment-of-its-Production-Capacity.html"
+          }
+        ]
+      }
+    ]
+  },
+  "energyTech": {
+    "energy": [
+      {
+        "category": "energy",
+        "headline": "NKT starts cable production for IJmuiden Ver Beta HVDC link",
+        "summary": "NKT has begun manufacturing the HVDC cable that will connect the IJmuiden Ver Beta offshore wind zone to the Dutch grid. Separately, Green Volt has reserved 28 Siemens Gamesa turbines for what it calls the world's largest floating offshore wind farm.",
+        "sources": [
+          {
+            "source": "Ocean News & Technology",
+            "title": "NKT Begins Cable Production For IJmuiden Ver Beta HVDC Offshore Wind Connection",
+            "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPM1RHeTZiMVpqRnZJbXZBWWhDNDdJWmRLUXhOblcyS2pRenhuWmRLZ3hYdDZtTDZSUWlobFBfcS1IZC1GWGtIYlV4WEZfRHplNFZzaW9Eb1NmeHdLLVp2dlIyR1RwbWJfV2l5c2FGczhlR0hwVEwzckxZeVlGSVRleDNYX0s5bExkUDlCajZjelRUTU5ZSHRaZjZUZHhEbWRUVEFCbldPSzA1bkJXTTdOS2dTSDljVkFPSjhkSA?oc=5"
+          },
+          {
+            "source": "BusinessGreen",
+            "title": "Green Volt reserves 28 Siemens Gamesa turbines for 'world's largest' floating offshore wind farm",
+            "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNNWZOUEdGbkg2VF9VWVJzRmRxMThGSFVJLWRtTVg1SVFEZmFpUE1YcmRvajBHaElzc2k5TE1tRzZ3aTJST2JGSTNhOXhNd0ZmVmhsN01XOWMyaGRMT0dDNWlYZW9sRWtzWlNLajRMSl9SdFdyeUdEUGtfYkxuck00VFpIY2xQM3FnNTN1ZUpuNWJfc2llbkhTYl84U0ZvYldwQk0tajA2UlNNdWpOOFhHSDNuNlQxLXNNdjRIemxuUEpyLTh1ajdSQw?oc=5"
+          },
+          {
+            "source": "Utility Week",
+            "title": "In the Works: World first floating wind turbine deal, Fens reservoir trials",
+            "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOV0ZKR3NEUlhTS2FkUnMxcVFVWEJZZXBsQjlBR1NCdkstOTdiUHg1Y2p0UUhSTWt3WjFOdUJoZ3F1a2tWemdqWDZocW0xS3dFT2pqRWxGMHF5azEtVXRraTFVdjRLbzdIQkZYdzJVSUh4azRPRG1DZHROSXZ1MDJIck5RcmRya2ZrUEFGN3A3U3F3bHpDUE1qUHpNNjcyejg3TmfSAa4BQVVfeXFMUENrOHFDemJDdm1vcGluVXJmZndtd2NXM2tJRGZObUxkSFl3YTh2SjlhbENDQ0RNc1VwQlpLUjloUTktVy0xdnFmTFIzT19Md2JxeFpTcmJwZkk2bjR1ZTk2a2VRbXJUTE01NkNwVG9FaE1xSjV3WUt5a0dLWHdSaFVsZkprQS1USm91NW9VYm9BS1NidTNfSlBYTDdUWnJQLWMwVzFkZlNzNXRJQURR?oc=5"
+          }
+        ]
+      },
+      {
+        "category": "energy",
+        "headline": "Oil keeps sliding despite Hormuz threats",
+        "summary": "Brent has fallen more than 20% in November to below $90 a barrel, extending losses on Wednesday despite mounting threats in the Strait of Hormuz. Chinese refiners are taking advantage of lower prices to buy more crude.",
+        "sources": [
+          {
+            "source": "OilPrice",
+            "title": "Oil Prices Slide Despite Mounting Threats in the Strait of Hormuz",
+            "link": "https://oilprice.com/Energy/Energy-General/Oil-Prices-Slide-Despite-Mounting-Threats-in-the-Strait-of-Hormuz.html"
+          }
+        ]
+      },
+      {
+        "category": "energy",
+        "headline": "Europe's gas prices up 163% in a year",
+        "summary": "Europe's TTF gas benchmark hit four-year highs in October, leaving prices 163% higher than a year earlier. Low storage levels raise the stakes for the continent's winter.",
+        "sources": [
+          {
+            "source": "OilPrice",
+            "title": "Europe’s Gas Prices Jumped 163% in a Year",
+            "link": "https://oilprice.com/Energy/Natural-Gas/Europes-Gas-Prices-Jumped-163-in-a-Year.html"
+          },
+          {
+            "source": "Montel News",
+            "title": "Low stocks, high stakes: Europe’s gas winter",
+            "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQWklKOFQ1c29DOGFFS3VpWnpjNUszTDhacHRyMGZSM1pJUG8zN2dLS1BNX0FrX1lGNlhiTGRoRGs1T1VBc3BVZGJvYWRPMEc2WTdzU1NuZF9ySTctUkdiX1A2ZThHMWxvRl9SRUZ4Q0p5VjF5c3BmTVhkTVlpeTczclZvdTk0NDg1cWJNOUd5QXhoV3FpeHIxbE83ZHpSbl9KTFJMVGR3aTAxQQ?oc=5"
+          }
+        ]
+      }
+    ],
+    "ai": [
+      {
+        "category": "ai",
+        "headline": "Anthropic shares fall below $83 IPO price",
+        "summary": "Anthropic closed below its IPO price on its fourth trading day, down about 30% from its peak and on track to lose nearly $200bn in value. Analysts warn the slump could weigh on AI start-up valuations.",
+        "sources": [
+          {
+            "source": "Reuters",
+            "title": "Anthropic shares tumble below $83 IPO price, on track to lose nearly $200 billion in value",
+            "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNMHBNOVY5RDc1NmxUUjNnZkNhLWROQkhUOFZpVmQ0SEI0UG9aSUpTTjhpV3EydTNkdW8xYm1KOWF6OXg2Z3BMaUJCWTE3WnFCM0hCZGNuQ3ZKUklsYUROVWQzdExOamNKVlJLRTgwYWpoYVdOUjlDY0pxTmxZajlvckJ4cHc0TG1hbW1ZUkszaDZ2M2Rvd3RqTWRFaVRENXVWT0pr?oc=5"
+          },
+          {
+            "source": "MarketWatch",
+            "title": "Anthropic’s stock just broke below its IPO price for the first time",
+            "link": "https://www.marketwatch.com/story/anthropics-stock-just-broke-below-its-ipo-price-for-the-first-time-5dc82668?mod=mw_rss_topstories"
+          },
+          {
+            "source": "TechCrunch AI",
+            "title": "Anthropic shares fall below IPO price, a worrying sign for AI startups",
+            "link": "https://techcrunch.com/2026/11/24/anthropic-shares-fall-below-ipo-price-a-worrying-sign-for-ai-startups/"
+          },
+          {
+            "source": "Sky News",
+            "title": "Anthropic plunges below IPO price in renewed tech sell-off",
+            "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPOTBDZ1RTajVERWdSaEtQOEpVbkdHSmpsaXJ2UU9pQTFGVUFPa09PLUVhdHhudmd2OGs3TVRzakE4X25aN3JXLUsxSnVTVmd0MThNWnJubms1NzRQSkJVRHlpSkpEZHAzVkx1TTV5NFk0Wi1oSkFXZFJXeUE0RDVhT2VIZ243dnpxdlBTUFJGSW5mblR2X3JVektn?oc=5"
+          },
+          {
+            "source": "Bloomberg.com",
+            "title": "Anthropic Shares Plunge Below IPO Price in Fourth Trading Day",
+            "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPT0hkbFdEeDFKTWo1UXlkenJzS3l0QWpGSDdIWGxpbTdiMkpzVkl0bFN0d2RUSGxJS3FxNFNjeEVOeE9qUlB6X1ZKNldQdFA5b2NUam1pZjQzXzFZSFZYQ21mUXJlSzVvOWs5dS1lc3A2NG5zeGQ1RXlQR0c4QkxOUVNQUzNyYzBMT1A5emhvX2VNc2thcUJoSjhqYzZjM0Y2ZmdQellESkczaXc?oc=5"
+          },
+          {
+            "source": "This is Money",
+            "title": "End of the party for record-breaking Anthropic float as shares sink",
+            "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNcGhVV1E4b3Z6UTRWQjJaWFRFUUNXNTd2a19qU2tVc2ljbEhoNUJzNU9PcnIyS285dW11WGYyUkZlbjZqRkxIWXJYdUV4S2VfX2p5OFgwU2loTmhsMlVkbnc4VnprbjFobXRGV3NrZFBZUXFRaUE1QTVpazk5ckRLUnB0RGNUM0loaDNHekh4SmVpZ0FISmZhakZuaVZsc3RhenVqZ2hYSHMxc05hdW52d3VDcWxMOFBMQmpV?oc=5"
+          },
+          {
+            "source": "Forbes",
+            "title": "Anthropic Stock Falls Below $83 Per Share IPO Price",
+            "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPbXljM2RQYTNVck00MDJQSENRYWtzM1Q1VE5RRXhhMjJ2dkdxTmN0TzR3QmlLS3FrUjJ1Z0haQnVGVnRINDcwMmp0dzhaWWdrUllLYjY5emlCMGp5VXIxS2pkcHh4Sl9UYTFEbE9LRkJ0WXVKSG5CZlZJVjZxTVotSGdkSzlTOUp6MjlsUHRZcFZsb01MbHB4eFhLMHVqNnpfdXRsVXVn?oc=5"
+          },
+          {
+            "source": "WSJ",
+            "title": "Anthropic Had the Biggest IPO Ever. The Trade Is Already Unraveling.",
+            "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPNHY3ODVIbFVMbGZSZ0tSd0p0YTZQTVRESWQxYW9UZ193WHc5N3JQNXJ6bVNEM3VWVEd5aFhlSURsaVJLMG9RZGFCQmdjbEFpc29tNTFvTkNxaTJJV29EQ3JFMUZXNmxZaF90TDM2VUJsNTRJdXotSmdRM09FS0wyMnk2dzBsRkppZHZRcFpKcThpeVVWX0lpemg1MkU4U1ZvQ2swazM1T0JEMS1nNmEw?oc=5"
+          },
+          {
+            "source": "CNBC",
+            "title": "Anthropic shares fall below IPO price. Traders see even more pain",
+            "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBxSGxKSk92NThxemttMVYyMzM1OXlveU1rOEYtM2lIa2FjQjA4dW5jSEU0VDBLVWF0aHFNUjlfVllIU1gzSDVibllXSUUwYm1MWkl6azV0a19HQjdqaW0wWG1ZSmItRTZiQlRZVWVvN0lzS0ItNWMxb2dCSlnSAYIBQVVfeXFMT1p0ckc3akJrU1ZWN2RHY2tlT29GVUJWZ3FFZUhaU1lrT2xTb1lhcHR4cy0xQXdhdUdMcGlBUzYtU3Azc1B5ZzJfRUxJdmlTNmZ4RjEwQS1zeTdHX3ZITEJVbEhPamhUcjFlV0J6RzY0UjJQcjZscTd5RzBjQTNBY3FsQQ?oc=5"
+          },
+          {
+            "source": "Financial Times",
+            "title": "Anthropic closes below IPO price as tech rally fades",
+            "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPal9tdUdZVTJvVTB5aGJHZ0FwTk1GVW8zRWFzNlFEdU9YTERXNlNPcGFzbHUyaXd5U3I4WlMzTGNFUUtPVlA2VmpYSW94TFZKMFhGOFlsU19WV09kVkFGRk9IQ3h3MkRLUGlqWms3akdWTUNaR1hxX2VXakFVMm1tNWk0MW8?oc=5"
+          },
+          {
+            "source": "Yahoo Finance",
+            "title": "Anthropic Has Plunged 30% From Its Peak. Here’s the Price at Which I’d Buy.",
+            "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQeW82TDQ4MGpMbENqQmlFN3hDdHZ5ZUtIQlYxTHExM0tlTkQyQXh2c0wzQ2Q0WXlRV1BJbmMwZ0ljb0RuZTRGUGtKYW5NUHY0TXIxdWxraDRkdld5S1J1MWJXM1VFNTZ6TENjck5rSGh6X1gyZ2hNWEJDNV9XV3NkNmtwRUVaSGFQcE4zUEJhUjNNVW1FamFfMFA3eGY?oc=5"
+          }
+        ]
+      },
+      {
+        "category": "ai",
+        "headline": "UK warns AI-driven cyberattacks are exposing weak security",
+        "summary": "Britain's cyber agency said AI-powered hacking is exposing years of weak security and that strong foundations have never mattered more. Amazon separately said hackers' AI agents found and exploited a zero-day flaw with little human input.",
+        "sources": [
+          {
+            "source": "TechCrunch AI",
+            "title": "UK warns AI-driven cyberattacks are exposing years of weak security",
+            "link": "https://techcrunch.com/2026/11/24/uk-warns-ai-driven-cyberattacks-are-exposing-years-of-weak-security/"
+          },
+          {
+            "source": "Ars Technica",
+            "title": "Amazon says hackers' AI agents found and exploited 0-day with little human input",
+            "link": "https://arstechnica.com/security/2026/11/amazon-says-hackers-ai-agents-found-and-exploited-0-day-with-little-human-input/"
+          }
+        ]
+      },
+      {
+        "category": "ai",
+        "headline": "Tidal to delete 27 million AI-generated tracks",
+        "summary": "Tidal will ban fully AI-generated music from 9 December, removing tracks that make up 6.3% of its catalogue. Songs made with AI assistance will still be accepted.",
+        "sources": [
+          {
+            "source": "Ars Technica",
+            "title": "Tidal announces ban on AI-generated music; 27 million tracks will be deleted",
+            "link": "https://arstechnica.com/ai/2026/11/tidal-will-ban-fully-ai-generated-music-on-december-9/"
+          },
+          {
+            "source": "The Verge AI",
+            "title": "Tidal will start banning AI-generated music next month",
+            "link": "https://www.theverge.com/entertainment/1041362/tidal-ai-music-ban"
+          },
+          {
+            "source": "TechCrunch AI",
+            "title": "Tidal to ban and remove millions of AI-generated tracks as AI slop inundates music streaming",
+            "link": "https://techcrunch.com/2026/11/24/tidal-to-ban-and-remove-millions-of-ai-generated-tracks-as-ai-slop-inundates-music-streaming/"
+          }
+        ]
+      }
+    ],
+    "tech": [
+      {
+        "category": "tech",
+        "headline": "Iran suspected of hacking dozens of tankers",
+        "summary": "Dozens of oil and chemical tankers have been hacked in recent weeks, with Iran the chief suspect. US officials are investigating Iranian ties to as many as 50 compromised commercial vessels.",
+        "sources": [
+          {
+            "source": "TechCrunch",
+            "title": "Dozens of oil and shipping tankers hacked in recent weeks, per report",
+            "link": "https://techcrunch.com/2026/11/24/dozens-of-oil-and-shipping-tankers-hacked-in-recent-weeks-per-report/"
+          },
+          {
+            "source": "NPR",
+            "title": "The U.S. government is investigating Iranian ties to as many as 50 hacked commercial vessels",
+            "link": "https://www.npr.org/2026/11/24/nx-s1-6052994/hack-commercial-vessels-iran"
+          }
+        ]
+      },
+      {
+        "category": "tech",
+        "headline": "US financial crimes bureau discloses cyber incident",
+        "summary": "FinCEN, the US Treasury's financial crimes enforcement unit, said it is investigating a 'cybersecurity incident'.",
+        "sources": [
+          {
+            "source": "The Verge",
+            "title": "US financial crimes bureau discloses ‘cybersecurity incident’",
+            "link": "https://www.theverge.com/policy/1041957/fincen-treasury-cybersecurity-incident"
+          }
+        ]
+      },
+      {
+        "category": "tech",
+        "headline": "Uber and Nuro begin driverless robotaxi tests",
+        "summary": "Uber and Nuro have started testing driverless Lucid Gravity SUVs on public streets in the San Francisco area. A commercial launch is planned for 2027.",
+        "sources": [
+          {
+            "source": "TechCrunch",
+            "title": "Uber and Nuro begin driverless testing of Lucid robotaxis ahead of 2027 launch",
+            "link": "https://techcrunch.com/2026/11/24/uber-and-nuro-begin-driverless-testing-of-lucid-robotaxis-ahead-of-2027-launch/"
+          }
+        ]
+      }
+    ]
+  },
+  "stats": {
+    "headlines": 342,
+    "feeds": 45,
+    "feedsFailed": 8
+  }
+}
