@@ -1,0 +1,1008 @@
+{
+ "date": "2026-11-25",
+ "dateLabel": "Wednesday, 25 November 2026",
+ "generatedAt": "2026-11-25T07:17:35.569Z",
+ "mode": "fallback",
+ "model": null,
+ "error": "400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011ChPEkBHEbcDmgQr7KMq65\"}",
+ "headlineOfDay": "",
+ "markets": {
+  "summary": "",
+  "indices": [
+   {
+    "symbol": "^GSPC",
+    "label": "S&P 500",
+    "price": 7201.08984375,
+    "asOf": "2026-11-24",
+    "d1": -0.49853849660134003,
+    "w1": -1.8995896139297783,
+    "m1": -6.196358293540431,
+    "ytd": 5.194505058067343,
+    "spark": [
+     7676.77,
+     7722.6001,
+     7743.98,
+     7720.3901,
+     7580.0698,
+     7541.3999,
+     7568.9199,
+     7688.6201,
+     7353.73,
+     7376.8599,
+     7549.9399,
+     7520.9302,
+     7619.3799,
+     7592.3999,
+     7561.6699,
+     7416.5898,
+     7340.5298,
+     7323.6299,
+     7175.8301,
+     6910.3901,
+     7237.1699,
+     7201.0898
+    ]
+   },
+   {
+    "symbol": "SPUS",
+    "label": "S&P 500 Shariah",
+    "sub": "via SPUS ETF",
+    "price": 54.16999816894531,
+    "asOf": "2026-11-24",
+    "d1": -1.1135462284495365,
+    "w1": -2.0788169418346927,
+    "m1": -8.650929399859338,
+    "ytd": 6.070096911387428,
+    "spark": [
+     59.3,
+     59.87,
+     60.11,
+     59.77,
+     58.42,
+     57.61,
+     57.95,
+     58.66,
+     55.41,
+     55.72,
+     57.19,
+     56.69,
+     57.74,
+     57.6,
+     57.04,
+     55.78,
+     55.32,
+     55.27,
+     54.11,
+     51.62,
+     54.78,
+     54.17
+    ]
+   },
+   {
+    "symbol": "^IXIC",
+    "label": "Nasdaq",
+    "price": 23733.5390625,
+    "asOf": "2026-11-24",
+    "d1": -1.4779077587664196,
+    "w1": -2.445052962272153,
+    "m1": -9.307984051913007,
+    "ytd": 2.11491710980068,
+    "spark": [
+     26169.3809,
+     26477.8105,
+     26549.8496,
+     26184.7207,
+     25437,
+     25164.3105,
+     25372.0098,
+     25736.5098,
+     24315,
+     24579.4297,
+     25253.1406,
+     25065.8691,
+     25466.1895,
+     25366.0898,
+     25136.2695,
+     24509.7598,
+     24328.3809,
+     24429.8809,
+     23879.1992,
+     22617.7305,
+     24089.5605,
+     23733.5391
+    ]
+   },
+   {
+    "symbol": "^DJI",
+    "label": "Dow Jones",
+    "price": 50018.69921875,
+    "asOf": "2026-11-24",
+    "d1": 0.8536908772321978,
+    "w1": -1.4592811125274463,
+    "m1": -4.474423785809072,
+    "ytd": 4.0684068743344755,
+    "spark": [
+     52361.5781,
+     52377.5703,
+     52475.1016,
+     52342.5586,
+     51770.3086,
+     51983.9805,
+     51786.7188,
+     53356.1211,
+     51523.0586,
+     51285.7305,
+     52389.75,
+     52231.8906,
+     52486.4883,
+     52297.0898,
+     52347.5508,
+     51608.1719,
+     50759.4219,
+     50198.1719,
+     49097.0586,
+     48147.3281,
+     49595.3086,
+     50018.6992
+    ]
+   },
+   {
+    "symbol": "^FTSE",
+    "label": "FTSE 100",
+    "price": 10467.099609375,
+    "asOf": "2026-11-24",
+    "d1": -0.1307170785417792,
+    "w1": -2.0842175615162457,
+    "m1": -2.7880731544394175,
+    "ytd": 5.393994780994703,
+    "spark": [
+     10767.2998,
+     10686.5,
+     10694.5,
+     10722.0996,
+     10729.7998,
+     10761.2998,
+     10638.4004,
+     10829.2002,
+     10782.7002,
+     10673.9004,
+     10782.9004,
+     10751.5996,
+     10835.5,
+     10863.0996,
+     10902.5996,
+     10881.5996,
+     10689.9004,
+     10551.2002,
+     10452.7002,
+     10346.2998,
+     10480.7998,
+     10467.0996
+    ]
+   },
+   {
+    "symbol": "^STOXX50E",
+    "label": "Euro Stoxx 50",
+    "price": 6003.759765625,
+    "asOf": "2026-11-24",
+    "d1": -1.1640595264745872,
+    "w1": -3.3539345285532187,
+    "m1": -1.8388813894001128,
+    "ytd": 3.5806015487429974,
+    "spark": [
+     6116.23,
+     6164.6899,
+     6167.8101,
+     6207.0698,
+     6131.3101,
+     6176.0601,
+     6144.5601,
+     6265.71,
+     6231.54,
+     6170.4902,
+     6290.4502,
+     6327.8701,
+     6393.3901,
+     6398.98,
+     6386.8599,
+     6348.3501,
+     6212.1099,
+     6154.3901,
+     6113.8599,
+     5941.9502,
+     6074.4702,
+     6003.7598
+    ]
+   },
+   {
+    "symbol": "^TASI.SR",
+    "label": "Tadawul (Saudi)",
+    "price": 9968.06,
+    "asOf": "2026-11-25",
+    "d1": -0.09020693470822067,
+    "w1": null,
+    "m1": null,
+    "ytd": null,
+    "spark": []
+   }
+  ],
+  "commodities": [
+   {
+    "symbol": "GC=F",
+    "label": "Gold",
+    "unit": "$/oz",
+    "price": 3519.5,
+    "asOf": "2026-11-25",
+    "d1": -1.1903732139089769,
+    "w1": -5.943502181991804,
+    "m1": -13.623425228295385,
+    "ytd": -18.92608046747943,
+    "spark": [
+     4074.6001,
+     4051.6001,
+     4031.3999,
+     3898.8999,
+     3969.6001,
+     3940.3999,
+     4073,
+     4113.5,
+     4074.8999,
+     4114.5,
+     4030.2,
+     4000.5,
+     3885.3,
+     3886.3,
+     3853,
+     3864.2,
+     3741.8999,
+     3685.5,
+     3515.3999,
+     3651.3999,
+     3561.8999,
+     3519.5
+    ]
+   },
+   {
+    "symbol": "SI=F",
+    "label": "Silver",
+    "unit": "$/oz",
+    "price": 40.27000045776367,
+    "asOf": "2026-11-25",
+    "d1": -1.2021537878981439,
+    "w1": -10.50912250010978,
+    "m1": -25.828373821647567,
+    "ytd": -42.58134582975618,
+    "spark": [
+     54.293,
+     53.457,
+     52.191,
+     49.097,
+     50.72,
+     49.587,
+     52.12,
+     52.233,
+     51.803,
+     52.564,
+     51.101,
+     51.881,
+     49.972,
+     49.031,
+     46.785,
+     47.288,
+     44.999,
+     44.318,
+     41.035,
+     43.147,
+     40.76,
+     40.27
+    ]
+   },
+   {
+    "symbol": "BZ=F",
+    "label": "Brent crude",
+    "unit": "$/bbl",
+    "price": 87.33999633789062,
+    "asOf": "2026-11-25",
+    "d1": -4.44201873108146,
+    "w1": -5.0135951749367536,
+    "m1": -23.305234945227205,
+    "ytd": 43.53327613481447,
+    "spark": [
+     113.88,
+     115.32,
+     114.88,
+     117.64,
+     104.77,
+     103.6,
+     94.62,
+     98.29,
+     98.32,
+     92.57,
+     91.49,
+     92.76,
+     95.82,
+     95.84,
+     92.44,
+     93.14,
+     91.95,
+     91.98,
+     92.57,
+     89.37,
+     91.4,
+     87.34
+    ]
+   },
+   {
+    "symbol": "CL=F",
+    "label": "WTI crude",
+    "unit": "$/bbl",
+    "price": 80.54000091552734,
+    "asOf": "2026-11-25",
+    "d1": -1.840343790454154,
+    "w1": -3.2668762321824643,
+    "m1": -19.379379694340034,
+    "ytd": 40.26472219409808,
+    "spark": [
+     99.9,
+     102.78,
+     102,
+     104.12,
+     96.46,
+     96.09,
+     88.12,
+     90.52,
+     90.83,
+     86.85,
+     86.04,
+     86.53,
+     88.74,
+     88.56,
+     85.72,
+     86.01,
+     83.26,
+     83.21,
+     83.98,
+     80.17,
+     82.05,
+     80.54
+    ]
+   },
+   {
+    "symbol": "HG=F",
+    "label": "Copper",
+    "unit": "$/lb",
+    "price": 5.391499996185303,
+    "asOf": "2026-11-25",
+    "d1": 0.5407888935937808,
+    "w1": -4.735402775942907,
+    "m1": -18.582002126973045,
+    "ytd": -4.236236472604393,
+    "spark": [
+     6.622,
+     6.6415,
+     6.581,
+     6.4585,
+     6.5435,
+     6.3785,
+     6.403,
+     6.249,
+     6.218,
+     6.3285,
+     6.2195,
+     6.2745,
+     6.1825,
+     6.0795,
+     5.9975,
+     5.976,
+     5.6595,
+     5.625,
+     5.477,
+     5.627,
+     5.3625,
+     5.3915
+    ]
+   },
+   {
+    "symbol": "NG=F",
+    "label": "US natural gas",
+    "unit": "$/MMBtu",
+    "price": 3.634999990463257,
+    "asOf": "2026-11-25",
+    "d1": 9.389107449221076,
+    "w1": 7.799525892066947,
+    "m1": 34.77938281324727,
+    "ytd": -1.3836168407857463,
+    "spark": [
+     2.697,
+     2.817,
+     2.952,
+     2.898,
+     2.856,
+     2.895,
+     2.959,
+     2.947,
+     2.998,
+     3.218,
+     3.296,
+     3.215,
+     3.34,
+     3.23,
+     3.122,
+     3.208,
+     3.372,
+     3.268,
+     3.411,
+     3.184,
+     3.323,
+     3.635
+    ]
+   }
+  ],
+  "rates_fx": [
+   {
+    "symbol": "GBPUSD=X",
+    "label": "GBP/USD",
+    "price": 1.3083696365356445,
+    "asOf": "2026-11-25",
+    "d1": 0.37550502586301265,
+    "w1": -0.9184770691282164,
+    "m1": -1.958629925584176,
+    "ytd": -2.84766786248936,
+    "spark": [
+     1.3345,
+     1.3306,
+     1.3328,
+     1.3379,
+     1.3386,
+     1.341,
+     1.3434,
+     1.3477,
+     1.3456,
+     1.336,
+     1.3442,
+     1.3349,
+     1.3277,
+     1.3231,
+     1.3216,
+     1.3185,
+     1.3205,
+     1.3147,
+     1.3086,
+     1.3095,
+     1.3035,
+     1.3084
+    ]
+   },
+   {
+    "symbol": "EURUSD=X",
+    "label": "EUR/USD",
+    "price": 1.0942115783691406,
+    "asOf": "2026-11-25",
+    "d1": 0.3118450747985575,
+    "w1": -0.4617581990248217,
+    "m1": -2.073534636258211,
+    "ytd": -6.854145426031953,
+    "spark": [
+     1.1174,
+     1.113,
+     1.1156,
+     1.1183,
+     1.1157,
+     1.1192,
+     1.1207,
+     1.1235,
+     1.1228,
+     1.1147,
+     1.1222,
+     1.1169,
+     1.1095,
+     1.105,
+     1.1025,
+     1.0998,
+     1.0993,
+     1.0972,
+     1.097,
+     1.0972,
+     1.0908,
+     1.0942
+    ]
+   },
+   {
+    "symbol": "^TNX",
+    "label": "US 10Y yield",
+    "unit": "%",
+    "price": 4.9039998054504395,
+    "asOf": "2026-11-24",
+    "d1": -0.2846770063470339,
+    "w1": -3.899673764155022,
+    "m1": -1.6446099996174592,
+    "ytd": 17.799656008331304,
+    "spark": [
+     4.986,
+     4.993,
+     5.045,
+     4.989,
+     4.929,
+     4.894,
+     4.952,
+     4.894,
+     4.837,
+     4.859,
+     4.864,
+     4.983,
+     4.998,
+     5.103,
+     5.154,
+     5.121,
+     5.103,
+     5.066,
+     5.052,
+     4.912,
+     4.918,
+     4.904
+    ]
+   }
+  ],
+  "movers": {
+   "sp500": {
+    "gainers": [
+     {
+      "ticker": "DLTR",
+      "name": "Dollar Tree",
+      "price": 154.65,
+      "d1": 11.17900790797988,
+      "shariah": false
+     },
+     {
+      "ticker": "CSGP",
+      "name": "CoStar Group",
+      "price": 32.64,
+      "d1": 8.079470198675502,
+      "shariah": true
+     },
+     {
+      "ticker": "MRNA",
+      "name": "Moderna",
+      "price": 227.38,
+      "d1": 7.21425877027536,
+      "shariah": false
+     },
+     {
+      "ticker": "CHTR",
+      "name": "Charter Communications",
+      "price": 135.87,
+      "d1": 6.214821763602254,
+      "shariah": false
+     },
+     {
+      "ticker": "NKE",
+      "name": "Nike, Inc.",
+      "price": 35.75,
+      "d1": 5.894549763033181,
+      "shariah": true
+     }
+    ],
+    "losers": [
+     {
+      "ticker": "ADI",
+      "name": "Analog Devices",
+      "price": 312.95,
+      "d1": -17.372937293729375,
+      "shariah": true
+     },
+     {
+      "ticker": "HPE",
+      "name": "Hewlett Packard Enterprise",
+      "price": 40.19,
+      "d1": -16.30570595585174,
+      "shariah": false
+     },
+     {
+      "ticker": "DELL",
+      "name": "Dell Technologies",
+      "price": 295.28,
+      "d1": -11.83302976919174,
+      "shariah": false
+     },
+     {
+      "ticker": "TXN",
+      "name": "Texas Instruments",
+      "price": 258.44,
+      "d1": -11.246952161818744,
+      "shariah": true
+     },
+     {
+      "ticker": "MU",
+      "name": "Micron Technology",
+      "price": 629.79,
+      "d1": -11.008902077151346,
+      "shariah": true
+     }
+    ],
+    "coverage": 503
+   },
+   "ftse100": {
+    "gainers": [
+     {
+      "ticker": "PCT",
+      "name": "Polar Capital Technology Trust",
+      "price": 558,
+      "d1": 8.349514563106796
+     },
+     {
+      "ticker": "RR",
+      "name": "Rolls-Royce Holdings",
+      "price": 1335.8,
+      "d1": 4.96621090680497
+     },
+     {
+      "ticker": "STAN",
+      "name": "Standard Chartered",
+      "price": 2010,
+      "d1": 4.9334377447141735
+     },
+     {
+      "ticker": "FRES",
+      "name": "Fresnillo plc",
+      "price": 2256,
+      "d1": 4.881450488145049
+     },
+     {
+      "ticker": "BGEO",
+      "name": "Lion Finance Group",
+      "price": 12600,
+      "d1": 4.825291181364393
+     }
+    ],
+    "losers": [
+     {
+      "ticker": "VOD",
+      "name": "Vodafone Group",
+      "price": 102.85,
+      "d1": -5.0761421319796955
+     },
+     {
+      "ticker": "BT.A",
+      "name": "BT Group",
+      "price": 207.9,
+      "d1": -2.0725388601036294
+     },
+     {
+      "ticker": "IGG",
+      "name": "IG Group",
+      "price": 910,
+      "d1": -1.5151515151515151
+     },
+     {
+      "ticker": "BTRW",
+      "name": "Barratt Redrow",
+      "price": 307.7,
+      "d1": -1.5044814340588952
+     },
+     {
+      "ticker": "REL",
+      "name": "RELX",
+      "price": 2933,
+      "d1": -1.4448924731182795
+     }
+    ],
+    "coverage": 100
+   },
+   "shariahListAvailable": true
+  },
+  "stories": [
+   {
+    "category": "markets",
+    "headline": "European stocks set for gains in 2027, but volatility is likely, poll shows",
+    "summary": "",
+    "sources": [
+     {
+      "source": "Reuters",
+      "title": "European stocks set for gains in 2027, but volatility is likely, poll shows",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOb0lObU81bXBNYUVyZ25ZQWFPUXdGNXJYWkpVdDBxMHhQdzVDcWwtakVBMk5TZl80bE1PUk8wTnFMZGo3M2tOdkl6RmlINUlJRFpKV3lfTG9HdVoyRW1JVVBkOWJJZi1KdnNhV2N2Ymg1LWZHT3R6aThjenlJeUZxY1I4LXZIWnJMTEp1SHRLWUZ6aWZPdEZ0bS1GYmtzcVBvWDVOSUlXSEZmb0RWWnQ1QTBfWExDdw?oc=5"
+     }
+    ]
+   },
+   {
+    "category": "markets",
+    "headline": "Remy Cointreau unveils medium-term targets under turnaround plan - Euronext Markets: Real-time Stock Market Data | live",
+    "summary": "",
+    "sources": [
+     {
+      "source": "Google News (Markets)",
+      "title": "Remy Cointreau unveils medium-term targets under turnaround plan - Euronext Markets: Real-time Stock Market Data | live",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOcFgtMEFmOW1OLUlIUldNeC1LVFRLRlk1b3FnQlEzckM3ejk1MUVhTFlTbnhocm1nWWpldWJMTkI1ZFc5cWlkOXFYeFd2LS1Yci05OVdJMWlFLUxxNC1BbDJFUDNkdlNFY21ySnIxeUlzb1hTOTNheEcyWWVOa3BINE80TThqam9wNW5wdGJuM0FrQVBraXdCUWtESTF4REs2ZDQtR0VCdk9Mc2VB?oc=5"
+     }
+    ]
+   },
+   {
+    "category": "markets",
+    "headline": "FTSE 100 Live: Stocks to gain; Easyjet to reveal profit dip ahead of takeover",
+    "summary": "",
+    "sources": [
+     {
+      "source": "City AM",
+      "title": "FTSE 100 Live: Stocks to gain; Easyjet to reveal profit dip ahead of takeover",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOTGV0bHZjLVlHaWsxNUtMU2tyUE91TXBnZ0ZscVhDNUR5elE5SnZvSDFJb3hvcEZ3ancyVFNNcU1wUHFOVkR3RnA0Q0ZSeUUtRUM5eHF3c3pucnEzY0xpQ3NxTUd2ZWNrN3dvTExBTDVDVmZMMjFudmVjOEQ1UEhYMGhuQWQyRWZIUW50ZkVYX1RtVDQ4SThraUpLUFZsRmFZdWpSR1lEcw?oc=5"
+     }
+    ]
+   }
+  ],
+  "calendar": []
+ },
+ "world": {
+  "us": [
+   {
+    "category": "notable",
+    "headline": "Two children among six dead after plane crash off Mississippi coast",
+    "summary": "Divers found the bodies of four adults and two boys, aged 8 and 10, in the fuselage, the US Coast Guard said.",
+    "sources": [
+     {
+      "source": "BBC",
+      "title": "Two children among six dead after plane crash off Mississippi coast",
+      "link": "https://www.bbc.co.uk/news/articles/c6z74l1017zpo?at_medium=RSS&at_campaign=rss"
+     }
+    ]
+   },
+   {
+    "category": "notable",
+    "headline": "Africa Cup title given back to Senegal after sports court rules against Morocco",
+    "summary": "Senegal won the Africa Cup on the field in Morocco in January and then lost it in a legal case in March because its players walked off the field in protest in second-half stoppage time.",
+    "sources": [
+     {
+      "source": "NPR",
+      "title": "Africa Cup title given back to Senegal after sports court rules against Morocco",
+      "link": "https://www.npr.org/2026/11/25/nx-s1-6053783/africa-cup-senegal-morocco"
+     }
+    ]
+   },
+   {
+    "category": "notable",
+    "headline": "Kilmar Ábrego García leaves US for Spain, ending Trump deportation battle",
+    "summary": "Ábrego García's deportation to El Salvador and return to the US became a flashpoint in the debate over President Donald Trump's immigration agenda.",
+    "sources": [
+     {
+      "source": "BBC",
+      "title": "Kilmar Ábrego García leaves US for Spain, ending Trump deportation battle",
+      "link": "https://www.bbc.co.uk/news/articles/c6808pyy5dl9o?at_medium=RSS&at_campaign=rss"
+     }
+    ]
+   }
+  ],
+  "uk": [
+   {
+    "category": "notable",
+    "headline": "Energy bills to rise by 26% from January",
+    "summary": "Energy bills to rise by 26% from January",
+    "sources": [
+     {
+      "source": "BBC",
+      "title": "Energy bills to rise by 26% from January",
+      "link": "https://www.bbc.co.uk/news/articles/cm20qnq33e90o?at_medium=RSS&at_campaign=rss"
+     }
+    ]
+   },
+   {
+    "category": "notable",
+    "headline": "Ministers ask public for views on changing age of consent",
+    "summary": "Some campaigners have argued that different limits should apply, depending on the age gap between the people involved.",
+    "sources": [
+     {
+      "source": "BBC",
+      "title": "Ministers ask public for views on changing age of consent",
+      "link": "https://www.bbc.co.uk/news/articles/cwgkl31kmnddo?at_medium=RSS&at_campaign=rss"
+     }
+    ]
+   },
+   {
+    "category": "notable",
+    "headline": "None of UK government's £2.5bn steel package spent in Wales, figures show",
+    "summary": "Wales is home to the UK's largest steelworks which is currently transitioning to an electric arc furnace.",
+    "sources": [
+     {
+      "source": "BBC",
+      "title": "None of UK government's £2.5bn steel package spent in Wales, figures show",
+      "link": "https://www.bbc.co.uk/news/articles/cqwy0r98r26po?at_medium=RSS&at_campaign=rss"
+     }
+    ]
+   }
+  ],
+  "europe": [
+   {
+    "category": "notable",
+    "headline": "Spain's economy is booming. Why are real wages still below their 2009 peak?",
+    "summary": "Spain's economy is forecast to grow more than twice as fast as the eurozone's this year, but average pay still buys less than it did in 2009. Rising housing and food costs are putting household budgets under pressure ahe",
+    "sources": [
+     {
+      "source": "Euronews",
+      "title": "Spain's economy is booming. Why are real wages still below their 2009 peak?",
+      "link": "https://www.euronews.com/2026/11/25/spains-economy-is-booming-why-are-real-wages-still-below-their-2009-peak"
+     }
+    ]
+   },
+   {
+    "category": "notable",
+    "headline": "Colombia security forces storm supermarket where hostages are being held",
+    "summary": "A botched armoured-vehicle robbery led to the crisis, which brought President Abelardo de la Espriella to the scene after negotiators had already secured 10 people's release.",
+    "sources": [
+     {
+      "source": "Euronews",
+      "title": "Colombia security forces storm supermarket where hostages are being held",
+      "link": "https://www.euronews.com/2026/11/25/colombia-security-forces-storm-supermarket-where-hostages-are-being-held"
+     }
+    ]
+   },
+   {
+    "category": "notable",
+    "headline": "Domestic violence soars to record high in Germany",
+    "summary": "Every three days in Germany, a man kills his wife or ex-partner. Every 10 minutes, the police record a sexual offense against a woman. \"A shocking finding,\" according to Justice Minister Stefanie Hubig.",
+    "sources": [
+     {
+      "source": "DW",
+      "title": "Domestic violence soars to record high in Germany",
+      "link": "https://www.dw.com/en/domestic-violence-soars-to-record-high-in-germany/a-80041678?maca=en-rss-en-all-1573-rdf"
+     }
+    ]
+   }
+  ],
+  "middle_east": [
+   {
+    "category": "notable",
+    "headline": "Saudi budget to remain in deficit in 2027",
+    "summary": "",
+    "sources": [
+     {
+      "source": "MUFG Research",
+      "title": "Saudi budget to remain in deficit in 2027",
+      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBMVjNEakNDek1KWTZoSmhIM0o3QV9pS29DaXh6eXFXc0RxYWNkNklLQjZVOHhfQ0Y3NEFWeU5HYnhpdnFFOXpXYllKQ05Pdk9hY092c2JkbnhkRE9FRW9hVF9fZFpnSVZiay1DaHE0dGhRY3ZRbVBEUFlB?oc=5"
+     }
+    ]
+   },
+   {
+    "category": "notable",
+    "headline": "Vaibhav Sooryavanshi: Every record broken by India's teenage cricket sensation",
+    "summary": "",
+    "sources": [
+     {
+      "source": "The National",
+      "title": "Vaibhav Sooryavanshi: Every record broken by India's teenage cricket sensation",
+      "link": "https://www.thenationalnews.com/sport/cricket/2026/11/25/vaibhav-sooryavanshi-every-record-broken-by-indias-teenage-cricket-sensation/"
+     }
+    ]
+   },
+   {
+    "category": "notable",
+    "headline": "Netflix's first Pakistani original series faces calls for a ban in India",
+    "summary": "",
+    "sources": [
+     {
+      "source": "The National",
+      "title": "Netflix's first Pakistani original series faces calls for a ban in India",
+      "link": "https://www.thenationalnews.com/arts-culture/film-tv/2026/11/25/netflix-pakistan-jo-bachay-hain-sang-samait-lo-fawad-khan-mahira/"
+     }
+    ]
+   }
+  ]
+ },
+ "energyTech": {
+  "energy": [
+   {
+    "category": "energy",
+    "headline": "Ofgem confirms 26% rise in energy costs from January",
+    "summary": "",
+    "sources": [
+     {
+      "source": "Daily Business",
+      "title": "Ofgem confirms 26% rise in energy costs from January",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxORm5zSFVuZ2tnUXlFdnJZYTdKdXVwVHJ1RER4b3ZmWUtqZm9BYkhLaUtQcy1Zc05ac19BRHA0eEdrWnpfVmpnQ2t6dFowRmdTUWZXNkl1dDhuQXRUU3BJanIwWWJPeU5jYndsQTFjY2RIN2hackY4bmktS0dFT3BINnhOcE42ZFRjcDZVWkY0WUtydHowWUg3cQ?oc=5"
+     }
+    ]
+   },
+   {
+    "category": "energy",
+    "headline": "Goldman Sachs Sees U.S. Natural Gas Demand Surging on Data Center Boom",
+    "summary": "Data center proliferation will drive demand for natural gas in the United States over the next two years, Goldman Sachs has forecast, estimating that some 52 GW of new data center capacity could be added to the grid in 2",
+    "sources": [
+     {
+      "source": "OilPrice",
+      "title": "Goldman Sachs Sees U.S. Natural Gas Demand Surging on Data Center Boom",
+      "link": "https://oilprice.com/Latest-Energy-News/World-News/Goldman-Sachs-Sees-US-Natural-Gas-Demand-Surging-on-Data-Center-Boom.html"
+     }
+    ]
+   },
+   {
+    "category": "energy",
+    "headline": "Canada’s AtkinsRealis Expects Poland to Choose Second Nuclear Plant Partner in 2027",
+    "summary": "",
+    "sources": [
+     {
+      "source": "Bloomberg.com",
+      "title": "Canada’s AtkinsRealis Expects Poland to Choose Second Nuclear Plant Partner in 2027",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPbV9pcVF5eVhtT3lrNURzd0NOU0g3RWd6WDlxSDM2elZoVHJGaTFHbGZjTEFwWG9NTW1Zb0oxV0h0ODVYZU1ObmJZd2VWdnJxOTZlT1RnVWNlemNXbkJiOHlYRkdzWDJicFBJN3pDV0hoZm1ZanB2T1pCdnFpRTJrZlNLb1hva0RGa1BGTzluenA1UmdLMDk1bkM2T1Q4ZzhYZUdpenh1X3hBZENaN2tmbnJBSDBpZmI4dlhZS3ZjRHJtanc?oc=5"
+     }
+    ]
+   }
+  ],
+  "ai": [
+   {
+    "category": "ai",
+    "headline": "End of the party for record-breaking Anthropic float as shares sink",
+    "summary": "",
+    "sources": [
+     {
+      "source": "This is Money",
+      "title": "End of the party for record-breaking Anthropic float as shares sink",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNcGhVV1E4b3Z6UTRWQjJaWFRFUUNXNTd2a19qU2tVc2ljbEhoNUJzNU9PcnIyS285dW11WGYyUkZlbjZqRkxIWXJYdUV4S2VfX2p5OFgwU2loTmhsMlVkbnc4VnprbjFobXRGV3NrZFBZUXFRaUE1QTVpazk5ckRLUnB0RGNUM0loaDNHekh4SmVpZ0FISmZhakZuaVZsc3RhenVqZ2hYSHMxc05hdW52d3VDcWxMOFBMQmpV?oc=5"
+     }
+    ]
+   },
+   {
+    "category": "ai",
+    "headline": "Anthropic has pulled up the ladder",
+    "summary": "",
+    "sources": [
+     {
+      "source": "Financial Times",
+      "title": "Anthropic has pulled up the ladder",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE50NlZWWFBEUFhLNUI4T2JlTENLd01UNjA0VVZUNVVGUTktV1N2UlllSUtCTUNQSGxwRV8zTVJ2UldOeG1jaS1jMzZKSkFpLXlNTUxRcGM4VjJTeGwyNW5GamktSllBRV9Id2tselNkcTg?oc=5"
+     }
+    ]
+   },
+   {
+    "category": "ai",
+    "headline": "Google DeepMind’s Gemini agents cut estimated quantum simulation costs by up to 11.8×",
+    "summary": "",
+    "sources": [
+     {
+      "source": "EdTech Innovation Hub",
+      "title": "Google DeepMind’s Gemini agents cut estimated quantum simulation costs by up to 11.8×",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQZWdSOVQtbzA2TERjN3ZXNUhBd1ZiZkdyVkJhQklSYWZCck0zOWwtV0xZeGdUaS1GVXkzNUZDcGJ4a1RneXhxa0M0LUxCWElMSVRtaU5iakJZY2hNMTNYNnFhWXM2TWlXWm1Gb3V4anFsREMyZUdxZV9OcDlhQUNoOU9MR3g5TGIyckxhV3FHUWM5NHgyR3p0TWlFUDZXX3JVN004U29hUXE0d0NWR3ZBZzdDbjRpVENYX3BoTE9mYWw?oc=5"
+     }
+    ]
+   }
+  ],
+  "tech": [
+   {
+    "category": "tech",
+    "headline": "US financial crimes bureau discloses ‘cybersecurity incident’",
+    "summary": "The Financial Crimes Enforcement Network (FinCEN) disclosed on Tuesday that it's investigating a \"cybersecurity incident.\" The bureau, which is part of the Treasury Department, said it's looking into an \"incident that re",
+    "sources": [
+     {
+      "source": "The Verge",
+      "title": "US financial crimes bureau discloses ‘cybersecurity incident’",
+      "link": "https://www.theverge.com/policy/1041957/fincen-treasury-cybersecurity-incident"
+     }
+    ]
+   },
+   {
+    "category": "tech",
+    "headline": "Trump reportedly says pardoning Jensen Huang is ‘an option’",
+    "summary": "Huang faces ongoing questions about his relationship with Alice Huang, an executive with alleged ties to Chinese intelligence who previously worked for a company that has been accused of illegally diverting Nvidia chips ",
+    "sources": [
+     {
+      "source": "TechCrunch",
+      "title": "Trump reportedly says pardoning Jensen Huang is ‘an option’",
+      "link": "https://techcrunch.com/2026/11/24/trump-reportedly-says-pardoning-jensen-huang-is-an-option-but-that-he-doesnt-think-it-will-be-necessary/"
+     }
+    ]
+   },
+   {
+    "category": "tech",
+    "headline": "The Verge’s 2026 gift guide for dads",
+    "summary": "Gone are the days when you could just buy your father a random tie or some leather-clad alcohol vessel or a shaving kit. Dads want - nay, deserve - something memorable. Luckily for you, it's not that hard to find somethi",
+    "sources": [
+     {
+      "source": "The Verge",
+      "title": "The Verge’s 2026 gift guide for dads",
+      "link": "https://www.theverge.com/gadgets/1024777/best-gifts-for-dad-2026"
+     }
+    ]
+   }
+  ]
+ },
+ "stats": {
+  "headlines": 355,
+  "feeds": 45,
+  "feedsFailed": 7
+ }
+}
