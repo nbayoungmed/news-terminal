@@ -1,0 +1,1008 @@
+{
+ "date": "2026-11-26",
+ "dateLabel": "Thursday, 26 November 2026",
+ "generatedAt": "2026-11-26T07:26:08.520Z",
+ "mode": "fallback",
+ "model": null,
+ "error": "400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011ChR9CouAyqsJ7h5BiPwwf\"}",
+ "headlineOfDay": "",
+ "markets": {
+  "summary": "",
+  "indices": [
+   {
+    "symbol": "^GSPC",
+    "label": "S&P 500",
+    "price": 7182.77978515625,
+    "asOf": "2026-11-25",
+    "d1": -0.2542678815435381,
+    "w1": -1.9232279608613865,
+    "m1": -6.9901368149806355,
+    "ytd": 4.927029218555986,
+    "spark": [
+     7722.6001,
+     7743.98,
+     7720.3901,
+     7580.0698,
+     7541.3999,
+     7568.9199,
+     7688.6201,
+     7353.73,
+     7376.8599,
+     7549.9399,
+     7520.9302,
+     7619.3799,
+     7592.3999,
+     7561.6699,
+     7416.5898,
+     7340.5298,
+     7323.6299,
+     7175.8301,
+     6910.3901,
+     7237.1699,
+     7201.0898,
+     7182.7798
+    ]
+   },
+   {
+    "symbol": "SPUS",
+    "label": "S&P 500 Shariah",
+    "sub": "via SPUS ETF",
+    "price": 53.790000915527344,
+    "asOf": "2026-11-25",
+    "d1": -0.7014902460081942,
+    "w1": -2.6777628550361907,
+    "m1": -10.155333430479514,
+    "ytd": 5.3260255276226065,
+    "spark": [
+     59.87,
+     60.11,
+     59.77,
+     58.42,
+     57.61,
+     57.95,
+     58.66,
+     55.41,
+     55.72,
+     57.19,
+     56.69,
+     57.74,
+     57.6,
+     57.04,
+     55.78,
+     55.32,
+     55.27,
+     54.11,
+     51.62,
+     54.78,
+     54.17,
+     53.79
+    ]
+   },
+   {
+    "symbol": "^IXIC",
+    "label": "Nasdaq",
+    "price": 23585.80078125,
+    "asOf": "2026-11-25",
+    "d1": -0.6224873621289493,
+    "w1": -3.4551133629498776,
+    "m1": -10.922390129293847,
+    "ytd": 1.4792646559437186,
+    "spark": [
+     26477.8105,
+     26549.8496,
+     26184.7207,
+     25437,
+     25164.3105,
+     25372.0098,
+     25736.5098,
+     24315,
+     24579.4297,
+     25253.1406,
+     25065.8691,
+     25466.1895,
+     25366.0898,
+     25136.2695,
+     24509.7598,
+     24328.3809,
+     24429.8809,
+     23879.1992,
+     22617.7305,
+     24089.5605,
+     23733.5391,
+     23585.8008
+    ]
+   },
+   {
+    "symbol": "^DJI",
+    "label": "Dow Jones",
+    "price": 50182.94921875,
+    "asOf": "2026-11-25",
+    "d1": 0.3283771920610628,
+    "w1": -0.03032512077911204,
+    "m1": -4.1900017138180425,
+    "ytd": 4.410143786651097,
+    "spark": [
+     52377.5703,
+     52475.1016,
+     52342.5586,
+     51770.3086,
+     51983.9805,
+     51786.7188,
+     53356.1211,
+     51523.0586,
+     51285.7305,
+     52389.75,
+     52231.8906,
+     52486.4883,
+     52297.0898,
+     52347.5508,
+     51608.1719,
+     50759.4219,
+     50198.1719,
+     49097.0586,
+     48147.3281,
+     49595.3086,
+     50018.6992,
+     50182.9492
+    ]
+   },
+   {
+    "symbol": "^FTSE",
+    "label": "FTSE 100",
+    "price": 10426.900390625,
+    "asOf": "2026-11-25",
+    "d1": -0.3840530829953603,
+    "w1": -1.1780631813120341,
+    "m1": -2.4292294893089412,
+    "ytd": 4.9892258947463235,
+    "spark": [
+     10686.5,
+     10694.5,
+     10722.0996,
+     10729.7998,
+     10761.2998,
+     10638.4004,
+     10829.2002,
+     10782.7002,
+     10673.9004,
+     10782.9004,
+     10751.5996,
+     10835.5,
+     10863.0996,
+     10902.5996,
+     10881.5996,
+     10689.9004,
+     10551.2002,
+     10452.7002,
+     10346.2998,
+     10480.7998,
+     10467.0996,
+     10426.9004
+    ]
+   },
+   {
+    "symbol": "^STOXX50E",
+    "label": "Euro Stoxx 50",
+    "price": 5894.4599609375,
+    "asOf": "2026-11-25",
+    "d1": -1.8205226217295478,
+    "w1": -4.223492011506331,
+    "m1": -4.3835129266388835,
+    "ytd": 1.6948932658245845,
+    "spark": [
+     6164.6899,
+     6167.8101,
+     6207.0698,
+     6131.3101,
+     6176.0601,
+     6144.5601,
+     6265.71,
+     6231.54,
+     6170.4902,
+     6290.4502,
+     6327.8701,
+     6393.3901,
+     6398.98,
+     6386.8599,
+     6348.3501,
+     6212.1099,
+     6154.3901,
+     6113.8599,
+     5941.9502,
+     6074.4702,
+     6003.7598,
+     5894.46
+    ]
+   },
+   {
+    "symbol": "^TASI.SR",
+    "label": "Tadawul (Saudi)",
+    "price": 9930.92,
+    "asOf": "2026-11-26",
+    "d1": 0.1708698222106612,
+    "w1": null,
+    "m1": null,
+    "ytd": null,
+    "spark": []
+   }
+  ],
+  "commodities": [
+   {
+    "symbol": "GC=F",
+    "label": "Gold",
+    "unit": "$/oz",
+    "price": 3597.5,
+    "asOf": "2026-11-26",
+    "d1": 1.7450067967594578,
+    "w1": -2.3877357210690544,
+    "m1": -11.207919999778252,
+    "ytd": -17.12930088983016,
+    "spark": [
+     4051.6001,
+     4031.3999,
+     3898.8999,
+     3969.6001,
+     3940.3999,
+     4073,
+     4113.5,
+     4074.8999,
+     4114.5,
+     4030.2,
+     4000.5,
+     3885.3,
+     3886.3,
+     3853,
+     3864.2,
+     3741.8999,
+     3685.5,
+     3515.3999,
+     3651.3999,
+     3561.8999,
+     3535.8,
+     3597.5
+    ]
+   },
+   {
+    "symbol": "SI=F",
+    "label": "Silver",
+    "unit": "$/oz",
+    "price": 41.60499954223633,
+    "asOf": "2026-11-26",
+    "d1": 3.8774629880914047,
+    "w1": -6.121668853846949,
+    "m1": -22.171092705912443,
+    "ytd": -40.67784819187251,
+    "spark": [
+     53.457,
+     52.191,
+     49.097,
+     50.72,
+     49.587,
+     52.12,
+     52.233,
+     51.803,
+     52.564,
+     51.101,
+     51.881,
+     49.972,
+     49.031,
+     46.785,
+     47.288,
+     44.999,
+     44.318,
+     41.035,
+     43.147,
+     40.76,
+     40.052,
+     41.605
+    ]
+   },
+   {
+    "symbol": "BZ=F",
+    "label": "Brent crude",
+    "unit": "$/bbl",
+    "price": 90.62000274658203,
+    "asOf": "2026-11-26",
+    "d1": -4.217310895284968,
+    "w1": -1.478582910107106,
+    "m1": -21.41865852723443,
+    "ytd": 48.923590828226274,
+    "spark": [
+     115.32,
+     114.88,
+     117.64,
+     104.77,
+     103.6,
+     94.62,
+     98.29,
+     98.32,
+     92.57,
+     91.49,
+     92.76,
+     95.82,
+     95.84,
+     92.44,
+     93.14,
+     91.95,
+     91.98,
+     92.57,
+     89.37,
+     91.4,
+     94.61,
+     90.62
+    ]
+   },
+   {
+    "symbol": "CL=F",
+    "label": "WTI crude",
+    "unit": "$/bbl",
+    "price": 83.88999938964844,
+    "asOf": "2026-11-26",
+    "d1": 0.2509549279478998,
+    "w1": 0.817209845760799,
+    "m1": -18.37906169877624,
+    "ytd": 46.09892383281022,
+    "spark": [
+     102.78,
+     102,
+     104.12,
+     96.46,
+     96.09,
+     88.12,
+     90.52,
+     90.83,
+     86.85,
+     86.04,
+     86.53,
+     88.74,
+     88.56,
+     85.72,
+     86.01,
+     83.26,
+     83.21,
+     83.98,
+     80.17,
+     82.05,
+     83.68,
+     83.89
+    ]
+   },
+   {
+    "symbol": "HG=F",
+    "label": "Copper",
+    "unit": "$/lb",
+    "price": 5.4704999923706055,
+    "asOf": "2026-11-26",
+    "d1": 2.5879045839230272,
+    "w1": -2.7466668023003473,
+    "m1": -17.631559203301784,
+    "ytd": -2.833039410802064,
+    "spark": [
+     6.6415,
+     6.581,
+     6.4585,
+     6.5435,
+     6.3785,
+     6.403,
+     6.249,
+     6.218,
+     6.3285,
+     6.2195,
+     6.2745,
+     6.1825,
+     6.0795,
+     5.9975,
+     5.976,
+     5.6595,
+     5.625,
+     5.477,
+     5.627,
+     5.3625,
+     5.3325,
+     5.4705
+    ]
+   },
+   {
+    "symbol": "NG=F",
+    "label": "US natural gas",
+    "unit": "$/MMBtu",
+    "price": 3.617000102996826,
+    "asOf": "2026-11-26",
+    "d1": 10.64545866949453,
+    "w1": 10.67932152840322,
+    "m1": 28.399013690152657,
+    "ytd": -1.8719480110386635,
+    "spark": [
+     2.817,
+     2.952,
+     2.898,
+     2.856,
+     2.895,
+     2.959,
+     2.947,
+     2.998,
+     3.218,
+     3.296,
+     3.215,
+     3.34,
+     3.23,
+     3.122,
+     3.208,
+     3.372,
+     3.268,
+     3.411,
+     3.184,
+     3.323,
+     3.269,
+     3.617
+    ]
+   }
+  ],
+  "rates_fx": [
+   {
+    "symbol": "GBPUSD=X",
+    "label": "GBP/USD",
+    "price": 1.3108909130096436,
+    "asOf": "2026-11-26",
+    "d1": -0.022283841959828896,
+    "w1": -0.2870819471156244,
+    "m1": -1.4834086325817741,
+    "ytd": -2.660451740552269,
+    "spark": [
+     1.3306,
+     1.3328,
+     1.3379,
+     1.3386,
+     1.341,
+     1.3434,
+     1.3477,
+     1.3456,
+     1.336,
+     1.3442,
+     1.3349,
+     1.3277,
+     1.3231,
+     1.3216,
+     1.3185,
+     1.3205,
+     1.3147,
+     1.3086,
+     1.3095,
+     1.3035,
+     1.3112,
+     1.3109
+    ]
+   },
+   {
+    "symbol": "EURUSD=X",
+    "label": "EUR/USD",
+    "price": 1.0974539518356323,
+    "asOf": "2026-11-26",
+    "d1": 0.111942201546638,
+    "w1": 0.02304435359012776,
+    "m1": -1.393762968288291,
+    "ytd": -6.57813514305317,
+    "spark": [
+     1.113,
+     1.1156,
+     1.1183,
+     1.1157,
+     1.1192,
+     1.1207,
+     1.1235,
+     1.1228,
+     1.1147,
+     1.1222,
+     1.1169,
+     1.1095,
+     1.105,
+     1.1025,
+     1.0998,
+     1.0993,
+     1.0972,
+     1.097,
+     1.0972,
+     1.0908,
+     1.0962,
+     1.0975
+    ]
+   },
+   {
+    "symbol": "^TNX",
+    "label": "US 10Y yield",
+    "unit": "%",
+    "price": 4.8480000495910645,
+    "asOf": "2026-11-25",
+    "d1": -1.1419200261210316,
+    "w1": -4.303196522044259,
+    "m1": -2.9040652922143657,
+    "ytd": 16.454478145670485,
+    "spark": [
+     4.993,
+     5.045,
+     4.989,
+     4.929,
+     4.894,
+     4.952,
+     4.894,
+     4.837,
+     4.859,
+     4.864,
+     4.983,
+     4.998,
+     5.103,
+     5.154,
+     5.121,
+     5.103,
+     5.066,
+     5.052,
+     4.912,
+     4.918,
+     4.904,
+     4.848
+    ]
+   }
+  ],
+  "movers": {
+   "sp500": {
+    "gainers": [
+     {
+      "ticker": "HPQ",
+      "name": "HP Inc.",
+      "price": 31.15,
+      "d1": 11.4889047959914,
+      "shariah": false
+     },
+     {
+      "ticker": "CHTR",
+      "name": "Charter Communications",
+      "price": 147.27,
+      "d1": 8.390373150805921,
+      "shariah": false
+     },
+     {
+      "ticker": "AXON",
+      "name": "Axon Enterprise",
+      "price": 343.05,
+      "d1": 7.431416760616316,
+      "shariah": false
+     },
+     {
+      "ticker": "CDW",
+      "name": "CDW Corporation",
+      "price": 174.97,
+      "d1": 6.585038986354777,
+      "shariah": false
+     },
+     {
+      "ticker": "ADI",
+      "name": "Analog Devices",
+      "price": 333.11,
+      "d1": 6.441923629972847,
+      "shariah": true
+     }
+    ],
+    "losers": [
+     {
+      "ticker": "LRCX",
+      "name": "Lam Research",
+      "price": 185.01,
+      "d1": -5.684135399673738,
+      "shariah": true
+     },
+     {
+      "ticker": "ORCL",
+      "name": "Oracle Corporation",
+      "price": 103.88,
+      "d1": -5.132420091324205,
+      "shariah": true
+     },
+     {
+      "ticker": "MU",
+      "name": "Micron Technology",
+      "price": 601.25,
+      "d1": -4.531669286587587,
+      "shariah": true
+     },
+     {
+      "ticker": "DDOG",
+      "name": "Datadog",
+      "price": 158.25,
+      "d1": -4.311283105575036,
+      "shariah": false
+     },
+     {
+      "ticker": "J",
+      "name": "Jacobs Solutions",
+      "price": 145.49,
+      "d1": -4.270298723516239,
+      "shariah": false
+     }
+    ],
+    "coverage": 502
+   },
+   "ftse100": {
+    "gainers": [
+     {
+      "ticker": "EXPN",
+      "name": "Experian",
+      "price": 2949,
+      "d1": 4.611564384533522
+     },
+     {
+      "ticker": "CPG",
+      "name": "Compass Group",
+      "price": 35.23,
+      "d1": 4.199940845903562
+     },
+     {
+      "ticker": "REL",
+      "name": "RELX",
+      "price": 3023,
+      "d1": 3.068530514831231
+     },
+     {
+      "ticker": "AZN",
+      "name": "AstraZeneca",
+      "price": 13932,
+      "d1": 2.895125553914328
+     },
+     {
+      "ticker": "GSK",
+      "name": "GSK plc",
+      "price": 1900.5,
+      "d1": 2.5357431885621797
+     }
+    ],
+    "losers": [
+     {
+      "ticker": "ANTO",
+      "name": "Antofagasta plc",
+      "price": 2546,
+      "d1": -8.05344889851932
+     },
+     {
+      "ticker": "AAL",
+      "name": "Anglo American plc",
+      "price": 3141,
+      "d1": -5.732292917166867
+     },
+     {
+      "ticker": "PCT",
+      "name": "Polar Capital Technology Trust",
+      "price": 528,
+      "d1": -5.376344086021505
+     },
+     {
+      "ticker": "FRES",
+      "name": "Fresnillo plc",
+      "price": 2146,
+      "d1": -4.875886524822695
+     },
+     {
+      "ticker": "WEIR",
+      "name": "Weir",
+      "price": 2100,
+      "d1": -4.805077062556664
+     }
+    ],
+    "coverage": 100
+   },
+   "shariahListAvailable": true
+  },
+  "stories": [
+   {
+    "category": "markets",
+    "headline": "Wealthy Europeans look beyond stocks amid AI selloff. Here’s where they’re investing",
+    "summary": "Goldman Sachs Alternatives' inaugural survey of high-net-worth investors found they're increasingly looking to alternatives amid turbulent markets.",
+    "sources": [
+     {
+      "source": "CNBC",
+      "title": "Wealthy Europeans look beyond stocks amid AI selloff. Here’s where they’re investing",
+      "link": "https://www.cnbc.com/2026/11/26/wealthy-europeans-alternative-investments-ai.html"
+     }
+    ]
+   },
+   {
+    "category": "markets",
+    "headline": "Is the stock market open for Thanksgiving? The answer might surprise you.",
+    "summary": "The answer to the question of whether the stock market is open on Thanksgiving isn’t a simple yes or no, as the major exchanges are closed, but trading of equity futures is open for part of the day.",
+    "sources": [
+     {
+      "source": "MarketWatch",
+      "title": "Is the stock market open for Thanksgiving? The answer might surprise you.",
+      "link": "https://www.marketwatch.com/story/is-the-stock-market-open-for-thanksgiving-the-answer-might-surprise-you-e68114d4?mod=mw_rss_topstories"
+     }
+    ]
+   },
+   {
+    "category": "markets",
+    "headline": "Asian stocks stabilise after tech rout",
+    "summary": "",
+    "sources": [
+     {
+      "source": "Yahoo Finance UK",
+      "title": "Asian stocks stabilise after tech rout",
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPOVRDelFreUJXVHZiaFNwRkVjOGpFUUZJRXExZDU5ejVGN1plZVl0MHlnYVNUZUtaeXBnNFYzRkVMU0lpWWJYR0JwQzBYNUFKUFdLV1JHWkNWWXRfNFVCRzRrYXY5UVF4NUdZMGpDMFNuU3hJYjlVdnFBN0dyVGUtWVRrVzFYaDQyTVE?oc=5"
+     }
+    ]
+   }
+  ],
+  "calendar": []
+ },
+ "world": {
+  "us": [
+   {
+    "category": "notable",
+    "headline": "FCC says SpaceX can deploy 1 million satellites for data centers in space. Scientists are skeptical",
+    "summary": "The Trump administration gave Elon Musk's SpaceX the green light to deploy 1 million satellites that it said would create data centers in space, a move that has raised skepticism among scientists.",
+    "sources": [
+     {
+      "source": "NPR",
+      "title": "FCC says SpaceX can deploy 1 million satellites for data centers in space. Scientists are skeptical",
+      "link": "https://www.npr.org/2026/11/26/g-s1-155940/fcc-spacex-satellites-data-centers-in-space"
+     }
+    ]
+   },
+   {
+    "category": "notable",
+    "headline": "Andy Taylor, guitarist of new wave icons Duran Duran, dies at 65",
+    "summary": "Taylor revealed his battle with Stage 4 metastatic prostate cancer in 2022. He was the guitarist of the 1980s English band Duran Duran, whose pop hits included \"Hungry Like the Wolf\" and \"Rio\".",
+    "sources": [
+     {
+      "source": "NPR",
+      "title": "Andy Taylor, guitarist of new wave icons Duran Duran, dies at 65",
+      "link": "https://www.npr.org/2026/11/26/g-s1-155934/andy-taylor-duran-duran-obit"
+     }
+    ]
+   },
+   {
+    "category": "notable",
+    "headline": "Steelers cut Aaron Rodgers after the QB rips coach Mike McCarthy on TV",
+    "summary": "The move capped a chaotic 18 hours in which the team announced it was benching the 42-year-old future Hall of Famer for backup Mason Rudolph ahead of Friday's visit from Denver.",
+    "sources": [
+     {
+      "source": "NPR",
+      "title": "Steelers cut Aaron Rodgers after the QB rips coach Mike McCarthy on TV",
+      "link": "https://www.npr.org/2026/11/26/nx-s1-6054760/steelers-cut-aaron-rodgers"
+     }
+    ]
+   }
+  ],
+  "uk": [
+   {
+    "category": "notable",
+    "headline": "Government set to double spending on social media unit to £25m",
+    "summary": "The budget of the New Media Unit, which uses ads and content creators to reach the public, has increased.",
+    "sources": [
+     {
+      "source": "BBC",
+      "title": "Government set to double spending on social media unit to £25m",
+      "link": "https://www.bbc.co.uk/news/articles/c62l5j02lj0go?at_medium=RSS&at_campaign=rss"
+     }
+    ]
+   },
+   {
+    "category": "notable",
+    "headline": "Duran Duran guitarist Andy Taylor dies aged 65",
+    "summary": "The musician, who co-wrote some of the band's biggest hits, had been treated for prostate cancer.",
+    "sources": [
+     {
+      "source": "BBC",
+      "title": "Duran Duran guitarist Andy Taylor dies aged 65",
+      "link": "https://www.bbc.co.uk/news/articles/cmp3vk6vr44po?at_medium=RSS&at_campaign=rss"
+     }
+    ]
+   },
+   {
+    "category": "notable",
+    "headline": "Child homelessness increases chance of being NEET, study says",
+    "summary": "Young people born around the time of the millennium who were homeless as a child are twice as likely as their peers to be a NEET, research suggests.",
+    "sources": [
+     {
+      "source": "Sky News",
+      "title": "Child homelessness increases chance of being NEET, study says",
+      "link": "https://news.sky.com/story/child-homelessness-increases-chance-of-being-neet-study-says-13616399"
+     }
+    ]
+   }
+  ],
+  "europe": [
+   {
+    "category": "notable",
+    "headline": "Europe’s €2 trillion punch-up: Welcome to the Brussels fight club",
+    "summary": "Good morning. Leo Cendrowicz here with your Thursday newsletter. We have almighty punch-up on our agenda today, as EU leaders gather in Brussels to brawl over their seven-year budget – a slugfest that almost certainly wo",
+    "sources": [
+     {
+      "source": "Euronews",
+      "title": "Europe’s €2 trillion punch-up: Welcome to the Brussels fight club",
+      "link": "https://www.euronews.com/2026/11/26/europes-2-trillion-punch-up-welcome-to-the-brussels-fight-club"
+     }
+    ]
+   },
+   {
+    "category": "notable",
+    "headline": "Gaudí's dying wish: New documents reveal Spanish architect's final gift to Sagrada Família",
+    "summary": "The inventory of Antoni Gaudí's estate reveals that the legendary Spanish architect wished to devote all his assets, including his Parc Güell house and his savings, to financing the works of the iconic Sagrada Família.",
+    "sources": [
+     {
+      "source": "Euronews",
+      "title": "Gaudí's dying wish: New documents reveal Spanish architect's final gift to Sagrada Família",
+      "link": "https://www.euronews.com/2026/11/26/gaudis-dying-wish-new-documents-reveal-spanish-architects-final-gift-to-sagrada-familia"
+     }
+    ]
+   },
+   {
+    "category": "notable",
+    "headline": "King tides and powerful waves destroy pier and flood homes in California",
+    "summary": "King tides and powerful waves destroy part of Pacifica's pier and flood coastal homes in California, US, prompting warnings from authorities.",
+    "sources": [
+     {
+      "source": "Euronews",
+      "title": "King tides and powerful waves destroy pier and flood homes in California",
+      "link": "https://www.euronews.com/video/2026/11/26/king-tides-and-powerful-waves-destroy-pier-and-flood-homes-in-california"
+     }
+    ]
+   }
+  ],
+  "middle_east": [
+   {
+    "category": "notable",
+    "headline": "F1 drivers face highest tyre pressure orders yet in Qatar",
+    "summary": "",
+    "sources": [
+     {
+      "source": "The Race",
+      "title": "F1 drivers face highest tyre pressure orders yet in Qatar",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQdUlkeHA1VGUxMmpmU2FPY2tIbUlJQXVlTFFuelhpWHVvX2JMWmN2akpNOWdHcnpzcXhOTm5Zajlfc05jcTVUUGhIMkUxbXduR3laUzFBZ1ozT3N1MnRLaU1xU2NJeUdIeEk4RXZZNHJkSy1xVVpMSDlRY0tGa2xUa2l3UW13Y0pCak1RTld4R0RDcWZJd3RJVA?oc=5"
+     }
+    ]
+   },
+   {
+    "category": "notable",
+    "headline": "Chinese Companies Help UAE's Green Transition",
+    "summary": "",
+    "sources": [
+     {
+      "source": "中国科技网",
+      "title": "Chinese Companies Help UAE's Green Transition",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE8xNjlxTU1aSEc1aW84MDNlZXZ1TXEzUWNYWl9vSzRpVlYwVG1LQmJhQWstOTFkU2ZMZXhmY2k4eUplS0pNR0dVN05RdDdpbmYtM2NYT24wWGVQRVRFWHdKWlpRMG4wTmViMGcwUkdwYjJPNHVS?oc=5"
+     }
+    ]
+   },
+   {
+    "category": "notable",
+    "headline": "Dubai awards Dh56.5bn in new contracts for Al Maktoum airport",
+    "summary": "",
+    "sources": [
+     {
+      "source": "The National",
+      "title": "Dubai awards Dh56.5bn in new contracts for Al Maktoum airport",
+      "link": "https://www.thenationalnews.com/business/aviation/2026/11/26/dubai-awards-dh565bn-in-new-contracts-for-al-maktoum-airport/"
+     }
+    ]
+   }
+  ]
+ },
+ "energyTech": {
+  "energy": [
+   {
+    "category": "energy",
+    "headline": "Offshore wind supports blackout recovery test",
+    "summary": "",
+    "sources": [
+     {
+      "source": "Transformer Magazine",
+      "title": "Offshore wind supports blackout recovery test",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPRjhLLUpDV2FDNzl6YjBqRkVWUVhodHJuOHQzQWh1SVV0OElXcVdqQVJXd1Z1MkhjWF9aUGJHNG5STXhLLWJUMTh4TWxnY0xSNF9icU13ZThpeUdBdEtyY0M4eU5lMU0tdTRuVHpLdTdxdmpKa0pqM2xDZkVyamt6OFN4WElqRHMwTldjVQ?oc=5"
+     }
+    ]
+   },
+   {
+    "category": "energy",
+    "headline": "Enbridge Eyes $1 Billion Pipeline Deal With Indigenous Communities",
+    "summary": "Canada’s Enbridge is reportedly in talks with a group of Indigenous communities for the sale of a stake in its Line 3 pipeline network, according to the Globe and Mail, which cited unnamed sources. The sale could fetch o",
+    "sources": [
+     {
+      "source": "OilPrice",
+      "title": "Enbridge Eyes $1 Billion Pipeline Deal With Indigenous Communities",
+      "link": "https://oilprice.com/Latest-Energy-News/World-News/Enbridge-Eyes-1-Billion-Pipeline-Deal-With-Indigenous-Communities.html"
+     }
+    ]
+   },
+   {
+    "category": "energy",
+    "headline": "Government Reviews Dukovany Nuclear Project Ahead of Czech Visit",
+    "summary": "",
+    "sources": [
+     {
+      "source": "Businesskorea",
+      "title": "Government Reviews Dukovany Nuclear Project Ahead of Czech Visit",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9lYzhOUmpCRnBUVU40czBrZ3VxMHlVY1VSeWRJSENhNFpyNkF4a1pJbGk2RHhpajJ6RG8zRFExNzRaVFJjTDE5QW0tbTM5RGFGMWdobXVDVzhubmJLczcxdjBDWWlaZXVWMWFRMEJSZEZ5Slp0?oc=5"
+     }
+    ]
+   }
+  ],
+  "ai": [
+   {
+    "category": "ai",
+    "headline": "Widespread Use, Minimal Training: Generative Artificial Intelligence Among Undergraduate and Postgraduate Medical Students",
+    "summary": "",
+    "sources": [
+     {
+      "source": "Cureus",
+      "title": "Widespread Use, Minimal Training: Generative Artificial Intelligence Among Undergraduate and Postgraduate Medical Students",
+      "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPa181eVU3OHBLZXUyOXhwOGlWQlJYUlFWTjctemIwS2NVeEJ4dFE1d2lYSnhPbWVDeUp1MWJ0MjB5TjdtQTVCQ0RCcnhBUFkzaTlsV204U0NvYUNtVEtGSzJXdXJUOXlvcm9qVElBUVA2YWNrODl4VTNmX0hMSFRmaXB1VTVFeGVtLS13THJLclV2ZnVUa1JRWWpPbHpxVGc2akN2US1BTU5QbzZ4ZDU0elFVMWpsWUtuX00ybXhXVUJuTWxUY2hhM2NEWkpLeTY2WUoxbWVXZzh6V245RHF3cmhnLTQtSXJ6NDNWc254dDQ?oc=5"
+     }
+    ]
+   },
+   {
+    "category": "ai",
+    "headline": "Cisco and OpenAI open-source Shirudo, an agentic shield that blocks exploit paths in minutes while patches are tested",
+    "summary": "",
+    "sources": [
+     {
+      "source": "Dealroom",
+      "title": "Cisco and OpenAI open-source Shirudo, an agentic shield that blocks exploit paths in minutes while patches are tested",
+      "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPcWtIUlpaNFBGeTU3aTFuazMxRGxXLWZzMnNrd0g0bEJLVWRNRHFYSW9Ia19JVnZlNjFueGVUTHNUaDViQXhHU2FVZ2NvT1dQU3RCOFpGejBxemphV2NkNk82d2pyeTFORG9SNWhEc0czLXNXTkxlNk51cjBTWnp3ZG44TXlNN3lXV3Z6OHkxSmR4QVFqQTJndUV2cUV2MU5SNUZYZHEycXU1Qjc2QjRzZ1ZvZUxvalNrWnJSNDhLZkNVUjYzOW8zUmU3bE9pazVQYWhHZHY5dFhlS3g3VUlJVEI4bTc?oc=5"
+     }
+    ]
+   },
+   {
+    "category": "ai",
+    "headline": "Anthropic IPO raises stakes for China-US AI competition",
+    "summary": "",
+    "sources": [
+     {
+      "source": "Law.asia",
+      "title": "Anthropic IPO raises stakes for China-US AI competition",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9zeUhsWXhqbTVDdTFGZjIwWG5ORVVNa3AySlRUdzk0VnJIamJiT0ZYUXFXNFp4dkpseS0wd0Q2am9IYkVkQ25OZUtZSU1CTGFkVjA3Y1RsSmtHVmV0Z0pETEUza2pOS3VuSlo3VENKZkM?oc=5"
+     }
+    ]
+   }
+  ],
+  "tech": [
+   {
+    "category": "tech",
+    "headline": "Now Google’s Familiar Faces AI feature works on Walmart’s $35 smart home camera too",
+    "summary": "A couple of Walmart's budget-friendly smart home cameras will be able to recognize people around your house now using Google's familiar face detection feature. A new Google Home update brings Familiar Faces support to th",
+    "sources": [
+     {
+      "source": "The Verge",
+      "title": "Now Google’s Familiar Faces AI feature works on Walmart’s $35 smart home camera too",
+      "link": "https://www.theverge.com/tech/1042938/google-home-familiar-faces-onn-cameras"
+     }
+    ]
+   },
+   {
+    "category": "tech",
+    "headline": "Amazon loses its latest attempt to get out of handling more recall notices",
+    "summary": "Amazon is on the hook to recall more than 400,000 hazardous products after losing its legal battle against the US Consumer Product Safety Commission (CPSC). The US District Court for the District of Maryland ruled in fav",
+    "sources": [
+     {
+      "source": "The Verge",
+      "title": "Amazon loses its latest attempt to get out of handling more recall notices",
+      "link": "https://www.theverge.com/tech/1042870/amazon-recall-order-cpsc"
+     }
+    ]
+   },
+   {
+    "category": "tech",
+    "headline": "European spacecraft finds chaotic scene after asteroid deflection experiment",
+    "summary": "\"DART made a really, really large mess. However, we didn’t really know what kind of mess.\"",
+    "sources": [
+     {
+      "source": "Ars Technica",
+      "title": "European spacecraft finds chaotic scene after asteroid deflection experiment",
+      "link": "https://arstechnica.com/space/2026/11/europes-hera-mission-returns-to-the-chaotic-scene-of-a-cosmic-smashup/"
+     }
+    ]
+   }
+  ]
+ },
+ "stats": {
+  "headlines": 352,
+  "feeds": 45,
+  "feedsFailed": 7
+ }
+}
