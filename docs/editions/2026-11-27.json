@@ -1,0 +1,1008 @@
+{
+ "date": "2026-11-27",
+ "dateLabel": "Friday, 27 November 2026",
+ "generatedAt": "2026-11-27T07:16:43.698Z",
+ "mode": "fallback",
+ "model": null,
+ "error": "400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011ChT2J5E1VQ5kHzSWoRaAV\"}",
+ "headlineOfDay": "",
+ "markets": {
+  "summary": "",
+  "indices": [
+   {
+    "symbol": "^GSPC",
+    "label": "S&P 500",
+    "price": 7182.77978515625,
+    "asOf": "2026-11-25",
+    "d1": -0.2542678815435381,
+    "w1": -1.9232279608613865,
+    "m1": -6.9901368149806355,
+    "ytd": 4.927029218555986,
+    "spark": [
+     7722.6001,
+     7743.98,
+     7720.3901,
+     7580.0698,
+     7541.3999,
+     7568.9199,
+     7688.6201,
+     7353.73,
+     7376.8599,
+     7549.9399,
+     7520.9302,
+     7619.3799,
+     7592.3999,
+     7561.6699,
+     7416.5898,
+     7340.5298,
+     7323.6299,
+     7175.8301,
+     6910.3901,
+     7237.1699,
+     7201.0898,
+     7182.7798
+    ]
+   },
+   {
+    "symbol": "SPUS",
+    "label": "S&P 500 Shariah",
+    "sub": "via SPUS ETF",
+    "price": 53.790000915527344,
+    "asOf": "2026-11-25",
+    "d1": -0.7014902460081942,
+    "w1": -2.6777628550361907,
+    "m1": -10.155333430479514,
+    "ytd": 5.3260255276226065,
+    "spark": [
+     59.87,
+     60.11,
+     59.77,
+     58.42,
+     57.61,
+     57.95,
+     58.66,
+     55.41,
+     55.72,
+     57.19,
+     56.69,
+     57.74,
+     57.6,
+     57.04,
+     55.78,
+     55.32,
+     55.27,
+     54.11,
+     51.62,
+     54.78,
+     54.17,
+     53.79
+    ]
+   },
+   {
+    "symbol": "^IXIC",
+    "label": "Nasdaq",
+    "price": 23585.80078125,
+    "asOf": "2026-11-25",
+    "d1": -0.6224873621289493,
+    "w1": -3.4551133629498776,
+    "m1": -10.922390129293847,
+    "ytd": 1.4792646559437186,
+    "spark": [
+     26477.8105,
+     26549.8496,
+     26184.7207,
+     25437,
+     25164.3105,
+     25372.0098,
+     25736.5098,
+     24315,
+     24579.4297,
+     25253.1406,
+     25065.8691,
+     25466.1895,
+     25366.0898,
+     25136.2695,
+     24509.7598,
+     24328.3809,
+     24429.8809,
+     23879.1992,
+     22617.7305,
+     24089.5605,
+     23733.5391,
+     23585.8008
+    ]
+   },
+   {
+    "symbol": "^DJI",
+    "label": "Dow Jones",
+    "price": 50182.94921875,
+    "asOf": "2026-11-25",
+    "d1": 0.3283771920610628,
+    "w1": -0.03032512077911204,
+    "m1": -4.1900017138180425,
+    "ytd": 4.410143786651097,
+    "spark": [
+     52377.5703,
+     52475.1016,
+     52342.5586,
+     51770.3086,
+     51983.9805,
+     51786.7188,
+     53356.1211,
+     51523.0586,
+     51285.7305,
+     52389.75,
+     52231.8906,
+     52486.4883,
+     52297.0898,
+     52347.5508,
+     51608.1719,
+     50759.4219,
+     50198.1719,
+     49097.0586,
+     48147.3281,
+     49595.3086,
+     50018.6992,
+     50182.9492
+    ]
+   },
+   {
+    "symbol": "^FTSE",
+    "label": "FTSE 100",
+    "price": 10609.2998046875,
+    "asOf": "2026-11-26",
+    "d1": 1.7493157815768372,
+    "w1": 1.4981737393102206,
+    "m1": -0.7966730124129227,
+    "ytd": 6.825818992278476,
+    "spark": [
+     10694.5,
+     10722.0996,
+     10729.7998,
+     10761.2998,
+     10638.4004,
+     10829.2002,
+     10782.7002,
+     10673.9004,
+     10782.9004,
+     10751.5996,
+     10835.5,
+     10863.0996,
+     10902.5996,
+     10881.5996,
+     10689.9004,
+     10551.2002,
+     10452.7002,
+     10346.2998,
+     10480.7998,
+     10467.0996,
+     10426.9004,
+     10609.2998
+    ]
+   },
+   {
+    "symbol": "^STOXX50E",
+    "label": "Euro Stoxx 50",
+    "price": 6014.740234375,
+    "asOf": "2026-11-26",
+    "d1": 2.0405647715752693,
+    "w1": -1.62122834220563,
+    "m1": -2.481753211668286,
+    "ytd": 3.7700434322980723,
+    "spark": [
+     6167.8101,
+     6207.0698,
+     6131.3101,
+     6176.0601,
+     6144.5601,
+     6265.71,
+     6231.54,
+     6170.4902,
+     6290.4502,
+     6327.8701,
+     6393.3901,
+     6398.98,
+     6386.8599,
+     6348.3501,
+     6212.1099,
+     6154.3901,
+     6113.8599,
+     5941.9502,
+     6074.4702,
+     6003.7598,
+     5894.46,
+     6014.7402
+    ]
+   },
+   {
+    "symbol": "^TASI.SR",
+    "label": "Tadawul (Saudi)",
+    "price": 9923.65,
+    "asOf": "2026-11-26",
+    "d1": 0.09753903074244727,
+    "w1": null,
+    "m1": null,
+    "ytd": null,
+    "spark": []
+   }
+  ],
+  "commodities": [
+   {
+    "symbol": "GC=F",
+    "label": "Gold",
+    "unit": "$/oz",
+    "price": 3691.699951171875,
+    "asOf": "2026-11-27",
+    "d1": 4.4091832171171585,
+    "w1": 0.168225510022385,
+    "m1": -8.882913856492607,
+    "ytd": -14.9593451400714,
+    "spark": [
+     4051.6001,
+     4031.3999,
+     3898.8999,
+     3969.6001,
+     3940.3999,
+     4073,
+     4113.5,
+     4074.8999,
+     4114.5,
+     4030.2,
+     4000.5,
+     3885.3,
+     3886.3,
+     3853,
+     3864.2,
+     3741.8999,
+     3685.5,
+     3515.3999,
+     3651.3999,
+     3561.8999,
+     3535.8,
+     3691.7
+    ]
+   },
+   {
+    "symbol": "SI=F",
+    "label": "Silver",
+    "unit": "$/oz",
+    "price": 44.60499954223633,
+    "asOf": "2026-11-27",
+    "d1": 11.367725994774364,
+    "w1": 0.6475895655060064,
+    "m1": -16.55910557813389,
+    "ytd": -36.40032247663448,
+    "spark": [
+     53.457,
+     52.191,
+     49.097,
+     50.72,
+     49.587,
+     52.12,
+     52.233,
+     51.803,
+     52.564,
+     51.101,
+     51.881,
+     49.972,
+     49.031,
+     46.785,
+     47.288,
+     44.999,
+     44.318,
+     41.035,
+     43.147,
+     40.76,
+     40.052,
+     44.605
+    ]
+   },
+   {
+    "symbol": "BZ=F",
+    "label": "Brent crude",
+    "unit": "$/bbl",
+    "price": 92.7699966430664,
+    "asOf": "2026-11-27",
+    "d1": -1.9448303090739396,
+    "w1": 0.8588750351173602,
+    "m1": -19.554286430309364,
+    "ytd": 52.45685944021934,
+    "spark": [
+     115.32,
+     114.88,
+     117.64,
+     104.77,
+     103.6,
+     94.62,
+     98.29,
+     98.32,
+     92.57,
+     91.49,
+     92.76,
+     95.82,
+     95.84,
+     92.44,
+     93.14,
+     91.95,
+     91.98,
+     92.57,
+     89.37,
+     91.4,
+     94.61,
+     92.77
+    ]
+   },
+   {
+    "symbol": "CL=F",
+    "label": "WTI crude",
+    "unit": "$/bbl",
+    "price": 86.38999938964844,
+    "asOf": "2026-11-27",
+    "d1": 3.238526618773252,
+    "w1": 3.82165645975735,
+    "m1": -15.946681829451334,
+    "ytd": 50.45280763587883,
+    "spark": [
+     102.78,
+     102,
+     104.12,
+     96.46,
+     96.09,
+     88.12,
+     90.52,
+     90.83,
+     86.85,
+     86.04,
+     86.53,
+     88.74,
+     88.56,
+     85.72,
+     86.01,
+     83.26,
+     83.21,
+     83.98,
+     80.17,
+     82.05,
+     83.68,
+     86.39
+    ]
+   },
+   {
+    "symbol": "HG=F",
+    "label": "Copper",
+    "unit": "$/lb",
+    "price": 5.705999851226807,
+    "asOf": "2026-11-27",
+    "d1": 7.004217002086101,
+    "w1": 1.4399973551432292,
+    "m1": -14.08567560785699,
+    "ytd": 1.3499064874075186,
+    "spark": [
+     6.6415,
+     6.581,
+     6.4585,
+     6.5435,
+     6.3785,
+     6.403,
+     6.249,
+     6.218,
+     6.3285,
+     6.2195,
+     6.2745,
+     6.1825,
+     6.0795,
+     5.9975,
+     5.976,
+     5.6595,
+     5.625,
+     5.477,
+     5.627,
+     5.3625,
+     5.3325,
+     5.706
+    ]
+   },
+   {
+    "symbol": "NG=F",
+    "label": "US natural gas",
+    "unit": "$/MMBtu",
+    "price": 3.5869998931884766,
+    "asOf": "2026-11-27",
+    "d1": 9.727740427884397,
+    "w1": 9.761322420649034,
+    "m1": 27.334043482742874,
+    "ytd": -2.6858440751594173,
+    "spark": [
+     2.817,
+     2.952,
+     2.898,
+     2.856,
+     2.895,
+     2.959,
+     2.947,
+     2.998,
+     3.218,
+     3.296,
+     3.215,
+     3.34,
+     3.23,
+     3.122,
+     3.208,
+     3.372,
+     3.268,
+     3.411,
+     3.184,
+     3.323,
+     3.269,
+     3.587
+    ]
+   }
+  ],
+  "rates_fx": [
+   {
+    "symbol": "GBPUSD=X",
+    "label": "GBP/USD",
+    "price": 1.3125598430633545,
+    "asOf": "2026-11-27",
+    "d1": 0.09581809471082299,
+    "w1": 0.2992612841052833,
+    "m1": -1.5186391038769038,
+    "ytd": -2.5365261752038397,
+    "spark": [
+     1.3328,
+     1.3379,
+     1.3386,
+     1.341,
+     1.3434,
+     1.3477,
+     1.3456,
+     1.336,
+     1.3442,
+     1.3349,
+     1.3277,
+     1.3231,
+     1.3216,
+     1.3185,
+     1.3205,
+     1.3147,
+     1.3086,
+     1.3095,
+     1.3035,
+     1.3112,
+     1.3113,
+     1.3126
+    ]
+   },
+   {
+    "symbol": "EURUSD=X",
+    "label": "EUR/USD",
+    "price": 1.0982975959777832,
+    "asOf": "2026-11-27",
+    "d1": 0.11751315475767449,
+    "w1": 0.12080976119397471,
+    "m1": -1.548603627998309,
+    "ytd": -6.50631909199832,
+    "spark": [
+     1.1156,
+     1.1183,
+     1.1157,
+     1.1192,
+     1.1207,
+     1.1235,
+     1.1228,
+     1.1147,
+     1.1222,
+     1.1169,
+     1.1095,
+     1.105,
+     1.1025,
+     1.0998,
+     1.0993,
+     1.0972,
+     1.097,
+     1.0972,
+     1.0908,
+     1.0962,
+     1.097,
+     1.0983
+    ]
+   },
+   {
+    "symbol": "^TNX",
+    "label": "US 10Y yield",
+    "unit": "%",
+    "price": 4.8480000495910645,
+    "asOf": "2026-11-25",
+    "d1": -1.1419200261210316,
+    "w1": -4.303196522044259,
+    "m1": -2.9040652922143657,
+    "ytd": 16.454478145670485,
+    "spark": [
+     4.993,
+     5.045,
+     4.989,
+     4.929,
+     4.894,
+     4.952,
+     4.894,
+     4.837,
+     4.859,
+     4.864,
+     4.983,
+     4.998,
+     5.103,
+     5.154,
+     5.121,
+     5.103,
+     5.066,
+     5.052,
+     4.912,
+     4.918,
+     4.904,
+     4.848
+    ]
+   }
+  ],
+  "movers": {
+   "sp500": {
+    "gainers": [
+     {
+      "ticker": "HPQ",
+      "name": "HP Inc.",
+      "price": 31.15,
+      "d1": 11.4889047959914,
+      "shariah": false
+     },
+     {
+      "ticker": "CHTR",
+      "name": "Charter Communications",
+      "price": 147.27,
+      "d1": 8.390373150805921,
+      "shariah": false
+     },
+     {
+      "ticker": "AXON",
+      "name": "Axon Enterprise",
+      "price": 343.05,
+      "d1": 7.431416760616316,
+      "shariah": false
+     },
+     {
+      "ticker": "CDW",
+      "name": "CDW Corporation",
+      "price": 174.97,
+      "d1": 6.585038986354777,
+      "shariah": false
+     },
+     {
+      "ticker": "ADI",
+      "name": "Analog Devices",
+      "price": 333.11,
+      "d1": 6.441923629972847,
+      "shariah": true
+     }
+    ],
+    "losers": [
+     {
+      "ticker": "LRCX",
+      "name": "Lam Research",
+      "price": 185.01,
+      "d1": -5.684135399673738,
+      "shariah": true
+     },
+     {
+      "ticker": "ORCL",
+      "name": "Oracle Corporation",
+      "price": 103.88,
+      "d1": -5.132420091324205,
+      "shariah": true
+     },
+     {
+      "ticker": "MU",
+      "name": "Micron Technology",
+      "price": 601.25,
+      "d1": -4.531669286587587,
+      "shariah": true
+     },
+     {
+      "ticker": "DDOG",
+      "name": "Datadog",
+      "price": 158.25,
+      "d1": -4.311283105575036,
+      "shariah": false
+     },
+     {
+      "ticker": "J",
+      "name": "Jacobs Solutions",
+      "price": 145.49,
+      "d1": -4.270298723516239,
+      "shariah": false
+     }
+    ],
+    "coverage": 502
+   },
+   "ftse100": {
+    "gainers": [
+     {
+      "ticker": "IMB",
+      "name": "Imperial Brands",
+      "price": 3030,
+      "d1": 6.092436974789916
+     },
+     {
+      "ticker": "III",
+      "name": "3i",
+      "price": 2718,
+      "d1": 2.5660377358490565
+     },
+     {
+      "ticker": "BATS",
+      "name": "British American Tobacco",
+      "price": 4556,
+      "d1": 2.3130473837862113
+     },
+     {
+      "ticker": "ULVR",
+      "name": "Unilever",
+      "price": 5067,
+      "d1": 2.2397094430992737
+     },
+     {
+      "ticker": "HLN",
+      "name": "Haleon",
+      "price": 356.9,
+      "d1": 1.7678927858568547
+     }
+    ],
+    "losers": [
+     {
+      "ticker": "CCC",
+      "name": "Computacenter",
+      "price": 4190,
+      "d1": -8.194566170026294
+     },
+     {
+      "ticker": "PCT",
+      "name": "Polar Capital Technology Trust",
+      "price": 502,
+      "d1": -4.924242424242424
+     },
+     {
+      "ticker": "STAN",
+      "name": "Standard Chartered",
+      "price": 1860.5,
+      "d1": -4.736303123399897
+     },
+     {
+      "ticker": "BGEO",
+      "name": "Lion Finance Group",
+      "price": 11530,
+      "d1": -4.235880398671096
+     },
+     {
+      "ticker": "RR",
+      "name": "Rolls-Royce Holdings",
+      "price": 1251.2,
+      "d1": -3.9312039312039344
+     }
+    ],
+    "coverage": 100
+   },
+   "shariahListAvailable": true
+  },
+  "stories": [
+   {
+    "category": "markets",
+    "headline": "Tech German software major SAP is reportedly weighing cutting at least 10,000 jobs in AI push",
+    "summary": "SAP is weighing cuts of at least 10,000 jobs as it reshapes its software business around AI, Bloomberg reported.",
+    "sources": [
+     {
+      "source": "CNBC",
+      "title": "Tech German software major SAP is reportedly weighing cutting at least 10,000 jobs in AI push",
+      "link": "https://www.cnbc.com/2026/11/27/sap-job-cuts-ai-restructuring.html"
+     }
+    ]
+   },
+   {
+    "category": "markets",
+    "headline": "SpaceX shares jump on alternative trading platform after Musk says he will expand on Trump Account share donations",
+    "summary": "SpaceX shares jumped in overnight trading on Blue Ocean ATS after Elon Musk said on X that he would donate shares to American children every year.",
+    "sources": [
+     {
+      "source": "CNBC",
+      "title": "SpaceX shares jump on alternative trading platform after Musk says he will expand on Trump Account share donations",
+      "link": "https://www.cnbc.com/2026/11/27/spacex-shares-musk-donations.html"
+     }
+    ]
+   },
+   {
+    "category": "markets",
+    "headline": "FTSE 100 Set to Rise as Asian Stocks Surge and Semiconductor Shares Rally",
+    "summary": "",
+    "sources": [
+     {
+      "source": "Share Talk",
+      "title": "FTSE 100 Set to Rise as Asian Stocks Surge and Semiconductor Shares Rally",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNTzlPSXNES050VHhNMmZxQm9mLTNnbGlCSm5jeDlQNm84UXBlTEpTTjE4OWlDSjlTaGMwRVZEVWVuVk1oSjJ1bjNoZms1cDkybHg3Zm8yaFA2eDZrbS1pYW1zR0Z1VElnc19PQllqVjd4V1FyTXFPUEZMd0lzNlVTandQNGtWU3pNVTVRQy1pZmZmdG5YUmk3TFk5SHhxaVVXOXdR?oc=5"
+     }
+    ]
+   }
+  ],
+  "calendar": []
+ },
+ "world": {
+  "us": [
+   {
+    "category": "notable",
+    "headline": "Spain’s Pablo Hernández de Cos set to lead European Central Bank",
+    "summary": "De Cos will lead the ECB into a period of political uncertainty and choppy growth, after winning the backing needed to succeed Christine Lagarde next year.",
+    "sources": [
+     {
+      "source": "CNBC Economy",
+      "title": "Spain’s Pablo Hernández de Cos set to lead European Central Bank",
+      "link": "https://www.cnbc.com/2026/11/26/pablo-hernandez-de-cos-ecb-president.html"
+     }
+    ]
+   },
+   {
+    "category": "notable",
+    "headline": "Strobe Talbott, former Time magazine reporter and deputy secretary of state, has died",
+    "summary": "Strobe Talbott, a former Time magazine reporter who later served as deputy secretary of state under President Bill Clinton and then headed the Brookings Institution, died Thursday. He was 80.",
+    "sources": [
+     {
+      "source": "NPR",
+      "title": "Strobe Talbott, former Time magazine reporter and deputy secretary of state, has died",
+      "link": "https://www.npr.org/2026/11/27/g-s1-155990/strobe-talbott-obit"
+     }
+    ]
+   },
+   {
+    "category": "notable",
+    "headline": "China’s factories are growing profits again, but the AI boom is picking the winners",
+    "summary": "China's economy has been running at two speeds, with AI-related manufacturing and exports powering growth while consumption, real estate investment lag.",
+    "sources": [
+     {
+      "source": "CNBC Economy",
+      "title": "China’s factories are growing profits again, but the AI boom is picking the winners",
+      "link": "https://www.cnbc.com/2026/11/27/china-industrial-profits-october.html"
+     }
+    ]
+   }
+  ],
+  "uk": [
+   {
+    "category": "notable",
+    "headline": "Victorian railway station left untouched for 70 years goes on sale with suitcase still inside",
+    "summary": "The station houses numerous railway artefacts, including old signal lamps and suitcases",
+    "sources": [
+     {
+      "source": "BBC",
+      "title": "Victorian railway station left untouched for 70 years goes on sale with suitcase still inside",
+      "link": "https://www.bbc.co.uk/news/articles/c6n8353n4d4mo?at_medium=RSS&at_campaign=rss"
+     }
+    ]
+   },
+   {
+    "category": "notable",
+    "headline": "Chris Mason: Immigration stats are down but will that be the end of the issue?",
+    "summary": "Net migration falling to the tens of thousands is a landmark moment in our collective national conversation about immigration, says Chris Mason.",
+    "sources": [
+     {
+      "source": "BBC",
+      "title": "Chris Mason: Immigration stats are down but will that be the end of the issue?",
+      "link": "https://www.bbc.co.uk/news/articles/cmvg23ql63ypo?at_medium=RSS&at_campaign=rss"
+     }
+    ]
+   },
+   {
+    "category": "notable",
+    "headline": "NHS warns of 'horrible spike in flu' as hospital cases surge",
+    "summary": "The NHS is warning of a \"horrible spike in flu\" after a surge in hospital cases.",
+    "sources": [
+     {
+      "source": "Sky News",
+      "title": "NHS warns of 'horrible spike in flu' as hospital cases surge",
+      "link": "https://news.sky.com/story/nhs-warns-of-horrible-spike-in-flu-as-hospital-cases-surge-13617056"
+     }
+    ]
+   }
+  ],
+  "europe": [
+   {
+    "category": "notable",
+    "headline": "Half of new HIV diagnoses in Greece are made late, early data shows",
+    "summary": "The number of new HIV diagnoses has fallen over the past year, but late diagnoses remain a challenge in Greece.",
+    "sources": [
+     {
+      "source": "Euronews",
+      "title": "Half of new HIV diagnoses in Greece are made late, early data shows",
+      "link": "https://www.euronews.com/2026/11/27/half-of-new-hiv-diagnoses-in-greece-are-made-late-early-data-shows"
+     }
+    ]
+   },
+   {
+    "category": "notable",
+    "headline": "Europe Today: EU leaders unable to find an agreement on EU's budget",
+    "summary": "The European Union’s 27 leaders met in Brussels yesterday with the aim of trying to find common ground on finalising the bloc’s budget. But red lines seemed to have deepened between the budget’s main opposing camps, we d",
+    "sources": [
+     {
+      "source": "Euronews",
+      "title": "Europe Today: EU leaders unable to find an agreement on EU's budget",
+      "link": "https://www.euronews.com/2026/11/27/europe-today-eu-leaders-unable-to-find-an-agreement-on-eus-budget"
+     }
+    ]
+   },
+   {
+    "category": "notable",
+    "headline": "Clashes erupt at Besiktas Europa League match against Israeli club",
+    "summary": "Besiktas supporters clashed with police in Batumi during a Europa League match against Israeli club Hapoel Beer-Sheva, with fans chanting and officers pursuing supporters outside the stadium.",
+    "sources": [
+     {
+      "source": "Euronews",
+      "title": "Clashes erupt at Besiktas Europa League match against Israeli club",
+      "link": "https://www.euronews.com/video/2026/11/27/clashes-erupt-at-besiktas-europa-league-match-against-israeli-club"
+     }
+    ]
+   }
+  ],
+  "middle_east": [
+   {
+    "category": "notable",
+    "headline": "UAE unveils parental guide to AI to champion responsible use of technology",
+    "summary": "",
+    "sources": [
+     {
+      "source": "The National",
+      "title": "UAE unveils parental guide to AI to champion responsible use of technology",
+      "link": "https://www.thenationalnews.com/news/uae/2026/11/27/uae-unveils-parental-guide-to-ai-to-champion-responsible-use-of-technology/"
+     }
+    ]
+   },
+   {
+    "category": "notable",
+    "headline": "F1 takes unprecedented action ahead of Qatar Grand Prix",
+    "summary": "",
+    "sources": [
+     {
+      "source": "PlanetF1",
+      "title": "F1 takes unprecedented action ahead of Qatar Grand Prix",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9VWFZfZFdXMTgzZ1lvOVdFRXI5VzVpRVlCYnpHdFNxZk5UZGVMRGRmV3BHN2FRX2J2UUo4ZUNpSjJWM3N5M1lXeG9FNnBkcW1FX2cxSXZQa3BOUjNSZUF0SkxpY2hqZDZ2VzZoQ0tnaVVqYWFoMGRaaQ?oc=5"
+     }
+    ]
+   },
+   {
+    "category": "notable",
+    "headline": "Aramco among Saudi-listed firms expecting limited impact from new top-up tax",
+    "summary": "",
+    "sources": [
+     {
+      "source": "アラブニュース",
+      "title": "Aramco among Saudi-listed firms expecting limited impact from new top-up tax",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOTDU4MkZqZTJJVzI3YUl2dU9lcFdZUVU5X25keDkwYzZ3TmRhRVo0dDlobmNzTU95a0ZCQ1IzZXFNWEVCeGhNTmFNemo0LWtmS005a0ZaZlBfRVVidFlpT01POTQ2VjZwcV90d1AtMUdsdXI1UzZDa2I1ci1UY0MyX05DRnktTWNZajZTbFZJZG95VHZXTkQ3SEdkRFNtWHRnR0t2ODZqRXdxU2QyeVAwZDdCU0VnVTVTbERTTA?oc=5"
+     }
+    ]
+   }
+  ]
+ },
+ "energyTech": {
+  "energy": [
+   {
+    "category": "energy",
+    "headline": "Oil Prices Climb as Middle East Supply Risks Overshadow Glut Fears",
+    "summary": "Crude oil prices were set to book a weekly gain after a string of losses, as increasingly frequent reports about tanker attacks in the Strait of Hormuz undermined expectations of a glut. Data showing lower than pre-war l",
+    "sources": [
+     {
+      "source": "OilPrice",
+      "title": "Oil Prices Climb as Middle East Supply Risks Overshadow Glut Fears",
+      "link": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Climb-as-Middle-East-Supply-Risks-Overshadow-Glut-Fears.html"
+     }
+    ]
+   },
+   {
+    "category": "energy",
+    "headline": "Zenobē names National Grid’s Ben Wilson Chief Executive",
+    "summary": "",
+    "sources": [
+     {
+      "source": "Automotive World",
+      "title": "Zenobē names National Grid’s Ben Wilson Chief Executive",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOa05nVGNmNEljeUdTSURlY2lHMllPZk9YczZndTlOLUZBaWVFQU9nck9mV0VodEtmSjhrNHYzeXBBOUZNc3VIWFVEYl9URFB3TnotTGZTVUJoNjN3TFdySlF4Mzlrb0lxRlBmYnVQSENNYTlEZld5NHJUcWtTS0RQanBOUGdDVzhEQXJWMml5WXVUSy1FaE1F?oc=5"
+     }
+    ]
+   },
+   {
+    "category": "energy",
+    "headline": "Nuclear plants to stay open longer as new builds hit by delays and rising costs",
+    "summary": "",
+    "sources": [
+     {
+      "source": "Financial Times",
+      "title": "Nuclear plants to stay open longer as new builds hit by delays and rising costs",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPUzlOZXhUWXpBZU4zVS1GdU05YWM0N1d0N3RtSzNqLXZOSGphdm94QnBHUnpaNzZ1UU1LSDltT3RKNnU2a0JGMEdvUmZjNTM0cEpWZ3BoU0FiVXppYzNHNFhVeVFWeXloYThWR0ZjME4xOTBZMlE2NzctdjZERllVLWhPRmw?oc=5"
+     }
+    ]
+   }
+  ],
+  "ai": [
+   {
+    "category": "ai",
+    "headline": "Groupement Mousquetaires Taps Anthropic And AWS For AI Roll-Out",
+    "summary": "",
+    "sources": [
+     {
+      "source": "ESM Magazine",
+      "title": "Groupement Mousquetaires Taps Anthropic And AWS For AI Roll-Out",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNVHJQSzFhWEhSTHVxaUh3UWFpMVNSWGVXSWxrVzZabEZzTWNfMU5fdXAyZUo5b2VvcjR0c0N0enoyNEIyVjZ6YndIZmJ2SEpvMkJpMHNvOENCaTh6M2FTUjhGZVdCd3VhalFPa2JzN25GdXR1T0UwSzBFZVE1cFBDd3FlemtycVRUdHNsYkdtQzE3TmtYOHc5SW5ReFlWa3kzc3hEUDNxbl9vVXZFcHc?oc=5"
+     }
+    ]
+   },
+   {
+    "category": "ai",
+    "headline": "Workers hoard AI knowledge to stay competitive, Anthropic report says",
+    "summary": "",
+    "sources": [
+     {
+      "source": "Fast Company Middle East",
+      "title": "Workers hoard AI knowledge to stay competitive, Anthropic report says",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPUTRpYks1T1hwaWo1SWRhVnpTdnJtNkFXdWQycmR1ZHVnZGZpMnV0d2hteTFORHhQOEtWS3MtMnZVZWNsN0l3NHJ0UUtHNUtxeGRscHVjX0NvenBCSFVXNmZPaVpVZ2ltUWpzTjZPbHRhVjJuYnBQcVdsbWZFUnViWlBUVW5wR1U4dzhrUFN2ZkkwUm4xTjdhRVR5YXgxWjhORUt6VzllZkE?oc=5"
+     }
+    ]
+   },
+   {
+    "category": "ai",
+    "headline": "Anthropic IPO details: Price, valuation, stock ticker, more",
+    "summary": "",
+    "sources": [
+     {
+      "source": "Mashable",
+      "title": "Anthropic IPO details: Price, valuation, stock ticker, more",
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPckx2b2tGYjRHR01ZSjFVN1dzNlFsTHlST1Fidjh2V1ZsVzFwWGl1R3pZUl9Zc2JKOTFvTjA4OGNaQ3VXNFNNZ0JKNXJIWHM4Zk5wcHJQckpzQWtmTVEtUWxjclZ1S0tUSGhJTmZVQkN1ZVRGWGRuVmxLbUpjd1A3RXl3?oc=5"
+     }
+    ]
+   }
+  ],
+  "tech": [
+   {
+    "category": "tech",
+    "headline": "Netflix’s coziest show has made a very quiet return",
+    "summary": "The bigger Netflix gets, the easier it is to miss stuff. This is true of all digital platforms, of course, but it's especially true of Netflix of late, as the streaming service's lineup now also includes a growing librar",
+    "sources": [
+     {
+      "source": "The Verge",
+      "title": "Netflix’s coziest show has made a very quiet return",
+      "link": "https://www.theverge.com/entertainment/1043489/midnight-diner-season3"
+     }
+    ]
+   },
+   {
+    "category": "tech",
+    "headline": "Is Alice Huang a spy or not?",
+    "summary": "The central, still-unproven claim in the Nvidia scandal is that Alice Huang, the former Megaspeed exec with whom Nvidia CEO Jensen Huang had an extramarital affair, is a Chinese spy.",
+    "sources": [
+     {
+      "source": "TechCrunch",
+      "title": "Is Alice Huang a spy or not?",
+      "link": "https://techcrunch.com/2026/11/26/is-alice-huang-a-spy-or-not/"
+     }
+    ]
+   },
+   {
+    "category": "tech",
+    "headline": "X finally gets parental controls after 20 years",
+    "summary": "Elon Musk's social network X has finally added parental controls for teenagers, giving parents and guardians a way to manage what their kids see on the platform.",
+    "sources": [
+     {
+      "source": "TechCrunch",
+      "title": "X finally gets parental controls after 20 years",
+      "link": "https://techcrunch.com/2026/11/26/x-finally-gets-parental-controls-after-20-years/"
+     }
+    ]
+   }
+  ]
+ },
+ "stats": {
+  "headlines": 331,
+  "feeds": 45,
+  "feedsFailed": 7
+ }
+}
