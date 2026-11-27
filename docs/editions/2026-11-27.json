@@ -1,0 +1,1240 @@
+{
+  "date": "2026-11-27",
+  "dateLabel": "Friday, 27 November 2026",
+  "generatedAt": "2026-11-27T07:18:33.705Z",
+  "mode": "ai",
+  "model": "claude-opus-5-5 (via Claude Code)",
+  "error": null,
+  "headlineOfDay": "Trump readies a fresh tariff salvo against 14 trading partners, as a drone strike in Kuwait kills two Italian workers.",
+  "markets": {
+    "summary": "Wall Street was shut on Thursday for Thanksgiving, after a soft Wednesday in which the S&P 500 slipped 0.25% and the Nasdaq 0.62%. Europe rallied as global technology and mining shares recovered, with the FTSE 100 up 1.75% and the Euro Stoxx 50 up 2.04%, while Asian markets also rose after the earlier tech rout. Even so, tech stocks remain on course for their worst month in four years.",
+    "indices": [
+      {
+        "symbol": "^GSPC",
+        "label": "S&P 500",
+        "price": 7182.77978515625,
+        "asOf": "2026-11-25",
+        "d1": -0.2542678815435381,
+        "w1": -1.9232279608613865,
+        "m1": -6.9901368149806355,
+        "ytd": 4.927029218555986,
+        "spark": [
+          7722.6001,
+          7743.98,
+          7720.3901,
+          7580.0698,
+          7541.3999,
+          7568.9199,
+          7688.6201,
+          7353.73,
+          7376.8599,
+          7549.9399,
+          7520.9302,
+          7619.3799,
+          7592.3999,
+          7561.6699,
+          7416.5898,
+          7340.5298,
+          7323.6299,
+          7175.8301,
+          6910.3901,
+          7237.1699,
+          7201.0898,
+          7182.7798
+        ]
+      },
+      {
+        "symbol": "SPUS",
+        "label": "S&P 500 Shariah",
+        "sub": "via SPUS ETF",
+        "price": 53.790000915527344,
+        "asOf": "2026-11-25",
+        "d1": -0.7014902460081942,
+        "w1": -2.6777628550361907,
+        "m1": -10.155333430479514,
+        "ytd": 5.3260255276226065,
+        "spark": [
+          59.87,
+          60.11,
+          59.77,
+          58.42,
+          57.61,
+          57.95,
+          58.66,
+          55.41,
+          55.72,
+          57.19,
+          56.69,
+          57.74,
+          57.6,
+          57.04,
+          55.78,
+          55.32,
+          55.27,
+          54.11,
+          51.62,
+          54.78,
+          54.17,
+          53.79
+        ]
+      },
+      {
+        "symbol": "^IXIC",
+        "label": "Nasdaq",
+        "price": 23585.80078125,
+        "asOf": "2026-11-25",
+        "d1": -0.6224873621289493,
+        "w1": -3.4551133629498776,
+        "m1": -10.922390129293847,
+        "ytd": 1.4792646559437186,
+        "spark": [
+          26477.8105,
+          26549.8496,
+          26184.7207,
+          25437,
+          25164.3105,
+          25372.0098,
+          25736.5098,
+          24315,
+          24579.4297,
+          25253.1406,
+          25065.8691,
+          25466.1895,
+          25366.0898,
+          25136.2695,
+          24509.7598,
+          24328.3809,
+          24429.8809,
+          23879.1992,
+          22617.7305,
+          24089.5605,
+          23733.5391,
+          23585.8008
+        ]
+      },
+      {
+        "symbol": "^DJI",
+        "label": "Dow Jones",
+        "price": 50182.94921875,
+        "asOf": "2026-11-25",
+        "d1": 0.3283771920610628,
+        "w1": -0.03032512077911204,
+        "m1": -4.1900017138180425,
+        "ytd": 4.410143786651097,
+        "spark": [
+          52377.5703,
+          52475.1016,
+          52342.5586,
+          51770.3086,
+          51983.9805,
+          51786.7188,
+          53356.1211,
+          51523.0586,
+          51285.7305,
+          52389.75,
+          52231.8906,
+          52486.4883,
+          52297.0898,
+          52347.5508,
+          51608.1719,
+          50759.4219,
+          50198.1719,
+          49097.0586,
+          48147.3281,
+          49595.3086,
+          50018.6992,
+          50182.9492
+        ]
+      },
+      {
+        "symbol": "^FTSE",
+        "label": "FTSE 100",
+        "price": 10609.2998046875,
+        "asOf": "2026-11-26",
+        "d1": 1.7493157815768372,
+        "w1": 1.4981737393102206,
+        "m1": -0.7966730124129227,
+        "ytd": 6.825818992278476,
+        "spark": [
+          10694.5,
+          10722.0996,
+          10729.7998,
+          10761.2998,
+          10638.4004,
+          10829.2002,
+          10782.7002,
+          10673.9004,
+          10782.9004,
+          10751.5996,
+          10835.5,
+          10863.0996,
+          10902.5996,
+          10881.5996,
+          10689.9004,
+          10551.2002,
+          10452.7002,
+          10346.2998,
+          10480.7998,
+          10467.0996,
+          10426.9004,
+          10609.2998
+        ],
+        "note": "Rose as global technology and mining stocks recovered"
+      },
+      {
+        "symbol": "^STOXX50E",
+        "label": "Euro Stoxx 50",
+        "price": 6014.740234375,
+        "asOf": "2026-11-26",
+        "d1": 2.0405647715752693,
+        "w1": -1.62122834220563,
+        "m1": -2.481753211668286,
+        "ytd": 3.7700434322980723,
+        "spark": [
+          6167.8101,
+          6207.0698,
+          6131.3101,
+          6176.0601,
+          6144.5601,
+          6265.71,
+          6231.54,
+          6170.4902,
+          6290.4502,
+          6327.8701,
+          6393.3901,
+          6398.98,
+          6386.8599,
+          6348.3501,
+          6212.1099,
+          6154.3901,
+          6113.8599,
+          5941.9502,
+          6074.4702,
+          6003.7598,
+          5894.46,
+          6014.7402
+        ]
+      },
+      {
+        "symbol": "^TASI.SR",
+        "label": "Tadawul (Saudi)",
+        "price": 9923.65,
+        "asOf": "2026-11-26",
+        "d1": 0.09753903074244727,
+        "w1": null,
+        "m1": null,
+        "ytd": null,
+        "spark": []
+      }
+    ],
+    "commodities": [
+      {
+        "symbol": "GC=F",
+        "label": "Gold",
+        "unit": "$/oz",
+        "price": 3687.699951171875,
+        "asOf": "2026-11-27",
+        "d1": 4.296054648058913,
+        "w1": 0.059692068155609825,
+        "m1": -8.98164028317805,
+        "ytd": -15.051487682514953,
+        "spark": [
+          4051.6001,
+          4031.3999,
+          3898.8999,
+          3969.6001,
+          3940.3999,
+          4073,
+          4113.5,
+          4074.8999,
+          4114.5,
+          4030.2,
+          4000.5,
+          3885.3,
+          3886.3,
+          3853,
+          3864.2,
+          3741.8999,
+          3685.5,
+          3515.3999,
+          3651.3999,
+          3561.8999,
+          3535.8,
+          3687.7
+        ]
+      },
+      {
+        "symbol": "SI=F",
+        "label": "Silver",
+        "unit": "$/oz",
+        "price": 44.57500076293945,
+        "asOf": "2026-11-27",
+        "d1": 11.292826412503354,
+        "w1": 0.579899735730779,
+        "m1": -16.61522316588827,
+        "ytd": -36.44309599325719,
+        "spark": [
+          53.457,
+          52.191,
+          49.097,
+          50.72,
+          49.587,
+          52.12,
+          52.233,
+          51.803,
+          52.564,
+          51.101,
+          51.881,
+          49.972,
+          49.031,
+          46.785,
+          47.288,
+          44.999,
+          44.318,
+          41.035,
+          43.147,
+          40.76,
+          40.052,
+          44.575
+        ]
+      },
+      {
+        "symbol": "BZ=F",
+        "label": "Brent crude",
+        "unit": "$/bbl",
+        "price": 92.68000030517578,
+        "asOf": "2026-11-27",
+        "d1": -2.0399538026898756,
+        "w1": 0.7610316619861491,
+        "m1": -19.632326959383928,
+        "ytd": 52.30896077111928,
+        "spark": [
+          115.32,
+          114.88,
+          117.64,
+          104.77,
+          103.6,
+          94.62,
+          98.29,
+          98.32,
+          92.57,
+          91.49,
+          92.76,
+          95.82,
+          95.84,
+          92.44,
+          93.14,
+          91.95,
+          91.98,
+          92.57,
+          89.37,
+          91.4,
+          94.61,
+          92.68
+        ]
+      },
+      {
+        "symbol": "CL=F",
+        "label": "WTI crude",
+        "unit": "$/bbl",
+        "price": 86.37000274658203,
+        "asOf": "2026-11-27",
+        "d1": 3.2146300568785584,
+        "w1": 3.797624921136485,
+        "m1": -15.966137602270855,
+        "ytd": 50.417982411733796,
+        "spark": [
+          102.78,
+          102,
+          104.12,
+          96.46,
+          96.09,
+          88.12,
+          90.52,
+          90.83,
+          86.85,
+          86.04,
+          86.53,
+          88.74,
+          88.56,
+          85.72,
+          86.01,
+          83.26,
+          83.21,
+          83.98,
+          80.17,
+          82.05,
+          83.68,
+          86.37
+        ]
+      },
+      {
+        "symbol": "HG=F",
+        "label": "Copper",
+        "unit": "$/lb",
+        "price": 5.702499866485596,
+        "asOf": "2026-11-27",
+        "d1": 6.938582032489668,
+        "w1": 1.377775404188368,
+        "m1": -14.13837431663093,
+        "ytd": 1.2877397969978062,
+        "spark": [
+          6.6415,
+          6.581,
+          6.4585,
+          6.5435,
+          6.3785,
+          6.403,
+          6.249,
+          6.218,
+          6.3285,
+          6.2195,
+          6.2745,
+          6.1825,
+          6.0795,
+          5.9975,
+          5.976,
+          5.6595,
+          5.625,
+          5.477,
+          5.627,
+          5.3625,
+          5.3325,
+          5.7025
+        ],
+        "note": "Bounced from Wednesday's lows as risk sentiment firmed and AI stocks rebounded"
+      },
+      {
+        "symbol": "NG=F",
+        "label": "US natural gas",
+        "unit": "$/MMBtu",
+        "price": 3.5829999446868896,
+        "asOf": "2026-11-27",
+        "d1": 9.605380426775815,
+        "w1": 9.63892497146528,
+        "m1": 27.19205027627611,
+        "ytd": -2.7943613943023395,
+        "spark": [
+          2.817,
+          2.952,
+          2.898,
+          2.856,
+          2.895,
+          2.959,
+          2.947,
+          2.998,
+          3.218,
+          3.296,
+          3.215,
+          3.34,
+          3.23,
+          3.122,
+          3.208,
+          3.372,
+          3.268,
+          3.411,
+          3.184,
+          3.323,
+          3.269,
+          3.583
+        ]
+      }
+    ],
+    "rates_fx": [
+      {
+        "symbol": "GBPUSD=X",
+        "label": "GBP/USD",
+        "price": 1.3124909400939941,
+        "asOf": "2026-11-27",
+        "d1": 0.0905635540331327,
+        "w1": 0.29399606365560427,
+        "m1": -1.5238088934512628,
+        "ytd": -2.541642530687511,
+        "spark": [
+          1.3328,
+          1.3379,
+          1.3386,
+          1.341,
+          1.3434,
+          1.3477,
+          1.3456,
+          1.336,
+          1.3442,
+          1.3349,
+          1.3277,
+          1.3231,
+          1.3216,
+          1.3185,
+          1.3205,
+          1.3147,
+          1.3086,
+          1.3095,
+          1.3035,
+          1.3112,
+          1.3113,
+          1.3125
+        ]
+      },
+      {
+        "symbol": "EURUSD=X",
+        "label": "EUR/USD",
+        "price": 1.0981770753860474,
+        "asOf": "2026-11-27",
+        "d1": 0.10652685926479405,
+        "w1": 0.10982310395127358,
+        "m1": -1.5594070938270854,
+        "ytd": -6.516578527863298,
+        "spark": [
+          1.1156,
+          1.1183,
+          1.1157,
+          1.1192,
+          1.1207,
+          1.1235,
+          1.1228,
+          1.1147,
+          1.1222,
+          1.1169,
+          1.1095,
+          1.105,
+          1.1025,
+          1.0998,
+          1.0993,
+          1.0972,
+          1.097,
+          1.0972,
+          1.0908,
+          1.0962,
+          1.097,
+          1.0982
+        ]
+      },
+      {
+        "symbol": "^TNX",
+        "label": "US 10Y yield",
+        "unit": "%",
+        "price": 4.8480000495910645,
+        "asOf": "2026-11-25",
+        "d1": -1.1419200261210316,
+        "w1": -4.303196522044259,
+        "m1": -2.9040652922143657,
+        "ytd": 16.454478145670485,
+        "spark": [
+          4.993,
+          5.045,
+          4.989,
+          4.929,
+          4.894,
+          4.952,
+          4.894,
+          4.837,
+          4.859,
+          4.864,
+          4.983,
+          4.998,
+          5.103,
+          5.154,
+          5.121,
+          5.103,
+          5.066,
+          5.052,
+          4.912,
+          4.918,
+          4.904,
+          4.848
+        ]
+      }
+    ],
+    "movers": {
+      "sp500": {
+        "gainers": [
+          {
+            "ticker": "HPQ",
+            "name": "HP Inc.",
+            "price": 31.15,
+            "d1": 11.4889047959914,
+            "shariah": false
+          },
+          {
+            "ticker": "CHTR",
+            "name": "Charter Communications",
+            "price": 147.27,
+            "d1": 8.390373150805921,
+            "shariah": false
+          },
+          {
+            "ticker": "AXON",
+            "name": "Axon Enterprise",
+            "price": 343.05,
+            "d1": 7.431416760616316,
+            "shariah": false
+          },
+          {
+            "ticker": "CDW",
+            "name": "CDW Corporation",
+            "price": 174.97,
+            "d1": 6.585038986354777,
+            "shariah": false
+          },
+          {
+            "ticker": "ADI",
+            "name": "Analog Devices",
+            "price": 333.11,
+            "d1": 6.441923629972847,
+            "shariah": true
+          }
+        ],
+        "losers": [
+          {
+            "ticker": "LRCX",
+            "name": "Lam Research",
+            "price": 185.01,
+            "d1": -5.684135399673738,
+            "shariah": true
+          },
+          {
+            "ticker": "SNDK",
+            "name": "Sandisk",
+            "price": 73.61,
+            "d1": -5.567671584348946,
+            "shariah": true
+          },
+          {
+            "ticker": "ORCL",
+            "name": "Oracle Corporation",
+            "price": 103.88,
+            "d1": -5.132420091324205,
+            "shariah": true
+          },
+          {
+            "ticker": "MU",
+            "name": "Micron Technology",
+            "price": 601.25,
+            "d1": -4.531669286587587,
+            "shariah": true
+          },
+          {
+            "ticker": "DDOG",
+            "name": "Datadog",
+            "price": 158.25,
+            "d1": -4.311283105575036,
+            "shariah": false
+          }
+        ],
+        "coverage": 503
+      },
+      "ftse100": {
+        "gainers": [
+          {
+            "ticker": "IMB",
+            "name": "Imperial Brands",
+            "price": 3030,
+            "d1": 6.092436974789916
+          },
+          {
+            "ticker": "III",
+            "name": "3i",
+            "price": 2718,
+            "d1": 2.5660377358490565
+          },
+          {
+            "ticker": "BATS",
+            "name": "British American Tobacco",
+            "price": 4556,
+            "d1": 2.3130473837862113
+          },
+          {
+            "ticker": "ULVR",
+            "name": "Unilever",
+            "price": 5067,
+            "d1": 2.2397094430992737
+          },
+          {
+            "ticker": "HLN",
+            "name": "Haleon",
+            "price": 356.9,
+            "d1": 1.7678927858568547
+          }
+        ],
+        "losers": [
+          {
+            "ticker": "CCC",
+            "name": "Computacenter",
+            "price": 4190,
+            "d1": -8.194566170026294
+          },
+          {
+            "ticker": "PCT",
+            "name": "Polar Capital Technology Trust",
+            "price": 502,
+            "d1": -4.924242424242424
+          },
+          {
+            "ticker": "STAN",
+            "name": "Standard Chartered",
+            "price": 1860.5,
+            "d1": -4.736303123399897
+          },
+          {
+            "ticker": "BGEO",
+            "name": "Lion Finance Group",
+            "price": 11530,
+            "d1": -4.235880398671096
+          },
+          {
+            "ticker": "RR",
+            "name": "Rolls-Royce Holdings",
+            "price": 1251.2,
+            "d1": -3.9312039312039344
+          }
+        ],
+        "coverage": 100
+      },
+      "shariahListAvailable": true
+    },
+    "stories": [
+      {
+        "category": "markets",
+        "headline": "Tech and miners bounce back, but November still ugly for tech",
+        "summary": "Technology stocks regained ground at the end of a volatile week, lifting markets in Asia and Europe, while Chinese shares jumped more than 4% after Beijing signalled more support. The rebound does not undo the damage: tech is set for its worst month in four years as markets struggle to price future AI earnings.",
+        "sources": [
+          {
+            "source": "Financial Times",
+            "title": "Tech stocks regain ground at end of volatile trading week",
+            "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNcWowSjlHYjJuRTFKeTM5LUJnVmRqMEtXVktHOFNUQjZrUXFwWVNWTEt1d0FSdHZObTEyWHA2d01pUklZMm5vNGplZUZyc25aTDREVGphS1dQck9Cb19lUVAwUkFxbjRPWEJKT1hXRUVCODBJSlBCY0p4emh1T29KMUVBS08?oc=5"
+          },
+          {
+            "source": "Yahoo Finance UK",
+            "title": "MARKETS LIVE: London set for further gains as global technology and mining stocks recover",
+            "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPQ0wtM3l4LVJGVkFfc29KTjJyV20wUWxuRHhibUtzbXpZY3hHZHpLUnJRV2VXRjJDN0JKUFN5dXp6RGhVVmszRHNnRzJuMGRwQ3F0N3pQdDRfd08tY3ZhQnB3ZjZmdWd3aGJFcWlwb2p5ZTZYYVMyekxPMmlXallXYnRNRE9rbVk?oc=5"
+          },
+          {
+            "source": "Share Talk",
+            "title": "FTSE 100 Set to Rise as Asian Stocks Surge and Semiconductor Shares Rally",
+            "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNTzlPSXNES050VHhNMmZxQm9mLTNnbGlCSm5jeDlQNm84UXBlTEpTTjE4OWlDSjlTaGMwRVZEVWVuVk1oSjJ1bjNoZms1cDkybHg3Zm8yaFA2eDZrbS1pYW1zR0Z1VElnc19PQllqVjd4V1FyTXFPUEZMd0lzNlVTandQNGtWU3pNVTVRQy1pZmZmdG5YUmk3TFk5SHhxaVVXOXdR?oc=5"
+          },
+          {
+            "source": "City AM",
+            "title": "FTSE 100 Live: UK stocks to hold gains as volatile markets cool",
+            "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOMXlMN2hIWkttVTEtUThBdUZ5aVN3bURzdVhVTERPOExVOXNBbVpyejNZV1dJbEd0Rk94bHNTVFluM3ZpazNDRThkeGgzLVEwOTVIZzBPc1ZZVUtNUXVqMjF2cGMxX3FWV21LRnh5TDRzcjdnVEliSy15aUNGNmlQd1h2MlZyeWZ6c2tfblgwZw?oc=5"
+          },
+          {
+            "source": "Al Jazeera",
+            "title": "Asian stock markets rise after earlier tech rout",
+            "link": "https://www.aljazeera.com/economy/2026/11/27/asian-stock-markets-rise-after-earlier-tech-rout?traffic_source=rss"
+          },
+          {
+            "source": "FT",
+            "title": "Tech stocks set for worst month in four years as volatility surges",
+            "link": "https://www.ft.com/content/b80e6259-dca8-4da3-962d-402106a3cd81?syn-25a6b1a6=1"
+          },
+          {
+            "source": "Reuters",
+            "title": "VIEW China markets surge as Beijing unleashes national team",
+            "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQSHpmejM1NzdYLTVadGZMS3JuU3pyb1dpZTlIWHNkLTdCWm0td3ZCU1pnSmExd3FES3o4MFFrRG52WUI5TlYtRjlMOEktdm05ZV9qbUZ1MGY0bXlvbXVTeFFOYkZfd2NnRGRUczJselg3S192Qng0NW5JMDNXM2xvVXNvTFJxQ1FhckxzbDFfRWtvLWRDNVFlSnE4b0NxZENsc0FaSXVVMnN0cmc?oc=5"
+          },
+          {
+            "source": "BBC Business",
+            "title": "Asia made a big AI bet on Nvidia. What happens now?",
+            "link": "https://www.bbc.co.uk/news/articles/cqevr4lnd1nxo?at_medium=RSS&at_campaign=rss"
+          }
+        ]
+      },
+      {
+        "category": "economy",
+        "headline": "Trump demands probe into big upward GDP revision",
+        "summary": "President Trump called the sharp upward revision to third-quarter GDP a 'record setting error' that should be investigated immediately. It is an unusual attack on official statistics at a time when the Fed faces a difficult balance between inflation, AI and its guidance.",
+        "sources": [
+          {
+            "source": "CNBC",
+            "title": "Trump demands probe into ‘record setting error’ after third-quarter GDP data gets massive revision higher",
+            "link": "https://www.cnbc.com/2026/11/26/trump-gdp-revision-investigation.html"
+          },
+          {
+            "source": "FT",
+            "title": "Is the Fed ready for its next fight?",
+            "link": "https://www.ft.com/content/71ffa69f-2a07-44e4-8305-ae5548b89828?syn-25a6b1a6=1"
+          }
+        ]
+      },
+      {
+        "category": "companies",
+        "headline": "Poundland collapses, putting 11,000 jobs at risk",
+        "summary": "The discount chain has fallen into administration after its owners failed to find a buyer. Management and MPs blame US owner Gordon Brothers, which says the chain would have collapsed last year without it.",
+        "sources": [
+          {
+            "source": "BBC Business",
+            "title": "Poundland collapses putting 11,000 jobs at risk",
+            "link": "https://www.bbc.co.uk/news/articles/cm3vgdn037z4o?at_medium=RSS&at_campaign=rss"
+          }
+        ]
+      }
+    ],
+    "calendar": [
+      {
+        "when": "Today",
+        "event": "Black Friday: Amazon staff stage strikes and protests worldwide"
+      }
+    ]
+  },
+  "world": {
+    "us": [
+      {
+        "category": "political",
+        "headline": "Judge rules FCC violated ABC's free-speech rights",
+        "summary": "A federal judge blocked the FCC from an early review of ABC's local broadcast licences, ruling that it violated the network's free-speech rights to please Trump. The stations at stake air in six of the largest US markets.",
+        "sources": [
+          {
+            "source": "NPR Politics",
+            "title": "U.S. Judge rules FCC violated ABC's free speech rights to please Trump",
+            "link": "https://www.npr.org/2026/11/26/nx-s1-6000576/fcc-disney-abc-first-amendment-trump-brendan-carr"
+          },
+          {
+            "source": "The Verge",
+            "title": "Federal judge blocks the FCC from reviewing ABC’s licenses early",
+            "link": "https://www.theverge.com/policy/1043116/fcc-disney-abc-broadcast-licenses-review-early-judge-block"
+          },
+          {
+            "source": "NPR",
+            "title": "Storms disrupt Thanksgiving travel. And, FCC violated ABC's free speech, judge says",
+            "link": "https://www.npr.org/2026/11/26/g-s1-155950/up-first-newsletter-thanksgiving-weather-travel-trump-tariffs-iowa-detonation-fcc-free-speech"
+          }
+        ]
+      },
+      {
+        "category": "financial",
+        "headline": "New US tariffs proposed on 14 trading partners",
+        "summary": "The administration plans fresh levies on many of America's biggest partners, including China and the EU, with lower rates for countries that sign trade deals; proposed rates include 20% on China and Vietnam. Democrats are pushing back, and analysts argue the threat is smaller than before because countries have already rerouted trade.",
+        "sources": [
+          {
+            "source": "BBC",
+            "title": "US announces new tariffs on host of countries including China",
+            "link": "https://www.bbc.co.uk/news/articles/c893r9ke5p97o?at_medium=RSS&at_campaign=rss"
+          },
+          {
+            "source": "NPR Politics",
+            "title": "Trump administration proposes new tariffs on goods from major U.S. trading partners",
+            "link": "https://www.npr.org/2026/11/26/nx-s1-6054103/trump-administration-proposes-new-tariffs-on-goods-from-major-u-s-trading-partners"
+          },
+          {
+            "source": "CNBC Economy",
+            "title": "U.S. tariff-hike threats pile pressure on partners to sign trade deals",
+            "link": "https://www.cnbc.com/2026/11/26/us-tariffs-hike-trade-agreement.html"
+          },
+          {
+            "source": "CNBC",
+            "title": "How Trump’s latest tariff moves hand India an edge over rival Asian exporters",
+            "link": "https://www.cnbc.com/2026/11/26/trump-us-tariff-india-trade.html"
+          },
+          {
+            "source": "BBC Business",
+            "title": "Faisal Islam: Why Trump's new tariffs are less of a threat",
+            "link": "https://www.bbc.co.uk/news/articles/c6r7g4e3yep1o?at_medium=RSS&at_campaign=rss"
+          }
+        ]
+      },
+      {
+        "category": "notable",
+        "headline": "Thanksgiving storms cut power to nearly a million",
+        "summary": "Storms on both US coasts brought high winds, heavy rain and flooding, leaving almost one million customers without power and delaying flights. Macy's Thanksgiving parade was postponed for the first time, with about 81.5 million people expected to travel.",
+        "sources": [
+          {
+            "source": "BBC",
+            "title": "Major Thanksgiving storm brings flooding, flight delays across US",
+            "link": "https://www.bbc.co.uk/news/articles/ckm2mz3prq77o?at_medium=RSS&at_campaign=rss"
+          },
+          {
+            "source": "NPR",
+            "title": "Powerful storms disrupt holiday travel, as Macy's Thanksgiving Day Parade is postponed",
+            "link": "https://www.npr.org/2026/11/26/nx-s1-6054079/storms-expected-on-both-coasts-as-millions-travel-for-thanksgiving"
+          },
+          {
+            "source": "Al Jazeera",
+            "title": "Thanksgiving storms leave nearly a million without power across the US",
+            "link": "https://www.aljazeera.com/news/2026/11/27/thanksgiving-storms-leave-nearly-a-million-without-power-across-the-us?traffic_source=rss"
+          },
+          {
+            "source": "National Grid Group",
+            "title": "National Grid Prepared for Thanksgiving Storm Expected to Impact Massachusetts",
+            "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPSmRDelFaaTc2cXdZT2Z4bjhvSjg1U3E2emRGRXZ5MFlrNlJITGFJWDZkNnNEUWZsQ0NNTHRaZFA2S1g2ZFI1c2IwWUtZTk1nNHhGanFCWkI4SWlzM21NSEFCZnFILWk5M3M5Uk5iaHBMYW56Vk00a1lzRWRyTWxQVzN0dzM4LVpVOHl0TlJHQzZZWk1vOWFiVU5VRUhUN0c2ZFhHQ09oaWo?oc=5"
+          }
+        ]
+      }
+    ],
+    "uk": [
+      {
+        "category": "political",
+        "headline": "Net migration falls to lowest since 1997",
+        "summary": "Net migration was 77,000 in the year to June, the lowest this century outside the Covid pandemic, and asylum claims also fell. Prime Minister Andy Burnham says migration is now under 'sufficient' control.",
+        "sources": [
+          {
+            "source": "BBC",
+            "title": "UK net migration at lowest level since 1997 as asylum claims also fall",
+            "link": "https://www.bbc.co.uk/news/articles/cq36gj12n0l3o?at_medium=RSS&at_campaign=rss"
+          }
+        ]
+      },
+      {
+        "category": "financial",
+        "headline": "UK–EU treaty text published, including a 'participation' fee",
+        "summary": "The texts of the new UK–EU treaties were published alongside legislation to enact most of the deal, including a 10-year termination clause. Legal documents also show the UK will pay a contribution towards EU running costs.",
+        "sources": [
+          {
+            "source": "BBC Politics",
+            "title": "New UK-EU treaty has 10-year termination clause",
+            "link": "https://www.bbc.co.uk/news/articles/c98r7p65edvgo?at_medium=RSS&at_campaign=rss"
+          },
+          {
+            "source": "BBC",
+            "title": "UK to pay 'participation' fee to deliver EU deals",
+            "link": "https://www.bbc.co.uk/news/articles/ck2057x387ego?at_medium=RSS&at_campaign=rss"
+          }
+        ]
+      },
+      {
+        "category": "notable",
+        "headline": "NHS warns of 'horrible spike' in flu",
+        "summary": "Hospital flu admissions are surging, and health officials are urging at-risk groups to get vaccinated as soon as possible. A cold snap, with possible snow and an ice warning, is adding to the pressure.",
+        "sources": [
+          {
+            "source": "BBC",
+            "title": "NHS boss warns of 'horrible spike' in flu as hospital admissions surge",
+            "link": "https://www.bbc.co.uk/news/articles/cwvg2ndxdjr2o?at_medium=RSS&at_campaign=rss"
+          },
+          {
+            "source": "Sky News",
+            "title": "NHS warns of 'horrible spike in flu' as hospital cases surge",
+            "link": "https://news.sky.com/story/nhs-warns-of-horrible-spike-in-flu-as-hospital-cases-surge-13617056"
+          }
+        ]
+      }
+    ],
+    "europe": [
+      {
+        "category": "political",
+        "headline": "EU budget summit ends early in acrimony",
+        "summary": "EU leaders cut short their Brussels summit on the long-term budget, which includes Ukraine funding, leaving visibly angry and with a month to salvage a deal. Marine Le Pen attacked the push to agree the budget before France's presidential election.",
+        "sources": [
+          {
+            "source": "Politico Europe",
+            "title": "Budget summit walkout leaves EU one month to salvage deal",
+            "link": "https://www.politico.eu/article/eu-budget-summit-walkout-antonio-costa-leaves-one-month-negotiations-drama/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication"
+          },
+          {
+            "source": "DW",
+            "title": "At odds over the EU budget, European leaders cut summit short",
+            "link": "https://www.dw.com/en/at-odds-over-the-eu-budget-european-leaders-cut-summit-short/live-80056415?maca=en-rss-en-all-1573-rdf"
+          },
+          {
+            "source": "France24",
+            "title": "EU leaders face showdown over Ukraine funding as divisions deepen",
+            "link": "https://www.france24.com/en/europe/20261126-eu-leaders-face-showdown-over-ukraine-funding-as-divisions-deepen"
+          }
+        ]
+      },
+      {
+        "category": "financial",
+        "headline": "Spain's de Cos set to succeed Lagarde at the ECB",
+        "summary": "Pablo Hernández de Cos has won the backing to lead the European Central Bank from next year. He takes over during a period of political uncertainty and uneven growth.",
+        "sources": [
+          {
+            "source": "CNBC Economy",
+            "title": "Spain’s Pablo Hernández de Cos set to lead European Central Bank",
+            "link": "https://www.cnbc.com/2026/11/26/pablo-hernandez-de-cos-ecb-president.html"
+          },
+          {
+            "source": "France24",
+            "title": "Spanish economist de Cos to succeed Lagarde as head of ECB",
+            "link": "https://www.france24.com/en/europe/20261126-spanish-economist-de-cos-succeed-lagarde-head-ecb"
+          }
+        ]
+      },
+      {
+        "category": "notable",
+        "headline": "Spain votes on Sunday with the right poised to gain",
+        "summary": "Spain holds a snap general election on 29 November, called by Pedro Sánchez after a parliamentary setback amid housing protests. Polls put the conservative Popular Party ahead, and a coalition with far-right Vox would shift Madrid's stance in Brussels.",
+        "sources": [
+          {
+            "source": "France24",
+            "title": "'Citizens angry with the establishment' as Spain heads to the polls",
+            "link": "https://www.france24.com/en/tv-shows/a-propos/20261126-citizens-angry-with-the-establishment-as-spain-heads-to-the-polls"
+          },
+          {
+            "source": "Politico Europe",
+            "title": "Spain’s right turn: What a PP-Vox government would mean for Madrid — and Brussels",
+            "link": "https://www.politico.eu/article/spain-right-turn-what-pp-vox-government-would-mean-for-madrid-brussels/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication"
+          },
+          {
+            "source": "Al Jazeera",
+            "title": "Spain’s 2026 election explained in maps and charts",
+            "link": "https://www.aljazeera.com/news/2026/11/27/spains-2026-election-explained-in-maps-and-charts?traffic_source=rss"
+          },
+          {
+            "source": "BBC",
+            "title": "Could housing decide Spain's general election?",
+            "link": "https://www.bbc.co.uk/news/videos/cm9w9y8947xqo?at_medium=RSS&at_campaign=rss"
+          }
+        ]
+      }
+    ],
+    "middle_east": [
+      {
+        "category": "political",
+        "headline": "Drone strike in Kuwait kills two Italian workers",
+        "summary": "Italy's Meloni said an Iranian drone killed two Italian technicians working for Rheinmetall's Italian unit in Kuwait, with a Kuwaiti and a Pakistani national injured; Iran denies responsibility. It comes on day 274 of the US war on Iran, with Trump saying it ends 'whenever I want it'.",
+        "sources": [
+          {
+            "source": "DW",
+            "title": "Iranian drone kills 2 Italian workers in Kuwait, Meloni says",
+            "link": "https://www.dw.com/en/iranian-drone-kills-2-italian-workers-in-kuwait-meloni-says/a-80064974?maca=en-rss-en-all-1573-rdf"
+          },
+          {
+            "source": "Arab News",
+            "title": "Two Italian workers killed in Iranian drone attack on Kuwait",
+            "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPSlYybF9aUXdaWmRhOVJ1aE0zTWpxZDE0SHBaaGpXdmRseEJVa2NGbi00WVI4dlpiUGJNeGFWTFpWNmJCbVZuWnl6NENJTHdmekhoQXVpZ2kxRDdjMVVmeEZ6aGFKMFhid3NSUVRReWs4aEdleGdCSVZFeFRBR0VRaGFDNERORm1GdXRpcW5ETjZjODZEQUVPd20zWTdWdGx5dTdIRGlRb0w?oc=5"
+          },
+          {
+            "source": "CNBC",
+            "title": "Two Italians killed in Kuwait drone attack; Trump says Iran war ends ‘whenever I want it’",
+            "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOWXdZWk9aY1VrSmlEbExnWV93RnFxTDFwV3RLdjhtYW1SaXU0aXJCbGJBRUVOS0FramRyaVdva0VwUWRLQlBZdHcwYktUWVlwaEp4MTNEeUN3Y2Q1bi1RUG5TRTZoWlY0S2lFUVpqSVF3NzJQZ2hiUGFjU19LTW93cERfYzNNY3VKalHSAY8BQVVfeXFMTXlQSEhkZ20xOFJXTzlvczJPelo5S294dENlYTBpMzAxVHVxeHhFNUk3eHZVYVQzY0t6cWZ5T1hEYUdjbkc1SmROUVVTVWc4Mjdza3FYNXplRTE0Qk5NY1NyTTNwdEN6Z2JyWEJhOVRVd3RVOVRoTVlubGNUYTBsWS1zTkZ3czV6WThYWkk4RVU?oc=5"
+          },
+          {
+            "source": "Al Jazeera",
+            "title": "Two Italians killed by ‘drone strike debris’ in Kuwait",
+            "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNTTJLR040dFNoUlFYaVk0RF9CMUp2d1drUlVYVkNXWGQ4MldxM0VFTE52MDMzTHNXVmpFVEZjeGUteHlCY00zWjFNcFVVX1ZWOWhLSE9GeF9tRGE2bWVVd1l4eHVtY3hUc0dnN19rbVZfN0k4cUtZcTRwQlgzbXF5NUZmM242RmU2UGVXR2tGRHM1RUNOMF9qdVZDTjBFZFZDOWp1blozM3lhU1VXcVhR0gG0AUFVX3lxTFBoVDAzRnVkN1JNUEliazROM0hQamFsWVF0a3lxZXBISlcwOFhoWndKNnlDU1JVMzZWVXM1aVVLRm1aQXNNOU45bnZIVHlqcUg2R2hCbHY4bEtHaEFqS2dmY0RmUlpRMG9MRTZoZTYxMDRLLXhaLWtla2dzNWY1b0xzMU15R0dlVkdJTW9EeFNHYkdRN0RwT2llT2ZWUVlKQ3IwS1ZrRWRHSXdwMUdGZGVkcjF0WA?oc=5"
+          },
+          {
+            "source": "BBC",
+            "title": "Two Italians killed in strike in Kuwait, as Iran denies responsibility",
+            "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9ZM0s2UU5wMkdKN2hGc0FMU1lBM21wQjJzTlBCQ2tPbWNyZDhkTEdONXZqYjcwTXQ4dkEtZm9YUW9vUEppbXhUNlNST1J1LThKM3hlblcyd2NWVTR5R3c?oc=5"
+          },
+          {
+            "source": "EA WorldView",
+            "title": "UPDATES: US War on Iran, Day 274 — Strike on Kuwait Kills 2 Italians",
+            "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9kMm9xY2xlR1F4aTRmNVE2V0FBX2hvbVVHVWxUazkzcVN3NXF4dEtiWXJsajhMYTF1X2d2OXFqSjM0VFAwYV9xQjlfYUpES3ktVmRpZGg0cml4WThDZWVJYWlyMkxuS1l2V3JiS1N3NHFEWWRUREYzaWpB?oc=5"
+          },
+          {
+            "source": "The National",
+            "title": "Iranian drone attack hits Kuwait, Hatta opens hydroelectric plant and Abu Dhabi menus to add calorie counts",
+            "link": "https://www.thenationalnews.com/podcasts/trending-middle-east/2026/11/27/iranian-drone-attack-hits-kuwait-hatta-opens-hydroelectric-plant-and-abu-dhabi-menus-to-add-calorie-counts/"
+          }
+        ]
+      },
+      {
+        "category": "financial",
+        "headline": "Baghdad moves to take Kurdish oil and borders",
+        "summary": "Thousands protested in Erbil against federal plans to take control of the Kurdistan region's oil and border crossings, and Iraq has closed Kurdish crossings with Syria and Iran. Baghdad says it has no plans to send troops into the region.",
+        "sources": [
+          {
+            "source": "Arab News",
+            "title": "Thousands protest in Irbil as Baghdad moves to seize Kurdish oil and border control",
+            "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOMEZpdEtfZjdKNnBiM2NfUEZJVDRpYW01b3pTR25DYk1qMWVJSE5lbmtLR0VsYkZpNDcwdTlqYzNLZG5RWDE2VEhGVXM0MUtTQnZBc0VlMFpKOWdwUUU2dHZVczIzcDJyYVVnc3BiNWFLNVJQbklnTjM4aUlVMm1LbHBSWU8xTDlwQ3R5SWxvWk1MSWdIQl81RzFaNm5abFM2VWc3eWNUTW45M2JBdHVfQzdnaU8yUGlUUzNubFRJN2l0eGdSc3Fn?oc=5"
+          },
+          {
+            "source": "DW",
+            "title": "Protests in Iraqi Kurdistan at plans for government in Baghdad to take over oil, border crossings",
+            "link": "https://www.dw.com/en/protests-in-iraqi-kurdistan-at-plans-for-government-in-baghdad-to-take-over-oil-border-crossings/a-80065994?maca=en-rss-en-all-1573-rdf"
+          },
+          {
+            "source": "The National",
+            "title": "Iraqi government closes two border crossing with Iran and Syria",
+            "link": "https://www.thenationalnews.com/news/mena/2026/11/27/iraqs-government-closes-two-border-crossing-with-iran-and-syria/"
+          }
+        ]
+      },
+      {
+        "category": "notable",
+        "headline": "Israel threatens to displace a million Gazans",
+        "summary": "Israel's defence minister threatened to forcibly displace one million Palestinians in Gaza unless Hamas disarms. Israeli strikes killed at least 10 people overnight and on Thursday, including a Hamas political official.",
+        "sources": [
+          {
+            "source": "France24",
+            "title": "Israel threatens to displace one million Palestinians in Gaza unless Hamas disarms",
+            "link": "https://www.france24.com/en/middle-east/20261126-israel-threatens-to-displace-one-million-palestinians-in-gaza-unless-hamas-disarms"
+          },
+          {
+            "source": "BBC",
+            "title": "Hamas political official and wife among eight Palestinians killed in Israeli strikes on Gaza",
+            "link": "https://www.bbc.co.uk/news/articles/cqvg2n4mzl1jo?at_medium=RSS&at_campaign=rss"
+          }
+        ]
+      }
+    ]
+  },
+  "energyTech": {
+    "energy": [
+      {
+        "category": "energy",
+        "headline": "NESO issues third power-margin warning this week",
+        "summary": "The cold snap left Great Britain facing a system margin shortfall of more than 2.7 GW between noon and 8pm on Thursday, prompting NESO's third warning in a row. Separately, NESO has secured less than 1% of its required flexibility since merging its demand flexibility and margin services.",
+        "sources": [
+          {
+            "source": "OilPrice",
+            "title": "Cold Snap Squeezes UK Spare Power Capacity",
+            "link": "https://oilprice.com/Latest-Energy-News/World-News/Cold-Snap-Squeezes-UK-Spare-Power-Capacity.html"
+          },
+          {
+            "source": "The Times",
+            "title": "Neso issues energy supply warning for third day in a row",
+            "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPTF9LVG1VUzBzRFVFQ2hIVzJ3TXZoX1ZiUlFCYlItemdlX2lDUzZlYU00emI3eUY0MWRlVWFNVmllVm5vU0tUUHlYQzNoVTNlTVhIREVZQnhVaVhvZjJ3bnJkaXJqUTB2SXFPSWhfVXZxRXZPZUVheU9kWUc1WEMtUXhfWGY0UFVWbjhHd1VhQjA1OTRxX0cyamU0WTAxdnhKeGNz?oc=5"
+          },
+          {
+            "source": "The Telegraph",
+            "title": "Grid operator issues third warning this week over power shortages",
+            "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQLU5VTUFYekNfSVRocE54SWtkaE5Tdy1Ndm5JYnJFQWtVMm5lV0FuOURyUGt4Z0pic0NGTFZZelNOaWQtTDVpNjE5Z25UcDlEaGlGSVg5X1YzTHNXVkZ1cF9KYWttU3NSS0lxck5fMFRMUFpqTjUwSUhKeVY0QXpILVowV0lkNW5rMldsUVVLTE9jNV92ZnBFYg?oc=5"
+          },
+          {
+            "source": "Utility Week",
+            "title": "NESO secured less than 1% of required flex since merging DFS and LCM",
+            "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOZ1ZmaDlsQXJ6bVRvYVh1MTUzaXpMbjR0dGYtX3ZSRVJXeGxueUZOZ0RKd2I3SnZ2NjgtYkR5MFZDRFBJZVNmVG5sUDRzODVoOU9yR3BXNTkwMWJTSF9FNHVkNGU2MklLOEpiLVBSdm5iTEI3d3psclIwZjBtelVXY2phZVpSVFZ5NXVQNU95WTdKTDcxYU43TTJB0gGmAUFVX3lxTE9jN3RuYlFIMFF6RHdnWjU2MDJWeTVsMzliOHRTWUdnLXFRU0puLWozU242QlF0N0owWHVWckJEMHpzWnRrWFZzUXJlYTBWNGZQTGZ0Q0dYTWlBQ3h0cnZiNkp4VTRENHJlUWd6Y1Bkd25rSDJ5ejJLTURMeld2SWNlV00xMm16VWtIa05IRDJCaDJIVW5vWXpWWGJkUUxWNS03X2VlVkE?oc=5"
+          }
+        ]
+      },
+      {
+        "category": "energy",
+        "headline": "Oil heads for weekly gain on Hormuz risks",
+        "summary": "Crude is set for a weekly gain as repeated tanker attacks around the Strait of Hormuz outweigh fears of a glut, with Iran's Revolutionary Guards saying two tankers hit sea mines near Oman's Khasab. Tanker traffic through Hormuz has nonetheless risen in November.",
+        "sources": [
+          {
+            "source": "OilPrice",
+            "title": "Oil Prices Climb as Middle East Supply Risks Overshadow Glut Fears",
+            "link": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Climb-as-Middle-East-Supply-Risks-Overshadow-Glut-Fears.html"
+          },
+          {
+            "source": "Arab News",
+            "title": "Iran's Revolutionary Guards say two oil tankers hit sea mines near Oman’s Khasab",
+            "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQX2Jjb3JJOWFyMUhCdVFSZ01mUVRiMnZxQXZpaG4tcGY1ZVdxY25Wck1YOHFGNERZbnhZNGx1blRNUGZ1RXQ5Z3BPejlGZWptTVVXOF92aGYzbjZMMlB1eVgyOW9rVEgydE1VcWJGN2Q4eXhNU0tnRER5YUtHMXF5MWczWjJFR2JsSHplWGRnRzJtTzJSMHFmT19CV2dFX1ZabW5JUE9oNDJ0aGVuSUgtWU41VWRqQmx0VEVkTjNHeDQ?oc=5"
+          }
+        ]
+      },
+      {
+        "category": "energy",
+        "headline": "Nearly 100 Labour MPs oppose Rosebank",
+        "summary": "Close to 100 Labour MPs, including ministerial aides, have come out against the Rosebank oil field west of Shetland. Energy Secretary Miatta Fahnbulleh is due to decide whether drilling can go ahead.",
+        "sources": [
+          {
+            "source": "BBC Politics",
+            "title": "Nearly 100 Labour MPs including ministerial aides oppose Rosebank oil field",
+            "link": "https://www.bbc.co.uk/news/articles/cw24ez32d1n4o?at_medium=RSS&at_campaign=rss"
+          }
+        ]
+      }
+    ],
+    "ai": [
+      {
+        "category": "ai",
+        "headline": "Anthropic starts trading as ANT",
+        "summary": "Anthropic is now a listed company, trading under the ticker ANT, and OpenAI's own IPO clock is ticking. Analysts say the listing has not calmed wider worries about AI stocks.",
+        "sources": [
+          {
+            "source": "Yahoo Finance",
+            "title": "Anthropic Stock Is Now Trading as ANT. Should You Buy Today or Wait?",
+            "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNT2Y3Q21iQmpWbjd1T1hIQjYyaXgySjhyYk5aOU1KWjMzMXpJTmhUYlRLSjNHZGZETVM4V1Z5bGFvZi11a09RUDZGVDFaaHlSZVBnaHBTVzdNTHhZaVlKcy1pY25hcC0xUTNVcGFJRU1XRWZFTEpQNVF3amFGZVkxVExoZ3Fsdkx1bkZ4ZENUbmNEU1FKX184M2V5MG8?oc=5"
+          },
+          {
+            "source": "Mashable",
+            "title": "Anthropic IPO details: Price, valuation, stock ticker, more",
+            "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPckx2b2tGYjRHR01ZSjFVN1dzNlFsTHlST1Fidjh2V1ZsVzFwWGl1R3pZUl9Zc2JKOTFvTjA4OGNaQ3VXNFNNZ0JKNXJIWHM4Zk5wcHJQckpzQWtmTVEtUWxjclZ1S0tUSGhJTmZVQkN1ZVRGWGRuVmxLbUpjd1A3RXl3?oc=5"
+          },
+          {
+            "source": "StoneX",
+            "title": "Nasdaq 100 Forecast: Anthropic IPO fails to calm AI worries",
+            "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNWU8ybzlxdUlpQzh6R1hNU0hOTDF6SllWeHhHWW1FZFI3Vkx4UXpMRjZfZjVrOFNVcUdZbEM2cmQxX1BaZVJmal9waTFFV2JZcHlYUXIteUhyQmdwVUJGRGJyQ3RZN2xxa210SUhUUGV2b2dOR1pCX0ZEcG1obXdGbFZzVkNWSV9pLWNCajF4V0FVUjZNek93dEczRWxpRUFNNFp1dmN0WlEydw?oc=5"
+          },
+          {
+            "source": "TechCrunch AI",
+            "title": "Grand Theft Auto VI proves why efficiency isn’t a virtue",
+            "link": "https://techcrunch.com/2026/11/26/as-anthropic-ipos-grand-theft-auto-vi-proves-why-efficiency-isnt-a-virtue/"
+          },
+          {
+            "source": "Afford Anything",
+            "title": "I bought the Anthropic IPO and it was … hilarious?",
+            "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNWGg3QTRDNzJFaXUyWDJPZmF3d1NEblViWHZDRkU5RUstSTM2cURWTXl0MFh4VUtoU1JRc3VBMm5UZGNXVHkwcnRSbDR6eEplZml3ZlQyaW84Y0o0aG83NDJWeGxPSG1nalJvSmFRN082dF9JajdFZ00wa0F6UjlUZg?oc=5"
+          },
+          {
+            "source": "WSJ",
+            "title": "OpenAI’s IPO Countdown Clock Is Ticking",
+            "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOV3Qxb0R3X0EydVhiOG9yX1ZCczV1eVBZaGdvYVlFWGdTNjBNS3dEYjI1dzZOS2lMQW1tTEZDc1h5cFNtWTFHcUFnSWxzcFJIcDNvLVdNOEZzQnRhNnNlYi1xMFJFUUI5Z3Z0b2xVTHB2NXBlV2RoUGpIVDJQbzZtNQ?oc=5"
+          }
+        ]
+      },
+      {
+        "category": "ai",
+        "headline": "Nvidia pauses server shipments to Southeast Asia",
+        "summary": "Nvidia has told manufacturing partners to pause server shipments to Malaysia, Singapore, Thailand and Indonesia as the US tightens controls to keep AI chips out of China. A new rule also requires buyers to rule out Chinese renters of GPUs.",
+        "sources": [
+          {
+            "source": "TechCrunch AI",
+            "title": "Nvidia hits pause on chip shipments to Southeast Asia",
+            "link": "https://techcrunch.com/2026/11/26/nvidia-hits-pause-on-chip-shipments-to-southeast-asia/"
+          },
+          {
+            "source": "CNBC",
+            "title": "Nvidia chip buyers told to rule out Chinese renters to purchase GPUs, sources say",
+            "link": "https://www.cnbc.com/2026/11/26/neoclouds-nvidia-china-ai.html"
+          }
+        ]
+      },
+      {
+        "category": "ai",
+        "headline": "42 state AGs move to stop Character.AI selling chats",
+        "summary": "A coalition of 42 US state attorneys general is trying to stop Character.AI from selling user data during its Chapter 11 bankruptcy. The case tests whether private AI conversations can be sold off as company assets.",
+        "sources": [
+          {
+            "source": "The Verge AI",
+            "title": "42 state AGs are trying to stop Character.AI from selling users’ chats",
+            "link": "https://www.theverge.com/policy/1042620/character-ai-sale-state-ags-block-selling-users-chats"
+          }
+        ]
+      }
+    ],
+    "tech": [
+      {
+        "category": "tech",
+        "headline": "FCC clears SpaceX for a million data-centre satellites",
+        "summary": "The FCC approved SpaceX's plan to put up to one million satellites into orbit as data centres in space to meet AI computing demand. Scientists are sceptical about the plan.",
+        "sources": [
+          {
+            "source": "NPR",
+            "title": "FCC says SpaceX can deploy 1 million satellites for data centers in space. Scientists are skeptical",
+            "link": "https://www.npr.org/2026/11/26/g-s1-155940/fcc-spacex-satellites-data-centers-in-space"
+          },
+          {
+            "source": "BBC",
+            "title": "Musk's plan to send a million SpaceX data satellites into space approved",
+            "link": "https://www.bbc.co.uk/news/articles/cwp836l8n1jgo?at_medium=RSS&at_campaign=rss"
+          }
+        ]
+      },
+      {
+        "category": "tech",
+        "headline": "Google to make Android developers publish contact details",
+        "summary": "From next year many independent Android developers will have to share a phone number and address publicly. Developers are worried about their privacy.",
+        "sources": [
+          {
+            "source": "The Verge",
+            "title": "Android app developers will soon have to share their address publicly",
+            "link": "https://www.theverge.com/tech/1043228/android-play-store-google-developer-address-eu"
+          }
+        ]
+      },
+      {
+        "category": "tech",
+        "headline": "X adds parental controls for teens",
+        "summary": "Elon Musk's X has added parental controls for teenage users for the first time. Parents and guardians can now manage what their children see on the platform.",
+        "sources": [
+          {
+            "source": "TechCrunch",
+            "title": "X finally gets parental controls after 20 years",
+            "link": "https://techcrunch.com/2026/11/26/x-finally-gets-parental-controls-after-20-years/"
+          }
+        ]
+      }
+    ]
+  },
+  "stats": {
+    "headlines": 316,
+    "feeds": 45,
+    "feedsFailed": 8
+  }
+}
