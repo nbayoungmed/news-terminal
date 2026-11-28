@@ -1,0 +1,1008 @@
+{
+ "date": "2026-11-28",
+ "dateLabel": "Saturday, 28 November 2026",
+ "generatedAt": "2026-11-28T07:34:57.681Z",
+ "mode": "fallback",
+ "model": null,
+ "error": "400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011ChUwVgR4e7patGbesjLQ8\"}",
+ "headlineOfDay": "",
+ "markets": {
+  "summary": "",
+  "indices": [
+   {
+    "symbol": "^GSPC",
+    "label": "S&P 500",
+    "price": 7297.490234375,
+    "asOf": "2026-11-27",
+    "d1": 1.5970202713969834,
+    "w1": 1.6954157905838965,
+    "m1": -5.76563662638399,
+    "ytd": 6.602735145350961,
+    "spark": [
+     7743.98,
+     7720.3901,
+     7580.0698,
+     7541.3999,
+     7568.9199,
+     7688.6201,
+     7353.73,
+     7376.8599,
+     7549.9399,
+     7520.9302,
+     7619.3799,
+     7592.3999,
+     7561.6699,
+     7416.5898,
+     7340.5298,
+     7323.6299,
+     7175.8301,
+     6910.3901,
+     7237.1699,
+     7201.0898,
+     7182.7798,
+     7297.4902
+    ]
+   },
+   {
+    "symbol": "SPUS",
+    "label": "S&P 500 Shariah",
+    "sub": "via SPUS ETF",
+    "price": 54.630001068115234,
+    "asOf": "2026-11-27",
+    "d1": 1.56162881258738,
+    "w1": 0.9610061946001767,
+    "m1": -9.11661867674747,
+    "ytd": 6.970827089415101,
+    "spark": [
+     60.11,
+     59.77,
+     58.42,
+     57.61,
+     57.95,
+     58.66,
+     55.41,
+     55.72,
+     57.19,
+     56.69,
+     57.74,
+     57.6,
+     57.04,
+     55.78,
+     55.32,
+     55.27,
+     54.11,
+     51.62,
+     54.78,
+     54.17,
+     53.79,
+     54.63
+    ]
+   },
+   {
+    "symbol": "^IXIC",
+    "label": "Nasdaq",
+    "price": 24129.5,
+    "asOf": "2026-11-27",
+    "d1": 2.3051971980625923,
+    "w1": 1.0481958752346405,
+    "m1": -9.116246023933604,
+    "ytd": 3.8185618214070556,
+    "spark": [
+     26549.8496,
+     26184.7207,
+     25437,
+     25164.3105,
+     25372.0098,
+     25736.5098,
+     24315,
+     24579.4297,
+     25253.1406,
+     25065.8691,
+     25466.1895,
+     25366.0898,
+     25136.2695,
+     24509.7598,
+     24328.3809,
+     24429.8809,
+     23879.1992,
+     22617.7305,
+     24089.5605,
+     23733.5391,
+     23585.8008,
+     24129.5
+    ]
+   },
+   {
+    "symbol": "^DJI",
+    "label": "Dow Jones",
+    "price": 50774.94140625,
+    "asOf": "2026-11-27",
+    "d1": 1.179667988263257,
+    "w1": 3.4174813330132827,
+    "m1": -3.2399368569587987,
+    "ytd": 5.641836829401858,
+    "spark": [
+     52475.1016,
+     52342.5586,
+     51770.3086,
+     51983.9805,
+     51786.7188,
+     53356.1211,
+     51523.0586,
+     51285.7305,
+     52389.75,
+     52231.8906,
+     52486.4883,
+     52297.0898,
+     52347.5508,
+     51608.1719,
+     50759.4219,
+     50198.1719,
+     49097.0586,
+     48147.3281,
+     49595.3086,
+     50018.6992,
+     50182.9492,
+     50774.9414
+    ]
+   },
+   {
+    "symbol": "^FTSE",
+    "label": "FTSE 100",
+    "price": 10698.7998046875,
+    "asOf": "2026-11-27",
+    "d1": 0.8435994990023401,
+    "w1": 3.407015132504629,
+    "m1": -0.2173063628986204,
+    "ytd": 7.727001066102483,
+    "spark": [
+     10722.0996,
+     10729.7998,
+     10761.2998,
+     10638.4004,
+     10829.2002,
+     10782.7002,
+     10673.9004,
+     10782.9004,
+     10751.5996,
+     10835.5,
+     10863.0996,
+     10902.5996,
+     10881.5996,
+     10689.9004,
+     10551.2002,
+     10452.7002,
+     10346.2998,
+     10480.7998,
+     10467.0996,
+     10426.9004,
+     10609.2998,
+     10698.7998
+    ]
+   },
+   {
+    "symbol": "^STOXX50E",
+    "label": "Euro Stoxx 50",
+    "price": 6089.2001953125,
+    "asOf": "2026-11-27",
+    "d1": 1.2379580503236354,
+    "w1": 2.4781426158058837,
+    "m1": -1.8989576763958123,
+    "ytd": 5.054673038792539,
+    "spark": [
+     6207.0698,
+     6131.3101,
+     6176.0601,
+     6144.5601,
+     6265.71,
+     6231.54,
+     6170.4902,
+     6290.4502,
+     6327.8701,
+     6393.3901,
+     6398.98,
+     6386.8599,
+     6348.3501,
+     6212.1099,
+     6154.3901,
+     6113.8599,
+     5941.9502,
+     6074.4702,
+     6003.7598,
+     5894.46,
+     6014.7402,
+     6089.2002
+    ]
+   },
+   {
+    "symbol": "^TASI.SR",
+    "label": "Tadawul (Saudi)",
+    "price": 9923.65,
+    "asOf": "2026-11-26",
+    "d1": 0.09753903074244727,
+    "w1": null,
+    "m1": null,
+    "ytd": null,
+    "spark": []
+   }
+  ],
+  "commodities": [
+   {
+    "symbol": "GC=F",
+    "label": "Gold",
+    "unit": "$/oz",
+    "price": 3639.60009765625,
+    "asOf": "2026-11-27",
+    "d1": 2.9356877480254457,
+    "w1": -1.2454185956790125,
+    "m1": -10.168821948600796,
+    "ytd": -16.15949838103798,
+    "spark": [
+     4051.6001,
+     4031.3999,
+     3898.8999,
+     3969.6001,
+     3940.3999,
+     4073,
+     4113.5,
+     4074.8999,
+     4114.5,
+     4030.2,
+     4000.5,
+     3885.3,
+     3886.3,
+     3853,
+     3864.2,
+     3741.8999,
+     3685.5,
+     3515.3999,
+     3651.3999,
+     3561.8999,
+     3535.8,
+     3639.6001
+    ]
+   },
+   {
+    "symbol": "SI=F",
+    "label": "Silver",
+    "unit": "$/oz",
+    "price": 43.16699981689453,
+    "asOf": "2026-11-27",
+    "d1": 7.777393945991724,
+    "w1": -2.597141017093059,
+    "m1": -19.249117560922976,
+    "ytd": -38.4506827445194,
+    "spark": [
+     53.457,
+     52.191,
+     49.097,
+     50.72,
+     49.587,
+     52.12,
+     52.233,
+     51.803,
+     52.564,
+     51.101,
+     51.881,
+     49.972,
+     49.031,
+     46.785,
+     47.288,
+     44.999,
+     44.318,
+     41.035,
+     43.147,
+     40.76,
+     40.052,
+     43.167
+    ]
+   },
+   {
+    "symbol": "BZ=F",
+    "label": "Brent crude",
+    "unit": "$/bbl",
+    "price": 95.44000244140625,
+    "asOf": "2026-11-27",
+    "d1": 0.8772876288977367,
+    "w1": 3.761686190688572,
+    "m1": -17.23898483006172,
+    "ytd": 56.844708027389586,
+    "spark": [
+     115.32,
+     114.88,
+     117.64,
+     104.77,
+     103.6,
+     94.62,
+     98.29,
+     98.32,
+     92.57,
+     91.49,
+     92.76,
+     95.82,
+     95.84,
+     92.44,
+     93.14,
+     91.95,
+     91.98,
+     92.57,
+     89.37,
+     91.4,
+     94.61,
+     95.44
+    ]
+   },
+   {
+    "symbol": "CL=F",
+    "label": "WTI crude",
+    "unit": "$/bbl",
+    "price": 83.08000183105469,
+    "asOf": "2026-11-27",
+    "d1": -0.717015382329035,
+    "w1": -0.15622792314418713,
+    "m1": -19.16715040106654,
+    "ytd": 44.68826973245565,
+    "spark": [
+     102.78,
+     102,
+     104.12,
+     96.46,
+     96.09,
+     88.12,
+     90.52,
+     90.83,
+     86.85,
+     86.04,
+     86.53,
+     88.74,
+     88.56,
+     85.72,
+     86.01,
+     83.26,
+     83.21,
+     83.98,
+     80.17,
+     82.05,
+     83.68,
+     83.08
+    ]
+   },
+   {
+    "symbol": "HG=F",
+    "label": "Copper",
+    "unit": "$/lb",
+    "price": 5.517000198364258,
+    "asOf": "2026-11-27",
+    "d1": 3.459919701784744,
+    "w1": -1.9199964735243054,
+    "m1": -16.93141306131035,
+    "ytd": -2.0071032642932995,
+    "spark": [
+     6.6415,
+     6.581,
+     6.4585,
+     6.5435,
+     6.3785,
+     6.403,
+     6.249,
+     6.218,
+     6.3285,
+     6.2195,
+     6.2745,
+     6.1825,
+     6.0795,
+     5.9975,
+     5.976,
+     5.6595,
+     5.625,
+     5.477,
+     5.627,
+     5.3625,
+     5.3325,
+     5.517
+    ]
+   },
+   {
+    "symbol": "NG=F",
+    "label": "US natural gas",
+    "unit": "$/MMBtu",
+    "price": 3.490999937057495,
+    "asOf": "2026-11-27",
+    "d1": 6.791063934686877,
+    "w1": 6.823747162486864,
+    "m1": 23.926164209722366,
+    "ytd": -5.290292075687224,
+    "spark": [
+     2.817,
+     2.952,
+     2.898,
+     2.856,
+     2.895,
+     2.959,
+     2.947,
+     2.998,
+     3.218,
+     3.296,
+     3.215,
+     3.34,
+     3.23,
+     3.122,
+     3.208,
+     3.372,
+     3.268,
+     3.411,
+     3.184,
+     3.323,
+     3.269,
+     3.491
+    ]
+   }
+  ],
+  "rates_fx": [
+   {
+    "symbol": "GBPUSD=X",
+    "label": "GBP/USD",
+    "price": 1.3107362985610962,
+    "asOf": "2026-11-27",
+    "d1": -0.0432454152314407,
+    "w1": 0.15991512974760283,
+    "m1": -1.6554596421450192,
+    "ytd": -2.6719325589991914,
+    "spark": [
+     1.3328,
+     1.3379,
+     1.3386,
+     1.341,
+     1.3434,
+     1.3477,
+     1.3456,
+     1.336,
+     1.3442,
+     1.3349,
+     1.3277,
+     1.3231,
+     1.3216,
+     1.3185,
+     1.3205,
+     1.3147,
+     1.3086,
+     1.3095,
+     1.3035,
+     1.3112,
+     1.3113,
+     1.3107
+    ]
+   },
+   {
+    "symbol": "EURUSD=X",
+    "label": "EUR/USD",
+    "price": 1.0972130298614502,
+    "asOf": "2026-11-27",
+    "d1": 0.018647362082871224,
+    "w1": 0.021940713128598986,
+    "m1": -1.6458241345365963,
+    "ytd": -6.598643866973171,
+    "spark": [
+     1.1156,
+     1.1183,
+     1.1157,
+     1.1192,
+     1.1207,
+     1.1235,
+     1.1228,
+     1.1147,
+     1.1222,
+     1.1169,
+     1.1095,
+     1.105,
+     1.1025,
+     1.0998,
+     1.0993,
+     1.0972,
+     1.097,
+     1.0972,
+     1.0908,
+     1.0962,
+     1.097,
+     1.0972
+    ]
+   },
+   {
+    "symbol": "^TNX",
+    "label": "US 10Y yield",
+    "unit": "%",
+    "price": 4.935999870300293,
+    "asOf": "2026-11-27",
+    "d1": 1.8151778013420488,
+    "w1": -2.2961238009697578,
+    "m1": -2.1605590554068703,
+    "ytd": 18.56833398163942,
+    "spark": [
+     5.045,
+     4.989,
+     4.929,
+     4.894,
+     4.952,
+     4.894,
+     4.837,
+     4.859,
+     4.864,
+     4.983,
+     4.998,
+     5.103,
+     5.154,
+     5.121,
+     5.103,
+     5.066,
+     5.052,
+     4.912,
+     4.918,
+     4.904,
+     4.848,
+     4.936
+    ]
+   }
+  ],
+  "movers": {
+   "sp500": {
+    "gainers": [
+     {
+      "ticker": "COHR",
+      "name": "Coherent Corp.",
+      "price": 223.79,
+      "d1": 14.067995310668227,
+      "shariah": true
+     },
+     {
+      "ticker": "LITE",
+      "name": "Lumentum",
+      "price": 514.63,
+      "d1": 7.983969113265352,
+      "shariah": true
+     },
+     {
+      "ticker": "STX",
+      "name": "Seagate Technology",
+      "price": 509.66,
+      "d1": 7.903372642008774,
+      "shariah": true
+     },
+     {
+      "ticker": "MU",
+      "name": "Micron Technology",
+      "price": 646.95,
+      "d1": 7.600831600831609,
+      "shariah": true
+     },
+     {
+      "ticker": "GNRC",
+      "name": "Generac",
+      "price": 219.17,
+      "d1": 7.441541252022146,
+      "shariah": true
+     }
+    ],
+    "losers": [
+     {
+      "ticker": "VRTX",
+      "name": "Vertex Pharmaceuticals",
+      "price": 534.57,
+      "d1": -5.238247181450747,
+      "shariah": true
+     },
+     {
+      "ticker": "PODD",
+      "name": "Insulet Corporation",
+      "price": 138.9,
+      "d1": -2.6492851135407913,
+      "shariah": true
+     },
+     {
+      "ticker": "SJM",
+      "name": "J.M. Smucker Company (The)",
+      "price": 126.86,
+      "d1": -2.460402890973399,
+      "shariah": false
+     },
+     {
+      "ticker": "DLTR",
+      "name": "Dollar Tree",
+      "price": 148.53,
+      "d1": -2.4177123710662944,
+      "shariah": false
+     },
+     {
+      "ticker": "GDDY",
+      "name": "GoDaddy",
+      "price": 103.07,
+      "d1": -1.9688035000951183,
+      "shariah": true
+     }
+    ],
+    "coverage": 502
+   },
+   "ftse100": {
+    "gainers": [
+     {
+      "ticker": "IMB",
+      "name": "Imperial Brands",
+      "price": 3432,
+      "d1": 13.267326732673268
+     },
+     {
+      "ticker": "BAB",
+      "name": "Babcock International",
+      "price": 1090,
+      "d1": 6.549364613880742
+     },
+     {
+      "ticker": "EDV",
+      "name": "Endeavour Mining",
+      "price": 3320,
+      "d1": 5.86734693877551
+     },
+     {
+      "ticker": "FRES",
+      "name": "Fresnillo plc",
+      "price": 2190,
+      "d1": 5.491329479768786
+     },
+     {
+      "ticker": "PCT",
+      "name": "Polar Capital Technology Trust",
+      "price": 524.5,
+      "d1": 4.482071713147411
+     }
+    ],
+    "losers": [
+     {
+      "ticker": "LAND",
+      "name": "Land Securities",
+      "price": 686.5,
+      "d1": -1.5064562410329985
+     },
+     {
+      "ticker": "SVT",
+      "name": "Severn Trent",
+      "price": 3266,
+      "d1": -1.2099213551119177
+     },
+     {
+      "ticker": "BATS",
+      "name": "British American Tobacco",
+      "price": 4531,
+      "d1": -0.5487269534679543
+     },
+     {
+      "ticker": "BT.A",
+      "name": "BT Group",
+      "price": 203.1,
+      "d1": -0.3923491907797996
+     },
+     {
+      "ticker": "SGRO",
+      "name": "Segro",
+      "price": 912.8,
+      "d1": -0.1531393568147113
+     }
+    ],
+    "coverage": 100
+   },
+   "shariahListAvailable": true
+  },
+  "stories": [
+   {
+    "category": "markets",
+    "headline": "Butcher blames costs for closure after 127 years",
+    "summary": "Bennett Butchers in Spalding says rises in National Insurance and energy have made it \"unviable\".",
+    "sources": [
+     {
+      "source": "BBC Business",
+      "title": "Butcher blames costs for closure after 127 years",
+      "link": "https://www.bbc.co.uk/news/articles/cqe9k3m9mvexo?at_medium=RSS&at_campaign=rss"
+     }
+    ]
+   },
+   {
+    "category": "markets",
+    "headline": "Vienna Christmas markets: A 48 hour city guide",
+    "summary": "",
+    "sources": [
+     {
+      "source": "Stylist",
+      "title": "Vienna Christmas markets: A 48 hour city guide",
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOckNOazcxTjh6TWp3V01ZRDJxUXN1aHlnOWVYUXR3aURfZ0kyTW5kWnZVM3lpcUNpTFBTSjJDVnJkZ2huX2RUSEVKdzVCdVVmaXdDVWpsVE1UZjBCOF8wXzJ4dGJ3ZW1pNDBZcEwwTmNzTjVxVUxyeUtVVE54WHBpTnB0MUxCd3EtbWc?oc=5"
+     }
+    ]
+   },
+   {
+    "category": "markets",
+    "headline": "Africa’s richest man is taking his mega-refinery public in a blockbuster IPO",
+    "summary": "Dangote Refinery’s IPO could value the company at about $47 billion, in what is expected to be Africa’s biggest stock market listing.",
+    "sources": [
+     {
+      "source": "CNBC",
+      "title": "Africa’s richest man is taking his mega-refinery public in a blockbuster IPO",
+      "link": "https://www.cnbc.com/2026/11/28/dangote-refinery-oil-ipo-nigeria-africa-energy.html"
+     }
+    ]
+   }
+  ],
+  "calendar": []
+ },
+ "world": {
+  "us": [
+   {
+    "category": "notable",
+    "headline": "Saudi Arabia shifts Vision 2030 spending amid economic and security pressure",
+    "summary": "The Kingdom is moving from \"spending and delivery at any cost\" to \"spending and delivery at the right cost,\" Economic Minister Faisal Alibrahim told CNBC.",
+    "sources": [
+     {
+      "source": "CNBC Economy",
+      "title": "Saudi Arabia shifts Vision 2030 spending amid economic and security pressure",
+      "link": "https://www.cnbc.com/2026/11/28/saudi-arabia-vision-2030-spending.html"
+     }
+    ]
+   },
+   {
+    "category": "notable",
+    "headline": "Hundreds of thousands still without power a day after US slammed with Thanksgiving storms",
+    "summary": "Pennsylvania and neighbouring states remained badly affected on Friday after both coasts were lashed with wind and rain.",
+    "sources": [
+     {
+      "source": "BBC",
+      "title": "Hundreds of thousands still without power a day after US slammed with Thanksgiving storms",
+      "link": "https://www.bbc.co.uk/news/articles/cre3dj5n7dpwo?at_medium=RSS&at_campaign=rss"
+     }
+    ]
+   },
+   {
+    "category": "notable",
+    "headline": "Two American Airlines planes clip wings before takeoff at Reagan airport in 'tense' moment",
+    "summary": "No injuries were reported, and the FAA plans to investigate the incident, which occurred during taxiing.",
+    "sources": [
+     {
+      "source": "BBC",
+      "title": "Two American Airlines planes clip wings before takeoff at Reagan airport in 'tense' moment",
+      "link": "https://www.bbc.co.uk/news/articles/cqkgr4g5nrnlo?at_medium=RSS&at_campaign=rss"
+     }
+    ]
+   }
+  ],
+  "uk": [
+   {
+    "category": "notable",
+    "headline": "Children urged to get flu vaccine after 'horrible spike' in cases",
+    "summary": "More than 6,000 pharmacies across England are offering thousands of children flu vaccines for the first time.",
+    "sources": [
+     {
+      "source": "Sky News",
+      "title": "Children urged to get flu vaccine after 'horrible spike' in cases",
+      "link": "https://news.sky.com/story/pharmacies-offering-children-flu-vaccine-for-first-time-after-surge-in-hospital-admissions-13617395"
+     }
+    ]
+   },
+   {
+    "category": "notable",
+    "headline": "Kate in tears over her children's voice messages in cancer documentary",
+    "summary": "The Princess of Wales can be seen brushing away tears as she listens to voice messages from her children during her Three Peaks Challenge in a new documentary about her cancer battle.",
+    "sources": [
+     {
+      "source": "Sky News",
+      "title": "Kate in tears over her children's voice messages in cancer documentary",
+      "link": "https://news.sky.com/story/kate-in-tears-over-her-childrens-voice-messages-in-cancer-documentary-13617149"
+     }
+    ]
+   },
+   {
+    "category": "notable",
+    "headline": "Police officers discovered Chloe Mitchell's remains in bins, court hears",
+    "summary": "The jury was previously told Brandon Rainey accepted he had killed Chloe but would rely on the partial defence of diminished responsibility.",
+    "sources": [
+     {
+      "source": "BBC",
+      "title": "Police officers discovered Chloe Mitchell's remains in bins, court hears",
+      "link": "https://www.bbc.co.uk/news/articles/cqevr2ly00g9o?at_medium=RSS&at_campaign=rss"
+     }
+    ]
+   }
+  ],
+  "europe": [
+   {
+    "category": "notable",
+    "headline": "Live: Ukraine downs Russian drone with laser technology as Moscow intercepts overnight assault",
+    "summary": "Russia shot down 1,200 drones targeting Moscow overnight, Russian authorities said Saturday. Both Russia and Ukraine have stepped up their attacks using projectiles in recent months, with Ukraine confirming on Friday it ",
+    "sources": [
+     {
+      "source": "France24",
+      "title": "Live: Ukraine downs Russian drone with laser technology as Moscow intercepts overnight assault",
+      "link": "https://www.france24.com/en/europe/20261128-live-ukraine-downs-russian-drone-with-laser-technology-as-moscow-intercepts-overnight-assault"
+     }
+    ]
+   },
+   {
+    "category": "notable",
+    "headline": "Ping pongonomics: Can table-tennis bring strangers together to talk about the art of play?",
+    "summary": "A new exhibition at London's Saatchi Gallery is inviting visitors to put down their phones and talk with strangers over ping pong. Created by British-French artist Charlotte Colbert, 'Conversations with Strangers' featur",
+    "sources": [
+     {
+      "source": "Euronews",
+      "title": "Ping pongonomics: Can table-tennis bring strangers together to talk about the art of play?",
+      "link": "https://www.euronews.com/2026/11/28/ping-pongonomics-can-table-tennis-bring-strangers-together-to-talk-about-the-art-of-play"
+     }
+    ]
+   },
+   {
+    "category": "notable",
+    "headline": "How sifting through sewage could help scientists spot the next pandemic",
+    "summary": "Swiss scientists already use wastewater testing to detect flu, COVID-19 and RSV. Next, they want to use it to flag unknown threats.",
+    "sources": [
+     {
+      "source": "Euronews",
+      "title": "How sifting through sewage could help scientists spot the next pandemic",
+      "link": "https://www.euronews.com/2026/11/28/how-sifting-through-sewage-could-help-scientists-spot-the-next-pandemic"
+     }
+    ]
+   }
+  ],
+  "middle_east": [
+   {
+    "category": "notable",
+    "headline": "UN special rapporteur Francesca Albanese denied entry to Costa Rica",
+    "summary": "",
+    "sources": [
+     {
+      "source": "The National",
+      "title": "UN special rapporteur Francesca Albanese denied entry to Costa Rica",
+      "link": "https://www.thenationalnews.com/news/mena/2026/11/28/un-special-rapporteur-francesca-albanese-denied-entry-to-costa-rica/"
+     }
+    ]
+   },
+   {
+    "category": "notable",
+    "headline": "F1 Qatar GP LIVE: Friday Practice updates, results, stream, highlights from Formula 1 race weekend at Lusail International Circuit",
+    "summary": "",
+    "sources": [
+     {
+      "source": "Sky Sports",
+      "title": "F1 Qatar GP LIVE: Friday Practice updates, results, stream, highlights from Formula 1 race weekend at Lusail International Circuit",
+      "link": "https://news.google.com/rss/articles/CBMihAJBVV95cUxNb01sUVdMSGNxdkh3dVFxTG1BOFBrTmdYZTRxVExlY1JMZE9nckNOSVRFWVZQdm5hSVZhVHo3Q1ByVDNLMWdZUmU0c1VfeW1EbURuUUhvT3RadGU1NTZwZS1XRVh0aVVRREFieUFOZU95UFI4UGNERGt2WVMtR2FDYnNRSXVnSUh6U1cwRjFaVElKVE1ta0hDMzQ0Ym5QOFZQZVdGM3hzQUgweXhBemg2S2cwSlBQcWRVRDBzdHQzczZtbmJtOE91dFJFQkE2c2JWMVQzNl83Y2xkTW81NTNXbnJGV1VSOVRNMW05TkVYYlN1akdQNUlIOGxTOHpxbEwwQ3BqRA?oc=5"
+     }
+    ]
+   },
+   {
+    "category": "notable",
+    "headline": "Uganda starts mRNA Ebola vaccine trial in first for Africa",
+    "summary": "The trial targets the less common Bundibugyo strain behind the Ebola outbreak in neighbouring DRC.",
+    "sources": [
+     {
+      "source": "Al Jazeera",
+      "title": "Uganda starts mRNA Ebola vaccine trial in first for Africa",
+      "link": "https://www.aljazeera.com/news/2026/11/28/uganda-starts-mrna-ebola-vaccine-trial-in-first-for-africa?traffic_source=rss"
+     }
+    ]
+   }
+  ]
+ },
+ "energyTech": {
+  "energy": [
+   {
+    "category": "energy",
+    "headline": "Japan expected to push for debate on nuclear subs in security document revisions",
+    "summary": "",
+    "sources": [
+     {
+      "source": "The Japan Times",
+      "title": "Japan expected to push for debate on nuclear subs in security document revisions",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNSjk5bGw5RlNSQ3JacXozQnhRZzRZbWMteXJ6cldFZ3B0QnpRYlM4N2lySUcta05IQnVPZlgwREl0aTlEdmx2T0x6dHVObEt5eHJZR3JPOVFlcGJBVFAtUzdhVkxjTTlRNDVVUkhsMFRIMGhwM0lVTGwzS3Nud1Bybll5bkxUSndHOHU5NWZlQVFUcUcwQUc3aldvWQ?oc=5"
+     }
+    ]
+   },
+   {
+    "category": "energy",
+    "headline": "2026 ELECTIONS President Lai casts his vote in local elections, nuclear power referendum",
+    "summary": "",
+    "sources": [
+     {
+      "source": "Focus Taiwan",
+      "title": "2026 ELECTIONS President Lai casts his vote in local elections, nuclear power referendum",
+      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBmaDdOLWlkSGJQc1VQclI5S0dNdGl0QWRnVHVQWV9LVjJJLVZzeC1OUU9RYWRiZVpfcTU1YjdtTWRzb0djVGw0WmZibkNvN0FrQlNkcG54aw?oc=5"
+     }
+    ]
+   },
+   {
+    "category": "energy",
+    "headline": "Offshore Wind Construction Disputes Denmark: Cost Guide",
+    "summary": "",
+    "sources": [
+     {
+      "source": "Global Advisory Experts",
+      "title": "Offshore Wind Construction Disputes Denmark: Cost Guide",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNZEVINzh1dnl4clZPSFVuTURndVdxWWtMRHZIRVNoRkNCWTFKODlkVUttcjMybEpqNXJQX1dvUHRfQWtabFhmdmtVb0d4YmItZzNHamNSV1JtLTN4Q1NtR1pQcTZNMElmRUhhU0F5OXpnUU05RzFENG9SNzlkOGJWcTF5SVVvUnQzZjFQd093Skl1ZzN3T3FJRktMc2txQQ?oc=5"
+     }
+    ]
+   }
+  ],
+  "ai": [
+   {
+    "category": "ai",
+    "headline": "Grand Theft Anthropic: how GTA can inspire a fightback against AI",
+    "summary": "",
+    "sources": [
+     {
+      "source": "The Guardian",
+      "title": "Grand Theft Anthropic: how GTA can inspire a fightback against AI",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNRXpqUk5GVF9OdDBLMHdCMjNEeGpCRmItZEtDUzV2c21SeEluQURfUTFtaF9SUm1sNFlGM1NOeTU3ODJIcFBjdUVwXy1RY3YtRFdoOWdvYnVIMmNGdUlFaFc4dkxad3YxRWhOenhFVVdZMzMwemJrU2daQzhXeW5wcWI2UFRxa0tzT2dtMjcyT09LWklmNllvZEpRb2xEZzA0SlE?oc=5"
+     }
+    ]
+   },
+   {
+    "category": "ai",
+    "headline": "OpenAI files countersuit against Apple in dispute over alleged trade secret theft",
+    "summary": "",
+    "sources": [
+     {
+      "source": "Anadolu Ajansı",
+      "title": "OpenAI files countersuit against Apple in dispute over alleged trade secret theft",
+      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNdFVDU1Z5QUdjQzlCaGlwdnEyWTZQc214X1BwSkxPN2FnbnQ5MDlYb3NxY3d2ZS1oVXR0aFNBUm9vVHFnQXlscG9HTEJvT1B5SWJWQnozUkNwd2ZIMFhuQmxEckRsX3M1cEVuZXo2VG1oUGJZYmdZb2Fkd1hYUlBMaEZKVzdWTjM4R25XREIxNjVxN1haUlBKUFg1M0RuTmJWSWNHZWxsQ1h6Q3BiZWs1M3dVSEJhMzZrc09MbWN3cUw4Yk9WaUJIOWNQNDMzdw?oc=5"
+     }
+    ]
+   },
+   {
+    "category": "ai",
+    "headline": "OpenAI countersues Apple, accusing it of stealing device secrets and pressuring shared suppliers",
+    "summary": "",
+    "sources": [
+     {
+      "source": "Dealroom",
+      "title": "OpenAI countersues Apple, accusing it of stealing device secrets and pressuring shared suppliers",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNMHlkUTF0eE1lQ1p4dXhZWnF3dGtuazE1ekFzMWRPb2N5a3p3dXpDMG00ZmktNTVIaXgxODNjLWpzbVBDcVctdU8xT1d0SnhUVllfTWNiTERWZDlpbTZvTy12cGZ6bVR3WjVzR2l0M2R6SHd5d3JETEo0SHprdVpYMjUzUDVyRDBqNjFnemlwWFM3S2VfblpuZUdxTlVHRmp3RzZod01FMHQxdGRxSTdHc0huX3gyRDZhNWVYWC1IcE55TEI4SncwQw?oc=5"
+     }
+    ]
+   }
+  ],
+  "tech": [
+   {
+    "category": "tech",
+    "headline": "Pensions and benefits services still down after 'cyber incident'",
+    "summary": "Experts say the Department for Work and Pensions may have been hit by hackers but the government has not confirmed that.",
+    "sources": [
+     {
+      "source": "BBC Tech",
+      "title": "Pensions and benefits services still down after 'cyber incident'",
+      "link": "https://www.bbc.co.uk/news/articles/cm1wrgqyq4d8o?at_medium=RSS&at_campaign=rss"
+     }
+    ]
+   },
+   {
+    "category": "tech",
+    "headline": "The M5 MacBook Air just got its biggest discount since Apple raised the price",
+    "summary": "The M5-powered MacBook Air is $300 off in both size configurations for Black Friday. | Photo: Antonio G. Di Benedetto / The Verge If you’ve been holding off on buying a new MacBook Air since Apple raised prices by $200 i",
+    "sources": [
+     {
+      "source": "The Verge",
+      "title": "The M5 MacBook Air just got its biggest discount since Apple raised the price",
+      "link": "https://www.theverge.com/gadgets/1044771/m5-macbook-air-black-friday-2026-deal-sale"
+     }
+    ]
+   },
+   {
+    "category": "tech",
+    "headline": "The absolute best Black Friday deals you can still get",
+    "summary": "Black Friday is nearly over, but many of this year’s best deals are still available. You can still find some of the lowest prices we’ve seen in-store and online for video games, wireless earbuds, TVs, robot vacuums, and ",
+    "sources": [
+     {
+      "source": "The Verge",
+      "title": "The absolute best Black Friday deals you can still get",
+      "link": "https://www.theverge.com/gadgets/1039190/best-black-friday-2026-deals-tech-gadgets-gift-ideas"
+     }
+    ]
+   }
+  ]
+ },
+ "stats": {
+  "headlines": 326,
+  "feeds": 45,
+  "feedsFailed": 7
+ }
+}
