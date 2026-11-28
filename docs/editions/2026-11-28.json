@@ -1,13 +1,13 @@
 {
  "date": "2026-11-28",
  "dateLabel": "Saturday, 28 November 2026",
- "generatedAt": "2026-11-28T07:34:57.681Z",
- "mode": "fallback",
- "model": null,
- "error": "400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011ChUwVgR4e7patGbesjLQ8\"}",
- "headlineOfDay": "",
+ "generatedAt": "2026-11-28T07:37:29.710Z",
+ "mode": "ai",
+ "model": "claude-opus-5-5 (via Claude Code)",
+ "error": null,
+ "headlineOfDay": "A 'serious cyber incident' knocks DWP benefits and pension services offline, amid a wave of outages hitting western institutions.",
  "markets": {
-  "summary": "",
+  "summary": "US stocks rallied on Friday, with the Nasdaq up 2.3% and the S&P 500 up 1.6% as tech shares swung higher again after Jensen Huang's return to Nvidia. Even so, Nvidia ended November down nearly 28% and the S&P 500 remains in correction territory after the month's sell-off.",
   "indices": [
    {
     "symbol": "^GSPC",
@@ -110,7 +110,8 @@
      23733.5391,
      23585.8008,
      24129.5
-    ]
+    ],
+    "note": "Tech shares led another swing higher"
    },
    {
     "symbol": "^DJI",
@@ -330,7 +331,8 @@
      91.4,
      94.61,
      95.44
-    ]
+    ],
+    "note": "Houthi attacks and tighter physical supply revive talk of $100 oil"
    },
    {
     "symbol": "CL=F",
@@ -547,6 +549,13 @@
    "sp500": {
     "gainers": [
      {
+      "ticker": "SNDK",
+      "name": "Sandisk",
+      "price": 85.36,
+      "d1": 15.962505094416521,
+      "shariah": true
+     },
+     {
       "ticker": "COHR",
       "name": "Coherent Corp.",
       "price": 223.79,
@@ -572,13 +581,6 @@
       "name": "Micron Technology",
       "price": 646.95,
       "d1": 7.600831600831609,
-      "shariah": true
-     },
-     {
-      "ticker": "GNRC",
-      "name": "Generac",
-      "price": 219.17,
-      "d1": 7.441541252022146,
       "shariah": true
      }
     ],
@@ -619,7 +621,7 @@
       "shariah": true
      }
     ],
-    "coverage": 502
+    "coverage": 503
    },
    "ftse100": {
     "gainers": [
@@ -693,32 +695,37 @@
   "stories": [
    {
     "category": "markets",
-    "headline": "Butcher blames costs for closure after 127 years",
-    "summary": "Bennett Butchers in Spalding says rises in National Insurance and energy have made it \"unviable\".",
+    "headline": "Chinese chip stocks post record one-day gains",
+    "summary": "Chinese chip stocks notched their biggest ever one-day gains after a rare midday statement from the State Council stressed market support and pledged liquidity. The intervention signals Beijing's willingness to step in as the AI-driven sell-off rattles Asian tech.",
     "sources": [
      {
-      "source": "BBC Business",
-      "title": "Butcher blames costs for closure after 127 years",
-      "link": "https://www.bbc.co.uk/news/articles/cqe9k3m9mvexo?at_medium=RSS&at_campaign=rss"
+      "source": "CNBC",
+      "title": "Chinese chip stocks notch biggest ever one-day gains as Beijing signals broader market support",
+      "link": "https://www.cnbc.com/2026/11/27/china-chip-stocks-beijing-market-support.html"
+     },
+     {
+      "source": "Bloomberg.com",
+      "title": "China’s Cabinet Stresses Market Support in Rare Midday Statement",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQak5CQ2hzYk9WT0pEN2JpTjdqdU81V2pWSkxEVmdVcy11NDhqX0RfRngwU3ZXczl6dXFkZXg3aEpPakM2ZTY4QXNJVlpiVEJ2MUs0bUF0MzVJUXd3dWtvWFJna2U2aVhYbTNmM3o1UmZBaGxZRzVCS0JwS1FMYVlUSmltWE1GTkkwdmhxMG5xYi1sNDBDLURIVExoODFYVVhHZkdaa1VyUnFTLTNw?oc=5"
      }
     ]
    },
    {
-    "category": "markets",
-    "headline": "Vienna Christmas markets: A 48 hour city guide",
-    "summary": "",
+    "category": "economy",
+    "headline": "S&P cuts France's outlook to negative",
+    "summary": "S&P Global lowered its outlook on France's credit rating to negative, citing political instability. The agency says the turmoil will make it harder for Paris to bring down its public deficit.",
     "sources": [
      {
-      "source": "Stylist",
-      "title": "Vienna Christmas markets: A 48 hour city guide",
-      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOckNOazcxTjh6TWp3V01ZRDJxUXN1aHlnOWVYUXR3aURfZ0kyTW5kWnZVM3lpcUNpTFBTSjJDVnJkZ2huX2RUSEVKdzVCdVVmaXdDVWpsVE1UZjBCOF8wXzJ4dGJ3ZW1pNDBZcEwwTmNzTjVxVUxyeUtVVE54WHBpTnB0MUxCd3EtbWc?oc=5"
+      "source": "FT",
+      "title": "S&P cuts France outlook to negative",
+      "link": "https://www.ft.com/content/4e16110a-9604-4455-8557-4edece5df01a?syn-25a6b1a6=1"
      }
     ]
    },
    {
-    "category": "markets",
-    "headline": "Africa’s richest man is taking his mega-refinery public in a blockbuster IPO",
-    "summary": "Dangote Refinery’s IPO could value the company at about $47 billion, in what is expected to be Africa’s biggest stock market listing.",
+    "category": "companies",
+    "headline": "Dangote refinery heads for Africa's biggest IPO",
+    "summary": "Aliko Dangote plans to take his mega-refinery public in a listing that could value it at about $47 billion. It is expected to be the largest stock market listing in Africa's history.",
     "sources": [
      {
       "source": "CNBC",
@@ -728,157 +735,217 @@
     ]
    }
   ],
-  "calendar": []
+  "calendar": [
+   {
+    "when": "Today",
+    "event": "Taiwan local elections, including a referendum on reviving nuclear power"
+   }
+  ]
  },
  "world": {
   "us": [
    {
-    "category": "notable",
-    "headline": "Saudi Arabia shifts Vision 2030 spending amid economic and security pressure",
-    "summary": "The Kingdom is moving from \"spending and delivery at any cost\" to \"spending and delivery at the right cost,\" Economic Minister Faisal Alibrahim told CNBC.",
+    "category": "political",
+    "headline": "Asylum all but ended; advocates turn to the Supreme Court",
+    "summary": "Trump's asylum ban, mass firings and new legal manoeuvres have effectively ended asylum in the US, and advocates are looking to the Supreme Court to restore it. The high court's response will decide whether the policy shift becomes permanent.",
     "sources": [
+     {
+      "source": "NPR",
+      "title": "Trump effectively ended asylum. Advocates look to the Supreme Court to restore it",
+      "link": "https://www.npr.org/2026/11/27/nx-s1-6037854/trump-effectively-ended-asylum-supreme-court"
+     }
+    ]
+   },
+   {
+    "category": "financial",
+    "headline": "Black Friday spending set for a record despite inflation",
+    "summary": "Retailers expect record Black Friday spending as value-hunting shoppers turn out despite higher prices. Food, travel and gift costs are all up this year as inflation and the Iran-war energy shock squeeze household budgets.",
+    "sources": [
+     {
+      "source": "NPR",
+      "title": "Thanksgiving storm batters East Coast. And, Black Friday sales to hit record levels",
+      "link": "https://www.npr.org/2026/11/27/g-s1-156004/up-first-newsletter-thanksgiving-storm-black-friday-shopping-asylum-supreme-court"
+     },
+     {
+      "source": "CNBC",
+      "title": "Inflation has shoppers hunting for value. That bodes well for Black Friday",
+      "link": "https://www.cnbc.com/2026/11/27/black-friday-2026-inflation-value-deals.html"
+     },
      {
       "source": "CNBC Economy",
-      "title": "Saudi Arabia shifts Vision 2030 spending amid economic and security pressure",
-      "link": "https://www.cnbc.com/2026/11/28/saudi-arabia-vision-2030-spending.html"
+      "title": "Even the price of toys is on the rise. How Americans are scaling back holiday plans",
+      "link": "https://www.cnbc.com/2026/11/25/holiday-inflation-thanksgiving-travel-food-gifts.html"
      }
     ]
    },
    {
     "category": "notable",
-    "headline": "Hundreds of thousands still without power a day after US slammed with Thanksgiving storms",
-    "summary": "Pennsylvania and neighbouring states remained badly affected on Friday after both coasts were lashed with wind and rain.",
+    "headline": "Canada's top court largely upholds Quebec religious-symbols ban",
+    "summary": "Canada's Supreme Court largely upheld Quebec's Bill 21, which bans public servants from wearing religious symbols. Muslim, Sikh and Catholic teachers had challenged the law as a breach of their fundamental rights.",
     "sources": [
      {
       "source": "BBC",
-      "title": "Hundreds of thousands still without power a day after US slammed with Thanksgiving storms",
-      "link": "https://www.bbc.co.uk/news/articles/cre3dj5n7dpwo?at_medium=RSS&at_campaign=rss"
-     }
-    ]
-   },
-   {
-    "category": "notable",
-    "headline": "Two American Airlines planes clip wings before takeoff at Reagan airport in 'tense' moment",
-    "summary": "No injuries were reported, and the FAA plans to investigate the incident, which occurred during taxiing.",
-    "sources": [
+      "title": "Canada's top court largely upholds Quebec ban on religious symbols for public servants",
+      "link": "https://www.bbc.co.uk/news/articles/cq3dgpy9lem3o?at_medium=RSS&at_campaign=rss"
+     },
      {
-      "source": "BBC",
-      "title": "Two American Airlines planes clip wings before takeoff at Reagan airport in 'tense' moment",
-      "link": "https://www.bbc.co.uk/news/articles/cqkgr4g5nrnlo?at_medium=RSS&at_campaign=rss"
+      "source": "DW",
+      "title": "Canada: Supreme Court largely upholds Quebec secularism bill",
+      "link": "https://www.dw.com/en/canada-supreme-court-largely-upholds-quebec-secularism-bill/a-80082571?maca=en-rss-en-all-1573-rdf"
      }
     ]
    }
   ],
   "uk": [
    {
-    "category": "notable",
-    "headline": "Children urged to get flu vaccine after 'horrible spike' in cases",
-    "summary": "More than 6,000 pharmacies across England are offering thousands of children flu vaccines for the first time.",
-    "sources": [
-     {
-      "source": "Sky News",
-      "title": "Children urged to get flu vaccine after 'horrible spike' in cases",
-      "link": "https://news.sky.com/story/pharmacies-offering-children-flu-vaccine-for-first-time-after-surge-in-hospital-admissions-13617395"
-     }
-    ]
-   },
-   {
-    "category": "notable",
-    "headline": "Kate in tears over her children's voice messages in cancer documentary",
-    "summary": "The Princess of Wales can be seen brushing away tears as she listens to voice messages from her children during her Three Peaks Challenge in a new documentary about her cancer battle.",
-    "sources": [
-     {
-      "source": "Sky News",
-      "title": "Kate in tears over her children's voice messages in cancer documentary",
-      "link": "https://news.sky.com/story/kate-in-tears-over-her-childrens-voice-messages-in-cancer-documentary-13617149"
-     }
-    ]
-   },
-   {
-    "category": "notable",
-    "headline": "Police officers discovered Chloe Mitchell's remains in bins, court hears",
-    "summary": "The jury was previously told Brandon Rainey accepted he had killed Chloe but would rely on the partial defence of diminished responsibility.",
+    "category": "political",
+    "headline": "Badenoch makes Tory candidates pledge to scrap net zero",
+    "summary": "Kemi Badenoch says Conservative candidates must sign a 'candidates covenant' that includes scrapping net-zero targets. She argues it will rebuild trust in the party, but some former MPs have criticised the move.",
     "sources": [
      {
       "source": "BBC",
-      "title": "Police officers discovered Chloe Mitchell's remains in bins, court hears",
-      "link": "https://www.bbc.co.uk/news/articles/cqevr2ly00g9o?at_medium=RSS&at_campaign=rss"
+      "title": "Tory candidates must sign pledge to scrap net-zero targets, says Badenoch",
+      "link": "https://www.bbc.co.uk/news/articles/cmwy95295835o?at_medium=RSS&at_campaign=rss"
+     }
+    ]
+   },
+   {
+    "category": "financial",
+    "headline": "Centrica warns of Rough job losses after storage snub",
+    "summary": "Centrica says hundreds of jobs at its Rough gas storage site off the Yorkshire coast are at risk after the government rejected a support deal. Centrica has criticised the decision.",
+    "sources": [
+     {
+      "source": "Sky News",
+      "title": "Centrica warns on jobs after government snubs Rough gas storage deal",
+      "link": "https://news.sky.com/story/centrica-warns-on-jobs-after-government-snubs-rough-gas-storage-deal-13617109"
+     }
+    ]
+   },
+   {
+    "category": "notable",
+    "headline": "Cyber incident takes DWP benefits and pensions services offline",
+    "summary": "Millions have lost access to online benefits and pension services after the Department for Work and Pensions took systems offline following what the work and pensions secretary called a 'serious cyber incident'. Services were still down on Saturday morning, and the outage is one of several hitting western institutions, including the US Treasury and Fifa.",
+    "sources": [
+     {
+      "source": "BBC",
+      "title": "Millions lose access to benefits and pensions services after 'cyber incident'",
+      "link": "https://www.bbc.co.uk/news/articles/c8wy5p6pv2e2o?at_medium=RSS&at_campaign=rss"
+     },
+     {
+      "source": "BBC Tech",
+      "title": "Pensions and benefits services still down after 'cyber incident'",
+      "link": "https://www.bbc.co.uk/news/articles/cm1wrgqyq4d8o?at_medium=RSS&at_campaign=rss"
+     },
+     {
+      "source": "FT",
+      "title": "Wave of cyber incidents rattles western economies",
+      "link": "https://www.ft.com/content/6ab1172b-4f27-49f5-ad53-b384df82da77?syn-25a6b1a6=1"
      }
     ]
    }
   ],
   "europe": [
    {
-    "category": "notable",
-    "headline": "Live: Ukraine downs Russian drone with laser technology as Moscow intercepts overnight assault",
-    "summary": "Russia shot down 1,200 drones targeting Moscow overnight, Russian authorities said Saturday. Both Russia and Ukraine have stepped up their attacks using projectiles in recent months, with Ukraine confirming on Friday it ",
+    "category": "political",
+    "headline": "Ukraine offers a Black Sea ceasefire",
+    "summary": "Kyiv has submitted an offer for a ceasefire in the Black Sea to allow food exports and shared the details with allies, and is awaiting Moscow's response. Air attacks are nonetheless intensifying, with Russia saying it downed 1,200 drones aimed at Moscow overnight.",
     "sources": [
      {
       "source": "France24",
-      "title": "Live: Ukraine downs Russian drone with laser technology as Moscow intercepts overnight assault",
-      "link": "https://www.france24.com/en/europe/20261128-live-ukraine-downs-russian-drone-with-laser-technology-as-moscow-intercepts-overnight-assault"
+      "title": "Ukraine submits Black Sea ceasefire offer, awaits Russian response",
+      "link": "https://www.france24.com/en/europe/20261127-ukraine-submits-black-sea-ceasefire-offer-awaits-russian-response"
+     }
+    ]
+   },
+   {
+    "category": "financial",
+    "headline": "Norse Atlantic files for bankruptcy",
+    "summary": "Low-cost carrier Norse Atlantic has filed for bankruptcy after failing to secure funding as jet fuel costs soared. EasyJet's boss has warned that more airlines could follow.",
+    "sources": [
+     {
+      "source": "DW",
+      "title": "Airline Norse Atlantic files for bankruptcy, succumbing to aviation fuel costs",
+      "link": "https://www.dw.com/en/airline-norse-atlantic-files-for-bankruptcy-succumbing-to-aviation-fuel-costs/a-80076728?maca=en-rss-en-all-1573-rdf"
+     },
+     {
+      "source": "CNBC",
+      "title": "Budget airline Norse Atlantic files for bankruptcy in Europe after failing to secure funding",
+      "link": "https://www.cnbc.com/2026/11/27/norse-atlantic-bankruptcy-fuel-costs.html"
+     },
+     {
+      "source": "OilPrice",
+      "title": "Soaring Fuel Prices Threaten to Push More Airlines Into Bankruptcy",
+      "link": "https://oilprice.com/Energy/Energy-General/Soaring-Fuel-Prices-Threaten-to-Push-More-Airlines-Into-Bankruptcy.html"
      }
     ]
    },
    {
     "category": "notable",
-    "headline": "Ping pongonomics: Can table-tennis bring strangers together to talk about the art of play?",
-    "summary": "A new exhibition at London's Saatchi Gallery is inviting visitors to put down their phones and talk with strangers over ping pong. Created by British-French artist Charlotte Colbert, 'Conversations with Strangers' featur",
+    "headline": "Kushner's Putin remarks spark outrage in Europe",
+    "summary": "Comments by Jared Kushner on Vladimir Putin drew anger across Europe, with a Kyiv lawmaker calling for him to be replaced as peace envoy. Zelensky separately told the BBC the US is not pushing Russia hard enough and called the Trump-Putin friendship 'strange'.",
     "sources": [
      {
-      "source": "Euronews",
-      "title": "Ping pongonomics: Can table-tennis bring strangers together to talk about the art of play?",
-      "link": "https://www.euronews.com/2026/11/28/ping-pongonomics-can-table-tennis-bring-strangers-together-to-talk-about-the-art-of-play"
-     }
-    ]
-   },
-   {
-    "category": "notable",
-    "headline": "How sifting through sewage could help scientists spot the next pandemic",
-    "summary": "Swiss scientists already use wastewater testing to detect flu, COVID-19 and RSV. Next, they want to use it to flag unknown threats.",
-    "sources": [
+      "source": "Politico Europe",
+      "title": "‘An advocate for Russia’: Kushner’s Putin comments spark outrage in Europe",
+      "link": "https://www.politico.eu/article/an-advocate-for-russia-jared-kushner-vladimir-putin-comments-spark-outrage-europe/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication"
+     },
      {
-      "source": "Euronews",
-      "title": "How sifting through sewage could help scientists spot the next pandemic",
-      "link": "https://www.euronews.com/2026/11/28/how-sifting-through-sewage-could-help-scientists-spot-the-next-pandemic"
+      "source": "BBC",
+      "title": "Zelensky criticises 'strange' Trump-Putin friendship in BBC interview",
+      "link": "https://www.bbc.co.uk/news/articles/c820q9wgrpyyo?at_medium=RSS&at_campaign=rss"
      }
     ]
    }
   ],
   "middle_east": [
    {
-    "category": "notable",
-    "headline": "UN special rapporteur Francesca Albanese denied entry to Costa Rica",
-    "summary": "",
+    "category": "political",
+    "headline": "Kuwait summons Iran's envoy as US enforces blockade",
+    "summary": "Kuwait summoned Iran's ambassador over what it called continued Iranian attacks, while the US disabled a ship in the Gulf of Oman trying to leave Iran. Tehran has vowed to confront the blockade of its ports.",
     "sources": [
      {
-      "source": "The National",
-      "title": "UN special rapporteur Francesca Albanese denied entry to Costa Rica",
-      "link": "https://www.thenationalnews.com/news/mena/2026/11/28/un-special-rapporteur-francesca-albanese-denied-entry-to-costa-rica/"
+      "source": "Arab News",
+      "title": "Kuwait summons Iran ambassador over ‘continued Iranian attacks’",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQVUhhYmJiWVUzci1ZTXhmaU9EVUhEelV6R2ozU1BKSWk3SFFUZzAxMlI3LVBZamNETjhETjBHQnF0N3cyVFprMVhIUVUwaTNDS2RvQzN0SzZjNEtNemVHbjdhcUdHLWhuNGpQQTRsR3BuNFN3UDF1YU9fNG5nTTFDVnZSZFQ0OGhXRkpIUldlYi1UVUVERmVnOGlSMWZMVjIwMld1ZDVoSEJDQQ?oc=5"
+     },
+     {
+      "source": "DW",
+      "title": "US disables ship in Gulf of Oman under Iran blockade",
+      "link": "https://www.dw.com/en/us-disables-ship-in-gulf-of-oman-under-iran-blockade/a-80082950?maca=en-rss-en-all-1573-rdf"
+     }
+    ]
+   },
+   {
+    "category": "financial",
+    "headline": "Saudi Arabia reins in Vision 2030 spending",
+    "summary": "Riyadh is shifting Vision 2030 from 'spending and delivery at any cost' to 'at the right cost', according to the economy minister, under economic and security pressure. The recalibration comes as Houthi attacks test the kingdom's image of security.",
+    "sources": [
+     {
+      "source": "CNBC Economy",
+      "title": "Saudi Arabia shifts Vision 2030 spending amid economic and security pressure",
+      "link": "https://www.cnbc.com/2026/11/28/saudi-arabia-vision-2030-spending.html"
+     },
+     {
+      "source": "BBC",
+      "title": "Inside Saudi Arabia, Houthi attacks test kingdom's image of security",
+      "link": "https://www.bbc.co.uk/news/articles/c6ly7jgv7jzdo?at_medium=RSS&at_campaign=rss"
      }
     ]
    },
    {
     "category": "notable",
-    "headline": "F1 Qatar GP LIVE: Friday Practice updates, results, stream, highlights from Formula 1 race weekend at Lusail International Circuit",
-    "summary": "",
-    "sources": [
-     {
-      "source": "Sky Sports",
-      "title": "F1 Qatar GP LIVE: Friday Practice updates, results, stream, highlights from Formula 1 race weekend at Lusail International Circuit",
-      "link": "https://news.google.com/rss/articles/CBMihAJBVV95cUxNb01sUVdMSGNxdkh3dVFxTG1BOFBrTmdYZTRxVExlY1JMZE9nckNOSVRFWVZQdm5hSVZhVHo3Q1ByVDNLMWdZUmU0c1VfeW1EbURuUUhvT3RadGU1NTZwZS1XRVh0aVVRREFieUFOZU95UFI4UGNERGt2WVMtR2FDYnNRSXVnSUh6U1cwRjFaVElKVE1ta0hDMzQ0Ym5QOFZQZVdGM3hzQUgweXhBemg2S2cwSlBQcWRVRDBzdHQzczZtbmJtOE91dFJFQkE2c2JWMVQzNl83Y2xkTW81NTNXbnJGV1VSOVRNMW05TkVYYlN1akdQNUlIOGxTOHpxbEwwQ3BqRA?oc=5"
-     }
-    ]
-   },
-   {
-    "category": "notable",
-    "headline": "Uganda starts mRNA Ebola vaccine trial in first for Africa",
-    "summary": "The trial targets the less common Bundibugyo strain behind the Ebola outbreak in neighbouring DRC.",
+    "headline": "Israeli strike kills two MSF staff at Gaza clinic",
+    "summary": "An Israeli strike on a Doctors Without Borders clinic in Gaza killed two of its staff. MSF says the premises were clearly marked and their location known to the Israeli military.",
     "sources": [
      {
       "source": "Al Jazeera",
-      "title": "Uganda starts mRNA Ebola vaccine trial in first for Africa",
-      "link": "https://www.aljazeera.com/news/2026/11/28/uganda-starts-mrna-ebola-vaccine-trial-in-first-for-africa?traffic_source=rss"
+      "title": "Israeli ‘direct hit ‘on Doctors Without Borders Gaza clinic kills 2 staff",
+      "link": "https://www.aljazeera.com/news/2026/11/28/israeli-strike-on-doctors-without-borders-clinic-in-gaza-kills-two-staff?traffic_source=rss"
+     },
+     {
+      "source": "Arab News",
+      "title": "Israeli strike kills two Doctors Without Borders staff in Gaza",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOUjZlSTNPcE1TSWtCSndSM2VFNkQyNk5xR2JJT2JoMV9QWnY4bW9KNF9SVjVCRXM3NTNXQWhEQzJyTmF5bXdaNEo3aEVWODdZZEFQMHVkdHBUVlh3R0V6emNNaWJtT3l2U3hTbW1DV1ZZVTUtaUpnc2ppQjZPSms5OEp1Nl9wd0ItMlYxNHVXeHd5S1VPYnFBeTF1em1NMEpwVlVJ?oc=5"
      }
     ]
    }
@@ -888,37 +955,57 @@
   "energy": [
    {
     "category": "energy",
-    "headline": "Japan expected to push for debate on nuclear subs in security document revisions",
-    "summary": "",
+    "headline": "NESO issues a fourth grid warning in a week",
+    "summary": "The National Energy System Operator has issued its fourth electricity supply warning in a week as the grid comes under unprecedented strain. Network cabling is failing to keep up with wind generation, and households with smart meters can be paid to cut use during warnings.",
     "sources": [
      {
-      "source": "The Japan Times",
-      "title": "Japan expected to push for debate on nuclear subs in security document revisions",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNSjk5bGw5RlNSQ3JacXozQnhRZzRZbWMteXJ6cldFZ3B0QnpRYlM4N2lySUcta05IQnVPZlgwREl0aTlEdmx2T0x6dHVObEt5eHJZR3JPOVFlcGJBVFAtUzdhVkxjTTlRNDVVUkhsMFRIMGhwM0lVTGwzS3Nud1Bybll5bkxUSndHOHU5NWZlQVFUcUcwQUc3aldvWQ?oc=5"
+      "source": "The Times",
+      "title": "Neso issues energy supply warning for fourth day in a row",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPTF9LVG1VUzBzRFVFQ2hIVzJ3TXZoX1ZiUlFCYlItemdlX2lDUzZlYU00emI3eUY0MWRlVWFNVmllVm5vU0tUUHlYQzNoVTNlTVhIREVZQnhVaVhvZjJ3bnJkaXJqUTB2SXFPSWhfVXZxRXZPZUVheU9kWUc1WEMtUXhfWGY0UFVWbjhHd1VhQjA1OTRxX0cyamU0WTAxdnhKeGNz?oc=5"
+     },
+     {
+      "source": "The Independent",
+      "title": "UK energy supply under strain as electricity grid issues record warnings",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNX29rU05SLVRySEU5RlpGRXlkOW1XcHZvYzVyZ3ExenYyUlk3d1dXZms5R1FTRXZkNjJHUHhObFJxb2hEdl8ybXdtN2xQWHBsdndYcWxPOWFVTnV4SGhYanN0Q1BoUFBjdWNmWEJXcW9XdkoxWFE4aTh0blVMRGJ2eUliNkl4LWI3WGVmVVZvS09xQVhIczJrY0RGOE1NQVAy?oc=5"
+     },
+     {
+      "source": "The Telegraph",
+      "title": "Grid under unprecedented pressure as fourth supply warning issued in a week",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOX290UW9zSkVyQjZmenRLT1A3Ym4xekh3LWxmcmZrSTE2TXdBSnBtdFlHQ3gwRWpfaHJtSmloWDJZNW02N1lXejlNRll4eEQ4WEJHVmQwdjhoUjFXa3o5eVN2N2VONDRBc0FPQnplQkk5Q0x6Q2F3aTlzbkFmR1RJbDNqTnRTMWNpYXZyVnRQSWFleDNGakxTb1AxZGJON0dkQTVSZDhwWEI2cTA?oc=5"
+     },
+     {
+      "source": "Aberdeen & Grampian Chamber of Commerce",
+      "title": "Market Watch: Neso issues third warning notice as cabling can't keep up with wind power",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNOUtWbWt4dWNRc3oxUmVMM3pvQU5wbG9XZ2JCRG9oZU0zRmJOLWVzMmJnRm9udHY0WWNMZlVlMzZRZE9iUEJDQmlnZ05kNVZJdFVreDRHNmczSjBCZl83TXN4cUlWd3BxOGZsU2h4anJfOW1FSWdvbUt3VVEyUUIyd2xCZEI2enh6QWNfZVRBOHlPWU1uUTVFOVIyTjgtZjBHSDV1MDU1SllXaExkczlRMDRCeE5DWTFFeGp2NUZB?oc=5"
+     },
+     {
+      "source": "Nacionale",
+      "title": "Can I get paid to use less electricity during the grid warnings? Yes, if you have a smart meter and sign up",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOYzZpa1ltTTNtYldjeWRwSUtqRWNlU195SzRNU1dPVWtfbzFwWVg5TjBwOWVFNkQ4NWhoWWRUNnN6TUUxTjV2aFdTSFU1Q0lBQlNjWFRhaTdJVV9seWNURjdibl9Zd05UZTBNSkhCTnh0VmRKRXBDamxrNF9oSzhYSkFDRmRPU0RTak1PcEt6VVloZzlLOU94S3NzU1FwVmMyQmNJc3FOMm4wTElWekVWa3RsNktQYXFUd1hKRmxSczZKQQ?oc=5"
      }
     ]
    },
    {
     "category": "energy",
-    "headline": "2026 ELECTIONS President Lai casts his vote in local elections, nuclear power referendum",
-    "summary": "",
+    "headline": "Octopus boss calls for networks' RAV model to go",
+    "summary": "Octopus Energy's chief executive has called for the regulatory asset value (RAV) model used to fund UK networks to be scrapped. RAV underpins how network companies earn returns on investment, so any change would shape the grid build-out.",
     "sources": [
      {
-      "source": "Focus Taiwan",
-      "title": "2026 ELECTIONS President Lai casts his vote in local elections, nuclear power referendum",
-      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBmaDdOLWlkSGJQc1VQclI5S0dNdGl0QWRnVHVQWV9LVjJJLVZzeC1OUU9RYWRiZVpfcTU1YjdtTWRzb0djVGw0WmZibkNvN0FrQlNkcG54aw?oc=5"
+      "source": "Utility Week",
+      "title": "Octopus CEO says ‘let’s get rid of RAV’ to networks",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNWTB5QnFDTGVtQmZiNkcydkZnMVJ0T3JIS0lmbG9EZGcyNklGcDR6WnRsSllqUGhCRjVXWkZCQUdZSUVRVVBNcmhxbGFONDFhcV8zNmZBSWNUUGttZlhocElpXzU3cmdZaGNmSWp5dmNjUk5FRmpqYnMyd1VNT21oQ9IBjAFBVV95cUxPUDR2OUJCMWc3el9oZmFZX2UtR3F6bjNFT19oR3ZveEZUWDdhSkM1aWxycW1IU0dVYUpXbWkyck9CMWZZUnBmcDZhMWJpQTczLWh4THFJdjJzMENKZ192bFpmSzAwUlBJblNUNWoyR0dCVHVKOHF5eFZkSmtCbnBfZHU5M05FMUxpdDloRQ?oc=5"
      }
     ]
    },
    {
     "category": "energy",
-    "headline": "Offshore Wind Construction Disputes Denmark: Cost Guide",
-    "summary": "",
+    "headline": "Brent rebounds to $96 as the expected glut fails to show",
+    "summary": "Brent climbed back to $96 a barrel as Houthi attacks and tightening physical supply raised the prospect of $100 oil despite forecasts of oversupply. Analysts also expect stockpiling to support prices next year.",
     "sources": [
      {
-      "source": "Global Advisory Experts",
-      "title": "Offshore Wind Construction Disputes Denmark: Cost Guide",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNZEVINzh1dnl4clZPSFVuTURndVdxWWtMRHZIRVNoRkNCWTFKODlkVUttcjMybEpqNXJQX1dvUHRfQWtabFhmdmtVb0d4YmItZzNHamNSV1JtLTN4Q1NtR1pQcTZNMElmRUhhU0F5OXpnUU05RzFENG9SNzlkOGJWcTF5SVVvUnQzZjFQd093Skl1ZzN3T3FJRktMc2txQQ?oc=5"
+      "source": "OilPrice",
+      "title": "The Oil Glut Everyone Expected Is Looking Increasingly Elusive",
+      "link": "https://oilprice.com/Energy/Crude-Oil/The-Oil-Glut-Everyone-Expected-Is-Looking-Increasingly-Elusive.html"
      }
     ]
    }
@@ -926,37 +1013,87 @@
   "ai": [
    {
     "category": "ai",
-    "headline": "Grand Theft Anthropic: how GTA can inspire a fightback against AI",
-    "summary": "",
+    "headline": "OpenAI countersues Apple over trade secrets",
+    "summary": "OpenAI has countersued Apple, accusing it of stealing device trade secrets and pressuring shared suppliers to shun OpenAI's hardware. The case deepens a legal fight between two of the biggest names in consumer tech and AI.",
     "sources": [
      {
-      "source": "The Guardian",
-      "title": "Grand Theft Anthropic: how GTA can inspire a fightback against AI",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNRXpqUk5GVF9OdDBLMHdCMjNEeGpCRmItZEtDUzV2c21SeEluQURfUTFtaF9SUm1sNFlGM1NOeTU3ODJIcFBjdUVwXy1RY3YtRFdoOWdvYnVIMmNGdUlFaFc4dkxad3YxRWhOenhFVVdZMzMwemJrU2daQzhXeW5wcWI2UFRxa0tzT2dtMjcyT09LWklmNllvZEpRb2xEZzA0SlE?oc=5"
-     }
-    ]
-   },
-   {
-    "category": "ai",
-    "headline": "OpenAI files countersuit against Apple in dispute over alleged trade secret theft",
-    "summary": "",
-    "sources": [
+      "source": "Arab News",
+      "title": "OpenAI countersues Apple in row over trade secrets, suppliers",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNVUZNbmdzN3N1ekdsc1h0N0pVMUFnUVBLU29EMnREeEtHYUk1emNzbGxwSmhLMGluc3I1U1ZtZUo5YkNJWEE3ZUtOX0dHanNyUjdDb01oN29PMVBBd2dvOGRtLS05aGF5ZnZtZmJSZC1rZkdMenNZU214ZExyR2tod0FUOUJ1a2Z5Y1k5dDJYRW5DZzRIazJzSmlxa1lQVjJ5?oc=5"
+     },
+     {
+      "source": "Financial Times",
+      "title": "OpenAI countersues Apple for stealing trade secrets",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNaFNnMVlYZkZkOXB1Sk41M093UXdVMnBDZFZQMFFKQXhWeFVYZnlDYjVfNlJ1NFBvYnA4YWp2YjdTeWxEcGlad2RRb3pCd0JLVU5HNVZxRmlYTlVBNXVzSlk5TURYYXpBZERNMmUzTUZLVFF4ZDhyY3E2emE3MWtMZEZIY3A?oc=5"
+     },
+     {
+      "source": "Al Jazeera",
+      "title": "OpenAI countersues Apple over trade secrets as AI race heats up",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxON1UyNzVUM1VWYllDUVB5Rl9LVDYwZExiMWt2WFp4eWVUckVjdDhqbFFfSXR1b2NiRm9LbFZQZ2xlZTNkRmtaSkZnb2M4ekJwVkVxbE1jdmNlazc2QUMxallwb1JpTWRvVk9ZOW12SVM5MTZ4RS1CQkNGcW5qZlMySWJZTjBkNXBtZXByR0NuVWdJZWVXWW8zcWRsTUF1ZUJXMlNVNWxEM2l0VThn0gGyAUFVX3lxTE16T05QbEdEbTdCUklBU3kyX05YX2RxaTZrVl9yWTEtWDF4dThXOFAyODNDTjFHTy1LRmJkZEJpd1E0eTBOaWxkS0NXV1BIWFo0V1ZTU01JMzd5bVpkMHFWTEhSNEVBT3E1cXd1NVJFbEJtSXFURGpxMzlKOWtNTXg1amFKZDhEOWttUlhkU1Y2UmVnSUgwRWZqWmJmTzdRaVBNM01pczFxTnh0RzYxRk02MFE?oc=5"
+     },
+     {
+      "source": "Google News (AI)",
+      "title": "OpenAI countersues Apple for stealing trade secrets - Euronext Markets: Real-time Stock Market Data | live",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQRThQNjN3bXN2b1JERV8xa01BaUUwNmpNRFdNd01QdjNiWlNtdzNwRzM2NjJvZVBfSnFObURudEZqQUdzMmdIV2c1RlZzWnRpWnFUb2tMeHVUSzJ6Q0RIckdDRktXSG44TXhWV3gxRmJ6ZGlxUm5rOTlpcjFZekJNX3AzV3JIbU5mTnhCakZOY3ZsU0VqelE?oc=5"
+     },
      {
       "source": "Anadolu Ajansı",
       "title": "OpenAI files countersuit against Apple in dispute over alleged trade secret theft",
       "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNdFVDU1Z5QUdjQzlCaGlwdnEyWTZQc214X1BwSkxPN2FnbnQ5MDlYb3NxY3d2ZS1oVXR0aFNBUm9vVHFnQXlscG9HTEJvT1B5SWJWQnozUkNwd2ZIMFhuQmxEckRsX3M1cEVuZXo2VG1oUGJZYmdZb2Fkd1hYUlBMaEZKVzdWTjM4R25XREIxNjVxN1haUlBKUFg1M0RuTmJWSWNHZWxsQ1h6Q3BiZWs1M3dVSEJhMzZrc09MbWN3cUw4Yk9WaUJIOWNQNDMzdw?oc=5"
+     },
+     {
+      "source": "Dealroom",
+      "title": "OpenAI countersues Apple, accusing it of stealing device secrets and pressuring shared suppliers",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNMHlkUTF0eE1lQ1p4dXhZWnF3dGtuazE1ekFzMWRPb2N5a3p3dXpDMG00ZmktNTVIaXgxODNjLWpzbVBDcVctdU8xT1d0SnhUVllfTWNiTERWZDlpbTZvTy12cGZ6bVR3WjVzR2l0M2R6SHd5d3JETEo0SHprdVpYMjUzUDVyRDBqNjFnemlwWFM3S2VfblpuZUdxTlVHRmp3RzZod01FMHQxdGRxSTdHc0huX3gyRDZhNWVYWC1IcE55TEI4SncwQw?oc=5"
+     },
+     {
+      "source": "The Times",
+      "title": "OpenAI countersuit accuses Apple of stealing trade secrets",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNdkFxUUZOYm1oekRBNjNiMkM1UjAwYzdvNmJHMHprUndRTVBJMnpPZUh4QzExU3JFTWxnZXZoWkdxRjk2Q2FhYkpKa1BKSDNHMURIeTVWdU1tcGVlMmdyMXB0SnpXcWtRVWZuYjlKaGZFR2JVRTBNRVFfeEdHMFpGd0lka1BBelpVSDBDc25B?oc=5"
+     },
+     {
+      "source": "Bloomberg.com",
+      "title": "OpenAI Says Apple Pressured Suppliers to Shun Its Devices",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPV0xaWXJoMk5iSnR5QTZlS2ZUeWNxZlVmQU9NZEs4TnpYVWRGYWdoeW1yWVdlNlUxRDZ2QmZtbVJncGxJUW5HcjBrbzFISUJKYkxGVzJmN2NvWW9QeWtmNkVOTHBpNkZBYXRwdjBOUjRyeDBHMWplZmQ4YUx0cjNMcE9naVV4bzZuSlVBZTB4WHg0RUlsZkRxLVdobWpUUFlUbmNVYkxMX3ZPQlQw?oc=5"
      }
     ]
    },
    {
     "category": "ai",
-    "headline": "OpenAI countersues Apple, accusing it of stealing device secrets and pressuring shared suppliers",
-    "summary": "",
+    "headline": "Anthropic shares climb back above IPO price",
+    "summary": "Anthropic shares rose 11% to $91.88 on Friday, reclaiming their $83 IPO price after a rocky first week of trading. Investors are now watching a share unlock due on 15 December.",
     "sources": [
      {
-      "source": "Dealroom",
-      "title": "OpenAI countersues Apple, accusing it of stealing device secrets and pressuring shared suppliers",
-      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNMHlkUTF0eE1lQ1p4dXhZWnF3dGtuazE1ekFzMWRPb2N5a3p3dXpDMG00ZmktNTVIaXgxODNjLWpzbVBDcVctdU8xT1d0SnhUVllfTWNiTERWZDlpbTZvTy12cGZ6bVR3WjVzR2l0M2R6SHd5d3JETEo0SHprdVpYMjUzUDVyRDBqNjFnemlwWFM3S2VfblpuZUdxTlVHRmp3RzZod01FMHQxdGRxSTdHc0huX3gyRDZhNWVYWC1IcE55TEI4SncwQw?oc=5"
+      "source": "BigGo Finance",
+      "title": "Anthropic Shares Climb 11% to $91.88, Reclaiming $83 IPO Price After Rocky First Week",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFAwRWFqUkE3UG5PV3B6Y0pCUy1SYkFDZUVUUjQ0QmtVMDVpUUY5MVlmSHI1WVpwSEhTd0FiZ3hIXzRYbzNZd25VYW5vanFiZlg2aWk1UFNxaTN3OWs5cS1Xd3Q0ZVdPNjdhR1FQazR0TUZyemxZZ3c?oc=5"
+     },
+     {
+      "source": "Yahoo Finance",
+      "title": "Here's Why Anthropic Stock Rallied on Friday -- and Why Wall Street Analysts Say It's Still a Buy Right Now",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOX0tBaVVMMEhVcW8xV0hHZkMtTHdtcmd6QXBGTnhnd1NobXRYa0hwcThnR3hjTGFoWHZRaDhYeVIzc0RacTN2WExzVHQ5MWFidmtRbkNwQkNCMDYwcnZsTE9ka01uMG1XMVA3NTRZcUIwT2hiWkczRVJnNG50NDlPOGo0VllVUGpCM0ZxQzNZZS15Q0VIOEVFbWhQeTF6cW8?oc=5"
+     },
+     {
+      "source": "London School of Business and Research (LSBR)",
+      "title": "Here's Why Anthropic Stock Rallied on Friday -- and Why W...",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNMDJWOThUVHJBcUdONlA5VHBGYzZjQWZ4WXI2dGg1eGhpWE5tVDZ0S0ROTHY4TEpiY1pFUzdVWk9KamFkeG9Mak1mZVVZcVNFdWhZbFoxdDJlZ2RIdV96X0xFOEVrZU04dXpYTFR2Q0NFOUJWVzF4OWJ5U2k5VE9VS2dZWUJOd2UwM3NseFpsRWxXZlFFWU9ibGFMQVFzTWd5clVUNWJxaVJMQmNFX1E2d2FoOHRBQV9LMHZfWFA3QzdFZnFxdjdEOQ?oc=5"
+     },
+     {
+      "source": "The Motley Fool",
+      "title": "Is Anthropic Stock a Buy Before Its Dec. 15 Share Unlock?",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNbEh4UGZwaXpkaFpYRWN0amxqd1ljX3Atd2VkZEx2c3dkWjNUMUlfa19hdlEwYTc0MG44dkItdnFzNHZuUmtnRHlyOFpwNXVkWDlfUzV3cUljU0diT0I3Qm1NWEtBT0lVaFNpS2VfNC1VVWV1OVUzQ2VpV3Z6VXo1SHZFNjZyb0dhMGtWOXhkVUdEX1dPT19aenV1TmQ2QjQ?oc=5"
+     }
+    ]
+   },
+   {
+    "category": "ai",
+    "headline": "Meta's UK terms for Muse AI agent raise its liability",
+    "summary": "Meta's UK rollout of its Muse AI agent comes with terms of service that give consumers far more protection than in the US. That exposes the company to greater legal liability for what the agent does.",
+    "sources": [
+     {
+      "source": "Politico Europe",
+      "title": "Meta’s UK rollout for Muse AI agent exposes it to more liability",
+      "link": "https://www.politico.eu/article/metas-uk-rollout-for-muse-ai-agent-exposes-it-to-more-liability/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication"
      }
     ]
    }
@@ -964,45 +1101,33 @@
   "tech": [
    {
     "category": "tech",
-    "headline": "Pensions and benefits services still down after 'cyber incident'",
-    "summary": "Experts say the Department for Work and Pensions may have been hit by hackers but the government has not confirmed that.",
+    "headline": "Intel was pressed to hand Trump a 10% stake",
+    "summary": "Intel faced pressure to surrender a 10% stake to unlock billions in promised government grants. It highlights the strings the administration has attached to chip subsidies.",
+    "sources": [
+     {
+      "source": "Ars Technica",
+      "title": "Intel faced a choice: Give Trump 10% or face the consequences",
+      "link": "https://arstechnica.com/tech-policy/2026/11/intel-faced-a-choice-give-trump-10-or-face-the-consequences/"
+     }
+    ]
+   },
+   {
+    "category": "tech",
+    "headline": "Gamers use AI and leaks to clone GTA 6",
+    "summary": "Impatient fans are using AI tools and leaked files to build clones of Grand Theft Auto 6 while an official PC version may still be months away. It is a test of how publishers protect flagship games in the AI era.",
     "sources": [
      {
       "source": "BBC Tech",
-      "title": "Pensions and benefits services still down after 'cyber incident'",
-      "link": "https://www.bbc.co.uk/news/articles/cm1wrgqyq4d8o?at_medium=RSS&at_campaign=rss"
-     }
-    ]
-   },
-   {
-    "category": "tech",
-    "headline": "The M5 MacBook Air just got its biggest discount since Apple raised the price",
-    "summary": "The M5-powered MacBook Air is $300 off in both size configurations for Black Friday. | Photo: Antonio G. Di Benedetto / The Verge If you’ve been holding off on buying a new MacBook Air since Apple raised prices by $200 i",
-    "sources": [
-     {
-      "source": "The Verge",
-      "title": "The M5 MacBook Air just got its biggest discount since Apple raised the price",
-      "link": "https://www.theverge.com/gadgets/1044771/m5-macbook-air-black-friday-2026-deal-sale"
-     }
-    ]
-   },
-   {
-    "category": "tech",
-    "headline": "The absolute best Black Friday deals you can still get",
-    "summary": "Black Friday is nearly over, but many of this year’s best deals are still available. You can still find some of the lowest prices we’ve seen in-store and online for video games, wireless earbuds, TVs, robot vacuums, and ",
-    "sources": [
-     {
-      "source": "The Verge",
-      "title": "The absolute best Black Friday deals you can still get",
-      "link": "https://www.theverge.com/gadgets/1039190/best-black-friday-2026-deals-tech-gadgets-gift-ideas"
+      "title": "How gamers are using AI and leaked files to clone Grand Theft Auto 6",
+      "link": "https://www.bbc.co.uk/news/articles/c64gn8pe5eeqo?at_medium=RSS&at_campaign=rss"
      }
     ]
    }
   ]
  },
  "stats": {
-  "headlines": 326,
+  "headlines": 310,
   "feeds": 45,
-  "feedsFailed": 7
+  "feedsFailed": 8
  }
 }
